@@ -93,7 +93,6 @@ jQuery(document).ready(function () {
 
       oReader.onload = function(e) {
 
-        var ort = this.exifdata.Orientation;
 
         // e.target.result contains the DataURL which we can use as a source of the image
         oImage.src = e.target.result;
@@ -115,22 +114,11 @@ jQuery(document).ready(function () {
                 ctx.rotate(rad);
                 ctx.drawImage(oImage, cx, cy);
 
-                ort = 1;
 
                 oImage.src = canvas.toDataURL("image/png");
             };
 
-            switch(ort){
-               case 6:
-                   rotateImg(90 * Math.PI / 180, true, 0, oImage.naturalHeight * -1);
-                   break;
-               case 3:
-                   rotateImg(180 * Math.PI / 180, false, oImage.naturalWidth * -1, oImage.naturalHeight * -1);
-                   break;
-               case 8:
-                   rotateImg(-90 * Math.PI / 180, true, oImage.naturalWidth * -1, 0);
-                   break;
-            }
+            
 
 
             // display step 2
