@@ -97,9 +97,9 @@
 			    do_action( 'login_form' );
 			    ?>
 			    <!-- <p class="note_small">Что бы получить доступ </p> -->
-			    <p class="forgetmenot"><label class="form-check-label" for="rememberme"><input class="form-check-input"> name="rememberme" type="checkbox" id="rememberme" value="forever" <?php checked( $rememberme ); ?> /> <?php esc_attr_e('Remember Me'); ?></label></p>
+			    <p class="forgetmenot"><label class="form-check-label" for="rememberme"><input class="form-check-input" name="rememberme" type="checkbox" id="rememberme" value="forever" <?php checked( $rememberme ); ?> /> <?php esc_attr_e('Remember Me'); ?></label></p>
 			    <p class="submit">
-			      <input type="submit" name="wp-submit" id="wp-submit" class="button button-primary button-large" value="<?php esc_attr_e('Log In'); ?>" />
+			      <input type="submit" name="wp-submit" id="wp-submit" class="btn btn-primary" value="<?php esc_attr_e('Log In'); ?>" />
 			<?php if ( $interim_login ) { ?>
 			      <input type="hidden" name="interim-login" value="1" />
 			<?php } else { ?>
