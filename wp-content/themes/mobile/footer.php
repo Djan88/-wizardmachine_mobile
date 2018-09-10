@@ -2,11 +2,6 @@
           </div>
           <div id="menu" class="row hidden">
             <ul class="main_menu">
-              <?php if(is_user_logged_in()) { ?>
-              <li class="user_avatar">
-                <?php echo get_avatar( $user_ID, 65 ); ?>
-              </li>
-              <?php } ?>
               <li>
                 <a href="#" class=" row align-items-center">
                   <span class="menu_item_img"><i class="fas fa-home"></i></span>Главная
@@ -22,11 +17,13 @@
                   <span class="menu_item_img"><i class="fas fa-fingerprint"></i></span>Ручная диагностика
                 </a>
               </li>
+              <?php if(is_user_logged_in()) { ?>
               <li>
                 <a href="#" class=" row align-items-center">
-                  <span class="menu_item_img"><i class="fas fa-user"></i></span>Личный кабинет
+                  <span class="menu_item_img"><?php echo get_avatar( $user_ID, 35 ); ?></span>Личный кабинет
                 </a>
               </li>
+              <?php } ?>
               <?php if(is_user_logged_in() && current_user_can('administrator')) { ?>
               <li>
                 <a href="/wp-admin" class=" row align-items-center">
