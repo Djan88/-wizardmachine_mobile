@@ -71,7 +71,7 @@ div#recallbar, div#wpadminbar
 }
 .protocols_info
 {
-  background: #E4F1FA;
+  background: #fff;
   border: 1px solid #fff;
   padding-top: 80px;
   color: #133668;
@@ -119,6 +119,7 @@ div#recallbar, div#wpadminbar
   width: 250px;
   padding: 80px 0 0 0;
   list-style: none;
+  margin-bottom: 0;
 }
 .main_menu li
 {
