@@ -75,7 +75,7 @@
 	  </div>
 	<?php } else { ?>
 		<div class="row">
-			<div class="col protocols_info text_center">
+			<div class="col protocols_info text_center form-group">
 				<div class="current_protocol_img">
 					<i class="fas fa-lock"></i>
 				</div>
@@ -86,7 +86,7 @@
 			    </p>
 			    <p>
 			      <label for="user_pass"><?php _e('Password') ?><br />
-			      <input type="password" name="pwd" id="user_pass" class="input" value="" size="20" /></label>
+			      <input type="password" name="pwd" id="user_pass" class="input form-control" value="" size="20" /></label>
 			    </p>
 			    <?php
 			    /**
@@ -97,7 +97,7 @@
 			    do_action( 'login_form' );
 			    ?>
 			    <!-- <p class="note_small">Что бы получить доступ </p> -->
-			    <p class="forgetmenot"><label for="rememberme"><input name="rememberme" type="checkbox" id="rememberme" value="forever" <?php checked( $rememberme ); ?> /> <?php esc_attr_e('Remember Me'); ?></label></p>
+			    <p class="forgetmenot"><label class="form-check-label" for="rememberme"><input class="form-check-input"> name="rememberme" type="checkbox" id="rememberme" value="forever" <?php checked( $rememberme ); ?> /> <?php esc_attr_e('Remember Me'); ?></label></p>
 			    <p class="submit">
 			      <input type="submit" name="wp-submit" id="wp-submit" class="button button-primary button-large" value="<?php esc_attr_e('Log In'); ?>" />
 			<?php if ( $interim_login ) { ?>
