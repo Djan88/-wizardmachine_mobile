@@ -173,4 +173,5 @@ jQuery(document).ready(function () {
   // read selected file as DataURL
   oReader.readAsDataURL(oFile);
   }
+  jQuery('#image_file').on('change', fileSelectHandler);
 });
