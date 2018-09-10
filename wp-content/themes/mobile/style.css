@@ -9,7 +9,7 @@ html
 {
   margin-top: 0!important;
 }
-div#recallbar 
+div#recallbar, div#wpadminbar
 {
   display: none;
 }
