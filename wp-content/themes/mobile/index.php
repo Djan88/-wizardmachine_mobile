@@ -76,6 +76,9 @@
 	<?php } else { ?>
 		<div class="row">
 			<div class="col protocols_info text_center">
+				<div class="current_protocol_img">
+					<i class="fas fa-lock"></i>
+				</div>
 			  <form name="loginform" id="loginform" action="<?php echo esc_url( site_url( 'wp-login.php', 'login_post' ) ); ?>" method="post">
 			    <p>
 			      <label for="user_login"><?php _e('Username') ?><br />

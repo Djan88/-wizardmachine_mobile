@@ -67,7 +67,7 @@ div#recallbar, div#wpadminbar
 }
 .content
 {
-  /*padding-top: 80px;*/
+  padding-bottom: 20px;
 }
 .protocols_info
 {
