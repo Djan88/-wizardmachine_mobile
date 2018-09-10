@@ -93,94 +93,87 @@ jQuery(document).ready(function () {
 
       oReader.onload = function(e) {
 
-          EXIF.getData(oFile, function(){
+        var ort = this.exifdata.Orientation;
 
-              var ort = this.exifdata.Orientation;
+        // e.target.result contains the DataURL which we can use as a source of the image
+        oImage.src = e.target.result;
+        oImage.onload = function () {
 
-              // e.target.result contains the DataURL which we can use as a source of the image
-              oImage.src = e.target.result;
-              oImage.onload = function () {
-
-                  var rotateImg = function(rad, rotateCanvas, cx, cy){
-                      var canvas = document.createElement('canvas'),
+            var rotateImg = function(rad, rotateCanvas, cx, cy){
+                var canvas = document.createElement('canvas'),
 //                        var canvas = document.getElementById('preview-canvas'),
-                          ctx = canvas.getContext('2d');
+                    ctx = canvas.getContext('2d');
 
-                      if(rotateCanvas){
-                          canvas.setAttribute('width', oImage.naturalHeight);
-                          canvas.setAttribute('height', oImage.naturalWidth);
-                      }else{
-                          canvas.setAttribute('width', oImage.naturalWidth);
-                          canvas.setAttribute('height', oImage.naturalHeight);
-                      }
+                if(rotateCanvas){
+                    canvas.setAttribute('width', oImage.naturalHeight);
+                    canvas.setAttribute('height', oImage.naturalWidth);
+                }else{
+                    canvas.setAttribute('width', oImage.naturalWidth);
+                    canvas.setAttribute('height', oImage.naturalHeight);
+                }
 
-                      ctx.rotate(rad);
-                      ctx.drawImage(oImage, cx, cy);
+                ctx.rotate(rad);
+                ctx.drawImage(oImage, cx, cy);
 
-                      ort = 1;
+                ort = 1;
 
-                      oImage.src = canvas.toDataURL("image/png");
-                  };
+                oImage.src = canvas.toDataURL("image/png");
+            };
 
-                  switch(ort){
-                     case 6:
-                         rotateImg(90 * Math.PI / 180, true, 0, oImage.naturalHeight * -1);
-                         break;
-                     case 3:
-                         rotateImg(180 * Math.PI / 180, false, oImage.naturalWidth * -1, oImage.naturalHeight * -1);
-                         break;
-                     case 8:
-                         rotateImg(-90 * Math.PI / 180, true, oImage.naturalWidth * -1, 0);
-                         break;
-                  }
-
-
-                  // display step 2
-                  jQuery('.step2').fadeIn(500);
-                  jQuery('.btn__crop').removeClass('hidden');
-                  // display some basic image info
-                  var sResultFileSize = bytesToSize(oFile.size);
-                  jQuery('#filesize').val(sResultFileSize);
-                  jQuery('#filetype').val(oFile.type);
-                  jQuery('#filedim').val(oImage.naturalWidth + ' x ' + oImage.naturalHeight);
-
-                  // destroy Jcrop if it is existed
-                  if (typeof jcrop_api != 'undefined') {
-                      jcrop_api.destroy();
-                      jcrop_api = null;
-                      jQuery('#preview').width(oImage.naturalWidth);
-                      jQuery('#preview').height(oImage.naturalHeight);
-                  }
-
-                  setTimeout(function(){
-                      // initialize Jcrop
-                      console.log(jQuery('.step2').width());
-                      jQuery('#preview').Jcrop({
-                          minSize: [32, 32],// keep aspect ratio 1:1
-                          bgFade: true, // use fade effect
-                          bgOpacity: .3, // fade opacity
-                          boxWidth: jQuery('.step2').width(),
-                          onChange: updateInfo,
-                          onSelect: updateInfo,
-                          onRelease: clearInfo
-                      }, function(){
-
-                          // use the Jcrop API to get the real image size
-                          var bounds = this.getBounds();
-                          boundx = bounds[0];
-                          boundy = bounds[1];
-
-                          // Store the Jcrop API in the jcrop_api variable
-                          jcrop_api = this;
-                      });
-                  },3000);
-
-              };
+            switch(ort){
+               case 6:
+                   rotateImg(90 * Math.PI / 180, true, 0, oImage.naturalHeight * -1);
+                   break;
+               case 3:
+                   rotateImg(180 * Math.PI / 180, false, oImage.naturalWidth * -1, oImage.naturalHeight * -1);
+                   break;
+               case 8:
+                   rotateImg(-90 * Math.PI / 180, true, oImage.naturalWidth * -1, 0);
+                   break;
+            }
 
 
+            // display step 2
+            jQuery('.step2').fadeIn(500);
+            jQuery('.btn__crop').removeClass('hidden');
+            // display some basic image info
+            var sResultFileSize = bytesToSize(oFile.size);
+            jQuery('#filesize').val(sResultFileSize);
+            jQuery('#filetype').val(oFile.type);
+            jQuery('#filedim').val(oImage.naturalWidth + ' x ' + oImage.naturalHeight);
 
+            // destroy Jcrop if it is existed
+            if (typeof jcrop_api != 'undefined') {
+                jcrop_api.destroy();
+                jcrop_api = null;
+                jQuery('#preview').width(oImage.naturalWidth);
+                jQuery('#preview').height(oImage.naturalHeight);
+            }
 
-          });
+            setTimeout(function(){
+                // initialize Jcrop
+                console.log(jQuery('.step2').width());
+                jQuery('#preview').Jcrop({
+                    minSize: [32, 32],// keep aspect ratio 1:1
+                    bgFade: true, // use fade effect
+                    bgOpacity: .3, // fade opacity
+                    boxWidth: jQuery('.step2').width(),
+                    onChange: updateInfo,
+                    onSelect: updateInfo,
+                    onRelease: clearInfo
+                }, function(){
+
+                    // use the Jcrop API to get the real image size
+                    var bounds = this.getBounds();
+                    boundx = bounds[0];
+                    boundy = bounds[1];
+
+                    // Store the Jcrop API in the jcrop_api variable
+                    jcrop_api = this;
+                });
+            },3000);
+
+        };
 
       };
 
