@@ -29,11 +29,13 @@
                 </a>
               </li>
               <?php } ?>
+              <?php if(is_user_logged_in()) { ?>
               <li>
-                <a href="#" class=" row align-items-center">
+                <a href="<?php echo home_url(); ?>/wp-login.php?action=logout&amp;_wpnonce=a6cad512ba" class=" row align-items-center">
                   <span class="menu_item_img"><i class="fas fa-sign-out-alt"></i></span>Выход
                 </a>
               </li>
+              <?php } ?>
             </ul>
             <div class="credits">
               <div class="credits_heading">Юрий Чикуров</div>
