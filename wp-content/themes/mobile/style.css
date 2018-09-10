@@ -130,7 +130,7 @@ div#recallbar, div#wpadminbar
   font-size: 12px;
   text-transform: uppercase;
   padding-left: 35px;
-  color: #fff;
+  color: #FDCD6D;
   background: #252739;
   margin: 1px 0;
   transition: all 1s;
@@ -138,8 +138,8 @@ div#recallbar, div#wpadminbar
 .main_menu li a:hover
 {
   text-decoration: none;
-  color: #24366F;
-  background: #DEEDF9;
+  color: #FDCD6D;
+  background: #4d4d5d;
 }
 span.menu_item_img 
 {

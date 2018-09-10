@@ -1,5 +1,4 @@
 <?php
-
 /* редирект с login на /wp-login.php  и с admin на /wp-admin */
 add_action('template_redirect', 'kama_login_redirect');
 function kama_login_redirect(){
@@ -37,5 +36,4 @@ setcookie(TEST_COOKIE, 'WP Cookie check', 0, SITECOOKIEPATH, COOKIE_DOMAIN); И�
 if (!current_user_can('administrator')):
   show_admin_bar(false);
 endif;
-
 ?>
