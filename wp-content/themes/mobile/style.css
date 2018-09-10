@@ -5,6 +5,14 @@ Author: Ivan Avraamov
 Author URI: http://www/chikurov.com
 Version: 1.0
 */
+html
+{
+  margin-top: 0!important;
+}
+div#recallbar 
+{
+  display: none;
+}
 .wrapper
 {
   background: #EDEDED;
