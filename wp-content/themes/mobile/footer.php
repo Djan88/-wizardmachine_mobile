@@ -8,19 +8,19 @@
                 </a>
               </li>
               <li>
-                <a href="#" class=" row align-items-center">
+                <a href="#" class="row align-items-center">
                   <span class="menu_item_img"><i class="far fa-check-square"></i></span>Выбор протокола
                 </a>
               </li>
               <li>
-                <a href="#" class=" row align-items-center">
+                <a href="#" class="row align-items-center">
                   <span class="menu_item_img"><i class="fas fa-fingerprint"></i></span>Ручная диагностика
                 </a>
               </li>
               <?php if(is_user_logged_in()) { ?>
               <li>
-                <a href="#" class=" row align-items-center">
-                  <span class="menu_item_img"><?php echo get_avatar( $user_ID, 35 ); ?></span>Личный кабинет
+                <a href="#" class="row align-items-center user_avatar">
+                  <span class="menu_item_img"><?php echo get_avatar( $user_ID, 40 ); ?></span>Личный кабинет
                 </a>
               </li>
               <?php } ?>

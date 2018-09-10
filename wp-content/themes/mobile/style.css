@@ -159,3 +159,8 @@ span.menu_item_img
 {
   font-size: 20px;
 }
+.user_avatar
+{
+  border: 1px solid #E8F2FB;
+  border-radius: 50%;
+}
