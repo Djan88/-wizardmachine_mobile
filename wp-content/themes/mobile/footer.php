@@ -2,6 +2,11 @@
           </div>
           <div id="menu" class="row hidden">
             <ul class="main_menu">
+              <?php if(is_user_logged_in()) { ?>
+              <li class="user_avatar">
+                <?php echo get_avatar( $user_ID, 65 ); ?>
+              </li>
+              <?php } ?>
               <li>
                 <a href="#" class=" row align-items-center">
                   <span class="menu_item_img"><i class="fas fa-home"></i></span>Главная
