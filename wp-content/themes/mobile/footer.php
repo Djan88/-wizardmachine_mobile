@@ -25,7 +25,7 @@
               <?php if(is_user_logged_in() && current_user_can('administrator')) { ?>
               <li>
                 <a href="/wp-admin" class=" row align-items-center">
-                  <span class="menu_item_img"><i class="fas fa-sign-out-alt"></i></span>Панель администратора
+                  <span class="menu_item_img"><i class="fas fa-screwdriver"></i></span>Панель
                 </a>
               </li>
               <?php } ?>
