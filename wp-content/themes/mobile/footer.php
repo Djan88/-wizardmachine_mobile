@@ -1,5 +1,6 @@
             <div class="col col-md-2 col-lg-3 col-xl-3"></div>
           </div>
+          <?php if(is_user_logged_in()) { ?>
           <div id="menu" class="row hidden">
             <ul class="main_menu">
               <li>
@@ -17,27 +18,23 @@
                   <span class="menu_item_img"><i class="fas fa-fingerprint"></i></span>Ручная диагностика
                 </a>
               </li>
-              <?php if(is_user_logged_in()) { ?>
               <li>
                 <a href="#" class="row align-items-center user_avatar">
                   <span class="menu_item_img"><?php echo get_avatar( $user_ID, 40 ); ?></span>Личный кабинет
                 </a>
               </li>
-              <?php } ?>
-              <?php if(is_user_logged_in() && current_user_can('administrator')) { ?>
+              <?php if(current_user_can('administrator')) { ?>
               <li>
                 <a href="/wp-admin" class=" row align-items-center">
                   <span class="menu_item_img"><i class="fas fa-screwdriver"></i></span>Панель
                 </a>
               </li>
               <?php } ?>
-              <?php if(is_user_logged_in()) { ?>
               <li>
                 <a href="<?php echo home_url(); ?>/wp-login.php?action=logout&amp;_wpnonce=a6cad512ba" class=" row align-items-center">
                   <span class="menu_item_img"><i class="fas fa-sign-out-alt"></i></span>Выход
                 </a>
               </li>
-              <?php } ?>
             </ul>
             <div class="credits">
               <div class="credits_heading">Юрий Чикуров</div>
@@ -45,6 +42,7 @@
               <div>Все права защищены</div>
             </div>
           </div>
+          <?php } ?>
         </div>
       </div>
     </div>
