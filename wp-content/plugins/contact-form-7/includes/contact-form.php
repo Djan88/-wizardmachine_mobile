@@ -33,8 +33,6 @@ class WPCF7_ContactForm {
 			),
 			'rewrite' => false,
 			'query_var' => false,
-			'public' => false,
-			'capability_type' => 'page',
 		) );
 	}
 

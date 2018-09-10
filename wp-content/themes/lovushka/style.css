@@ -223,7 +223,7 @@ footer.footer
 }
 footer.footer a
 {
-  color: #fff;
+  color: #fda00c;
   font-size: 13px;
 }
 .color_control 
@@ -433,6 +433,52 @@ img.items
     max-width: 100%;
     height: auto;
 }
+.header_area 
+{
+    position: relative;
+}
+button.btn.btn_login 
+{
+    position: absolute;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    border: 2px solid #000;
+}
+.login_modal .modal-content
+{
+    background: #FDA009;
+    text-align: center;
+}
+.login_modal .modal-footer
+{
+    text-align: center;
+}
+.regard_info
+{
+    font-size: 22px;
+}
+.vitrin-article
+{
+    border: 2px solid darkred;
+    color: darkgoldenrod;
+}
+.vitrin .reg_login 
+{
+    color: #3379b7;
+    text-decoration: none;
+}
+.btn.btn-kabinet 
+{
+    position: absolute;
+    padding-top: 7px;
+    width: 36px;
+    height: 36px;
+    left: 20px;
+    border-radius: 50%;
+    border: 2px solid #000;
+    z-index: 999;
+}
 @media (max-width: 991px) {
     /*.set, .manual, .set_disabled
     {
@@ -456,6 +502,12 @@ img.items
     {
         white-space: normal;
     }
+    button.btn.btn_login
+    {
+        position: static;
+        display: block;
+        margin: auto;
+    }
 }
 @media (max-width: 500px) {
     .logo img {
@@ -467,6 +519,11 @@ img.items
         right: 5px;
         top: 5px;
     }
+    .btn.btn-kabinet
+    {
+        left: 5px;
+        top: 5px;
+    }
 }
 @media (max-width: 400px) {
     .logo img {
@@ -476,6 +533,11 @@ img.items
     .btn-group.lang_block
     {
         right: 5px;
+        top: 5px;
+    }
+    .btn.btn-kabinet
+    {
+        left: 5px;
         top: 5px;
     }
     .modal-text
