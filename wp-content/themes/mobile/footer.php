@@ -52,7 +52,7 @@
     <script src="<?php echo get_template_directory_uri(); ?>/js/bootstrap.min.js"></script>
     <script src="<?php echo get_template_directory_uri(); ?>/fonts/js/all.js"></script>
     <script src="<?php echo get_template_directory_uri(); ?>/js/superslide-std.min.js"></script>
-    <script src="<?php echo get_template_directory_uri(); ?>/js/jquery.Jcrop.min.js"></script>
+    <script src="<?php echo get_template_directory_uri(); ?>/js/jquery.Jcrop.js"></script>
     <script src="<?php echo get_template_directory_uri(); ?>/js/exif.js"></script>
     <script src="<?php echo get_template_directory_uri(); ?>/js/canvas.js"></script>
     <script src="<?php echo get_template_directory_uri(); ?>/js/script.js"></script>
