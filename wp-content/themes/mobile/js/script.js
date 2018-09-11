@@ -29,6 +29,8 @@ jQuery(document).ready(function () {
     jQuery('.choice_protocol').removeClass('hidden');
   });
 
+  jQuery('#preview').css('width', jQuery('.step2').css('width'));
+
   //CROPPING SCRIPT
   // convert bytes into friendly format
   function bytesToSize(bytes) {
@@ -164,7 +166,6 @@ jQuery(document).ready(function () {
                           onSelect: updateInfo,
                           onRelease: clearInfo
                       }, function(){
-                          jQuery('#preview').css('width', jQuery('.step2').css('width')/2+'px');
                           // use the Jcrop API to get the real image size
                           var bounds = this.getBounds();
                           boundx = bounds[0];
