@@ -186,3 +186,6 @@ span.menu_item_img
 {
   margin-bottom: 10px;
 }
+#preview {
+  display: none!important;
+}
