@@ -166,3 +166,7 @@ span.menu_item_img
   border-radius: 50%;
   margin-top: -10px;
 }
+.step2
+{
+  display: none;
+}

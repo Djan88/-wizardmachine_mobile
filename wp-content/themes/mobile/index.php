@@ -10,9 +10,12 @@
 		?>
 		<?php if(current_user_can('contributor') || current_user_can('administrator')) { ?>
 		<!-- load photo -->
-		<div class="mobile_screen">
+		<div class="mobile_screen mobile_screen_load">
 			<div class="row">
 				<div class="col protocols_info text_center">
+					<div class="current_protocol_img">
+						<i class="fas fa-user-md"></i>
+					</div>
 					<form id="upload_form" action="/wizard/" enctype="multipart/form-data" method="post"><!-- hidden crop params -->
 					<input id="x1" name="mci_x1" type="hidden" />
 					<input id="y1" name="mci_y1" type="hidden" />
@@ -37,7 +40,7 @@
 			</div>
 		</div>
 		<!-- protocols -->
-		<div class="mobile_screen">
+		<div class="mobile_screen mobile_screen_protocols hidden">
 			<div class="row">
 				<div class="col protocols_info text_center">
 					<div class="current_protocol_img">
