@@ -159,12 +159,11 @@ jQuery(document).ready(function () {
                           bgFade: true, // use fade effect
                           bgOpacity: .3, // fade opacity
                           aspectRatio: 1/1.5,
-                          boxWidth: jQuery('.step2').width(),
+                          boxWidth: jQuery('.protocols_info').width(),
                           onChange: updateInfo,
                           onSelect: updateInfo,
                           onRelease: clearInfo
                       }, function(){
-                          jQuery('.jcrop-holder img').css('max-width', jQuery('.step2').css('width'));
                           // use the Jcrop API to get the real image size
                           var bounds = this.getBounds();
                           boundx = bounds[0];
