@@ -73,7 +73,7 @@ div#recallbar, div#wpadminbar
 {
   background: #F4F4F4;
   border: 1px solid #fff;
-  padding-top: 80px;
+  margin-top: 80px;
   color: #133668;
   transition: all 0.5s;
 }
