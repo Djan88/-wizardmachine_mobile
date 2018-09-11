@@ -7,7 +7,7 @@
     <?php wp_head(); ?>
     <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/bootstrap.min.css type=text/css">
     <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/jquery.Jcrop.min.css type=text/css">
-    
+    <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/style.css type=text/css">
   </head>
   <body>
     <div class="container-fluid">
