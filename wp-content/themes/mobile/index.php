@@ -22,7 +22,7 @@
 					<input id="x2" name="mci_x2" type="hidden" />
 					<input id="y2" name="mci_y2" type="hidden" />
 					<!-- <h2>Выберите изображение</h2> -->
-					<div><input id="image_file" class="btn btn-primary" name="mci_image_file" type="file" /></div>
+					<div><input id="image_file" class="form-control-file" name="mci_image_file" type="file" /></div>
 					<div class="error"></div>
 					<div class="step2">
 					<h3>Выделите область для обрезки</h3>
