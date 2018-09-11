@@ -48,6 +48,7 @@
     </div>
 <?php wp_footer(); ?>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="<?php echo get_template_directory_uri(); ?>/js/jquery-ui.min.js"></script>
     <script src="<?php echo get_template_directory_uri(); ?>/js/bootstrap.min.js"></script>
     <script src="<?php echo get_template_directory_uri(); ?>/fonts/js/all.js"></script>
     <script src="<?php echo get_template_directory_uri(); ?>/js/superslide-std.min.js"></script>
