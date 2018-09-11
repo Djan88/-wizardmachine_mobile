@@ -75,7 +75,8 @@ div#recallbar, div#wpadminbar
   border: 1px solid #fff;
   padding-top: 80px;
   color: #133668;
-  transition: all 0.5s
+  transition: all 0.5s;
+  width: 700px;
 }
 .protocols_item 
 {
@@ -174,7 +175,7 @@ span.menu_item_img
 {
   display: block;
   margin: auto;
-  max-width: 608px;
+  max-width: 700px;
   height: auto!important;
 }
 .jcrop-holder 
