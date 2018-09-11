@@ -170,3 +170,7 @@ span.menu_item_img
 {
   display: none;
 }
+.crop_photo 
+{
+  margin-bottom: 10px;
+}
