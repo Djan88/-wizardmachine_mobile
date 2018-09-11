@@ -175,7 +175,7 @@ span.menu_item_img
   display: block;
   margin: auto;
   width: 608px;
-  /*height: auto!important;*/
+  height: auto!important;
 }
 .jcrop-holder 
 {
