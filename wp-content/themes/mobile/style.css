@@ -177,6 +177,11 @@ span.menu_item_img
   width: 100%!important;
   height: auto!important;
 }
+.jcrop-holder 
+{
+  display: block;
+  margin: auto;
+}
 .crop_photo 
 {
   margin-bottom: 10px;
