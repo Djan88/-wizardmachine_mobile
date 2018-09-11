@@ -170,6 +170,12 @@ span.menu_item_img
 {
   display: none;
 }
+.step2 img {
+  max-width: 100%;
+  display: block;
+  margin: auto;
+  height: auto!important;
+}
 .crop_photo 
 {
   margin-bottom: 10px;
