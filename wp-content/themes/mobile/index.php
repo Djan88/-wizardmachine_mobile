@@ -22,7 +22,7 @@
 					<input id="x2" name="mci_x2" type="hidden" />
 					<input id="y2" name="mci_y2" type="hidden" />
 					<!-- <h2>Выберите изображение</h2> -->
-					<div><input id="image_file" name="mci_image_file" type="file" /></div>
+					<div><input id="image_file" class="btn btn-primary" name="mci_image_file" type="file" /></div>
 					<div class="error"></div>
 					<div class="step2">
 					<h3>Выделите область для обрезки</h3>
@@ -33,7 +33,7 @@
 					<label>Разрешение изображения</label> <input id="filedim" name="mci_filedim" type="text" />
 					<label>Ширина</label> <input id="w" name="mci_w" type="text" />
 					<label>Высота</label> <input id="h" name="mci_h" type="text" /></div>
-					<input type="submit" class="crop_photo" value="Редактировать фото" name="mci_magic" />
+					<input type="submit" class="crop_photo btn btn-primary" value="Редактировать фото" name="mci_magic" />
 					</div>
 					</form>
 				</div>
