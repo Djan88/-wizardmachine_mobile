@@ -164,6 +164,7 @@ jQuery(document).ready(function () {
                           onSelect: updateInfo,
                           onRelease: clearInfo
                       }, function(){
+                          jQuery('#preview').css('width', jQuery('.step2').css('width'));
                           // use the Jcrop API to get the real image size
                           var bounds = this.getBounds();
                           boundx = bounds[0];
