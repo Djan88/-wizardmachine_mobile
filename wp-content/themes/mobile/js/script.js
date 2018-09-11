@@ -29,6 +29,8 @@ jQuery(document).ready(function () {
     jQuery('.choice_protocol').removeClass('hidden');
   });
 
+  jQuery('#preview').css('max-width', jQuery('.step2').css('width'));
+
   //CROPPING SCRIPT
   // convert bytes into friendly format
   function bytesToSize(bytes) {
