@@ -61,7 +61,7 @@ div#recallbar, div#wpadminbar
 }
 .header.master_header 
 {
-  /*position: fixed;*/
+  position: fixed;
   width: 100%;
   z-index: 598;
 }
