@@ -170,9 +170,11 @@ span.menu_item_img
 {
   display: none;
 }
-.step2 img {
+.step2 img 
+{
   display: block;
   margin: auto;
+  width: 100%;
   height: auto!important;
 }
 .crop_photo 
