@@ -159,6 +159,7 @@ jQuery(document).ready(function () {
                           bgFade: true, // use fade effect
                           bgOpacity: .3, // fade opacity
                           aspectRatio: 1/1.5,
+                          boxWidth: jQuery('.protocols_info').width(),
                           onChange: updateInfo,
                           onSelect: updateInfo,
                           onRelease: clearInfo
