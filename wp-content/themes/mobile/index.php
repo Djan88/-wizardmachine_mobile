@@ -45,8 +45,12 @@
 				<div class="col">
 					<h4>Выберите режим работы</h4>
 					<div class="row">
-						<button class="col btn btn-primary btn_choice_protocol">Выбрать протокол</button>
-						<button class="col btn btn-primary btn_choice_manual">Ручная диагностика</button>
+						<div class="col">
+							<button class="btn btn-primary text_center btn_choice_protocol">Выбрать протокол</button>
+						</div>
+						<div class="col">
+							<button class="btn btn-primary text_center btn_choice_manual">Ручная диагностика</button>
+						</div>
 					</div>
 				</div>
 				<div class="col protocols_info text_center">

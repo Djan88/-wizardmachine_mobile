@@ -194,3 +194,9 @@ button.btn.btn_crop
 {
   color: #54BAAE;
 }
+.loaded_img
+{
+  min-width: 200px;
+  width: 80%;
+  padding: 10px 0;
+}
