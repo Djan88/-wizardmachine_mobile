@@ -42,10 +42,12 @@
 		<!-- what way -->
 		<div class="mobile_screen mobile_screen_what_way hidden">
 			<div class="row">
-				<div>
+				<div class="col">
 					<h4>Выберите режим работы</h4>
-					<button class="col btn btn-primary btn_choice_protocol">Выбрать протокол</button>
-					<button class="col btn btn-primary btn_choice_manual">Ручная диагностика</button>
+					<div class="row">
+						<button class="col btn btn-primary btn_choice_protocol">Выбрать протокол</button>
+						<button class="col btn btn-primary btn_choice_manual">Ручная диагностика</button>
+					</div>
 				</div>
 				<div class="col protocols_info text_center">
 					<img class="loaded_img" src="" alt="">
