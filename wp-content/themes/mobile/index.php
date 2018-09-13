@@ -41,14 +41,16 @@
 		</div>
 		<!-- what way -->
 		<div class="mobile_screen mobile_screen_what_way hidden">
+			<div class="row protocols_info">
+				<div class="col">
+					<button class="btn btn-primary text_center btn_choice_protocol">Выбрать протокол</button>
+				</div>
+				<div class="col">
+					<button class="btn btn-primary text_center btn_choice_manual">Ручная диагностика</button>
+				</div>
+			</div>
 			<div class="row">
-				<div class="col protocols_info text_center">
-					<div class="col">
-						<button class="btn btn-primary text_center btn_choice_protocol">Выбрать протокол</button>
-					</div>
-					<div class="col">
-						<button class="btn btn-primary text_center btn_choice_manual">Ручная диагностика</button>
-					</div>
+				<div class="col text_center">
 					<img class="loaded_img" src="" alt="">
 				</div>
 			</div>
