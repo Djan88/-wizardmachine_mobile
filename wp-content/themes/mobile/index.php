@@ -25,7 +25,7 @@
 					<div><input id="image_file" class="btn btn-primary" name="mci_image_file" type="file" /></div>
 					<div class="error"></div>
 					<div class="step2">
-					<h3>Выделите область для обрезки</h3>
+					<h4>Выделите область для обрезки</h4>
 					<img id="preview" alt="" />
 					<!--<canvas id="preview-canvas" style="border: 3px red solid;/*position: absolute; visibility: hidden; /*left: -20000px*/"></canvas>-->
 					<div class="info hidden"><label>Размер файла</label> <input id="filesize" name="mci_filesize" type="text" />
@@ -41,7 +41,16 @@
 		</div>
 		<!-- what way -->
 		<div class="mobile_screen mobile_screen_what_way hidden">
-			<img class="loaded_img" src="" alt="">
+			<h4>Выберите режим работы</h4>
+			<div class="row">
+				<button class="col btn btn-primary btn_choice_protocol">Выбрать протокол</button>
+				<button class="col btn btn-primary btn_choice_manual">Выбрать протокол</button>
+			</div>
+			<div class="row">
+				<div class="col protocols_info text_center">
+					<img class="loaded_img" src="" alt="">
+				</div>
+			</div>
 		</div>
 		<!-- protocols -->
 		<div class="mobile_screen mobile_screen_protocols hidden">

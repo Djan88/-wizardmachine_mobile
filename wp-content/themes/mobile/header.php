@@ -23,6 +23,9 @@
               Выберите режим
             </div>
             <div class="col-3" style="text-align: right;">
+              <button type="button" class="btn btn-lg btn-link justify-content-end btn_crop hidden">
+                Редактировать фото
+              </button>
               <button type="button" class="btn btn-lg btn-link justify-content-end">
                 <i class="fas fa-diagnoses"></i>
               </button>

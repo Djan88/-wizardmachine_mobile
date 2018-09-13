@@ -41,6 +41,11 @@ jQuery(document).ready(function () {
     jQuery('.loaded_img').attr('src', jQuery('.cropped_img').attr('src'));
   }
 
+  // second crop btn
+  jQuery('.btn_crop').on('click', function(event) {
+    jQuery('.crop_photo').click();
+  });
+
 //CROPPING SCRIPT
     // convert bytes into friendly format
     function bytesToSize(bytes) {
@@ -149,6 +154,7 @@ jQuery(document).ready(function () {
 
                     // display step 2
                     jQuery('.step2').fadeIn(500);
+                    jQuery('.btn_crop').fadeIn(500);
                     jQuery('.btn__crop').removeClass('hidden');
                     // display some basic image info
                     var sResultFileSize = bytesToSize(oFile.size);
