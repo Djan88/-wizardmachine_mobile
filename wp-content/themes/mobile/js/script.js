@@ -20,6 +20,10 @@ jQuery(document).ready(function () {
   });
 
   // Protocol choice
+  jQuery('.btn_choice_protocol').on('click', function(event) {
+    jQuery('.mobile_screen_what_way').addClass('hidden').css('display', 'block');
+    jQuery('.mobile_screen_protocols').fadeIn(500);
+  });
   jQuery('.protocols_item').on('click', function(event) {
     jQuery('.protocols_item').removeClass('active');
     jQuery(this).addClass('active');
