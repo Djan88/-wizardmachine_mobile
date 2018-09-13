@@ -29,6 +29,18 @@ jQuery(document).ready(function () {
     jQuery('.choice_protocol').removeClass('hidden');
   });
 
+  //Hide img if already cropped
+  jQuery('.cropped_img').addClass('hidden');
+
+
+  // If img already download
+  croppedImg = jQuery('.cropped_img');
+  if (croppedImg.hasAttribute('src')) {
+    jQuery('.mobile_screen_load').addClass('hidden');
+    jQuery('.mobile_screen_what_way').fadeIn(500);
+    jQuery('.loaded_img').attr('src', croppedImg.attr('src'));
+  }
+
 //CROPPING SCRIPT
     // convert bytes into friendly format
     function bytesToSize(bytes) {
@@ -159,6 +171,7 @@ jQuery(document).ready(function () {
                             minSize: [32, 32],// keep aspect ratio 1:1
                             bgFade: true, // use fade effect
                             bgOpacity: .3, // fade opacity
+                            aspectRatio: 1/1.5,
                             boxWidth: jQuery('.step2').width(),
                             onChange: updateInfo,
                             onSelect: updateInfo,

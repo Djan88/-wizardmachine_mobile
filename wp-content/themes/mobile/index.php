@@ -5,7 +5,7 @@
 		<?php
 	    if($_POST['mci_magic']){
         $sImage = uploadImageFile();
-        echo '<img src="'.$sImage.'" />';
+        echo '<img class="cropped_img" src="'.$sImage.'" />';
 	    }
 		?>
 		<?php if(current_user_can('contributor') || current_user_can('administrator')) { ?>
@@ -38,6 +38,10 @@
 					</form>
 				</div>
 			</div>
+		</div>
+		<!-- what way -->
+		<div class="mobile_screen mobile_screen_what_way hidden">
+			<img class="loaded_img" src="" alt="">
 		</div>
 		<!-- protocols -->
 		<div class="mobile_screen mobile_screen_protocols hidden">
