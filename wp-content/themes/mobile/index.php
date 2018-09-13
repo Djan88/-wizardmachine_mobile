@@ -50,7 +50,7 @@
 				</div>
 			</div>
 			<div class="row">
-				<div class="col text_center">
+				<div class="col text_center" style="background: #F4F4F4;border: 1px solid #fff;">
 					<img class="loaded_img" src="" alt="">
 				</div>
 			</div>
