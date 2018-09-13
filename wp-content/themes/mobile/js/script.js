@@ -34,7 +34,7 @@ jQuery(document).ready(function () {
 
 
   // If img already download
-  croppedImg = jQuery('.cropped_img');
+  croppedImg = jQuery('.protocols_info').children()[0];
   if (croppedImg && croppedImg.hasAttribute('src')) {
     jQuery('.mobile_screen_load').addClass('hidden');
     jQuery('.mobile_screen_what_way').fadeIn(500);
