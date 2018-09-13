@@ -38,6 +38,7 @@ jQuery(document).ready(function () {
   if (croppedImg && croppedImg.hasAttribute('src')) {
     jQuery('.mobile_screen_load').addClass('hidden');
     jQuery('.mobile_screen_what_way').fadeIn(500);
+    jQuery('.loaded_img').attr('src', jQuery('.cropped_img').attr('src'));
   }
 
 //CROPPING SCRIPT
