@@ -41,7 +41,12 @@
 		</div>
 		<!-- what way -->
 		<div class="mobile_screen mobile_screen_what_way hidden">
-			<img class="loaded_img" src="" alt="">
+			<?php
+		    if($_POST['mci_magic']){
+	        $sImage = uploadImageFile();
+	        echo '<img class="loaded_img" src="'.$sImage.'" />';
+		    }
+			?>
 		</div>
 		<!-- protocols -->
 		<div class="mobile_screen mobile_screen_protocols hidden">
