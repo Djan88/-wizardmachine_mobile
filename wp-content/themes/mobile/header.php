@@ -22,7 +22,12 @@
               <?php } ?>
             </div>
             <div class="col-4 header-title">
-              Выберите режим
+              <?php if(is_user_logged_in()) { ?>
+                Загрузите фото
+              <?php } else { ?>
+                Вход
+              <?php } ?>
+              
             </div>
             <div class="col-4" style="text-align: right; padding: 0;">
               <button type="button" class="btn btn-lg btn-link justify-content-end btn_crop hidden">

@@ -24,16 +24,19 @@ jQuery(document).ready(function () {
     jQuery('.mobile_screen').addClass('hidden').css('display', 'none');
     jQuery('.btn-to_img').addClass('hidden');
     jQuery('.mobile_screen_load').fadeIn(500);
+    jQuery('.header-title').text('Загрузите фото');
   });
   jQuery('.btn-to_mode').on('click', function(event) {
     jQuery('.mobile_screen').addClass('hidden').css('display', 'none');
     jQuery('.btn-to_mode').addClass('hidden');
     jQuery('.mobile_screen_what_way').fadeIn(500);
     jQuery('.btn-to_img').removeClass('hidden');
+    jQuery('.header-title').text('Выберите режим');
   });
 
   // Protocol choice
   jQuery('.btn_choice_protocol').on('click', function(event) {
+    jQuery('.header-title').text('Выберите протокол');
     jQuery('.mobile_screen_what_way').addClass('hidden').css('display', 'none');
     jQuery('.mobile_screen_protocols').fadeIn(500);
     jQuery('.btn-to_img').addClass('hidden');
@@ -60,6 +63,7 @@ jQuery(document).ready(function () {
     jQuery('.loaded_img').attr('src', jQuery('.cropped_img').attr('src'));
     jQuery('.btn-back').addClass('hidden');
     jQuery('.btn-to_img').removeClass('hidden');
+    jQuery('.header-title').text('Выберите режим');
   }
 
   // second crop btn
