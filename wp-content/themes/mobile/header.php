@@ -14,7 +14,7 @@
       <div class="row justify-content-center">
         <div class="col wrapper">
           <div class="header master_header shadow row align-items-center">
-            <div class="col-3">
+            <div class="col-4">
               <?php if(is_user_logged_in()) { ?>
                 <button type="button" class="btn btn-lg btn-link side_menu"><i class="fas fa-bars"></i></button>
                 <button type="button" class="btn btn-lg btn-link btn-back btn-to_img hidden"><i class="far fa-arrow-alt-circle-left"></i></button>
@@ -22,10 +22,10 @@
                 <a href="/" class="btn btn-link btn-back btn-load_photo hidden"><i class="fas fa-user-plus"></i></a>
               <?php } ?>
             </div>
-            <div class="col-6 header-title">
+            <div class="col-4 header-title">
               Выберите режим
             </div>
-            <div class="col-3" style="text-align: right;">
+            <div class="col-4" style="text-align: right;">
               <button type="button" class="btn btn-lg btn-link justify-content-end btn_crop hidden">
                 <i class="fas fa-crop-alt"></i>
               </button>
