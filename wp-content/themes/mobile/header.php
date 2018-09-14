@@ -23,10 +23,10 @@
               Выберите режим
             </div>
             <div class="col-3" style="text-align: right;">
-              <button type="button" class="btn btn-sm justify-content-end btn_crop hidden">
-                Редактировать фото
+              <button type="button" class="btn btn-lg justify-content-end btn_crop hidden">
+                <i class="fas fa-crop-alt"></i>
               </button>
-              <button type="button" class="btn btn-lg btn-link justify-content-end">
+              <button type="button" class="btn btn-lg btn-link btn_man_with_zones hidden justify-content-end">
                 <i class="fas fa-diagnoses"></i>
               </button>
             </div>

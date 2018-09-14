@@ -190,13 +190,17 @@ span.menu_item_img
 {
   display: none!important;
 }
-button.btn.btn_crop 
-{
-  color: #54BAAE;
-}
 .loaded_img
 {
   min-width: 200px;
   width: 80%;
   padding: 10px 0;
+}
+input.crop_photo 
+{
+  margin-top: 10px;
+}
+.mobile_screen_what_way .btn 
+{
+  margin: 10px 0;
 }
