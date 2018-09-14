@@ -26,7 +26,7 @@
               Выберите режим
             </div>
             <div class="col-3" style="text-align: right;">
-              <button type="button" class="btn justify-content-end btn_crop hidden">
+              <button type="button" class="btn btn-link justify-content-end btn_crop hidden">
                 <i class="fas fa-crop-alt"></i>
               </button>
               <button type="button" class="btn btn-link btn_man_with_zones hidden justify-content-end">
