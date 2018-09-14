@@ -4,8 +4,8 @@
           <div id="menu" class="row hidden">
             <ul class="main_menu">
               <li>
-                <a href="#" class=" row align-items-center">
-                  <span class="menu_item_img"><i class="fas fa-home"></i></span>Главная
+                <a href="/" class=" row align-items-center">
+                  <span class="menu_item_img"><i class="fas fa-user-plus"></i></span>В начало
                 </a>
               </li>
               <li>
