@@ -34,7 +34,7 @@ jQuery(document).ready(function () {
   jQuery('.btn_choice_protocol').on('click', function(event) {
     jQuery('.mobile_screen_what_way').addClass('hidden').css('display', 'none');
     jQuery('.mobile_screen_protocols').fadeIn(500);
-    jQuery('.btn-back').addClass('hidden');
+    jQuery('.btn-to_img').addClass('hidden');
     jQuery('.btn-to_mode').removeClass('hidden');
   });
   jQuery('.protocols_item').on('click', function(event) {
