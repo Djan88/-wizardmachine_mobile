@@ -23,6 +23,8 @@ jQuery(document).ready(function () {
   jQuery('.btn_choice_protocol').on('click', function(event) {
     jQuery('.mobile_screen_what_way').addClass('hidden').css('display', 'none');
     jQuery('.mobile_screen_protocols').fadeIn(500);
+    jQuery('.btn-back').addClass('hidden');
+    jQuery('.btn-to_mode').removeClass('hidden');
   });
   jQuery('.protocols_item').on('click', function(event) {
     jQuery('.protocols_item').removeClass('active');
@@ -43,6 +45,8 @@ jQuery(document).ready(function () {
     jQuery('.mobile_screen_load').addClass('hidden');
     jQuery('.mobile_screen_what_way').fadeIn(500);
     jQuery('.loaded_img').attr('src', jQuery('.cropped_img').attr('src'));
+    jQuery('.btn-back').addClass('hidden');
+    jQuery('.btn-to_img').removeClass('hidden');
   }
 
   // second crop btn
