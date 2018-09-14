@@ -19,6 +19,12 @@ jQuery(document).ready(function () {
     myMenu.close();
   });
 
+  // back buttons
+  jQuery('.btn-to_img').on('click', function(event) {
+    jQuery('.mobile_screen, .to_img').addClass('hidden').css('display', 'none');
+    jQuery('.mobile_screen_load').fadeIn(500);
+  });
+
   // Protocol choice
   jQuery('.btn_choice_protocol').on('click', function(event) {
     jQuery('.mobile_screen_what_way').addClass('hidden').css('display', 'none');
