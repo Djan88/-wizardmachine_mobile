@@ -21,11 +21,13 @@ jQuery(document).ready(function () {
 
   // back buttons
   jQuery('.btn-to_img').on('click', function(event) {
-    jQuery('.mobile_screen, .btn-to_img').addClass('hidden').css('display', 'none');
+    jQuery('.mobile_screen').addClass('hidden').css('display', 'none');
+    jQuery('.btn-to_img').addClass('hidden');
     jQuery('.mobile_screen_load').fadeIn(500);
   });
   jQuery('.btn-to_mode').on('click', function(event) {
-    jQuery('.mobile_screen, .btn-to_mode').addClass('hidden').css('display', 'none');
+    jQuery('.mobile_screen').addClass('hidden').css('display', 'none');
+    jQuery('.btn-to_mode').addClass('hidden');
     jQuery('.mobile_screen_what_way').fadeIn(500);
     jQuery('.btn-to_img').removeClass('hidden');
   });
