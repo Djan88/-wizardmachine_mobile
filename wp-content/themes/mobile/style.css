@@ -84,6 +84,7 @@ div#recallbar, div#wpadminbar
   border: 1px solid #fff;
   color: #2E4784;
   transition: all 0.5s;
+  cursor: pointer;
 }
 .protocols_item.active, .mode-item.active
 {

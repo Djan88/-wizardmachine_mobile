@@ -33,15 +33,15 @@ jQuery(document).ready(function () {
     jQuery('.btn-to_img').removeClass('hidden');
     jQuery('.header-title').text('Выберите режим');
   });
-
-  // Protocol choice
-  jQuery('.btn_choice_protocol').on('click', function(event) {
+  // Protocol mode
+  jQuery('.mode-item_protocol').on('click', function(event) {
     jQuery('.header-title').text('Выберите протокол');
     jQuery('.mobile_screen_what_way').addClass('hidden').css('display', 'none');
     jQuery('.mobile_screen_protocols').fadeIn(500);
     jQuery('.btn-to_img').addClass('hidden');
     jQuery('.btn-to_mode').removeClass('hidden');
   });
+  // Protocol choice
   jQuery('.protocols_item').on('click', function(event) {
     jQuery('.protocols_item').removeClass('active');
     jQuery(this).addClass('active');
