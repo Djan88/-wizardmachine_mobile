@@ -204,3 +204,14 @@ input.crop_photo
 {
   margin: 10px 0;
 }
+@media (max-width: 500px) {
+    .mode-item_title
+    {
+      font-size: 15px;
+    }
+    .mode-item_im
+    {
+      margin-top: 50px;
+      font-size: 40px;
+    }
+}
