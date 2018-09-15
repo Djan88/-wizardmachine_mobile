@@ -192,8 +192,7 @@ span.menu_item_img
 }
 .loaded_img
 {
-  min-width: 200px;
-  width: 80%;
+  width: 150px;
   padding: 10px 0;
 }
 input.crop_photo 
