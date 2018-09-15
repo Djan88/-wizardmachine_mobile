@@ -77,7 +77,7 @@ div#recallbar, div#wpadminbar
   color: #133668;
   transition: all 0.5s;
 }
-.protocols_item 
+.protocols_item, .mode-item 
 {
   position: relative;
   background: #DEEDF9;
@@ -85,12 +85,12 @@ div#recallbar, div#wpadminbar
   color: #2E4784;
   transition: all 0.5s;
 }
-.protocols_item.active
+.protocols_item.active, .mode-item.active
 {
   background: #6988AC;
   color: #FFF;
 }
-.protocols_item_title 
+.protocols_item_title, .mode-item_title
 {
   position: absolute;
   left: 10px;
@@ -99,7 +99,7 @@ div#recallbar, div#wpadminbar
   font-size: 18px;
   text-transform: uppercase;
 }
-.protocols_item_img 
+.protocols_item_img, .mode-item_img
 {
   font-size: 60px;
   margin: 30px 0 20px;
