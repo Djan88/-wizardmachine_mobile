@@ -9,10 +9,6 @@ html
 {
   margin-top: 0!important;
 }
-#content
-{
-  background: radial-gradient(#795371, #391E3D);
-}
 div#recallbar, div#wpadminbar
 {
   display: none;
@@ -26,7 +22,7 @@ div#recallbar, div#wpadminbar
 }
 .header
 {
-  background: #795371;
+  background: #54BAAE;
   height: 70px;
 }
 .header-title
@@ -34,16 +30,12 @@ div#recallbar, div#wpadminbar
   padding: 20px 0;
   text-align: center;
   font-size: 20px;
-  color: #FFF0C7;
+  color: #112853;
   font-weight: 500;
 }
 .current_protocol_img
 {
   font-size: 50px;
-}
-.current_protocol_title
-{
-  color: #fff;
 }
 .header .btn
 {
@@ -79,22 +71,24 @@ div#recallbar, div#wpadminbar
 }
 .protocols_info
 {
+  background: #F4F4F4;
   border: 1px solid #fff;
   margin-top: 80px;
-  color: #FFF0C7;
+  color: #133668;
   transition: all 0.5s;
 }
 .protocols_item, .mode-item 
 {
   position: relative;
+  background: #DEEDF9;
   border: 1px solid #fff;
-  color: #FFF0C7;
+  color: #2E4784;
   transition: all 0.5s;
   cursor: pointer;
 }
 .protocols_item.active, .mode-item.active
 {
-  background: radial-gradient(#FFF0C7, transparent);
+  background: #6988AC;
   color: #FFF;
 }
 .protocols_item_title, .mode-item_title
