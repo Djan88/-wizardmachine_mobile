@@ -37,6 +37,15 @@ div#recallbar, div#wpadminbar
   color: #FFF0C7;
   font-weight: 500;
 }
+#image_file
+{
+  max-width: 90%;
+  background: #7E385C;
+  color: #F3E1BD;
+  margin-bottom: 10px;
+  border-radius: 30px;
+  border: 1px solid #F3E1BD;
+}
 .current_protocol_img
 {
   font-size: 50px;
