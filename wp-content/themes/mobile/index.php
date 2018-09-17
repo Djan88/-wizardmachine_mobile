@@ -42,7 +42,7 @@
 		<!-- what way -->
 		<div class="mobile_screen mobile_screen_what_way hidden">
 			<div class="row protocols_info">
-				<div class="col text_center" style="background: #F4F4F4;border: 1px solid #fff;">
+				<div class="col text_center">
 					<div class="row">
 						<!-- <div class="current_protocol_img">
 							<i class="far fa-check-square"></i>
@@ -66,7 +66,7 @@
 						</div>
 					</div>
 				</div>
-				<div class="col text_center" style="background: #F4F4F4;border: 1px solid #fff;">
+				<div class="col text_center" style="border: 1px solid #fff;">
 					<img class="loaded_img" src="" alt="">
 				</div>
 			</div>

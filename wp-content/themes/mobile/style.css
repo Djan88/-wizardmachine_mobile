@@ -111,6 +111,7 @@ div#recallbar, div#wpadminbar
   position: absolute;
   left: 10px;
   top: 5px;
+  color: #fff;
   font-weight: 700;
   font-size: 18px;
   text-transform: uppercase;
