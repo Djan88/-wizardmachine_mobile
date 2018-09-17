@@ -100,6 +100,7 @@ div#recallbar, div#wpadminbar
   color: #FFF0C7;
   transition: all 0.5s;
   cursor: pointer;
+  background: transparent;
 }
 .protocols_item.active, .mode-item.active
 {
