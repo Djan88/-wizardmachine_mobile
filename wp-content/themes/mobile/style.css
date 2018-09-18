@@ -89,7 +89,7 @@ div#recallbar, div#wpadminbar
 }
 .protocols_info
 {
-  border: 1px solid #fff;
+  /*border: 1px solid #fff;*/
   margin-top: 80px;
   color: #FFF0C7;
   transition: all 0.5s;
@@ -97,11 +97,11 @@ div#recallbar, div#wpadminbar
 .protocols_item, .mode-item 
 {
   position: relative;
-  border: 1px solid #fff;
   color: #FFF0C7;
   transition: all 0.5s;
   cursor: pointer;
-  background: transparent;
+  background: #795371;
+  box-shadow: 0 .5rem 1rem rgba(0,0,0,.15)!important;
 }
 .protocols_item.active, .mode-item.active
 {
@@ -117,6 +117,10 @@ div#recallbar, div#wpadminbar
   font-weight: 700;
   font-size: 18px;
   text-transform: uppercase;
+}
+.mode-item_title
+{
+  font-size: 14px;
 }
 .protocols_item_img, .mode-item_img
 {
