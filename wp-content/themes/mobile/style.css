@@ -98,6 +98,17 @@ div#recallbar, div#wpadminbar
 {
   margin-top: 40px;
 }
+label.upload_img 
+{
+  background: #F3E1BD;
+  margin-bottom: 10px;
+  font-size: 20px;
+  padding: 5px 15px;
+  cursor: pointer;
+  border-radius: 30px;
+  border: 1px solid #fff;
+  color: #7E385C;
+}
 .protocols_item, .mode-item 
 {
   position: relative;

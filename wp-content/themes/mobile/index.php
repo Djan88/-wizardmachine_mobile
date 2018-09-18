@@ -23,7 +23,7 @@
 					<input id="y2" name="mci_y2" type="hidden" />
 					<!-- <h2>Выберите изображение</h2> -->
 					<div>
-						<input id="image_file" class="btn btn-primary" name="mci_image_file" type="file" />
+						<input style="display: none;" id="image_file" class="btn btn-primary" name="mci_image_file" type="file" />
 						<label class="upload_img" for="image_file"><i class="fas fa-upload"></i> Выберите файл</label>
 					</div>
 					<div class="error"></div>
