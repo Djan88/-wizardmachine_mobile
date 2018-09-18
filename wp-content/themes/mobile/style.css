@@ -12,6 +12,7 @@ html
 #content
 {
   background: radial-gradient(#795371, #391E3D);
+  min-height: 100vh;
 }
 div#recallbar, div#wpadminbar
 {
