@@ -11,7 +11,7 @@ html
 }
 #content
 {
-  background: radial-gradient(#795371, #391E3D);
+  background: radial-gradient(#673158, #391E3D);
   min-height: 100vh;
 }
 div#recallbar, div#wpadminbar
@@ -27,7 +27,7 @@ div#recallbar, div#wpadminbar
 }
 .header
 {
-  background: #795371;
+  background: #673158;
   height: 70px;
 }
 .header-title
@@ -69,7 +69,7 @@ div#recallbar, div#wpadminbar
 }
 #menu
 {
-  background: #4d4d5d;
+  background: radial-gradient(#673158, #391E3D);
 }
 #menu .header
 {
@@ -158,10 +158,11 @@ div#recallbar, div#wpadminbar
   font-size: 12px;
   text-transform: uppercase;
   padding-left: 35px;
-  color: #FDCD6D;
-  background: #252739;
-  margin: 1px 0;
+  color: #FFF0C7;
+  background: #795371;
+  margin: 5px 0;
   transition: all 1s;
+  box-shadow: 0 0.5rem 1rem rgba(0,0,0,.15)
 }
 .main_menu li a:hover
 {
@@ -173,6 +174,7 @@ span.menu_item_img
 {
   font-size: 40px;
   padding-right: 20px;
+  color: #fff;
 }
 .credits 
 {
