@@ -104,6 +104,7 @@ div#recallbar, div#wpadminbar
   color: #FFF0C7;
   transition: all 1s;
   margin: 5px;
+  border-radius: 6px;
   cursor: pointer;
   background: #795371;
   box-shadow: 0 .5rem 1rem rgba(0,0,0,.15)!important;
@@ -168,7 +169,7 @@ div#recallbar, div#wpadminbar
 {
   text-decoration: none;
   color: #FDCD6D;
-  background: #4d4d5d;
+  background: #673158;
 }
 span.menu_item_img 
 {
