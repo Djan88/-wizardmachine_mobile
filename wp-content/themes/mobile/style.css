@@ -94,11 +94,16 @@ div#recallbar, div#wpadminbar
   color: #FFF0C7;
   transition: all 0.5s;
 }
+.mobile_screen.mobile_screen_load 
+{
+  margin-top: 40px;
+}
 .protocols_item, .mode-item 
 {
   position: relative;
   color: #FFF0C7;
-  transition: all 0.5s;
+  transition: all 1s;
+  margin: 5px;
   cursor: pointer;
   background: #795371;
   box-shadow: 0 .5rem 1rem rgba(0,0,0,.15)!important;
