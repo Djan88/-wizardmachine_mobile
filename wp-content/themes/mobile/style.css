@@ -238,7 +238,7 @@ input.crop_photo
 {
   margin: 10px 0;
 }
-@media (max-width: 500px) {
+@media (max-width: 540px) {
     .mode-item .mode-item_title
     {
       font-size: 20px;
