@@ -238,6 +238,12 @@ input.crop_photo
 {
   margin: 10px 0;
 }
+@media (max-width: 720px) {
+  .mobile_screen_what_way 
+  {
+    margin-top: 120px;
+  }
+}
 @media (max-width: 540px) {
     .mode-item .mode-item_title
     {
