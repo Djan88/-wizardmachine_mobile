@@ -61,7 +61,7 @@
             <div class="modal-content">
                 <div class="modal-header">
                     <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-                    <h4 class="modal-title" id="videoCoursLabel">Система DSV</h4>
+                    <h4 class="modal-title" id="zones_templateLabel">Система DSV</h4>
                 </div>
                 <div class="modal-body">
                     <img src="<?php echo get_template_directory_uri(); ?>/img/zones.png" alt="zones">
