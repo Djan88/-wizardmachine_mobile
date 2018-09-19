@@ -37,6 +37,9 @@
               <button type="button" class="btn btn-lg btn-link btn_man_with_zones hidden justify-content-end">
                 <i class="fas fa-diagnoses"></i>
               </button>
+              <button type="button" class="btn btn-lg btn-link btn_start hidden justify-content-end">
+                <i class="fab fa-react"></i>
+              </button>
             </div>
           </div>
           <div id="content" class="content row">

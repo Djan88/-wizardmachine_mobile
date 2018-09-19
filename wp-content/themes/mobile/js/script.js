@@ -39,7 +39,7 @@ jQuery(document).ready(function () {
     jQuery('.mobile_screen_protocols').addClass('hidden').css('display', 'none');
     jQuery('.mobile_screen_final').fadeIn(500);
     jQuery('.btn-to_mode').addClass('hidden');
-    jQuery('.btn-to_protocols, .btn_man_with_zones').removeClass('hidden');
+    jQuery('.btn-to_protocols, .btn_man_with_zones, .btn_start').removeClass('hidden');
   });
 
   // Promise resolves once menu is open
@@ -71,7 +71,7 @@ jQuery(document).ready(function () {
     // to protocols
   jQuery('.btn-to_protocols').on('click', function(event) {
     jQuery('.mobile_screen').addClass('hidden').css('display', 'none');
-    jQuery('.btn-to_protocols, .btn_man_with_zones').addClass('hidden');
+    jQuery('.btn-to_protocols, .btn_man_with_zones, .btn_start').addClass('hidden');
     jQuery('.mobile_screen_protocols').fadeIn(500);
     jQuery('.btn-to_mode').removeClass('hidden');
     jQuery('.header-title').text('Выберите протокол');
@@ -114,6 +114,11 @@ jQuery(document).ready(function () {
   // second crop btn
   jQuery('.btn_crop').on('click', function(event) {
     jQuery('.crop_photo').click();
+  });
+
+  // start
+  jQuery('.btn_start').on('click', function(event) {
+    jQuery('.zone').css('background', 'rgba(83,35,69, 0.4)');
   });
 
 //CROPPING SCRIPT
