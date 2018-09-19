@@ -11,6 +11,11 @@ jQuery(document).ready(function () {
   // Unhide menu after load
   jQuery('#menu').removeClass('hidden');
 
+  //Dragging elems
+  jQuery( ".draggable" ).draggable({ 
+      snap: false
+  });
+
   // Render menu
   var myMenu = new OSREC.superslide
   ({
@@ -30,11 +35,11 @@ jQuery(document).ready(function () {
 
   // final screen show
   jQuery('.choice_protocol').on('click', function(event) {
-    jQuery('.header-title').text('Активирован протокол '+cur_protocol_name);
+    jQuery('.header-title').text('Перенесите зоны на фото');
     jQuery('.mobile_screen_protocols').addClass('hidden').css('display', 'none');
     jQuery('.mobile_screen_final').fadeIn(500);
     jQuery('.btn-to_mode').addClass('hidden');
-    jQuery('.btn-to_protocols').removeClass('hidden');
+    jQuery('.btn-to_protocols, .btn_man_with_zones').removeClass('hidden');
   });
 
   // Promise resolves once menu is open
@@ -66,7 +71,7 @@ jQuery(document).ready(function () {
     // to protocols
   jQuery('.btn-to_protocols').on('click', function(event) {
     jQuery('.mobile_screen').addClass('hidden').css('display', 'none');
-    jQuery('.btn-to_protocols').addClass('hidden');
+    jQuery('.btn-to_protocols, .btn_man_with_zones').addClass('hidden');
     jQuery('.mobile_screen_protocols').fadeIn(500);
     jQuery('.btn-to_mode').removeClass('hidden');
     jQuery('.header-title').text('Выберите протокол');

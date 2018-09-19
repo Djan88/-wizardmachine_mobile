@@ -160,6 +160,19 @@
 				<div class="col text_center">
 					<div class="row">
 						<div class="col-12 text_center">
+							<div class="row">
+								<div class="col zone_holder">
+									<div class="zone draggable">D1</div>
+								</div>
+								<div class="col zone_holder">
+									<div class="zone draggable">V1</div>
+								</div>
+								<div class="col zone_holder">
+									<div class="zone draggable">S1</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-12 text_center">
 							<img class="loaded_img" src="" alt="">
 						</div>
 					</div>
