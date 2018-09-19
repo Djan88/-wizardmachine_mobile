@@ -24,7 +24,7 @@
 					<!-- <h2>Выберите изображение</h2> -->
 					<div>
 						<input style="display: none;" id="image_file" class="btn btn-primary" name="mci_image_file" type="file" />
-						<label class="btn btn-success" for="image_file"><i class="fas fa-upload"></i> Выберите файл</label>
+						<label class="btn btn-success photo_upload" for="image_file"><i class="fas fa-upload"></i> Выберите файл</label>
 					</div>
 					<div class="error"></div>
 					<div class="step2">

@@ -114,6 +114,10 @@ div#recallbar, div#wpadminbar
   background: radial-gradient(#FFF0C7, transparent);
   color: #FFF;
 }
+.photo_upload
+{
+  box-shadow: 0 .5rem 1rem rgba(0,0,0,.15)!important;
+}
 .protocols_item_title, .mode-item_title
 {
   position: absolute;
@@ -131,7 +135,7 @@ div#recallbar, div#wpadminbar
 .protocols_item_img, .mode-item_img
 {
   font-size: 60px;
-  margin: 30px 0 20px;
+  margin: 30px 0 10px;
 }
 .current_protocol_content 
 {
