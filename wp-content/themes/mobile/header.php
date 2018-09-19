@@ -34,10 +34,10 @@
               <button type="button" class="btn btn-lg btn-link justify-content-end btn_crop hidden">
                 <i class="fas fa-crop-alt"></i>
               </button>
-              <button type="button" class="btn btn-lg btn-link btn_man_with_zones hidden justify-content-end">
+              <button type="button" data-toggle="modal" data-target="#zones_template" class="btn btn-lg btn-link btn_man_with_zones hidden justify-content-end">
                 <i class="fas fa-diagnoses"></i>
               </button>
-              <button type="button" data-toggle="modal" data-target="#zones_template" class="btn btn-lg btn-link btn_start hidden justify-content-end">
+              <button type="button" class="btn btn-lg btn-link btn_start hidden justify-content-end">
                 <i class="fab fa-react"></i>
               </button>
             </div>
