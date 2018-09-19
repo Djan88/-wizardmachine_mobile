@@ -159,15 +159,15 @@
 			<div class="row protocols_info">
 				<div class="col text_center">
 					<div class="row">
-						<div class="col-12 text_center">
+						<div class="col-12 text_center zones">
 							<div class="row">
 								<div class="col zone_holder">
-									<div class="zone draggable draggable_lovushka">D-</div>
-									<div class="zone draggable draggable_d2">D2</div>
-									<div class="zone draggable draggable_d3">D3</div>
-									<div class="zone draggable draggable_d4">D4</div>
-									<div class="zone draggable draggable_d5">D5</div>
 									<div class="zone draggable draggable_d6">D6</div>
+									<div class="zone draggable draggable_d5">D5</div>
+									<div class="zone draggable draggable_d4">D4</div>
+									<div class="zone draggable draggable_d3">D3</div>
+									<div class="zone draggable draggable_d2">D2</div>
+									<div class="zone draggable draggable_lovushka"></div>
 								</div>
 								<div class="col zone_holder">
 									<div class="zone draggable draggable_v0">V0</div>
@@ -190,6 +190,9 @@
 						</div>
 						<div class="col-12 text_center">
 							<img class="loaded_img" src="" alt="">
+						</div>
+						<div class="col-12 text_center">
+							<button class="btn btn-primary btn_start"><i class="fab fa-react"></i></button>
 						</div>
 					</div>
 				</div>

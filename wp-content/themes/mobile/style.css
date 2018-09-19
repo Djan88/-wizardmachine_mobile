@@ -232,9 +232,16 @@ span.menu_item_img
   max-width: 400px;
   padding: 10px 0;
 }
-.btn.btn_start 
+.header .btn.btn_start 
 {
   color: #FFF0C7;
+}
+.zones
+{
+  background: #673158;
+  box-shadow: 0 .5rem 1rem rgba(0,0,0,.15)!important;
+  padding: 5px 0 10px;
+  border-radius: 6px;
 }
 .zone_holder 
 {
@@ -256,7 +263,6 @@ span.menu_item_img
   font-weight: 500;
   position: absolute;
   margin: auto;
-  box-shadow: 0 .5rem 1rem rgba(0,0,0,.15)!important;
 }
 #zones_template img 
 {
