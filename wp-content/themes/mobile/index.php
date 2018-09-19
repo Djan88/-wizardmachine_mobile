@@ -192,7 +192,7 @@
 							<img class="loaded_img" src="" alt="">
 						</div>
 						<div class="col-12 text_center">
-							<button class="btn btn-primary btn_start"><i class="fab fa-react"></i> Выполнить</button>
+							<button class="btn btn-primary btn_start"><i class="fab fa-react"></i> Выполнить <i class="fab fa-react"></i></button>
 						</div>
 					</div>
 				</div>
