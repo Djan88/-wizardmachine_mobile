@@ -19,6 +19,7 @@
                 <button type="button" class="btn btn-lg btn-link side_menu"><i class="fas fa-bars"></i></button>
                 <button type="button" class="btn btn-lg btn-link btn-back btn-to_img hidden"><i class="far fa-arrow-alt-circle-left"></i></button>
                 <button type="button" class="btn btn-lg btn-link btn-back btn-to_mode hidden"><i class="far fa-arrow-alt-circle-left"></i></button>
+                <button type="button" class="btn btn-lg btn-link btn-back btn-to_protocols hidden"><i class="far fa-arrow-alt-circle-left"></i></button>
               <?php } ?>
             </div>
             <div class="col-4 header-title">

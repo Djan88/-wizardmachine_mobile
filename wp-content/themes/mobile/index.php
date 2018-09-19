@@ -154,6 +154,18 @@
 				</div>
 			</div>
 		</div>
+		<!-- final screen -->
+		<div class="mobile_screen mobile_screen_final hidden">
+			<div class="row protocols_info">
+				<div class="col text_center">
+					<div class="row">
+						<div class="col-12 text_center">
+							<img class="loaded_img" src="" alt="">
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
 		<?php } ?>
 
 
