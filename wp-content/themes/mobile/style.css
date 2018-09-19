@@ -239,13 +239,17 @@ input.crop_photo
   margin: 10px 0;
 }
 @media (max-width: 500px) {
-    .mode-item_title
+    .mode-item .mode-item_title
     {
-      font-size: 15px;
+      font-size: 20px;
     }
-    .mode-item_img
+    .mode-item .mode-item_img
     {
-      margin-top: 50px;
-      font-size: 40px;
+      font-size: 80px;
+    }
+    .mode-item
+    {
+      margin: 0;
+      margin-bottom: 20px;
     }
 }
