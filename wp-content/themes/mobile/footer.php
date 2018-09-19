@@ -56,5 +56,18 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
     <script src="<?php echo get_template_directory_uri(); ?>/js/bootstrap.min.js"></script>
     <script src="<?php echo get_template_directory_uri(); ?>/js/script.js"></script>
+    <div class="modal fade" id="zones_template" tabindex="-1" role="dialog" aria-labelledby="videoCoursLabel" aria-hidden="true">
+        <div class="modal-dialog modal-sm">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                    <h4 class="modal-title" id="videoCoursLabel">Система DSV</h4>
+                </div>
+                <div class="modal-body">
+                    <img src="<?php echo get_template_directory_uri(); ?>/img/zones.png" alt="zones">
+                </div>
+            </div>
+        </div>
+    </div>
   </body>
 </html>

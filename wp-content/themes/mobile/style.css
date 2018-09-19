@@ -232,9 +232,9 @@ span.menu_item_img
   max-width: 400px;
   padding: 10px 0;
 }
-.btn_start
+.btn.btn_start 
 {
-  color: #DE264A;
+  color: #FFF0C7;
 }
 .zone_holder 
 {
