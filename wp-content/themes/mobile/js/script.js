@@ -1,4 +1,12 @@
 jQuery(document).ready(function () {
+  var cur_protocol,
+      supportsStorage = function(){
+          try {
+              return 'localStorage' in window && window['localStorage'] !== null;
+          } catch (e) {
+              return false;
+          }
+      };
   // Unhide menu after load
   jQuery('#menu').removeClass('hidden');
 
@@ -9,6 +17,11 @@ jQuery(document).ready(function () {
       content: document.getElementById('content'),
       closeOnBlur: true,
       width: '250px'
+  });
+
+  jQuery('.protocols_item').on('click', function(event) {
+    cur_protocol = jQuery(this).data('protocol');
+    localStorage.setItem('protocol', cur_protocol);
   });
 
   // Promise resolves once menu is open
