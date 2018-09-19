@@ -1,5 +1,6 @@
 jQuery(document).ready(function () {
   var cur_protocol,
+      cur_protocol_name,
       supportsStorage = function(){
           try {
               return 'localStorage' in window && window['localStorage'] !== null;
@@ -19,8 +20,11 @@ jQuery(document).ready(function () {
       width: '250px'
   });
 
+  // protocol choice
   jQuery('.protocols_item').on('click', function(event) {
     cur_protocol = jQuery(this).data('protocol');
+    cur_protocol_name = jQuery(this).find('.protocols_item_title').text();
+    console.log(cur_protocol+' '+cur_protocol_name);
     localStorage.setItem('protocol', cur_protocol);
   });
 
