@@ -51,7 +51,7 @@ jQuery(document).ready(function () {
     jQuery('.header-title').text('Перенесите зоны на фото');
     jQuery('.mobile_screen_manual').addClass('hidden').css('display', 'none');
     jQuery('.mobile_screen_final').fadeIn(500);
-    jQuery('.btn-to_mode').addClass('hidden');
+    jQuery('.btn-to_mode, .btn_protocols').addClass('hidden');
     jQuery('.btn-to_manual, .btn_man_with_zones, .btn_start').removeClass('hidden');
   });
 
@@ -93,10 +93,10 @@ jQuery(document).ready(function () {
     // to manual
   jQuery('.btn-to_manual').on('click', function(event) {
     jQuery('.mobile_screen').addClass('hidden').css('display', 'none');
-    jQuery('.btn-to_protocols, .btn_man_with_zones, .btn_start').addClass('hidden');
-    jQuery('.mobile_screen_protocols').fadeIn(500);
+    jQuery('.btn-to_protocols, .btn_start').addClass('hidden');
+    jQuery('.mobile_screen_manual').fadeIn(500);
     jQuery('.btn-to_mode').removeClass('hidden');
-    jQuery('.header-title').text('Выберите протокол');
+    jQuery('.header-title').text('Диагностика');
   });
   // --------
 
