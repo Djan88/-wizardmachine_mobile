@@ -189,7 +189,11 @@ jQuery(document).ready(function () {
       },
 
       // Configuration options go here
-      options: {}
+      options: {
+        legend: {
+          display: none
+        }
+      }
   });
 
 //CROPPING SCRIPT
