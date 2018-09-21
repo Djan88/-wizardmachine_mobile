@@ -177,6 +177,11 @@ jQuery(document).ready(function () {
     ]
   };
 
+  var options = {
+    width: 300,
+    height: 200
+  };
+
   // Create a new line chart object where as first parameter we pass in a selector
   // that is resolving to our chart container element. The Second parameter
   // is the actual data object.
