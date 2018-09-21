@@ -283,7 +283,8 @@ span.menu_item_img
 }
 .diagnostic_rezult
 {
-  background: #673158;
+  background: #FFF0C7;
+  border-radius: 3px;
   padding-right: 0;
   position: relative;
 }
