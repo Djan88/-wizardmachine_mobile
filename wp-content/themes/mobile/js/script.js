@@ -117,6 +117,16 @@ jQuery(document).ready(function () {
     jQuery('.btn-to_mode, .btn_protocols').removeClass('hidden');
   });
 
+  // Protocol choice
+  jQuery('.protocols_item').on('click', function(event) {
+    jQuery('.protocols_item').removeClass('active');
+    jQuery(this).addClass('active');
+    jQuery('.current_protocol_img').html(jQuery(this).find('.protocols_item_img').html());
+    jQuery('.current_protocol_title, .current_protocol_title_2').text(jQuery(this).find('.protocols_item_title').text())
+    jQuery('.current_protocol_content').text(jQuery(this).find('.protocols_item_content').text())
+    jQuery('.choice_protocol').removeClass('hidden');
+  });
+
   //Hide img if already cropped
   jQuery('.cropped_img').addClass('hidden');
 
