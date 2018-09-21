@@ -68,7 +68,7 @@ jQuery(document).ready(function () {
     // to mode
   jQuery('.btn-to_mode').on('click', function(event) {
     jQuery('.mobile_screen').addClass('hidden').css('display', 'none');
-    jQuery('.btn-to_mode, .btn_protocols').addClass('hidden');
+    jQuery('.btn-to_mode, .btn_protocol').addClass('hidden');
     jQuery('.mobile_screen_what_way').fadeIn(500);
     jQuery('.btn-to_img').removeClass('hidden');
     jQuery('.header-title').text('Выберите режим');
@@ -104,7 +104,7 @@ jQuery(document).ready(function () {
   jQuery('.btn_protocols').on('click', function(event) {
     jQuery('.header-title').text('Выберите протокол');
     jQuery('.mobile_screen_manual').addClass('hidden').css('display', 'none');
-    jQuery('.mobile_screen_final').fadeIn(500);
+    jQuery('.mobile_screen_protocols').fadeIn(500);
     jQuery('.btn-to_mode, .btn_protocols').addClass('hidden');
     jQuery('.btn-to_manual').removeClass('hidden');
   });
