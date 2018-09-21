@@ -93,7 +93,7 @@ jQuery(document).ready(function () {
     // to manual
   jQuery('.btn-to_manual').on('click', function(event) {
     jQuery('.mobile_screen').addClass('hidden').css('display', 'none');
-    jQuery('.btn-to_protocols, .btn_start, .btn-to_manual').addClass('hidden');
+    jQuery('.btn-to_protocols, .btn_start, .btn-to_manual, .btn_man_with_zones').addClass('hidden');
     jQuery('.mobile_screen_manual').fadeIn(500);
     jQuery('.btn-to_mode').removeClass('hidden');
     jQuery('.header-title').text('Диагностика');
