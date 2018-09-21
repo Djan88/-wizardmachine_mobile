@@ -159,6 +159,11 @@
 							<img class="loaded_img" src="" alt="">
 						</div>
 					</div>
+					<div class="row">
+						<div class="col">
+							<div class="ct-chart ct-perfect-fourth"></div>
+						</div>
+					</div>
 				</div>
 			</div>
 		</div>
