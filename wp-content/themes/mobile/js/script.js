@@ -191,7 +191,7 @@ jQuery(document).ready(function () {
       // Configuration options go here
       options: {
         legend: {
-          display: none
+          display: false
         }
       }
   });
