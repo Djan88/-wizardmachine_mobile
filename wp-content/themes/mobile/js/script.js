@@ -166,10 +166,8 @@ jQuery(document).ready(function () {
     jQuery('.zone').css('background', 'rgba(83,35,69, 0.4)');
   });
 
-  jQuery('.chart-container').css({
-    height: jQuery('.diagnostic_rezult').css('width'),
-    width: jQuery('.diagnostic_rezult').css('height')
-  });
+  jQuery('#myChart').parentNode.style.height = jQuery('.diagnostic_rezult').css('width');
+  jQuery('#myChart').parentNode.style.width = jQuery('.diagnostic_rezult').css('height');
 
 
   // render chart
