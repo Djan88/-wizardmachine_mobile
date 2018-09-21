@@ -161,9 +161,7 @@
 					</div>
 					<div class="row">
 						<div class="col">
-							<div class="chart-container" style="position: relative;">
-								<canvas id="myChart"></canvas>
-							</div>
+							<canvas id="myChart"></canvas>
 						</div>
 					</div>
 				</div>
