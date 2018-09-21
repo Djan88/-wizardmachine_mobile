@@ -47,13 +47,6 @@ jQuery(document).ready(function () {
     jQuery('.btn-to_mode').addClass('hidden');
     jQuery('.btn-to_protocols, .btn_man_with_zones, .btn_start').removeClass('hidden');
   });
-  jQuery('.btn_protocols').on('click', function(event) {
-    jQuery('.header-title').text('Перенесите зоны на фото');
-    jQuery('.mobile_screen_manual').addClass('hidden').css('display', 'none');
-    jQuery('.mobile_screen_final').fadeIn(500);
-    jQuery('.btn-to_mode, .btn_protocols').addClass('hidden');
-    jQuery('.btn-to_manual, .btn_man_with_zones, .btn_start').removeClass('hidden');
-  });
 
   // Promise resolves once menu is open
   jQuery('.side_menu').on('click', function(event) {
@@ -108,13 +101,12 @@ jQuery(document).ready(function () {
     jQuery('.btn-to_img').addClass('hidden');
     jQuery('.btn-to_mode').removeClass('hidden');
   });
-  // Manual mode
-  jQuery('.mode-item_protocol').on('click', function(event) {
+  jQuery('.btn_protocols').on('click', function(event) {
     jQuery('.header-title').text('Выберите протокол');
-    jQuery('.mobile_screen_what_way').addClass('hidden').css('display', 'none');
-    jQuery('.mobile_screen_protocols').fadeIn(500);
-    jQuery('.btn-to_img').addClass('hidden');
-    jQuery('.btn-to_mode').removeClass('hidden');
+    jQuery('.mobile_screen_manual').addClass('hidden').css('display', 'none');
+    jQuery('.mobile_screen_final').fadeIn(500);
+    jQuery('.btn-to_mode, .btn_protocols').addClass('hidden');
+    jQuery('.btn-to_manual').removeClass('hidden');
   });
   // Protocol choice
   jQuery('.mode-item_manual').on('click', function(event) {
