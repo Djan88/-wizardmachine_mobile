@@ -8,16 +8,6 @@
                   <span class="menu_item_img"><i class="fas fa-user-plus"></i></span>В начало
                 </a>
               </li>
-              <!-- <li>
-                <a href="#" class="row align-items-center">
-                  <span class="menu_item_img"><i class="far fa-check-square"></i></span>Выбор протокола
-                </a>
-              </li>
-              <li>
-                <a href="#" class="row align-items-center">
-                  <span class="menu_item_img"><i class="fas fa-fingerprint"></i></span>Ручная диагностика
-                </a>
-              </li> -->
               <li>
                 <a href="#" class="row align-items-center user_avatar">
                   <span class="menu_item_img"><?php echo get_avatar( $user_ID, 40 ); ?></span>Личный кабинет
