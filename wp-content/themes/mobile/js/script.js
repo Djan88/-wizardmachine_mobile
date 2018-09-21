@@ -44,7 +44,7 @@ jQuery(document).ready(function () {
     jQuery('.header-title').text('Перенесите зоны на фото');
     jQuery('.mobile_screen_protocols').addClass('hidden').css('display', 'none');
     jQuery('.mobile_screen_final').fadeIn(500);
-    jQuery('.btn-to_mode').addClass('hidden');
+    jQuery('.btn-to_mode, .choice_protocol').addClass('hidden');
     jQuery('.btn-to_protocols, .btn_man_with_zones, .btn_start').removeClass('hidden');
   });
 
