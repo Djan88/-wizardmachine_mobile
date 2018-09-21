@@ -41,7 +41,7 @@
                 <i class="fab fa-react"></i>
               </button>
               <button type="button" class="btn btn-lg btn-link btn_protocols hidden justify-content-end">
-                <i class="fab fa-react"></i>
+                <i class="far fa-check-square"></i>
               </button>
             </div>
           </div>

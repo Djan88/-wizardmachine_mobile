@@ -272,6 +272,11 @@ span.menu_item_img
 {
   width: 100%;
 }
+#diagnostic_container
+{
+  background: #673158;
+  box-shadow: 0 .5rem 1rem rgba(0,0,0,.15)!important;
+}
 input.crop_photo 
 {
   margin-top: 10px;
