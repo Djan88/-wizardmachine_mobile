@@ -171,10 +171,6 @@ jQuery(document).ready(function () {
     width: jQuery('.diagnostic_rezult').css('height')
   });
 
-  jQuery('.chart-container').css('height', jQuery('.diagnostic_rezult').css('width'));
-  jQuery('.chart-container').css('width', jQuery('.diagnostic_rezult').css('height'));
-
-
   // render chart
   var ctx = document.getElementById('myChart').getContext('2d');
   var chart = new Chart(ctx, {
