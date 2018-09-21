@@ -1,5 +1,6 @@
 jQuery(document).ready(function () {
   var cur_protocol,
+      croppedImg,
       cur_protocol_name,
       supportsStorage = function(){
           try {
@@ -10,6 +11,8 @@ jQuery(document).ready(function () {
       };
   // Unhide menu after load
   jQuery('#menu').removeClass('hidden');
+
+  croppedImg = jQuery('.protocols').children()[0];
 
   //Dragging elems
   jQuery( ".draggable" ).draggable({
@@ -63,8 +66,20 @@ jQuery(document).ready(function () {
     jQuery('.btn-to_img').addClass('hidden');
     jQuery('.mobile_screen_load').fadeIn(500);
     jQuery('.header-title').text('Загрузите фото');
+    if (croppedImg && croppedImg.hasAttribute('src')) {
+      jQuery('.btn_return').removeClass('hidden');
+    }
   });
-  
+
+  // return if img load
+  jQuery('.btn_return').on('click', function(event) {
+    jQuery('.mobile_screen').addClass('hidden').css('display', 'none');
+    jQuery('.btn-to_mode, .btn_protocol, .btn_protocols, .btn_return').addClass('hidden');
+    jQuery('.mobile_screen_what_way').fadeIn(500);
+    jQuery('.btn-to_img').removeClass('hidden');
+    jQuery('.header-title').text('Выберите режим');
+  });
+
     // to mode
   jQuery('.btn-to_mode').on('click', function(event) {
     jQuery('.mobile_screen').addClass('hidden').css('display', 'none');
@@ -132,7 +147,6 @@ jQuery(document).ready(function () {
 
 
   // If img already download
-  croppedImg = jQuery('.protocols').children()[0];
   if (croppedImg && croppedImg.hasAttribute('src')) {
     jQuery('.mobile_screen_load').addClass('hidden');
     jQuery('.mobile_screen_what_way').fadeIn(500);
