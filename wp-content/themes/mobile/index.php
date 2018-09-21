@@ -152,16 +152,18 @@
 								<i class="fab fa-react"></i>
 							</div>
 						</div>
-						<div class="col-1 text_center diagnostic_rezult">
+						<div class="col-2 text_center diagnostic_rezult">
 							
 						</div>
-						<div class="col-10 text_center zone_diag">
+						<div class="col-9 text_center zone_diag">
 							<img class="loaded_img" src="" alt="">
 						</div>
 					</div>
 					<div class="row">
 						<div class="col">
-							<canvas id="myChart"></canvas>
+							<div class="chart-container" style="position: relative;">
+								<canvas id="myChart"></canvas>
+							</div>
 						</div>
 					</div>
 				</div>
