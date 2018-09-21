@@ -12,8 +12,12 @@ jQuery(document).ready(function () {
   jQuery('#menu').removeClass('hidden');
 
   //Dragging elems
-  jQuery( ".draggable" ).draggable({ 
+  jQuery( ".draggable" ).draggable({
       snap: false
+  });
+  jQuery( ".draggable_y" ).draggable({
+      snap: false,
+      axis: "y"
   });
 
   // Render menu
@@ -63,7 +67,7 @@ jQuery(document).ready(function () {
     // to mode
   jQuery('.btn-to_mode').on('click', function(event) {
     jQuery('.mobile_screen').addClass('hidden').css('display', 'none');
-    jQuery('.btn-to_mode').addClass('hidden');
+    jQuery('.btn-to_mode, .btn_protocols').addClass('hidden');
     jQuery('.mobile_screen_what_way').fadeIn(500);
     jQuery('.btn-to_img').removeClass('hidden');
     jQuery('.header-title').text('Выберите режим');
@@ -87,14 +91,21 @@ jQuery(document).ready(function () {
     jQuery('.btn-to_img').addClass('hidden');
     jQuery('.btn-to_mode').removeClass('hidden');
   });
+  // Manual mode
+  jQuery('.mode-item_protocol').on('click', function(event) {
+    jQuery('.header-title').text('Выберите протокол');
+    jQuery('.mobile_screen_what_way').addClass('hidden').css('display', 'none');
+    jQuery('.mobile_screen_protocols').fadeIn(500);
+    jQuery('.btn-to_img').addClass('hidden');
+    jQuery('.btn-to_mode').removeClass('hidden');
+  });
   // Protocol choice
-  jQuery('.protocols_item').on('click', function(event) {
-    jQuery('.protocols_item').removeClass('active');
-    jQuery(this).addClass('active');
-    jQuery('.current_protocol_img').html(jQuery(this).find('.protocols_item_img').html());
-    jQuery('.current_protocol_title, .current_protocol_title_2').text(jQuery(this).find('.protocols_item_title').text())
-    jQuery('.current_protocol_content').text(jQuery(this).find('.protocols_item_content').text())
-    jQuery('.choice_protocol').removeClass('hidden');
+  jQuery('.mode-item_manual').on('click', function(event) {
+    jQuery('.header-title').text('Диагностика');
+    jQuery('.mobile_screen_what_way').addClass('hidden').css('display', 'none');
+    jQuery('.mobile_screen_manual').fadeIn(500);
+    jQuery('.btn-to_img').addClass('hidden');
+    jQuery('.btn-to_mode, .btn_protocols').removeClass('hidden');
   });
 
   //Hide img if already cropped

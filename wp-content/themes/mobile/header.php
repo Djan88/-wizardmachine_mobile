@@ -40,6 +40,9 @@
               <button type="button" class="btn btn-lg btn-link btn_start hidden justify-content-end">
                 <i class="fab fa-react"></i>
               </button>
+              <button type="button" class="btn btn-lg btn-link btn_protocols hidden justify-content-end">
+                <i class="fab fa-react"></i>
+              </button>
             </div>
           </div>
           <div id="content" class="content row">

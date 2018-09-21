@@ -147,7 +147,12 @@
 			<div class="row protocols_info">
 				<div class="col text_center">
 					<div class="row">
-						<div class="col-12 text_center">
+						<div class="col-2 text_center">
+							<div class="zone zone_diag draggable_y">
+								<i class="fab fa-react"></i>
+							</div>
+						</div>
+						<div class="col-10 text_center zone_diag">
 							<img class="loaded_img" src="" alt="">
 						</div>
 					</div>
@@ -189,7 +194,17 @@
 							</div>
 						</div>
 						<div class="col-12 text_center">
-							<img class="loaded_img" src="" alt="">
+							<div class="row">
+								<div class="col-1 text_center">
+									<div class="zone zone_x"></div>
+								</div>
+								<div class="col-10 text_center zone_diag">
+									<img class="loaded_img" src="" alt="">
+								</div>
+								<div class="col-1 text_center">
+									<div class="zone zone_l"></div>
+								</div>
+							</div>
 						</div>
 						<div class="col-12 text_center">
 							<button class="btn btn-primary btn_start"><i class="fab fa-react"></i> Выполнить</button>
