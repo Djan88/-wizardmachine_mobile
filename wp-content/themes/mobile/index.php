@@ -147,10 +147,13 @@
 			<div class="row protocols_info">
 				<div class="col text_center">
 					<div class="row">
-						<div class="col-2 text_center" id="diagnostic_container">
+						<div class="col-1 text_center diagnostic_container">
 							<div class="zone zone_diag draggable_y">
 								<i class="fab fa-react"></i>
 							</div>
+						</div>
+						<div class="col-1 text_center diagnostic_rezult">
+							
 						</div>
 						<div class="col-10 text_center zone_diag">
 							<img class="loaded_img" src="" alt="">
