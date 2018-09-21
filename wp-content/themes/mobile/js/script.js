@@ -168,24 +168,25 @@ jQuery(document).ready(function () {
 
 
   // render chart
-  var data = {
-    // A labels array that can contain any sort of values
-    labels: ['Mon', 'Tue', 'Wed', 'Thu', 'Fri'],
-    // Our series array that contains series objects or in this case series data arrays
-    series: [
-      [5, 2, 4, 2, 0]
-    ]
-  };
+  var ctx = document.getElementById('myChart').getContext('2d');
+  var chart = new Chart(ctx, {
+      // The type of chart we want to create
+      type: 'line',
 
-  var options = {
-    width: 300,
-    height: 200
-  };
+      // The data for our dataset
+      data: {
+          labels: ["January", "February", "March", "April", "May", "June", "July"],
+          datasets: [{
+              label: "My First dataset",
+              backgroundColor: 'rgb(255, 99, 132)',
+              borderColor: 'rgb(255, 99, 132)',
+              data: [0, 10, 5, 2, 20, 30, 45],
+          }]
+      },
 
-  // Create a new line chart object where as first parameter we pass in a selector
-  // that is resolving to our chart container element. The Second parameter
-  // is the actual data object.
-  new Chartist.Line('.ct-chart', data);
+      // Configuration options go here
+      options: {}
+  });
 
 //CROPPING SCRIPT
     // convert bytes into friendly format

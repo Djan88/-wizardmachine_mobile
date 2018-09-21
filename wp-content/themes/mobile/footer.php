@@ -46,7 +46,7 @@
     <script src="<?php echo get_template_directory_uri(); ?>/js/jquery.ui.touch-punch.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
     <script src="<?php echo get_template_directory_uri(); ?>/js/bootstrap.min.js"></script>
-    <script src="<?php echo get_template_directory_uri(); ?>/js/chartist.min.js"></script>
+    <script src="<?php echo get_template_directory_uri(); ?>/js/chart.min.js"></script>
     <script src="<?php echo get_template_directory_uri(); ?>/js/script.js"></script>
     <div class="modal" id="zones_template" tabindex="-1" role="dialog">
       <div class="modal-dialog" role="document">

@@ -161,7 +161,7 @@
 					</div>
 					<div class="row">
 						<div class="col">
-							<div class="ct-chart ct-perfect-fourth"></div>
+							<canvas id="myChart"></canvas>
 						</div>
 					</div>
 				</div>
