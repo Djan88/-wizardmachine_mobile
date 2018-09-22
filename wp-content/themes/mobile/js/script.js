@@ -189,6 +189,21 @@ jQuery(document).ready(function () {
 
       // Configuration options go here
       options: {
+        maintainAspectRatio: false,
+        scales: {
+          yAxes: [{
+            stacked: true,
+            gridLines: {
+              display: true,
+              color: "rgba(255,99,132,0.2)"
+            }
+          }],
+          xAxes: [{
+            gridLines: {
+              display: false
+            }
+          }]
+        },
         legend: {
           display: false
         }
