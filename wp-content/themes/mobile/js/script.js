@@ -2,6 +2,7 @@ jQuery(document).ready(function () {
   var cur_protocol,
       croppedImg,
       cur_protocol_name,
+      number_of_points,
       supportsStorage = function(){
           try {
               return 'localStorage' in window && window['localStorage'] !== null;
@@ -132,6 +133,13 @@ jQuery(document).ready(function () {
     jQuery('.btn-to_mode, .btn_protocols').removeClass('hidden');
     chart.canvas.parentNode.style.height = jQuery('.diagnostic_rezult').css('width');
     chart.canvas.parentNode.style.width = jQuery('.diagnostic_rezult').css('height');
+    number_of_points = parseFloat(jQuery('.diagnostic_rezult').css('height'));
+    function addData(chart) {
+        for (var i = 1; i >= number_of_points; i++) {
+          chart.data.labels.push(i);
+        }
+        chart.update();
+    }();
   });
 
   // Protocol choice
@@ -175,7 +183,7 @@ jQuery(document).ready(function () {
 
   // render chart
   Chart.defaults.global.elements.line.borderWidth = 1;
-  Chart.defaults.global.defaultFontColor = "rgba(255,255,255,0)";
+  // Chart.defaults.global.defaultFontColor = "rgba(255,255,255,0)";
 
   var ctx = document.getElementById('myChart').getContext('2d');
   var chart = new Chart(ctx, {
@@ -186,7 +194,7 @@ jQuery(document).ready(function () {
       data: {
         labels: ["January", "February", "March", "April", "May", "June", "July"],
         datasets: [{
-          label: "My First dataset",
+          label: "Manual Diagnostic",
           borderColor: 'rgb(255, 99, 132)',
           pointBorderColor: "rgba(255,255,255,0)",
           data: [0, 10, 5, 2, 20, 30, 45],
