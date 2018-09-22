@@ -151,7 +151,7 @@ jQuery(document).ready(function () {
     chart.canvas.parentNode.style.height = jQuery('.diagnostic_rezult').css('width');
     chart.canvas.parentNode.style.width = jQuery('.diagnostic_rezult').css('height');
     number_of_points = parseFloat(jQuery('.diagnostic_rezult').css('height'));
-    number_of_points = number_of_points;
+    number_of_points = number_of_points/2;
     for (var i = 0; i < number_of_points; i++) {
       chart.data.labels.push(i);
     }
@@ -204,7 +204,7 @@ jQuery(document).ready(function () {
 
   // render chart
   Chart.defaults.global.elements.line.borderWidth = 1;
-  // Chart.defaults.global.defaultFontColor = "rgba(255,255,255,0)";
+  Chart.defaults.global.defaultFontColor = "rgba(255,255,255,0)";
 
   var ctx = document.getElementById('myChart').getContext('2d');
   var chart = new Chart(ctx, {
