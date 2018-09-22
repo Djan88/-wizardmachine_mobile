@@ -185,9 +185,6 @@ jQuery(document).ready(function () {
       // The data for our dataset
       data: {
         labels: ["January", "February", "March", "April", "May", "June", "July"],
-        point: {
-          borderColor: "rgba(255,99,132,0.2)",
-        },
         datasets: [{
           label: "My First dataset",
           borderColor: 'rgb(255, 99, 132)',
@@ -220,6 +217,9 @@ jQuery(document).ready(function () {
         },
         tooltips: {
           enabled: false
+        },
+        point: {
+          borderColor: "rgba(255,99,132,0.2)"
         }
       }
   });
