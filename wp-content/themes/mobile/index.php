@@ -161,7 +161,9 @@
 					</div>
 					<div class="row">
 						<div class="col">
-							<canvas id="myChart"></canvas>
+							<div id="myChartWrap">
+								<canvas id="myChart"></canvas>
+							</div>
 						</div>
 					</div>
 				</div>

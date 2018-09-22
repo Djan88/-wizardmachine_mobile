@@ -194,6 +194,7 @@ jQuery(document).ready(function () {
         }
       }
   });
+  chart.canvas.parentNode.style.height = '128px';
 
 //CROPPING SCRIPT
     // convert bytes into friendly format
