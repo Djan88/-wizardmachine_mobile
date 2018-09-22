@@ -200,7 +200,7 @@ jQuery(document).ready(function () {
             stacked: true,
             gridLines: {
               display: false,
-              color: "rgba(255,99,132,0.2)"
+              color: "rgba(255,99,132,1)"
             }
           }],
           xAxes: [{
