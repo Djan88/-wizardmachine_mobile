@@ -175,7 +175,7 @@ jQuery(document).ready(function () {
 
   // render chart
   Chart.defaults.global.elements.line.borderWidth = 1;
-  // Chart.defaults.global.elements.point.borderWidth = 1;
+  Chart.defaults.global.elements.point.borderColor = 'rgba(255,255,255,0.2)';
 
   var ctx = document.getElementById('myChart').getContext('2d');
   var chart = new Chart(ctx, {
@@ -185,9 +185,6 @@ jQuery(document).ready(function () {
       // The data for our dataset
       data: {
         labels: ["January", "February", "March", "April", "May", "June", "July"],
-        point: {
-          borderColor: "rgba(255,255,255,0.2)"
-        },
         datasets: [{
           label: "My First dataset",
           borderColor: 'rgb(255, 99, 132)',
