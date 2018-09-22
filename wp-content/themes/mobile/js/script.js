@@ -175,7 +175,7 @@ jQuery(document).ready(function () {
 
   // render chart
   Chart.defaults.global.elements.line.borderWidth = 1;
-  Chart.defaults.global.elements.point.borderColor = 'rgba(255,255,255,0.2)';
+  Chart.defaults.global.elements.point.borderWidth = 3;
 
   var ctx = document.getElementById('myChart').getContext('2d');
   var chart = new Chart(ctx, {
