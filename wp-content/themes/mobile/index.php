@@ -147,6 +147,13 @@
 			<div class="row protocols_info">
 				<div class="col text_center">
 					<div class="row">
+						<div class="col">
+							<div id="myChartWrap">
+								<canvas id="myChart"></canvas>
+							</div>
+						</div>
+					</div>
+					<div class="row">
 						<div class="col-1 text_center diagnostic_container">
 							<div class="zone zone_diag draggable_y">
 								<i class="fab fa-react"></i>
@@ -157,13 +164,6 @@
 						</div>
 						<div class="col-9 text_center zone_diag">
 							<img class="loaded_img" src="" alt="">
-						</div>
-					</div>
-					<div class="row">
-						<div class="col">
-							<div id="myChartWrap">
-								<canvas id="myChart"></canvas>
-							</div>
 						</div>
 					</div>
 				</div>
