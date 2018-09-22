@@ -199,7 +199,7 @@ jQuery(document).ready(function () {
           yAxes: [{
             stacked: true,
             gridLines: {
-              display: true,
+              display: false,
               color: "rgba(255,99,132,0.2)"
             }
           }],
