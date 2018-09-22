@@ -134,8 +134,9 @@ jQuery(document).ready(function () {
     chart.canvas.parentNode.style.height = jQuery('.diagnostic_rezult').css('width');
     chart.canvas.parentNode.style.width = jQuery('.diagnostic_rezult').css('height');
     number_of_points = parseFloat(jQuery('.diagnostic_rezult').css('height'));
+    addData(chart);
   });
-  jQuery('.zone_diag').on('click', function(event) {
+  jQuery('.zone_diag').on('drag', function(event) {
     console.log('tst');
     addData(chart);
   });
@@ -225,7 +226,7 @@ jQuery(document).ready(function () {
         }
       }
   });
-  function addData(chart, label, data) {
+  function addData(chart, data) {
       for (var i = 0; i < number_of_points; i++) {
         chart.data.labels.push(i);
       }
