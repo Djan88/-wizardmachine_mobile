@@ -211,6 +211,9 @@ jQuery(document).ready(function () {
         },
         title: {
           display: false
+        },
+        tooltips: {
+          display: false
         }
       }
   });
