@@ -29,7 +29,7 @@ jQuery(document).ready(function () {
       drag: function() {
         console.log('tst');
         dragger = jQuery('.draggable_y').css('top');
-        dragger = knife.substr(0, knife.length - 2);
+        dragger = dragger.substr(0, dragger.length - 2);
         draggerDate = new Date();
         draggerDateDiff = draggerDate - draggerDateOld;
         draggerDateOld = draggerDate;
