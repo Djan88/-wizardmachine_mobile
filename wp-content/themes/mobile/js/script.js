@@ -130,6 +130,8 @@ jQuery(document).ready(function () {
     jQuery('.mobile_screen_manual').fadeIn(500);
     jQuery('.btn-to_img').addClass('hidden');
     jQuery('.btn-to_mode, .btn_protocols').removeClass('hidden');
+    chart.canvas.parentNode.style.height = jQuery('.diagnostic_rezult').css('width');
+    chart.canvas.parentNode.style.width = jQuery('.diagnostic_rezult').css('height');
   });
 
   // Protocol choice
@@ -209,10 +211,6 @@ jQuery(document).ready(function () {
         }
       }
   });
-  var result_h = jQuery('.diagnostic_rezult').css('width');
-  var result_w = jQuery('.diagnostic_rezult').css('height');
-  chart.canvas.parentNode.style.height = '107px';
-  chart.canvas.parentNode.style.width = '468px';
 
 //CROPPING SCRIPT
     // convert bytes into friendly format
