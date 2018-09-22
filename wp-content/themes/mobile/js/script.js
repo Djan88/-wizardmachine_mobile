@@ -197,7 +197,7 @@ jQuery(document).ready(function () {
         maintainAspectRatio: false,
         point: {
           borderColor: "rgba(255,99,132,0.2)",
-        }
+        },
         scales: {
           yAxes: [{
             stacked: true,
