@@ -187,6 +187,7 @@ jQuery(document).ready(function () {
         datasets: [{
           label: "My First dataset",
           borderColor: 'rgb(255, 99, 132)',
+          pointBorderColor: "rgba(255,255,255,0)",
           data: [0, 10, 5, 2, 20, 30, 45],
         }]
       },
@@ -208,7 +209,6 @@ jQuery(document).ready(function () {
             }
           }]
         },
-        pointBorderColor: "rgba(255,255,255,0)",
         legend: {
           display: false
         },
