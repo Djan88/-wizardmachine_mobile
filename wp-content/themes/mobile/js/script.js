@@ -2,6 +2,9 @@ jQuery(document).ready(function () {
   var cur_protocol,
       croppedImg,
       cur_protocol_name,
+      dragger,
+      draggerDate,
+      draggerDateDiff,
       number_of_points,
       supportsStorage = function(){
           try {
@@ -22,7 +25,16 @@ jQuery(document).ready(function () {
   jQuery( ".draggable_y" ).draggable({
       snap: false,
       containment: '.diagnostic_container',
-      axis: "y"
+      axis: "y",
+      drag: function() {
+        console.log('tst');
+        dragger = jQuery('.draggable_y').css('top');
+        dragger = knife.substr(0, knife.length - 2);
+        draggerDate = new Date();
+        draggerDateDiff = draggerDate - draggerDateOld;
+        draggerDateOld = draggerDate;
+        addData(chart, dragger, draggerDateDiff);
+      }
   });
 
   // Render menu
@@ -144,10 +156,6 @@ jQuery(document).ready(function () {
     });
     chart.update();
   });
-  jQuery('.zone_diag').on('drag', function(event) {
-    console.log('tst');
-    addData(chart);
-  });
 
   // Protocol choice
   jQuery('.protocols_item').on('click', function(event) {
@@ -234,11 +242,11 @@ jQuery(document).ready(function () {
         }
       }
   });
-  function addData(chart, data) {
-      for (var i = 0; i < number_of_points; i++) {
-        chart.data.labels.push(i);
-      }
-      chart.update();
+  function addData(chart, index, data) {
+    chart.data.datasets.forEach((dataset) => {
+      dataset.data[index] = data;
+    });
+    chart.update();
   };
 
 //CROPPING SCRIPT
