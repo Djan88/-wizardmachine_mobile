@@ -209,8 +209,10 @@ jQuery(document).ready(function () {
         }
       }
   });
-  chart.canvas.parentNode.style.height = jQuery('.diagnostic_rezult').css('width');
-  chart.canvas.parentNode.style.width = jQuery('.diagnostic_rezult').css('height');
+  var result_h = jQuery('.diagnostic_rezult').css('width');
+  var result_w = jQuery('.diagnostic_rezult').css('height');
+  chart.canvas.parentNode.style.height = result_h;
+  chart.canvas.parentNode.style.width = result_w;
 
 //CROPPING SCRIPT
     // convert bytes into friendly format
