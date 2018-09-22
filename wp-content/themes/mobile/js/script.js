@@ -190,7 +190,7 @@ jQuery(document).ready(function () {
 
       // The data for our dataset
       data: {
-        labels: ["January", "February", "March", "April", "May", "June", "July"],
+        labels: [],
         datasets: [{
           label: "Manual Diagnostic",
           borderColor: 'rgb(255, 99, 132)',
