@@ -147,6 +147,7 @@ jQuery(document).ready(function () {
     chart.canvas.parentNode.style.height = jQuery('.diagnostic_rezult').css('width');
     chart.canvas.parentNode.style.width = jQuery('.diagnostic_rezult').css('height');
     number_of_points = parseFloat(jQuery('.diagnostic_rezult').css('height'));
+    number_of_points = number_of_points / 10;
     for (var i = 0; i < number_of_points; i++) {
       chart.data.labels.push(i);
     }
