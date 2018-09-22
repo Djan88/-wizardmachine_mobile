@@ -156,7 +156,7 @@ jQuery(document).ready(function () {
       chart.data.labels.push(i);
     }
     chart.data.datasets.forEach((dataset) => {
-      for (var i = 0; i < number_of_points; i++) {
+      for (var i = 1; i < number_of_points; i++) {
         dataset.data.push(1);
       }
     });
@@ -218,7 +218,7 @@ jQuery(document).ready(function () {
           label: "Manual Diagnostic",
           borderColor: 'rgb(255, 99, 132)',
           pointBorderColor: "rgba(255,255,255,0)",
-          data: [],
+          data: [400],
         }]
       },
 
