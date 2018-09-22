@@ -143,6 +143,7 @@ jQuery(document).ready(function () {
       chart.update();
   };
   jQuery('.zone_diag').on('click', function(event) {
+    console.log('tst');
     addData(chart);
   });
 
