@@ -144,7 +144,7 @@ jQuery(document).ready(function () {
   };
   jQuery('.zone_diag').on('click', function(event) {
     console.log('tst');
-    addData(chart);
+    addData(chart)();
   });
 
   // Protocol choice
