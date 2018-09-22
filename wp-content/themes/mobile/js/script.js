@@ -190,7 +190,7 @@ jQuery(document).ready(function () {
 
       // The data for our dataset
       data: {
-        labels: [],
+        labels: ["January", "February", "March", "April", "May", "June", "July"],
         datasets: [{
           label: "Manual Diagnostic",
           borderColor: 'rgb(255, 99, 132)',
@@ -226,7 +226,7 @@ jQuery(document).ready(function () {
       }
   });
   function addData(chart, label, data) {
-      for (var i = 1; i >= number_of_points; i++) {
+      for (var i = 1; i <= number_of_points; i++) {
         chart.data.labels.push(i);
       }
       chart.update();
