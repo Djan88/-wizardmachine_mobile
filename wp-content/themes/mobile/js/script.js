@@ -197,10 +197,8 @@ jQuery(document).ready(function () {
         maintainAspectRatio: false,
         scales: {
           yAxes: [{
-            stacked: true,
             gridLines: {
-              display: false,
-              color: "rgba(255,99,132,0.2)"
+              display: false
             }
           }],
           xAxes: [{
