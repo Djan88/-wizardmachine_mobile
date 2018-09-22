@@ -211,8 +211,8 @@ jQuery(document).ready(function () {
   });
   var result_h = jQuery('.diagnostic_rezult').css('width');
   var result_w = jQuery('.diagnostic_rezult').css('height');
-  chart.canvas.parentNode.style.height = result_h;
-  chart.canvas.parentNode.style.width = result_w;
+  chart.canvas.parentNode.style.height = '107px';
+  chart.canvas.parentNode.style.width = '468px';
 
 //CROPPING SCRIPT
     // convert bytes into friendly format
