@@ -32,7 +32,7 @@ jQuery(document).ready(function () {
         dragger = jQuery('.draggable_y').css('top');
         dragger = dragger.substr(0, dragger.length - 2);
         draggerDate = new Date();
-        draggerDate = draggerDate / 10;
+        draggerDate = draggerDate;
         draggerDateDiff = (draggerDate - draggerDateOld);
         if (draggerDateDiff > 400) {
           draggerDateDiff = 400
