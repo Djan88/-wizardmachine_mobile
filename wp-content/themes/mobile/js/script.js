@@ -175,7 +175,6 @@ jQuery(document).ready(function () {
 
   // render chart
   Chart.defaults.global.elements.line.borderWidth = 1;
-  Chart.defaults.global.elements.point.borderColor = 'transparent';
 
   var ctx = document.getElementById('myChart').getContext('2d');
   var chart = new Chart(ctx, {
@@ -200,14 +199,15 @@ jQuery(document).ready(function () {
             stacked: true,
             gridLines: {
               display: false,
-              color: "rgba(255,99,132,1)"
+              color: "rgba(255,99,132,0.2)"
             }
           }],
           xAxes: [{
             gridLines: {
               display: false
             }
-          }]
+          }],
+          pointBorderColor: "rgba(255,255,255,0)"
         },
         legend: {
           display: false
