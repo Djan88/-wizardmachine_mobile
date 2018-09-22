@@ -206,9 +206,9 @@ jQuery(document).ready(function () {
             gridLines: {
               display: false
             }
-          }],
-          pointBorderColor: "rgba(255,255,255,0)"
+          }]
         },
+        pointBorderColor: "rgba(255,255,255,0)",
         legend: {
           display: false
         },
@@ -217,11 +217,6 @@ jQuery(document).ready(function () {
         },
         tooltips: {
           enabled: false
-        },
-        elements: {
-          point: {
-            borderColor: "rgba(255,99,132,0.2)"
-          }
         }
       }
   });
