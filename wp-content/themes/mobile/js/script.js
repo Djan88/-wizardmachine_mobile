@@ -5,6 +5,7 @@ jQuery(document).ready(function () {
       dragger,
       draggerDate,
       draggerDateDiff,
+      draggerDateOld = null,
       number_of_points,
       supportsStorage = function(){
           try {
