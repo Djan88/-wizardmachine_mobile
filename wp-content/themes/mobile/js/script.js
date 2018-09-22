@@ -214,6 +214,9 @@ jQuery(document).ready(function () {
         },
         tooltips: {
           enabled: false
+        },
+        point: {
+          borderColor: "rgba(255,255,255,0.2)"
         }
       }
   });
