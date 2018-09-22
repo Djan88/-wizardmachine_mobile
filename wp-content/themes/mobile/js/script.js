@@ -134,7 +134,10 @@ jQuery(document).ready(function () {
     chart.canvas.parentNode.style.height = jQuery('.diagnostic_rezult').css('width');
     chart.canvas.parentNode.style.width = jQuery('.diagnostic_rezult').css('height');
     number_of_points = parseFloat(jQuery('.diagnostic_rezult').css('height'));
-    addData(chart);
+    for (var i = 0; i < number_of_points; i++) {
+      chart.data.labels.push(i);
+    }
+    chart.update();
   });
   jQuery('.zone_diag').on('drag', function(event) {
     console.log('tst');
