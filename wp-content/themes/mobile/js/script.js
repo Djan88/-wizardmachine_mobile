@@ -135,16 +135,9 @@ jQuery(document).ready(function () {
     chart.canvas.parentNode.style.width = jQuery('.diagnostic_rezult').css('height');
     number_of_points = parseFloat(jQuery('.diagnostic_rezult').css('height'));
   });
-
-  function addData(chart, label, data) {
-      for (var i = 1; i >= number_of_points; i++) {
-        chart.data.labels.push(i);
-      }
-      chart.update();
-  };
   jQuery('.zone_diag').on('click', function(event) {
     console.log('tst');
-    addData(chart)();
+    addData(chart);
   });
 
   // Protocol choice
@@ -232,6 +225,12 @@ jQuery(document).ready(function () {
         }
       }
   });
+  function addData(chart, label, data) {
+      for (var i = 1; i >= number_of_points; i++) {
+        chart.data.labels.push(i);
+      }
+      chart.update();
+  };
 
 //CROPPING SCRIPT
     // convert bytes into friendly format
