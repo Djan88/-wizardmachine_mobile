@@ -218,8 +218,10 @@ jQuery(document).ready(function () {
         tooltips: {
           enabled: false
         },
-        point: {
-          borderColor: "rgba(255,99,132,0.2)"
+        elements: {
+          point: {
+            borderColor: "rgba(255,99,132,0.2)"
+          }
         }
       }
   });
