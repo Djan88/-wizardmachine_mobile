@@ -32,7 +32,7 @@ jQuery(document).ready(function () {
         dragger = jQuery('.draggable_y').css('top');
         dragger = dragger.substr(0, dragger.length - 2);
         draggerDate = new Date();
-        draggerDateDiff = draggerDate - draggerDateOld;
+        draggerDateDiff = (draggerDate - draggerDateOld) / 100;
         draggerDateOld = draggerDate;
         addData(chart, dragger, draggerDateDiff);
       }
