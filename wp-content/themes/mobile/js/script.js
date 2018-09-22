@@ -218,6 +218,7 @@ jQuery(document).ready(function () {
           label: "Manual Diagnostic",
           borderColor: 'rgb(255, 99, 132)',
           pointBorderColor: "rgba(255,255,255,0)",
+          backgroundColor: "rgba(255,255,255,0)",
           data: [400],
         }]
       },
