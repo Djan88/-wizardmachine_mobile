@@ -137,6 +137,11 @@ jQuery(document).ready(function () {
     for (var i = 0; i < number_of_points; i++) {
       chart.data.labels.push(i);
     }
+    chart.data.datasets.forEach((dataset) => {
+      for (var i = 0; i < number_of_points; i++) {
+        dataset.data.push(i);
+      }
+    });
     chart.update();
   });
   jQuery('.zone_diag').on('drag', function(event) {
@@ -199,7 +204,7 @@ jQuery(document).ready(function () {
           label: "Manual Diagnostic",
           borderColor: 'rgb(255, 99, 132)',
           pointBorderColor: "rgba(255,255,255,0)",
-          data: [0, 10, 5, 2, 20, 30, 45],
+          data: [],
         }]
       },
 
