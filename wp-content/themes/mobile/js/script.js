@@ -32,7 +32,7 @@ jQuery(document).ready(function () {
         dragger = jQuery('.draggable_y').css('top');
         dragger = dragger.substr(0, dragger.length - 2);
         draggerDate = new Date();
-        draggerDate = draggerDate;
+        draggerDate = draggerDate * 2;
         draggerDateDiff = (draggerDate - draggerDateOld);
         if (draggerDateDiff > 200) {
           draggerDateDiff = 200
@@ -151,7 +151,7 @@ jQuery(document).ready(function () {
     chart.canvas.parentNode.style.height = jQuery('.diagnostic_rezult').css('width');
     chart.canvas.parentNode.style.width = jQuery('.diagnostic_rezult').css('height');
     number_of_points = parseFloat(jQuery('.diagnostic_rezult').css('height'));
-    number_of_points = number_of_points;
+    number_of_points = number_of_points / 10;
     for (var i = 0; i < number_of_points; i++) {
       chart.data.labels.push(i);
     }
