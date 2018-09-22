@@ -179,6 +179,7 @@ jQuery(document).ready(function () {
 
       // The data for our dataset
       data: {
+        labels: ["January", "February", "March", "April", "May", "June", "July"],
         datasets: [{
           label: "My First dataset",
           backgroundColor: 'rgb(255, 99, 132)',
