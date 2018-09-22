@@ -288,6 +288,10 @@ span.menu_item_img
   padding-right: 0;
   position: relative;
 }
+#myChart
+{
+  transform: rotate(90deg);
+}
 input.crop_photo 
 {
   margin-top: 10px;
