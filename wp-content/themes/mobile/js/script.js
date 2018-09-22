@@ -175,6 +175,7 @@ jQuery(document).ready(function () {
 
   // render chart
   Chart.defaults.global.elements.line.borderWidth = 1;
+  Chart.defaults.global.defaultFontColor = "rgba(255,255,255,0)";
 
   var ctx = document.getElementById('myChart').getContext('2d');
   var chart = new Chart(ctx, {
