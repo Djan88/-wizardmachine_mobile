@@ -153,7 +153,7 @@ jQuery(document).ready(function () {
     number_of_points = parseFloat(jQuery('.diagnostic_rezult').css('height'));
     number_of_points = number_of_points;
     for (var i = 0; i < number_of_points; i++) {
-      chart.data.labels.push(i);
+      chart.data.labels.push(1);
     }
     chart.data.datasets.forEach((dataset) => {
       for (var i = 0; i < number_of_points; i++) {
