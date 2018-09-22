@@ -213,7 +213,7 @@ jQuery(document).ready(function () {
           display: false
         },
         tooltips: {
-          display: false
+          enabled: false
         }
       }
   });
