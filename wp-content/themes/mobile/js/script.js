@@ -34,8 +34,8 @@ jQuery(document).ready(function () {
         draggerDate = new Date();
         draggerDate = draggerDate;
         draggerDateDiff = (draggerDate - draggerDateOld);
-        if (draggerDateDiff > 400) {
-          draggerDateDiff = 400
+        if (draggerDateDiff > 200) {
+          draggerDateDiff = 200
         }
         draggerDateOld = draggerDate;
         addData(chart, dragger, draggerDateDiff);
