@@ -187,7 +187,7 @@ jQuery(document).ready(function () {
         labels: ["January", "February", "March", "April", "May", "June", "July"],
         datasets: [{
           label: "My First dataset",
-          borderColor: 'rgba(255,99,132,0.2)',
+          borderColor: 'rgb(255, 99, 132)',
           data: [0, 10, 5, 2, 20, 30, 45],
         }]
       },
@@ -195,6 +195,9 @@ jQuery(document).ready(function () {
       // Configuration options go here
       options: {
         maintainAspectRatio: false,
+        point: {
+          borderColor: "rgba(255,99,132,0.2)",
+        }
         scales: {
           yAxes: [{
             stacked: true,
