@@ -207,7 +207,10 @@ jQuery(document).ready(function () {
           }]
         },
         legend: {
-          display: false
+          display: true,
+          labels: {
+            fontColor: 'rgb(255, 99, 132)'
+          }
         }
       }
   });
