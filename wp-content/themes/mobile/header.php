@@ -41,11 +41,11 @@
               <button type="button" class="btn btn-lg btn-link btn_start hidden justify-content-end">
                 <i class="fab fa-react"></i>
               </button>
-              <button type="button" class="btn btn-lg btn-link btn_protocols hidden justify-content-end">
-                <i class="far fa-check-square"></i>
-              </button>
               <button type="button" class="btn btn-lg btn-link clear_graph hidden justify-content-end">
                 <i class="far fa-trash-alt"></i>
+              </button>
+              <button type="button" class="btn btn-lg btn-link btn_protocols hidden justify-content-end">
+                <i class="far fa-check-square"></i>
               </button>
               <button type="button" class="btn btn-lg btn-link btn_return hidden justify-content-end">
                 <i class="far fa-arrow-alt-circle-right"></i>
