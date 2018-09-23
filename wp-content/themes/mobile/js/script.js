@@ -213,13 +213,13 @@ jQuery(document).ready(function () {
 
       // The data for our dataset
       data: {
-        labels: [],
+        labels: [1, 2, 3 ,4],
         datasets: [{
           label: "Manual Diagnostic",
           borderColor: 'rgb(255, 99, 132)',
           pointBorderColor: "rgba(255,255,255,0)",
           backgroundColor: "rgba(255,255,255,0)",
-          data: [400],
+          data: [400, 200, 300,],
         }]
       },
 
