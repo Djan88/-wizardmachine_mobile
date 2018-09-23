@@ -158,9 +158,6 @@
 							</div>
 						</div>
 						<div class="col-2 text_center diagnostic_rezult">
-							<!-- <div id="myChartWrap">
-								<canvas id="myChart"></canvas>
-							</div> -->
 						</div>
 						<div class="col-8 text_center zone_diag">
 							<img class="loaded_img" src="" alt="">
@@ -203,18 +200,10 @@
 								</div>
 							</div>
 						</div>
-						<div class="col-12 text_center">
-							<div class="row">
-								<div class="col-1 text_center">
-									<div class="zone zone_x"></div>
-								</div>
-								<div class="col-10 text_center zone_diag">
-									<img class="loaded_img" src="" alt="">
-								</div>
-								<div class="col-1 text_center">
-									<div class="zone zone_l"></div>
-								</div>
-							</div>
+						<div class="col-12 text_center zone_diag">
+							<div class="zone zone_x"></div>
+							<div><img class="loaded_img" src="" alt=""></div>
+							<div class="zone zone_l"></div>
 						</div>
 						<div class="col-12 text_center">
 							<button class="btn btn-primary btn_start"><i class="fab fa-react"></i> Выполнить</button>
