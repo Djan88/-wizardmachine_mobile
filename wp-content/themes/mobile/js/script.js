@@ -40,9 +40,9 @@ jQuery(document).ready(function () {
         // }
         // draggerDateOld = draggerDate;
         // addData(chart, dragger, draggerDateDiff);
-        dragger_rate_class = 'dragger_rate-'+knife;
-        dragger_rate_class_dotted = '.dragger_rate-'+knife;
-        jQuery('.diagnostic_rezult').append('<div class='+knife_rate_class+'></div>');
+        dragger_rate_class = 'dragger_rate-'+dragger;
+        dragger_rate_class_dotted = '.dragger_rate-'+dragger;
+        jQuery('.diagnostic_rezult').append('<div class='+dragger_rate_class+'></div>');
         jQuery(dragger_rate_class_dotted).addClass('dragger_rate').css({
             top: +dragger+45+'px',
             width: draggerDateDiff*2+'px'
