@@ -283,6 +283,7 @@ span.menu_item_img
 }
 .diagnostic_rezult
 {
+  padding-top: 10px;
   padding-right: 0;
   position: relative;
 }
