@@ -157,9 +157,7 @@
 								<i class="fas fa-arrows-alt-v"></i>
 							</div>
 						</div>
-						<div class="col-2 text_center diagnostic_rezult">
-						</div>
-						<div class="col-8 text_center zone_diag">
+						<div class="col-10 text_center zone_diag diagnostic_rezult">
 							<img class="loaded_img" src="" alt="">
 						</div>
 					</div>
