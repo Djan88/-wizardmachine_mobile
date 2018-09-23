@@ -240,7 +240,7 @@ jQuery(document).ready(function () {
         legend: {
           display: true,
           labels: {
-            fontColor: 'rgb(255, 99, 132)'
+            hidden: false
           }
         },
         title: {
