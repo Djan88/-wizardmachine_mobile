@@ -233,6 +233,7 @@ jQuery(document).ready(function () {
             }
           }],
           xAxes: [{
+            display: false,
             gridLines: {
               display: false
             }
