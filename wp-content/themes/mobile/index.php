@@ -154,7 +154,7 @@
 					<div class="row">
 						<div class="col-2 text_center diagnostic_container">
 							<div class="zone zone_diag draggable_y">
-								<i class="fab fa-react"></i>
+								<i class="fas fa-arrows-alt-v"></i>
 							</div>
 						</div>
 						<div class="col-2 text_center diagnostic_rezult">
