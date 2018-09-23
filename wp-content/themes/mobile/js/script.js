@@ -251,8 +251,8 @@ jQuery(document).ready(function () {
   function addData(chart, index, data) {
     chart.data.datasets.forEach((dataset) => {
       dataset.data[index] = data;
+      console.log(dataset.data)
     });
-    console.log(dataset.data)
     chart.update();
   };
 
