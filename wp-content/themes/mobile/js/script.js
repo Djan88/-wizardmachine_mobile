@@ -39,7 +39,7 @@ jQuery(document).ready(function () {
         dragger_rate_class_dotted = '.dragger_rate-'+dragger;
         jQuery('.diagnostic_rezult').append('<div class='+dragger_rate_class+'></div>');
         jQuery(dragger_rate_class_dotted).addClass('dragger_rate').css({
-            top: +dragger+45+'px',
+            top: +dragger+25+'px',
             width: draggerDateDiff*2+'px'
         });
         draggerDateOld = draggerDate;
