@@ -158,9 +158,9 @@
 							</div>
 						</div>
 						<div class="col-2 text_center diagnostic_rezult">
-							<div id="myChartWrap">
+							<!-- <div id="myChartWrap">
 								<canvas id="myChart"></canvas>
-							</div>
+							</div> -->
 						</div>
 						<div class="col-8 text_center zone_diag">
 							<img class="loaded_img" src="" alt="">

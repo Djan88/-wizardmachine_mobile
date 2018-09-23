@@ -302,6 +302,18 @@ input.crop_photo
 {
   margin: 10px 0;
 }
+.dragger_rate {
+    height: 3px;
+    width: 0;
+    border-top-right-radius: 50%;
+    border-bottom-right-radius: 50%;
+    max-width: 100%;
+    background: #5e1043;
+    position: absolute;
+    -webkit-transition: width 0.5s linear;
+    -moz-transition: width 0.5s linear;
+    transition: width 0.5s linear;
+}
 @media (max-width: 720px) {
   .mobile_screen_what_way 
   {

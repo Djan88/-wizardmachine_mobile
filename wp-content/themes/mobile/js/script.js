@@ -5,6 +5,8 @@ jQuery(document).ready(function () {
       dragger,
       draggerDate,
       draggerDateDiff,
+      dragger_rate_class,
+      dragger_rate_class_dotted,
       draggerDateOld = null,
       number_of_points,
       supportsStorage = function(){
@@ -32,12 +34,19 @@ jQuery(document).ready(function () {
         dragger = dragger.substr(0, dragger.length - 2);
         draggerDate = new Date();
         draggerDate = draggerDate * 2;
-        draggerDateDiff = (draggerDate - draggerDateOld);
-        if (draggerDateDiff > 75) {
-          draggerDateDiff = 75
-        }
-        draggerDateOld = draggerDate;
-        addData(chart, dragger, draggerDateDiff);
+        // draggerDateDiff = (draggerDate - draggerDateOld);
+        // if (draggerDateDiff > 75) {
+        //   draggerDateDiff = 75
+        // }
+        // draggerDateOld = draggerDate;
+        // addData(chart, dragger, draggerDateDiff);
+        dragger_rate_class = 'dragger_rate-'+knife;
+        dragger_rate_class_dotted = '.dragger_rate-'+knife;
+        jQuery('.diagnostic_rezult').append('<div class='+knife_rate_class+'></div>');
+        jQuery(dragger_rate_class_dotted).addClass('dragger_rate').css({
+            top: +dragger+45+'px',
+            width: draggerDateDiff*2+'px'
+        });
       }
   });
 
@@ -147,19 +156,19 @@ jQuery(document).ready(function () {
     jQuery('.mobile_screen_manual').fadeIn(500);
     jQuery('.btn-to_img').addClass('hidden');
     jQuery('.btn-to_mode, .btn_protocols').removeClass('hidden');
-    chart.canvas.parentNode.style.height = jQuery('.diagnostic_rezult').css('width');
-    chart.canvas.parentNode.style.width = jQuery('.diagnostic_rezult').css('height');
-    number_of_points = parseFloat(jQuery('.diagnostic_rezult').css('height'));
-    number_of_points = number_of_points;
-    for (var i = 0; i < number_of_points; i++) {
-      chart.data.labels.push(i);
-    }
-    chart.data.datasets.forEach((dataset) => {
-      for (var i = 1; i < number_of_points; i++) {
-        dataset.data.push(1);
-      }
-    });
-    chart.update();
+    // chart.canvas.parentNode.style.height = jQuery('.diagnostic_rezult').css('width');
+    // chart.canvas.parentNode.style.width = jQuery('.diagnostic_rezult').css('height');
+    // number_of_points = parseFloat(jQuery('.diagnostic_rezult').css('height'));
+    // number_of_points = number_of_points;
+    // for (var i = 0; i < number_of_points; i++) {
+    //   chart.data.labels.push(i);
+    // }
+    // chart.data.datasets.forEach((dataset) => {
+    //   for (var i = 1; i < number_of_points; i++) {
+    //     dataset.data.push(1);
+    //   }
+    // });
+    // chart.update();
   });
 
   // Protocol choice
