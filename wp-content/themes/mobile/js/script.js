@@ -34,6 +34,7 @@ jQuery(document).ready(function () {
         dragger = dragger.substr(0, dragger.length - 2);
         draggerDate = new Date();
         draggerDateDiff = draggerDate - draggerDateOld;
+        console.log(draggerDateDiff);
         dragger_rate_class = 'dragger_rate-'+dragger;
         dragger_rate_class_dotted = '.dragger_rate-'+dragger;
         jQuery('.diagnostic_rezult').append('<div class='+dragger_rate_class+'></div>');
