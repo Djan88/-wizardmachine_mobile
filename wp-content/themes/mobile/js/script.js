@@ -148,8 +148,8 @@ jQuery(document).ready(function () {
     jQuery('.mobile_screen_manual').fadeIn(500);
     jQuery('.btn-to_img').addClass('hidden');
     jQuery('.btn-to_mode, .btn_protocols').removeClass('hidden');
-    // chart.canvas.parentNode.style.height = jQuery('.diagnostic_rezult').css('width');
-    // chart.canvas.parentNode.style.width = jQuery('.diagnostic_rezult').css('height');
+    chart.canvas.parentNode.style.height = jQuery('.diagnostic_rezult').css('height');
+    chart.canvas.parentNode.style.width = jQuery('.diagnostic_rezult').css('width');
     number_of_points = parseFloat(jQuery('.diagnostic_rezult').css('height'));
     number_of_points = number_of_points;
     for (var i = 0; i < number_of_points; i++) {
