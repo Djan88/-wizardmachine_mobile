@@ -234,6 +234,7 @@ span.menu_item_img
   margin: auto;
   max-width: 600px;
   padding: 10px 0;
+  padding-right: 5px;
 }
 .zone.zone_final 
 {
