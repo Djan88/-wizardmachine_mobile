@@ -202,7 +202,7 @@
 						</div>
 						<div class="col-12 text_center zone_diag">
 							<div class="zone zone_final zone_x"></div>
-							<div><img class="loaded_img" src="" alt=""></div>
+							<img class="loaded_img" src="" alt="">
 							<div class="zone zone_final zone_l"></div>
 						</div>
 						<div class="col-12 text_center">
