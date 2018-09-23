@@ -34,7 +34,7 @@ jQuery(document).ready(function () {
         dragger = dragger.substr(0, dragger.length - 2);
         draggerDate = new Date();
         draggerDate = draggerDate * 2;
-        // draggerDateDiff = (draggerDate - draggerDateOld);
+        draggerDateDiff = (draggerDate - draggerDateOld);
         // if (draggerDateDiff > 75) {
         //   draggerDateDiff = 75
         // }
