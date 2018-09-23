@@ -283,9 +283,9 @@ span.menu_item_img
 }
 .diagnostic_rezult
 {
-  background: #FFF0C7;
-  border-radius: 3px;
+  padding-top: 10px;
   padding-right: 0;
+  padding-left: 0;
   position: relative;
 }
 #myChart
@@ -302,6 +302,18 @@ input.crop_photo
 .mobile_screen_what_way .btn 
 {
   margin: 10px 0;
+}
+.dragger_rate {
+    height: 3px;
+    width: 0;
+    border-top-right-radius: 50%;
+    border-bottom-right-radius: 50%;
+    max-width: 100%;
+    background: #FFF0C7;
+    position: absolute;
+    -webkit-transition: width 0.5s linear;
+    -moz-transition: width 0.5s linear;
+    transition: width 0.5s linear;
 }
 @media (max-width: 720px) {
   .mobile_screen_what_way 
@@ -322,5 +334,10 @@ input.crop_photo
     {
       margin: 0;
       margin-bottom: 20px;
+    }
+    #myChart
+    {
+      left: -145px;
+      top: 150px;
     }
 }
