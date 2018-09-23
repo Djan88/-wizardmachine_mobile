@@ -291,7 +291,7 @@ span.menu_item_img
 #myChart
 {
   transform: rotate(90deg);
-  left: -220px;
+  left: -180px;
   top: 180px;
   position: absolute;
 }
