@@ -64,6 +64,11 @@ jQuery(document).ready(function () {
     localStorage.setItem('protocol', cur_protocol);
   });
 
+  // clear graph
+  jQuery('.clear_graph').on('click', function(event) {
+    jQuery('.dragger_rate').detach();
+  });
+
   // final screen show
   jQuery('.choice_protocol').on('click', function(event) {
     jQuery('.header-title').text('Перенесите зоны на фото');
@@ -97,7 +102,7 @@ jQuery(document).ready(function () {
   // return if img load
   jQuery('.btn_return').on('click', function(event) {
     jQuery('.mobile_screen').addClass('hidden').css('display', 'none');
-    jQuery('.btn-to_mode, .btn_protocol, .btn_protocols, .btn_return').addClass('hidden');
+    jQuery('.btn-to_mode, .btn_protocol, .btn_protocols, .clear_graph, .btn_return').addClass('hidden');
     jQuery('.mobile_screen_what_way').fadeIn(500);
     jQuery('.btn-to_img').removeClass('hidden');
     jQuery('.header-title').text('Выберите режим');
@@ -106,7 +111,7 @@ jQuery(document).ready(function () {
     // to mode
   jQuery('.btn-to_mode').on('click', function(event) {
     jQuery('.mobile_screen').addClass('hidden').css('display', 'none');
-    jQuery('.btn-to_mode, .btn_protocol, .btn_protocols').addClass('hidden');
+    jQuery('.btn-to_mode, .btn_protocol, .btn_protocols, .clear_graph').addClass('hidden');
     jQuery('.mobile_screen_what_way').fadeIn(500);
     jQuery('.btn-to_img').removeClass('hidden');
     jQuery('.header-title').text('Выберите режим');
@@ -126,7 +131,7 @@ jQuery(document).ready(function () {
     jQuery('.mobile_screen').addClass('hidden').css('display', 'none');
     jQuery('.btn-to_protocols, .btn_start, .btn-to_manual, .btn_man_with_zones').addClass('hidden');
     jQuery('.mobile_screen_manual').fadeIn(500);
-    jQuery('.btn-to_mode, .btn_protocols').removeClass('hidden');
+    jQuery('.btn-to_mode, .btn_protocols, .clear_graph').removeClass('hidden');
     jQuery('.header-title').text('Диагностика');
   });
   // --------
@@ -143,7 +148,7 @@ jQuery(document).ready(function () {
     jQuery('.header-title').text('Выберите протокол');
     jQuery('.mobile_screen_manual').addClass('hidden').css('display', 'none');
     jQuery('.mobile_screen_protocols').fadeIn(500);
-    jQuery('.btn-to_mode, .btn_protocols').addClass('hidden');
+    jQuery('.btn-to_mode, .btn_protocols, .clear_graph').addClass('hidden');
     jQuery('.btn-to_manual').removeClass('hidden');
   });
   // Protocol choice
