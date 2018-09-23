@@ -152,19 +152,6 @@ jQuery(document).ready(function () {
     jQuery('.mobile_screen_manual').fadeIn(500);
     jQuery('.btn-to_img').addClass('hidden');
     jQuery('.btn-to_mode, .btn_protocols').removeClass('hidden');
-    // chart.canvas.parentNode.style.height = jQuery('.diagnostic_rezult').css('width');
-    // chart.canvas.parentNode.style.width = jQuery('.diagnostic_rezult').css('height');
-    // number_of_points = parseFloat(jQuery('.diagnostic_rezult').css('height'));
-    // number_of_points = number_of_points;
-    // for (var i = 0; i < number_of_points; i++) {
-    //   chart.data.labels.push(i);
-    // }
-    // chart.data.datasets.forEach((dataset) => {
-    //   for (var i = 1; i < number_of_points; i++) {
-    //     dataset.data.push(1);
-    //   }
-    // });
-    // chart.update();
   });
 
   // Protocol choice
@@ -206,62 +193,6 @@ jQuery(document).ready(function () {
     width: jQuery('.diagnostic_rezult').css('height')
   });
 
-  // render chart
-  Chart.defaults.global.elements.line.borderWidth = 2;
-  // Chart.defaults.global.defaultFontSize = 1;
-
-  var ctx = document.getElementById('myChart').getContext('2d');
-  var chart = new Chart(ctx, {
-      // The type of chart we want to create
-      type: 'line',
-
-      // The data for our dataset
-      data: {
-        labels: [],
-        datasets: [{
-          label: "Manual Diagnostic",
-          borderColor: 'rgb(255, 99, 132)',
-          pointBorderColor: "rgba(255,255,255,0)",
-          backgroundColor: "rgba(255,255,255,0)",
-          data: [75],
-        }]
-      },
-
-      // Configuration options go here
-      options: {
-        maintainAspectRatio: false,
-        scales: {
-          yAxes: [{
-            display: false,
-            gridLines: {
-              display: false
-            }
-          }],
-          xAxes: [{
-            display: false,
-            gridLines: {
-              display: false
-            }
-          }]
-        },
-        legend: {
-          display: false
-        },
-        title: {
-          display: false
-        },
-        tooltips: {
-          enabled: false
-        }
-      }
-  });
-  function addData(chart, index, data) {
-    chart.data.datasets.forEach((dataset) => {
-      dataset.data[index] = data;
-      console.log(dataset.data)
-    });
-    chart.update();
-  };
 
 //CROPPING SCRIPT
     // convert bytes into friendly format
