@@ -238,9 +238,9 @@ jQuery(document).ready(function () {
           }]
         },
         legend: {
-          display: false,
+          display: true,
           labels: {
-            hidden: false
+            fontColor: 'rgb(255, 99, 132)'
           }
         },
         title: {
