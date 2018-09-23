@@ -32,8 +32,8 @@ jQuery(document).ready(function () {
       drag: function() {
         dragger = jQuery('.draggable_y').css('top');
         dragger = dragger.substr(0, dragger.length - 2);
-        draggerDate = new Date()/4;
-        draggerDateDiff = (draggerDate - draggerDateOld);
+        draggerDate = new Date();
+        draggerDateDiff = (draggerDate - draggerDateOld)/4;
         // if (draggerDateDiff > 75) {
         //   draggerDateDiff = 75
         // }
