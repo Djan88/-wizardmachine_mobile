@@ -230,7 +230,7 @@ span.menu_item_img
 {
   min-width: 200px;
   width: 80%;
-  display: block;
+  display: inline-block;
   margin: auto;
   max-width: 600px;
   padding: 10px 0;
