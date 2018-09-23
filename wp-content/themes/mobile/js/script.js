@@ -33,8 +33,8 @@ jQuery(document).ready(function () {
         draggerDate = new Date();
         draggerDate = draggerDate * 2;
         draggerDateDiff = (draggerDate - draggerDateOld);
-        if (draggerDateDiff > 50) {
-          draggerDateDiff = 50
+        if (draggerDateDiff > 150) {
+          draggerDateDiff = 150
         }
         draggerDateOld = draggerDate;
         addData(chart, dragger, draggerDateDiff);
@@ -218,7 +218,7 @@ jQuery(document).ready(function () {
           borderColor: 'rgb(255, 99, 132)',
           pointBorderColor: "rgba(255,255,255,0)",
           backgroundColor: "rgba(255,255,255,0)",
-          data: [400],
+          data: [150],
         }]
       },
 
