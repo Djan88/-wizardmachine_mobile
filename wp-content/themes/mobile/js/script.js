@@ -28,7 +28,6 @@ jQuery(document).ready(function () {
       containment: '.diagnostic_container',
       axis: "y",
       drag: function() {
-        console.log('tst');
         dragger = jQuery('.draggable_y').css('top');
         dragger = dragger.substr(0, dragger.length - 2);
         draggerDate = new Date();
@@ -253,6 +252,7 @@ jQuery(document).ready(function () {
     chart.data.datasets.forEach((dataset) => {
       dataset.data[index] = data;
     });
+    console.log(dataset.data)
     chart.update();
   };
 
