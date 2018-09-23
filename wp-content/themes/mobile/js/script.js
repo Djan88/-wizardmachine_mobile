@@ -33,8 +33,8 @@ jQuery(document).ready(function () {
         draggerDate = new Date();
         draggerDate = draggerDate * 2;
         draggerDateDiff = (draggerDate - draggerDateOld);
-        if (draggerDateDiff > 150) {
-          draggerDateDiff = 150
+        if (draggerDateDiff > 50) {
+          draggerDateDiff = 50
         }
         draggerDateOld = draggerDate;
         addData(chart, dragger, draggerDateDiff);
@@ -202,7 +202,7 @@ jQuery(document).ready(function () {
   });
 
   // render chart
-  Chart.defaults.global.elements.line.borderWidth = 1;
+  Chart.defaults.global.elements.line.borderWidth = 2;
   // Chart.defaults.global.defaultFontSize = 1;
 
   var ctx = document.getElementById('myChart').getContext('2d');
