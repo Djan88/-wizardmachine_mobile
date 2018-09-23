@@ -241,7 +241,7 @@ jQuery(document).ready(function () {
           display: false
         },
         title: {
-          display: false
+          display: true
         },
         tooltips: {
           enabled: false
