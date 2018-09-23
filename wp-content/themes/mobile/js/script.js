@@ -148,8 +148,8 @@ jQuery(document).ready(function () {
     jQuery('.mobile_screen_manual').fadeIn(500);
     jQuery('.btn-to_img').addClass('hidden');
     jQuery('.btn-to_mode, .btn_protocols').removeClass('hidden');
-    chart.canvas.parentNode.style.height = jQuery('.diagnostic_rezult').css('height');
-    chart.canvas.parentNode.style.width = jQuery('.diagnostic_rezult').css('width');
+    chart.canvas.parentNode.style.height = jQuery('.diagnostic_rezult').css('width');
+    chart.canvas.parentNode.style.width = jQuery('.diagnostic_rezult').css('height');
     number_of_points = parseFloat(jQuery('.diagnostic_rezult').css('height'));
     number_of_points = number_of_points;
     for (var i = 0; i < number_of_points; i++) {
@@ -209,17 +209,17 @@ jQuery(document).ready(function () {
   var ctx = document.getElementById('myChart').getContext('2d');
   var chart = new Chart(ctx, {
       // The type of chart we want to create
-      type: 'horizontalBar',
+      type: 'line',
 
       // The data for our dataset
       data: {
-        labels: [1, 2, 3 ,4],
+        labels: [],
         datasets: [{
           label: "Manual Diagnostic",
           borderColor: 'rgb(255, 99, 132)',
           pointBorderColor: "rgba(255,255,255,0)",
           backgroundColor: "rgba(255,255,255,0)",
-          data: [400, 200, 300,],
+          data: [400],
         }]
       },
 
