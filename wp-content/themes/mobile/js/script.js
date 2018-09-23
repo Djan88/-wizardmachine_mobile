@@ -33,19 +33,15 @@ jQuery(document).ready(function () {
         dragger = jQuery('.draggable_y').css('top');
         dragger = dragger.substr(0, dragger.length - 2);
         draggerDate = new Date();
-        draggerDateDiff = (draggerDate - draggerDateOld)/4;
-        // if (draggerDateDiff > 75) {
-        //   draggerDateDiff = 75
-        // }
-        draggerDateOld = draggerDate;
-        // addData(chart, dragger, draggerDateDiff);
+        draggerDateDiff = draggerDate - draggerDateOld;
         dragger_rate_class = 'dragger_rate-'+dragger;
         dragger_rate_class_dotted = '.dragger_rate-'+dragger;
         jQuery('.diagnostic_rezult').append('<div class='+dragger_rate_class+'></div>');
         jQuery(dragger_rate_class_dotted).addClass('dragger_rate').css({
-            top: +dragger+'px',
+            top: +dragger+45+'px',
             width: draggerDateDiff*2+'px'
         });
+        draggerDateOld = draggerDate;
       }
   });
 
