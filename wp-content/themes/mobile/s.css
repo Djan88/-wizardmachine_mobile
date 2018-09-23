@@ -285,6 +285,7 @@ span.menu_item_img
 {
   padding-top: 10px;
   padding-right: 0;
+  padding-left: 0;
   position: relative;
 }
 #myChart
@@ -308,7 +309,7 @@ input.crop_photo
     border-top-right-radius: 50%;
     border-bottom-right-radius: 50%;
     max-width: 100%;
-    background: #5e1043;
+    background: #FFF0C7;
     position: absolute;
     -webkit-transition: width 0.5s linear;
     -moz-transition: width 0.5s linear;
