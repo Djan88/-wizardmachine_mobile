@@ -229,9 +229,20 @@ span.menu_item_img
 .loaded_img
 {
   min-width: 200px;
-  width: 100%;
-  max-width: 400px;
+  width: 80%;
+  display: block;
+  margin: auto;
+  max-width: 600px;
   padding: 10px 0;
+}
+.zone.zone_final 
+{
+  display: inline-block;
+  position: relative;
+  width: 8%!important;
+  margin: 0;
+  left: 0;
+  top: 0;
 }
 .header .btn.btn_start 
 {

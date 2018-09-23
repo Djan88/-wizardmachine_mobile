@@ -201,9 +201,9 @@
 							</div>
 						</div>
 						<div class="col-12 text_center zone_diag">
-							<div class="zone zone_x"></div>
+							<div class="zone zone_final zone_x"></div>
 							<div><img class="loaded_img" src="" alt=""></div>
-							<div class="zone zone_l"></div>
+							<div class="zone zone_final zone_l"></div>
 						</div>
 						<div class="col-12 text_center">
 							<button class="btn btn-primary btn_start"><i class="fab fa-react"></i> Выполнить</button>
