@@ -270,8 +270,8 @@ span.menu_item_img
   border: 1px solid #FFF0C7;
   border-radius: 50%;
   display: inline-block;
-  width: 35px!important;
-  height: 35px!important;
+  width: 35px;
+  height: 35px;
   padding-top: 4px;
   font-size: 17px;
   font-weight: 500;

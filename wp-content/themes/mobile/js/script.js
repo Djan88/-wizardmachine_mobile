@@ -71,7 +71,7 @@ jQuery(document).ready(function () {
     jQuery('.mobile_screen_final').fadeIn(500);
     jQuery('.btn-to_mode, .btn-to_manual').addClass('hidden');
     jQuery('.btn-to_protocols, .btn_man_with_zones, .btn_start').removeClass('hidden');
-    jQuery('.zone_final').css('height', jQuery('.zone_final').css('width')+'!important');
+    jQuery('.zone_final').css('height', jQuery('.zone_final').css('width'));
   });
 
   // Promise resolves once menu is open
