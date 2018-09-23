@@ -227,6 +227,7 @@ jQuery(document).ready(function () {
         maintainAspectRatio: false,
         scales: {
           yAxes: [{
+            display: false,
             gridLines: {
               display: false
             }
@@ -241,7 +242,7 @@ jQuery(document).ready(function () {
           display: false
         },
         title: {
-          display: true
+          display: false
         },
         tooltips: {
           enabled: false
