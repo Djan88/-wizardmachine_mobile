@@ -238,10 +238,7 @@ jQuery(document).ready(function () {
           }]
         },
         legend: {
-          display: true,
-          labels: {
-            hidden: true
-          }
+          display: false
         },
         title: {
           display: false
