@@ -37,7 +37,7 @@ jQuery(document).ready(function () {
         // if (draggerDateDiff > 75) {
         //   draggerDateDiff = 75
         // }
-        // draggerDateOld = draggerDate;
+        draggerDateOld = draggerDate;
         // addData(chart, dragger, draggerDateDiff);
         dragger_rate_class = 'dragger_rate-'+dragger;
         dragger_rate_class_dotted = '.dragger_rate-'+dragger;
