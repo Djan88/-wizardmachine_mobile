@@ -236,6 +236,10 @@ span.menu_item_img
   padding: 0;
   padding-right: 5px;
 }
+.diagnostic_rezult .loaded_img
+{
+  width: 100%;
+}
 .zone.zone_final 
 {
   display: inline-block;
