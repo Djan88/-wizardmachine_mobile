@@ -327,7 +327,7 @@ input.crop_photo
     border-top-right-radius: 50%;
     border-bottom-right-radius: 50%;
     max-width: 30%;
-    background: #FFF0C7;
+    background: #673158;
     position: absolute;
     -webkit-transition: width 0.5s linear;
     -moz-transition: width 0.5s linear;
