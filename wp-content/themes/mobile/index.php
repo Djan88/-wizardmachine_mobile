@@ -152,7 +152,7 @@
 						</div>
 					</div>
 					<div class="row">
-						<div class="col-1 text_center diagnostic_container">
+						<div class="col-2 text_center diagnostic_container">
 							<div class="zone zone_diag draggable_y">
 								<i class="fab fa-react"></i>
 							</div>
@@ -162,7 +162,7 @@
 								<canvas id="myChart"></canvas>
 							</div>
 						</div>
-						<div class="col-9 text_center zone_diag">
+						<div class="col-8 text_center zone_diag">
 							<img class="loaded_img" src="" alt="">
 						</div>
 					</div>
