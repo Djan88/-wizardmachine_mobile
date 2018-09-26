@@ -55,6 +55,7 @@ jQuery(document).ready(function () {
       duration: 1,
       closeOnBlur: true,
       allowDrag: false,
+      dragThreshold: 1,
       width: '250px'
   });
 
