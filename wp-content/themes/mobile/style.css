@@ -29,6 +29,7 @@ div#recallbar, div#wpadminbar
 {
   background: #673158;
   height: 70px;
+  background: linear-gradient(#391E3D, #4d2449);
 }
 .header-title
 {

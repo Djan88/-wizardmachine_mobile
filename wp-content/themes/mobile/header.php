@@ -13,7 +13,7 @@
     <div class="container-fluid">
       <div class="row justify-content-center">
         <div class="col wrapper">
-          <div class="header master_header shadow row align-items-center">
+          <div class="header master_header row align-items-center">
             <div class="col-4" style="padding: 0;">
               <?php if(is_user_logged_in()) { ?>
                 <button type="button" class="btn btn-lg btn-link side_menu"><i class="fas fa-bars"></i></button>
