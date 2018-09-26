@@ -51,6 +51,8 @@ jQuery(document).ready(function () {
   ({
       slider: document.getElementById('menu'),
       content: document.getElementById('content'),
+      animation: 'slideLeft',
+      duration: 1,
       closeOnBlur: true,
       allowDrag: false,
       width: '250px'
