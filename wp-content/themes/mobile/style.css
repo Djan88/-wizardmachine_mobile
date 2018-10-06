@@ -251,11 +251,11 @@ span.menu_item_img
   margin: 0;
   top: 0;
 }
-.zone_x
+.zone.zone_final.zone_x
 {
   left: 0;
 }
-.zone_l
+.zone.zone_final.zone_l
 {
   right: 0;
 }
