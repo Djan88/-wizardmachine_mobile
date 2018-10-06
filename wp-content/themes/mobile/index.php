@@ -178,6 +178,7 @@
 									<div class="zone draggable draggable_d4">D4</div>
 									<div class="zone draggable draggable_d3">D3</div>
 									<div class="zone draggable draggable_d2">D2</div>
+									<div class="zone zone_final zone_x hidden"></div>
 								</div>
 								<div class="col zone_holder">
 									<div class="zone draggable draggable_v-">V-</div>
@@ -194,13 +195,12 @@
 									<div class="zone draggable draggable_s4">S4</div>
 									<div class="zone draggable draggable_s3">S3</div>
 									<div class="zone draggable draggable_s2">S2</div>
+									<div class="zone zone_final zone_l hidden"></div>
 								</div>
 							</div>
 						</div>
 						<div class="col-12 text_center zone_diag">
-							<div class="zone zone_final zone_x hidden"></div>
 							<img class="loaded_img" src="" alt="">
-							<div class="zone zone_final zone_l hidden"></div>
 						</div>
 						<div class="col-12 text_center">
 							<button class="btn btn-primary btn_start"><i class="fab fa-react"></i> Выполнить</button>

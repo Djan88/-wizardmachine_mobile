@@ -257,11 +257,11 @@ span.menu_item_img
 }
 .zone.zone_final.zone_x
 {
-  left: 0;
+  left: 5px;
 }
 .zone.zone_final.zone_l
 {
-  right: 0;
+  right: 5px;
   left: auto;
 }
 .header .btn.btn_start 
