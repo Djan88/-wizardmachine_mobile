@@ -286,6 +286,7 @@ span.menu_item_img
   position: absolute;
   margin: auto;
   left: 40%;
+  transition: all 1s;
 }
 #zones_template img 
 {
