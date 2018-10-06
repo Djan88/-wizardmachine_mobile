@@ -44,6 +44,7 @@ v1 = function(){
           transform: 'rotate(-'+count_animation+'deg) scale(2)'
         });
         count_animation += 1;
+        console.log(count_animation);
       } else {
         clearInterval(phaseOne);
         count_animation = 1;
