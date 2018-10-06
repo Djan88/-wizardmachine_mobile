@@ -33,14 +33,15 @@ v1 = function(){
           next();
       }, 1000);
   }).then(function(next) {
-      console.log('3');
+      setTimeout(function() {
+          console.log('3');
+          next();
+      }, 1000);
+  }).then(function(next) {
       setTimeout(function() {
           console.log('4');
           next();
       }, 1000);
-  }).then(function(next) {
-      console.log('5');
-      next();
   });
 }
 
