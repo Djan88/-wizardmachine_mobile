@@ -250,7 +250,7 @@ span.menu_item_img
 {
   display: inline-block;
   position: absolute;
-  width: 8%!important;
+  /*width: 8%!important;*/
   max-width: 35px;
   margin: 0;
   top: 0;
