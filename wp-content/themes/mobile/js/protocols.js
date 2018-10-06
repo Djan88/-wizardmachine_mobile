@@ -33,8 +33,6 @@ chain = function (callback) {
     return then(callback);
 }
 
-jQuery('.zone_x').css('background', '#fff url(/wp-content/themes/mobile/img/daemon.png) 0 0/100% no-repeat');
-jQuery('.zone_l').css('background', '#fff url(/wp-content/themes/mobile/img/lovushka.png) 0 0/100% no-repeat');
 v1 = function(){
   chain(function(next) {
     r_top = jQuery('.draggable_v5').css('top');
