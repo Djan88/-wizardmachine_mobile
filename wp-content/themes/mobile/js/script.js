@@ -23,13 +23,7 @@ jQuery(document).ready(function () {
 
   //Dragging elems
   jQuery( ".draggable" ).draggable({
-      snap: false,
-      containment: '.mobile_screen_final'
-  });
-  jQuery( ".draggable_v" ).draggable({
-      snap: false,
-      containment: '.mobile_screen_final',
-      axis: "y"
+      snap: false
   });
   jQuery( ".draggable_y" ).draggable({
       snap: false,
