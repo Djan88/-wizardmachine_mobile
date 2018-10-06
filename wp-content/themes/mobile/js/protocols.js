@@ -25,23 +25,25 @@ chain = function (callback) {
     return then(callback);
 }
 
-chain(function(next) {
-    console.log('1');
-    setTimeout(function() {
-        console.log('2');
-        next();
-    }, 1000);
-}).then(function(next) {
-    console.log('3');
-    setTimeout(function() {
-        console.log('4');
-        next();
-    }, 1000);
-}).then(function(next) {
-    console.log('5');
-    next();
-});
+v1 = function(){
+  chain(function(next) {
+      console.log('1');
+      setTimeout(function() {
+          console.log('2');
+          next();
+      }, 1000);
+  }).then(function(next) {
+      console.log('3');
+      setTimeout(function() {
+          console.log('4');
+          next();
+      }, 1000);
+  }).then(function(next) {
+      console.log('5');
+      next();
+  });
+}
 
 jQuery('.btn_start').on('click', function(event) {
-  chain();
+  v1();
 });
