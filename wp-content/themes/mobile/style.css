@@ -245,12 +245,19 @@ span.menu_item_img
 .zone.zone_final 
 {
   display: inline-block;
-  position: relative;
+  position: absolute;
   width: 8%!important;
   max-width: 35px;
   margin: 0;
-  left: 0;
   top: 0;
+}
+.zone_x
+{
+  left: 0;
+}
+.zone_l
+{
+  right: 0;
 }
 .header .btn.btn_start 
 {
