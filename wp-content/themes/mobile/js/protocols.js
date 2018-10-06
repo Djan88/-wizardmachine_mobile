@@ -55,7 +55,7 @@ v1 = function(){
         count_animation = 1;
         jQuery('.draggable_v1').css({
           color: '#FFF0C7',
-          transform: 'scale(1.5)',
+          transform: 'scale(1)',
           background: 'rgba(83, 35, 69, 0.4)',
           opacity: 1
         });
@@ -85,7 +85,7 @@ v1 = function(){
             count_animation = 1;
             jQuery('.draggable_v5').css({
               color: '#FFF0C7',
-              transform: 'scale(1.5)',
+              transform: 'scale(1)',
               background: 'rgba(83, 35, 69, 0.4)',
               opacity: 1
             });
@@ -115,7 +115,7 @@ v1 = function(){
                 count_animation = 1;
                 jQuery('.draggable_v-').css({
                   color: '#FFF0C7',
-                  transform: 'scale(1.5)',
+                  transform: 'scale(1)',
                   background: 'rgba(83, 35, 69, 0.4)',
                   opacity: 1
                 });
