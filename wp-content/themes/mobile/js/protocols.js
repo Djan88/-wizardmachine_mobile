@@ -64,8 +64,8 @@ v1 = function(){
           jQuery('.zone_x').css('top', r_top);
           jQuery('.zone_l').css('top', l_bottom);
         }
-        jQuery('.zone_x').css('transform', rotate_one+'deg');
-        jQuery('.zone_l').css('transform', '-'+rotate_two+'deg');
+        jQuery('.zone_x').css('transform', 'rotate('+rotate_one+'deg)');
+        jQuery('.zone_l').css('transform', 'rotate(-'+rotate_two+'deg)');
         count_animation += 1;
         rotate_one += 2;
         rotate_two += 20;
@@ -102,8 +102,8 @@ v1 = function(){
               jQuery('.zone_x').css('top', r_bottom);
               jQuery('.zone_l').css('top', l_top);
             }
-            jQuery('.zone_x').css('transform', rotate_one+'deg');
-            jQuery('.zone_l').css('transform', '-'+rotate_two+'deg');
+            jQuery('.zone_x').css('transform', 'rotate('+rotate_one+'deg)');
+            jQuery('.zone_l').css('transform', 'rotate(-'+rotate_two+'deg)');
             count_animation += 1;
             rotate_one += 2;
             rotate_two += 20;
@@ -140,8 +140,8 @@ v1 = function(){
                   jQuery('.zone_x').css('top', r_top);
                   jQuery('.zone_l').css('top', l_bottom);
                 }
-                jQuery('.zone_x').css('transform', rotate_one+'deg');
-                jQuery('.zone_l').css('transform', '-'+rotate_two+'deg');
+                jQuery('.zone_x').css('transform', 'rotate('+rotate_one+'deg)');
+                jQuery('.zone_l').css('transform', 'rotate(-'+rotate_two+'deg)');
                 count_animation += 1;
                 rotate_one += 2;
                 rotate_two += 20;
@@ -178,8 +178,8 @@ v1 = function(){
                       jQuery('.zone_x').css('top', r_bottom);
                       jQuery('.zone_l').css('top', l_top);
                     }
-                    jQuery('.zone_x').css('transform', rotate_one+'deg');
-                    jQuery('.zone_l').css('transform', '-'+rotate_two+'deg');
+                    jQuery('.zone_x').css('transform', 'rotate('+rotate_one+'deg)');
+                    jQuery('.zone_l').css('transform', 'rotate(-'+rotate_two+'deg)');
                     count_animation += 1;
                     rotate_one += 2;
                     rotate_two += 20;
@@ -216,8 +216,8 @@ v1 = function(){
                           jQuery('.zone_x').css('top', r_top);
                           jQuery('.zone_l').css('top', l_bottom);
                         }
-                        jQuery('.zone_x').css('transform', rotate_one+'deg');
-                        jQuery('.zone_l').css('transform', '-'+rotate_two+'deg');
+                        jQuery('.zone_x').css('transform', 'rotate('+rotate_one+'deg)');
+                        jQuery('.zone_l').css('transform', 'rotate(-'+rotate_two+'deg)');
                         count_animation += 1;
                         rotate_one += 2;
                         rotate_two += 20;
@@ -254,8 +254,8 @@ v1 = function(){
                               jQuery('.zone_x').css('top', r_bottom);
                               jQuery('.zone_l').css('top', l_top);
                             }
-                            jQuery('.zone_x').css('transform', rotate_one+'deg');
-                            jQuery('.zone_l').css('transform', '-'+rotate_two+'deg');
+                            jQuery('.zone_x').css('transform', 'rotate('+rotate_one+'deg)');
+                            jQuery('.zone_l').css('transform', 'rotate(-'+rotate_two+'deg)');
                             count_animation += 1;
                             rotate_one += 2;
                             rotate_two += 20;
@@ -292,8 +292,8 @@ v1 = function(){
                                   jQuery('.zone_x').css('top', l_top);
                                   jQuery('.zone_l').css('top', r_bottom);
                                 }
-                                jQuery('.zone_x').css('transform', rotate_two+'deg');
-                                jQuery('.zone_l').css('transform', '-'+rotate_one+'deg');
+                                jQuery('.zone_x').css('transform', 'rotate('+rotate_two+'deg)');
+                                jQuery('.zone_l').css('transform', 'rotate(-'+rotate_one+'deg)');
                                 count_animation += 1;
                                 rotate_one += 2;
                                 rotate_two += 20;
@@ -330,8 +330,8 @@ v1 = function(){
                                       jQuery('.zone_x').css('top', l_bottom);
                                       jQuery('.zone_l').css('top', r_top);
                                     }
-                                    jQuery('.zone_x').css('transform', rotate_two+'deg');
-                                    jQuery('.zone_l').css('transform', '-'+rotate_one+'deg');
+                                    jQuery('.zone_x').css('transform', 'rotate('+rotate_two+'deg)');
+                                    jQuery('.zone_l').css('transform', 'rotate(-'+rotate_one+'deg)');
                                     count_animation += 1;
                                     rotate_one += 2;
                                     rotate_two += 20;
@@ -368,8 +368,8 @@ v1 = function(){
                                           jQuery('.zone_x').css('top', l_top);
                                           jQuery('.zone_l').css('top', r_bottom);
                                         }
-                                        jQuery('.zone_x').css('transform', rotate_two+'deg');
-                                        jQuery('.zone_l').css('transform', '-'+rotate_one+'deg');
+                                        jQuery('.zone_x').css('transform', 'rotate('+rotate_two+'deg)');
+                                        jQuery('.zone_l').css('transform', 'rotate(-'+rotate_one+'deg)');
                                         count_animation += 1;
                                         rotate_one += 2;
                                         rotate_two += 20;
@@ -406,8 +406,8 @@ v1 = function(){
                                               jQuery('.zone_x').css('top', l_bottom);
                                               jQuery('.zone_l').css('top', r_top);
                                             }
-                                            jQuery('.zone_x').css('transform', rotate_two+'deg');
-                                            jQuery('.zone_l').css('transform', '-'+rotate_one+'deg');
+                                            jQuery('.zone_x').css('transform', 'rotate('+rotate_two+'deg)');
+                                            jQuery('.zone_l').css('transform', 'rotate(-'+rotate_one+'deg)');
                                             count_animation += 1;
                                             rotate_one += 2;
                                             rotate_two += 20;
@@ -444,8 +444,8 @@ v1 = function(){
                                                   jQuery('.zone_x').css('top', l_bottom);
                                                   jQuery('.zone_l').css('top', r_top);
                                                 }
-                                                jQuery('.zone_x').css('transform', rotate_two+'deg');
-                                                jQuery('.zone_l').css('transform', '-'+rotate_one+'deg');
+                                                jQuery('.zone_x').css('transform', 'rotate('+rotate_two+'deg)');
+                                                jQuery('.zone_l').css('transform', 'rotate(-'+rotate_one+'deg)');
                                                 count_animation += 1;
                                                 rotate_one += 2;
                                                 rotate_two += 20;
@@ -498,6 +498,8 @@ v1 = function(){
                                                     count_animation = 0;
                                                     rotate_one = 0;
                                                     rotate_two = 0;
+                                                    jQuery('.zone_x').css('transform', 'rotate(0deg)');
+                                                    jQuery('.zone_l').css('transform', 'rotate(0deg)');
                                                     next();
                                                   }
                                                 }, 1000);

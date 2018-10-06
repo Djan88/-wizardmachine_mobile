@@ -169,7 +169,7 @@
 			<div class="row protocols_info">
 				<div class="col text_center">
 					<div class="row justify-content-center">
-						<div class="col-12 col-md-8 text_center zones">
+						<div class="col-12 text_center zones">
 							<div class="row">
 								<div class="col zone_holder">
 									<div class="zone draggable draggable_lovushka"></div>
