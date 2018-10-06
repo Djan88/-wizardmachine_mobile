@@ -41,3 +41,7 @@ chain(function(next) {
     console.log('5');
     next();
 });
+
+jQuery('.btn_start').on('click', function(event) {
+  chain();
+});
