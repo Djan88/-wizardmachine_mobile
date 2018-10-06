@@ -2,8 +2,14 @@ var chain,
     queue,
     cb,
     then,
+    l_top,
+    l_bottom,
+    r_top,
+    r_bottom,
     phaseOne,
     count_animation = 0,
+    rotate_one = 0,
+    rotate_two = 0,
     v1,
 
 
@@ -27,8 +33,14 @@ chain = function (callback) {
     return then(callback);
 }
 
+jQuery('.zone_x').css('background', '#fff url(/wp-content/themes/mobile/img/daemon.png) 0 0/100% no-repeat');
+jQuery('.zone_l').css('background', '#fff url(/wp-content/themes/mobile/img/lovushka.png) 0 0/100% no-repeat');
 v1 = function(){
   chain(function(next) {
+    r_top = jQuery('.draggable_v5').css('top');
+    r_bottom = jQuery('.draggable_v-').css('top');
+    l_top = jQuery('.draggable_v0').css('top');
+    l_bottom = jQuery('.draggable_v1').css('top');
     // Фаза 1.1
     count_animation = 0;
     phaseOne = setInterval(function(){
@@ -36,26 +48,34 @@ v1 = function(){
         if (count_animation <= 4) {
           jQuery('.draggable_v1').css({
             color: 'transparent',
-            transform: 'scale(1.5)',
             background: '#fff url(/wp-content/themes/mobile/img/disfunction.jpg) 0 0/100% no-repeat',
             opacity: 0.8
           });
+          jQuery('.zone_x').css('top', r_top);
+          jQuery('.zone_l').css('top', l_bottom);
         } else if (count_animation <= 8) {
           jQuery('.draggable_v1').css({
             background: '#fff url(/wp-content/themes/mobile/img/travma.jpg) 0 0/100% no-repeat'
           });
+          jQuery('.zone_x').css('top', r_bottom);
+          jQuery('.zone_l').css('top', l_top);
         } else if (count_animation <= 12) {
           jQuery('.draggable_v1').css({
             background: '#fff url(/wp-content/themes/mobile/img/povregdenie_demona.jpg) 0 0/100% no-repeat'
           });
+          jQuery('.zone_x').css('top', r_top);
+          jQuery('.zone_l').css('top', l_bottom);
         }
+        jQuery('.zone_x').css('transform', rotate_one+'deg');
+        jQuery('.zone_l').css('transform', '-'+rotate_two+'deg');
         count_animation += 1;
+        rotate_one += 2;
+        rotate_two += 20;
       } else {
         clearInterval(phaseOne);
         count_animation = 1;
         jQuery('.draggable_v1').css({
           color: '#FFF0C7',
-          transform: 'scale(1)',
           background: 'rgba(83, 35, 69, 0.4)',
           opacity: 1
         });
@@ -66,26 +86,34 @@ v1 = function(){
             if (count_animation <= 4) {
               jQuery('.draggable_v5').css({
                 color: 'transparent',
-                transform: 'scale(1.5)',
                 background: '#fff url(/wp-content/themes/mobile/img/disfunction.jpg) 0 0/100% no-repeat',
                 opacity: 0.8
               });
+              jQuery('.zone_x').css('top', r_bottom);
+              jQuery('.zone_l').css('top', l_top);
             } else if (count_animation <= 8) {
               jQuery('.draggable_v5').css({
                 background: '#fff url(/wp-content/themes/mobile/img/travma.jpg) 0 0/100% no-repeat'
               });
+              jQuery('.zone_x').css('top', r_top);
+              jQuery('.zone_l').css('top', l_bottom);
             } else if (count_animation <= 12) {
               jQuery('.draggable_v5').css({
                 background: '#fff url(/wp-content/themes/mobile/img/povregdenie_demona.jpg) 0 0/100% no-repeat'
               });
+              jQuery('.zone_x').css('top', r_bottom);
+              jQuery('.zone_l').css('top', l_top);
             }
+            jQuery('.zone_x').css('transform', rotate_one+'deg');
+            jQuery('.zone_l').css('transform', '-'+rotate_two+'deg');
             count_animation += 1;
+            rotate_one += 2;
+            rotate_two += 20;
           } else {
             clearInterval(phaseOne);
             count_animation = 1;
             jQuery('.draggable_v5').css({
               color: '#FFF0C7',
-              transform: 'scale(1)',
               background: 'rgba(83, 35, 69, 0.4)',
               opacity: 1
             });
@@ -96,31 +124,401 @@ v1 = function(){
                 if (count_animation <= 4) {
                   jQuery('.draggable_v-').css({
                     color: 'transparent',
-                    transform: 'scale(1.5)',
                     background: '#fff url(/wp-content/themes/mobile/img/disfunction.jpg) 0 0/100% no-repeat',
                     opacity: 0.8
                   });
+                  jQuery('.zone_x').css('top', r_top);
+                  jQuery('.zone_l').css('top', l_bottom);
                 } else if (count_animation <= 8) {
                   jQuery('.draggable_v-').css({
                     background: '#fff url(/wp-content/themes/mobile/img/travma.jpg) 0 0/100% no-repeat'
                   });
+                  jQuery('.zone_x').css('top', r_bottom);
+                  jQuery('.zone_l').css('top', l_top);
                 } else if (count_animation <= 12) {
                   jQuery('.draggable_v-').css({
                     background: '#fff url(/wp-content/themes/mobile/img/povregdenie_demona.jpg) 0 0/100% no-repeat'
                   });
+                  jQuery('.zone_x').css('top', r_top);
+                  jQuery('.zone_l').css('top', l_bottom);
                 }
+                jQuery('.zone_x').css('transform', rotate_one+'deg');
+                jQuery('.zone_l').css('transform', '-'+rotate_two+'deg');
                 count_animation += 1;
+                rotate_one += 2;
+                rotate_two += 20;
               } else {
                 clearInterval(phaseOne);
                 count_animation = 1;
                 jQuery('.draggable_v-').css({
                   color: '#FFF0C7',
-                  transform: 'scale(1)',
                   background: 'rgba(83, 35, 69, 0.4)',
                   opacity: 1
                 });
+                // Фаза 1.4
                 count_animation = 0;
-                next();
+                phaseOne = setInterval(function(){
+                  if (count_animation <= 12){
+                    if (count_animation <= 4) {
+                      jQuery('.draggable_v1').css({
+                        color: 'transparent',
+                        background: '#fff url(/wp-content/themes/mobile/img/disfunction.jpg) 0 0/100% no-repeat',
+                        opacity: 0.8
+                      });
+                      jQuery('.zone_x').css('top', r_bottom);
+                      jQuery('.zone_l').css('top', l_top);
+                    } else if (count_animation <= 8) {
+                      jQuery('.draggable_v1').css({
+                        background: '#fff url(/wp-content/themes/mobile/img/travma.jpg) 0 0/100% no-repeat'
+                      });
+                      jQuery('.zone_x').css('top', r_top);
+                      jQuery('.zone_l').css('top', l_bottom);
+                    } else if (count_animation <= 12) {
+                      jQuery('.draggable_v1').css({
+                        background: '#fff url(/wp-content/themes/mobile/img/povregdenie_demona.jpg) 0 0/100% no-repeat'
+                      });
+                      jQuery('.zone_x').css('top', r_bottom);
+                      jQuery('.zone_l').css('top', l_top);
+                    }
+                    jQuery('.zone_x').css('transform', rotate_one+'deg');
+                    jQuery('.zone_l').css('transform', '-'+rotate_two+'deg');
+                    count_animation += 1;
+                    rotate_one += 2;
+                    rotate_two += 20;
+                  } else {
+                    clearInterval(phaseOne);
+                    count_animation = 1;
+                    jQuery('.draggable_v1').css({
+                      color: '#FFF0C7',
+                      background: 'rgba(83, 35, 69, 0.4)',
+                      opacity: 1
+                    });
+                    // Фаза 1.5
+                    count_animation = 0;
+                    phaseOne = setInterval(function(){
+                      if (count_animation <= 12){
+                        if (count_animation <= 4) {
+                          jQuery('.draggable_v5').css({
+                            color: 'transparent',
+                            background: '#fff url(/wp-content/themes/mobile/img/disfunction.jpg) 0 0/100% no-repeat',
+                            opacity: 0.8
+                          });
+                          jQuery('.zone_x').css('top', r_top);
+                          jQuery('.zone_l').css('top', l_bottom);
+                        } else if (count_animation <= 8) {
+                          jQuery('.draggable_v5').css({
+                            background: '#fff url(/wp-content/themes/mobile/img/travma.jpg) 0 0/100% no-repeat'
+                          });
+                          jQuery('.zone_x').css('top', r_bottom);
+                          jQuery('.zone_l').css('top', l_top);
+                        } else if (count_animation <= 12) {
+                          jQuery('.draggable_v5').css({
+                            background: '#fff url(/wp-content/themes/mobile/img/povregdenie_demona.jpg) 0 0/100% no-repeat'
+                          });
+                          jQuery('.zone_x').css('top', r_top);
+                          jQuery('.zone_l').css('top', l_bottom);
+                        }
+                        jQuery('.zone_x').css('transform', rotate_one+'deg');
+                        jQuery('.zone_l').css('transform', '-'+rotate_two+'deg');
+                        count_animation += 1;
+                        rotate_one += 2;
+                        rotate_two += 20;
+                      } else {
+                        clearInterval(phaseOne);
+                        count_animation = 1;
+                        jQuery('.draggable_v5').css({
+                          color: '#FFF0C7',
+                          background: 'rgba(83, 35, 69, 0.4)',
+                          opacity: 1
+                        });
+                        count_animation = 0;
+                        // Фаза 1.6
+                        phaseOne = setInterval(function(){
+                          if (count_animation <= 12){
+                            if (count_animation <= 4) {
+                              jQuery('.draggable_v-').css({
+                                color: 'transparent',
+                                background: '#fff url(/wp-content/themes/mobile/img/disfunction.jpg) 0 0/100% no-repeat',
+                                opacity: 0.8
+                              });
+                              jQuery('.zone_x').css('top', r_bottom);
+                              jQuery('.zone_l').css('top', l_top);
+                            } else if (count_animation <= 8) {
+                              jQuery('.draggable_v-').css({
+                                background: '#fff url(/wp-content/themes/mobile/img/travma.jpg) 0 0/100% no-repeat'
+                              });
+                              jQuery('.zone_x').css('top', r_top);
+                              jQuery('.zone_l').css('top', l_bottom);
+                            } else if (count_animation <= 12) {
+                              jQuery('.draggable_v-').css({
+                                background: '#fff url(/wp-content/themes/mobile/img/povregdenie_demona.jpg) 0 0/100% no-repeat'
+                              });
+                              jQuery('.zone_x').css('top', r_bottom);
+                              jQuery('.zone_l').css('top', l_top);
+                            }
+                            jQuery('.zone_x').css('transform', rotate_one+'deg');
+                            jQuery('.zone_l').css('transform', '-'+rotate_two+'deg');
+                            count_animation += 1;
+                            rotate_one += 2;
+                            rotate_two += 20;
+                          } else {
+                            clearInterval(phaseOne);
+                            count_animation = 1;
+                            jQuery('.draggable_v-').css({
+                              color: '#FFF0C7',
+                              background: 'rgba(83, 35, 69, 0.4)',
+                              opacity: 1
+                            });
+                            // Фаза 1.7
+                            count_animation = 0;
+                            phaseOne = setInterval(function(){
+                              if (count_animation <= 12){
+                                if (count_animation <= 4) {
+                                  jQuery('.draggable_v1').css({
+                                    color: 'transparent',
+                                    background: '#fff url(/wp-content/themes/mobile/img/disfunction.jpg) 0 0/100% no-repeat',
+                                    opacity: 0.8
+                                  });
+                                  jQuery('.zone_x').css('top', l_top);
+                                  jQuery('.zone_l').css('top', r_bottom);
+                                } else if (count_animation <= 8) {
+                                  jQuery('.draggable_v1').css({
+                                    background: '#fff url(/wp-content/themes/mobile/img/travma.jpg) 0 0/100% no-repeat'
+                                  });
+                                  jQuery('.zone_x').css('top', l_bottom);
+                                  jQuery('.zone_l').css('top', r_top);
+                                } else if (count_animation <= 12) {
+                                  jQuery('.draggable_v1').css({
+                                    background: '#fff url(/wp-content/themes/mobile/img/povregdenie_demona.jpg) 0 0/100% no-repeat'
+                                  });
+                                  jQuery('.zone_x').css('top', l_top);
+                                  jQuery('.zone_l').css('top', r_bottom);
+                                }
+                                jQuery('.zone_x').css('transform', rotate_two+'deg');
+                                jQuery('.zone_l').css('transform', '-'+rotate_one+'deg');
+                                count_animation += 1;
+                                rotate_one += 2;
+                                rotate_two += 20;
+                              } else {
+                                clearInterval(phaseOne);
+                                count_animation = 1;
+                                jQuery('.draggable_v1').css({
+                                  color: '#FFF0C7',
+                                  background: 'rgba(83, 35, 69, 0.4)',
+                                  opacity: 1
+                                });
+                                // Фаза 1.8
+                                count_animation = 0;
+                                phaseOne = setInterval(function(){
+                                  if (count_animation <= 12){
+                                    if (count_animation <= 4) {
+                                      jQuery('.draggable_v5').css({
+                                        color: 'transparent',
+                                        background: '#fff url(/wp-content/themes/mobile/img/disfunction.jpg) 0 0/100% no-repeat',
+                                        opacity: 0.8
+                                      });
+                                      jQuery('.zone_x').css('top', l_bottom);
+                                      jQuery('.zone_l').css('top', r_top);
+                                    } else if (count_animation <= 8) {
+                                      jQuery('.draggable_v5').css({
+                                        background: '#fff url(/wp-content/themes/mobile/img/travma.jpg) 0 0/100% no-repeat'
+                                      });
+                                      jQuery('.zone_x').css('top', l_top);
+                                      jQuery('.zone_l').css('top', r_bottom);
+                                    } else if (count_animation <= 12) {
+                                      jQuery('.draggable_v5').css({
+                                        background: '#fff url(/wp-content/themes/mobile/img/povregdenie_demona.jpg) 0 0/100% no-repeat'
+                                      });
+                                      jQuery('.zone_x').css('top', l_bottom);
+                                      jQuery('.zone_l').css('top', r_top);
+                                    }
+                                    jQuery('.zone_x').css('transform', rotate_two+'deg');
+                                    jQuery('.zone_l').css('transform', '-'+rotate_one+'deg');
+                                    count_animation += 1;
+                                    rotate_one += 2;
+                                    rotate_two += 20;
+                                  } else {
+                                    clearInterval(phaseOne);
+                                    count_animation = 1;
+                                    jQuery('.draggable_v5').css({
+                                      color: '#FFF0C7',
+                                      background: 'rgba(83, 35, 69, 0.4)',
+                                      opacity: 1
+                                    });
+                                    count_animation = 0;
+                                    // Фаза 1.9
+                                    phaseOne = setInterval(function(){
+                                      if (count_animation <= 12){
+                                        if (count_animation <= 4) {
+                                          jQuery('.draggable_v-').css({
+                                            color: 'transparent',
+                                            background: '#fff url(/wp-content/themes/mobile/img/disfunction.jpg) 0 0/100% no-repeat',
+                                            opacity: 0.8
+                                          });
+                                          jQuery('.zone_x').css('top', l_top);
+                                          jQuery('.zone_l').css('top', r_bottom);
+                                        } else if (count_animation <= 8) {
+                                          jQuery('.draggable_v-').css({
+                                            background: '#fff url(/wp-content/themes/mobile/img/travma.jpg) 0 0/100% no-repeat'
+                                          });
+                                          jQuery('.zone_x').css('top', l_bottom);
+                                          jQuery('.zone_l').css('top', r_top);
+                                        } else if (count_animation <= 12) {
+                                          jQuery('.draggable_v-').css({
+                                            background: '#fff url(/wp-content/themes/mobile/img/povregdenie_demona.jpg) 0 0/100% no-repeat'
+                                          });
+                                          jQuery('.zone_x').css('top', l_top);
+                                          jQuery('.zone_l').css('top', r_bottom);
+                                        }
+                                        jQuery('.zone_x').css('transform', rotate_two+'deg');
+                                        jQuery('.zone_l').css('transform', '-'+rotate_one+'deg');
+                                        count_animation += 1;
+                                        rotate_one += 2;
+                                        rotate_two += 20;
+                                      } else {
+                                        clearInterval(phaseOne);
+                                        count_animation = 1;
+                                        jQuery('.draggable_v-').css({
+                                          color: '#FFF0C7',
+                                          background: 'rgba(83, 35, 69, 0.4)',
+                                          opacity: 1
+                                        });
+                                        // Фаза 1.10
+                                        count_animation = 0;
+                                        phaseOne = setInterval(function(){
+                                          if (count_animation <= 12){
+                                            if (count_animation <= 4) {
+                                              jQuery('.draggable_v1').css({
+                                                color: 'transparent',
+                                                background: '#fff url(/wp-content/themes/mobile/img/disfunction.jpg) 0 0/100% no-repeat',
+                                                opacity: 0.8
+                                              });
+                                              jQuery('.zone_x').css('top', l_bottom);
+                                              jQuery('.zone_l').css('top', r_top);
+                                            } else if (count_animation <= 8) {
+                                              jQuery('.draggable_v1').css({
+                                                background: '#fff url(/wp-content/themes/mobile/img/travma.jpg) 0 0/100% no-repeat'
+                                              });
+                                              jQuery('.zone_x').css('top', l_bottom);
+                                              jQuery('.zone_l').css('top', r_top);
+                                            } else if (count_animation <= 12) {
+                                              jQuery('.draggable_v1').css({
+                                                background: '#fff url(/wp-content/themes/mobile/img/povregdenie_demona.jpg) 0 0/100% no-repeat'
+                                              });
+                                              jQuery('.zone_x').css('top', l_bottom);
+                                              jQuery('.zone_l').css('top', r_top);
+                                            }
+                                            jQuery('.zone_x').css('transform', rotate_two+'deg');
+                                            jQuery('.zone_l').css('transform', '-'+rotate_one+'deg');
+                                            count_animation += 1;
+                                            rotate_one += 2;
+                                            rotate_two += 20;
+                                          } else {
+                                            clearInterval(phaseOne);
+                                            count_animation = 1;
+                                            jQuery('.draggable_v1').css({
+                                              color: '#FFF0C7',
+                                              background: 'rgba(83, 35, 69, 0.4)',
+                                              opacity: 1
+                                            });
+                                            // Фаза 1.11
+                                            count_animation = 0;
+                                            phaseOne = setInterval(function(){
+                                              if (count_animation <= 12){
+                                                if (count_animation <= 4) {
+                                                  jQuery('.draggable_v5').css({
+                                                    color: 'transparent',
+                                                    background: '#fff url(/wp-content/themes/mobile/img/disfunction.jpg) 0 0/100% no-repeat',
+                                                    opacity: 0.8
+                                                  });
+                                                  jQuery('.zone_x').css('top', l_bottom);
+                                                  jQuery('.zone_l').css('top', r_top);
+                                                } else if (count_animation <= 8) {
+                                                  jQuery('.draggable_v5').css({
+                                                    background: '#fff url(/wp-content/themes/mobile/img/travma.jpg) 0 0/100% no-repeat'
+                                                  });
+                                                  jQuery('.zone_x').css('top', l_bottom);
+                                                  jQuery('.zone_l').css('top', r_top);
+                                                } else if (count_animation <= 12) {
+                                                  jQuery('.draggable_v5').css({
+                                                    background: '#fff url(/wp-content/themes/mobile/img/povregdenie_demona.jpg) 0 0/100% no-repeat'
+                                                  });
+                                                  jQuery('.zone_x').css('top', l_bottom);
+                                                  jQuery('.zone_l').css('top', r_top);
+                                                }
+                                                jQuery('.zone_x').css('transform', rotate_two+'deg');
+                                                jQuery('.zone_l').css('transform', '-'+rotate_one+'deg');
+                                                count_animation += 1;
+                                                rotate_one += 2;
+                                                rotate_two += 20;
+                                              } else {
+                                                clearInterval(phaseOne);
+                                                count_animation = 1;
+                                                jQuery('.draggable_v5').css({
+                                                  color: '#FFF0C7',
+                                                  background: 'rgba(83, 35, 69, 0.4)',
+                                                  opacity: 1
+                                                });
+                                                count_animation = 0;
+                                                // Фаза 1.12
+                                                phaseOne = setInterval(function(){
+                                                  if (count_animation <= 12){
+                                                    if (count_animation <= 4) {
+                                                      jQuery('.draggable_v-').css({
+                                                        color: 'transparent',
+                                                        background: '#fff url(/wp-content/themes/mobile/img/disfunction.jpg) 0 0/100% no-repeat',
+                                                        opacity: 0.8
+                                                      });
+                                                      jQuery('.zone_x').css('top', l_bottom);
+                                                      jQuery('.zone_l').css('top', r_top);
+                                                    } else if (count_animation <= 8) {
+                                                      jQuery('.draggable_v-').css({
+                                                        background: '#fff url(/wp-content/themes/mobile/img/travma.jpg) 0 0/100% no-repeat'
+                                                      });
+                                                      jQuery('.zone_x').css('top', l_bottom);
+                                                      jQuery('.zone_l').css('top', r_top);
+                                                    } else if (count_animation <= 12) {
+                                                      jQuery('.draggable_v-').css({
+                                                        background: '#fff url(/wp-content/themes/mobile/img/povregdenie_demona.jpg) 0 0/100% no-repeat'
+                                                      });
+                                                      jQuery('.zone_x').css('top', l_bottom);
+                                                      jQuery('.zone_l').css('top', r_top);
+                                                    }
+                                                    jQuery('.zone_x').css('transform', rotate_two+'deg');
+                                                    jQuery('.zone_l').css('transform', '-'+rotate_one+'deg');
+                                                    count_animation += 1;
+                                                    rotate_one += 2;
+                                                    rotate_two += 20;
+                                                  } else {
+                                                    clearInterval(phaseOne);
+                                                    count_animation = 1;
+                                                    jQuery('.draggable_v-').css({
+                                                      color: '#FFF0C7',
+                                                      background: 'rgba(83, 35, 69, 0.4)',
+                                                      opacity: 1
+                                                    });
+                                                    count_animation = 0;
+                                                    rotate_one = 0;
+                                                    rotate_two = 0;
+                                                    next();
+                                                  }
+                                                }, 1000);
+                                              }
+                                            }, 1000);
+                                          }
+                                        }, 1000);
+                                      }
+                                    }, 1000);
+                                  }
+                                }, 1000);
+                              }
+                            }, 1000);
+                          }
+                        }, 1000);
+                      }
+                    }, 1000);
+                  }
+                }, 1000);
               }
             }, 1000);
           }

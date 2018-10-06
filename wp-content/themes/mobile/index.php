@@ -198,9 +198,9 @@
 							</div>
 						</div>
 						<div class="col-12 text_center zone_diag">
-							<div class="zone zone_final zone_x hidden"></div>
+							<div class="zone zone_final zone_x draggable_v hidden"></div>
 							<img class="loaded_img" src="" alt="">
-							<div class="zone zone_final zone_l hidden"></div>
+							<div class="zone zone_final zone_l draggable_v hidden"></div>
 						</div>
 						<div class="col-12 text_center">
 							<button class="btn btn-primary btn_start"><i class="fab fa-react"></i> Выполнить</button>

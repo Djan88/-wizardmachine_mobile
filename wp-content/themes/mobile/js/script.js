@@ -25,6 +25,11 @@ jQuery(document).ready(function () {
   jQuery( ".draggable" ).draggable({
       snap: false
   });
+  jQuery( ".draggable_v" ).draggable({
+      snap: false,
+      containment: '.zone_diag',
+      axis: "y"
+  });
   jQuery( ".draggable_y" ).draggable({
       snap: false,
       containment: '.diagnostic_container',
