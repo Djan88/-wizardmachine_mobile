@@ -15,9 +15,12 @@ var chain,
     v1,
 
 wait = function(){
-  if(!stop_func) setTimeout('wait()',1000);
-  console.log('paused');
-  else return;
+  if(!stop_func){
+    setTimeout('wait()',1000);
+    console.log('paused');
+  } else {
+    return;
+  }
 }
 
 
