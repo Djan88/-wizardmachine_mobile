@@ -14,25 +14,21 @@ var chain,
     rotate_two = 0,
     v1;
 
-wait = function(next){
-  if(!stop_func){
-    setTimeout('wait()',1000);
-    console.log('paused');
-  } else {
-    return;
-    next;
-  }
-}()
-
 
 chain = function (callback) {
     queue = [];
  
     function _next() {
+      if(!stop_func){
+        setTimeout('_next()',1000);
+        console.log('paused');
+      } else {
+        return;
         cb = queue.shift();
         if (cb) {
             cb(_next);
         }
+      }
     }
  
     setTimeout(_next, 0);
@@ -512,7 +508,7 @@ v1 = function(){
                                                     rotate_two = 0;
                                                     jQuery('.zone_x, .zone_l').css('transform', 'rotate(0deg)');
                                                     jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v0').css('top'));
-                                                    wait(next());
+                                                    next();
                                                   }
                                                 }, 1000);
                                               }
@@ -540,12 +536,12 @@ v1 = function(){
   }).then(function(next) {
       setTimeout(function() {
           console.log('3');
-          wait(next());
+          next();
       }, 1000);
   }).then(function(next) {
       setTimeout(function() {
           console.log('4');
-          wait(next());
+          next();
       }, 1000);
   });
 }
