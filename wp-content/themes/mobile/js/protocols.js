@@ -15,7 +15,6 @@ var chain,
     v1;
 
 wait = function(){
-  console.log('Start Wait');
   if(!stop_func){
     setTimeout('wait()',1000);
     console.log('paused');
@@ -29,7 +28,6 @@ chain = function (callback) {
   queue = [];
 
   function _next() {
-      wait();
       cb = queue.shift();
       if (cb) {
           cb(_next);
@@ -512,6 +510,7 @@ v1 = function(){
                                                     rotate_two = 0;
                                                     jQuery('.zone_x, .zone_l').css('transform', 'rotate(0deg)');
                                                     jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v0').css('top'));
+                                                    wait();
                                                     next();
                                                   }
                                                 }, 1000);
