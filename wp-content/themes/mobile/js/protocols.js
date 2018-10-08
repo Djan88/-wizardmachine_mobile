@@ -17,33 +17,31 @@ var chain,
 
 
 chain = function (callback) {
-    queue = [];
- 
-    function _next() {
-        cb = queue.shift();
-        if (cb) {
-            cb(_next);
-        }
-    }
- 
-    setTimeout(_next, 0);
- 
-    then = function(cb) {
-        queue.push(cb);
-        return { then: then }
-    }
-    
-    wait = function(){
-      if(!stop_func){
-        setTimeout('wait()',1000);
-        console.log('paused');
-      } else {
-        return;
-      }
-    };
-    wait();
+  queue = [];
 
-    return then(callback);
+  function _next() {
+      cb = queue.shift();
+      if (cb) {
+          cb(_next);
+      }
+  }
+
+  wait = function(){
+    if(!stop_func){
+      setTimeout('wait()',1000);
+      console.log('paused');
+    } else {
+      setTimeout(_next, 0);
+      return;
+    }
+  };
+
+  then = function(cb) {
+      queue.push(cb);
+      return { then: then }
+  }
+
+  return then(callback);
 }
 
 v1 = function(){
