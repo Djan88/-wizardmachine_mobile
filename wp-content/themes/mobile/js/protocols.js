@@ -29,6 +29,7 @@ chain = function (callback) {
   queue = [];
 
   function _next() {
+      wait();
       cb = queue.shift();
       if (cb) {
           cb(_next);
@@ -38,7 +39,6 @@ chain = function (callback) {
   setTimeout(_next, 0);
 
   then = function(cb) {
-      wait();
       queue.push(cb);
       return { then: then }
   }
