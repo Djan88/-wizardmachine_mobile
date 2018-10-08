@@ -12,7 +12,7 @@ var chain,
     count_animation = 0,
     rotate_one = 0,
     rotate_two = 0,
-    v1,
+    v1;
 
 wait = function(that){
   if(!stop_func){
