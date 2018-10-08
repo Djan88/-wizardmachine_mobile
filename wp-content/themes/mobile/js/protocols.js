@@ -12,23 +12,18 @@ var chain,
     count_animation = 0,
     rotate_one = 0,
     rotate_two = 0,
-    v1;
+    v1,
+
 
 
 chain = function (callback) {
     queue = [];
  
     function _next() {
-      if(!stop_func){
-        setTimeout('_next()',1000);
-        console.log('paused');
-      } else {
-        return;
         cb = queue.shift();
         if (cb) {
             cb(_next);
         }
-      }
     }
  
     setTimeout(_next, 0);
@@ -37,8 +32,15 @@ chain = function (callback) {
         queue.push(cb);
         return { then: then }
     }
- 
-    return then(callback);
+    
+    wait = function(){
+      if(!stop_func){
+        setTimeout('wait()',1000);
+        console.log('paused');
+      } else {
+        return then(callback);
+      }
+    }();
 }
 
 v1 = function(){
@@ -508,6 +510,7 @@ v1 = function(){
                                                     rotate_two = 0;
                                                     jQuery('.zone_x, .zone_l').css('transform', 'rotate(0deg)');
                                                     jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v0').css('top'));
+                                                    wait();
                                                     next();
                                                   }
                                                 }, 1000);
@@ -536,11 +539,13 @@ v1 = function(){
   }).then(function(next) {
       setTimeout(function() {
           console.log('3');
+          wait();
           next();
       }, 1000);
   }).then(function(next) {
       setTimeout(function() {
           console.log('4');
+          wait();
           next();
       }, 1000);
   });
