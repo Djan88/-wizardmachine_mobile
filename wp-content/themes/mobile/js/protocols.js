@@ -6,11 +6,18 @@ var chain,
     l_bottom,
     r_top,
     r_bottom,
+    stop_func = true,
+    wait,
     phaseOne,
     count_animation = 0,
     rotate_one = 0,
     rotate_two = 0,
     v1,
+
+wait = function(){
+  if(!flag) setTimeout('wait()',1000);
+  else return;
+}
 
 
 chain = function (callback) {
@@ -500,6 +507,7 @@ v1 = function(){
                                                     rotate_two = 0;
                                                     jQuery('.zone_x, .zone_l').css('transform', 'rotate(0deg)');
                                                     jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v0').css('top'));
+                                                    wait();
                                                     next();
                                                   }
                                                 }, 1000);
@@ -528,16 +536,32 @@ v1 = function(){
   }).then(function(next) {
       setTimeout(function() {
           console.log('3');
+          wait();
           next();
       }, 1000);
   }).then(function(next) {
       setTimeout(function() {
           console.log('4');
+          wait();
           next();
       }, 1000);
   });
 }
 
+// PAUSE/PLAY
+jQuery('.btn-paused').on('click', function(event) {
+  jQuery('.btn-paused').addClass('hidden');
+  jQuery('.btn-played').removeClass('hidden');
+  stop_func = false
+});
+
+jQuery('.btn-played').on('click', function(event) {
+  jQuery('.btn-played').addClass('hidden');
+  jQuery('.btn-paused').removeClass('hidden');
+  stop_func = true
+});
+
+// START
 jQuery('.btn_start').on('click', function(event) {
   v1();
 });

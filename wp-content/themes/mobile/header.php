@@ -20,6 +20,8 @@
                 <button type="button" class="btn btn-lg btn-link btn-back btn-to_img hidden"><i class="far fa-arrow-alt-circle-left"></i></button>
                 <button type="button" class="btn btn-lg btn-link btn-back btn-to_mode hidden"><i class="far fa-arrow-alt-circle-left"></i></button>
                 <button type="button" class="btn btn-lg btn-link btn-back btn-to_protocols hidden"><i class="far fa-arrow-alt-circle-left"></i></button>
+                <button type="button" class="btn btn-lg btn-link btn-back btn-paused hidden"><i class="far fa-pause-circle"></i></button>
+                <button type="button" class="btn btn-lg btn-link btn-back btn-played hidden"><i class="far fa-play-circle"></i></button>
                 <button type="button" class="btn btn-lg btn-link btn-back btn-to_manual hidden"><i class="far fa-arrow-alt-circle-left"></i></button>
               <?php } ?>
             </div>
