@@ -14,24 +14,20 @@ var chain,
     rotate_two = 0,
     v1;
 
-wait = function(){
-  if(!stop_func){
-    setTimeout('wait()',1000);
-    console.log('paused');
-  } else {
-    return;
-  }
-};
-
 
 chain = function (callback) {
   queue = [];
 
   function _next() {
+    if(!stop_func){
+      setTimeout('_next()',1000);
+      console.log('paused');
+    } else {
       cb = queue.shift();
       if (cb) {
           cb(_next);
       }
+    }
   }
 
   setTimeout(_next, 0);
@@ -510,7 +506,6 @@ v1 = function(){
                                                     rotate_two = 0;
                                                     jQuery('.zone_x, .zone_l').css('transform', 'rotate(0deg)');
                                                     jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v0').css('top'));
-                                                    wait();
                                                     next();
                                                   }
                                                 }, 1000);
