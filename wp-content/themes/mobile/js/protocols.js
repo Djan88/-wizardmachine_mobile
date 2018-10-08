@@ -38,9 +38,11 @@ chain = function (callback) {
         setTimeout('wait()',1000);
         console.log('paused');
       } else {
-        return then(callback);
+        return;
       }
     }();
+
+    return then(callback);
 }
 
 v1 = function(){
