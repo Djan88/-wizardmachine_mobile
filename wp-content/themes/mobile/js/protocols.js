@@ -40,7 +40,8 @@ chain = function (callback) {
       } else {
         return;
       }
-    }();
+    };
+    wait();
 
     return then(callback);
 }
