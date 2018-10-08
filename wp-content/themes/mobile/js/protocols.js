@@ -12,8 +12,17 @@ var chain,
     count_animation = 0,
     rotate_one = 0,
     rotate_two = 0,
-    v1,
+    v1;
 
+wait = function(){
+  console('Start Wait');
+  if(!stop_func){
+    setTimeout('wait()',1000);
+    console.log('paused');
+  } else {
+    return;
+  }
+};
 
 
 chain = function (callback) {
@@ -26,21 +35,13 @@ chain = function (callback) {
       }
   }
 
-  wait = function(){
-    if(!stop_func){
-      setTimeout('wait()',1000);
-      console.log('paused');
-    } else {
-      setTimeout(_next, 0);
-      return;
-    }
-  };
+  setTimeout(_next, 0);
 
   then = function(cb) {
       queue.push(cb);
       return { then: then }
   }
-
+  wait();
   return then(callback);
 }
 
