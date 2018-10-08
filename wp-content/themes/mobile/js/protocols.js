@@ -12,7 +12,17 @@ var chain,
     count_animation = 0,
     rotate_one = 0,
     rotate_two = 0,
-    v1
+    v1,
+
+wait = function(that){
+  if(!stop_func){
+    setTimeout('wait()',1000);
+    console.log('paused');
+  } else {
+    return;
+    that.next();
+  }
+}()
 
 
 chain = function (callback) {
@@ -502,15 +512,7 @@ v1 = function(){
                                                     rotate_two = 0;
                                                     jQuery('.zone_x, .zone_l').css('transform', 'rotate(0deg)');
                                                     jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v0').css('top'));
-                                                    wait = function(){
-                                                      if(!stop_func){
-                                                        setTimeout('wait()',1000);
-                                                        console.log('paused');
-                                                      } else {
-                                                        return;
-                                                        next();
-                                                      }
-                                                    }()
+                                                    wait(jQuery(this));
                                                   }
                                                 }, 1000);
                                               }
@@ -538,12 +540,12 @@ v1 = function(){
   }).then(function(next) {
       setTimeout(function() {
           console.log('3');
-          next()
+          wait(jQuery(this));
       }, 1000);
   }).then(function(next) {
       setTimeout(function() {
           console.log('4');
-          next();
+          wait(jQuery(this));
       }, 1000);
   });
 }
