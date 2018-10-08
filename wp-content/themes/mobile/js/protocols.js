@@ -20,7 +20,7 @@ wait = function(next){
     console.log('paused');
   } else {
     return;
-    next;
+    next();
   }
 }
 
@@ -512,7 +512,7 @@ v1 = function(){
                                                     rotate_two = 0;
                                                     jQuery('.zone_x, .zone_l').css('transform', 'rotate(0deg)');
                                                     jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v0').css('top'));
-                                                    wait(next());
+                                                    wait(next);
                                                   }
                                                 }, 1000);
                                               }
