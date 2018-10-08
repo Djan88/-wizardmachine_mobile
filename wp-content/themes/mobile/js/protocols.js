@@ -20,7 +20,7 @@ chain = function (callback) {
 
   function _next() {
     if(!stop_func){
-      setTimeout('_next()',1000);
+      setTimeout('_next',1000);
       console.log('paused');
     } else {
       cb = queue.shift();
