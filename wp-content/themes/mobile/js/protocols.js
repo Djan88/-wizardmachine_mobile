@@ -14,20 +14,14 @@ var chain,
     rotate_two = 0,
     v1;
 
-
 chain = function (callback) {
   queue = [];
 
   function _next() {
-    if(!stop_func){
-      setTimeout('_next',1000);
-      console.log('paused');
-    } else {
       cb = queue.shift();
       if (cb) {
           cb(_next);
       }
-    }
   }
 
   setTimeout(_next, 0);
