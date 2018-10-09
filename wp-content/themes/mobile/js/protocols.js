@@ -37,6 +37,7 @@ chain = function (callback) {
 
 v1 = function(){
   chain(function(next) {
+    console.log('Фаза 1');
     r_top = jQuery('.draggable_v5').css('top');
     r_bottom = jQuery('.draggable_v-').css('top');
     l_top = jQuery('.draggable_v0').css('top');
@@ -528,6 +529,7 @@ v1 = function(){
       }
     }, 1000);
   }).then(function(next) {
+    console.log('Фаза 2/0');
     r_top = jQuery('.draggable_v1').css('top');
     r_bottom = jQuery('.draggable_s2').css('top');
     l_top = jQuery('.draggable_s5').css('top');
@@ -1093,7 +1095,7 @@ v1 = function(){
       }
     }, 1000);
   }).then(function(next) {
-    console.log('Фаза 2');
+    console.log('Фаза 2/1');
     r_top = jQuery('.draggable_v1').css('top');
     r_bottom = jQuery('.draggable_s2').css('top');
     l_top = jQuery('.draggable_s5').css('top');
@@ -1631,9 +1633,9 @@ v1 = function(){
                                                     rotate_two = 0;
                                                     rotate_three = 0;
                                                     rotate_four = 0;
-                                                    jQuery('.zone_x, .zone_l').css('transform', 'rotate(0deg)');
-                                                    jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v0').css('top'));
-                                                    next();
+                                                    jQuery('.zone_x, .zone_l').css('transform', 'rotate(0deg)').css('top', jQuery('.draggable_v0').css('top'));
+                                                    jQuery('.zone_x, .zone_l').addClass('hidden');
+                                                    setTimeout(jQuery('.zone_x, .zone_l').css('transform', 'scale(0.01) rotate(0deg)') next(),1000);
                                                   }
                                                 }, 1000);
                                               }
