@@ -1635,7 +1635,6 @@ v1 = function(){
                                                     rotate_four = 0;
                                                     jQuery('.zone_x, .zone_l').css('transform', 'rotate(0deg)').css('top', jQuery('.draggable_v0').css('top'));
                                                     jQuery('.zone_x, .zone_l').addClass('hidden');
-                                                    setTimeout(jQuery('.zone_x, .zone_l').css('transform', 'scale(0.01) rotate(0deg)'), 1000);
                                                     next()
                                                   }
                                                 }, 1000);
@@ -1662,6 +1661,7 @@ v1 = function(){
       }
     }, 1000);
   }).then(function(next) {
+      jQuery('.zone_x, .zone_l').css('transform', 'scale(0.01) rotate(0deg)');
       setTimeout(function() {
           console.log('4');
           next();
