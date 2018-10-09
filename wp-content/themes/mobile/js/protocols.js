@@ -1635,7 +1635,8 @@ v1 = function(){
                                                     rotate_four = 0;
                                                     jQuery('.zone_x, .zone_l').css('transform', 'rotate(0deg)').css('top', jQuery('.draggable_v0').css('top'));
                                                     jQuery('.zone_x, .zone_l').addClass('hidden');
-                                                    setTimeout(jQuery('.zone_x, .zone_l').css('transform', 'scale(0.01) rotate(0deg)') next(),1000);
+                                                    setTimeout(jQuery('.zone_x, .zone_l').css('transform', 'scale(0.01) rotate(0deg)'),1000);
+                                                    next()
                                                   }
                                                 }, 1000);
                                               }
