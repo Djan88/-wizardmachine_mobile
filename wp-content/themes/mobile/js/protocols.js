@@ -1630,6 +1630,7 @@ v1 = function(){
                                                 });
                                                 // Фаза 2.12
                                                 count_animation = 0;
+                                                console.log('test');
                                                 phaseOne = setInterval(function(){
                                                   if (count_animation <= 12){
                                                     if (count_animation <= 4) {
@@ -1705,7 +1706,7 @@ v1 = function(){
       }
     }, 1000);
   }).then(function(next) {
-      jQuery('.zone_x, .zone_l').css('transform', 'scale(0.01) rotate(0deg)');
+      jQuery('.zone_x, .zone_l').css('transform', 'scale(0.01)');
       setTimeout(function() {
           console.log('4');
           next();
