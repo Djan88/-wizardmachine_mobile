@@ -2013,16 +2013,89 @@ v1 = function(){
       }
     }, 1000);
   }).then(function(next) {
-    jQuery('.zone_x, .zone_l').addClass('hidden').css('transform', 'scale(1)');
-    setTimeout(function() {
-      console.log('4');
-      next();
+    // Фаза 4.1
+    count_animation = 0;
+    console.log('Фаза 4.1');
+    phaseOne = setInterval(function(){
+      if (count_animation <= 36){
+        if (count_animation <= 19) {
+          jQuery('.draggable_v1, .draggable_v4').css({
+            color: 'transparent',
+            background: '#fff url(/wp-content/themes/mobile/img/3_voda_lev.png) 0 0/100% no-repeat',
+            opacity: 0.8
+          });
+        } else {
+          jQuery('.draggable_v1, .draggable_v4').css({
+            background: '#fff url(/wp-content/themes/mobile/img/2_voda_prav.png) 0 0/100% no-repeat'
+          });
+        }
+        count_animation += 1;
+      } else {
+        clearInterval(phaseOne);
+        jQuery('.draggable_v1, .draggable_v4').css({
+          color: '#FFF0C7',
+          background: 'rgba(83, 35, 69, 0.4)',
+          opacity: 1
+        });
+        count_animation = 0;
+        // Фаза 4.2
+        console.log('Фаза 4.2');
+        phaseOne = setInterval(function(){
+          if (count_animation <= 34){
+            if (count_animation <= 17) {
+              jQuery('.draggable_v1, .draggable_v5, .draggable_v-').css({
+                color: 'transparent',
+                background: '#fff url(/wp-content/themes/mobile/img/4_ogon_lev.png) 0 0/100% no-repeat',
+                opacity: 0.8
+              });
+            } else {
+              jQuery('.draggable_v1, .draggable_v5, .draggable_v-').css({
+                background: '#fff url(/wp-content/themes/mobile/img/1_ogon_prav.png) 0 0/100% no-repeat'
+              });
+            }
+            count_animation += 1;
+          } else {
+            clearInterval(phaseOne);
+            jQuery('.draggable_v1, .draggable_v5, .draggable_v-').css({
+              color: '#FFF0C7',
+              background: 'rgba(83, 35, 69, 0.4)',
+              opacity: 1
+            });
+            count_animation = 0;
+            next();
+          }
+        }, 1000);
+      }
     }, 1000);
   }).then(function(next) {
-    jQuery('.zone_x, .zone_l').addClass('hidden').css('transform', 'scale(1)');
-    setTimeout(function() {
-      console.log('5');
-      next();
+    count_animation = 0;
+    // Фаза 5
+    console.log('Фаза 5');
+    phaseOne = setInterval(function(){
+      if (count_animation <= 80){
+        jQuery('.draggable_v5, .draggable_v3, .draggable_v0').css({
+          color: 'transparent',
+          opacity: 0.8
+        });
+        jQuery('.draggable_v5').css({
+          background: '#fff url(/wp-content/themes/mobile/img/gold.png) 0 0/100% no-repeat'
+        });
+        jQuery('.draggable_v3').css({
+          background: '#fff url(/wp-content/themes/mobile/img/chisty_vnutri.jpg) 0 0/100% no-repeat'
+        });
+        jQuery('.draggable_v3').css({
+          background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat'
+        });
+        count_animation += 1;
+      } else {
+        clearInterval(phaseOne);
+        jQuery('.draggable_v5, .draggable_v3, .draggable_v0').css({
+          color: '#FFF0C7',
+          background: 'rgba(83, 35, 69, 0.4)',
+          opacity: 1
+        });
+        count_animation = 0;
+      }
     }, 1000);
   });
 }
