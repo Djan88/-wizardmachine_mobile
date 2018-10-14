@@ -65,6 +65,7 @@ jQuery(document).ready(function () {
     cur_protocol_name = jQuery(this).find('.protocols_item_title').text();
     console.log(cur_protocol+' '+cur_protocol_name);
     localStorage.setItem('protocol', cur_protocol);
+    localStorage.setItem('protocolName', cur_protocol_name);
   });
 
   // clear graph
@@ -196,7 +197,7 @@ jQuery(document).ready(function () {
   jQuery('.btn_start').on('click', function(event) {
     jQuery('.zone').css('background', 'rgba(83,35,69, 0.4)');
     jQuery('.btn-to_protocols').addClass('hidden');
-    jQuery('.btn-paused').removeClass('hidden');
+    // jQuery('.btn-paused').removeClass('hidden');
     jQuery('.zone_x').css('background', '#fff url(/wp-content/themes/mobile/img/daemon.png) 0 0/100% no-repeat');
     jQuery('.zone_l').css('background', '#fff url(/wp-content/themes/mobile/img/lovushka.png) 0 0/100% no-repeat');
     jQuery('.zone_x, .zone_l').removeClass('hidden');
