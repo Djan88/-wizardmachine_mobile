@@ -97,7 +97,7 @@ div#recallbar, div#wpadminbar
   /*border: 1px solid #fff;*/
   margin-top: 80px;
   color: #FFF0C7;
-  transition: all 0.5s;
+  transition: all 0.5s linear;
 }
 .mobile_screen.mobile_screen_load 
 {
@@ -107,7 +107,7 @@ div#recallbar, div#wpadminbar
 {
   position: relative;
   color: #FFF0C7;
-  transition: all 1s;
+  transition: all 1s linear;
   margin: 5px;
   border-radius: 6px;
   cursor: pointer;
@@ -172,7 +172,7 @@ div#recallbar, div#wpadminbar
   color: #FFF0C7;
   background: #795371;
   margin: 5px 0;
-  transition: all 1s;
+  transition: all 1s linear;
   box-shadow: 0 0.5rem 1rem rgba(0,0,0,.15)
 }
 .main_menu li a:hover
@@ -299,7 +299,7 @@ span.menu_item_img
   position: absolute;
   margin: auto;
   left: 40%;
-  transition: transform 1s;
+  transition: transform linear 1s;
 }
 #zones_template img 
 {
