@@ -2145,11 +2145,11 @@ v2 = function(){
     phaseOne = setInterval(function(){
       if (count_animation <= 12){
         jQuery('.draggable_lovushka').css({
-            color: 'transparent',
-            transform: 'rotate(-'+rotate_lovushka+'deg)',
-            background: '#fff url(/wp-content/themes/mobile/img/lovushka.jpg) 0 0/100% no-repeat',
-            opacity: 0.8
-          });
+          color: 'transparent',
+          transform: 'rotate(-'+rotate_lovushka+'deg)',
+          background: '#fff url(/wp-content/themes/mobile/img/lovushka.jpg) 0 0/100% no-repeat',
+          opacity: 0.8
+        });
         if (count_animation <= 4) {
           jQuery('.draggable_d2').css({
             color: 'transparent',
@@ -2196,6 +2196,12 @@ v2 = function(){
         count_animation = 0;
         phaseOne = setInterval(function(){
           if (count_animation <= 12){
+            jQuery('.draggable_lovushka').css({
+              color: 'transparent',
+              transform: 'rotate(-'+rotate_lovushka+'deg)',
+              background: '#fff url(/wp-content/themes/mobile/img/lovushka.jpg) 0 0/100% no-repeat',
+              opacity: 0.8
+            });
             if (count_animation <= 4) {
               jQuery('.draggable_v2').css({
                 color: 'transparent',
@@ -2242,6 +2248,12 @@ v2 = function(){
             count_animation = 0;
             phaseOne = setInterval(function(){
               if (count_animation <= 12){
+                jQuery('.draggable_lovushka').css({
+                  color: 'transparent',
+                  transform: 'rotate(-'+rotate_lovushka+'deg)',
+                  background: '#fff url(/wp-content/themes/mobile/img/lovushka.jpg) 0 0/100% no-repeat',
+                  opacity: 0.8
+                });
                 if (count_animation <= 4) {
                   jQuery('.draggable_s2').css({
                     color: 'transparent',
@@ -2289,6 +2301,12 @@ v2 = function(){
                 count_animation = 0;
                 phaseOne = setInterval(function(){
                   if (count_animation <= 12){
+                    jQuery('.draggable_lovushka').css({
+                      color: 'transparent',
+                      transform: 'rotate(-'+rotate_lovushka+'deg)',
+                      background: '#fff url(/wp-content/themes/mobile/img/lovushka.jpg) 0 0/100% no-repeat',
+                      opacity: 0.8
+                    });
                     if (count_animation <= 4) {
                       jQuery('.draggable_d2').css({
                         color: 'transparent',
@@ -2335,6 +2353,12 @@ v2 = function(){
                     count_animation = 0;
                     phaseOne = setInterval(function(){
                       if (count_animation <= 12){
+                        jQuery('.draggable_lovushka').css({
+                          color: 'transparent',
+                          transform: 'rotate(-'+rotate_lovushka+'deg)',
+                          background: '#fff url(/wp-content/themes/mobile/img/lovushka.jpg) 0 0/100% no-repeat',
+                          opacity: 0.8
+                        });
                         if (count_animation <= 4) {
                           jQuery('.draggable_v2').css({
                             color: 'transparent',
@@ -2381,6 +2405,12 @@ v2 = function(){
                         count_animation = 0;
                         phaseOne = setInterval(function(){
                           if (count_animation <= 12){
+                            jQuery('.draggable_lovushka').css({
+                              color: 'transparent',
+                              transform: 'rotate(-'+rotate_lovushka+'deg)',
+                              background: '#fff url(/wp-content/themes/mobile/img/lovushka.jpg) 0 0/100% no-repeat',
+                              opacity: 0.8
+                            });
                             if (count_animation <= 4) {
                               jQuery('.draggable_s2').css({
                                 color: 'transparent',
