@@ -6901,13 +6901,14 @@ v3 = function(){
     count_animation = 0;
     rotate_lovushka = 0;
     phaseOne = setInterval(function(){
-      if (count_animation <= 136){
+      if (count_animation <= 140){
         jQuery('.draggable_v4').css({
           color: 'transparent',
           transform: 'rotate(-'+rotate_lovushka+'deg)',
           background: '#fff url(/wp-content/themes/mobile/img/lovushka.jpg) 0 0/100% no-repeat',
           opacity: 0.8
         });
+        jQuery('.zone_x').css('transform', 'rotate('+rotate_lovushka+'deg)');
         if (count_animation <= 4) {
           jQuery('.zone_x').css('top', x1);
           rotate_lovushka += 36
@@ -6933,6 +6934,57 @@ v3 = function(){
           rotate_lovushka += 26
         } else if (count_animation <= 48) {
           rotate_lovushka += 25
+        } else if (count_animation <= 52) {
+          rotate_lovushka += 24
+        } else if (count_animation <= 56) {
+          rotate_lovushka += 23
+        } else if (count_animation <= 60) {
+          rotate_lovushka += 22
+        } else if (count_animation <= 64) {
+          rotate_lovushka += 21
+        } else if (count_animation <= 68) {
+          rotate_lovushka += 20
+        } else if (count_animation <= 72) {
+          rotate_lovushka += 19
+        } else if (count_animation <= 76) {
+          rotate_lovushka += 18
+        } else if (count_animation <= 80) {
+          rotate_lovushka += 17
+        } else if (count_animation <= 84) {
+          rotate_lovushka += 16
+        } else if (count_animation <= 88) {
+          rotate_lovushka += 15
+        } else if (count_animation <= 92) {
+          rotate_lovushka += 14
+        } else if (count_animation <= 96) {
+          rotate_lovushka += 13
+        } else if (count_animation <= 100) {
+          jQuery('.zone_x').css('top', x2);
+          rotate_lovushka += 12
+        } else if (count_animation <= 104) {
+          rotate_lovushka += 11
+        } else if (count_animation <= 108) {
+          rotate_lovushka += 10
+        } else if (count_animation <= 112) {
+          rotate_lovushka += 9
+        } else if (count_animation <= 116) {
+          jQuery('.zone_x').css('top', x3);
+          rotate_lovushka += 8
+        } else if (count_animation <= 120) {
+          rotate_lovushka += 7
+        } else if (count_animation <= 124) {
+          jQuery('.zone_x').css('top', x4);
+          rotate_lovushka += 6
+        } else if (count_animation <= 128) {
+          rotate_lovushka += 5
+        } else if (count_animation <= 132) {
+          jQuery('.zone_x').css('top', x5);
+          rotate_lovushka += 4
+        } else if (count_animation <= 136) {
+          rotate_lovushka += 3
+        } else if (count_animation <= 140) {
+          jQuery('.zone_x').css('top', x6);
+          rotate_lovushka += 2
         }
         count_animation += 1;
       } else {
@@ -6942,6 +6994,7 @@ v3 = function(){
           background: 'rgba(83, 35, 69, 0.4)',
           opacity: 1
         });
+        next();
       }
     }, 1000);
   }).then(function(next) {
