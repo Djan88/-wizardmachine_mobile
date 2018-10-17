@@ -7,6 +7,12 @@ var chain,
     l_bottom,
     r_top,
     r_bottom,
+    x1,
+    x2,
+    x3,
+    x4,
+    x5,
+    x6,
     stop_func = true,
     wait,
     protocol,
@@ -6850,6 +6856,7 @@ v3 = function(){
                                                                       opacity: 1
                                                                     });
                                                                     count_animation = 0;
+                                                                    jQuery('.zone_l').css('transform', 'scale(0.01)');
                                                                     next();
                                                                   }
                                                                 }, 1000);
@@ -6884,7 +6891,59 @@ v3 = function(){
       }
     }, 1000);
   }).then(function(next) {
-    next();
+// Фаза 3.1
+    x1 = jQuery('.draggable_v0').css('top');
+    x2 = jQuery('.draggable_v1').css('top');
+    x3 = jQuery('.draggable_d2').css('top');
+    x4 = jQuery('.draggable_d3').css('top');
+    x5 = jQuery('.draggable_d4').css('top');
+    x6 = jQuery('.draggable_v-').css('top');
+    count_animation = 0;
+    rotate_lovushka = 0;
+    phaseOne = setInterval(function(){
+      if (count_animation <= 136){
+        jQuery('.draggable_v4').css({
+          color: 'transparent',
+          transform: 'rotate(-'+rotate_lovushka+'deg)',
+          background: '#fff url(/wp-content/themes/mobile/img/lovushka.jpg) 0 0/100% no-repeat',
+          opacity: 0.8
+        });
+        if (count_animation <= 4) {
+          jQuery('.zone_x').css('top', x1);
+          rotate_lovushka += 36
+        } else if (count_animation <= 8) {
+          rotate_lovushka += 35
+        } else if (count_animation <= 12) {
+          rotate_lovushka += 34
+        } else if (count_animation <= 16) {
+          rotate_lovushka += 33
+        } else if (count_animation <= 20) {
+          rotate_lovushka += 32
+        } else if (count_animation <= 24) {
+          rotate_lovushka += 31
+        } else if (count_animation <= 28) {
+          rotate_lovushka += 30
+        } else if (count_animation <= 32) {
+          rotate_lovushka += 29
+        } else if (count_animation <= 36) {
+          rotate_lovushka += 28
+        } else if (count_animation <= 40) {
+          rotate_lovushka += 27
+        } else if (count_animation <= 44) {
+          rotate_lovushka += 26
+        } else if (count_animation <= 48) {
+          rotate_lovushka += 25
+        }
+        count_animation += 1;
+      } else {
+        clearInterval(phaseOne);
+        jQuery('.draggable_v4').css({
+          color: '#FFF0C7',
+          background: 'rgba(83, 35, 69, 0.4)',
+          opacity: 1
+        });
+      }
+    }, 1000);
   }).then(function(next) {
     next();
   }).then(function(next) {
