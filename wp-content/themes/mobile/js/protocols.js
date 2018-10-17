@@ -5254,6 +5254,9 @@ v2 = function(){
 
 
 
+
+
+
 v3 = function(){
   chain(function(next) {
 // Фаза 1.1
@@ -6891,6 +6894,7 @@ v3 = function(){
       }
     }, 1000);
   }).then(function(next) {
+    console.log('Фаза 3');
 // Фаза 3.1
     x1 = jQuery('.draggable_v0').css('top');
     x2 = jQuery('.draggable_v1').css('top');
@@ -6994,15 +6998,400 @@ v3 = function(){
           background: 'rgba(83, 35, 69, 0.4)',
           opacity: 1
         });
+        jQuery('.zone_x').css('transform', 'scale(0.01)');
         next();
       }
     }, 1000);
   }).then(function(next) {
-    next();
+    console.log('Фаза 4/1');
+// Фаза 4.1.1
+    rotate_one = 0;
+    phaseOne = setInterval(function(){
+      if (count_animation <= 22){
+        jQuery('.draggable_v3').css({
+          color: 'transparent',
+          transform: 'rotate(-'+rotate_one+'deg)',
+          background: '#fff url(/wp-content/themes/mobile/img/mo_right.png) 0 0/100% no-repeat',
+          opacity: 0.8
+        });
+        rotate_one += 1.5;
+        count_animation += 1;
+      } else if (count_animation <= 39) {
+        count_animation += 1;
+      } else {
+        clearInterval(phaseOne);
+        count_animation = 1;
+        jQuery('.draggable_v3').css({
+          color: '#FFF0C7',
+          background: 'rgba(83, 35, 69, 0.4)',
+          opacity: 1
+        });
+        count_animation = 0;
+// Фаза 4.1.2
+        rotate_one = 10;
+        phaseOne = setInterval(function(){
+          if (count_animation <= 53){
+            jQuery('.draggable_v3').css({
+              color: 'transparent',
+              transform: 'rotate('+rotate_one+'deg)',
+              background: '#fff url(/wp-content/themes/mobile/img/mo_left.png) 0 0/100% no-repeat',
+              opacity: 0.8
+            });
+            rotate_one += 1.5;
+            count_animation += 1;
+          } else if (count_animation <= 70) {
+            count_animation += 1;
+          } else {
+            clearInterval(phaseOne);
+            count_animation = 1;
+            jQuery('.draggable_v3').css({
+              color: '#FFF0C7',
+              background: 'rgba(83, 35, 69, 0.4)',
+              opacity: 1
+            });
+            count_animation = 0;
+// Фаза 4.1.3
+            rotate_one = 270;
+            phaseOne = setInterval(function(){
+              if (count_animation <= 60){
+                jQuery('.draggable_v3').css({
+                  color: 'transparent',
+                  transform: 'rotate('+rotate_one+'deg)',
+                  background: '#fff url(/wp-content/themes/mobile/img/mo_left.png) 0 0/100% no-repeat',
+                  opacity: 0.8
+                });
+                rotate_one += 1.5;
+                count_animation += 1;
+              } else if (count_animation <= 77) {
+                count_animation += 1;
+              } else {
+                clearInterval(phaseOne);
+                count_animation = 1;
+                jQuery('.draggable_v3').css({
+                  color: '#FFF0C7',
+                  background: 'rgba(83, 35, 69, 0.4)',
+                  opacity: 1
+                });
+                count_animation = 0;
+// Фаза 4.1.4
+                rotate_one = 300;
+                phaseOne = setInterval(function(){
+                  if (count_animation <= 40){
+                    jQuery('.draggable_v3').css({
+                      color: 'transparent',
+                      transform: 'rotate(-'+rotate_one+'deg)',
+                      background: '#fff url(/wp-content/themes/mobile/img/mo_right.png) 0 0/100% no-repeat',
+                      opacity: 0.8
+                    });
+                    rotate_one += 1.5;
+                    count_animation += 1;
+                  } else if (count_animation <= 57) {
+                    count_animation += 1;
+                  } else {
+                    clearInterval(phaseOne);
+                    count_animation = 1;
+                    jQuery('.draggable_v3').css({
+                      color: '#FFF0C7',
+                      background: 'rgba(83, 35, 69, 0.4)',
+                      opacity: 1
+                    });
+                    count_animation = 0;
+// Фаза 4.2.1
+                    rotate_one = 0;
+                    phaseOne = setInterval(function(){
+                      if (count_animation <= 22){
+                        jQuery('.draggable_v4').css({
+                          color: 'transparent',
+                          transform: 'rotate(-'+rotate_one+'deg)',
+                          background: '#fff url(/wp-content/themes/mobile/img/mo_right.png) 0 0/100% no-repeat',
+                          opacity: 0.8
+                        });
+                        rotate_one += 1.5;
+                        count_animation += 1;
+                      } else if (count_animation <= 39) {
+                        count_animation += 1;
+                      } else {
+                        clearInterval(phaseOne);
+                        count_animation = 1;
+                        jQuery('.draggable_v4').css({
+                          color: '#FFF0C7',
+                          background: 'rgba(83, 35, 69, 0.4)',
+                          opacity: 1
+                        });
+                        count_animation = 0;
+// Фаза 4.2.2
+                        rotate_one = 10;
+                        phaseOne = setInterval(function(){
+                          if (count_animation <= 53){
+                            jQuery('.draggable_v4').css({
+                              color: 'transparent',
+                              transform: 'rotate('+rotate_one+'deg)',
+                              background: '#fff url(/wp-content/themes/mobile/img/mo_left.png) 0 0/100% no-repeat',
+                              opacity: 0.8
+                            });
+                            rotate_one += 1.5;
+                            count_animation += 1;
+                          } else if (count_animation <= 70) {
+                            count_animation += 1;
+                          } else {
+                            clearInterval(phaseOne);
+                            count_animation = 1;
+                            jQuery('.draggable_v4').css({
+                              color: '#FFF0C7',
+                              background: 'rgba(83, 35, 69, 0.4)',
+                              opacity: 1
+                            });
+                            count_animation = 0;
+// Фаза 4.2.3
+                            rotate_one = 270;
+                            phaseOne = setInterval(function(){
+                              if (count_animation <= 60){
+                                jQuery('.draggable_v4').css({
+                                  color: 'transparent',
+                                  transform: 'rotate('+rotate_one+'deg)',
+                                  background: '#fff url(/wp-content/themes/mobile/img/mo_left.png) 0 0/100% no-repeat',
+                                  opacity: 0.8
+                                });
+                                rotate_one += 1.5;
+                                count_animation += 1;
+                              } else if (count_animation <= 77) {
+                                count_animation += 1;
+                              } else {
+                                clearInterval(phaseOne);
+                                count_animation = 1;
+                                jQuery('.draggable_v4').css({
+                                  color: '#FFF0C7',
+                                  background: 'rgba(83, 35, 69, 0.4)',
+                                  opacity: 1
+                                });
+                                count_animation = 0;
+// Фаза 4.2.4
+                                rotate_one = 300;
+                                phaseOne = setInterval(function(){
+                                  if (count_animation <= 40){
+                                    jQuery('.draggable_v4').css({
+                                      color: 'transparent',
+                                      transform: 'rotate(-'+rotate_one+'deg)',
+                                      background: '#fff url(/wp-content/themes/mobile/img/mo_right.png) 0 0/100% no-repeat',
+                                      opacity: 0.8
+                                    });
+                                    rotate_one += 1.5;
+                                    count_animation += 1;
+                                  } else if (count_animation <= 57) {
+                                    count_animation += 1;
+                                  } else {
+                                    clearInterval(phaseOne);
+                                    count_animation = 1;
+                                    jQuery('.draggable_v4').css({
+                                      color: '#FFF0C7',
+                                      background: 'rgba(83, 35, 69, 0.4)',
+                                      opacity: 1
+                                    });
+                                    count_animation = 0;
+// Фаза 4.3.1
+                                    rotate_one = 0;
+                                    phaseOne = setInterval(function(){
+                                      if (count_animation <= 22){
+                                        jQuery('.draggable_v1').css({
+                                          color: 'transparent',
+                                          transform: 'rotate(-'+rotate_one+'deg)',
+                                          background: '#fff url(/wp-content/themes/mobile/img/mo_right.png) 0 0/100% no-repeat',
+                                          opacity: 0.8
+                                        });
+                                        rotate_one += 1.5;
+                                        count_animation += 1;
+                                      } else if (count_animation <= 39) {
+                                        count_animation += 1;
+                                      } else {
+                                        clearInterval(phaseOne);
+                                        count_animation = 1;
+                                        jQuery('.draggable_v1').css({
+                                          color: '#FFF0C7',
+                                          background: 'rgba(83, 35, 69, 0.4)',
+                                          opacity: 1
+                                        });
+                                        count_animation = 0;
+// Фаза 4.3.2
+                                        rotate_one = 10;
+                                        phaseOne = setInterval(function(){
+                                          if (count_animation <= 53){
+                                            jQuery('.draggable_v1').css({
+                                              color: 'transparent',
+                                              transform: 'rotate('+rotate_one+'deg)',
+                                              background: '#fff url(/wp-content/themes/mobile/img/mo_left.png) 0 0/100% no-repeat',
+                                              opacity: 0.8
+                                            });
+                                            rotate_one += 1.5;
+                                            count_animation += 1;
+                                          } else if (count_animation <= 70) {
+                                            count_animation += 1;
+                                          } else {
+                                            clearInterval(phaseOne);
+                                            count_animation = 1;
+                                            jQuery('.draggable_v1').css({
+                                              color: '#FFF0C7',
+                                              background: 'rgba(83, 35, 69, 0.4)',
+                                              opacity: 1
+                                            });
+                                            count_animation = 0;
+// Фаза 4.3.3
+                                            rotate_one = 270;
+                                            phaseOne = setInterval(function(){
+                                              if (count_animation <= 60){
+                                                jQuery('.draggable_v1').css({
+                                                  color: 'transparent',
+                                                  transform: 'rotate('+rotate_one+'deg)',
+                                                  background: '#fff url(/wp-content/themes/mobile/img/mo_left.png) 0 0/100% no-repeat',
+                                                  opacity: 0.8
+                                                });
+                                                rotate_one += 1.5;
+                                                count_animation += 1;
+                                              } else if (count_animation <= 77) {
+                                                count_animation += 1;
+                                              } else {
+                                                clearInterval(phaseOne);
+                                                count_animation = 1;
+                                                jQuery('.draggable_v1').css({
+                                                  color: '#FFF0C7',
+                                                  background: 'rgba(83, 35, 69, 0.4)',
+                                                  opacity: 1
+                                                });
+                                                count_animation = 0;
+// Фаза 4.3.4
+                                                rotate_one = 300;
+                                                phaseOne = setInterval(function(){
+                                                  if (count_animation <= 40){
+                                                    jQuery('.draggable_v1').css({
+                                                      color: 'transparent',
+                                                      transform: 'rotate(-'+rotate_one+'deg)',
+                                                      background: '#fff url(/wp-content/themes/mobile/img/mo_right.png) 0 0/100% no-repeat',
+                                                      opacity: 0.8
+                                                    });
+                                                    rotate_one += 1.5;
+                                                    count_animation += 1;
+                                                  } else if (count_animation <= 57) {
+                                                    count_animation += 1;
+                                                  } else {
+                                                    clearInterval(phaseOne);
+                                                    count_animation = 1;
+                                                    jQuery('.draggable_v1').css({
+                                                      color: '#FFF0C7',
+                                                      background: 'rgba(83, 35, 69, 0.4)',
+                                                      opacity: 1
+                                                    });
+                                                    count_animation = 0;
+                                                    next();
+                                                  }
+                                                }, 1000);
+                                              }
+                                            }, 1000);
+                                          }
+                                        }, 1000);
+                                      }
+                                    }, 1000);
+                                  }
+                                }, 1000);
+                              }
+                            }, 1000);
+                          }
+                        }, 1000);
+                      }
+                    }, 1000);
+                  }
+                }, 1000);
+              }
+            }, 1000);
+          }
+        }, 1000);
+      }
+    }, 1000);
   }).then(function(next) {
-    next();
+// Фаза 5.1
+    jQuery('.zone_x, .zone_l').addClass('hidden').css('transform', 'scale(1)');
+    count_animation = 0;
+    console.log('Фаза 5.1');
+    phaseOne = setInterval(function(){
+      if (count_animation <= 36){
+        if (count_animation <= 19) {
+          jQuery('.draggable_v3').css({
+            color: 'transparent',
+            background: 'transparent url(/wp-content/themes/mobile/img/1_zemlya_lev.png) 0 0/100% no-repeat',
+            opacity: 0.8
+          });
+        } else {
+          jQuery('.draggable_v3').css({
+            background: 'transparent url(/wp-content/themes/mobile/img/4_zemlya_prav_lit.png) 0 0/100% no-repeat'
+          });
+        }
+        count_animation += 1;
+      } else {
+        clearInterval(phaseOne);
+        jQuery('.draggable_v3').css({
+          color: '#FFF0C7',
+          background: 'rgba(83, 35, 69, 0.4)',
+          opacity: 1
+        });
+        count_animation = 0;
+// Фаза 5.2
+        console.log('Фаза 5.2');
+        phaseOne = setInterval(function(){
+          if (count_animation <= 34){
+            if (count_animation <= 17) {
+              jQuery('.draggable_v1, .draggable_v4').css({
+                color: 'transparent',
+                background: 'transparent url(/wp-content/themes/mobile/img/3_voda_lev.png) 0 0/100% no-repeat',
+                opacity: 0.8
+              });
+            } else {
+              jQuery('.draggable_v1, .draggable_v4').css({
+                background: 'transparent url(/wp-content/themes/mobile/img/2_voda_prav.png) 0 0/100% no-repeat'
+              });
+            }
+            count_animation += 1;
+          } else {
+            clearInterval(phaseOne);
+            jQuery('.draggable_v1, .draggable_v4').css({
+              color: '#FFF0C7',
+              background: 'rgba(83, 35, 69, 0.4)',
+              opacity: 1
+            });
+            count_animation = 0;
+            next();
+          }
+        }, 1000);
+      }
+    }, 1000);
   }).then(function(next) {
-    onEnd();
+    count_animation = 0;
+    // Фаза 6
+    console.log('Фаза 6');
+    phaseOne = setInterval(function(){
+      if (count_animation <= 80){
+        jQuery('.draggable_v5, .draggable_v-, .draggable_v3, .draggable_v0').css({
+          color: 'transparent',
+          opacity: 0.8
+        });
+        jQuery('.draggable_v5, .draggable_v-').css({
+          background: '#fff url(/wp-content/themes/mobile/img/gold.png) 0 0/100% no-repeat'
+        });
+        jQuery('.draggable_v3').css({
+          background: '#fff url(/wp-content/themes/mobile/img/chisty_vnutri.jpg) 0 0/100% no-repeat'
+        });
+        jQuery('.draggable_v0').css({
+          background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat'
+        });
+        count_animation += 1;
+      } else {
+        clearInterval(phaseOne);
+        jQuery('.draggable_v5, .draggable_v-, .draggable_v3, .draggable_v0').css({
+          color: '#FFF0C7',
+          background: 'rgba(83, 35, 69, 0.4)',
+          opacity: 1
+        });
+        count_animation = 0;
+        onEnd();
+      }
+    }, 1000);
   });
 }
 v4 = function(){
