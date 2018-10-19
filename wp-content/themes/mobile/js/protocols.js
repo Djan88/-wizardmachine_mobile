@@ -10483,7 +10483,6 @@ v5 = function(){
                                                                       opacity: 1
                                                                     });
                                                                     count_animation = 0;
-                                                                    jQuery('.zone_l, .zone_x').css('transform', 'scale(0.01)');
                                                                     next();
                                                                   }
                                                                 }, 1000);
