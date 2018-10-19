@@ -7412,6 +7412,7 @@ v3 = function(){
 
 v4 = function(){
   chain(function(next) {
+    jQuery('.zone_l').addClass('hidden').css('transform', 'scale(0.01)');
     jQuery('.zone_x').removeClass('hidden').css('transform', 'scale(1)');
     console.log('Фаза 1');
 // Фаза 1.1
@@ -7527,8 +7528,8 @@ v4 = function(){
     jQuery('.zone_x, .zone_l').removeClass('hidden').css('transform', 'scale(1)');
     r_top = jQuery('.draggable_s3').css('top');
     r_bottom = jQuery('.draggable_d3').css('top');
-    l_top = jQuery('.draggable_d4').css('top');
-    l_bottom = jQuery('.draggable_s4').css('top');
+    l_top = jQuery('.draggable_s4').css('top');
+    l_bottom = jQuery('.draggable_d4').css('top');
     count_animation = 0;
     phaseOne = setInterval(function(){
       if (count_animation <= 12){
@@ -8100,7 +8101,7 @@ v4 = function(){
                                                     rotate_two += 2;
                                                   } else {
                                                     clearInterval(phaseOne);
-                                                    jQuery('.draggable_v1').css({
+                                                    jQuery('.draggable_v1, .draggable_lovushka').css({
                                                       color: '#FFF0C7',
                                                       background: 'rgba(83, 35, 69, 0.4)',
                                                       opacity: 1
