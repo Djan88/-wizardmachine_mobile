@@ -17,8 +17,6 @@ var chain,
     x4,
     x5,
     x6,
-    stop_func = true,
-    wait,
     protocol,
     protocolName,
     phaseOne,
@@ -28,33 +26,76 @@ var chain,
     rotate_three = 0,
     rotate_four = 0,
     rotate_lovushka = 0,
-    v1;
+    v1,
+    endNow = false;
 
 onEnd = function(){
-    protocolName = localStorage.getItem('protocolName');
-    jQuery('.zone_x, .zone_l').css('transform', 'rotate(0deg)');
-    jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v0').css('top'));
-    swal({
-        title: "Протокол "+protocolName+" завершен",   
-        text: "Что делать дальше?",   
-        type: "success",   
-        showCancelButton: true,   
-        confirmButtonColor: "#DD6B55",   
-        confirmButtonText: "Другой протокол",   
-        cancelButtonText: "Новый клиент"
-    },
-    function(isConfirm){
-        var protocol = undefined;   
-        if (isConfirm) {    
-            jQuery('.mobile_screen').addClass('hidden').css('display', 'none');
-            jQuery('.btn-to_protocols, .btn_man_with_zones, .btn_start').addClass('hidden');
-            jQuery('.mobile_screen_protocols').fadeIn(500);
-            jQuery('.btn-to_mode').removeClass('hidden');
-            jQuery('.header-title').text('Выберите протокол');
-        } else {    
-            jQuery(location).attr('href','/');
-        } 
-    });
+  jQuery('.zone_x, .zone_l, .zone').css('transform', 'rotate(0deg)');
+  jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v0').css('top'));
+  rotate_one = 0;
+  rotate_two = 0;
+  rotate_three = 0;
+  rotate_four = 0;
+  rotate_lovushka = 0;
+  count_animation = 0;
+
+  protocolName = localStorage.getItem('protocolName');
+  swal({
+    title: "Протокол "+protocolName+" завершен",   
+    text: "Что делать дальше?",   
+    type: "success",   
+    showCancelButton: true,   
+    confirmButtonColor: "#DD6B55",   
+    confirmButtonText: "Другой протокол",   
+    cancelButtonText: "Новый клиент"
+  },
+  function(isConfirm){
+    var protocol = undefined;   
+    if (isConfirm) {    
+      jQuery('.mobile_screen').addClass('hidden').css('display', 'none');
+      jQuery('.btn-to_protocols, .btn_man_with_zones, .btn_start').addClass('hidden');
+      jQuery('.mobile_screen_protocols').fadeIn(500);
+      jQuery('.btn-to_mode').removeClass('hidden');
+      jQuery('.header-title').text('Выберите протокол');
+    } else {    
+      jQuery(location).attr('href','/');
+    } 
+  });
+}
+endNow = function(){
+  jQuery('.zone_x, .zone_l, .zone').css('transform', 'rotate(0deg)');
+  jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v0').css('top'));
+  rotate_one = 0;
+  rotate_two = 0;
+  rotate_three = 0;
+  rotate_four = 0;
+  rotate_lovushka = 0;
+  count_animation = 0;
+
+  protocolName = localStorage.getItem('protocolName');
+  swal({
+    title: "Приостановлено пользователем",   
+    text: "Что делать дальше?",   
+    type: "success",   
+    showCancelButton: true,   
+    confirmButtonColor: "#DD6B55",   
+    confirmButtonText: "Другой протокол",   
+    cancelButtonText: "Новый клиент"
+  },
+  function(isConfirm){
+    var protocol = undefined; 
+    jQuery('.btn-to_endNow').addClass('hidden');
+    endNow == false;  
+    if (isConfirm) {    
+      jQuery('.mobile_screen').addClass('hidden').css('display', 'none');
+      jQuery('.btn-to_protocols, .btn_man_with_zones, .btn_start').addClass('hidden');
+      jQuery('.mobile_screen_protocols').fadeIn(500);
+      jQuery('.btn-to_mode').removeClass('hidden');
+      jQuery('.header-title').text('Выберите протокол');
+    } else {    
+      jQuery(location).attr('href','/');
+    } 
+  });
 }
 
 
@@ -62,9 +103,14 @@ chain = function (callback) {
   queue = [];
 
   function _next() {
-      cb = queue.shift();
-      if (cb) {
-          cb(_next);
+      if (endNow == true) {
+        return;
+        endNow();
+      } else {
+        cb = queue.shift();
+        if (cb) {
+            cb(_next);
+        }
       }
   }
 
@@ -11492,6 +11538,7 @@ mmt = function(){
 jQuery('.btn_start').on('click', function(event) {
   protocol = localStorage.getItem('protocol');
   jQuery('.zones').addClass('novisible');
+  jQuery('.btn-to_endNow').removeClass('hidden');
   if (protocol == 'v1') {
     v1();
   } else if (protocol == 'v2') {
