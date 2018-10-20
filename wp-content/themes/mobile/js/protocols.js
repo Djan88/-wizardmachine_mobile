@@ -11551,3 +11551,8 @@ jQuery('.btn_start').on('click', function(event) {
     v5();
   }
 });
+// STOP
+jQuery('.btn-to_endNow').on('click', function(event) {
+  jQuery('.btn-to_endNow').css('color', 'crimson');
+  endNow = true;
+});
