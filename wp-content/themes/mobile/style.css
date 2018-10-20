@@ -344,10 +344,6 @@ input.crop_photo
   margin: 0;
   padding: 0;
 }
-.sweet-alert
-{
-  left: 51.1%;
-}
 .dragger_rate {
     height: 3px;
     width: 0;
@@ -359,6 +355,12 @@ input.crop_photo
     -webkit-transition: width 0.5s linear;
     -moz-transition: width 0.5s linear;
     transition: width 0.5s linear;
+}
+@media (min-width: 600px) {
+  .sweet-alert
+  {
+    left: 51.1%;
+  }
 }
 @media (max-width: 720px) {
   .mobile_screen_what_way 
