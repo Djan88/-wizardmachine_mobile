@@ -27,7 +27,7 @@ var chain,
     rotate_four = 0,
     rotate_lovushka = 0,
     v1,
-    endNow = false;
+    endStatus = false;
 
 onEnd = function(){
   jQuery('.zone_x, .zone_l, .zone').css('transform', 'rotate(0deg)');
@@ -84,7 +84,7 @@ endNow = function(){
   function(isConfirm){
     var protocol = undefined; 
     jQuery('.btn-to_endNow').addClass('hidden');
-    endNow == false;  
+    endStatus == false;  
     if (isConfirm) {    
       jQuery('.mobile_screen').addClass('hidden').css('display', 'none');
       jQuery('.btn-to_protocols, .btn_man_with_zones, .btn_start').addClass('hidden');
@@ -102,7 +102,7 @@ chain = function (callback) {
   queue = [];
 
   function _next() {
-      if (endNow == true) {
+      if (endStatus == true) {
         endNow();
         return;
       } else {
@@ -11556,7 +11556,7 @@ function hideNote() {
 }
 jQuery('.btn-to_endNow').on('click', function(event) {
   jQuery('.btn-to_endNow').css('color', 'crimson');
-  endNow = true;
+  endStatus = true;
   jQuery('.btn-to_endNow').popover('show');
   setTimeout(hideNote, 5000);
 });
