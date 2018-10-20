@@ -79,6 +79,7 @@ jQuery(document).ready(function () {
   // final screen show
   jQuery('.choice_protocol').on('click', function(event) {
     endStatus = false;
+    jQuery('.btn-to_endNow').css('color', '#fff');
     jQuery('.header-title').text('Перенесите зоны на фото');
     jQuery('.mobile_screen_protocols').addClass('hidden').css('display', 'none');
     jQuery('.mobile_screen_final').fadeIn(500);
