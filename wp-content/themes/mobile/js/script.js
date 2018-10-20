@@ -22,7 +22,7 @@ jQuery(document).ready(function () {
   croppedImg = jQuery('.protocols').children()[0];
 
   //Enable popovers;
-  jQuery('[data-toggle="popover"]').popover(delay: {"hide": 6000 });
+  jQuery('[data-toggle="popover"]').popover()
 
   //Dragging elems
   jQuery( ".draggable" ).draggable({

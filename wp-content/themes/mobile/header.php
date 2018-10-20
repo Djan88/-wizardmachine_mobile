@@ -28,7 +28,7 @@
                 <button type="button" class="btn btn-lg btn-link btn-back btn-paused hidden"><i class="far fa-pause-circle"></i></button>
                 <button type="button" class="btn btn-lg btn-link btn-back btn-played hidden"><i class="far fa-play-circle"></i></button>
                 <button type="button" class="btn btn-lg btn-link btn-back btn-to_manual hidden"><i class="far fa-arrow-alt-circle-left"></i></button>
-                <button type="button" class="btn btn-lg btn-link btn-back btn-to_endNow hidden" data-toggle="popover" data-placement="right" title="Протокол остановлен!" data-content="Выполнение протокола будет прервано по окончании текущей фазы."><i class="far fa-stop-circle"></i></button>
+                <button type="button" class="btn btn-lg btn-link btn-back btn-to_endNow hidden" data-toggle="popover" data-delay="{'hide': 6000 }" data-placement="right" title="Протокол остановлен!" data-content="Выполнение протокола будет прервано по окончании текущей фазы."><i class="far fa-stop-circle"></i></button>
               <?php } ?>
             </div>
             <div class="col-4 header-title">
