@@ -72,7 +72,6 @@ endNow = function(){
   rotate_lovushka = 0;
   count_animation = 0;
 
-  protocolName = localStorage.getItem('protocolName');
   swal({
     title: "Приостановлено пользователем",   
     text: "Что делать дальше?",   
@@ -104,8 +103,8 @@ chain = function (callback) {
 
   function _next() {
       if (endNow == true) {
-        return;
         endNow();
+        return;
       } else {
         cb = queue.shift();
         if (cb) {
@@ -11555,4 +11554,6 @@ jQuery('.btn_start').on('click', function(event) {
 jQuery('.btn-to_endNow').on('click', function(event) {
   jQuery('.btn-to_endNow').css('color', 'crimson');
   endNow = true;
+  jQuery('. btn-to_endNow').popover('show');
+  setTimeout(jQuery('. btn-to_endNow').popover('hide'), 5000);
 });
