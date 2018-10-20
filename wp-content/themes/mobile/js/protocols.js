@@ -75,7 +75,7 @@ endNow = function(){
   swal({
     title: "Приостановлено пользователем",   
     text: "Что делать дальше?",   
-    type: "success",   
+    type: "error",   
     showCancelButton: true,   
     confirmButtonColor: "#DD6B55",   
     confirmButtonText: "Другой протокол",   

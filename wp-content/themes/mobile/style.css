@@ -344,6 +344,10 @@ input.crop_photo
   margin: 0;
   padding: 0;
 }
+.sweet-alert
+{
+  left: 51%;
+}
 .dragger_rate {
     height: 3px;
     width: 0;
