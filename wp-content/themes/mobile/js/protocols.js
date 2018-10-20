@@ -11551,9 +11551,12 @@ jQuery('.btn_start').on('click', function(event) {
   }
 });
 // STOP
+function hideNote() {
+  jQuery('.btn-to_endNow').popover('hide');
+}
 jQuery('.btn-to_endNow').on('click', function(event) {
   jQuery('.btn-to_endNow').css('color', 'crimson');
   endNow = true;
   jQuery('.btn-to_endNow').popover('show');
-  setTimeout(jQuery('.btn-to_endNow').popover('hide'), 5000);
+  setTimeout(hideNote, 5000);
 });
