@@ -11554,6 +11554,6 @@ jQuery('.btn_start').on('click', function(event) {
 jQuery('.btn-to_endNow').on('click', function(event) {
   jQuery('.btn-to_endNow').css('color', 'crimson');
   endNow = true;
-  jQuery('. btn-to_endNow').popover('show');
-  setTimeout(jQuery('. btn-to_endNow').popover('hide'), 5000);
+  jQuery('.btn-to_endNow').popover('show');
+  setTimeout(jQuery('.btn-to_endNow').popover('hide'), 5000);
 });
