@@ -11536,7 +11536,6 @@ mmt = function(){
 // START
 jQuery('.btn_start').on('click', function(event) {
   protocol = localStorage.getItem('protocol');
-  jQuery('.zones').addClass('novisible');
   jQuery('.btn-to_endNow').removeClass('hidden');
   if (protocol == 'v1') {
     v1();
