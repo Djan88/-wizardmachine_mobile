@@ -205,7 +205,7 @@ jQuery(document).ready(function () {
     // jQuery('.btn-paused').removeClass('hidden');
     jQuery('.zone_x').css('background', '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat');
     jQuery('.zone_l').css('background', '#fff url(/wp-content/themes/mobile/img/x.png) 0 0/100% no-repeat');
-    jQuery('.zone_x, .zone_l').removeClass('hidden');
+    jQuery('.zone_x, .zone_l').css('transform', 'scale(1.5)').removeClass('hidden');
   });
 
   jQuery('.chart-container').css({
