@@ -156,8 +156,8 @@ v1 = function(){
           jQuery('.zone_x').css('top', l_top);
           jQuery('.zone_l').css('top', r_bottom);
         }
-        jQuery('.zone_x').css('transform', 'rotate('+rotate_one+'deg)');
-        jQuery('.zone_l').css('transform', 'rotate(-'+rotate_two+'deg)');
+        jQuery('.zone_x').css('transform', 'scale(1.5) rotate('+rotate_one+'deg)');
+        jQuery('.zone_l').css('transform', 'scale(1.5) rotate(-'+rotate_two+'deg)');
         count_animation += 1;
         rotate_one += 2;
         rotate_two += 20;
@@ -196,7 +196,7 @@ v1 = function(){
               jQuery('.zone_x').css('top', l_bottom);
               jQuery('.zone_l').css('top', r_top);
             }
-            jQuery('.zone_x').css('transform', 'rotate('+rotate_one+'deg)');
+            jQuery('.zone_x').css('transform', 'scale(1.5) rotate('+rotate_one+'deg)');
             jQuery('.zone_l').css('transform', 'rotate(-'+rotate_two+'deg)');
             count_animation += 1;
             rotate_one += 2;
@@ -236,8 +236,8 @@ v1 = function(){
                   jQuery('.zone_x').css('top', l_top);
                   jQuery('.zone_l').css('top', r_bottom);
                 }
-                jQuery('.zone_x').css('transform', 'rotate('+rotate_one+'deg)');
-                jQuery('.zone_l').css('transform', 'rotate(-'+rotate_two+'deg)');
+                jQuery('.zone_x').css('transform', 'scale(1.5) rotate('+rotate_one+'deg)');
+                jQuery('.zone_l').css('transform', 'scale(1.5) rotate(-'+rotate_two+'deg)');
                 count_animation += 1;
                 rotate_one += 2;
                 rotate_two += 20;
@@ -276,8 +276,8 @@ v1 = function(){
                       jQuery('.zone_x').css('top', l_bottom);
                       jQuery('.zone_l').css('top', r_top);
                     }
-                    jQuery('.zone_x').css('transform', 'rotate('+rotate_one+'deg)');
-                    jQuery('.zone_l').css('transform', 'rotate(-'+rotate_two+'deg)');
+                    jQuery('.zone_x').css('transform', 'scale(1.5) rotate('+rotate_one+'deg)');
+                    jQuery('.zone_l').css('transform', 'scale(1.5) rotate(-'+rotate_two+'deg)');
                     count_animation += 1;
                     rotate_one += 2;
                     rotate_two += 20;
@@ -316,8 +316,8 @@ v1 = function(){
                           jQuery('.zone_x').css('top', l_top);
                           jQuery('.zone_l').css('top', r_bottom);
                         }
-                        jQuery('.zone_x').css('transform', 'rotate('+rotate_one+'deg)');
-                        jQuery('.zone_l').css('transform', 'rotate(-'+rotate_two+'deg)');
+                        jQuery('.zone_x').css('transform', 'scale(1.5) rotate('+rotate_one+'deg)');
+                        jQuery('.zone_l').css('transform', 'scale(1.5) rotate(-'+rotate_two+'deg)');
                         count_animation += 1;
                         rotate_one += 2;
                         rotate_two += 20;
@@ -356,8 +356,8 @@ v1 = function(){
                               jQuery('.zone_x').css('top', l_bottom);
                               jQuery('.zone_l').css('top', r_top);
                             }
-                            jQuery('.zone_x').css('transform', 'rotate('+rotate_one+'deg)');
-                            jQuery('.zone_l').css('transform', 'rotate(-'+rotate_two+'deg)');
+                            jQuery('.zone_x').css('transform', 'scale(1.5) rotate('+rotate_one+'deg)');
+                            jQuery('.zone_l').css('transform', 'scale(1.5) rotate(-'+rotate_two+'deg)');
                             count_animation += 1;
                             rotate_one += 2;
                             rotate_two += 20;
@@ -396,8 +396,8 @@ v1 = function(){
                                   jQuery('.zone_x').css('top', r_top);
                                   jQuery('.zone_l').css('top', l_bottom);
                                 }
-                                jQuery('.zone_x').css('transform', 'rotate('+rotate_two+'deg)');
-                                jQuery('.zone_l').css('transform', 'rotate(-'+rotate_one+'deg)');
+                                jQuery('.zone_x').css('transform', 'scale(1.5) rotate('+rotate_two+'deg)');
+                                jQuery('.zone_l').css('transform', 'scale(1.5) rotate(-'+rotate_one+'deg)');
                                 count_animation += 1;
                                 rotate_one += 2;
                                 rotate_two += 20;
@@ -436,8 +436,8 @@ v1 = function(){
                                       jQuery('.zone_x').css('top', r_bottom);
                                       jQuery('.zone_l').css('top', l_top);
                                     }
-                                    jQuery('.zone_x').css('transform', 'rotate('+rotate_two+'deg)');
-                                    jQuery('.zone_l').css('transform', 'rotate(-'+rotate_one+'deg)');
+                                    jQuery('.zone_x').css('transform', 'scale(1.5) rotate('+rotate_two+'deg)');
+                                    jQuery('.zone_l').css('transform', 'scale(1.5) rotate(-'+rotate_one+'deg)');
                                     count_animation += 1;
                                     rotate_one += 2;
                                     rotate_two += 20;
@@ -476,8 +476,8 @@ v1 = function(){
                                           jQuery('.zone_x').css('top', r_top);
                                           jQuery('.zone_l').css('top', l_bottom);
                                         }
-                                        jQuery('.zone_x').css('transform', 'rotate('+rotate_two+'deg)');
-                                        jQuery('.zone_l').css('transform', 'rotate(-'+rotate_one+'deg)');
+                                        jQuery('.zone_x').css('transform', 'scale(1.5) rotate('+rotate_two+'deg)');
+                                        jQuery('.zone_l').css('transform', 'scale(1.5) rotate(-'+rotate_one+'deg)');
                                         count_animation += 1;
                                         rotate_one += 2;
                                         rotate_two += 20;
@@ -516,8 +516,8 @@ v1 = function(){
                                               jQuery('.zone_x').css('top', r_bottom);
                                               jQuery('.zone_l').css('top', l_top);
                                             }
-                                            jQuery('.zone_x').css('transform', 'rotate('+rotate_two+'deg)');
-                                            jQuery('.zone_l').css('transform', 'rotate(-'+rotate_one+'deg)');
+                                            jQuery('.zone_x').css('transform', 'scale(1.5) rotate('+rotate_two+'deg)');
+                                            jQuery('.zone_l').css('transform', 'scale(1.5) rotate(-'+rotate_one+'deg)');
                                             count_animation += 1;
                                             rotate_one += 2;
                                             rotate_two += 20;
@@ -556,8 +556,8 @@ v1 = function(){
                                                   jQuery('.zone_x').css('top', r_top);
                                                   jQuery('.zone_l').css('top', l_bottom);
                                                 }
-                                                jQuery('.zone_x').css('transform', 'rotate('+rotate_two+'deg)');
-                                                jQuery('.zone_l').css('transform', 'rotate(-'+rotate_one+'deg)');
+                                                jQuery('.zone_x').css('transform', 'scale(1.5) rotate('+rotate_two+'deg)');
+                                                jQuery('.zone_l').css('transform', 'scale(1.5) rotate(-'+rotate_one+'deg)');
                                                 count_animation += 1;
                                                 rotate_one += 2;
                                                 rotate_two += 20;
@@ -596,8 +596,8 @@ v1 = function(){
                                                       jQuery('.zone_x').css('top', r_bottom);
                                                       jQuery('.zone_l').css('top', l_top);
                                                     }
-                                                    jQuery('.zone_x').css('transform', 'rotate('+rotate_two+'deg)');
-                                                    jQuery('.zone_l').css('transform', 'rotate(-'+rotate_one+'deg)');
+                                                    jQuery('.zone_x').css('transform', 'scale(1.5) rotate('+rotate_two+'deg)');
+                                                    jQuery('.zone_l').css('transform', 'scale(1.5) rotate(-'+rotate_one+'deg)');
                                                     count_animation += 1;
                                                     rotate_one += 2;
                                                     rotate_two += 20;
@@ -679,8 +679,8 @@ v1 = function(){
           });
           jQuery('.zone_x').css('top', l_bottom);
           jQuery('.zone_l').css('top', r_top);
-          jQuery('.zone_x').css('transform', 'rotate('+rotate_one+'deg)');
-          jQuery('.zone_l').css('transform', 'rotate(-'+rotate_two+'deg)');
+          jQuery('.zone_x').css('transform', 'scale(1.5) rotate('+rotate_one+'deg)');
+          jQuery('.zone_l').css('transform', 'scale(1.5) rotate(-'+rotate_two+'deg)');
           rotate_one += 4;
           rotate_two += 20;
         }
@@ -707,8 +707,8 @@ v1 = function(){
               });
               jQuery('.zone_x').css('top', l_top);
               jQuery('.zone_l').css('top', r_bottom);
-              jQuery('.zone_x').css('transform', 'rotate('+rotate_one+'deg)');
-              jQuery('.zone_l').css('transform', 'rotate(-'+rotate_two+'deg)');
+              jQuery('.zone_x').css('transform', 'scale(1.5) rotate('+rotate_one+'deg)');
+              jQuery('.zone_l').css('transform', 'scale(1.5) rotate(-'+rotate_two+'deg)');
               rotate_one += 6;
               rotate_two += 8;
             } else if (count_animation <= 8) {
@@ -717,8 +717,8 @@ v1 = function(){
               });
               jQuery('.zone_x').css('top', l_bottom);
               jQuery('.zone_l').css('top', r_top);
-              jQuery('.zone_x').css('transform', 'rotate('+rotate_one+'deg)');
-              jQuery('.zone_l').css('transform', 'rotate(-'+rotate_two+'deg)');
+              jQuery('.zone_x').css('transform', 'scale(1.5) rotate('+rotate_one+'deg)');
+              jQuery('.zone_l').css('transform', 'scale(1.5) rotate(-'+rotate_two+'deg)');
               rotate_one += 4;
               rotate_two += 20;
             } else if (count_animation <= 12) {
@@ -727,8 +727,8 @@ v1 = function(){
               });
               jQuery('.zone_x').css('top', l_top);
               jQuery('.zone_l').css('top', r_bottom);
-              jQuery('.zone_x').css('transform', 'rotate('+rotate_one+'deg)');
-              jQuery('.zone_l').css('transform', 'rotate(-'+rotate_two+'deg)');
+              jQuery('.zone_x').css('transform', 'scale(1.5) rotate('+rotate_one+'deg)');
+              jQuery('.zone_l').css('transform', 'scale(1.5) rotate(-'+rotate_two+'deg)');
               rotate_one += 6;
               rotate_two += 8;
             }
@@ -755,8 +755,8 @@ v1 = function(){
                   });
                   jQuery('.zone_x').css('top', l_bottom);
                   jQuery('.zone_l').css('top', r_top);
-                  jQuery('.zone_x').css('transform', 'rotate('+rotate_one+'deg)');
-                  jQuery('.zone_l').css('transform', 'rotate(-'+rotate_two+'deg)');
+                  jQuery('.zone_x').css('transform', 'scale(1.5) rotate('+rotate_one+'deg)');
+                  jQuery('.zone_l').css('transform', 'scale(1.5) rotate(-'+rotate_two+'deg)');
                   rotate_one += 4;
                   rotate_two += 20;
                 } else if (count_animation <= 8) {
@@ -765,8 +765,8 @@ v1 = function(){
                   });
                   jQuery('.zone_x').css('top', l_top);
                   jQuery('.zone_l').css('top', r_bottom);
-                  jQuery('.zone_x').css('transform', 'rotate('+rotate_one+'deg)');
-                  jQuery('.zone_l').css('transform', 'rotate(-'+rotate_two+'deg)');
+                  jQuery('.zone_x').css('transform', 'scale(1.5) rotate('+rotate_one+'deg)');
+                  jQuery('.zone_l').css('transform', 'scale(1.5) rotate(-'+rotate_two+'deg)');
                   rotate_one += 6;
                   rotate_two += 8;
                 } else if (count_animation <= 12) {
@@ -775,8 +775,8 @@ v1 = function(){
                   });
                   jQuery('.zone_x').css('top', l_bottom);
                   jQuery('.zone_l').css('top', r_top);
-                  jQuery('.zone_x').css('transform', 'rotate('+rotate_one+'deg)');
-                  jQuery('.zone_l').css('transform', 'rotate(-'+rotate_two+'deg)');
+                  jQuery('.zone_x').css('transform', 'scale(1.5) rotate('+rotate_one+'deg)');
+                  jQuery('.zone_l').css('transform', 'scale(1.5) rotate(-'+rotate_two+'deg)');
                   rotate_one += 4;
                   rotate_two += 20;
                 }
@@ -803,8 +803,8 @@ v1 = function(){
                       });
                       jQuery('.zone_x').css('top', l_top);
                       jQuery('.zone_l').css('top', r_bottom);
-                      jQuery('.zone_x').css('transform', 'rotate('+rotate_one+'deg)');
-                      jQuery('.zone_l').css('transform', 'rotate(-'+rotate_two+'deg)');
+                      jQuery('.zone_x').css('transform', 'scale(1.5) rotate('+rotate_one+'deg)');
+                      jQuery('.zone_l').css('transform', 'scale(1.5) rotate(-'+rotate_two+'deg)');
                       rotate_one += 6;
                       rotate_two += 8;
                     } else if (count_animation <= 8) {
@@ -813,8 +813,8 @@ v1 = function(){
                       });
                       jQuery('.zone_x').css('top', l_bottom);
                       jQuery('.zone_l').css('top', r_top);
-                      jQuery('.zone_x').css('transform', 'rotate('+rotate_one+'deg)');
-                      jQuery('.zone_l').css('transform', 'rotate(-'+rotate_two+'deg)');
+                      jQuery('.zone_x').css('transform', 'scale(1.5) rotate('+rotate_one+'deg)');
+                      jQuery('.zone_l').css('transform', 'scale(1.5) rotate(-'+rotate_two+'deg)');
                       rotate_one += 4;
                       rotate_two += 20;
                     } else if (count_animation <= 12) {
@@ -823,8 +823,8 @@ v1 = function(){
                       });
                       jQuery('.zone_x').css('top', l_top);
                       jQuery('.zone_l').css('top', r_bottom);
-                      jQuery('.zone_x').css('transform', 'rotate('+rotate_one+'deg)');
-                      jQuery('.zone_l').css('transform', 'rotate(-'+rotate_two+'deg)');
+                      jQuery('.zone_x').css('transform', 'scale(1.5) rotate('+rotate_one+'deg)');
+                      jQuery('.zone_l').css('transform', 'scale(1.5) rotate(-'+rotate_two+'deg)');
                       rotate_one += 6;
                       rotate_two += 8;
                     }
@@ -851,8 +851,8 @@ v1 = function(){
                           });
                           jQuery('.zone_x').css('top', l_bottom);
                           jQuery('.zone_l').css('top', r_top);
-                          jQuery('.zone_x').css('transform', 'rotate('+rotate_one+'deg)');
-                          jQuery('.zone_l').css('transform', 'rotate(-'+rotate_two+'deg)');
+                          jQuery('.zone_x').css('transform', 'scale(1.5) rotate('+rotate_one+'deg)');
+                          jQuery('.zone_l').css('transform', 'scale(1.5) rotate(-'+rotate_two+'deg)');
                           rotate_one += 4;
                           rotate_two += 20;
                         } else if (count_animation <= 8) {
@@ -861,8 +861,8 @@ v1 = function(){
                           });
                           jQuery('.zone_x').css('top', l_top);
                           jQuery('.zone_l').css('top', r_bottom);
-                          jQuery('.zone_x').css('transform', 'rotate('+rotate_one+'deg)');
-                          jQuery('.zone_l').css('transform', 'rotate(-'+rotate_two+'deg)');
+                          jQuery('.zone_x').css('transform', 'scale(1.5) rotate('+rotate_one+'deg)');
+                          jQuery('.zone_l').css('transform', 'scale(1.5) rotate(-'+rotate_two+'deg)');
                           rotate_one += 6;
                           rotate_two += 8;
                         } else if (count_animation <= 12) {
@@ -871,8 +871,8 @@ v1 = function(){
                           });
                           jQuery('.zone_x').css('top', l_bottom);
                           jQuery('.zone_l').css('top', r_top);
-                          jQuery('.zone_x').css('transform', 'rotate('+rotate_one+'deg)');
-                          jQuery('.zone_l').css('transform', 'rotate(-'+rotate_two+'deg)');
+                          jQuery('.zone_x').css('transform', 'scale(1.5) rotate('+rotate_one+'deg)');
+                          jQuery('.zone_l').css('transform', 'scale(1.5) rotate(-'+rotate_two+'deg)');
                           rotate_one += 4;
                           rotate_two += 20;
                         }
@@ -899,8 +899,8 @@ v1 = function(){
                               });
                               jQuery('.zone_x').css('top', l_top);
                               jQuery('.zone_l').css('top', r_bottom);
-                              jQuery('.zone_x').css('transform', 'rotate('+rotate_one+'deg)');
-                              jQuery('.zone_l').css('transform', 'rotate(-'+rotate_two+'deg)');
+                              jQuery('.zone_x').css('transform', 'scale(1.5) rotate('+rotate_one+'deg)');
+                              jQuery('.zone_l').css('transform', 'scale(1.5) rotate(-'+rotate_two+'deg)');
                               rotate_one += 6;
                               rotate_two += 8;
                             } else if (count_animation <= 8) {
@@ -909,8 +909,8 @@ v1 = function(){
                               });
                               jQuery('.zone_x').css('top', l_bottom);
                               jQuery('.zone_l').css('top', r_top);
-                              jQuery('.zone_x').css('transform', 'rotate('+rotate_one+'deg)');
-                              jQuery('.zone_l').css('transform', 'rotate(-'+rotate_two+'deg)');
+                              jQuery('.zone_x').css('transform', 'scale(1.5) rotate('+rotate_one+'deg)');
+                              jQuery('.zone_l').css('transform', 'scale(1.5) rotate(-'+rotate_two+'deg)');
                               rotate_one += 4;
                               rotate_two += 20;
                             } else if (count_animation <= 12) {
@@ -919,8 +919,8 @@ v1 = function(){
                               });
                               jQuery('.zone_x').css('top', l_top);
                               jQuery('.zone_l').css('top', r_bottom);
-                              jQuery('.zone_x').css('transform', 'rotate('+rotate_one+'deg)');
-                              jQuery('.zone_l').css('transform', 'rotate(-'+rotate_two+'deg)');
+                              jQuery('.zone_x').css('transform', 'scale(1.5) rotate('+rotate_one+'deg)');
+                              jQuery('.zone_l').css('transform', 'scale(1.5) rotate(-'+rotate_two+'deg)');
                               rotate_one += 6;
                               rotate_two += 8;
                             }
@@ -947,8 +947,8 @@ v1 = function(){
                                   });
                                   jQuery('.zone_x').css('top', l_bottom);
                                   jQuery('.zone_l').css('top', r_top);
-                                  jQuery('.zone_x').css('transform', 'rotate('+rotate_one+'deg)');
-                                  jQuery('.zone_l').css('transform', 'rotate(-'+rotate_two+'deg)');
+                                  jQuery('.zone_x').css('transform', 'scale(1.5) rotate('+rotate_one+'deg)');
+                                  jQuery('.zone_l').css('transform', 'scale(1.5) rotate(-'+rotate_two+'deg)');
                                   rotate_one += 4;
                                   rotate_two += 20;
                                 } else if (count_animation <= 8) {
@@ -957,8 +957,8 @@ v1 = function(){
                                   });
                                   jQuery('.zone_x').css('top', l_top);
                                   jQuery('.zone_l').css('top', r_bottom);
-                                  jQuery('.zone_x').css('transform', 'rotate('+rotate_one+'deg)');
-                                  jQuery('.zone_l').css('transform', 'rotate(-'+rotate_two+'deg)');
+                                  jQuery('.zone_x').css('transform', 'scale(1.5) rotate('+rotate_one+'deg)');
+                                  jQuery('.zone_l').css('transform', 'scale(1.5) rotate(-'+rotate_two+'deg)');
                                   rotate_one += 6;
                                   rotate_two += 8;
                                 } else if (count_animation <= 12) {
@@ -967,8 +967,8 @@ v1 = function(){
                                   });
                                   jQuery('.zone_x').css('top', l_bottom);
                                   jQuery('.zone_l').css('top', r_top);
-                                  jQuery('.zone_x').css('transform', 'rotate('+rotate_one+'deg)');
-                                  jQuery('.zone_l').css('transform', 'rotate(-'+rotate_two+'deg)');
+                                  jQuery('.zone_x').css('transform', 'scale(1.5) rotate('+rotate_one+'deg)');
+                                  jQuery('.zone_l').css('transform', 'scale(1.5) rotate(-'+rotate_two+'deg)');
                                   rotate_one += 4;
                                   rotate_two += 20;
                                 }
@@ -995,8 +995,8 @@ v1 = function(){
                                       });
                                       jQuery('.zone_x').css('top', l_top);
                                       jQuery('.zone_l').css('top', r_bottom);
-                                      jQuery('.zone_x').css('transform', 'rotate('+rotate_one+'deg)');
-                                      jQuery('.zone_l').css('transform', 'rotate(-'+rotate_two+'deg)');
+                                      jQuery('.zone_x').css('transform', 'scale(1.5) rotate('+rotate_one+'deg)');
+                                      jQuery('.zone_l').css('transform', 'scale(1.5) rotate(-'+rotate_two+'deg)');
                                       rotate_one += 6;
                                       rotate_two += 8;
                                     } else if (count_animation <= 8) {
@@ -1005,8 +1005,8 @@ v1 = function(){
                                       });
                                       jQuery('.zone_x').css('top', l_bottom);
                                       jQuery('.zone_l').css('top', r_top);
-                                      jQuery('.zone_x').css('transform', 'rotate('+rotate_one+'deg)');
-                                      jQuery('.zone_l').css('transform', 'rotate(-'+rotate_two+'deg)');
+                                      jQuery('.zone_x').css('transform', 'scale(1.5) rotate('+rotate_one+'deg)');
+                                      jQuery('.zone_l').css('transform', 'scale(1.5) rotate(-'+rotate_two+'deg)');
                                       rotate_one += 4;
                                       rotate_two += 20;
                                     } else if (count_animation <= 12) {
@@ -1015,8 +1015,8 @@ v1 = function(){
                                       });
                                       jQuery('.zone_x').css('top', l_top);
                                       jQuery('.zone_l').css('top', r_bottom);
-                                      jQuery('.zone_x').css('transform', 'rotate('+rotate_one+'deg)');
-                                      jQuery('.zone_l').css('transform', 'rotate(-'+rotate_two+'deg)');
+                                      jQuery('.zone_x').css('transform', 'scale(1.5) rotate('+rotate_one+'deg)');
+                                      jQuery('.zone_l').css('transform', 'scale(1.5) rotate(-'+rotate_two+'deg)');
                                       rotate_one += 6;
                                       rotate_two += 8;
                                     }
@@ -1043,8 +1043,8 @@ v1 = function(){
                                           });
                                           jQuery('.zone_x').css('top', l_bottom);
                                           jQuery('.zone_l').css('top', r_top);
-                                          jQuery('.zone_x').css('transform', 'rotate('+rotate_one+'deg)');
-                                          jQuery('.zone_l').css('transform', 'rotate(-'+rotate_two+'deg)');
+                                          jQuery('.zone_x').css('transform', 'scale(1.5) rotate('+rotate_one+'deg)');
+                                          jQuery('.zone_l').css('transform', 'scale(1.5) rotate(-'+rotate_two+'deg)');
                                           rotate_one += 4;
                                           rotate_two += 20;
                                         } else if (count_animation <= 8) {
@@ -1053,8 +1053,8 @@ v1 = function(){
                                           });
                                           jQuery('.zone_x').css('top', l_top);
                                           jQuery('.zone_l').css('top', r_bottom);
-                                          jQuery('.zone_x').css('transform', 'rotate('+rotate_one+'deg)');
-                                          jQuery('.zone_l').css('transform', 'rotate(-'+rotate_two+'deg)');
+                                          jQuery('.zone_x').css('transform', 'scale(1.5) rotate('+rotate_one+'deg)');
+                                          jQuery('.zone_l').css('transform', 'scale(1.5) rotate(-'+rotate_two+'deg)');
                                           rotate_one += 6;
                                           rotate_two += 8;
                                         } else if (count_animation <= 12) {
@@ -1063,8 +1063,8 @@ v1 = function(){
                                           });
                                           jQuery('.zone_x').css('top', l_bottom);
                                           jQuery('.zone_l').css('top', r_top);
-                                          jQuery('.zone_x').css('transform', 'rotate('+rotate_one+'deg)');
-                                          jQuery('.zone_l').css('transform', 'rotate(-'+rotate_two+'deg)');
+                                          jQuery('.zone_x').css('transform', 'scale(1.5) rotate('+rotate_one+'deg)');
+                                          jQuery('.zone_l').css('transform', 'scale(1.5) rotate(-'+rotate_two+'deg)');
                                           rotate_one += 4;
                                           rotate_two += 20;
                                         }
@@ -1091,8 +1091,8 @@ v1 = function(){
                                               });
                                               jQuery('.zone_x').css('top', l_top);
                                               jQuery('.zone_l').css('top', r_bottom);
-                                              jQuery('.zone_x').css('transform', 'rotate('+rotate_one+'deg)');
-                                              jQuery('.zone_l').css('transform', 'rotate(-'+rotate_two+'deg)');
+                                              jQuery('.zone_x').css('transform', 'scale(1.5) rotate('+rotate_one+'deg)');
+                                              jQuery('.zone_l').css('transform', 'scale(1.5) rotate(-'+rotate_two+'deg)');
                                               rotate_one += 6;
                                               rotate_two += 8;
                                             } else if (count_animation <= 8) {
@@ -1101,8 +1101,8 @@ v1 = function(){
                                               });
                                               jQuery('.zone_x').css('top', l_bottom);
                                               jQuery('.zone_l').css('top', r_top);
-                                              jQuery('.zone_x').css('transform', 'rotate('+rotate_one+'deg)');
-                                              jQuery('.zone_l').css('transform', 'rotate(-'+rotate_two+'deg)');
+                                              jQuery('.zone_x').css('transform', 'scale(1.5) rotate('+rotate_one+'deg)');
+                                              jQuery('.zone_l').css('transform', 'scale(1.5) rotate(-'+rotate_two+'deg)');
                                               rotate_one += 4;
                                               rotate_two += 20;
                                             } else if (count_animation <= 12) {
@@ -1111,8 +1111,8 @@ v1 = function(){
                                               });
                                               jQuery('.zone_x').css('top', l_top);
                                               jQuery('.zone_l').css('top', r_bottom);
-                                              jQuery('.zone_x').css('transform', 'rotate('+rotate_one+'deg)');
-                                              jQuery('.zone_l').css('transform', 'rotate(-'+rotate_two+'deg)');
+                                              jQuery('.zone_x').css('transform', 'scale(1.5) rotate('+rotate_one+'deg)');
+                                              jQuery('.zone_l').css('transform', 'scale(1.5) rotate(-'+rotate_two+'deg)');
                                               rotate_one += 6;
                                               rotate_two += 8;
                                             }
@@ -1139,8 +1139,8 @@ v1 = function(){
                                                   });
                                                   jQuery('.zone_x').css('top', l_bottom);
                                                   jQuery('.zone_l').css('top', r_top);
-                                                  jQuery('.zone_x').css('transform', 'rotate('+rotate_one+'deg)');
-                                                  jQuery('.zone_l').css('transform', 'rotate(-'+rotate_two+'deg)');
+                                                  jQuery('.zone_x').css('transform', 'scale(1.5) rotate('+rotate_one+'deg)');
+                                                  jQuery('.zone_l').css('transform', 'scale(1.5) rotate(-'+rotate_two+'deg)');
                                                   rotate_one += 4;
                                                   rotate_two += 20;
                                                 } else if (count_animation <= 8) {
@@ -1149,8 +1149,8 @@ v1 = function(){
                                                   });
                                                   jQuery('.zone_x').css('top', l_top);
                                                   jQuery('.zone_l').css('top', r_bottom);
-                                                  jQuery('.zone_x').css('transform', 'rotate('+rotate_one+'deg)');
-                                                  jQuery('.zone_l').css('transform', 'rotate(-'+rotate_two+'deg)');
+                                                  jQuery('.zone_x').css('transform', 'scale(1.5) rotate('+rotate_one+'deg)');
+                                                  jQuery('.zone_l').css('transform', 'scale(1.5) rotate(-'+rotate_two+'deg)');
                                                   rotate_one += 6;
                                                   rotate_two += 8;
                                                 } else if (count_animation <= 12) {
@@ -1159,8 +1159,8 @@ v1 = function(){
                                                   });
                                                   jQuery('.zone_x').css('top', l_bottom);
                                                   jQuery('.zone_l').css('top', r_top);
-                                                  jQuery('.zone_x').css('transform', 'rotate('+rotate_one+'deg)');
-                                                  jQuery('.zone_l').css('transform', 'rotate(-'+rotate_two+'deg)');
+                                                  jQuery('.zone_x').css('transform', 'scale(1.5) rotate('+rotate_one+'deg)');
+                                                  jQuery('.zone_l').css('transform', 'scale(1.5) rotate(-'+rotate_two+'deg)');
                                                   rotate_one += 4;
                                                   rotate_two += 20;
                                                 }
@@ -1187,8 +1187,8 @@ v1 = function(){
                                                       });
                                                       jQuery('.zone_x').css('top', l_top);
                                                       jQuery('.zone_l').css('top', r_bottom);
-                                                      jQuery('.zone_x').css('transform', 'rotate('+rotate_one+'deg)');
-                                                      jQuery('.zone_l').css('transform', 'rotate(-'+rotate_two+'deg)');
+                                                      jQuery('.zone_x').css('transform', 'scale(1.5) rotate('+rotate_one+'deg)');
+                                                      jQuery('.zone_l').css('transform', 'scale(1.5) rotate(-'+rotate_two+'deg)');
                                                       rotate_one += 6;
                                                       rotate_two += 8;
                                                     } else if (count_animation <= 8) {
@@ -1197,8 +1197,8 @@ v1 = function(){
                                                       });
                                                       jQuery('.zone_x').css('top', l_bottom);
                                                       jQuery('.zone_l').css('top', r_top);
-                                                      jQuery('.zone_x').css('transform', 'rotate('+rotate_one+'deg)');
-                                                      jQuery('.zone_l').css('transform', 'rotate(-'+rotate_two+'deg)');
+                                                      jQuery('.zone_x').css('transform', 'scale(1.5) rotate('+rotate_one+'deg)');
+                                                      jQuery('.zone_l').css('transform', 'scale(1.5) rotate(-'+rotate_two+'deg)');
                                                       rotate_one += 4;
                                                       rotate_two += 20;
                                                     } else if (count_animation <= 12) {
@@ -1207,8 +1207,8 @@ v1 = function(){
                                                       });
                                                       jQuery('.zone_x').css('top', l_top);
                                                       jQuery('.zone_l').css('top', r_bottom);
-                                                      jQuery('.zone_x').css('transform', 'rotate('+rotate_one+'deg)');
-                                                      jQuery('.zone_l').css('transform', 'rotate(-'+rotate_two+'deg)');
+                                                      jQuery('.zone_x').css('transform', 'scale(1.5) rotate('+rotate_one+'deg)');
+                                                      jQuery('.zone_l').css('transform', 'scale(1.5) rotate(-'+rotate_two+'deg)');
                                                       rotate_one += 6;
                                                       rotate_two += 8;
                                                     }
@@ -1271,8 +1271,8 @@ v1 = function(){
           });
           jQuery('.zone_x').css('top', r_bottom);
           jQuery('.zone_l').css('top', l_top);
-          jQuery('.zone_x').css('transform', 'rotate('+rotate_one+'deg)');
-          jQuery('.zone_l').css('transform', 'rotate(-'+rotate_two+'deg)');
+          jQuery('.zone_x').css('transform', 'scale(1.5) rotate('+rotate_one+'deg)');
+          jQuery('.zone_l').css('transform', 'scale(1.5) rotate(-'+rotate_two+'deg)');
           rotate_one += 8;
           rotate_two += 6;
         } else if (count_animation <= 8) {
@@ -1281,8 +1281,8 @@ v1 = function(){
           });
           jQuery('.zone_x').css('top', r_top);
           jQuery('.zone_l').css('top', l_bottom);
-          jQuery('.zone_x').css('transform', 'rotate('+rotate_one+'deg)');
-          jQuery('.zone_l').css('transform', 'rotate(-'+rotate_two+'deg)');
+          jQuery('.zone_x').css('transform', 'scale(1.5) rotate('+rotate_one+'deg)');
+          jQuery('.zone_l').css('transform', 'scale(1.5) rotate(-'+rotate_two+'deg)');
           rotate_one += 20;
           rotate_two += 4;
         } else if (count_animation <= 12) {
@@ -1291,8 +1291,8 @@ v1 = function(){
           });
           jQuery('.zone_x').css('top', r_bottom);
           jQuery('.zone_l').css('top', l_top);
-          jQuery('.zone_x').css('transform', 'rotate('+rotate_one+'deg)');
-          jQuery('.zone_l').css('transform', 'rotate(-'+rotate_two+'deg)');
+          jQuery('.zone_x').css('transform', 'scale(1.5) rotate('+rotate_one+'deg)');
+          jQuery('.zone_l').css('transform', 'scale(1.5) rotate(-'+rotate_two+'deg)');
           rotate_one += 8;
           rotate_two += 6;
         }
@@ -1319,8 +1319,8 @@ v1 = function(){
               });
               jQuery('.zone_x').css('top', r_top);
               jQuery('.zone_l').css('top', l_bottom);
-              jQuery('.zone_x').css('transform', 'rotate('+rotate_one+'deg)');
-              jQuery('.zone_l').css('transform', 'rotate(-'+rotate_two+'deg)');
+              jQuery('.zone_x').css('transform', 'scale(1.5) rotate('+rotate_one+'deg)');
+              jQuery('.zone_l').css('transform', 'scale(1.5) rotate(-'+rotate_two+'deg)');
               rotate_one += 20;
               rotate_two += 4;
             } else if (count_animation <= 8) {
@@ -1329,8 +1329,8 @@ v1 = function(){
               });
               jQuery('.zone_x').css('top', r_bottom);
               jQuery('.zone_l').css('top', l_top);
-              jQuery('.zone_x').css('transform', 'rotate('+rotate_one+'deg)');
-              jQuery('.zone_l').css('transform', 'rotate(-'+rotate_two+'deg)');
+              jQuery('.zone_x').css('transform', 'scale(1.5) rotate('+rotate_one+'deg)');
+              jQuery('.zone_l').css('transform', 'scale(1.5) rotate(-'+rotate_two+'deg)');
               rotate_one += 8;
               rotate_two += 6;
             } else if (count_animation <= 12) {
@@ -1339,8 +1339,8 @@ v1 = function(){
               });
               jQuery('.zone_x').css('top', r_top);
               jQuery('.zone_l').css('top', l_bottom);
-              jQuery('.zone_x').css('transform', 'rotate('+rotate_one+'deg)');
-              jQuery('.zone_l').css('transform', 'rotate(-'+rotate_two+'deg)');
+              jQuery('.zone_x').css('transform', 'scale(1.5) rotate('+rotate_one+'deg)');
+              jQuery('.zone_l').css('transform', 'scale(1.5) rotate(-'+rotate_two+'deg)');
               rotate_one += 20;
               rotate_two += 4;
             }
@@ -1367,8 +1367,8 @@ v1 = function(){
                   });
                   jQuery('.zone_x').css('top', r_bottom);
                   jQuery('.zone_l').css('top', l_top);
-                  jQuery('.zone_x').css('transform', 'rotate('+rotate_one+'deg)');
-                  jQuery('.zone_l').css('transform', 'rotate(-'+rotate_two+'deg)');
+                  jQuery('.zone_x').css('transform', 'scale(1.5) rotate('+rotate_one+'deg)');
+                  jQuery('.zone_l').css('transform', 'scale(1.5) rotate(-'+rotate_two+'deg)');
                   rotate_one += 8;
                   rotate_two += 6;
                 } else if (count_animation <= 8) {
@@ -1377,8 +1377,8 @@ v1 = function(){
                   });
                   jQuery('.zone_x').css('top', r_top);
                   jQuery('.zone_l').css('top', l_bottom);
-                  jQuery('.zone_x').css('transform', 'rotate('+rotate_one+'deg)');
-                  jQuery('.zone_l').css('transform', 'rotate(-'+rotate_two+'deg)');
+                  jQuery('.zone_x').css('transform', 'scale(1.5) rotate('+rotate_one+'deg)');
+                  jQuery('.zone_l').css('transform', 'scale(1.5) rotate(-'+rotate_two+'deg)');
                   rotate_one += 20;
                   rotate_two += 4;
                 } else if (count_animation <= 12) {
@@ -1387,8 +1387,8 @@ v1 = function(){
                   });
                   jQuery('.zone_x').css('top', r_bottom);
                   jQuery('.zone_l').css('top', l_top);
-                  jQuery('.zone_x').css('transform', 'rotate('+rotate_one+'deg)');
-                  jQuery('.zone_l').css('transform', 'rotate(-'+rotate_two+'deg)');
+                  jQuery('.zone_x').css('transform', 'scale(1.5) rotate('+rotate_one+'deg)');
+                  jQuery('.zone_l').css('transform', 'scale(1.5) rotate(-'+rotate_two+'deg)');
                   rotate_one += 8;
                   rotate_two += 6;
                 }
@@ -1415,8 +1415,8 @@ v1 = function(){
                       });
                       jQuery('.zone_x').css('top', r_top);
                       jQuery('.zone_l').css('top', l_bottom);
-                      jQuery('.zone_x').css('transform', 'rotate('+rotate_one+'deg)');
-                      jQuery('.zone_l').css('transform', 'rotate(-'+rotate_two+'deg)');
+                      jQuery('.zone_x').css('transform', 'scale(1.5) rotate('+rotate_one+'deg)');
+                      jQuery('.zone_l').css('transform', 'scale(1.5) rotate(-'+rotate_two+'deg)');
                       rotate_one += 20;
                       rotate_two += 4;
                     } else if (count_animation <= 8) {
@@ -1425,8 +1425,8 @@ v1 = function(){
                       });
                       jQuery('.zone_x').css('top', r_bottom);
                       jQuery('.zone_l').css('top', l_top);
-                      jQuery('.zone_x').css('transform', 'rotate('+rotate_one+'deg)');
-                      jQuery('.zone_l').css('transform', 'rotate(-'+rotate_two+'deg)');
+                      jQuery('.zone_x').css('transform', 'scale(1.5) rotate('+rotate_one+'deg)');
+                      jQuery('.zone_l').css('transform', 'scale(1.5) rotate(-'+rotate_two+'deg)');
                       rotate_one += 8;
                       rotate_two += 6;
                     } else if (count_animation <= 12) {
@@ -1435,8 +1435,8 @@ v1 = function(){
                       });
                       jQuery('.zone_x').css('top', r_top);
                       jQuery('.zone_l').css('top', l_bottom);
-                      jQuery('.zone_x').css('transform', 'rotate('+rotate_one+'deg)');
-                      jQuery('.zone_l').css('transform', 'rotate(-'+rotate_two+'deg)');
+                      jQuery('.zone_x').css('transform', 'scale(1.5) rotate('+rotate_one+'deg)');
+                      jQuery('.zone_l').css('transform', 'scale(1.5) rotate(-'+rotate_two+'deg)');
                       rotate_one += 20;
                       rotate_two += 4;
                     }
@@ -1463,8 +1463,8 @@ v1 = function(){
                           });
                           jQuery('.zone_x').css('top', r_bottom);
                           jQuery('.zone_l').css('top', l_top);
-                          jQuery('.zone_x').css('transform', 'rotate('+rotate_one+'deg)');
-                          jQuery('.zone_l').css('transform', 'rotate(-'+rotate_two+'deg)');
+                          jQuery('.zone_x').css('transform', 'scale(1.5) rotate('+rotate_one+'deg)');
+                          jQuery('.zone_l').css('transform', 'scale(1.5) rotate(-'+rotate_two+'deg)');
                           rotate_one += 8;
                           rotate_two += 6;
                         } else if (count_animation <= 8) {
@@ -1473,8 +1473,8 @@ v1 = function(){
                           });
                           jQuery('.zone_x').css('top', r_top);
                           jQuery('.zone_l').css('top', l_bottom);
-                          jQuery('.zone_x').css('transform', 'rotate('+rotate_one+'deg)');
-                          jQuery('.zone_l').css('transform', 'rotate(-'+rotate_two+'deg)');
+                          jQuery('.zone_x').css('transform', 'scale(1.5) rotate('+rotate_one+'deg)');
+                          jQuery('.zone_l').css('transform', 'scale(1.5) rotate(-'+rotate_two+'deg)');
                           rotate_one += 20;
                           rotate_two += 4;
                         } else if (count_animation <= 12) {
@@ -1483,8 +1483,8 @@ v1 = function(){
                           });
                           jQuery('.zone_x').css('top', r_bottom);
                           jQuery('.zone_l').css('top', l_top);
-                          jQuery('.zone_x').css('transform', 'rotate('+rotate_one+'deg)');
-                          jQuery('.zone_l').css('transform', 'rotate(-'+rotate_two+'deg)');
+                          jQuery('.zone_x').css('transform', 'scale(1.5) rotate('+rotate_one+'deg)');
+                          jQuery('.zone_l').css('transform', 'scale(1.5) rotate(-'+rotate_two+'deg)');
                           rotate_one += 8;
                           rotate_two += 6;
                         }
@@ -1511,8 +1511,8 @@ v1 = function(){
                               });
                               jQuery('.zone_x').css('top', r_top);
                               jQuery('.zone_l').css('top', l_bottom);
-                              jQuery('.zone_x').css('transform', 'rotate('+rotate_one+'deg)');
-                              jQuery('.zone_l').css('transform', 'rotate(-'+rotate_two+'deg)');
+                              jQuery('.zone_x').css('transform', 'scale(1.5) rotate('+rotate_one+'deg)');
+                              jQuery('.zone_l').css('transform', 'scale(1.5) rotate(-'+rotate_two+'deg)');
                               rotate_one += 20;
                               rotate_two += 4;
                             } else if (count_animation <= 8) {
@@ -1521,8 +1521,8 @@ v1 = function(){
                               });
                               jQuery('.zone_x').css('top', r_bottom);
                               jQuery('.zone_l').css('top', l_top);
-                              jQuery('.zone_x').css('transform', 'rotate('+rotate_one+'deg)');
-                              jQuery('.zone_l').css('transform', 'rotate(-'+rotate_two+'deg)');
+                              jQuery('.zone_x').css('transform', 'scale(1.5) rotate('+rotate_one+'deg)');
+                              jQuery('.zone_l').css('transform', 'scale(1.5) rotate(-'+rotate_two+'deg)');
                               rotate_one += 8;
                               rotate_two += 6;
                             } else if (count_animation <= 12) {
@@ -1531,8 +1531,8 @@ v1 = function(){
                               });
                               jQuery('.zone_x').css('top', r_top);
                               jQuery('.zone_l').css('top', l_bottom);
-                              jQuery('.zone_x').css('transform', 'rotate('+rotate_one+'deg)');
-                              jQuery('.zone_l').css('transform', 'rotate(-'+rotate_two+'deg)');
+                              jQuery('.zone_x').css('transform', 'scale(1.5) rotate('+rotate_one+'deg)');
+                              jQuery('.zone_l').css('transform', 'scale(1.5) rotate(-'+rotate_two+'deg)');
                               rotate_one += 20;
                               rotate_two += 4;
                             }
@@ -1559,8 +1559,8 @@ v1 = function(){
                                   });
                                   jQuery('.zone_x').css('top', r_bottom);
                                   jQuery('.zone_l').css('top', l_top);
-                                  jQuery('.zone_x').css('transform', 'rotate('+rotate_one+'deg)');
-                                  jQuery('.zone_l').css('transform', 'rotate(-'+rotate_two+'deg)');
+                                  jQuery('.zone_x').css('transform', 'scale(1.5) rotate('+rotate_one+'deg)');
+                                  jQuery('.zone_l').css('transform', 'scale(1.5) rotate(-'+rotate_two+'deg)');
                                   rotate_one += 8;
                                   rotate_two += 6;
                                 } else if (count_animation <= 8) {
@@ -1569,8 +1569,8 @@ v1 = function(){
                                   });
                                   jQuery('.zone_x').css('top', r_top);
                                   jQuery('.zone_l').css('top', l_bottom);
-                                  jQuery('.zone_x').css('transform', 'rotate('+rotate_one+'deg)');
-                                  jQuery('.zone_l').css('transform', 'rotate(-'+rotate_two+'deg)');
+                                  jQuery('.zone_x').css('transform', 'scale(1.5) rotate('+rotate_one+'deg)');
+                                  jQuery('.zone_l').css('transform', 'scale(1.5) rotate(-'+rotate_two+'deg)');
                                   rotate_one += 20;
                                   rotate_two += 4;
                                 } else if (count_animation <= 12) {
@@ -1579,8 +1579,8 @@ v1 = function(){
                                   });
                                   jQuery('.zone_x').css('top', r_bottom);
                                   jQuery('.zone_l').css('top', l_top);
-                                  jQuery('.zone_x').css('transform', 'rotate('+rotate_one+'deg)');
-                                  jQuery('.zone_l').css('transform', 'rotate(-'+rotate_two+'deg)');
+                                  jQuery('.zone_x').css('transform', 'scale(1.5) rotate('+rotate_one+'deg)');
+                                  jQuery('.zone_l').css('transform', 'scale(1.5) rotate(-'+rotate_two+'deg)');
                                   rotate_one += 8;
                                   rotate_two += 6;
                                 }
@@ -1607,8 +1607,8 @@ v1 = function(){
                                       });
                                       jQuery('.zone_x').css('top', r_top);
                                       jQuery('.zone_l').css('top', l_bottom);
-                                      jQuery('.zone_x').css('transform', 'rotate('+rotate_one+'deg)');
-                                      jQuery('.zone_l').css('transform', 'rotate(-'+rotate_two+'deg)');
+                                      jQuery('.zone_x').css('transform', 'scale(1.5) rotate('+rotate_one+'deg)');
+                                      jQuery('.zone_l').css('transform', 'scale(1.5) rotate(-'+rotate_two+'deg)');
                                       rotate_one += 20;
                                       rotate_two += 4;
                                     } else if (count_animation <= 8) {
@@ -1617,8 +1617,8 @@ v1 = function(){
                                       });
                                       jQuery('.zone_x').css('top', r_bottom);
                                       jQuery('.zone_l').css('top', l_top);
-                                      jQuery('.zone_x').css('transform', 'rotate('+rotate_one+'deg)');
-                                      jQuery('.zone_l').css('transform', 'rotate(-'+rotate_two+'deg)');
+                                      jQuery('.zone_x').css('transform', 'scale(1.5) rotate('+rotate_one+'deg)');
+                                      jQuery('.zone_l').css('transform', 'scale(1.5) rotate(-'+rotate_two+'deg)');
                                       rotate_one += 8;
                                       rotate_two += 6;
                                     } else if (count_animation <= 12) {
@@ -1627,8 +1627,8 @@ v1 = function(){
                                       });
                                       jQuery('.zone_x').css('top', r_top);
                                       jQuery('.zone_l').css('top', l_bottom);
-                                      jQuery('.zone_x').css('transform', 'rotate('+rotate_one+'deg)');
-                                      jQuery('.zone_l').css('transform', 'rotate(-'+rotate_two+'deg)');
+                                      jQuery('.zone_x').css('transform', 'scale(1.5) rotate('+rotate_one+'deg)');
+                                      jQuery('.zone_l').css('transform', 'scale(1.5) rotate(-'+rotate_two+'deg)');
                                       rotate_one += 20;
                                       rotate_two += 4;
                                     }
@@ -1655,8 +1655,8 @@ v1 = function(){
                                           });
                                           jQuery('.zone_x').css('top', r_bottom);
                                           jQuery('.zone_l').css('top', l_top);
-                                          jQuery('.zone_x').css('transform', 'rotate('+rotate_one+'deg)');
-                                          jQuery('.zone_l').css('transform', 'rotate(-'+rotate_two+'deg)');
+                                          jQuery('.zone_x').css('transform', 'scale(1.5) rotate('+rotate_one+'deg)');
+                                          jQuery('.zone_l').css('transform', 'scale(1.5) rotate(-'+rotate_two+'deg)');
                                           rotate_one += 8;
                                           rotate_two += 6;
                                         } else if (count_animation <= 8) {
@@ -1665,8 +1665,8 @@ v1 = function(){
                                           });
                                           jQuery('.zone_x').css('top', r_top);
                                           jQuery('.zone_l').css('top', l_bottom);
-                                          jQuery('.zone_x').css('transform', 'rotate('+rotate_one+'deg)');
-                                          jQuery('.zone_l').css('transform', 'rotate(-'+rotate_two+'deg)');
+                                          jQuery('.zone_x').css('transform', 'scale(1.5) rotate('+rotate_one+'deg)');
+                                          jQuery('.zone_l').css('transform', 'scale(1.5) rotate(-'+rotate_two+'deg)');
                                           rotate_one += 20;
                                           rotate_two += 4;
                                         } else if (count_animation <= 12) {
@@ -1675,8 +1675,8 @@ v1 = function(){
                                           });
                                           jQuery('.zone_x').css('top', r_bottom);
                                           jQuery('.zone_l').css('top', l_top);
-                                          jQuery('.zone_x').css('transform', 'rotate('+rotate_one+'deg)');
-                                          jQuery('.zone_l').css('transform', 'rotate(-'+rotate_two+'deg)');
+                                          jQuery('.zone_x').css('transform', 'scale(1.5) rotate('+rotate_one+'deg)');
+                                          jQuery('.zone_l').css('transform', 'scale(1.5) rotate(-'+rotate_two+'deg)');
                                           rotate_one += 8;
                                           rotate_two += 6;
                                         }
@@ -1703,8 +1703,8 @@ v1 = function(){
                                               });
                                               jQuery('.zone_x').css('top', r_top);
                                               jQuery('.zone_l').css('top', l_bottom);
-                                              jQuery('.zone_x').css('transform', 'rotate('+rotate_one+'deg)');
-                                              jQuery('.zone_l').css('transform', 'rotate(-'+rotate_two+'deg)');
+                                              jQuery('.zone_x').css('transform', 'scale(1.5) rotate('+rotate_one+'deg)');
+                                              jQuery('.zone_l').css('transform', 'scale(1.5) rotate(-'+rotate_two+'deg)');
                                               rotate_one += 20;
                                               rotate_two += 4;
                                             } else if (count_animation <= 8) {
@@ -1713,8 +1713,8 @@ v1 = function(){
                                               });
                                               jQuery('.zone_x').css('top', r_bottom);
                                               jQuery('.zone_l').css('top', l_top);
-                                              jQuery('.zone_x').css('transform', 'rotate('+rotate_one+'deg)');
-                                              jQuery('.zone_l').css('transform', 'rotate(-'+rotate_two+'deg)');
+                                              jQuery('.zone_x').css('transform', 'scale(1.5) rotate('+rotate_one+'deg)');
+                                              jQuery('.zone_l').css('transform', 'scale(1.5) rotate(-'+rotate_two+'deg)');
                                               rotate_one += 8;
                                               rotate_two += 6;
                                             } else if (count_animation <= 12) {
@@ -1723,8 +1723,8 @@ v1 = function(){
                                               });
                                               jQuery('.zone_x').css('top', r_top);
                                               jQuery('.zone_l').css('top', l_bottom);
-                                              jQuery('.zone_x').css('transform', 'rotate('+rotate_one+'deg)');
-                                              jQuery('.zone_l').css('transform', 'rotate(-'+rotate_two+'deg)');
+                                              jQuery('.zone_x').css('transform', 'scale(1.5) rotate('+rotate_one+'deg)');
+                                              jQuery('.zone_l').css('transform', 'scale(1.5) rotate(-'+rotate_two+'deg)');
                                               rotate_one += 20;
                                               rotate_two += 4;
                                             }
@@ -1751,8 +1751,8 @@ v1 = function(){
                                                   });
                                                   jQuery('.zone_x').css('top', r_bottom);
                                                   jQuery('.zone_l').css('top', l_top);
-                                                  jQuery('.zone_x').css('transform', 'rotate('+rotate_one+'deg)');
-                                                  jQuery('.zone_l').css('transform', 'rotate(-'+rotate_two+'deg)');
+                                                  jQuery('.zone_x').css('transform', 'scale(1.5) rotate('+rotate_one+'deg)');
+                                                  jQuery('.zone_l').css('transform', 'scale(1.5) rotate(-'+rotate_two+'deg)');
                                                   rotate_one += 8;
                                                   rotate_two += 6;
                                                 } else if (count_animation <= 8) {
@@ -1761,8 +1761,8 @@ v1 = function(){
                                                   });
                                                   jQuery('.zone_x').css('top', r_top);
                                                   jQuery('.zone_l').css('top', l_bottom);
-                                                  jQuery('.zone_x').css('transform', 'rotate('+rotate_one+'deg)');
-                                                  jQuery('.zone_l').css('transform', 'rotate(-'+rotate_two+'deg)');
+                                                  jQuery('.zone_x').css('transform', 'scale(1.5) rotate('+rotate_one+'deg)');
+                                                  jQuery('.zone_l').css('transform', 'scale(1.5) rotate(-'+rotate_two+'deg)');
                                                   rotate_one += 20;
                                                   rotate_two += 4;
                                                 } else if (count_animation <= 12) {
@@ -1771,8 +1771,8 @@ v1 = function(){
                                                   });
                                                   jQuery('.zone_x').css('top', r_bottom);
                                                   jQuery('.zone_l').css('top', l_top);
-                                                  jQuery('.zone_x').css('transform', 'rotate('+rotate_one+'deg)');
-                                                  jQuery('.zone_l').css('transform', 'rotate(-'+rotate_two+'deg)');
+                                                  jQuery('.zone_x').css('transform', 'scale(1.5) rotate('+rotate_one+'deg)');
+                                                  jQuery('.zone_l').css('transform', 'scale(1.5) rotate(-'+rotate_two+'deg)');
                                                   rotate_one += 8;
                                                   rotate_two += 6;
                                                 }
@@ -1800,8 +1800,8 @@ v1 = function(){
                                                       });
                                                       jQuery('.zone_x').css('top', r_top);
                                                       jQuery('.zone_l').css('top', l_bottom);
-                                                      jQuery('.zone_x').css('transform', 'rotate('+rotate_one+'deg)');
-                                                      jQuery('.zone_l').css('transform', 'rotate(-'+rotate_two+'deg)');
+                                                      jQuery('.zone_x').css('transform', 'scale(1.5) rotate('+rotate_one+'deg)');
+                                                      jQuery('.zone_l').css('transform', 'scale(1.5) rotate(-'+rotate_two+'deg)');
                                                       rotate_one += 20;
                                                       rotate_two += 4;
                                                     } else if (count_animation <= 8) {
@@ -1810,8 +1810,8 @@ v1 = function(){
                                                       });
                                                       jQuery('.zone_x').css('top', r_bottom);
                                                       jQuery('.zone_l').css('top', l_top);
-                                                      jQuery('.zone_x').css('transform', 'rotate('+rotate_one+'deg)');
-                                                      jQuery('.zone_l').css('transform', 'rotate(-'+rotate_two+'deg)');
+                                                      jQuery('.zone_x').css('transform', 'scale(1.5) rotate('+rotate_one+'deg)');
+                                                      jQuery('.zone_l').css('transform', 'scale(1.5) rotate(-'+rotate_two+'deg)');
                                                       rotate_one += 8;
                                                       rotate_two += 6;
                                                     } else if (count_animation <= 12) {
@@ -1820,8 +1820,8 @@ v1 = function(){
                                                       });
                                                       jQuery('.zone_x').css('top', r_top);
                                                       jQuery('.zone_l').css('top', l_bottom);
-                                                      jQuery('.zone_x').css('transform', 'rotate('+rotate_one+'deg)');
-                                                      jQuery('.zone_l').css('transform', 'rotate(-'+rotate_two+'deg)');
+                                                      jQuery('.zone_x').css('transform', 'scale(1.5) rotate('+rotate_one+'deg)');
+                                                      jQuery('.zone_l').css('transform', 'scale(1.5) rotate(-'+rotate_two+'deg)');
                                                       rotate_one += 20;
                                                       rotate_two += 4;
                                                     }
@@ -1838,7 +1838,7 @@ v1 = function(){
                                                     count_animation = 0;
                                                     rotate_one = 0;
                                                     rotate_two = 0;
-                                                    jQuery('.zone_x, .zone_l').css('transform', 'rotate(0deg)');
+                                                    jQuery('.zone_x, .zone_l').css('transform', 'scale(1) rotate(0deg)');
                                                     jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v0').css('top'));
                                                     setTimeout(function() {
                                                       jQuery('.zone_x, .zone_l').css('transform', 'scale(0.01)');
