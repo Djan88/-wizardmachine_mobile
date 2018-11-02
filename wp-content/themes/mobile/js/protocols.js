@@ -1877,8 +1877,7 @@ v1 = function(){
       if (count_animation <= 22){
         jQuery('.draggable_v1').css({
           color: 'transparent',
-          transform: 'scale(1.5)',
-          transform: 'rotate(-'+rotate_one+'deg)',
+          transform: 'scale(1.5) rotate(-'+rotate_one+'deg)',
           background: '#fff url(/wp-content/themes/mobile/img/mo_right.png) 0 0/100% no-repeat',
           opacity: 0.8
         });
@@ -1901,7 +1900,7 @@ v1 = function(){
           if (count_animation <= 53){
             jQuery('.draggable_v1').css({
               color: 'transparent',
-              transform: 'rotate('+rotate_one+'deg)',
+              transform: 'scale(1.5) rotate('+rotate_one+'deg)',
               background: '#fff url(/wp-content/themes/mobile/img/mo_left.png) 0 0/100% no-repeat',
               opacity: 0.8
             });
@@ -1924,7 +1923,7 @@ v1 = function(){
               if (count_animation <= 60){
                 jQuery('.draggable_v1').css({
                   color: 'transparent',
-                  transform: 'rotate('+rotate_one+'deg)',
+                  transform: 'scale(1.5) rotate('+rotate_one+'deg)',
                   background: '#fff url(/wp-content/themes/mobile/img/mo_left.png) 0 0/100% no-repeat',
                   opacity: 0.8
                 });
@@ -1947,7 +1946,7 @@ v1 = function(){
                   if (count_animation <= 40){
                     jQuery('.draggable_v1').css({
                       color: 'transparent',
-                      transform: 'rotate(-'+rotate_one+'deg)',
+                      transform: 'scale(1.5) rotate(-'+rotate_one+'deg)',
                       background: '#fff url(/wp-content/themes/mobile/img/mo_right.png) 0 0/100% no-repeat',
                       opacity: 0.8
                     });
@@ -1971,8 +1970,7 @@ v1 = function(){
                       if (count_animation <= 22){
                         jQuery('.draggable_v5').css({
                           color: 'transparent',
-                          transform: 'scale(1.5)',
-                          transform: 'rotate(-'+rotate_one+'deg)',
+                          transform: 'scale(1.5) rotate(-'+rotate_one+'deg)',
                           background: '#fff url(/wp-content/themes/mobile/img/mo_right.png) 0 0/100% no-repeat',
                           opacity: 0.8
                         });
@@ -1995,7 +1993,7 @@ v1 = function(){
                           if (count_animation <= 53){
                             jQuery('.draggable_v5').css({
                               color: 'transparent',
-                              transform: 'rotate('+rotate_one+'deg)',
+                              transform: 'scale(1.5) rotate('+rotate_one+'deg)',
                               background: '#fff url(/wp-content/themes/mobile/img/mo_left.png) 0 0/100% no-repeat',
                               opacity: 0.8
                             });
@@ -2018,7 +2016,7 @@ v1 = function(){
                               if (count_animation <= 60){
                                 jQuery('.draggable_v5').css({
                                   color: 'transparent',
-                                  transform: 'rotate('+rotate_one+'deg)',
+                                  transform: 'scale(1.5) rotate('+rotate_one+'deg)',
                                   background: '#fff url(/wp-content/themes/mobile/img/mo_left.png) 0 0/100% no-repeat',
                                   opacity: 0.8
                                 });
@@ -2041,7 +2039,7 @@ v1 = function(){
                                   if (count_animation <= 40){
                                     jQuery('.draggable_v5').css({
                                       color: 'transparent',
-                                      transform: 'rotate(-'+rotate_one+'deg)',
+                                      transform: 'scale(1.5) rotate(-'+rotate_one+'deg)',
                                       background: '#fff url(/wp-content/themes/mobile/img/mo_right.png) 0 0/100% no-repeat',
                                       opacity: 0.8
                                     });
@@ -2065,8 +2063,7 @@ v1 = function(){
                                       if (count_animation <= 22){
                                         jQuery('.draggable_v-').css({
                                           color: 'transparent',
-                                          transform: 'scale(1.5)',
-                                          transform: 'rotate(-'+rotate_one+'deg)',
+                                          transform: 'scale(1.5) rotate(-'+rotate_one+'deg)',
                                           background: '#fff url(/wp-content/themes/mobile/img/mo_right.png) 0 0/100% no-repeat',
                                           opacity: 0.8
                                         });
@@ -2089,7 +2086,7 @@ v1 = function(){
                                           if (count_animation <= 53){
                                             jQuery('.draggable_v-').css({
                                               color: 'transparent',
-                                              transform: 'rotate('+rotate_one+'deg)',
+                                              transform: 'scale(1.5) rotate('+rotate_one+'deg)',
                                               background: '#fff url(/wp-content/themes/mobile/img/mo_left.png) 0 0/100% no-repeat',
                                               opacity: 0.8
                                             });
@@ -2112,7 +2109,7 @@ v1 = function(){
                                               if (count_animation <= 60){
                                                 jQuery('.draggable_v-').css({
                                                   color: 'transparent',
-                                                  transform: 'rotate('+rotate_one+'deg)',
+                                                  transform: 'scale(1.5) rotate('+rotate_one+'deg)',
                                                   background: '#fff url(/wp-content/themes/mobile/img/mo_left.png) 0 0/100% no-repeat',
                                                   opacity: 0.8
                                                 });
@@ -2135,7 +2132,7 @@ v1 = function(){
                                                   if (count_animation <= 40){
                                                     jQuery('.draggable_v-').css({
                                                       color: 'transparent',
-                                                      transform: 'rotate(-'+rotate_one+'deg)',
+                                                      transform: 'scale(1.5) rotate(-'+rotate_one+'deg)',
                                                       background: '#fff url(/wp-content/themes/mobile/img/mo_right.png) 0 0/100% no-repeat',
                                                       opacity: 0.8
                                                     });
