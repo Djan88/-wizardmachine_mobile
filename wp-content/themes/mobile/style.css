@@ -283,7 +283,7 @@ span.menu_item_img
 .zone_holder 
 {
   position: relative;
-  height: 35px;
+  height: 25px;
 }
 .zone 
 {
@@ -293,8 +293,8 @@ span.menu_item_img
   border: 1px solid #FFF0C7;
   border-radius: 50%;
   display: inline-block;
-  width: 35px;
-  height: 35px;
+  width: 30px;
+  height: 30px;
   padding-top: 4px;
   font-size: 17px;
   font-weight: 500;
