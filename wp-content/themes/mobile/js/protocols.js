@@ -2185,7 +2185,7 @@ v1 = function(){
           jQuery('.draggable_v1, .draggable_v4').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            border-color: 'transparent',
+            borderColor: 'transparent',
             background: 'transparent url(/wp-content/themes/mobile/img/3_voda_lev.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
@@ -2200,7 +2200,7 @@ v1 = function(){
         jQuery('.draggable_v1, .draggable_v4').css({
           color: '#FFF0C7',
           transform: 'scale(1)',
-          border-color: '#FFF0C7',
+          borderColor: '#FFF0C7',
           background: 'rgba(83, 35, 69, 0.4)',
           opacity: 1
         });
@@ -2213,7 +2213,7 @@ v1 = function(){
               jQuery('.draggable_v1, .draggable_v5, .draggable_v-').css({
                 color: 'transparent',
                 transform: 'scale(1.3)',
-                border-color: 'transparent',
+                borderColor: 'transparent',
                 background: 'transparent url(/wp-content/themes/mobile/img/4_ogon_lev.png) 0 0/100% no-repeat',
                 opacity: 0.8
               });
@@ -2228,7 +2228,7 @@ v1 = function(){
             jQuery('.draggable_v1, .draggable_v5, .draggable_v-').css({
               color: '#FFF0C7',
               transform: 'scale(1)',
-              border-color: '#FFF0C7',
+              borderColor: '#FFF0C7',
               background: 'rgba(83, 35, 69, 0.4)',
               opacity: 1
             });
