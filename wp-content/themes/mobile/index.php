@@ -170,12 +170,14 @@
 				<div class="col text_center">
 					<div class="row justify-content-center">
 						<div class="col-12 text_center zones">
-							<div class="status status_percent">100%</div>
-							<div class="status status_title">Протокол 2-5</div>
-							<div class="status status_pahaze hidden">
-								<span class="status_pahaze_now">1</span>
-								<span class="status_pahaze_to"> из </span>
-								<span class="status_pahaze_all">10</span>
+							<div class="status_wrap">
+								<div class="status status_percent">100%</div>
+								<div class="status status_title">Протокол 2-5</div>
+								<div class="status status_pahaze">
+									<span class="status_pahaze_now">1</span>
+									<span class="status_pahaze_to"> из </span>
+									<span class="status_pahaze_all">10</span>
+								</div>
 							</div>
 							<div class="row">
 								<div class="col zone_holder">
