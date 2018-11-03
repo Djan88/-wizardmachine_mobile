@@ -4962,7 +4962,7 @@ v2 = function(){
       }
     }, 1000);
   }).then(function(next) {
-    console.log('Фаза 3/1');
+    console.log('Фаза 4');
 // Фаза 4.1.1
     rotate_one = 0;
     phaseOne = setInterval(function(){

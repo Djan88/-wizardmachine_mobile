@@ -170,7 +170,7 @@
 				<div class="col text_center">
 					<div class="row justify-content-center">
 						<div class="col-12 text_center zones">
-							<!-- <div class="row">
+							<div class="row">
 								<div class="col zone_holder">
 									<div class="zone draggable draggable_lovushka"></div>
 									<div class="zone draggable draggable_d6">D6</div>
@@ -197,35 +197,7 @@
 									<div class="zone draggable draggable_s2">S2</div>
 									<div class="zone zone_final zone_l hidden"></div>
 								</div>
-							</div> -->
-							<div class="row">
-<div class="col zone_holder">
-	<div class="zone draggable draggable_lovushka ui-draggable ui-draggable-handle" style="width: 30px; right: auto; height: 30px; bottom: auto; left: 101.328px; top: 203px; background: url(&quot;/wp-content/themes/mobile/img/lovushka.jpg&quot;) 0px 0px / 100% no-repeat rgb(255, 255, 255); color: transparent; transform: rotate(-206deg); opacity: 0.8;"></div>
-	<div class="zone draggable draggable_d6 ui-draggable ui-draggable-handle" style="width: 30px; right: auto; height: 30px; bottom: auto; left: 178.328px; top: 308px; background: rgba(83, 35, 69, 0.4);">D6</div>
-	<div class="zone draggable draggable_d5 ui-draggable ui-draggable-handle" style="width: 30px; right: auto; height: 30px; bottom: auto; left: 177.328px; top: 263px; background: rgba(83, 35, 69, 0.4);">D5</div>
-	<div class="zone draggable draggable_d4 ui-draggable ui-draggable-handle" style="width: 30px; right: auto; height: 30px; bottom: auto; left: 176.328px; top: 217px; background: rgba(83, 35, 69, 0.4);">D4</div>
-	<div class="zone draggable draggable_d3 ui-draggable ui-draggable-handle" style="width: 30px; right: auto; height: 30px; bottom: auto; left: 176.328px; top: 167px; background: rgba(83, 35, 69, 0.4);">D3</div>
-	<div class="zone draggable draggable_d2 ui-draggable ui-draggable-handle" style="width: 30px; right: auto; height: 30px; bottom: auto; left: 174.328px; top: 115px; background: rgba(83, 35, 69, 0.4);">D2</div>
-	<div class="zone zone_final zone_x" style="height: 30px; background: url(&quot;/wp-content/themes/mobile/img/daemon.png&quot;) 0px 0px / 100% no-repeat rgb(255, 255, 255); transform: rotate(1062deg); top: 251px;"></div>
-</div>
-<div class="col zone_holder">
-	<div class="zone draggable draggable_v- ui-draggable ui-draggable-handle" style="width: 30px; right: auto; height: 30px; bottom: auto; left: 92.3281px; top: 380px; background: rgba(83, 35, 69, 0.4); color: rgb(255, 240, 199); opacity: 1;">V-</div>
-	<div class="zone draggable draggable_v5 ui-draggable ui-draggable-handle" style="width: 30px; right: auto; height: 30px; bottom: auto; left: 90.3281px; top: 330px; background: rgba(83, 35, 69, 0.4); color: rgb(255, 240, 199); opacity: 1;">V5</div>
-	<div class="zone draggable draggable_v4 ui-draggable ui-draggable-handle" style="width: 30px; right: auto; height: 30px; bottom: auto; left: 89.3281px; top: 282px; background: rgba(83, 35, 69, 0.4);">V4</div>
-	<div class="zone draggable draggable_v3 ui-draggable ui-draggable-handle" style="width: 30px; right: auto; height: 30px; bottom: auto; left: 89.3281px; top: 230px; background: rgba(83, 35, 69, 0.4);">V3</div>
-	<div class="zone draggable draggable_v2 ui-draggable ui-draggable-handle" style="width: 30px; right: auto; height: 30px; bottom: auto; left: 88.3281px; top: 188px; background: rgba(83, 35, 69, 0.4);">V2</div>
-	<div class="zone draggable draggable_v1 ui-draggable ui-draggable-handle" style="width: 30px; right: auto; height: 30px; bottom: auto; left: 88.3281px; top: 140px; background: rgba(83, 35, 69, 0.4);">V1</div>
-	<div class="zone draggable draggable_v0 ui-draggable ui-draggable-handle" style="width: 30px; right: auto; height: 30px; bottom: auto; left: 87.3281px; top: 87px; background: rgba(83, 35, 69, 0.4);">V0</div>
-</div>
-<div class="col zone_holder">
-	<div class="zone draggable draggable_s6 ui-draggable ui-draggable-handle" style="width: 30px; right: auto; height: 30px; bottom: auto; left: 53.3281px; top: 296px; background: rgba(83, 35, 69, 0.4);">S6</div>
-	<div class="zone draggable draggable_s5 ui-draggable ui-draggable-handle" style="width: 30px; right: auto; height: 30px; bottom: auto; left: 54.3281px; top: 251px; background: rgba(83, 35, 69, 0.4);">S5</div>
-	<div class="zone draggable draggable_s4 ui-draggable ui-draggable-handle" style="width: 30px; right: auto; height: 30px; bottom: auto; left: 52.3281px; top: 205px; background: rgba(83, 35, 69, 0.4);">S4</div>
-	<div class="zone draggable draggable_s3 ui-draggable ui-draggable-handle" style="width: 30px; right: auto; height: 30px; bottom: auto; left: 50.3281px; top: 163px; background: rgba(83, 35, 69, 0.4);">S3</div>
-	<div class="zone draggable draggable_s2 ui-draggable ui-draggable-handle" style="width: 30px; right: auto; height: 30px; bottom: auto; left: 54.3281px; top: 111px; background: rgba(83, 35, 69, 0.4);">S2</div>
-	<div class="zone zone_final zone_l" style="height: 30px; background: url(&quot;/wp-content/themes/mobile/img/lovushka.png&quot;) 0px 0px / 100% no-repeat rgb(255, 255, 255); transform: rotate(-954deg); top: 115px;"></div>
-</div>
-</div>
+							</div>
 						</div>
 						<div class="col-12 text_center zone_diag">
 							<img class="loaded_img" src="" alt="">
