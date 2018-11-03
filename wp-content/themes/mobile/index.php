@@ -170,6 +170,13 @@
 				<div class="col text_center">
 					<div class="row justify-content-center">
 						<div class="col-12 text_center zones">
+							<div class="status status_percent"></div>
+							<div class="status status_title"></div>
+							<div class="status status_pahaze hidden">
+								<span class="status_pahaze_now"></span>
+								<span class="status_pahaze_to"> из </span>
+								<span class="status_pahaze_all"></span>
+							</div>
 							<div class="row">
 								<div class="col zone_holder">
 									<div class="zone draggable draggable_lovushka"></div>
