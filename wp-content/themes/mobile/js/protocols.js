@@ -2175,7 +2175,7 @@ v1 = function(){
         if (count_animation <= 19) {
           jQuery('.draggable_v1, .draggable_v4').css({
             color: 'transparent',
-            transform: 'scale(1.3)',
+            transform: 'scale(1.5)',
             borderColor: 'transparent',
             background: 'transparent url(/wp-content/themes/mobile/img/3_voda_lev.png) 0 0/100% no-repeat',
             opacity: 0.8
@@ -2203,7 +2203,7 @@ v1 = function(){
             if (count_animation <= 17) {
               jQuery('.draggable_v1, .draggable_v5, .draggable_v-').css({
                 color: 'transparent',
-                transform: 'scale(1.3)',
+                transform: 'scale(1.5)',
                 borderColor: 'transparent',
                 background: 'transparent url(/wp-content/themes/mobile/img/4_ogon_lev.png) 0 0/100% no-repeat',
                 opacity: 0.8
@@ -5367,7 +5367,7 @@ v2 = function(){
           jQuery('.draggable_v2').css({
             color: 'transparent',
             borderColor: 'transparent',
-            transform: 'scale(1.3)',
+            transform: 'scale(1.5)',
             background: 'transparent url(/wp-content/themes/mobile/img/2_vozduh_lev.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
@@ -5394,7 +5394,7 @@ v2 = function(){
             if (count_animation <= 17) {
               jQuery('.draggable_v1, .draggable_v5, .draggable_v-').css({
                 color: 'transparent',
-                transform: 'scale(1.3)',
+                transform: 'scale(1.5)',
                 borderColor: 'transparent',
                 background: 'transparent url(/wp-content/themes/mobile/img/4_ogon_lev.png) 0 0/100% no-repeat',
                 opacity: 0.8
@@ -5422,7 +5422,7 @@ v2 = function(){
                 if (count_animation <= 19) {
                   jQuery('.draggable_v1, .draggable_v4').css({
                     color: 'transparent',
-                    transform: 'scale(1.3)',
+                    transform: 'scale(1.5)',
                     borderColor: 'transparent',
                     background: 'transparent url(/wp-content/themes/mobile/img/3_voda_lev.png) 0 0/100% no-repeat',
                     opacity: 0.8
