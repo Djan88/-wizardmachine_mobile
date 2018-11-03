@@ -130,7 +130,6 @@ v1 = function(){
   chain(function(next) {
     console.log('Фаза 1');
     jQuery('.status').removeClass('hidden');
-    jQuery('.status_title').text(cur_protocol_name);
     jQuery('.status_pahaze_all').text('5');
     jQuery('.zone_x, .zone_l').removeClass('hidden').css('transform', 'scale(1)');
     r_top = jQuery('.draggable_v5').css('top');
@@ -11792,14 +11791,19 @@ jQuery('.btn_start').on('click', function(event) {
   jQuery('.btn-to_endNow').removeClass('hidden');
   if (protocol == 'v1') {
     v1();
+    jQuery('.status_title').text('Протокол V1');
   } else if (protocol == 'v2') {
     v2();
+    jQuery('.status_title').text('Протокол V2-5');
   } else if (protocol == 'v3') {
     v3();
+    jQuery('.status_title').text('Протокол V3-4');
   } else if (protocol == 'v4') {
     v4();
+    jQuery('.status_title').text('Протокол V4-3');
   } else if (protocol == 'v5') {
     v5();
+    jQuery('.status_title').text('Протокол V5-2');
   }
   jQuery('.header-title').text('Программа выполняется');
 });
