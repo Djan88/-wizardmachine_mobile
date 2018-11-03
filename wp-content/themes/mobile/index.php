@@ -173,28 +173,28 @@
 							<div class="row">
 								<div class="col zone_holder">
 									<div class="zone draggable draggable_lovushka"></div>
-									<div class="zone draggable draggable_d6">D6</div>
-									<div class="zone draggable draggable_d5">D5</div>
-									<div class="zone draggable draggable_d4">D4</div>
-									<div class="zone draggable draggable_d3">D3</div>
 									<div class="zone draggable draggable_d2">D2</div>
+									<div class="zone draggable draggable_d3">D3</div>
+									<div class="zone draggable draggable_d4">D4</div>
+									<div class="zone draggable draggable_d5">D5</div>
+									<div class="zone draggable draggable_d6">D6</div>
 									<div class="zone zone_final zone_x hidden"></div>
 								</div>
 								<div class="col zone_holder">
-									<div class="zone draggable draggable_v-">V-</div>
-									<div class="zone draggable draggable_v5">V5</div>
-									<div class="zone draggable draggable_v4">V4</div>
-									<div class="zone draggable draggable_v3">V3</div>
-									<div class="zone draggable draggable_v2">V2</div>
-									<div class="zone draggable draggable_v1">V1</div>
 									<div class="zone draggable draggable_v0">V0</div>
+									<div class="zone draggable draggable_v1">V1</div>
+									<div class="zone draggable draggable_v2">V2</div>
+									<div class="zone draggable draggable_v3">V3</div>
+									<div class="zone draggable draggable_v4">V4</div>
+									<div class="zone draggable draggable_v5">V5</div>
+									<div class="zone draggable draggable_v-">V-</div>
 								</div>
 								<div class="col zone_holder">
-									<div class="zone draggable draggable_s6">S6</div>
-									<div class="zone draggable draggable_s5">S5</div>
-									<div class="zone draggable draggable_s4">S4</div>
-									<div class="zone draggable draggable_s3">S3</div>
 									<div class="zone draggable draggable_s2">S2</div>
+									<div class="zone draggable draggable_s3">S3</div>
+									<div class="zone draggable draggable_s4">S4</div>
+									<div class="zone draggable draggable_s5">S5</div>
+									<div class="zone draggable draggable_s6">S6</div>
 									<div class="zone zone_final zone_l hidden"></div>
 								</div>
 							</div>
