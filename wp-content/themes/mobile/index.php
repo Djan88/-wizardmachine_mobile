@@ -172,7 +172,9 @@
 						<div class="col-12 text_center zones">
 							<div class="row">
 								<div class="col zone_holder">
-									<div class="status status_percent hidden">0%</div>
+									<div class="status status_percent_wrap hidden">
+										Выполнено: <span class="status_percent">0%</span>
+									</div>
 									<div class="zone draggable draggable_lovushka"></div>
 									<div class="zone draggable draggable_d2">D2</div>
 									<div class="zone draggable draggable_d3">D3</div>
@@ -193,6 +195,7 @@
 								</div>
 								<div class="col zone_holder">
 									<div class="status status_pahaze hidden">
+										Фаза: 
 										<span class="status_pahaze_now">0</span>
 										<span class="status_pahaze_to"> из </span>
 										<span class="status_pahaze_all">0</span>
