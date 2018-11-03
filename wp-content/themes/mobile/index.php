@@ -172,7 +172,7 @@
 						<div class="col-12 text_center zones">
 							<div class="row">
 								<div class="col zone_holder">
-									<div class="status status_percent">100%</div>
+									<div class="status status_percent hidden">0%</div>
 									<div class="zone draggable draggable_lovushka"></div>
 									<div class="zone draggable draggable_d2">D2</div>
 									<div class="zone draggable draggable_d3">D3</div>
@@ -182,7 +182,7 @@
 									<div class="zone zone_final zone_x hidden"></div>
 								</div>
 								<div class="col zone_holder">
-									<div class="status status_title">Протокол 2-5</div>
+									<div class="status status_title hidden"></div>
 									<div class="zone draggable draggable_v0">V0</div>
 									<div class="zone draggable draggable_v1">V1</div>
 									<div class="zone draggable draggable_v2">V2</div>
@@ -192,10 +192,10 @@
 									<div class="zone draggable draggable_v-">V-</div>
 								</div>
 								<div class="col zone_holder">
-									<div class="status status_pahaze">
-										<span class="status_pahaze_now">1</span>
+									<div class="status status_pahaze hidden">
+										<span class="status_pahaze_now">0</span>
 										<span class="status_pahaze_to"> из </span>
-										<span class="status_pahaze_all">10</span>
+										<span class="status_pahaze_all">0</span>
 									</div>
 									<div class="zone draggable draggable_s2">S2</div>
 									<div class="zone draggable draggable_s3">S3</div>

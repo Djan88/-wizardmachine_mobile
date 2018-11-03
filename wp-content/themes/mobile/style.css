@@ -319,6 +319,11 @@ span.menu_item_img
 .status
 {
   position: absolute;
+  left: 0;
+  right: 0;
+  top: 3px;
+  font-weight: 400;
+  color: #eee;
 }
 .diagnostic_rezult
 {
