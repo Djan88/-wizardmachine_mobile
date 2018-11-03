@@ -173,7 +173,7 @@
 							<div class="row">
 								<div class="col zone_holder">
 									<div class="status status_percent_wrap hidden">
-										Выполнено: <span class="status_percent">0%</span>
+										<span class="status_percent">0%</span>
 									</div>
 									<div class="zone draggable draggable_lovushka"></div>
 									<div class="zone draggable draggable_d2">D2</div>
