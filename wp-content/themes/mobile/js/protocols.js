@@ -11737,6 +11737,7 @@ jQuery('.btn_start').on('click', function(event) {
   } else if (protocol == 'v5') {
     v5();
   }
+  jQuery('.header-title').text('Программа выполняется');
 });
 // STOP
 function hideNote() {
@@ -11744,6 +11745,7 @@ function hideNote() {
 }
 jQuery('.btn-to_endNow').on('click', function(event) {
   jQuery('.btn-to_endNow').css('color', 'crimson');
+  jQuery('.header-title').text('Программа останавливается');
   endStatus = true;
   jQuery('.btn-to_endNow').popover('show');
   setTimeout(hideNote, 5000);
