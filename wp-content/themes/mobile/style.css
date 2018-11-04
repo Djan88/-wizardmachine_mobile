@@ -325,6 +325,14 @@ span.menu_item_img
   font-weight: 400;
   color: #eee;
 }
+.status_percent_wrap
+{
+  text-align: right;
+}
+.status_pahaze
+{
+  text-align: left;
+}
 .diagnostic_rezult
 {
   padding-top: 10px;
