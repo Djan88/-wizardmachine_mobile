@@ -405,4 +405,8 @@ input.crop_photo
       left: -145px;
       top: 150px;
     }
+    .status
+    {
+      font-size: 14px;
+    }
 }
