@@ -255,7 +255,7 @@ span.menu_item_img
   /*width: 8%!important;*/
   max-width: 35px;
   margin: 0;
-  top: 0;
+  top: 40px;
   transition: transform linear 1s, top ease-out 1s;
 }
 .zone.zone_final.zone_x
