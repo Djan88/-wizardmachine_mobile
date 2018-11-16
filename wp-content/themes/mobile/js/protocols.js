@@ -2235,7 +2235,7 @@ v1 = function(){
         if (count_animation <= 19) {
           jQuery('.draggable_v1, .draggable_v4').css({
             color: 'transparent',
-            transform: 'scale(1.5)',
+            transform: 'scale(1.3)',
             borderColor: 'transparent',
             background: 'transparent url(/wp-content/themes/mobile/img/3_voda_lev.png) 0 0/100% no-repeat',
             opacity: 0.8
@@ -2264,7 +2264,7 @@ v1 = function(){
             if (count_animation <= 17) {
               jQuery('.draggable_v1, .draggable_v5, .draggable_v-').css({
                 color: 'transparent',
-                transform: 'scale(1.5)',
+                transform: 'scale(1.3)',
                 borderColor: 'transparent',
                 background: 'transparent url(/wp-content/themes/mobile/img/4_ogon_lev.png) 0 0/100% no-repeat',
                 opacity: 0.8
@@ -5511,7 +5511,7 @@ jQuery('.status_pahaze_now').text('6');
           jQuery('.draggable_v2').css({
             color: 'transparent',
             borderColor: 'transparent',
-            transform: 'scale(1.5)',
+            transform: 'scale(1.3)',
             background: 'transparent url(/wp-content/themes/mobile/img/2_vozduh_lev.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
@@ -5539,7 +5539,7 @@ jQuery('.status_pahaze_now').text('6');
             if (count_animation <= 17) {
               jQuery('.draggable_v1, .draggable_v5, .draggable_v-').css({
                 color: 'transparent',
-                transform: 'scale(1.5)',
+                transform: 'scale(1.3)',
                 borderColor: 'transparent',
                 background: 'transparent url(/wp-content/themes/mobile/img/4_ogon_lev.png) 0 0/100% no-repeat',
                 opacity: 0.8
@@ -5568,7 +5568,7 @@ jQuery('.status_pahaze_now').text('6');
                 if (count_animation <= 19) {
                   jQuery('.draggable_v1, .draggable_v4').css({
                     color: 'transparent',
-                    transform: 'scale(1.5)',
+                    transform: 'scale(1.3)',
                     borderColor: 'transparent',
                     background: 'transparent url(/wp-content/themes/mobile/img/3_voda_lev.png) 0 0/100% no-repeat',
                     opacity: 0.8
@@ -5660,20 +5660,21 @@ v3 = function(){
       if (count_animation <= 12){
         jQuery('.draggable_lovushka').css({
           color: 'transparent',
-          transform: 'rotate(-'+rotate_lovushka+'deg)',
+          transform: 'scale(1.3) rotate(-'+rotate_lovushka+'deg)',
           background: '#fff url(/wp-content/themes/mobile/img/lovushka.jpg) 0 0/100% no-repeat',
           opacity: 0.8
         });
         if (count_animation <= 4) {
           jQuery('.draggable_s3').css({
             color: 'transparent',
+            transform: 'scale(1.3)',
             background: '#fff url(/wp-content/themes/mobile/img/disfunction.jpg) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x').css('top', r_top);
           jQuery('.zone_l').css('top', l_top);
-          jQuery('.zone_x').css('transform', 'rotate('+rotate_one+'deg)');
-          jQuery('.zone_l').css('transform', 'rotate(-'+rotate_two+'deg)');
+          jQuery('.zone_x').css('transform', 'scale(1.3) rotate('+rotate_one+'deg)');
+          jQuery('.zone_l').css('transform', 'scale(1.3) rotate(-'+rotate_two+'deg)');
           rotate_one += 8;
           rotate_two += 4;
         } else if (count_animation <= 8) {
@@ -5682,8 +5683,8 @@ v3 = function(){
           });
           jQuery('.zone_x').css('top', r_bottom);
           jQuery('.zone_l').css('top', r_bottom);
-          jQuery('.zone_x').css('transform', 'rotate('+rotate_one+'deg)');
-          jQuery('.zone_l').css('transform', 'rotate(-'+rotate_two+'deg)');
+          jQuery('.zone_x').css('transform', 'scale(1.3) rotate('+rotate_one+'deg)');
+          jQuery('.zone_l').css('transform', 'scale(1.3) rotate(-'+rotate_two+'deg)');
           rotate_one += 6;
           rotate_two += 6;
         } else if (count_animation <= 12) {
@@ -5692,8 +5693,8 @@ v3 = function(){
           });
           jQuery('.zone_x').css('top', l_top);
           jQuery('.zone_l').css('top', r_top);
-          jQuery('.zone_x').css('transform', 'rotate('+rotate_one+'deg)');
-          jQuery('.zone_l').css('transform', 'rotate(-'+rotate_two+'deg)');
+          jQuery('.zone_x').css('transform', 'scale(1.3) rotate('+rotate_one+'deg)');
+          jQuery('.zone_l').css('transform', 'scale(1.3) rotate(-'+rotate_two+'deg)');
           rotate_one += 4;
           rotate_two += 8;
         }
@@ -5703,6 +5704,7 @@ v3 = function(){
         clearInterval(phaseOne);
         jQuery('.draggable_s3').css({
           color: '#FFF0C7',
+          transform: 'scale(1)',
           background: 'rgba(83, 35, 69, 0.4)',
           opacity: 1
         });
@@ -5713,20 +5715,21 @@ v3 = function(){
           if (count_animation <= 12){
             jQuery('.draggable_lovushka').css({
               color: 'transparent',
-              transform: 'rotate(-'+rotate_lovushka+'deg)',
+              transform: 'scale(1.3) rotate(-'+rotate_lovushka+'deg)',
               background: '#fff url(/wp-content/themes/mobile/img/lovushka.jpg) 0 0/100% no-repeat',
               opacity: 0.8
             });
             if (count_animation <= 4) {
               jQuery('.draggable_s2').css({
                 color: 'transparent',
+                transform: 'scale(1.3)',
                 background: '#fff url(/wp-content/themes/mobile/img/disfunction.jpg) 0 0/100% no-repeat',
                 opacity: 0.8
               });
               jQuery('.zone_x').css('top', r_bottom);
               jQuery('.zone_l').css('top', r_bottom);
-              jQuery('.zone_x').css('transform', 'rotate('+rotate_one+'deg)');
-              jQuery('.zone_l').css('transform', 'rotate(-'+rotate_two+'deg)');
+              jQuery('.zone_x').css('transform', 'scale(1.3) rotate('+rotate_one+'deg)');
+              jQuery('.zone_l').css('transform', 'scale(1.3) rotate(-'+rotate_two+'deg)');
               rotate_one += 6;
               rotate_two += 6;
             } else if (count_animation <= 8) {
@@ -5735,8 +5738,8 @@ v3 = function(){
               });
               jQuery('.zone_x').css('top', r_top);
               jQuery('.zone_l').css('top', l_top);
-              jQuery('.zone_x').css('transform', 'rotate('+rotate_one+'deg)');
-              jQuery('.zone_l').css('transform', 'rotate(-'+rotate_two+'deg)');
+              jQuery('.zone_x').css('transform', 'scale(1.3) rotate('+rotate_one+'deg)');
+              jQuery('.zone_l').css('transform', 'scale(1.3) rotate(-'+rotate_two+'deg)');
               rotate_one += 8;
               rotate_two += 4;
             } else if (count_animation <= 12) {
@@ -5745,8 +5748,8 @@ v3 = function(){
               });
               jQuery('.zone_x').css('top', r_bottom);
               jQuery('.zone_l').css('top', r_bottom);
-              jQuery('.zone_x').css('transform', 'rotate('+rotate_one+'deg)');
-              jQuery('.zone_l').css('transform', 'rotate(-'+rotate_two+'deg)');
+              jQuery('.zone_x').css('transform', 'scale(1.3) rotate('+rotate_one+'deg)');
+              jQuery('.zone_l').css('transform', 'scale(1.3) rotate(-'+rotate_two+'deg)');
               rotate_one += 6;
               rotate_two += 6;
             }
@@ -5756,6 +5759,7 @@ v3 = function(){
             clearInterval(phaseOne);
             jQuery('.draggable_s2').css({
               color: '#FFF0C7',
+              transform: 'scale(1)',
               background: 'rgba(83, 35, 69, 0.4)',
               opacity: 1
             });
@@ -5766,20 +5770,21 @@ v3 = function(){
               if (count_animation <= 12){
                 jQuery('.draggable_lovushka').css({
                   color: 'transparent',
-                  transform: 'rotate(-'+rotate_lovushka+'deg)',
+                  transform: 'scale(1.3) rotate(-'+rotate_lovushka+'deg)',
                   background: '#fff url(/wp-content/themes/mobile/img/lovushka.jpg) 0 0/100% no-repeat',
                   opacity: 0.8
                 });
                 if (count_animation <= 4) {
                   jQuery('.draggable_s4').css({
                     color: 'transparent',
+                    transform: 'scale(1.3)',
                     background: '#fff url(/wp-content/themes/mobile/img/disfunction.jpg) 0 0/100% no-repeat',
                     opacity: 0.8
                   });
                   jQuery('.zone_x').css('top', l_top);
                   jQuery('.zone_l').css('top', r_top);
-                  jQuery('.zone_x').css('transform', 'rotate('+rotate_one+'deg)');
-                  jQuery('.zone_l').css('transform', 'rotate(-'+rotate_two+'deg)');
+                  jQuery('.zone_x').css('transform', 'scale(1.3) rotate('+rotate_one+'deg)');
+                  jQuery('.zone_l').css('transform', 'scale(1.3) rotate(-'+rotate_two+'deg)');
                   rotate_one += 4;
                   rotate_two += 8;
                 } else if (count_animation <= 8) {
@@ -5788,8 +5793,8 @@ v3 = function(){
                   });
                   jQuery('.zone_x').css('top', r_bottom);
                   jQuery('.zone_l').css('top', r_bottom);
-                  jQuery('.zone_x').css('transform', 'rotate('+rotate_one+'deg)');
-                  jQuery('.zone_l').css('transform', 'rotate(-'+rotate_two+'deg)');
+                  jQuery('.zone_x').css('transform', 'scale(1.3) rotate('+rotate_one+'deg)');
+                  jQuery('.zone_l').css('transform', 'scale(1.3) rotate(-'+rotate_two+'deg)');
                   rotate_one += 6;
                   rotate_two += 6;
                 } else if (count_animation <= 12) {
@@ -5798,8 +5803,8 @@ v3 = function(){
                   });
                   jQuery('.zone_x').css('top', r_top);
                   jQuery('.zone_l').css('top', l_top);
-                  jQuery('.zone_x').css('transform', 'rotate('+rotate_one+'deg)');
-                  jQuery('.zone_l').css('transform', 'rotate(-'+rotate_two+'deg)');
+                  jQuery('.zone_x').css('transform', 'scale(1.3) rotate('+rotate_one+'deg)');
+                  jQuery('.zone_l').css('transform', 'scale(1.3) rotate(-'+rotate_two+'deg)');
                   rotate_one += 8;
                   rotate_two += 4;
                 }
@@ -5809,6 +5814,7 @@ v3 = function(){
                 clearInterval(phaseOne);
                 jQuery('.draggable_s4').css({
                   color: '#FFF0C7',
+                  transform: 'scale(1)',
                   background: 'rgba(83, 35, 69, 0.4)',
                   opacity: 1
                 });
@@ -5819,20 +5825,21 @@ v3 = function(){
                   if (count_animation <= 12){
                     jQuery('.draggable_lovushka').css({
                       color: 'transparent',
-                      transform: 'rotate(-'+rotate_lovushka+'deg)',
+                      transform: 'scale(1.3) rotate(-'+rotate_lovushka+'deg)',
                       background: '#fff url(/wp-content/themes/mobile/img/lovushka.jpg) 0 0/100% no-repeat',
                       opacity: 0.8
                     });
                     if (count_animation <= 4) {
                       jQuery('.draggable_v3').css({
                         color: 'transparent',
+                        transform: 'scale(1.3)',
                         background: '#fff url(/wp-content/themes/mobile/img/disfunction.jpg) 0 0/100% no-repeat',
                         opacity: 0.8
                       });
                       jQuery('.zone_x').css('top', r_bottom);
                       jQuery('.zone_l').css('top', r_bottom);
-                      jQuery('.zone_x').css('transform', 'rotate('+rotate_one+'deg)');
-                      jQuery('.zone_l').css('transform', 'rotate(-'+rotate_two+'deg)');
+                      jQuery('.zone_x').css('transform', 'scale(1.3) rotate('+rotate_one+'deg)');
+                      jQuery('.zone_l').css('transform', 'scale(1.3) rotate(-'+rotate_two+'deg)');
                       rotate_one += 6;
                       rotate_two += 6;
                     } else if (count_animation <= 8) {
@@ -5841,8 +5848,8 @@ v3 = function(){
                       });
                       jQuery('.zone_x').css('top', l_top);
                       jQuery('.zone_l').css('top', r_top);
-                      jQuery('.zone_x').css('transform', 'rotate('+rotate_one+'deg)');
-                      jQuery('.zone_l').css('transform', 'rotate(-'+rotate_two+'deg)');
+                      jQuery('.zone_x').css('transform', 'scale(1.3) rotate('+rotate_one+'deg)');
+                      jQuery('.zone_l').css('transform', 'scale(1.3) rotate(-'+rotate_two+'deg)');
                       rotate_one += 4;
                       rotate_two += 8;
                     } else if (count_animation <= 12) {
@@ -5851,8 +5858,8 @@ v3 = function(){
                       });
                       jQuery('.zone_x').css('top', r_bottom);
                       jQuery('.zone_l').css('top', r_bottom);
-                      jQuery('.zone_x').css('transform', 'rotate('+rotate_one+'deg)');
-                      jQuery('.zone_l').css('transform', 'rotate(-'+rotate_two+'deg)');
+                      jQuery('.zone_x').css('transform', 'scale(1.3) rotate('+rotate_one+'deg)');
+                      jQuery('.zone_l').css('transform', 'scale(1.3) rotate(-'+rotate_two+'deg)');
                       rotate_one += 6;
                       rotate_two += 6;
                     }
@@ -5862,6 +5869,7 @@ v3 = function(){
                     clearInterval(phaseOne);
                     jQuery('.draggable_v3').css({
                       color: '#FFF0C7',
+                      transform: 'scale(1)',
                       background: 'rgba(83, 35, 69, 0.4)',
                       opacity: 1
                     });
@@ -5872,7 +5880,7 @@ v3 = function(){
                       if (count_animation <= 12){
                         jQuery('.draggable_lovushka').css({
                           color: 'transparent',
-                          transform: 'rotate(-'+rotate_lovushka+'deg)',
+                          transform: 'scale(1.3) rotate(-'+rotate_lovushka+'deg)',
                           background: '#fff url(/wp-content/themes/mobile/img/lovushka.jpg) 0 0/100% no-repeat',
                           opacity: 0.8
                         });
@@ -5884,8 +5892,8 @@ v3 = function(){
                           });
                           jQuery('.zone_x').css('top', r_top);
                           jQuery('.zone_l').css('top', l_top);
-                          jQuery('.zone_x').css('transform', 'rotate('+rotate_one+'deg)');
-                          jQuery('.zone_l').css('transform', 'rotate(-'+rotate_two+'deg)');
+                          jQuery('.zone_x').css('transform', 'scale(1.3) rotate('+rotate_one+'deg)');
+                          jQuery('.zone_l').css('transform', 'scale(1.3) rotate(-'+rotate_two+'deg)');
                           rotate_one += 8;
                           rotate_two += 4;
                         } else if (count_animation <= 8) {
@@ -5894,8 +5902,8 @@ v3 = function(){
                           });
                           jQuery('.zone_x').css('top', r_bottom);
                           jQuery('.zone_l').css('top', r_bottom);
-                          jQuery('.zone_x').css('transform', 'rotate('+rotate_one+'deg)');
-                          jQuery('.zone_l').css('transform', 'rotate(-'+rotate_two+'deg)');
+                          jQuery('.zone_x').css('transform', 'scale(1.3) rotate('+rotate_one+'deg)');
+                          jQuery('.zone_l').css('transform', 'scale(1.3) rotate(-'+rotate_two+'deg)');
                           rotate_one += 6;
                           rotate_two += 6;
                         } else if (count_animation <= 12) {
@@ -5904,8 +5912,8 @@ v3 = function(){
                           });
                           jQuery('.zone_x').css('top', l_top);
                           jQuery('.zone_l').css('top', r_top);
-                          jQuery('.zone_x').css('transform', 'rotate('+rotate_one+'deg)');
-                          jQuery('.zone_l').css('transform', 'rotate(-'+rotate_two+'deg)');
+                          jQuery('.zone_x').css('transform', 'scale(1.3) rotate('+rotate_one+'deg)');
+                          jQuery('.zone_l').css('transform', 'scale(1.3) rotate(-'+rotate_two+'deg)');
                           rotate_one += 4;
                           rotate_two += 8;
                         }
@@ -5915,6 +5923,7 @@ v3 = function(){
                         clearInterval(phaseOne);
                         jQuery('.draggable_s3').css({
                           color: '#FFF0C7',
+                          transform: 'scale(1)',
                           background: 'rgba(83, 35, 69, 0.4)',
                           opacity: 1
                         });
@@ -5925,20 +5934,21 @@ v3 = function(){
                           if (count_animation <= 12){
                             jQuery('.draggable_lovushka').css({
                               color: 'transparent',
-                              transform: 'rotate(-'+rotate_lovushka+'deg)',
+                              transform: 'scale(1.3) rotate(-'+rotate_lovushka+'deg)',
                               background: '#fff url(/wp-content/themes/mobile/img/lovushka.jpg) 0 0/100% no-repeat',
                               opacity: 0.8
                             });
                             if (count_animation <= 4) {
                               jQuery('.draggable_s2').css({
                                 color: 'transparent',
+                                transform: 'scale(1.3)',
                                 background: '#fff url(/wp-content/themes/mobile/img/disfunction.jpg) 0 0/100% no-repeat',
                                 opacity: 0.8
                               });
                               jQuery('.zone_x').css('top', r_bottom);
                               jQuery('.zone_l').css('top', r_bottom);
-                              jQuery('.zone_x').css('transform', 'rotate('+rotate_one+'deg)');
-                              jQuery('.zone_l').css('transform', 'rotate(-'+rotate_two+'deg)');
+                              jQuery('.zone_x').css('transform', 'scale(1.3) rotate('+rotate_one+'deg)');
+                              jQuery('.zone_l').css('transform', 'scale(1.3) rotate(-'+rotate_two+'deg)');
                               rotate_one += 6;
                               rotate_two += 6;
                             } else if (count_animation <= 8) {
@@ -5947,8 +5957,8 @@ v3 = function(){
                               });
                               jQuery('.zone_x').css('top', r_top);
                               jQuery('.zone_l').css('top', l_top);
-                              jQuery('.zone_x').css('transform', 'rotate('+rotate_one+'deg)');
-                              jQuery('.zone_l').css('transform', 'rotate(-'+rotate_two+'deg)');
+                              jQuery('.zone_x').css('transform', 'scale(1.3) rotate('+rotate_one+'deg)');
+                              jQuery('.zone_l').css('transform', 'scale(1.3) rotate(-'+rotate_two+'deg)');
                               rotate_one += 8;
                               rotate_two += 4;
                             } else if (count_animation <= 12) {
@@ -5957,8 +5967,8 @@ v3 = function(){
                               });
                               jQuery('.zone_x').css('top', r_bottom);
                               jQuery('.zone_l').css('top', r_bottom);
-                              jQuery('.zone_x').css('transform', 'rotate('+rotate_one+'deg)');
-                              jQuery('.zone_l').css('transform', 'rotate(-'+rotate_two+'deg)');
+                              jQuery('.zone_x').css('transform', 'scale(1.3) rotate('+rotate_one+'deg)');
+                              jQuery('.zone_l').css('transform', 'scale(1.3) rotate(-'+rotate_two+'deg)');
                               rotate_one += 6;
                               rotate_two += 6;
                             }
@@ -5968,6 +5978,7 @@ v3 = function(){
                             clearInterval(phaseOne);
                             jQuery('.draggable_s2').css({
                               color: '#FFF0C7',
+                              transform: 'scale(1)',
                               background: 'rgba(83, 35, 69, 0.4)',
                               opacity: 1
                             });
@@ -5978,20 +5989,21 @@ v3 = function(){
                               if (count_animation <= 12){
                                 jQuery('.draggable_lovushka').css({
                                   color: 'transparent',
-                                  transform: 'rotate(-'+rotate_lovushka+'deg)',
+                                  transform: 'scale(1.3) rotate(-'+rotate_lovushka+'deg)',
                                   background: '#fff url(/wp-content/themes/mobile/img/lovushka.jpg) 0 0/100% no-repeat',
                                   opacity: 0.8
                                 });
                                 if (count_animation <= 4) {
                                   jQuery('.draggable_s4').css({
                                     color: 'transparent',
+                                    transform: 'scale(1.3)',
                                     background: '#fff url(/wp-content/themes/mobile/img/disfunction.jpg) 0 0/100% no-repeat',
                                     opacity: 0.8
                                   });
                                   jQuery('.zone_x').css('top', l_top);
                                   jQuery('.zone_l').css('top', r_top);
-                                  jQuery('.zone_x').css('transform', 'rotate('+rotate_one+'deg)');
-                                  jQuery('.zone_l').css('transform', 'rotate(-'+rotate_two+'deg)');
+                                  jQuery('.zone_x').css('transform', 'scale(1.3) rotate('+rotate_one+'deg)');
+                                  jQuery('.zone_l').css('transform', 'scale(1.3) rotate(-'+rotate_two+'deg)');
                                   rotate_one += 4;
                                   rotate_two += 8;
                                 } else if (count_animation <= 8) {
@@ -6000,8 +6012,8 @@ v3 = function(){
                                   });
                                   jQuery('.zone_x').css('top', r_bottom);
                                   jQuery('.zone_l').css('top', r_bottom);
-                                  jQuery('.zone_x').css('transform', 'rotate('+rotate_one+'deg)');
-                                  jQuery('.zone_l').css('transform', 'rotate(-'+rotate_two+'deg)');
+                                  jQuery('.zone_x').css('transform', 'scale(1.3) rotate('+rotate_one+'deg)');
+                                  jQuery('.zone_l').css('transform', 'scale(1.3) rotate(-'+rotate_two+'deg)');
                                   rotate_one += 6;
                                   rotate_two += 6;
                                 } else if (count_animation <= 12) {
@@ -6010,8 +6022,8 @@ v3 = function(){
                                   });
                                   jQuery('.zone_x').css('top', r_top);
                                   jQuery('.zone_l').css('top', l_top);
-                                  jQuery('.zone_x').css('transform', 'rotate('+rotate_one+'deg)');
-                                  jQuery('.zone_l').css('transform', 'rotate(-'+rotate_two+'deg)');
+                                  jQuery('.zone_x').css('transform', 'scale(1.3) rotate('+rotate_one+'deg)');
+                                  jQuery('.zone_l').css('transform', 'scale(1.3) rotate(-'+rotate_two+'deg)');
                                   rotate_one += 8;
                                   rotate_two += 4;
                                 }
@@ -6021,6 +6033,7 @@ v3 = function(){
                                 clearInterval(phaseOne);
                                 jQuery('.draggable_s4').css({
                                   color: '#FFF0C7',
+                                  transform: 'scale(1)',
                                   background: 'rgba(83, 35, 69, 0.4)',
                                   opacity: 1
                                 });
@@ -6031,20 +6044,21 @@ v3 = function(){
                                   if (count_animation <= 12){
                                     jQuery('.draggable_lovushka').css({
                                       color: 'transparent',
-                                      transform: 'rotate(-'+rotate_lovushka+'deg)',
+                                      transform: 'scale(1.3) rotate(-'+rotate_lovushka+'deg)',
                                       background: '#fff url(/wp-content/themes/mobile/img/lovushka.jpg) 0 0/100% no-repeat',
                                       opacity: 0.8
                                     });
                                     if (count_animation <= 4) {
                                       jQuery('.draggable_v3').css({
                                         color: 'transparent',
+                                        transform: 'scale(1.3)',
                                         background: '#fff url(/wp-content/themes/mobile/img/disfunction.jpg) 0 0/100% no-repeat',
                                         opacity: 0.8
                                       });
                                       jQuery('.zone_x').css('top', r_bottom);
                                       jQuery('.zone_l').css('top', r_bottom);
-                                      jQuery('.zone_x').css('transform', 'rotate('+rotate_one+'deg)');
-                                      jQuery('.zone_l').css('transform', 'rotate(-'+rotate_two+'deg)');
+                                      jQuery('.zone_x').css('transform', 'scale(1.3) rotate('+rotate_one+'deg)');
+                                      jQuery('.zone_l').css('transform', 'scale(1.3) rotate(-'+rotate_two+'deg)');
                                       rotate_one += 6;
                                       rotate_two += 6;
                                     } else if (count_animation <= 8) {
@@ -6053,8 +6067,8 @@ v3 = function(){
                                       });
                                       jQuery('.zone_x').css('top', l_top);
                                       jQuery('.zone_l').css('top', r_top);
-                                      jQuery('.zone_x').css('transform', 'rotate('+rotate_one+'deg)');
-                                      jQuery('.zone_l').css('transform', 'rotate(-'+rotate_two+'deg)');
+                                      jQuery('.zone_x').css('transform', 'scale(1.3) rotate('+rotate_one+'deg)');
+                                      jQuery('.zone_l').css('transform', 'scale(1.3) rotate(-'+rotate_two+'deg)');
                                       rotate_one += 4;
                                       rotate_two += 8;
                                     } else if (count_animation <= 12) {
@@ -6063,8 +6077,8 @@ v3 = function(){
                                       });
                                       jQuery('.zone_x').css('top', r_bottom);
                                       jQuery('.zone_l').css('top', r_bottom);
-                                      jQuery('.zone_x').css('transform', 'rotate('+rotate_one+'deg)');
-                                      jQuery('.zone_l').css('transform', 'rotate(-'+rotate_two+'deg)');
+                                      jQuery('.zone_x').css('transform', 'scale(1.3) rotate('+rotate_one+'deg)');
+                                      jQuery('.zone_l').css('transform', 'scale(1.3) rotate(-'+rotate_two+'deg)');
                                       rotate_one += 6;
                                       rotate_two += 6;
                                     }
@@ -6074,6 +6088,7 @@ v3 = function(){
                                     clearInterval(phaseOne);
                                     jQuery('.draggable_v3').css({
                                       color: '#FFF0C7',
+                                      transform: 'scale(1)',
                                       background: 'rgba(83, 35, 69, 0.4)',
                                       opacity: 1
                                     });
@@ -6085,20 +6100,21 @@ v3 = function(){
                                       if (count_animation <= 12){
                                         jQuery('.draggable_lovushka').css({
                                           color: 'transparent',
-                                          transform: 'rotate(-'+rotate_lovushka+'deg)',
+                                          transform: 'scale(1.3) rotate(-'+rotate_lovushka+'deg)',
                                           background: '#fff url(/wp-content/themes/mobile/img/lovushka.jpg) 0 0/100% no-repeat',
                                           opacity: 0.8
                                         });
                                         if (count_animation <= 4) {
                                           jQuery('.draggable_s3').css({
                                             color: 'transparent',
+                                            transform: 'scale(1.3)',
                                             background: '#fff url(/wp-content/themes/mobile/img/disfunction.jpg) 0 0/100% no-repeat',
                                             opacity: 0.8
                                           });
                                           jQuery('.zone_x').css('top', r_top);
                                           jQuery('.zone_l').css('top', l_top);
-                                          jQuery('.zone_x').css('transform', 'rotate('+rotate_one+'deg)');
-                                          jQuery('.zone_l').css('transform', 'rotate(-'+rotate_two+'deg)');
+                                          jQuery('.zone_x').css('transform', 'scale(1.3) rotate('+rotate_one+'deg)');
+                                          jQuery('.zone_l').css('transform', 'scale(1.3) rotate(-'+rotate_two+'deg)');
                                           rotate_one += 8;
                                           rotate_two += 4;
                                         } else if (count_animation <= 8) {
@@ -6107,8 +6123,8 @@ v3 = function(){
                                           });
                                           jQuery('.zone_x').css('top', r_bottom);
                                           jQuery('.zone_l').css('top', r_bottom);
-                                          jQuery('.zone_x').css('transform', 'rotate('+rotate_one+'deg)');
-                                          jQuery('.zone_l').css('transform', 'rotate(-'+rotate_two+'deg)');
+                                          jQuery('.zone_x').css('transform', 'scale(1.3) rotate('+rotate_one+'deg)');
+                                          jQuery('.zone_l').css('transform', 'scale(1.3) rotate(-'+rotate_two+'deg)');
                                           rotate_one += 6;
                                           rotate_two += 6;
                                         } else if (count_animation <= 12) {
@@ -6117,8 +6133,8 @@ v3 = function(){
                                           });
                                           jQuery('.zone_x').css('top', l_top);
                                           jQuery('.zone_l').css('top', r_top);
-                                          jQuery('.zone_x').css('transform', 'rotate('+rotate_one+'deg)');
-                                          jQuery('.zone_l').css('transform', 'rotate(-'+rotate_two+'deg)');
+                                          jQuery('.zone_x').css('transform', 'scale(1.3) rotate('+rotate_one+'deg)');
+                                          jQuery('.zone_l').css('transform', 'scale(1.3) rotate(-'+rotate_two+'deg)');
                                           rotate_one += 4;
                                           rotate_two += 8;
                                         }
@@ -6128,6 +6144,7 @@ v3 = function(){
                                         clearInterval(phaseOne);
                                         jQuery('.draggable_s3').css({
                                           color: '#FFF0C7',
+                                          transform: 'scale(1)',
                                           background: 'rgba(83, 35, 69, 0.4)',
                                           opacity: 1
                                         });
@@ -6138,20 +6155,21 @@ v3 = function(){
                                           if (count_animation <= 12){
                                             jQuery('.draggable_lovushka').css({
                                               color: 'transparent',
-                                              transform: 'rotate(-'+rotate_lovushka+'deg)',
+                                              transform: 'scale(1.3) rotate(-'+rotate_lovushka+'deg)',
                                               background: '#fff url(/wp-content/themes/mobile/img/lovushka.jpg) 0 0/100% no-repeat',
                                               opacity: 0.8
                                             });
                                             if (count_animation <= 4) {
                                               jQuery('.draggable_s2').css({
                                                 color: 'transparent',
+                                                transform: 'scale(1.3)',
                                                 background: '#fff url(/wp-content/themes/mobile/img/disfunction.jpg) 0 0/100% no-repeat',
                                                 opacity: 0.8
                                               });
                                               jQuery('.zone_x').css('top', r_bottom);
                                               jQuery('.zone_l').css('top', r_bottom);
-                                              jQuery('.zone_x').css('transform', 'rotate('+rotate_one+'deg)');
-                                              jQuery('.zone_l').css('transform', 'rotate(-'+rotate_two+'deg)');
+                                              jQuery('.zone_x').css('transform', 'scale(1.3) rotate('+rotate_one+'deg)');
+                                              jQuery('.zone_l').css('transform', 'scale(1.3) rotate(-'+rotate_two+'deg)');
                                               rotate_one += 6;
                                               rotate_two += 6;
                                             } else if (count_animation <= 8) {
@@ -6160,8 +6178,8 @@ v3 = function(){
                                               });
                                               jQuery('.zone_x').css('top', r_top);
                                               jQuery('.zone_l').css('top', l_top);
-                                              jQuery('.zone_x').css('transform', 'rotate('+rotate_one+'deg)');
-                                              jQuery('.zone_l').css('transform', 'rotate(-'+rotate_two+'deg)');
+                                              jQuery('.zone_x').css('transform', 'scale(1.3) rotate('+rotate_one+'deg)');
+                                              jQuery('.zone_l').css('transform', 'scale(1.3) rotate(-'+rotate_two+'deg)');
                                               rotate_one += 8;
                                               rotate_two += 4;
                                             } else if (count_animation <= 12) {
@@ -6170,8 +6188,8 @@ v3 = function(){
                                               });
                                               jQuery('.zone_x').css('top', r_bottom);
                                               jQuery('.zone_l').css('top', r_bottom);
-                                              jQuery('.zone_x').css('transform', 'rotate('+rotate_one+'deg)');
-                                              jQuery('.zone_l').css('transform', 'rotate(-'+rotate_two+'deg)');
+                                              jQuery('.zone_x').css('transform', 'scale(1.3) rotate('+rotate_one+'deg)');
+                                              jQuery('.zone_l').css('transform', 'scale(1.3) rotate(-'+rotate_two+'deg)');
                                               rotate_one += 6;
                                               rotate_two += 6;
                                             }
@@ -6181,6 +6199,7 @@ v3 = function(){
                                             clearInterval(phaseOne);
                                             jQuery('.draggable_s2').css({
                                               color: '#FFF0C7',
+                                              transform: 'scale(1)',
                                               background: 'rgba(83, 35, 69, 0.4)',
                                               opacity: 1
                                             });
@@ -6191,20 +6210,21 @@ v3 = function(){
                                               if (count_animation <= 12){
                                                 jQuery('.draggable_lovushka').css({
                                                   color: 'transparent',
-                                                  transform: 'rotate(-'+rotate_lovushka+'deg)',
+                                                  transform: 'scale(1.3) rotate(-'+rotate_lovushka+'deg)',
                                                   background: '#fff url(/wp-content/themes/mobile/img/lovushka.jpg) 0 0/100% no-repeat',
                                                   opacity: 0.8
                                                 });
                                                 if (count_animation <= 4) {
                                                   jQuery('.draggable_s4').css({
                                                     color: 'transparent',
+                                                    transform: 'scale(1.3)',
                                                     background: '#fff url(/wp-content/themes/mobile/img/disfunction.jpg) 0 0/100% no-repeat',
                                                     opacity: 0.8
                                                   });
                                                   jQuery('.zone_x').css('top', l_top);
                                                   jQuery('.zone_l').css('top', r_top);
-                                                  jQuery('.zone_x').css('transform', 'rotate('+rotate_one+'deg)');
-                                                  jQuery('.zone_l').css('transform', 'rotate(-'+rotate_two+'deg)');
+                                                  jQuery('.zone_x').css('transform', 'scale(1.3) rotate('+rotate_one+'deg)');
+                                                  jQuery('.zone_l').css('transform', 'scale(1.3) rotate(-'+rotate_two+'deg)');
                                                   rotate_one += 4;
                                                   rotate_two += 8;
                                                 } else if (count_animation <= 8) {
@@ -6213,8 +6233,8 @@ v3 = function(){
                                                   });
                                                   jQuery('.zone_x').css('top', r_bottom);
                                                   jQuery('.zone_l').css('top', r_bottom);
-                                                  jQuery('.zone_x').css('transform', 'rotate('+rotate_one+'deg)');
-                                                  jQuery('.zone_l').css('transform', 'rotate(-'+rotate_two+'deg)');
+                                                  jQuery('.zone_x').css('transform', 'scale(1.3) rotate('+rotate_one+'deg)');
+                                                  jQuery('.zone_l').css('transform', 'scale(1.3) rotate(-'+rotate_two+'deg)');
                                                   rotate_one += 6;
                                                   rotate_two += 6;
                                                 } else if (count_animation <= 12) {
@@ -6223,8 +6243,8 @@ v3 = function(){
                                                   });
                                                   jQuery('.zone_x').css('top', r_top);
                                                   jQuery('.zone_l').css('top', l_top);
-                                                  jQuery('.zone_x').css('transform', 'rotate('+rotate_one+'deg)');
-                                                  jQuery('.zone_l').css('transform', 'rotate(-'+rotate_two+'deg)');
+                                                  jQuery('.zone_x').css('transform', 'scale(1.3) rotate('+rotate_one+'deg)');
+                                                  jQuery('.zone_l').css('transform', 'scale(1.3) rotate(-'+rotate_two+'deg)');
                                                   rotate_one += 8;
                                                   rotate_two += 4;
                                                 }
@@ -6234,6 +6254,7 @@ v3 = function(){
                                                 clearInterval(phaseOne);
                                                 jQuery('.draggable_s4').css({
                                                   color: '#FFF0C7',
+                                                  transform: 'scale(1)',
                                                   background: 'rgba(83, 35, 69, 0.4)',
                                                   opacity: 1
                                                 });
@@ -6244,20 +6265,21 @@ v3 = function(){
                                                   if (count_animation <= 12){
                                                     jQuery('.draggable_lovushka').css({
                                                       color: 'transparent',
-                                                      transform: 'rotate(-'+rotate_lovushka+'deg)',
+                                                      transform: 'scale(1.3) rotate(-'+rotate_lovushka+'deg)',
                                                       background: '#fff url(/wp-content/themes/mobile/img/lovushka.jpg) 0 0/100% no-repeat',
                                                       opacity: 0.8
                                                     });
                                                     if (count_animation <= 4) {
                                                       jQuery('.draggable_v3').css({
                                                         color: 'transparent',
+                                                        transform: 'scale(1.3)',
                                                         background: '#fff url(/wp-content/themes/mobile/img/disfunction.jpg) 0 0/100% no-repeat',
                                                         opacity: 0.8
                                                       });
                                                       jQuery('.zone_x').css('top', r_bottom);
                                                       jQuery('.zone_l').css('top', r_bottom);
-                                                      jQuery('.zone_x').css('transform', 'rotate('+rotate_one+'deg)');
-                                                      jQuery('.zone_l').css('transform', 'rotate(-'+rotate_two+'deg)');
+                                                      jQuery('.zone_x').css('transform', 'scale(1.3) rotate('+rotate_one+'deg)');
+                                                      jQuery('.zone_l').css('transform', 'scale(1.3) rotate(-'+rotate_two+'deg)');
                                                       rotate_one += 6;
                                                       rotate_two += 6;
                                                     } else if (count_animation <= 8) {
@@ -6266,8 +6288,8 @@ v3 = function(){
                                                       });
                                                       jQuery('.zone_x').css('top', l_top);
                                                       jQuery('.zone_l').css('top', r_top);
-                                                      jQuery('.zone_x').css('transform', 'rotate('+rotate_one+'deg)');
-                                                      jQuery('.zone_l').css('transform', 'rotate(-'+rotate_two+'deg)');
+                                                      jQuery('.zone_x').css('transform', 'scale(1.3) rotate('+rotate_one+'deg)');
+                                                      jQuery('.zone_l').css('transform', 'scale(1.3) rotate(-'+rotate_two+'deg)');
                                                       rotate_one += 4;
                                                       rotate_two += 8;
                                                     } else if (count_animation <= 12) {
@@ -6276,8 +6298,8 @@ v3 = function(){
                                                       });
                                                       jQuery('.zone_x').css('top', r_bottom);
                                                       jQuery('.zone_l').css('top', r_bottom);
-                                                      jQuery('.zone_x').css('transform', 'rotate('+rotate_one+'deg)');
-                                                      jQuery('.zone_l').css('transform', 'rotate(-'+rotate_two+'deg)');
+                                                      jQuery('.zone_x').css('transform', 'scale(1.3) rotate('+rotate_one+'deg)');
+                                                      jQuery('.zone_l').css('transform', 'scale(1.3) rotate(-'+rotate_two+'deg)');
                                                       rotate_one += 6;
                                                       rotate_two += 6;
                                                     }
@@ -6287,6 +6309,7 @@ v3 = function(){
                                                     clearInterval(phaseOne);
                                                     jQuery('.draggable_v3').css({
                                                       color: '#FFF0C7',
+                                                      transform: 'scale(1)',
                                                       background: 'rgba(83, 35, 69, 0.4)',
                                                       opacity: 1
                                                     });
@@ -6297,20 +6320,21 @@ v3 = function(){
                                                       if (count_animation <= 12){
                                                         jQuery('.draggable_lovushka').css({
                                                           color: 'transparent',
-                                                          transform: 'rotate(-'+rotate_lovushka+'deg)',
+                                                          transform: 'scale(1.3) rotate(-'+rotate_lovushka+'deg)',
                                                           background: '#fff url(/wp-content/themes/mobile/img/lovushka.jpg) 0 0/100% no-repeat',
                                                           opacity: 0.8
                                                         });
                                                         if (count_animation <= 4) {
                                                           jQuery('.draggable_s3').css({
                                                             color: 'transparent',
+                                                            transform: 'scale(1.3)',
                                                             background: '#fff url(/wp-content/themes/mobile/img/disfunction.jpg) 0 0/100% no-repeat',
                                                             opacity: 0.8
                                                           });
                                                           jQuery('.zone_x').css('top', r_top);
                                                           jQuery('.zone_l').css('top', l_top);
-                                                          jQuery('.zone_x').css('transform', 'rotate('+rotate_one+'deg)');
-                                                          jQuery('.zone_l').css('transform', 'rotate(-'+rotate_two+'deg)');
+                                                          jQuery('.zone_x').css('transform', 'scale(1.3) rotate('+rotate_one+'deg)');
+                                                          jQuery('.zone_l').css('transform', 'scale(1.3) rotate(-'+rotate_two+'deg)');
                                                           rotate_one += 8;
                                                           rotate_two += 4;
                                                         } else if (count_animation <= 8) {
@@ -6319,8 +6343,8 @@ v3 = function(){
                                                           });
                                                           jQuery('.zone_x').css('top', r_bottom);
                                                           jQuery('.zone_l').css('top', r_bottom);
-                                                          jQuery('.zone_x').css('transform', 'rotate('+rotate_one+'deg)');
-                                                          jQuery('.zone_l').css('transform', 'rotate(-'+rotate_two+'deg)');
+                                                          jQuery('.zone_x').css('transform', 'scale(1.3) rotate('+rotate_one+'deg)');
+                                                          jQuery('.zone_l').css('transform', 'scale(1.3) rotate(-'+rotate_two+'deg)');
                                                           rotate_one += 6;
                                                           rotate_two += 6;
                                                         } else if (count_animation <= 12) {
@@ -6329,8 +6353,8 @@ v3 = function(){
                                                           });
                                                           jQuery('.zone_x').css('top', l_top);
                                                           jQuery('.zone_l').css('top', r_top);
-                                                          jQuery('.zone_x').css('transform', 'rotate('+rotate_one+'deg)');
-                                                          jQuery('.zone_l').css('transform', 'rotate(-'+rotate_two+'deg)');
+                                                          jQuery('.zone_x').css('transform', 'scale(1.3) rotate('+rotate_one+'deg)');
+                                                          jQuery('.zone_l').css('transform', 'scale(1.3) rotate(-'+rotate_two+'deg)');
                                                           rotate_one += 4;
                                                           rotate_two += 8;
                                                         }
@@ -6340,6 +6364,7 @@ v3 = function(){
                                                         clearInterval(phaseOne);
                                                         jQuery('.draggable_s3').css({
                                                           color: '#FFF0C7',
+                                                          transform: 'scale(1)',
                                                           background: 'rgba(83, 35, 69, 0.4)',
                                                           opacity: 1
                                                         });
@@ -6350,20 +6375,21 @@ v3 = function(){
                                                           if (count_animation <= 12){
                                                             jQuery('.draggable_lovushka').css({
                                                               color: 'transparent',
-                                                              transform: 'rotate(-'+rotate_lovushka+'deg)',
+                                                              transform: 'scale(1.3) rotate(-'+rotate_lovushka+'deg)',
                                                               background: '#fff url(/wp-content/themes/mobile/img/lovushka.jpg) 0 0/100% no-repeat',
                                                               opacity: 0.8
                                                             });
                                                             if (count_animation <= 4) {
                                                               jQuery('.draggable_s2').css({
                                                                 color: 'transparent',
+                                                                transform: 'scale(1.3)',
                                                                 background: '#fff url(/wp-content/themes/mobile/img/disfunction.jpg) 0 0/100% no-repeat',
                                                                 opacity: 0.8
                                                               });
                                                               jQuery('.zone_x').css('top', r_bottom);
                                                               jQuery('.zone_l').css('top', r_bottom);
-                                                              jQuery('.zone_x').css('transform', 'rotate('+rotate_one+'deg)');
-                                                              jQuery('.zone_l').css('transform', 'rotate(-'+rotate_two+'deg)');
+                                                              jQuery('.zone_x').css('transform', 'scale(1.3) rotate('+rotate_one+'deg)');
+                                                              jQuery('.zone_l').css('transform', 'scale(1.3) rotate(-'+rotate_two+'deg)');
                                                               rotate_one += 6;
                                                               rotate_two += 6;
                                                             } else if (count_animation <= 8) {
@@ -6372,8 +6398,8 @@ v3 = function(){
                                                               });
                                                               jQuery('.zone_x').css('top', r_top);
                                                               jQuery('.zone_l').css('top', l_top);
-                                                              jQuery('.zone_x').css('transform', 'rotate('+rotate_one+'deg)');
-                                                              jQuery('.zone_l').css('transform', 'rotate(-'+rotate_two+'deg)');
+                                                              jQuery('.zone_x').css('transform', 'scale(1.3) rotate('+rotate_one+'deg)');
+                                                              jQuery('.zone_l').css('transform', 'scale(1.3) rotate(-'+rotate_two+'deg)');
                                                               rotate_one += 8;
                                                               rotate_two += 4;
                                                             } else if (count_animation <= 12) {
@@ -6382,8 +6408,8 @@ v3 = function(){
                                                               });
                                                               jQuery('.zone_x').css('top', r_bottom);
                                                               jQuery('.zone_l').css('top', r_bottom);
-                                                              jQuery('.zone_x').css('transform', 'rotate('+rotate_one+'deg)');
-                                                              jQuery('.zone_l').css('transform', 'rotate(-'+rotate_two+'deg)');
+                                                              jQuery('.zone_x').css('transform', 'scale(1.3) rotate('+rotate_one+'deg)');
+                                                              jQuery('.zone_l').css('transform', 'scale(1.3) rotate(-'+rotate_two+'deg)');
                                                               rotate_one += 6;
                                                               rotate_two += 6;
                                                             }
@@ -6393,6 +6419,7 @@ v3 = function(){
                                                             clearInterval(phaseOne);
                                                             jQuery('.draggable_s2').css({
                                                               color: '#FFF0C7',
+                                                              transform: 'scale(1)',
                                                               background: 'rgba(83, 35, 69, 0.4)',
                                                               opacity: 1
                                                             });
@@ -6403,20 +6430,21 @@ v3 = function(){
                                                               if (count_animation <= 12){
                                                                 jQuery('.draggable_lovushka').css({
                                                                   color: 'transparent',
-                                                                  transform: 'rotate(-'+rotate_lovushka+'deg)',
+                                                                  transform: 'scale(1.3) rotate(-'+rotate_lovushka+'deg)',
                                                                   background: '#fff url(/wp-content/themes/mobile/img/lovushka.jpg) 0 0/100% no-repeat',
                                                                   opacity: 0.8
                                                                 });
                                                                 if (count_animation <= 4) {
                                                                   jQuery('.draggable_s4').css({
                                                                     color: 'transparent',
+                                                                    transform: 'scale(1.3)',
                                                                     background: '#fff url(/wp-content/themes/mobile/img/disfunction.jpg) 0 0/100% no-repeat',
                                                                     opacity: 0.8
                                                                   });
                                                                   jQuery('.zone_x').css('top', l_top);
                                                                   jQuery('.zone_l').css('top', r_top);
-                                                                  jQuery('.zone_x').css('transform', 'rotate('+rotate_one+'deg)');
-                                                                  jQuery('.zone_l').css('transform', 'rotate(-'+rotate_two+'deg)');
+                                                                  jQuery('.zone_x').css('transform', 'scale(1.3) rotate('+rotate_one+'deg)');
+                                                                  jQuery('.zone_l').css('transform', 'scale(1.3) rotate(-'+rotate_two+'deg)');
                                                                   rotate_one += 4;
                                                                   rotate_two += 8;
                                                                 } else if (count_animation <= 8) {
@@ -6425,8 +6453,8 @@ v3 = function(){
                                                                   });
                                                                   jQuery('.zone_x').css('top', r_bottom);
                                                                   jQuery('.zone_l').css('top', r_bottom);
-                                                                  jQuery('.zone_x').css('transform', 'rotate('+rotate_one+'deg)');
-                                                                  jQuery('.zone_l').css('transform', 'rotate(-'+rotate_two+'deg)');
+                                                                  jQuery('.zone_x').css('transform', 'scale(1.3) rotate('+rotate_one+'deg)');
+                                                                  jQuery('.zone_l').css('transform', 'scale(1.3) rotate(-'+rotate_two+'deg)');
                                                                   rotate_one += 6;
                                                                   rotate_two += 6;
                                                                 } else if (count_animation <= 12) {
@@ -6435,8 +6463,8 @@ v3 = function(){
                                                                   });
                                                                   jQuery('.zone_x').css('top', r_top);
                                                                   jQuery('.zone_l').css('top', l_top);
-                                                                  jQuery('.zone_x').css('transform', 'rotate('+rotate_one+'deg)');
-                                                                  jQuery('.zone_l').css('transform', 'rotate(-'+rotate_two+'deg)');
+                                                                  jQuery('.zone_x').css('transform', 'scale(1.3) rotate('+rotate_one+'deg)');
+                                                                  jQuery('.zone_l').css('transform', 'scale(1.3) rotate(-'+rotate_two+'deg)');
                                                                   rotate_one += 8;
                                                                   rotate_two += 4;
                                                                 }
@@ -6446,6 +6474,7 @@ v3 = function(){
                                                                 clearInterval(phaseOne);
                                                                 jQuery('.draggable_s4').css({
                                                                   color: '#FFF0C7',
+                                                                  transform: 'scale(1)',
                                                                   background: 'rgba(83, 35, 69, 0.4)',
                                                                   opacity: 1
                                                                 });
@@ -6456,20 +6485,21 @@ v3 = function(){
                                                                   if (count_animation <= 12){
                                                                     jQuery('.draggable_lovushka').css({
                                                                       color: 'transparent',
-                                                                      transform: 'rotate(-'+rotate_lovushka+'deg)',
+                                                                      transform: 'scale(1.3) rotate(-'+rotate_lovushka+'deg)',
                                                                       background: '#fff url(/wp-content/themes/mobile/img/lovushka.jpg) 0 0/100% no-repeat',
                                                                       opacity: 0.8
                                                                     });
                                                                     if (count_animation <= 4) {
                                                                       jQuery('.draggable_v3').css({
                                                                         color: 'transparent',
+                                                                        transform: 'scale(1.3)',
                                                                         background: '#fff url(/wp-content/themes/mobile/img/disfunction.jpg) 0 0/100% no-repeat',
                                                                         opacity: 0.8
                                                                       });
                                                                       jQuery('.zone_x').css('top', r_bottom);
                                                                       jQuery('.zone_l').css('top', r_bottom);
-                                                                      jQuery('.zone_x').css('transform', 'rotate('+rotate_one+'deg)');
-                                                                      jQuery('.zone_l').css('transform', 'rotate(-'+rotate_two+'deg)');
+                                                                      jQuery('.zone_x').css('transform', 'scale(1.3) rotate('+rotate_one+'deg)');
+                                                                      jQuery('.zone_l').css('transform', 'scale(1.3) rotate(-'+rotate_two+'deg)');
                                                                       rotate_one += 6;
                                                                       rotate_two += 6;
                                                                     } else if (count_animation <= 8) {
@@ -6478,8 +6508,8 @@ v3 = function(){
                                                                       });
                                                                       jQuery('.zone_x').css('top', l_top);
                                                                       jQuery('.zone_l').css('top', r_top);
-                                                                      jQuery('.zone_x').css('transform', 'rotate('+rotate_one+'deg)');
-                                                                      jQuery('.zone_l').css('transform', 'rotate(-'+rotate_two+'deg)');
+                                                                      jQuery('.zone_x').css('transform', 'scale(1.3) rotate('+rotate_one+'deg)');
+                                                                      jQuery('.zone_l').css('transform', 'scale(1.3) rotate(-'+rotate_two+'deg)');
                                                                       rotate_one += 4;
                                                                       rotate_two += 8;
                                                                     } else if (count_animation <= 12) {
@@ -6488,8 +6518,8 @@ v3 = function(){
                                                                       });
                                                                       jQuery('.zone_x').css('top', r_bottom);
                                                                       jQuery('.zone_l').css('top', r_bottom);
-                                                                      jQuery('.zone_x').css('transform', 'rotate('+rotate_one+'deg)');
-                                                                      jQuery('.zone_l').css('transform', 'rotate(-'+rotate_two+'deg)');
+                                                                      jQuery('.zone_x').css('transform', 'scale(1.3) rotate('+rotate_one+'deg)');
+                                                                      jQuery('.zone_l').css('transform', 'scale(1.3) rotate(-'+rotate_two+'deg)');
                                                                       rotate_one += 6;
                                                                       rotate_two += 6;
                                                                     }
@@ -6499,6 +6529,7 @@ v3 = function(){
                                                                     clearInterval(phaseOne);
                                                                     jQuery('.draggable_v3, .draggable_lovushka').css({
                                                                       color: '#FFF0C7',
+                                                                      transform: 'scale(1)',
                                                                       background: 'rgba(83, 35, 69, 0.4)',
                                                                       opacity: 1
                                                                     });
@@ -6551,13 +6582,14 @@ v3 = function(){
         if (count_animation <= 4) {
           jQuery('.draggable_d3').css({
             color: 'transparent',
+            transform: 'scale(1.3)',
             background: '#fff url(/wp-content/themes/mobile/img/disfunction.jpg) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x').css('top', l_bottom);
           jQuery('.zone_l').css('top', r_top);
-          jQuery('.zone_x').css('transform', 'rotate('+rotate_one+'deg)');
-          jQuery('.zone_l').css('transform', 'rotate(-'+rotate_two+'deg)');
+          jQuery('.zone_x').css('transform', 'scale(1.3) rotate('+rotate_one+'deg)');
+          jQuery('.zone_l').css('transform', 'scale(1.3) rotate(-'+rotate_two+'deg)');
           rotate_one += 6;
           rotate_two += 8;
         } else if (count_animation <= 8) {
@@ -6566,8 +6598,8 @@ v3 = function(){
           });
           jQuery('.zone_x').css('top', l_bottom);
           jQuery('.zone_l').css('top', r_bottom);
-          jQuery('.zone_x').css('transform', 'rotate('+rotate_one+'deg)');
-          jQuery('.zone_l').css('transform', 'rotate(-'+rotate_two+'deg)');
+          jQuery('.zone_x').css('transform', 'scale(1.3) rotate('+rotate_one+'deg)');
+          jQuery('.zone_l').css('transform', 'scale(1.3) rotate(-'+rotate_two+'deg)');
           rotate_one += 6;
           rotate_two += 6;
         } else if (count_animation <= 12) {
@@ -6576,8 +6608,8 @@ v3 = function(){
           });
           jQuery('.zone_x').css('top', l_bottom);
           jQuery('.zone_l').css('top', l_top);
-          jQuery('.zone_x').css('transform', 'rotate('+rotate_one+'deg)');
-          jQuery('.zone_l').css('transform', 'rotate(-'+rotate_two+'deg)');
+          jQuery('.zone_x').css('transform', 'scale(1.3) rotate('+rotate_one+'deg)');
+          jQuery('.zone_l').css('transform', 'scale(1.3) rotate(-'+rotate_two+'deg)');
           rotate_one += 6;
           rotate_two += 4;
         }
@@ -6586,6 +6618,7 @@ v3 = function(){
         clearInterval(phaseOne);
         jQuery('.draggable_d3').css({
           color: '#FFF0C7',
+          transform: 'scale(1)',
           background: 'rgba(83, 35, 69, 0.4)',
           opacity: 1
         });
@@ -6597,13 +6630,14 @@ v3 = function(){
             if (count_animation <= 4) {
               jQuery('.draggable_v3').css({
                 color: 'transparent',
+                transform: 'scale(1.3)',
                 background: '#fff url(/wp-content/themes/mobile/img/disfunction.jpg) 0 0/100% no-repeat',
                 opacity: 0.8
               });
               jQuery('.zone_x').css('top', l_bottom);
               jQuery('.zone_l').css('top', r_bottom);
-              jQuery('.zone_x').css('transform', 'rotate('+rotate_one+'deg)');
-              jQuery('.zone_l').css('transform', 'rotate(-'+rotate_two+'deg)');
+              jQuery('.zone_x').css('transform', 'scale(1.3) rotate('+rotate_one+'deg)');
+              jQuery('.zone_l').css('transform', 'scale(1.3) rotate(-'+rotate_two+'deg)');
               rotate_one += 6;
               rotate_two += 6;
             } else if (count_animation <= 8) {
@@ -6612,8 +6646,8 @@ v3 = function(){
               });
               jQuery('.zone_x').css('top', l_bottom);
               jQuery('.zone_l').css('top', r_top);
-              jQuery('.zone_x').css('transform', 'rotate('+rotate_one+'deg)');
-              jQuery('.zone_l').css('transform', 'rotate(-'+rotate_two+'deg)');
+              jQuery('.zone_x').css('transform', 'scale(1.3) rotate('+rotate_one+'deg)');
+              jQuery('.zone_l').css('transform', 'scale(1.3) rotate(-'+rotate_two+'deg)');
               rotate_one += 6;
               rotate_two += 8;
             } else if (count_animation <= 12) {
@@ -6622,8 +6656,8 @@ v3 = function(){
               });
               jQuery('.zone_x').css('top', l_bottom);
               jQuery('.zone_l').css('top', r_bottom);
-              jQuery('.zone_x').css('transform', 'rotate('+rotate_one+'deg)');
-              jQuery('.zone_l').css('transform', 'rotate(-'+rotate_two+'deg)');
+              jQuery('.zone_x').css('transform', 'scale(1.3) rotate('+rotate_one+'deg)');
+              jQuery('.zone_l').css('transform', 'scale(1.3) rotate(-'+rotate_two+'deg)');
               rotate_one += 6;
               rotate_two += 6;
             }
@@ -6632,6 +6666,7 @@ v3 = function(){
             clearInterval(phaseOne);
             jQuery('.draggable_v3').css({
               color: '#FFF0C7',
+              transform: 'scale(1)',
               background: 'rgba(83, 35, 69, 0.4)',
               opacity: 1
             });
@@ -6643,13 +6678,14 @@ v3 = function(){
                 if (count_animation <= 4) {
                   jQuery('.draggable_v4').css({
                     color: 'transparent',
+                    transform: 'scale(1.3)',
                     background: '#fff url(/wp-content/themes/mobile/img/disfunction.jpg) 0 0/100% no-repeat',
                     opacity: 0.8
                   });
                   jQuery('.zone_x').css('top', l_bottom);
                   jQuery('.zone_l').css('top', l_top);
-                  jQuery('.zone_x').css('transform', 'rotate('+rotate_one+'deg)');
-                  jQuery('.zone_l').css('transform', 'rotate(-'+rotate_two+'deg)');
+                  jQuery('.zone_x').css('transform', 'scale(1.3) rotate('+rotate_one+'deg)');
+                  jQuery('.zone_l').css('transform', 'scale(1.3) rotate(-'+rotate_two+'deg)');
                   rotate_one += 6;
                   rotate_two += 4;
                 } else if (count_animation <= 8) {
@@ -6658,8 +6694,8 @@ v3 = function(){
                   });
                   jQuery('.zone_x').css('top', l_bottom);
                   jQuery('.zone_l').css('top', r_bottom);
-                  jQuery('.zone_x').css('transform', 'rotate('+rotate_one+'deg)');
-                  jQuery('.zone_l').css('transform', 'rotate(-'+rotate_two+'deg)');
+                  jQuery('.zone_x').css('transform', 'scale(1.3) rotate('+rotate_one+'deg)');
+                  jQuery('.zone_l').css('transform', 'scale(1.3) rotate(-'+rotate_two+'deg)');
                   rotate_one += 6;
                   rotate_two += 6;
                 } else if (count_animation <= 12) {
@@ -6668,8 +6704,8 @@ v3 = function(){
                   });
                   jQuery('.zone_x').css('top', l_bottom);
                   jQuery('.zone_l').css('top', r_top);
-                  jQuery('.zone_x').css('transform', 'rotate('+rotate_one+'deg)');
-                  jQuery('.zone_l').css('transform', 'rotate(-'+rotate_two+'deg)');
+                  jQuery('.zone_x').css('transform', 'scale(1.3) rotate('+rotate_one+'deg)');
+                  jQuery('.zone_l').css('transform', 'scale(1.3) rotate(-'+rotate_two+'deg)');
                   rotate_one += 6;
                   rotate_two += 8;
                 }
@@ -6678,6 +6714,7 @@ v3 = function(){
                 clearInterval(phaseOne);
                 jQuery('.draggable_v4').css({
                   color: '#FFF0C7',
+                  transform: 'scale(1)',
                   background: 'rgba(83, 35, 69, 0.4)',
                   opacity: 1
                 });
@@ -6689,13 +6726,14 @@ v3 = function(){
                     if (count_animation <= 4) {
                       jQuery('.draggable_d4').css({
                         color: 'transparent',
+                        transform: 'scale(1.3)',
                         background: '#fff url(/wp-content/themes/mobile/img/disfunction.jpg) 0 0/100% no-repeat',
                         opacity: 0.8
                       });
                       jQuery('.zone_x').css('top', l_bottom);
                       jQuery('.zone_l').css('top', r_bottom);
-                      jQuery('.zone_x').css('transform', 'rotate('+rotate_one+'deg)');
-                      jQuery('.zone_l').css('transform', 'rotate(-'+rotate_two+'deg)');
+                      jQuery('.zone_x').css('transform', 'scale(1.3) rotate('+rotate_one+'deg)');
+                      jQuery('.zone_l').css('transform', 'scale(1.3) rotate(-'+rotate_two+'deg)');
                       rotate_one += 6;
                       rotate_two += 6;
                     } else if (count_animation <= 8) {
@@ -6704,8 +6742,8 @@ v3 = function(){
                       });
                       jQuery('.zone_x').css('top', l_bottom);
                       jQuery('.zone_l').css('top', l_top);
-                      jQuery('.zone_x').css('transform', 'rotate('+rotate_one+'deg)');
-                      jQuery('.zone_l').css('transform', 'rotate(-'+rotate_two+'deg)');
+                      jQuery('.zone_x').css('transform', 'scale(1.3) rotate('+rotate_one+'deg)');
+                      jQuery('.zone_l').css('transform', 'scale(1.3) rotate(-'+rotate_two+'deg)');
                       rotate_one += 6;
                       rotate_two += 4;
                     } else if (count_animation <= 12) {
@@ -6714,8 +6752,8 @@ v3 = function(){
                       });
                       jQuery('.zone_x').css('top', l_bottom);
                       jQuery('.zone_l').css('top', r_bottom);
-                      jQuery('.zone_x').css('transform', 'rotate('+rotate_one+'deg)');
-                      jQuery('.zone_l').css('transform', 'rotate(-'+rotate_two+'deg)');
+                      jQuery('.zone_x').css('transform', 'scale(1.3) rotate('+rotate_one+'deg)');
+                      jQuery('.zone_l').css('transform', 'scale(1.3) rotate(-'+rotate_two+'deg)');
                       rotate_one += 6;
                       rotate_two += 6;
                     }
@@ -6724,6 +6762,7 @@ v3 = function(){
                     clearInterval(phaseOne);
                     jQuery('.draggable_d4').css({
                       color: '#FFF0C7',
+                      transform: 'scale(1)',
                       background: 'rgba(83, 35, 69, 0.4)',
                       opacity: 1
                     });
@@ -6735,13 +6774,14 @@ v3 = function(){
                         if (count_animation <= 4) {
                           jQuery('.draggable_d3').css({
                             color: 'transparent',
+                            transform: 'scale(1.3)',
                             background: '#fff url(/wp-content/themes/mobile/img/disfunction.jpg) 0 0/100% no-repeat',
                             opacity: 0.8
                           });
                           jQuery('.zone_x').css('top', l_bottom);
                           jQuery('.zone_l').css('top', r_top);
-                          jQuery('.zone_x').css('transform', 'rotate('+rotate_one+'deg)');
-                          jQuery('.zone_l').css('transform', 'rotate(-'+rotate_two+'deg)');
+                          jQuery('.zone_x').css('transform', 'scale(1.3) rotate('+rotate_one+'deg)');
+                          jQuery('.zone_l').css('transform', 'scale(1.3) rotate(-'+rotate_two+'deg)');
                           rotate_one += 6;
                           rotate_two += 8;
                         } else if (count_animation <= 8) {
@@ -6750,8 +6790,8 @@ v3 = function(){
                           });
                           jQuery('.zone_x').css('top', l_bottom);
                           jQuery('.zone_l').css('top', r_bottom);
-                          jQuery('.zone_x').css('transform', 'rotate('+rotate_one+'deg)');
-                          jQuery('.zone_l').css('transform', 'rotate(-'+rotate_two+'deg)');
+                          jQuery('.zone_x').css('transform', 'scale(1.3) rotate('+rotate_one+'deg)');
+                          jQuery('.zone_l').css('transform', 'scale(1.3) rotate(-'+rotate_two+'deg)');
                           rotate_one += 6;
                           rotate_two += 6;
                         } else if (count_animation <= 12) {
@@ -6760,8 +6800,8 @@ v3 = function(){
                           });
                           jQuery('.zone_x').css('top', l_bottom);
                           jQuery('.zone_l').css('top', l_top);
-                          jQuery('.zone_x').css('transform', 'rotate('+rotate_one+'deg)');
-                          jQuery('.zone_l').css('transform', 'rotate(-'+rotate_two+'deg)');
+                          jQuery('.zone_x').css('transform', 'scale(1.3) rotate('+rotate_one+'deg)');
+                          jQuery('.zone_l').css('transform', 'scale(1.3) rotate(-'+rotate_two+'deg)');
                           rotate_one += 6;
                           rotate_two += 4;
                         }
@@ -6770,6 +6810,7 @@ v3 = function(){
                         clearInterval(phaseOne);
                         jQuery('.draggable_d3').css({
                           color: '#FFF0C7',
+                          transform: 'scale(1)',
                           background: 'rgba(83, 35, 69, 0.4)',
                           opacity: 1
                         });
@@ -6781,13 +6822,14 @@ v3 = function(){
                             if (count_animation <= 4) {
                               jQuery('.draggable_v3').css({
                                 color: 'transparent',
+                                transform: 'scale(1.3)',
                                 background: '#fff url(/wp-content/themes/mobile/img/disfunction.jpg) 0 0/100% no-repeat',
                                 opacity: 0.8
                               });
                               jQuery('.zone_x').css('top', l_bottom);
                               jQuery('.zone_l').css('top', r_bottom);
-                              jQuery('.zone_x').css('transform', 'rotate('+rotate_one+'deg)');
-                              jQuery('.zone_l').css('transform', 'rotate(-'+rotate_two+'deg)');
+                              jQuery('.zone_x').css('transform', 'scale(1.3) rotate('+rotate_one+'deg)');
+                              jQuery('.zone_l').css('transform', 'scale(1.3) rotate(-'+rotate_two+'deg)');
                               rotate_one += 6;
                               rotate_two += 6;
                             } else if (count_animation <= 8) {
@@ -6796,8 +6838,8 @@ v3 = function(){
                               });
                               jQuery('.zone_x').css('top', l_bottom);
                               jQuery('.zone_l').css('top', r_top);
-                              jQuery('.zone_x').css('transform', 'rotate('+rotate_one+'deg)');
-                              jQuery('.zone_l').css('transform', 'rotate(-'+rotate_two+'deg)');
+                              jQuery('.zone_x').css('transform', 'scale(1.3) rotate('+rotate_one+'deg)');
+                              jQuery('.zone_l').css('transform', 'scale(1.3) rotate(-'+rotate_two+'deg)');
                               rotate_one += 6;
                               rotate_two += 8;
                             } else if (count_animation <= 12) {
@@ -6806,8 +6848,8 @@ v3 = function(){
                               });
                               jQuery('.zone_x').css('top', l_bottom);
                               jQuery('.zone_l').css('top', r_bottom);
-                              jQuery('.zone_x').css('transform', 'rotate('+rotate_one+'deg)');
-                              jQuery('.zone_l').css('transform', 'rotate(-'+rotate_two+'deg)');
+                              jQuery('.zone_x').css('transform', 'scale(1.3) rotate('+rotate_one+'deg)');
+                              jQuery('.zone_l').css('transform', 'scale(1.3) rotate(-'+rotate_two+'deg)');
                               rotate_one += 6;
                               rotate_two += 6;
                             }
@@ -6816,6 +6858,7 @@ v3 = function(){
                             clearInterval(phaseOne);
                             jQuery('.draggable_v3').css({
                               color: '#FFF0C7',
+                              transform: 'scale(1)',
                               background: 'rgba(83, 35, 69, 0.4)',
                               opacity: 1
                             });
@@ -6827,13 +6870,14 @@ v3 = function(){
                                 if (count_animation <= 4) {
                                   jQuery('.draggable_v4').css({
                                     color: 'transparent',
+                                    transform: 'scale(1.3)',
                                     background: '#fff url(/wp-content/themes/mobile/img/disfunction.jpg) 0 0/100% no-repeat',
                                     opacity: 0.8
                                   });
                                   jQuery('.zone_x').css('top', l_bottom);
                                   jQuery('.zone_l').css('top', l_top);
-                                  jQuery('.zone_x').css('transform', 'rotate('+rotate_one+'deg)');
-                                  jQuery('.zone_l').css('transform', 'rotate(-'+rotate_two+'deg)');
+                                  jQuery('.zone_x').css('transform', 'scale(1.3) rotate('+rotate_one+'deg)');
+                                  jQuery('.zone_l').css('transform', 'scale(1.3) rotate(-'+rotate_two+'deg)');
                                   rotate_one += 6;
                                   rotate_two += 4;
                                 } else if (count_animation <= 8) {
@@ -6842,8 +6886,8 @@ v3 = function(){
                                   });
                                   jQuery('.zone_x').css('top', l_bottom);
                                   jQuery('.zone_l').css('top', r_bottom);
-                                  jQuery('.zone_x').css('transform', 'rotate('+rotate_one+'deg)');
-                                  jQuery('.zone_l').css('transform', 'rotate(-'+rotate_two+'deg)');
+                                  jQuery('.zone_x').css('transform', 'scale(1.3) rotate('+rotate_one+'deg)');
+                                  jQuery('.zone_l').css('transform', 'scale(1.3) rotate(-'+rotate_two+'deg)');
                                   rotate_one += 6;
                                   rotate_two += 6;
                                 } else if (count_animation <= 12) {
@@ -6852,8 +6896,8 @@ v3 = function(){
                                   });
                                   jQuery('.zone_x').css('top', l_bottom);
                                   jQuery('.zone_l').css('top', r_top);
-                                  jQuery('.zone_x').css('transform', 'rotate('+rotate_one+'deg)');
-                                  jQuery('.zone_l').css('transform', 'rotate(-'+rotate_two+'deg)');
+                                  jQuery('.zone_x').css('transform', 'scale(1.3) rotate('+rotate_one+'deg)');
+                                  jQuery('.zone_l').css('transform', 'scale(1.3) rotate(-'+rotate_two+'deg)');
                                   rotate_one += 6;
                                   rotate_two += 8;
                                 }
@@ -6862,6 +6906,7 @@ v3 = function(){
                                 clearInterval(phaseOne);
                                 jQuery('.draggable_v4').css({
                                   color: '#FFF0C7',
+                                  transform: 'scale(1)',
                                   background: 'rgba(83, 35, 69, 0.4)',
                                   opacity: 1
                                 });
@@ -6873,13 +6918,14 @@ v3 = function(){
                                     if (count_animation <= 4) {
                                       jQuery('.draggable_d4').css({
                                         color: 'transparent',
+                                        transform: 'scale(1.3)',
                                         background: '#fff url(/wp-content/themes/mobile/img/disfunction.jpg) 0 0/100% no-repeat',
                                         opacity: 0.8
                                       });
                                       jQuery('.zone_x').css('top', l_bottom);
                                       jQuery('.zone_l').css('top', r_bottom);
-                                      jQuery('.zone_x').css('transform', 'rotate('+rotate_one+'deg)');
-                                      jQuery('.zone_l').css('transform', 'rotate(-'+rotate_two+'deg)');
+                                      jQuery('.zone_x').css('transform', 'scale(1.3) rotate('+rotate_one+'deg)');
+                                      jQuery('.zone_l').css('transform', 'scale(1.3) rotate(-'+rotate_two+'deg)');
                                       rotate_one += 6;
                                       rotate_two += 6;
                                     } else if (count_animation <= 8) {
@@ -6888,8 +6934,8 @@ v3 = function(){
                                       });
                                       jQuery('.zone_x').css('top', l_bottom);
                                       jQuery('.zone_l').css('top', l_top);
-                                      jQuery('.zone_x').css('transform', 'rotate('+rotate_one+'deg)');
-                                      jQuery('.zone_l').css('transform', 'rotate(-'+rotate_two+'deg)');
+                                      jQuery('.zone_x').css('transform', 'scale(1.3) rotate('+rotate_one+'deg)');
+                                      jQuery('.zone_l').css('transform', 'scale(1.3) rotate(-'+rotate_two+'deg)');
                                       rotate_one += 6;
                                       rotate_two += 4;
                                     } else if (count_animation <= 12) {
@@ -6898,8 +6944,8 @@ v3 = function(){
                                       });
                                       jQuery('.zone_x').css('top', l_bottom);
                                       jQuery('.zone_l').css('top', r_bottom);
-                                      jQuery('.zone_x').css('transform', 'rotate('+rotate_one+'deg)');
-                                      jQuery('.zone_l').css('transform', 'rotate(-'+rotate_two+'deg)');
+                                      jQuery('.zone_x').css('transform', 'scale(1.3) rotate('+rotate_one+'deg)');
+                                      jQuery('.zone_l').css('transform', 'scale(1.3) rotate(-'+rotate_two+'deg)');
                                       rotate_one += 6;
                                       rotate_two += 6;
                                     }
@@ -6908,6 +6954,7 @@ v3 = function(){
                                     clearInterval(phaseOne);
                                     jQuery('.draggable_d4').css({
                                       color: '#FFF0C7',
+                                      transform: 'scale(1)',
                                       background: 'rgba(83, 35, 69, 0.4)',
                                       opacity: 1
                                     });
@@ -6920,13 +6967,14 @@ v3 = function(){
                                         if (count_animation <= 4) {
                                           jQuery('.draggable_d3').css({
                                             color: 'transparent',
+                                            transform: 'scale(1.3)',
                                             background: '#fff url(/wp-content/themes/mobile/img/disfunction.jpg) 0 0/100% no-repeat',
                                             opacity: 0.8
                                           });
                                           jQuery('.zone_x').css('top', l_bottom);
                                           jQuery('.zone_l').css('top', r_top);
-                                          jQuery('.zone_x').css('transform', 'rotate('+rotate_one+'deg)');
-                                          jQuery('.zone_l').css('transform', 'rotate(-'+rotate_two+'deg)');
+                                          jQuery('.zone_x').css('transform', 'scale(1.3) rotate('+rotate_one+'deg)');
+                                          jQuery('.zone_l').css('transform', 'scale(1.3) rotate(-'+rotate_two+'deg)');
                                           rotate_one += 6;
                                           rotate_two += 8;
                                         } else if (count_animation <= 8) {
@@ -6935,8 +6983,8 @@ v3 = function(){
                                           });
                                           jQuery('.zone_x').css('top', l_bottom);
                                           jQuery('.zone_l').css('top', r_bottom);
-                                          jQuery('.zone_x').css('transform', 'rotate('+rotate_one+'deg)');
-                                          jQuery('.zone_l').css('transform', 'rotate(-'+rotate_two+'deg)');
+                                          jQuery('.zone_x').css('transform', 'scale(1.3) rotate('+rotate_one+'deg)');
+                                          jQuery('.zone_l').css('transform', 'scale(1.3) rotate(-'+rotate_two+'deg)');
                                           rotate_one += 6;
                                           rotate_two += 6;
                                         } else if (count_animation <= 12) {
@@ -6945,8 +6993,8 @@ v3 = function(){
                                           });
                                           jQuery('.zone_x').css('top', l_bottom);
                                           jQuery('.zone_l').css('top', l_top);
-                                          jQuery('.zone_x').css('transform', 'rotate('+rotate_one+'deg)');
-                                          jQuery('.zone_l').css('transform', 'rotate(-'+rotate_two+'deg)');
+                                          jQuery('.zone_x').css('transform', 'scale(1.3) rotate('+rotate_one+'deg)');
+                                          jQuery('.zone_l').css('transform', 'scale(1.3) rotate(-'+rotate_two+'deg)');
                                           rotate_one += 6;
                                           rotate_two += 4;
                                         }
@@ -6955,6 +7003,7 @@ v3 = function(){
                                         clearInterval(phaseOne);
                                         jQuery('.draggable_d3').css({
                                           color: '#FFF0C7',
+                                          transform: 'scale(1)',
                                           background: 'rgba(83, 35, 69, 0.4)',
                                           opacity: 1
                                         });
@@ -6966,13 +7015,14 @@ v3 = function(){
                                             if (count_animation <= 4) {
                                               jQuery('.draggable_v3').css({
                                                 color: 'transparent',
+                                                transform: 'scale(1.3)',
                                                 background: '#fff url(/wp-content/themes/mobile/img/disfunction.jpg) 0 0/100% no-repeat',
                                                 opacity: 0.8
                                               });
                                               jQuery('.zone_x').css('top', l_bottom);
                                               jQuery('.zone_l').css('top', r_bottom);
-                                              jQuery('.zone_x').css('transform', 'rotate('+rotate_one+'deg)');
-                                              jQuery('.zone_l').css('transform', 'rotate(-'+rotate_two+'deg)');
+                                              jQuery('.zone_x').css('transform', 'scale(1.3) rotate('+rotate_one+'deg)');
+                                              jQuery('.zone_l').css('transform', 'scale(1.3) rotate(-'+rotate_two+'deg)');
                                               rotate_one += 6;
                                               rotate_two += 6;
                                             } else if (count_animation <= 8) {
@@ -6981,8 +7031,8 @@ v3 = function(){
                                               });
                                               jQuery('.zone_x').css('top', l_bottom);
                                               jQuery('.zone_l').css('top', r_top);
-                                              jQuery('.zone_x').css('transform', 'rotate('+rotate_one+'deg)');
-                                              jQuery('.zone_l').css('transform', 'rotate(-'+rotate_two+'deg)');
+                                              jQuery('.zone_x').css('transform', 'scale(1.3) rotate('+rotate_one+'deg)');
+                                              jQuery('.zone_l').css('transform', 'scale(1.3) rotate(-'+rotate_two+'deg)');
                                               rotate_one += 6;
                                               rotate_two += 8;
                                             } else if (count_animation <= 12) {
@@ -6991,8 +7041,8 @@ v3 = function(){
                                               });
                                               jQuery('.zone_x').css('top', l_bottom);
                                               jQuery('.zone_l').css('top', r_bottom);
-                                              jQuery('.zone_x').css('transform', 'rotate('+rotate_one+'deg)');
-                                              jQuery('.zone_l').css('transform', 'rotate(-'+rotate_two+'deg)');
+                                              jQuery('.zone_x').css('transform', 'scale(1.3) rotate('+rotate_one+'deg)');
+                                              jQuery('.zone_l').css('transform', 'scale(1.3) rotate(-'+rotate_two+'deg)');
                                               rotate_one += 6;
                                               rotate_two += 6;
                                             }
@@ -7001,6 +7051,7 @@ v3 = function(){
                                             clearInterval(phaseOne);
                                             jQuery('.draggable_v3').css({
                                               color: '#FFF0C7',
+                                              transform: 'scale(1)',
                                               background: 'rgba(83, 35, 69, 0.4)',
                                               opacity: 1
                                             });
@@ -7012,13 +7063,14 @@ v3 = function(){
                                                 if (count_animation <= 4) {
                                                   jQuery('.draggable_v4').css({
                                                     color: 'transparent',
+                                                    transform: 'scale(1.3)',
                                                     background: '#fff url(/wp-content/themes/mobile/img/disfunction.jpg) 0 0/100% no-repeat',
                                                     opacity: 0.8
                                                   });
                                                   jQuery('.zone_x').css('top', l_bottom);
                                                   jQuery('.zone_l').css('top', l_top);
-                                                  jQuery('.zone_x').css('transform', 'rotate('+rotate_one+'deg)');
-                                                  jQuery('.zone_l').css('transform', 'rotate(-'+rotate_two+'deg)');
+                                                  jQuery('.zone_x').css('transform', 'scale(1.3) rotate('+rotate_one+'deg)');
+                                                  jQuery('.zone_l').css('transform', 'scale(1.3) rotate(-'+rotate_two+'deg)');
                                                   rotate_one += 6;
                                                   rotate_two += 4;
                                                 } else if (count_animation <= 8) {
@@ -7027,8 +7079,8 @@ v3 = function(){
                                                   });
                                                   jQuery('.zone_x').css('top', l_bottom);
                                                   jQuery('.zone_l').css('top', r_bottom);
-                                                  jQuery('.zone_x').css('transform', 'rotate('+rotate_one+'deg)');
-                                                  jQuery('.zone_l').css('transform', 'rotate(-'+rotate_two+'deg)');
+                                                  jQuery('.zone_x').css('transform', 'scale(1.3) rotate('+rotate_one+'deg)');
+                                                  jQuery('.zone_l').css('transform', 'scale(1.3) rotate(-'+rotate_two+'deg)');
                                                   rotate_one += 6;
                                                   rotate_two += 6;
                                                 } else if (count_animation <= 12) {
@@ -7037,8 +7089,8 @@ v3 = function(){
                                                   });
                                                   jQuery('.zone_x').css('top', l_bottom);
                                                   jQuery('.zone_l').css('top', r_top);
-                                                  jQuery('.zone_x').css('transform', 'rotate('+rotate_one+'deg)');
-                                                  jQuery('.zone_l').css('transform', 'rotate(-'+rotate_two+'deg)');
+                                                  jQuery('.zone_x').css('transform', 'scale(1.3) rotate('+rotate_one+'deg)');
+                                                  jQuery('.zone_l').css('transform', 'scale(1.3) rotate(-'+rotate_two+'deg)');
                                                   rotate_one += 6;
                                                   rotate_two += 8;
                                                 }
@@ -7047,6 +7099,7 @@ v3 = function(){
                                                 clearInterval(phaseOne);
                                                 jQuery('.draggable_v4').css({
                                                   color: '#FFF0C7',
+                                                  transform: 'scale(1)',
                                                   background: 'rgba(83, 35, 69, 0.4)',
                                                   opacity: 1
                                                 });
@@ -7058,13 +7111,14 @@ v3 = function(){
                                                     if (count_animation <= 4) {
                                                       jQuery('.draggable_d4').css({
                                                         color: 'transparent',
+                                                        transform: 'scale(1.3)',
                                                         background: '#fff url(/wp-content/themes/mobile/img/disfunction.jpg) 0 0/100% no-repeat',
                                                         opacity: 0.8
                                                       });
                                                       jQuery('.zone_x').css('top', l_bottom);
                                                       jQuery('.zone_l').css('top', r_bottom);
-                                                      jQuery('.zone_x').css('transform', 'rotate('+rotate_one+'deg)');
-                                                      jQuery('.zone_l').css('transform', 'rotate(-'+rotate_two+'deg)');
+                                                      jQuery('.zone_x').css('transform', 'scale(1.3) rotate('+rotate_one+'deg)');
+                                                      jQuery('.zone_l').css('transform', 'scale(1.3) rotate(-'+rotate_two+'deg)');
                                                       rotate_one += 6;
                                                       rotate_two += 6;
                                                     } else if (count_animation <= 8) {
@@ -7073,8 +7127,8 @@ v3 = function(){
                                                       });
                                                       jQuery('.zone_x').css('top', l_bottom);
                                                       jQuery('.zone_l').css('top', l_top);
-                                                      jQuery('.zone_x').css('transform', 'rotate('+rotate_one+'deg)');
-                                                      jQuery('.zone_l').css('transform', 'rotate(-'+rotate_two+'deg)');
+                                                      jQuery('.zone_x').css('transform', 'scale(1.3) rotate('+rotate_one+'deg)');
+                                                      jQuery('.zone_l').css('transform', 'scale(1.3) rotate(-'+rotate_two+'deg)');
                                                       rotate_one += 6;
                                                       rotate_two += 4;
                                                     } else if (count_animation <= 12) {
@@ -7083,8 +7137,8 @@ v3 = function(){
                                                       });
                                                       jQuery('.zone_x').css('top', l_bottom);
                                                       jQuery('.zone_l').css('top', r_bottom);
-                                                      jQuery('.zone_x').css('transform', 'rotate('+rotate_one+'deg)');
-                                                      jQuery('.zone_l').css('transform', 'rotate(-'+rotate_two+'deg)');
+                                                      jQuery('.zone_x').css('transform', 'scale(1.3) rotate('+rotate_one+'deg)');
+                                                      jQuery('.zone_l').css('transform', 'scale(1.3) rotate(-'+rotate_two+'deg)');
                                                       rotate_one += 6;
                                                       rotate_two += 6;
                                                     }
@@ -7093,6 +7147,7 @@ v3 = function(){
                                                     clearInterval(phaseOne);
                                                     jQuery('.draggable_d4').css({
                                                       color: '#FFF0C7',
+                                                      transform: 'scale(1)',
                                                       background: 'rgba(83, 35, 69, 0.4)',
                                                       opacity: 1
                                                     });
@@ -7104,13 +7159,14 @@ v3 = function(){
                                                         if (count_animation <= 4) {
                                                           jQuery('.draggable_d3').css({
                                                             color: 'transparent',
+                                                            transform: 'scale(1.3)',
                                                             background: '#fff url(/wp-content/themes/mobile/img/disfunction.jpg) 0 0/100% no-repeat',
                                                             opacity: 0.8
                                                           });
                                                           jQuery('.zone_x').css('top', l_bottom);
                                                           jQuery('.zone_l').css('top', r_top);
-                                                          jQuery('.zone_x').css('transform', 'rotate('+rotate_one+'deg)');
-                                                          jQuery('.zone_l').css('transform', 'rotate(-'+rotate_two+'deg)');
+                                                          jQuery('.zone_x').css('transform', 'scale(1.3) rotate('+rotate_one+'deg)');
+                                                          jQuery('.zone_l').css('transform', 'scale(1.3) rotate(-'+rotate_two+'deg)');
                                                           rotate_one += 6;
                                                           rotate_two += 8;
                                                         } else if (count_animation <= 8) {
@@ -7119,8 +7175,8 @@ v3 = function(){
                                                           });
                                                           jQuery('.zone_x').css('top', l_bottom);
                                                           jQuery('.zone_l').css('top', r_bottom);
-                                                          jQuery('.zone_x').css('transform', 'rotate('+rotate_one+'deg)');
-                                                          jQuery('.zone_l').css('transform', 'rotate(-'+rotate_two+'deg)');
+                                                          jQuery('.zone_x').css('transform', 'scale(1.3) rotate('+rotate_one+'deg)');
+                                                          jQuery('.zone_l').css('transform', 'scale(1.3) rotate(-'+rotate_two+'deg)');
                                                           rotate_one += 6;
                                                           rotate_two += 6;
                                                         } else if (count_animation <= 12) {
@@ -7129,8 +7185,8 @@ v3 = function(){
                                                           });
                                                           jQuery('.zone_x').css('top', l_bottom);
                                                           jQuery('.zone_l').css('top', l_top);
-                                                          jQuery('.zone_x').css('transform', 'rotate('+rotate_one+'deg)');
-                                                          jQuery('.zone_l').css('transform', 'rotate(-'+rotate_two+'deg)');
+                                                          jQuery('.zone_x').css('transform', 'scale(1.3) rotate('+rotate_one+'deg)');
+                                                          jQuery('.zone_l').css('transform', 'scale(1.3) rotate(-'+rotate_two+'deg)');
                                                           rotate_one += 6;
                                                           rotate_two += 4;
                                                         }
@@ -7139,6 +7195,7 @@ v3 = function(){
                                                         clearInterval(phaseOne);
                                                         jQuery('.draggable_d3').css({
                                                           color: '#FFF0C7',
+                                                          transform: 'scale(1)',
                                                           background: 'rgba(83, 35, 69, 0.4)',
                                                           opacity: 1
                                                         });
@@ -7150,13 +7207,14 @@ v3 = function(){
                                                             if (count_animation <= 4) {
                                                               jQuery('.draggable_v3').css({
                                                                 color: 'transparent',
+                                                                transform: 'scale(1.3)',
                                                                 background: '#fff url(/wp-content/themes/mobile/img/disfunction.jpg) 0 0/100% no-repeat',
                                                                 opacity: 0.8
                                                               });
                                                               jQuery('.zone_x').css('top', l_bottom);
                                                               jQuery('.zone_l').css('top', r_bottom);
-                                                              jQuery('.zone_x').css('transform', 'rotate('+rotate_one+'deg)');
-                                                              jQuery('.zone_l').css('transform', 'rotate(-'+rotate_two+'deg)');
+                                                              jQuery('.zone_x').css('transform', 'scale(1.3) rotate('+rotate_one+'deg)');
+                                                              jQuery('.zone_l').css('transform', 'scale(1.3) rotate(-'+rotate_two+'deg)');
                                                               rotate_one += 6;
                                                               rotate_two += 6;
                                                             } else if (count_animation <= 8) {
@@ -7165,8 +7223,8 @@ v3 = function(){
                                                               });
                                                               jQuery('.zone_x').css('top', l_bottom);
                                                               jQuery('.zone_l').css('top', r_top);
-                                                              jQuery('.zone_x').css('transform', 'rotate('+rotate_one+'deg)');
-                                                              jQuery('.zone_l').css('transform', 'rotate(-'+rotate_two+'deg)');
+                                                              jQuery('.zone_x').css('transform', 'scale(1.3) rotate('+rotate_one+'deg)');
+                                                              jQuery('.zone_l').css('transform', 'scale(1.3) rotate(-'+rotate_two+'deg)');
                                                               rotate_one += 6;
                                                               rotate_two += 8;
                                                             } else if (count_animation <= 12) {
@@ -7175,8 +7233,8 @@ v3 = function(){
                                                               });
                                                               jQuery('.zone_x').css('top', l_bottom);
                                                               jQuery('.zone_l').css('top', r_bottom);
-                                                              jQuery('.zone_x').css('transform', 'rotate('+rotate_one+'deg)');
-                                                              jQuery('.zone_l').css('transform', 'rotate(-'+rotate_two+'deg)');
+                                                              jQuery('.zone_x').css('transform', 'scale(1.3) rotate('+rotate_one+'deg)');
+                                                              jQuery('.zone_l').css('transform', 'scale(1.3) rotate(-'+rotate_two+'deg)');
                                                               rotate_one += 6;
                                                               rotate_two += 6;
                                                             }
@@ -7185,6 +7243,7 @@ v3 = function(){
                                                             clearInterval(phaseOne);
                                                             jQuery('.draggable_v3').css({
                                                               color: '#FFF0C7',
+                                                              transform: 'scale(1)',
                                                               background: 'rgba(83, 35, 69, 0.4)',
                                                               opacity: 1
                                                             });
@@ -7196,13 +7255,14 @@ v3 = function(){
                                                                 if (count_animation <= 4) {
                                                                   jQuery('.draggable_v4').css({
                                                                     color: 'transparent',
+                                                                    transform: 'scale(1.3)',
                                                                     background: '#fff url(/wp-content/themes/mobile/img/disfunction.jpg) 0 0/100% no-repeat',
                                                                     opacity: 0.8
                                                                   });
                                                                   jQuery('.zone_x').css('top', l_bottom);
                                                                   jQuery('.zone_l').css('top', l_top);
-                                                                  jQuery('.zone_x').css('transform', 'rotate('+rotate_one+'deg)');
-                                                                  jQuery('.zone_l').css('transform', 'rotate(-'+rotate_two+'deg)');
+                                                                  jQuery('.zone_x').css('transform', 'scale(1.3) rotate('+rotate_one+'deg)');
+                                                                  jQuery('.zone_l').css('transform', 'scale(1.3) rotate(-'+rotate_two+'deg)');
                                                                   rotate_one += 6;
                                                                   rotate_two += 4;
                                                                 } else if (count_animation <= 8) {
@@ -7211,8 +7271,8 @@ v3 = function(){
                                                                   });
                                                                   jQuery('.zone_x').css('top', l_bottom);
                                                                   jQuery('.zone_l').css('top', r_bottom);
-                                                                  jQuery('.zone_x').css('transform', 'rotate('+rotate_one+'deg)');
-                                                                  jQuery('.zone_l').css('transform', 'rotate(-'+rotate_two+'deg)');
+                                                                  jQuery('.zone_x').css('transform', 'scale(1.3) rotate('+rotate_one+'deg)');
+                                                                  jQuery('.zone_l').css('transform', 'scale(1.3) rotate(-'+rotate_two+'deg)');
                                                                   rotate_one += 6;
                                                                   rotate_two += 6;
                                                                 } else if (count_animation <= 12) {
@@ -7221,8 +7281,8 @@ v3 = function(){
                                                                   });
                                                                   jQuery('.zone_x').css('top', l_bottom);
                                                                   jQuery('.zone_l').css('top', r_top);
-                                                                  jQuery('.zone_x').css('transform', 'rotate('+rotate_one+'deg)');
-                                                                  jQuery('.zone_l').css('transform', 'rotate(-'+rotate_two+'deg)');
+                                                                  jQuery('.zone_x').css('transform', 'scale(1.3) rotate('+rotate_one+'deg)');
+                                                                  jQuery('.zone_l').css('transform', 'scale(1.3) rotate(-'+rotate_two+'deg)');
                                                                   rotate_one += 6;
                                                                   rotate_two += 8;
                                                                 }
@@ -7231,6 +7291,7 @@ v3 = function(){
                                                                 clearInterval(phaseOne);
                                                                 jQuery('.draggable_v4').css({
                                                                   color: '#FFF0C7',
+                                                                  transform: 'scale(1)',
                                                                   background: 'rgba(83, 35, 69, 0.4)',
                                                                   opacity: 1
                                                                 });
@@ -7242,13 +7303,14 @@ v3 = function(){
                                                                     if (count_animation <= 4) {
                                                                       jQuery('.draggable_d4').css({
                                                                         color: 'transparent',
+                                                                        transform: 'scale(1.3)',
                                                                         background: '#fff url(/wp-content/themes/mobile/img/disfunction.jpg) 0 0/100% no-repeat',
                                                                         opacity: 0.8
                                                                       });
                                                                       jQuery('.zone_x').css('top', l_bottom);
                                                                       jQuery('.zone_l').css('top', r_bottom);
-                                                                      jQuery('.zone_x').css('transform', 'rotate('+rotate_one+'deg)');
-                                                                      jQuery('.zone_l').css('transform', 'rotate(-'+rotate_two+'deg)');
+                                                                      jQuery('.zone_x').css('transform', 'scale(1.3) rotate('+rotate_one+'deg)');
+                                                                      jQuery('.zone_l').css('transform', 'scale(1.3) rotate(-'+rotate_two+'deg)');
                                                                       rotate_one += 6;
                                                                       rotate_two += 6;
                                                                     } else if (count_animation <= 8) {
@@ -7257,8 +7319,8 @@ v3 = function(){
                                                                       });
                                                                       jQuery('.zone_x').css('top', l_bottom);
                                                                       jQuery('.zone_l').css('top', l_top);
-                                                                      jQuery('.zone_x').css('transform', 'rotate('+rotate_one+'deg)');
-                                                                      jQuery('.zone_l').css('transform', 'rotate(-'+rotate_two+'deg)');
+                                                                      jQuery('.zone_x').css('transform', 'scale(1.3) rotate('+rotate_one+'deg)');
+                                                                      jQuery('.zone_l').css('transform', 'scale(1.3) rotate(-'+rotate_two+'deg)');
                                                                       rotate_one += 6;
                                                                       rotate_two += 4;
                                                                     } else if (count_animation <= 12) {
@@ -7267,8 +7329,8 @@ v3 = function(){
                                                                       });
                                                                       jQuery('.zone_x').css('top', l_bottom);
                                                                       jQuery('.zone_l').css('top', r_bottom);
-                                                                      jQuery('.zone_x').css('transform', 'rotate('+rotate_one+'deg)');
-                                                                      jQuery('.zone_l').css('transform', 'rotate(-'+rotate_two+'deg)');
+                                                                      jQuery('.zone_x').css('transform', 'scale(1.3) rotate('+rotate_one+'deg)');
+                                                                      jQuery('.zone_l').css('transform', 'scale(1.3) rotate(-'+rotate_two+'deg)');
                                                                       rotate_one += 6;
                                                                       rotate_two += 6;
                                                                     }
@@ -7277,6 +7339,7 @@ v3 = function(){
                                                                     clearInterval(phaseOne);
                                                                     jQuery('.draggable_d4').css({
                                                                       color: '#FFF0C7',
+                                                                      transform: 'scale(1)',
                                                                       background: 'rgba(83, 35, 69, 0.4)',
                                                                       opacity: 1
                                                                     });
@@ -7336,7 +7399,7 @@ v3 = function(){
           background: '#fff url(/wp-content/themes/mobile/img/lovushka.jpg) 0 0/100% no-repeat',
           opacity: 0.8
         });
-        jQuery('.zone_x').css('transform', 'rotate('+rotate_lovushka+'deg)');
+        jQuery('.zone_x').css('transform', 'scale(1.3) rotate('+rotate_lovushka+'deg)');
         if (count_animation <= 4) {
           jQuery('.zone_x').css('top', x1);
           rotate_lovushka += 36
