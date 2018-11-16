@@ -7924,6 +7924,7 @@ v3 = function(){
 v4 = function(){
   chain(function(next) {
     jQuery('.zone_l').css('transform', 'scale(0.01)');
+    jQuery('.status').removeClass('hidden');
     jQuery('.status_pahaze_all').text('5');
     jQuery('.status_percent').text('0%');
     jQuery('.status_pahaze_now').text('1');
