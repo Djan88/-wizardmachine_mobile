@@ -7931,7 +7931,7 @@ v4 = function(){
     jQuery('.zone_x').removeClass('hidden').css('transform', 'scale(1)');
     console.log('Фаза 1');
 // Фаза 1.1
-    jQuery('.status_percent').text('2%');
+    jQuery('.status_percent').text('0%');
     x1 = jQuery('.draggable_v0').css('top');
     x2 = jQuery('.draggable_v1').css('top');
     x3 = jQuery('.draggable_d2').css('top');
@@ -7959,6 +7959,7 @@ v4 = function(){
         } else if (count_animation <= 16) {
           rotate_lovushka += 33
         } else if (count_animation <= 20) {
+          jQuery('.status_percent').text('2%');
           rotate_lovushka += 32
         } else if (count_animation <= 24) {
           rotate_lovushka += 31
