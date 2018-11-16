@@ -7395,7 +7395,7 @@ v3 = function(){
       if (count_animation <= 140){
         jQuery('.draggable_v4').css({
           color: 'transparent',
-          transform: 'rotate(-'+rotate_lovushka+'deg)',
+          transform: 'scale(1.3) rotate(-'+rotate_lovushka+'deg)',
           background: '#fff url(/wp-content/themes/mobile/img/lovushka.jpg) 0 0/100% no-repeat',
           opacity: 0.8
         });
@@ -7484,6 +7484,7 @@ v3 = function(){
         clearInterval(phaseOne);
         jQuery('.draggable_v4').css({
           color: '#FFF0C7',
+          transform: 'scale(1)',
           background: 'rgba(83, 35, 69, 0.4)',
           opacity: 1
         });
@@ -7501,7 +7502,7 @@ v3 = function(){
       if (count_animation <= 22){
         jQuery('.draggable_v3').css({
           color: 'transparent',
-          transform: 'rotate(-'+rotate_one+'deg)',
+          transform: 'scale(1.3) rotate(-'+rotate_one+'deg)',
           background: '#fff url(/wp-content/themes/mobile/img/mo_right.png) 0 0/100% no-repeat',
           opacity: 0.8
         });
@@ -7525,7 +7526,7 @@ v3 = function(){
           if (count_animation <= 53){
             jQuery('.draggable_v3').css({
               color: 'transparent',
-              transform: 'rotate('+rotate_one+'deg)',
+              transform: 'scale(1.3) rotate('+rotate_one+'deg)',
               background: '#fff url(/wp-content/themes/mobile/img/mo_left.png) 0 0/100% no-repeat',
               opacity: 0.8
             });
@@ -7549,7 +7550,7 @@ v3 = function(){
               if (count_animation <= 60){
                 jQuery('.draggable_v3').css({
                   color: 'transparent',
-                  transform: 'rotate('+rotate_one+'deg)',
+                  transform: 'scale(1.3) rotate('+rotate_one+'deg)',
                   background: '#fff url(/wp-content/themes/mobile/img/mo_left.png) 0 0/100% no-repeat',
                   opacity: 0.8
                 });
@@ -7573,7 +7574,7 @@ v3 = function(){
                   if (count_animation <= 40){
                     jQuery('.draggable_v3').css({
                       color: 'transparent',
-                      transform: 'rotate(-'+rotate_one+'deg)',
+                      transform: 'scale(1.3) rotate(-'+rotate_one+'deg)',
                       background: '#fff url(/wp-content/themes/mobile/img/mo_right.png) 0 0/100% no-repeat',
                       opacity: 0.8
                     });
@@ -7586,6 +7587,7 @@ v3 = function(){
                     count_animation = 1;
                     jQuery('.draggable_v3').css({
                       color: '#FFF0C7',
+                      transform: 'scale(1)',
                       background: 'rgba(83, 35, 69, 0.4)',
                       opacity: 1
                     });
@@ -7597,7 +7599,7 @@ v3 = function(){
                       if (count_animation <= 22){
                         jQuery('.draggable_v4').css({
                           color: 'transparent',
-                          transform: 'rotate(-'+rotate_one+'deg)',
+                          transform: 'scale(1.3) rotate(-'+rotate_one+'deg)',
                           background: '#fff url(/wp-content/themes/mobile/img/mo_right.png) 0 0/100% no-repeat',
                           opacity: 0.8
                         });
@@ -7621,7 +7623,7 @@ v3 = function(){
                           if (count_animation <= 53){
                             jQuery('.draggable_v4').css({
                               color: 'transparent',
-                              transform: 'rotate('+rotate_one+'deg)',
+                              transform: 'scale(1.3) rotate('+rotate_one+'deg)',
                               background: '#fff url(/wp-content/themes/mobile/img/mo_left.png) 0 0/100% no-repeat',
                               opacity: 0.8
                             });
@@ -7645,7 +7647,7 @@ v3 = function(){
                               if (count_animation <= 60){
                                 jQuery('.draggable_v4').css({
                                   color: 'transparent',
-                                  transform: 'rotate('+rotate_one+'deg)',
+                                  transform: 'scale(1.3) rotate('+rotate_one+'deg)',
                                   background: '#fff url(/wp-content/themes/mobile/img/mo_left.png) 0 0/100% no-repeat',
                                   opacity: 0.8
                                 });
@@ -7669,7 +7671,7 @@ v3 = function(){
                                   if (count_animation <= 40){
                                     jQuery('.draggable_v4').css({
                                       color: 'transparent',
-                                      transform: 'rotate(-'+rotate_one+'deg)',
+                                      transform: 'scale(1.3) rotate(-'+rotate_one+'deg)',
                                       background: '#fff url(/wp-content/themes/mobile/img/mo_right.png) 0 0/100% no-repeat',
                                       opacity: 0.8
                                     });
@@ -7682,6 +7684,7 @@ v3 = function(){
                                     count_animation = 1;
                                     jQuery('.draggable_v4').css({
                                       color: '#FFF0C7',
+                                      transform: 'scale(1)',
                                       background: 'rgba(83, 35, 69, 0.4)',
                                       opacity: 1
                                     });
@@ -7693,7 +7696,7 @@ v3 = function(){
                                       if (count_animation <= 22){
                                         jQuery('.draggable_v1').css({
                                           color: 'transparent',
-                                          transform: 'rotate(-'+rotate_one+'deg)',
+                                          transform: 'scale(1.3) rotate(-'+rotate_one+'deg)',
                                           background: '#fff url(/wp-content/themes/mobile/img/mo_right.png) 0 0/100% no-repeat',
                                           opacity: 0.8
                                         });
@@ -7717,7 +7720,7 @@ v3 = function(){
                                           if (count_animation <= 53){
                                             jQuery('.draggable_v1').css({
                                               color: 'transparent',
-                                              transform: 'rotate('+rotate_one+'deg)',
+                                              transform: 'scale(1.3) rotate('+rotate_one+'deg)',
                                               background: '#fff url(/wp-content/themes/mobile/img/mo_left.png) 0 0/100% no-repeat',
                                               opacity: 0.8
                                             });
@@ -7741,7 +7744,7 @@ v3 = function(){
                                               if (count_animation <= 60){
                                                 jQuery('.draggable_v1').css({
                                                   color: 'transparent',
-                                                  transform: 'rotate('+rotate_one+'deg)',
+                                                  transform: 'scale(1.3) rotate('+rotate_one+'deg)',
                                                   background: '#fff url(/wp-content/themes/mobile/img/mo_left.png) 0 0/100% no-repeat',
                                                   opacity: 0.8
                                                 });
@@ -7754,6 +7757,7 @@ v3 = function(){
                                                 count_animation = 1;
                                                 jQuery('.draggable_v1').css({
                                                   color: '#FFF0C7',
+                                                  transform: 'scale(1)',
                                                   background: 'rgba(83, 35, 69, 0.4)',
                                                   opacity: 1
                                                 });
@@ -7765,7 +7769,7 @@ v3 = function(){
                                                   if (count_animation <= 40){
                                                     jQuery('.draggable_v1').css({
                                                       color: 'transparent',
-                                                      transform: 'rotate(-'+rotate_one+'deg)',
+                                                      transform: 'scale(1.3) rotate(-'+rotate_one+'deg)',
                                                       background: '#fff url(/wp-content/themes/mobile/img/mo_right.png) 0 0/100% no-repeat',
                                                       opacity: 0.8
                                                     });
@@ -7778,6 +7782,7 @@ v3 = function(){
                                                     count_animation = 1;
                                                     jQuery('.draggable_v1').css({
                                                       color: '#FFF0C7',
+                                                      transform: 'scale(1)',
                                                       background: 'rgba(83, 35, 69, 0.4)',
                                                       opacity: 1
                                                     });
@@ -7819,6 +7824,7 @@ v3 = function(){
         if (count_animation <= 19) {
           jQuery('.draggable_v3').css({
             color: 'transparent',
+            transform: 'scale(1.3)',
             background: 'transparent url(/wp-content/themes/mobile/img/1_zemlya_lev.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
@@ -7832,6 +7838,7 @@ v3 = function(){
         clearInterval(phaseOne);
         jQuery('.draggable_v3').css({
           color: '#FFF0C7',
+          transform: 'scale(1)',
           background: 'rgba(83, 35, 69, 0.4)',
           opacity: 1
         });
@@ -7844,6 +7851,7 @@ v3 = function(){
             if (count_animation <= 17) {
               jQuery('.draggable_v1, .draggable_v4').css({
                 color: 'transparent',
+                transform: 'scale(1.3)',
                 background: 'transparent url(/wp-content/themes/mobile/img/3_voda_lev.png) 0 0/100% no-repeat',
                 opacity: 0.8
               });
@@ -7857,6 +7865,7 @@ v3 = function(){
             clearInterval(phaseOne);
             jQuery('.draggable_v1, .draggable_v4').css({
               color: '#FFF0C7',
+              transform: 'scale(1)',
               background: 'rgba(83, 35, 69, 0.4)',
               opacity: 1
             });
@@ -7875,6 +7884,7 @@ v3 = function(){
       if (count_animation <= 80){
         jQuery('.draggable_v5, .draggable_v-, .draggable_v3, .draggable_v0').css({
           color: 'transparent',
+          transform: 'scale(1.3)',
           opacity: 0.8
         });
         jQuery('.draggable_v5, .draggable_v-').css({
@@ -7891,6 +7901,7 @@ v3 = function(){
         clearInterval(phaseOne);
         jQuery('.draggable_v5, .draggable_v-, .draggable_v3, .draggable_v0').css({
           color: '#FFF0C7',
+          transform: 'scale(1)',
           background: 'rgba(83, 35, 69, 0.4)',
           opacity: 1
         });
