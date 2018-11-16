@@ -2329,8 +2329,11 @@ v1 = function(){
     }, 1000);
   });
 }
-
-
+////////////////////////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////////////////////////
 
 
 // PROTOCOL V2
@@ -5633,18 +5636,20 @@ jQuery('.status_pahaze_now').text('6');
   });
 }
 
-
-
-
-
-
-
-
+////////////////////////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////////////////////////
 
 
 v3 = function(){
   chain(function(next) {
 // Фаза 1.1
+    jQuery('.status').removeClass('hidden');
+    jQuery('.status_pahaze_all').text('5');
+    jQuery('.status_percent').text('0%');
+    jQuery('.status_pahaze_now').text('1');
     console.log('Фаза 1/1');
     jQuery('.zone_x, .zone_l').removeClass('hidden').css('transform', 'scale(1)');
     r_top = jQuery('.draggable_s2').css('top');
@@ -5702,6 +5707,7 @@ v3 = function(){
           opacity: 1
         });
 // Фаза 1.2
+        jQuery('.status_percent').text('2%');
         count_animation = 0;
         phaseOne = setInterval(function(){
           if (count_animation <= 12){
@@ -5754,6 +5760,7 @@ v3 = function(){
               opacity: 1
             });
 // Фаза 1.3
+            jQuery('.status_percent').text('4%');
             count_animation = 0;
             phaseOne = setInterval(function(){
               if (count_animation <= 12){
@@ -5806,6 +5813,7 @@ v3 = function(){
                   opacity: 1
                 });
 // Фаза 1.4
+                jQuery('.status_percent').text('6%');
                 count_animation = 0;
                 phaseOne = setInterval(function(){
                   if (count_animation <= 12){
@@ -5858,6 +5866,7 @@ v3 = function(){
                       opacity: 1
                     });
 // Фаза 1.5
+                    jQuery('.status_percent').text('8%');
                     count_animation = 0;
                     phaseOne = setInterval(function(){
                       if (count_animation <= 12){
@@ -5910,6 +5919,7 @@ v3 = function(){
                           opacity: 1
                         });
 // Фаза 1.6
+                        jQuery('.status_percent').text('10%');
                         count_animation = 0;
                         phaseOne = setInterval(function(){
                           if (count_animation <= 12){
@@ -5962,6 +5972,7 @@ v3 = function(){
                               opacity: 1
                             });
 // Фаза 1.7
+                            jQuery('.status_percent').text('12%');
                             count_animation = 0;
                             phaseOne = setInterval(function(){
                               if (count_animation <= 12){
@@ -6014,6 +6025,7 @@ v3 = function(){
                                   opacity: 1
                                 });
 // Фаза 1.8
+                                jQuery('.status_percent').text('14%');
                                 count_animation = 0;
                                 phaseOne = setInterval(function(){
                                   if (count_animation <= 12){
@@ -6066,6 +6078,7 @@ v3 = function(){
                                       opacity: 1
                                     });
 // Фаза 1.9
+                                    jQuery('.status_percent').text('16%');
                                     console.log('Фаза 1/2');
                                     count_animation = 0;
                                     phaseOne = setInterval(function(){
@@ -6119,6 +6132,7 @@ v3 = function(){
                                           opacity: 1
                                         });
 // Фаза 1.10
+                                        jQuery('.status_percent').text('18%');
                                         count_animation = 0;
                                         phaseOne = setInterval(function(){
                                           if (count_animation <= 12){
@@ -6171,6 +6185,7 @@ v3 = function(){
                                               opacity: 1
                                             });
 // Фаза 1.11
+                                            jQuery('.status_percent').text('20%');
                                             count_animation = 0;
                                             phaseOne = setInterval(function(){
                                               if (count_animation <= 12){
@@ -6223,6 +6238,7 @@ v3 = function(){
                                                   opacity: 1
                                                 });
 // Фаза 1.12
+                                                jQuery('.status_percent').text('22%');
                                                 count_animation = 0;
                                                 phaseOne = setInterval(function(){
                                                   if (count_animation <= 12){
@@ -6275,6 +6291,7 @@ v3 = function(){
                                                       opacity: 1
                                                     });
 // Фаза 1.13
+                                                    jQuery('.status_percent').text('24%');
                                                     count_animation = 0;
                                                     phaseOne = setInterval(function(){
                                                       if (count_animation <= 12){
@@ -6327,6 +6344,7 @@ v3 = function(){
                                                           opacity: 1
                                                         });
 // Фаза 1.14
+                                                        jQuery('.status_percent').text('26%');
                                                         count_animation = 0;
                                                         phaseOne = setInterval(function(){
                                                           if (count_animation <= 12){
@@ -6379,6 +6397,7 @@ v3 = function(){
                                                               opacity: 1
                                                             });
 // Фаза 1.15
+                                                            jQuery('.status_percent').text('28%');
                                                             count_animation = 0;
                                                             phaseOne = setInterval(function(){
                                                               if (count_animation <= 12){
@@ -6431,6 +6450,7 @@ v3 = function(){
                                                                   opacity: 1
                                                                 });
 // Фаза 1.16
+                                                                jQuery('.status_percent').text('30%');
                                                                 count_animation = 0;
                                                                 phaseOne = setInterval(function(){
                                                                   if (count_animation <= 12){
@@ -6519,6 +6539,8 @@ v3 = function(){
   }).then(function(next) {
 // Фаза 2.1
     console.log('Фаза 2/1');
+    jQuery('.status_percent').text('32%');
+    jQuery('.status_pahaze_now').text('2');
     r_top = jQuery('.draggable_s2').css('top');
     r_bottom = jQuery('.draggable_s3').css('top');
     l_top = jQuery('.draggable_s4').css('top');
@@ -6568,6 +6590,7 @@ v3 = function(){
           opacity: 1
         });
 // Фаза 2.2
+        jQuery('.status_percent').text('34%');
         count_animation = 0;
         phaseOne = setInterval(function(){
           if (count_animation <= 12){
@@ -6613,6 +6636,7 @@ v3 = function(){
               opacity: 1
             });
 // Фаза 2.3
+            jQuery('.status_percent').text('36%');
             count_animation = 0;
             phaseOne = setInterval(function(){
               if (count_animation <= 12){
@@ -6658,6 +6682,7 @@ v3 = function(){
                   opacity: 1
                 });
 // Фаза 2.4
+                jQuery('.status_percent').text('38%');
                 count_animation = 0;
                 phaseOne = setInterval(function(){
                   if (count_animation <= 12){
@@ -6703,6 +6728,7 @@ v3 = function(){
                       opacity: 1
                     });
 // Фаза 2.5
+                    jQuery('.status_percent').text('40%');
                     count_animation = 0;
                     phaseOne = setInterval(function(){
                       if (count_animation <= 12){
@@ -6748,6 +6774,7 @@ v3 = function(){
                           opacity: 1
                         });
 // Фаза 2.6
+                        jQuery('.status_percent').text('42%');
                         count_animation = 0;
                         phaseOne = setInterval(function(){
                           if (count_animation <= 12){
@@ -6793,6 +6820,7 @@ v3 = function(){
                               opacity: 1
                             });
 // Фаза 2.7
+                            jQuery('.status_percent').text('44%');
                             count_animation = 0;
                             phaseOne = setInterval(function(){
                               if (count_animation <= 12){
@@ -6838,6 +6866,7 @@ v3 = function(){
                                   opacity: 1
                                 });
 // Фаза 2.8
+                                jQuery('.status_percent').text('46%');
                                 count_animation = 0;
                                 phaseOne = setInterval(function(){
                                   if (count_animation <= 12){
@@ -6883,6 +6912,7 @@ v3 = function(){
                                       opacity: 1
                                     });
 // Фаза 2.9
+                                    jQuery('.status_percent').text('48%');
                                     console.log('Фаза 2/2');
                                     count_animation = 0;
                                     phaseOne = setInterval(function(){
@@ -6929,6 +6959,7 @@ v3 = function(){
                                           opacity: 1
                                         });
 // Фаза 2.10
+                                        jQuery('.status_percent').text('50%');
                                         count_animation = 0;
                                         phaseOne = setInterval(function(){
                                           if (count_animation <= 12){
@@ -6974,6 +7005,7 @@ v3 = function(){
                                               opacity: 1
                                             });
 // Фаза 2.11
+                                            jQuery('.status_percent').text('52%');
                                             count_animation = 0;
                                             phaseOne = setInterval(function(){
                                               if (count_animation <= 12){
@@ -7019,6 +7051,7 @@ v3 = function(){
                                                   opacity: 1
                                                 });
 // Фаза 2.12
+                                                jQuery('.status_percent').text('54%');
                                                 count_animation = 0;
                                                 phaseOne = setInterval(function(){
                                                   if (count_animation <= 12){
@@ -7064,6 +7097,7 @@ v3 = function(){
                                                       opacity: 1
                                                     });
 // Фаза 2.13
+                                                    jQuery('.status_percent').text('56%');
                                                     count_animation = 0;
                                                     phaseOne = setInterval(function(){
                                                       if (count_animation <= 12){
@@ -7109,6 +7143,7 @@ v3 = function(){
                                                           opacity: 1
                                                         });
 // Фаза 2.14
+                                                        jQuery('.status_percent').text('58%');
                                                         count_animation = 0;
                                                         phaseOne = setInterval(function(){
                                                           if (count_animation <= 12){
@@ -7154,6 +7189,7 @@ v3 = function(){
                                                               opacity: 1
                                                             });
 // Фаза 2.15
+                                                            jQuery('.status_percent').text('60%');
                                                             count_animation = 0;
                                                             phaseOne = setInterval(function(){
                                                               if (count_animation <= 12){
@@ -7199,6 +7235,7 @@ v3 = function(){
                                                                   opacity: 1
                                                                 });
 // Фаза 2.16
+                                                                jQuery('.status_percent').text('62%');
                                                                 count_animation = 0;
                                                                 phaseOne = setInterval(function(){
                                                                   if (count_animation <= 12){
@@ -7279,8 +7316,10 @@ v3 = function(){
       }
     }, 1000);
   }).then(function(next) {
-    console.log('Фаза 3');
 // Фаза 3.1
+    console.log('Фаза 3');
+    jQuery('.status_percent').text('64%');
+    jQuery('.status_pahaze_now').text('3');
     x1 = jQuery('.draggable_v0').css('top');
     x2 = jQuery('.draggable_v1').css('top');
     x3 = jQuery('.draggable_d2').css('top');
@@ -7323,6 +7362,7 @@ v3 = function(){
           rotate_lovushka += 26
         } else if (count_animation <= 48) {
           rotate_lovushka += 25
+          jQuery('.status_percent').text('66%');
         } else if (count_animation <= 52) {
           rotate_lovushka += 24
         } else if (count_animation <= 56) {
@@ -7349,6 +7389,7 @@ v3 = function(){
           rotate_lovushka += 13
         } else if (count_animation <= 100) {
           jQuery('.zone_x').css('top', x2);
+          jQuery('.status_percent').text('68%');
           rotate_lovushka += 12
         } else if (count_animation <= 104) {
           rotate_lovushka += 11
@@ -7389,6 +7430,8 @@ v3 = function(){
     }, 1000);
   }).then(function(next) {
     console.log('Фаза 4/1');
+    jQuery('.status_pahaze_now').text('4');
+    jQuery('.status_percent').text('70%');
 // Фаза 4.1.1
     rotate_one = 0;
     phaseOne = setInterval(function(){
@@ -7413,6 +7456,7 @@ v3 = function(){
         });
         count_animation = 0;
 // Фаза 4.1.2
+        jQuery('.status_percent').text('72%');
         rotate_one = 10;
         phaseOne = setInterval(function(){
           if (count_animation <= 53){
@@ -7436,6 +7480,7 @@ v3 = function(){
             });
             count_animation = 0;
 // Фаза 4.1.3
+            jQuery('.status_percent').text('74%');
             rotate_one = 270;
             phaseOne = setInterval(function(){
               if (count_animation <= 60){
@@ -7459,6 +7504,7 @@ v3 = function(){
                 });
                 count_animation = 0;
 // Фаза 4.1.4
+                jQuery('.status_percent').text('76%');
                 rotate_one = 300;
                 phaseOne = setInterval(function(){
                   if (count_animation <= 40){
@@ -7482,6 +7528,7 @@ v3 = function(){
                     });
                     count_animation = 0;
 // Фаза 4.2.1
+                    jQuery('.status_percent').text('78%');
                     rotate_one = 0;
                     phaseOne = setInterval(function(){
                       if (count_animation <= 22){
@@ -7505,6 +7552,7 @@ v3 = function(){
                         });
                         count_animation = 0;
 // Фаза 4.2.2
+                        jQuery('.status_percent').text('80%');
                         rotate_one = 10;
                         phaseOne = setInterval(function(){
                           if (count_animation <= 53){
@@ -7528,6 +7576,7 @@ v3 = function(){
                             });
                             count_animation = 0;
 // Фаза 4.2.3
+                            jQuery('.status_percent').text('82%');
                             rotate_one = 270;
                             phaseOne = setInterval(function(){
                               if (count_animation <= 60){
@@ -7551,6 +7600,7 @@ v3 = function(){
                                 });
                                 count_animation = 0;
 // Фаза 4.2.4
+                                jQuery('.status_percent').text('84%');
                                 rotate_one = 300;
                                 phaseOne = setInterval(function(){
                                   if (count_animation <= 40){
@@ -7574,6 +7624,7 @@ v3 = function(){
                                     });
                                     count_animation = 0;
 // Фаза 4.3.1
+                                    jQuery('.status_percent').text('86%');
                                     rotate_one = 0;
                                     phaseOne = setInterval(function(){
                                       if (count_animation <= 22){
@@ -7597,6 +7648,7 @@ v3 = function(){
                                         });
                                         count_animation = 0;
 // Фаза 4.3.2
+                                        jQuery('.status_percent').text('88%');
                                         rotate_one = 10;
                                         phaseOne = setInterval(function(){
                                           if (count_animation <= 53){
@@ -7620,6 +7672,7 @@ v3 = function(){
                                             });
                                             count_animation = 0;
 // Фаза 4.3.3
+                                            jQuery('.status_percent').text('90%');
                                             rotate_one = 270;
                                             phaseOne = setInterval(function(){
                                               if (count_animation <= 60){
@@ -7643,6 +7696,7 @@ v3 = function(){
                                                 });
                                                 count_animation = 0;
 // Фаза 4.3.4
+                                                jQuery('.status_percent').text('92%');
                                                 rotate_one = 300;
                                                 phaseOne = setInterval(function(){
                                                   if (count_animation <= 40){
@@ -7692,6 +7746,8 @@ v3 = function(){
     }, 1000);
   }).then(function(next) {
 // Фаза 5.1
+    jQuery('.status_pahaze_now').text('5');
+    jQuery('.status_percent').text('94%');
     jQuery('.zone_x, .zone_l').addClass('hidden').css('transform', 'scale(1)');
     count_animation = 0;
     console.log('Фаза 5.1');
@@ -7719,6 +7775,7 @@ v3 = function(){
         count_animation = 0;
 // Фаза 5.2
         console.log('Фаза 5.2');
+        jQuery('.status_percent').text('96%');
         phaseOne = setInterval(function(){
           if (count_animation <= 34){
             if (count_animation <= 17) {
@@ -7750,6 +7807,7 @@ v3 = function(){
     count_animation = 0;
     // Фаза 6
     console.log('Фаза 6');
+    jQuery('.status_percent').text('98%');
     phaseOne = setInterval(function(){
       if (count_animation <= 80){
         jQuery('.draggable_v5, .draggable_v-, .draggable_v3, .draggable_v0').css({
@@ -7774,24 +7832,18 @@ v3 = function(){
           opacity: 1
         });
         count_animation = 0;
+        jQuery('.status_percent').text('100%');
         onEnd();
       }
     }, 1000);
   });
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
+////////////////////////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////////////////////////
 
 
 
