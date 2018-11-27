@@ -12276,7 +12276,7 @@ drenag = function(){
           jQuery('.draggable_v1').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/vater.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/veter.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v1').css('top'));
@@ -12290,7 +12290,7 @@ drenag = function(){
           jQuery('.draggable_d2').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/vater.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/veter.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_d2').css('top'));
@@ -12304,7 +12304,7 @@ drenag = function(){
           jQuery('.draggable_d3').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/vater.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/veter.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_d3').css('top'));
@@ -12318,7 +12318,7 @@ drenag = function(){
           jQuery('.draggable_d4').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/vater.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/veter.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_d4').css('top'));
@@ -12332,7 +12332,7 @@ drenag = function(){
           jQuery('.draggable_d5').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/vater.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/veter.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_d5').css('top'));
@@ -12346,7 +12346,7 @@ drenag = function(){
           jQuery('.draggable_d6').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/vater.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/veter.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_d6').css('top'));
@@ -12361,7 +12361,7 @@ drenag = function(){
           jQuery('.draggable_v1').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/vater.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/veter.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v1').css('top'));
@@ -12375,7 +12375,7 @@ drenag = function(){
           jQuery('.draggable_d2').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/vater.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/veter.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_d2').css('top'));
@@ -12389,7 +12389,7 @@ drenag = function(){
           jQuery('.draggable_d3').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/vater.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/veter.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_d3').css('top'));
@@ -12403,7 +12403,7 @@ drenag = function(){
           jQuery('.draggable_d4').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/vater.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/veter.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_d4').css('top'));
@@ -12417,7 +12417,7 @@ drenag = function(){
           jQuery('.draggable_d5').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/vater.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/veter.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_d5').css('top'));
@@ -12431,7 +12431,7 @@ drenag = function(){
           jQuery('.draggable_d6').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/vater.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/veter.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_d6').css('top'));
@@ -12446,7 +12446,7 @@ drenag = function(){
           jQuery('.draggable_v1').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/vater.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/veter.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v1').css('top'));
@@ -12460,7 +12460,7 @@ drenag = function(){
           jQuery('.draggable_d2').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/vater.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/veter.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_d2').css('top'));
@@ -12474,7 +12474,7 @@ drenag = function(){
           jQuery('.draggable_d3').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/vater.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/veter.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_d3').css('top'));
@@ -12488,7 +12488,7 @@ drenag = function(){
           jQuery('.draggable_d4').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/vater.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/veter.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_d4').css('top'));
@@ -12502,7 +12502,7 @@ drenag = function(){
           jQuery('.draggable_d5').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/vater.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/veter.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_d5').css('top'));
@@ -12516,7 +12516,7 @@ drenag = function(){
           jQuery('.draggable_d6').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/vater.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/veter.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_d6').css('top'));
@@ -12531,7 +12531,7 @@ drenag = function(){
           jQuery('.draggable_v1').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/vater.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/veter.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v1').css('top'));
@@ -12545,7 +12545,7 @@ drenag = function(){
           jQuery('.draggable_d2').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/vater.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/veter.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_d2').css('top'));
@@ -12559,7 +12559,7 @@ drenag = function(){
           jQuery('.draggable_d3').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/vater.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/veter.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_d3').css('top'));
@@ -12573,7 +12573,7 @@ drenag = function(){
           jQuery('.draggable_d4').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/vater.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/veter.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_d4').css('top'));
@@ -12587,7 +12587,7 @@ drenag = function(){
           jQuery('.draggable_d5').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/vater.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/veter.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_d5').css('top'));
@@ -12601,18 +12601,17 @@ drenag = function(){
           jQuery('.draggable_d6').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/vater.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/veter.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_d6').css('top'));
-        } else {
-          jQuery('.draggable_d6').css({
-            color: '#FFF0C7',
-            transform: 'scale(1)',
-            background: 'rgba(83, 35, 69, 0.4)',
-            opacity: 1
-          });
         }
+        jQuery('.draggable_d6').css({
+          color: '#FFF0C7',
+          transform: 'scale(1)',
+          background: 'rgba(83, 35, 69, 0.4)',
+          opacity: 1
+        });
         jQuery('.zone_x').css('transform', 'scale(1.3) rotate('+rotate_one+'deg)');
         jQuery('.zone_l').css('transform', 'scale(1.3) rotate(-'+rotate_two+'deg)');
         count_animation += 1;
@@ -12634,7 +12633,7 @@ drenag = function(){
           jQuery('.draggable_v0').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/vater.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/veter.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v1').css('top'));
@@ -12648,7 +12647,7 @@ drenag = function(){
           jQuery('.draggable_v2').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/vater.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/veter.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v2').css('top'));
@@ -12662,7 +12661,7 @@ drenag = function(){
           jQuery('.draggable_v4').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/vater.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/veter.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v4').css('top'));
@@ -12676,7 +12675,7 @@ drenag = function(){
           jQuery('.draggable_v5').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/vater.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/veter.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v5').css('top'));
@@ -12690,7 +12689,7 @@ drenag = function(){
           jQuery('.draggable_v-').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/vater.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/veter.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v-').css('top'));
@@ -12705,7 +12704,7 @@ drenag = function(){
           jQuery('.draggable_v0').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/vater.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/veter.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v0').css('top'));
@@ -12719,7 +12718,7 @@ drenag = function(){
           jQuery('.draggable_v2').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/vater.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/veter.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v2').css('top'));
@@ -12733,7 +12732,7 @@ drenag = function(){
           jQuery('.draggable_v4').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/vater.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/veter.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v4').css('top'));
@@ -12747,7 +12746,7 @@ drenag = function(){
           jQuery('.draggable_v5').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/vater.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/veter.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v5').css('top'));
@@ -12761,7 +12760,7 @@ drenag = function(){
           jQuery('.draggable_v-').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/vater.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/veter.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v-').css('top'));
@@ -12776,7 +12775,7 @@ drenag = function(){
           jQuery('.draggable_v0').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/vater.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/veter.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v0').css('top'));
@@ -12790,7 +12789,7 @@ drenag = function(){
           jQuery('.draggable_v2').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/vater.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/veter.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v2').css('top'));
@@ -12804,7 +12803,7 @@ drenag = function(){
           jQuery('.draggable_v4').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/vater.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/veter.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v4').css('top'));
@@ -12818,7 +12817,7 @@ drenag = function(){
           jQuery('.draggable_v5').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/vater.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/veter.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v5').css('top'));
@@ -12832,7 +12831,7 @@ drenag = function(){
           jQuery('.draggable_v-').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/vater.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/veter.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v-').css('top'));
@@ -12847,7 +12846,7 @@ drenag = function(){
           jQuery('.draggable_v0').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/vater.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/veter.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v0').css('top'));
@@ -12861,7 +12860,7 @@ drenag = function(){
           jQuery('.draggable_v2').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/vater.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/veter.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v2').css('top'));
@@ -12875,7 +12874,7 @@ drenag = function(){
           jQuery('.draggable_v4').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/vater.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/veter.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v4').css('top'));
@@ -12889,7 +12888,7 @@ drenag = function(){
           jQuery('.draggable_v5').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/vater.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/veter.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v5').css('top'));
@@ -12903,7 +12902,7 @@ drenag = function(){
           jQuery('.draggable_v-').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/vater.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/veter.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v-').css('top'));
@@ -12918,7 +12917,7 @@ drenag = function(){
           jQuery('.draggable_v0').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/vater.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/veter.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v0').css('top'));
@@ -12932,7 +12931,7 @@ drenag = function(){
           jQuery('.draggable_v2').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/vater.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/veter.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v2').css('top'));
@@ -12946,7 +12945,7 @@ drenag = function(){
           jQuery('.draggable_v4').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/vater.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/veter.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v4').css('top'));
@@ -12960,18 +12959,17 @@ drenag = function(){
           jQuery('.draggable_v5').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/vater.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/veter.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v5').css('top'));
-        } else {
-          jQuery('.draggable_v5').css({
-            color: '#FFF0C7',
-            transform: 'scale(1)',
-            background: 'rgba(83, 35, 69, 0.4)',
-            opacity: 1
-          });
         }
+        jQuery('.draggable_v5').css({
+          color: '#FFF0C7',
+          transform: 'scale(1)',
+          background: 'rgba(83, 35, 69, 0.4)',
+          opacity: 1
+        });
         jQuery('.zone_x').css('transform', 'scale(1.3) rotate('+rotate_one+'deg)');
         jQuery('.zone_l').css('transform', 'scale(1.3) rotate(-'+rotate_two+'deg)');
         count_animation += 1;
@@ -12994,7 +12992,7 @@ drenag = function(){
           jQuery('.draggable_v1').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/vater.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/veter.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v1').css('top'));
@@ -13008,7 +13006,7 @@ drenag = function(){
           jQuery('.draggable_s2').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/vater.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/veter.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_s2').css('top'));
@@ -13022,7 +13020,7 @@ drenag = function(){
           jQuery('.draggable_s3').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/vater.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/veter.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_s3').css('top'));
@@ -13036,7 +13034,7 @@ drenag = function(){
           jQuery('.draggable_s4').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/vater.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/veter.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_s4').css('top'));
@@ -13050,7 +13048,7 @@ drenag = function(){
           jQuery('.draggable_s5').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/vater.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/veter.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_s5').css('top'));
@@ -13064,7 +13062,7 @@ drenag = function(){
           jQuery('.draggable_s6').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/vater.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/veter.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_s6').css('top'));
@@ -13079,7 +13077,7 @@ drenag = function(){
           jQuery('.draggable_v1').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/vater.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/veter.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v1').css('top'));
@@ -13093,7 +13091,7 @@ drenag = function(){
           jQuery('.draggable_s2').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/vater.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/veter.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_s2').css('top'));
@@ -13107,7 +13105,7 @@ drenag = function(){
           jQuery('.draggable_s3').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/vater.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/veter.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_s3').css('top'));
@@ -13121,7 +13119,7 @@ drenag = function(){
           jQuery('.draggable_s4').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/vater.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/veter.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_s4').css('top'));
@@ -13135,7 +13133,7 @@ drenag = function(){
           jQuery('.draggable_s5').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/vater.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/veter.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_s5').css('top'));
@@ -13149,7 +13147,7 @@ drenag = function(){
           jQuery('.draggable_s6').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/vater.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/veter.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_s6').css('top'));
@@ -13164,7 +13162,7 @@ drenag = function(){
           jQuery('.draggable_v1').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/vater.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/veter.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v1').css('top'));
@@ -13178,7 +13176,7 @@ drenag = function(){
           jQuery('.draggable_s2').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/vater.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/veter.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_s2').css('top'));
@@ -13192,7 +13190,7 @@ drenag = function(){
           jQuery('.draggable_s3').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/vater.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/veter.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_s3').css('top'));
@@ -13206,7 +13204,7 @@ drenag = function(){
           jQuery('.draggable_s4').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/vater.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/veter.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_s4').css('top'));
@@ -13220,7 +13218,7 @@ drenag = function(){
           jQuery('.draggable_s5').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/vater.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/veter.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_s5').css('top'));
@@ -13234,7 +13232,7 @@ drenag = function(){
           jQuery('.draggable_s6').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/vater.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/veter.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_s6').css('top'));
@@ -13249,7 +13247,7 @@ drenag = function(){
           jQuery('.draggable_v1').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/vater.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/veter.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v1').css('top'));
@@ -13263,7 +13261,7 @@ drenag = function(){
           jQuery('.draggable_s2').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/vater.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/veter.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_s2').css('top'));
@@ -13277,7 +13275,7 @@ drenag = function(){
           jQuery('.draggable_s3').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/vater.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/veter.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_s3').css('top'));
@@ -13291,7 +13289,7 @@ drenag = function(){
           jQuery('.draggable_s4').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/vater.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/veter.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_s4').css('top'));
@@ -13305,7 +13303,7 @@ drenag = function(){
           jQuery('.draggable_s5').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/vater.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/veter.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_s5').css('top'));
@@ -13319,18 +13317,17 @@ drenag = function(){
           jQuery('.draggable_s6').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/vater.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/veter.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_s6').css('top'));
-        } else {
-          jQuery('.draggable_s6').css({
-            color: '#FFF0C7',
-            transform: 'scale(1)',
-            background: 'rgba(83, 35, 69, 0.4)',
-            opacity: 1
-          });
         }
+        jQuery('.draggable_s6').css({
+          color: '#FFF0C7',
+          transform: 'scale(1)',
+          background: 'rgba(83, 35, 69, 0.4)',
+          opacity: 1
+        });
         jQuery('.zone_x').css('transform', 'scale(1.3) rotate('+rotate_one+'deg)');
         jQuery('.zone_l').css('transform', 'scale(1.3) rotate(-'+rotate_two+'deg)');
         count_animation += 1;
@@ -13353,7 +13350,7 @@ drenag = function(){
           jQuery('.draggable_v1').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/vater.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/veter.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v1').css('top'));
@@ -13367,7 +13364,7 @@ drenag = function(){
           jQuery('.draggable_d2').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/vater.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/veter.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_d2').css('top'));
@@ -13381,7 +13378,7 @@ drenag = function(){
           jQuery('.draggable_d3').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/vater.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/veter.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_d3').css('top'));
@@ -13395,7 +13392,7 @@ drenag = function(){
           jQuery('.draggable_d4').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/vater.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/veter.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_d4').css('top'));
@@ -13409,7 +13406,7 @@ drenag = function(){
           jQuery('.draggable_d5').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/vater.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/veter.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_d5').css('top'));
@@ -13423,7 +13420,7 @@ drenag = function(){
           jQuery('.draggable_d6').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/vater.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/veter.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_d6').css('top'));
@@ -13438,7 +13435,7 @@ drenag = function(){
           jQuery('.draggable_v1').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/vater.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/veter.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v1').css('top'));
@@ -13452,7 +13449,7 @@ drenag = function(){
           jQuery('.draggable_d2').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/vater.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/veter.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_d2').css('top'));
@@ -13466,7 +13463,7 @@ drenag = function(){
           jQuery('.draggable_d3').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/vater.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/veter.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_d3').css('top'));
@@ -13480,7 +13477,7 @@ drenag = function(){
           jQuery('.draggable_d4').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/vater.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/veter.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_d4').css('top'));
@@ -13494,7 +13491,7 @@ drenag = function(){
           jQuery('.draggable_d5').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/vater.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/veter.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_d5').css('top'));
@@ -13508,7 +13505,7 @@ drenag = function(){
           jQuery('.draggable_d6').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/vater.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/veter.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_d6').css('top'));
@@ -13523,7 +13520,7 @@ drenag = function(){
           jQuery('.draggable_v1').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/vater.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/veter.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v1').css('top'));
@@ -13537,7 +13534,7 @@ drenag = function(){
           jQuery('.draggable_d2').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/vater.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/veter.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_d2').css('top'));
@@ -13551,7 +13548,7 @@ drenag = function(){
           jQuery('.draggable_d3').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/vater.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/veter.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_d3').css('top'));
@@ -13565,7 +13562,7 @@ drenag = function(){
           jQuery('.draggable_d4').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/vater.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/veter.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_d4').css('top'));
@@ -13579,7 +13576,7 @@ drenag = function(){
           jQuery('.draggable_d5').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/vater.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/veter.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_d5').css('top'));
@@ -13593,7 +13590,7 @@ drenag = function(){
           jQuery('.draggable_d6').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/vater.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/veter.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_d6').css('top'));
@@ -13608,7 +13605,7 @@ drenag = function(){
           jQuery('.draggable_v1').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/vater.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/veter.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v1').css('top'));
@@ -13622,7 +13619,7 @@ drenag = function(){
           jQuery('.draggable_d2').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/vater.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/veter.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_d2').css('top'));
@@ -13636,7 +13633,7 @@ drenag = function(){
           jQuery('.draggable_d3').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/vater.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/veter.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_d3').css('top'));
@@ -13650,7 +13647,7 @@ drenag = function(){
           jQuery('.draggable_d4').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/vater.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/veter.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_d4').css('top'));
@@ -13664,7 +13661,7 @@ drenag = function(){
           jQuery('.draggable_d5').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/vater.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/veter.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_d5').css('top'));
@@ -13678,18 +13675,17 @@ drenag = function(){
           jQuery('.draggable_d6').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/vater.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/veter.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_d6').css('top'));
-        } else {
-          jQuery('.draggable_d6').css({
-            color: '#FFF0C7',
-            transform: 'scale(1)',
-            background: 'rgba(83, 35, 69, 0.4)',
-            opacity: 1
-          });
         }
+        jQuery('.draggable_d6').css({
+          color: '#FFF0C7',
+          transform: 'scale(1)',
+          background: 'rgba(83, 35, 69, 0.4)',
+          opacity: 1
+        });
         jQuery('.zone_x').css('transform', 'scale(1.3) rotate('+rotate_one+'deg)');
         jQuery('.zone_l').css('transform', 'scale(1.3) rotate(-'+rotate_two+'deg)');
         count_animation += 1;
@@ -13711,7 +13707,7 @@ drenag = function(){
           jQuery('.draggable_v0').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/vater.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/veter.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v1').css('top'));
@@ -13725,7 +13721,7 @@ drenag = function(){
           jQuery('.draggable_v2').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/vater.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/veter.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v2').css('top'));
@@ -13739,7 +13735,7 @@ drenag = function(){
           jQuery('.draggable_v4').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/vater.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/veter.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v4').css('top'));
@@ -13753,7 +13749,7 @@ drenag = function(){
           jQuery('.draggable_v5').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/vater.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/veter.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v5').css('top'));
@@ -13767,7 +13763,7 @@ drenag = function(){
           jQuery('.draggable_v-').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/vater.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/veter.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v-').css('top'));
@@ -13782,7 +13778,7 @@ drenag = function(){
           jQuery('.draggable_v0').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/vater.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/veter.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v0').css('top'));
@@ -13796,7 +13792,7 @@ drenag = function(){
           jQuery('.draggable_v2').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/vater.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/veter.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v2').css('top'));
@@ -13810,7 +13806,7 @@ drenag = function(){
           jQuery('.draggable_v4').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/vater.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/veter.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v4').css('top'));
@@ -13824,7 +13820,7 @@ drenag = function(){
           jQuery('.draggable_v5').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/vater.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/veter.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v5').css('top'));
@@ -13838,7 +13834,7 @@ drenag = function(){
           jQuery('.draggable_v-').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/vater.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/veter.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v-').css('top'));
@@ -13853,7 +13849,7 @@ drenag = function(){
           jQuery('.draggable_v0').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/vater.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/veter.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v0').css('top'));
@@ -13867,7 +13863,7 @@ drenag = function(){
           jQuery('.draggable_v2').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/vater.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/veter.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v2').css('top'));
@@ -13881,7 +13877,7 @@ drenag = function(){
           jQuery('.draggable_v4').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/vater.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/veter.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v4').css('top'));
@@ -13895,7 +13891,7 @@ drenag = function(){
           jQuery('.draggable_v5').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/vater.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/veter.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v5').css('top'));
@@ -13909,7 +13905,7 @@ drenag = function(){
           jQuery('.draggable_v-').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/vater.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/veter.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v-').css('top'));
@@ -13924,7 +13920,7 @@ drenag = function(){
           jQuery('.draggable_v0').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/vater.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/veter.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v0').css('top'));
@@ -13938,7 +13934,7 @@ drenag = function(){
           jQuery('.draggable_v2').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/vater.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/veter.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v2').css('top'));
@@ -13952,7 +13948,7 @@ drenag = function(){
           jQuery('.draggable_v4').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/vater.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/veter.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v4').css('top'));
@@ -13966,7 +13962,7 @@ drenag = function(){
           jQuery('.draggable_v5').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/vater.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/veter.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v5').css('top'));
@@ -13980,7 +13976,7 @@ drenag = function(){
           jQuery('.draggable_v-').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/vater.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/veter.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v-').css('top'));
@@ -13995,7 +13991,7 @@ drenag = function(){
           jQuery('.draggable_v0').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/vater.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/veter.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v0').css('top'));
@@ -14009,7 +14005,7 @@ drenag = function(){
           jQuery('.draggable_v2').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/vater.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/veter.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v2').css('top'));
@@ -14023,7 +14019,7 @@ drenag = function(){
           jQuery('.draggable_v4').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/vater.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/veter.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v4').css('top'));
@@ -14037,18 +14033,17 @@ drenag = function(){
           jQuery('.draggable_v5').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/vater.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/veter.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v5').css('top'));
-        } else {
-          jQuery('.draggable_v5').css({
-            color: '#FFF0C7',
-            transform: 'scale(1)',
-            background: 'rgba(83, 35, 69, 0.4)',
-            opacity: 1
-          });
         }
+        jQuery('.draggable_v5').css({
+          color: '#FFF0C7',
+          transform: 'scale(1)',
+          background: 'rgba(83, 35, 69, 0.4)',
+          opacity: 1
+        });
         jQuery('.zone_x').css('transform', 'scale(1.3) rotate('+rotate_one+'deg)');
         jQuery('.zone_l').css('transform', 'scale(1.3) rotate(-'+rotate_two+'deg)');
         count_animation += 1;
@@ -14071,7 +14066,7 @@ drenag = function(){
           jQuery('.draggable_v1').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/vater.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/veter.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v1').css('top'));
@@ -14085,7 +14080,7 @@ drenag = function(){
           jQuery('.draggable_s2').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/vater.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/veter.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_s2').css('top'));
@@ -14099,7 +14094,7 @@ drenag = function(){
           jQuery('.draggable_s3').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/vater.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/veter.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_s3').css('top'));
@@ -14113,7 +14108,7 @@ drenag = function(){
           jQuery('.draggable_s4').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/vater.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/veter.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_s4').css('top'));
@@ -14127,7 +14122,7 @@ drenag = function(){
           jQuery('.draggable_s5').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/vater.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/veter.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_s5').css('top'));
@@ -14141,7 +14136,7 @@ drenag = function(){
           jQuery('.draggable_s6').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/vater.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/veter.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_s6').css('top'));
@@ -14156,7 +14151,7 @@ drenag = function(){
           jQuery('.draggable_v1').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/vater.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/veter.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v1').css('top'));
@@ -14170,7 +14165,7 @@ drenag = function(){
           jQuery('.draggable_s2').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/vater.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/veter.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_s2').css('top'));
@@ -14184,7 +14179,7 @@ drenag = function(){
           jQuery('.draggable_s3').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/vater.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/veter.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_s3').css('top'));
@@ -14198,7 +14193,7 @@ drenag = function(){
           jQuery('.draggable_s4').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/vater.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/veter.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_s4').css('top'));
@@ -14212,7 +14207,7 @@ drenag = function(){
           jQuery('.draggable_s5').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/vater.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/veter.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_s5').css('top'));
@@ -14226,7 +14221,7 @@ drenag = function(){
           jQuery('.draggable_s6').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/vater.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/veter.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_s6').css('top'));
@@ -14241,7 +14236,7 @@ drenag = function(){
           jQuery('.draggable_v1').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/vater.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/veter.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v1').css('top'));
@@ -14255,7 +14250,7 @@ drenag = function(){
           jQuery('.draggable_s2').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/vater.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/veter.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_s2').css('top'));
@@ -14269,7 +14264,7 @@ drenag = function(){
           jQuery('.draggable_s3').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/vater.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/veter.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_s3').css('top'));
@@ -14283,7 +14278,7 @@ drenag = function(){
           jQuery('.draggable_s4').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/vater.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/veter.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_s4').css('top'));
@@ -14297,7 +14292,7 @@ drenag = function(){
           jQuery('.draggable_s5').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/vater.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/veter.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_s5').css('top'));
@@ -14311,7 +14306,7 @@ drenag = function(){
           jQuery('.draggable_s6').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/vater.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/veter.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_s6').css('top'));
@@ -14326,7 +14321,7 @@ drenag = function(){
           jQuery('.draggable_v1').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/vater.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/veter.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v1').css('top'));
@@ -14340,7 +14335,7 @@ drenag = function(){
           jQuery('.draggable_s2').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/vater.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/veter.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_s2').css('top'));
@@ -14354,7 +14349,7 @@ drenag = function(){
           jQuery('.draggable_s3').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/vater.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/veter.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_s3').css('top'));
@@ -14368,7 +14363,7 @@ drenag = function(){
           jQuery('.draggable_s4').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/vater.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/veter.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_s4').css('top'));
@@ -14382,7 +14377,7 @@ drenag = function(){
           jQuery('.draggable_s5').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/vater.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/veter.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_s5').css('top'));
@@ -14396,18 +14391,17 @@ drenag = function(){
           jQuery('.draggable_s6').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/vater.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/veter.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_s6').css('top'));
-        } else {
-          jQuery('.draggable_s6').css({
-            color: '#FFF0C7',
-            transform: 'scale(1)',
-            background: 'rgba(83, 35, 69, 0.4)',
-            opacity: 1
-          });
         }
+        jQuery('.draggable_s6').css({
+          color: '#FFF0C7',
+          transform: 'scale(1)',
+          background: 'rgba(83, 35, 69, 0.4)',
+          opacity: 1
+        });
         jQuery('.zone_x').css('transform', 'scale(1.3) rotate('+rotate_one+'deg)');
         jQuery('.zone_l').css('transform', 'scale(1.3) rotate(-'+rotate_two+'deg)');
         count_animation += 1;
@@ -14430,7 +14424,7 @@ drenag = function(){
           jQuery('.draggable_v1').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/vater.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/veter.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v1').css('top'));
@@ -14444,7 +14438,7 @@ drenag = function(){
           jQuery('.draggable_d2').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/vater.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/veter.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_d2').css('top'));
@@ -14458,7 +14452,7 @@ drenag = function(){
           jQuery('.draggable_d3').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/vater.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/veter.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_d3').css('top'));
@@ -14472,7 +14466,7 @@ drenag = function(){
           jQuery('.draggable_d4').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/vater.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/veter.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_d4').css('top'));
@@ -14486,7 +14480,7 @@ drenag = function(){
           jQuery('.draggable_d5').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/vater.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/veter.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_d5').css('top'));
@@ -14500,7 +14494,7 @@ drenag = function(){
           jQuery('.draggable_d6').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/vater.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/veter.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_d6').css('top'));
@@ -14515,7 +14509,7 @@ drenag = function(){
           jQuery('.draggable_v1').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/vater.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/veter.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v1').css('top'));
@@ -14529,7 +14523,7 @@ drenag = function(){
           jQuery('.draggable_d2').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/vater.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/veter.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_d2').css('top'));
@@ -14543,7 +14537,7 @@ drenag = function(){
           jQuery('.draggable_d3').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/vater.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/veter.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_d3').css('top'));
@@ -14557,7 +14551,7 @@ drenag = function(){
           jQuery('.draggable_d4').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/vater.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/veter.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_d4').css('top'));
@@ -14571,7 +14565,7 @@ drenag = function(){
           jQuery('.draggable_d5').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/vater.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/veter.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_d5').css('top'));
@@ -14585,7 +14579,7 @@ drenag = function(){
           jQuery('.draggable_d6').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/vater.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/veter.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_d6').css('top'));
@@ -14600,7 +14594,7 @@ drenag = function(){
           jQuery('.draggable_v1').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/vater.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/veter.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v1').css('top'));
@@ -14614,7 +14608,7 @@ drenag = function(){
           jQuery('.draggable_d2').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/vater.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/veter.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_d2').css('top'));
@@ -14628,7 +14622,7 @@ drenag = function(){
           jQuery('.draggable_d3').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/vater.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/veter.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_d3').css('top'));
@@ -14642,7 +14636,7 @@ drenag = function(){
           jQuery('.draggable_d4').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/vater.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/veter.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_d4').css('top'));
@@ -14656,7 +14650,7 @@ drenag = function(){
           jQuery('.draggable_d5').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/vater.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/veter.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_d5').css('top'));
@@ -14670,7 +14664,7 @@ drenag = function(){
           jQuery('.draggable_d6').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/vater.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/veter.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_d6').css('top'));
@@ -14685,7 +14679,7 @@ drenag = function(){
           jQuery('.draggable_v1').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/vater.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/veter.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v1').css('top'));
@@ -14699,7 +14693,7 @@ drenag = function(){
           jQuery('.draggable_d2').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/vater.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/veter.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_d2').css('top'));
@@ -14713,7 +14707,7 @@ drenag = function(){
           jQuery('.draggable_d3').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/vater.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/veter.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_d3').css('top'));
@@ -14727,7 +14721,7 @@ drenag = function(){
           jQuery('.draggable_d4').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/vater.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/veter.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_d4').css('top'));
@@ -14741,7 +14735,7 @@ drenag = function(){
           jQuery('.draggable_d5').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/vater.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/veter.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_d5').css('top'));
@@ -14755,18 +14749,17 @@ drenag = function(){
           jQuery('.draggable_d6').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/vater.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/veter.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_d6').css('top'));
-        } else {
-          jQuery('.draggable_d6').css({
-            color: '#FFF0C7',
-            transform: 'scale(1)',
-            background: 'rgba(83, 35, 69, 0.4)',
-            opacity: 1
-          });
         }
+        jQuery('.draggable_d6').css({
+          color: '#FFF0C7',
+          transform: 'scale(1)',
+          background: 'rgba(83, 35, 69, 0.4)',
+          opacity: 1
+        });
         jQuery('.zone_x').css('transform', 'scale(1.3) rotate('+rotate_one+'deg)');
         jQuery('.zone_l').css('transform', 'scale(1.3) rotate(-'+rotate_two+'deg)');
         count_animation += 1;
@@ -14788,7 +14781,7 @@ drenag = function(){
           jQuery('.draggable_v0').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/vater.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/veter.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v1').css('top'));
@@ -14802,7 +14795,7 @@ drenag = function(){
           jQuery('.draggable_v2').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/vater.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/veter.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v2').css('top'));
@@ -14816,7 +14809,7 @@ drenag = function(){
           jQuery('.draggable_v4').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/vater.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/veter.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v4').css('top'));
@@ -14830,7 +14823,7 @@ drenag = function(){
           jQuery('.draggable_v5').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/vater.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/veter.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v5').css('top'));
@@ -14844,7 +14837,7 @@ drenag = function(){
           jQuery('.draggable_v-').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/vater.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/veter.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v-').css('top'));
@@ -14859,7 +14852,7 @@ drenag = function(){
           jQuery('.draggable_v0').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/vater.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/veter.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v0').css('top'));
@@ -14873,7 +14866,7 @@ drenag = function(){
           jQuery('.draggable_v2').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/vater.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/veter.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v2').css('top'));
@@ -14887,7 +14880,7 @@ drenag = function(){
           jQuery('.draggable_v4').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/vater.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/veter.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v4').css('top'));
@@ -14901,7 +14894,7 @@ drenag = function(){
           jQuery('.draggable_v5').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/vater.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/veter.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v5').css('top'));
@@ -14915,7 +14908,7 @@ drenag = function(){
           jQuery('.draggable_v-').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/vater.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/veter.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v-').css('top'));
@@ -14930,7 +14923,7 @@ drenag = function(){
           jQuery('.draggable_v0').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/vater.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/veter.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v0').css('top'));
@@ -14944,7 +14937,7 @@ drenag = function(){
           jQuery('.draggable_v2').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/vater.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/veter.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v2').css('top'));
@@ -14958,7 +14951,7 @@ drenag = function(){
           jQuery('.draggable_v4').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/vater.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/veter.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v4').css('top'));
@@ -14972,7 +14965,7 @@ drenag = function(){
           jQuery('.draggable_v5').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/vater.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/veter.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v5').css('top'));
@@ -14986,7 +14979,7 @@ drenag = function(){
           jQuery('.draggable_v-').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/vater.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/veter.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v-').css('top'));
@@ -15001,7 +14994,7 @@ drenag = function(){
           jQuery('.draggable_v0').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/vater.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/veter.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v0').css('top'));
@@ -15015,7 +15008,7 @@ drenag = function(){
           jQuery('.draggable_v2').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/vater.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/veter.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v2').css('top'));
@@ -15029,7 +15022,7 @@ drenag = function(){
           jQuery('.draggable_v4').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/vater.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/veter.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v4').css('top'));
@@ -15043,7 +15036,7 @@ drenag = function(){
           jQuery('.draggable_v5').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/vater.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/veter.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v5').css('top'));
@@ -15057,7 +15050,7 @@ drenag = function(){
           jQuery('.draggable_v-').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/vater.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/veter.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v-').css('top'));
@@ -15072,7 +15065,7 @@ drenag = function(){
           jQuery('.draggable_v0').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/vater.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/veter.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v0').css('top'));
@@ -15086,7 +15079,7 @@ drenag = function(){
           jQuery('.draggable_v2').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/vater.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/veter.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v2').css('top'));
@@ -15100,7 +15093,7 @@ drenag = function(){
           jQuery('.draggable_v4').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/vater.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/veter.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v4').css('top'));
@@ -15114,18 +15107,17 @@ drenag = function(){
           jQuery('.draggable_v5').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/vater.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/veter.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v5').css('top'));
-        } else {
-          jQuery('.draggable_v5').css({
-            color: '#FFF0C7',
-            transform: 'scale(1)',
-            background: 'rgba(83, 35, 69, 0.4)',
-            opacity: 1
-          });
         }
+        jQuery('.draggable_v5').css({
+          color: '#FFF0C7',
+          transform: 'scale(1)',
+          background: 'rgba(83, 35, 69, 0.4)',
+          opacity: 1
+        });
         jQuery('.zone_x').css('transform', 'scale(1.3) rotate('+rotate_one+'deg)');
         jQuery('.zone_l').css('transform', 'scale(1.3) rotate(-'+rotate_two+'deg)');
         count_animation += 1;
@@ -15148,7 +15140,7 @@ drenag = function(){
           jQuery('.draggable_v1').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/vater.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/veter.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v1').css('top'));
@@ -15162,7 +15154,7 @@ drenag = function(){
           jQuery('.draggable_s2').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/vater.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/veter.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_s2').css('top'));
@@ -15176,7 +15168,7 @@ drenag = function(){
           jQuery('.draggable_s3').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/vater.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/veter.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_s3').css('top'));
@@ -15190,7 +15182,7 @@ drenag = function(){
           jQuery('.draggable_s4').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/vater.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/veter.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_s4').css('top'));
@@ -15204,7 +15196,7 @@ drenag = function(){
           jQuery('.draggable_s5').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/vater.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/veter.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_s5').css('top'));
@@ -15218,7 +15210,7 @@ drenag = function(){
           jQuery('.draggable_s6').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/vater.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/veter.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_s6').css('top'));
@@ -15233,7 +15225,7 @@ drenag = function(){
           jQuery('.draggable_v1').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/vater.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/veter.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v1').css('top'));
@@ -15247,7 +15239,7 @@ drenag = function(){
           jQuery('.draggable_s2').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/vater.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/veter.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_s2').css('top'));
@@ -15261,7 +15253,7 @@ drenag = function(){
           jQuery('.draggable_s3').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/vater.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/veter.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_s3').css('top'));
@@ -15275,7 +15267,7 @@ drenag = function(){
           jQuery('.draggable_s4').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/vater.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/veter.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_s4').css('top'));
@@ -15289,7 +15281,7 @@ drenag = function(){
           jQuery('.draggable_s5').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/vater.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/veter.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_s5').css('top'));
@@ -15303,7 +15295,7 @@ drenag = function(){
           jQuery('.draggable_s6').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/vater.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/veter.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_s6').css('top'));
@@ -15318,7 +15310,7 @@ drenag = function(){
           jQuery('.draggable_v1').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/vater.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/veter.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v1').css('top'));
@@ -15332,7 +15324,7 @@ drenag = function(){
           jQuery('.draggable_s2').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/vater.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/veter.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_s2').css('top'));
@@ -15346,7 +15338,7 @@ drenag = function(){
           jQuery('.draggable_s3').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/vater.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/veter.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_s3').css('top'));
@@ -15360,7 +15352,7 @@ drenag = function(){
           jQuery('.draggable_s4').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/vater.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/veter.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_s4').css('top'));
@@ -15374,7 +15366,7 @@ drenag = function(){
           jQuery('.draggable_s5').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/vater.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/veter.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_s5').css('top'));
@@ -15388,7 +15380,7 @@ drenag = function(){
           jQuery('.draggable_s6').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/vater.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/veter.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_s6').css('top'));
@@ -15403,7 +15395,7 @@ drenag = function(){
           jQuery('.draggable_v1').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/vater.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/veter.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v1').css('top'));
@@ -15417,7 +15409,7 @@ drenag = function(){
           jQuery('.draggable_s2').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/vater.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/veter.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_s2').css('top'));
@@ -15431,7 +15423,7 @@ drenag = function(){
           jQuery('.draggable_s3').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/vater.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/veter.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_s3').css('top'));
@@ -15445,7 +15437,7 @@ drenag = function(){
           jQuery('.draggable_s4').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/vater.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/veter.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_s4').css('top'));
@@ -15459,7 +15451,7 @@ drenag = function(){
           jQuery('.draggable_s5').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/vater.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/veter.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_s5').css('top'));
@@ -15473,18 +15465,17 @@ drenag = function(){
           jQuery('.draggable_s6').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/vater.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/veter.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_s6').css('top'));
-        } else {
-          jQuery('.draggable_s6').css({
-            color: '#FFF0C7',
-            transform: 'scale(1)',
-            background: 'rgba(83, 35, 69, 0.4)',
-            opacity: 1
-          });
         }
+        jQuery('.draggable_s6').css({
+          color: '#FFF0C7',
+          transform: 'scale(1)',
+          background: 'rgba(83, 35, 69, 0.4)',
+          opacity: 1
+        });
         jQuery('.zone_x').css('transform', 'scale(1.3) rotate('+rotate_one+'deg)');
         jQuery('.zone_l').css('transform', 'scale(1.3) rotate(-'+rotate_two+'deg)');
         count_animation += 1;
@@ -15507,7 +15498,7 @@ drenag = function(){
           jQuery('.draggable_v1').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/vater.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/veter.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v1').css('top'));
@@ -15521,7 +15512,7 @@ drenag = function(){
           jQuery('.draggable_d2').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/vater.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/veter.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_d2').css('top'));
@@ -15535,7 +15526,7 @@ drenag = function(){
           jQuery('.draggable_d3').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/vater.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/veter.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_d3').css('top'));
@@ -15549,7 +15540,7 @@ drenag = function(){
           jQuery('.draggable_d4').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/vater.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/veter.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_d4').css('top'));
@@ -15563,7 +15554,7 @@ drenag = function(){
           jQuery('.draggable_d5').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/vater.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/veter.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_d5').css('top'));
@@ -15577,7 +15568,7 @@ drenag = function(){
           jQuery('.draggable_d6').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/vater.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/veter.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_d6').css('top'));
@@ -15592,7 +15583,7 @@ drenag = function(){
           jQuery('.draggable_v1').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/vater.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/veter.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v1').css('top'));
@@ -15606,7 +15597,7 @@ drenag = function(){
           jQuery('.draggable_d2').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/vater.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/veter.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_d2').css('top'));
@@ -15620,7 +15611,7 @@ drenag = function(){
           jQuery('.draggable_d3').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/vater.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/veter.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_d3').css('top'));
@@ -15634,7 +15625,7 @@ drenag = function(){
           jQuery('.draggable_d4').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/vater.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/veter.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_d4').css('top'));
@@ -15648,7 +15639,7 @@ drenag = function(){
           jQuery('.draggable_d5').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/vater.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/veter.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_d5').css('top'));
@@ -15662,7 +15653,7 @@ drenag = function(){
           jQuery('.draggable_d6').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/vater.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/veter.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_d6').css('top'));
@@ -15677,7 +15668,7 @@ drenag = function(){
           jQuery('.draggable_v1').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/vater.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/veter.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v1').css('top'));
@@ -15691,7 +15682,7 @@ drenag = function(){
           jQuery('.draggable_d2').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/vater.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/veter.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_d2').css('top'));
@@ -15705,7 +15696,7 @@ drenag = function(){
           jQuery('.draggable_d3').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/vater.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/veter.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_d3').css('top'));
@@ -15719,7 +15710,7 @@ drenag = function(){
           jQuery('.draggable_d4').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/vater.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/veter.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_d4').css('top'));
@@ -15733,7 +15724,7 @@ drenag = function(){
           jQuery('.draggable_d5').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/vater.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/veter.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_d5').css('top'));
@@ -15747,7 +15738,7 @@ drenag = function(){
           jQuery('.draggable_d6').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/vater.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/veter.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_d6').css('top'));
@@ -15762,7 +15753,7 @@ drenag = function(){
           jQuery('.draggable_v1').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/vater.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/veter.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v1').css('top'));
@@ -15776,7 +15767,7 @@ drenag = function(){
           jQuery('.draggable_d2').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/vater.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/veter.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_d2').css('top'));
@@ -15790,7 +15781,7 @@ drenag = function(){
           jQuery('.draggable_d3').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/vater.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/veter.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_d3').css('top'));
@@ -15804,7 +15795,7 @@ drenag = function(){
           jQuery('.draggable_d4').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/vater.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/veter.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_d4').css('top'));
@@ -15818,7 +15809,7 @@ drenag = function(){
           jQuery('.draggable_d5').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/vater.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/veter.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_d5').css('top'));
@@ -15832,18 +15823,17 @@ drenag = function(){
           jQuery('.draggable_d6').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/vater.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/veter.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_d6').css('top'));
-        } else {
-          jQuery('.draggable_d6').css({
-            color: '#FFF0C7',
-            transform: 'scale(1)',
-            background: 'rgba(83, 35, 69, 0.4)',
-            opacity: 1
-          });
         }
+        jQuery('.draggable_d6').css({
+          color: '#FFF0C7',
+          transform: 'scale(1)',
+          background: 'rgba(83, 35, 69, 0.4)',
+          opacity: 1
+        });
         jQuery('.zone_x').css('transform', 'scale(1.3) rotate('+rotate_one+'deg)');
         jQuery('.zone_l').css('transform', 'scale(1.3) rotate(-'+rotate_two+'deg)');
         count_animation += 1;
@@ -15864,7 +15854,7 @@ drenag = function(){
           jQuery('.draggable_v0').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/vater.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/veter.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v1').css('top'));
@@ -15879,7 +15869,7 @@ drenag = function(){
           jQuery('.draggable_v2').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/vater.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/veter.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v2').css('top'));
@@ -15893,7 +15883,7 @@ drenag = function(){
           jQuery('.draggable_v4').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/vater.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/veter.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v4').css('top'));
@@ -15907,7 +15897,7 @@ drenag = function(){
           jQuery('.draggable_v5').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/vater.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/veter.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v5').css('top'));
@@ -15921,7 +15911,7 @@ drenag = function(){
           jQuery('.draggable_v-').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/vater.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/veter.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v-').css('top'));
@@ -15936,7 +15926,7 @@ drenag = function(){
           jQuery('.draggable_v0').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/vater.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/veter.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v0').css('top'));
@@ -15950,7 +15940,7 @@ drenag = function(){
           jQuery('.draggable_v2').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/vater.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/veter.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v2').css('top'));
@@ -15964,7 +15954,7 @@ drenag = function(){
           jQuery('.draggable_v4').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/vater.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/veter.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v4').css('top'));
@@ -15978,7 +15968,7 @@ drenag = function(){
           jQuery('.draggable_v5').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/vater.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/veter.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v5').css('top'));
@@ -15992,7 +15982,7 @@ drenag = function(){
           jQuery('.draggable_v-').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/vater.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/veter.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v-').css('top'));
@@ -16007,7 +15997,7 @@ drenag = function(){
           jQuery('.draggable_v0').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/vater.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/veter.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v0').css('top'));
@@ -16021,7 +16011,7 @@ drenag = function(){
           jQuery('.draggable_v2').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/vater.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/veter.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v2').css('top'));
@@ -16035,7 +16025,7 @@ drenag = function(){
           jQuery('.draggable_v4').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/vater.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/veter.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v4').css('top'));
@@ -16049,7 +16039,7 @@ drenag = function(){
           jQuery('.draggable_v5').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/vater.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/veter.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v5').css('top'));
@@ -16063,7 +16053,7 @@ drenag = function(){
           jQuery('.draggable_v-').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/vater.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/veter.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v-').css('top'));
@@ -16078,7 +16068,7 @@ drenag = function(){
           jQuery('.draggable_v0').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/vater.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/veter.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v0').css('top'));
@@ -16092,7 +16082,7 @@ drenag = function(){
           jQuery('.draggable_v2').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/vater.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/veter.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v2').css('top'));
@@ -16106,7 +16096,7 @@ drenag = function(){
           jQuery('.draggable_v4').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/vater.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/veter.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v4').css('top'));
@@ -16120,7 +16110,7 @@ drenag = function(){
           jQuery('.draggable_v5').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/vater.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/veter.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v5').css('top'));
@@ -16134,7 +16124,7 @@ drenag = function(){
           jQuery('.draggable_v-').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/vater.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/veter.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v-').css('top'));
@@ -16149,7 +16139,7 @@ drenag = function(){
           jQuery('.draggable_v0').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/vater.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/veter.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v0').css('top'));
@@ -16163,7 +16153,7 @@ drenag = function(){
           jQuery('.draggable_v2').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/vater.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/veter.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v2').css('top'));
@@ -16177,7 +16167,7 @@ drenag = function(){
           jQuery('.draggable_v4').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/vater.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/veter.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v4').css('top'));
@@ -16191,18 +16181,17 @@ drenag = function(){
           jQuery('.draggable_v5').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/vater.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/veter.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v5').css('top'));
-        } else {
-          jQuery('.draggable_v5').css({
-            color: '#FFF0C7',
-            transform: 'scale(1)',
-            background: 'rgba(83, 35, 69, 0.4)',
-            opacity: 1
-          });
         }
+        jQuery('.draggable_v5').css({
+          color: '#FFF0C7',
+          transform: 'scale(1)',
+          background: 'rgba(83, 35, 69, 0.4)',
+          opacity: 1
+        });
         jQuery('.zone_x').css('transform', 'scale(1.3) rotate('+rotate_one+'deg)');
         jQuery('.zone_l').css('transform', 'scale(1.3) rotate(-'+rotate_two+'deg)');
         count_animation += 1;
@@ -16225,7 +16214,7 @@ drenag = function(){
           jQuery('.draggable_v1').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/vater.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/veter.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v1').css('top'));
@@ -16239,7 +16228,7 @@ drenag = function(){
           jQuery('.draggable_s2').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/vater.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/veter.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_s2').css('top'));
@@ -16253,7 +16242,7 @@ drenag = function(){
           jQuery('.draggable_s3').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/vater.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/veter.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_s3').css('top'));
@@ -16267,7 +16256,7 @@ drenag = function(){
           jQuery('.draggable_s4').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/vater.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/veter.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_s4').css('top'));
@@ -16281,7 +16270,7 @@ drenag = function(){
           jQuery('.draggable_s5').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/vater.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/veter.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_s5').css('top'));
@@ -16295,7 +16284,7 @@ drenag = function(){
           jQuery('.draggable_s6').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/vater.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/veter.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_s6').css('top'));
@@ -16310,7 +16299,7 @@ drenag = function(){
           jQuery('.draggable_v1').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/vater.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/veter.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v1').css('top'));
@@ -16324,7 +16313,7 @@ drenag = function(){
           jQuery('.draggable_s2').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/vater.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/veter.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_s2').css('top'));
@@ -16338,7 +16327,7 @@ drenag = function(){
           jQuery('.draggable_s3').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/vater.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/veter.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_s3').css('top'));
@@ -16352,7 +16341,7 @@ drenag = function(){
           jQuery('.draggable_s4').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/vater.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/veter.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_s4').css('top'));
@@ -16366,7 +16355,7 @@ drenag = function(){
           jQuery('.draggable_s5').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/vater.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/veter.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_s5').css('top'));
@@ -16380,7 +16369,7 @@ drenag = function(){
           jQuery('.draggable_s6').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/vater.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/veter.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_s6').css('top'));
@@ -16394,7 +16383,7 @@ drenag = function(){
           jQuery('.draggable_v1').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/vater.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/veter.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.status_percent').text('98%');
@@ -16409,7 +16398,7 @@ drenag = function(){
           jQuery('.draggable_s2').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/vater.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/veter.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_s2').css('top'));
@@ -16423,7 +16412,7 @@ drenag = function(){
           jQuery('.draggable_s3').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/vater.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/veter.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_s3').css('top'));
@@ -16437,7 +16426,7 @@ drenag = function(){
           jQuery('.draggable_s4').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/vater.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/veter.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_s4').css('top'));
@@ -16451,7 +16440,7 @@ drenag = function(){
           jQuery('.draggable_s5').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/vater.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/veter.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_s5').css('top'));
@@ -16465,7 +16454,7 @@ drenag = function(){
           jQuery('.draggable_s6').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/vater.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/veter.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_s6').css('top'));
@@ -16480,7 +16469,7 @@ drenag = function(){
           jQuery('.draggable_v1').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/vater.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/veter.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v1').css('top'));
@@ -16494,7 +16483,7 @@ drenag = function(){
           jQuery('.draggable_s2').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/vater.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/veter.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_s2').css('top'));
@@ -16508,7 +16497,7 @@ drenag = function(){
           jQuery('.draggable_s3').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/vater.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/veter.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_s3').css('top'));
@@ -16522,7 +16511,7 @@ drenag = function(){
           jQuery('.draggable_s4').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/vater.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/veter.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_s4').css('top'));
@@ -16536,7 +16525,7 @@ drenag = function(){
           jQuery('.draggable_s5').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/vater.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/veter.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_s5').css('top'));
@@ -16550,19 +16539,18 @@ drenag = function(){
           jQuery('.draggable_s6').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/vater.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/veter.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_s6').css('top'));
-        } else {
-          jQuery('.draggable_s6, .draggable_v3').css({
-            color: '#FFF0C7',
-            transform: 'scale(1)',
-            background: 'rgba(83, 35, 69, 0.4)',
-            opacity: 1
-          });
-          jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v3').css('top'));
         }
+        jQuery('.draggable_s6, .draggable_v3').css({
+          color: '#FFF0C7',
+          transform: 'scale(1)',
+          background: 'rgba(83, 35, 69, 0.4)',
+          opacity: 1
+        });
+        jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v3').css('top'));
         jQuery('.zone_x').css('transform', 'scale(1.3) rotate('+rotate_one+'deg)');
         jQuery('.zone_l').css('transform', 'scale(1.3) rotate(-'+rotate_two+'deg)');
         count_animation += 1;
