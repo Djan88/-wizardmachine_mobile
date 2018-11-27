@@ -12606,12 +12606,6 @@ drenag = function(){
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_d6').css('top'));
         }
-        jQuery('.draggable_d6').css({
-          color: '#FFF0C7',
-          transform: 'scale(1)',
-          background: 'rgba(83, 35, 69, 0.4)',
-          opacity: 1
-        });
         jQuery('.zone_x').css('transform', 'scale(1.3) rotate('+rotate_one+'deg)');
         jQuery('.zone_l').css('transform', 'scale(1.3) rotate(-'+rotate_two+'deg)');
         count_animation += 1;
@@ -12629,6 +12623,12 @@ drenag = function(){
     phaseOne = setInterval(function(){
       if (count_animation <= 120){
         if (count_animation > 0 && count_animation <= 5) {
+          jQuery('.draggable_d6').css({
+            color: '#FFF0C7',
+            transform: 'scale(1)',
+            background: 'rgba(83, 35, 69, 0.4)',
+            opacity: 1
+          });
           jQuery('.status_percent').text('8%');
           jQuery('.draggable_v0').css({
             color: 'transparent',
@@ -12964,12 +12964,6 @@ drenag = function(){
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v5').css('top'));
         }
-        jQuery('.draggable_v5').css({
-          color: '#FFF0C7',
-          transform: 'scale(1)',
-          background: 'rgba(83, 35, 69, 0.4)',
-          opacity: 1
-        });
         jQuery('.zone_x').css('transform', 'scale(1.3) rotate('+rotate_one+'deg)');
         jQuery('.zone_l').css('transform', 'scale(1.3) rotate(-'+rotate_two+'deg)');
         count_animation += 1;
@@ -12988,6 +12982,12 @@ drenag = function(){
     phaseOne = setInterval(function(){
       if (count_animation <= 120){
         if (count_animation > 0 && count_animation <= 5) {
+          jQuery('.draggable_v5').css({
+            color: '#FFF0C7',
+            transform: 'scale(1)',
+            background: 'rgba(83, 35, 69, 0.4)',
+            opacity: 1
+          });
           jQuery('.status_percent').text('18%');
           jQuery('.draggable_v1').css({
             color: 'transparent',
@@ -13322,12 +13322,6 @@ drenag = function(){
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_s6').css('top'));
         }
-        jQuery('.draggable_s6').css({
-          color: '#FFF0C7',
-          transform: 'scale(1)',
-          background: 'rgba(83, 35, 69, 0.4)',
-          opacity: 1
-        });
         jQuery('.zone_x').css('transform', 'scale(1.3) rotate('+rotate_one+'deg)');
         jQuery('.zone_l').css('transform', 'scale(1.3) rotate(-'+rotate_two+'deg)');
         count_animation += 1;
@@ -13346,6 +13340,12 @@ drenag = function(){
     phaseOne = setInterval(function(){
       if (count_animation <= 120){
         if (count_animation > 0 && count_animation <= 5) {
+          jQuery('.draggable_s6').css({
+            color: '#FFF0C7',
+            transform: 'scale(1)',
+            background: 'rgba(83, 35, 69, 0.4)',
+            opacity: 1
+          });
           jQuery('.status_percent').text('26%');
           jQuery('.draggable_v1').css({
             color: 'transparent',
@@ -13680,12 +13680,6 @@ drenag = function(){
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_d6').css('top'));
         }
-        jQuery('.draggable_d6').css({
-          color: '#FFF0C7',
-          transform: 'scale(1)',
-          background: 'rgba(83, 35, 69, 0.4)',
-          opacity: 1
-        });
         jQuery('.zone_x').css('transform', 'scale(1.3) rotate('+rotate_one+'deg)');
         jQuery('.zone_l').css('transform', 'scale(1.3) rotate(-'+rotate_two+'deg)');
         count_animation += 1;
@@ -13703,6 +13697,12 @@ drenag = function(){
     phaseOne = setInterval(function(){
       if (count_animation <= 120){
         if (count_animation > 0 && count_animation <= 5) {
+          jQuery('.draggable_d6').css({
+            color: '#FFF0C7',
+            transform: 'scale(1)',
+            background: 'rgba(83, 35, 69, 0.4)',
+            opacity: 1
+          });
           jQuery('.status_percent').text('34%');
           jQuery('.draggable_v0').css({
             color: 'transparent',
@@ -14038,12 +14038,6 @@ drenag = function(){
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v5').css('top'));
         }
-        jQuery('.draggable_v5').css({
-          color: '#FFF0C7',
-          transform: 'scale(1)',
-          background: 'rgba(83, 35, 69, 0.4)',
-          opacity: 1
-        });
         jQuery('.zone_x').css('transform', 'scale(1.3) rotate('+rotate_one+'deg)');
         jQuery('.zone_l').css('transform', 'scale(1.3) rotate(-'+rotate_two+'deg)');
         count_animation += 1;
@@ -14062,6 +14056,12 @@ drenag = function(){
     phaseOne = setInterval(function(){
       if (count_animation <= 120){
         if (count_animation > 0 && count_animation <= 5) {
+          jQuery('.draggable_v5').css({
+            color: '#FFF0C7',
+            transform: 'scale(1)',
+            background: 'rgba(83, 35, 69, 0.4)',
+            opacity: 1
+          });
           jQuery('.status_percent').text('44%');
           jQuery('.draggable_v1').css({
             color: 'transparent',
@@ -14396,12 +14396,6 @@ drenag = function(){
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_s6').css('top'));
         }
-        jQuery('.draggable_s6').css({
-          color: '#FFF0C7',
-          transform: 'scale(1)',
-          background: 'rgba(83, 35, 69, 0.4)',
-          opacity: 1
-        });
         jQuery('.zone_x').css('transform', 'scale(1.3) rotate('+rotate_one+'deg)');
         jQuery('.zone_l').css('transform', 'scale(1.3) rotate(-'+rotate_two+'deg)');
         count_animation += 1;
@@ -14420,6 +14414,12 @@ drenag = function(){
     phaseOne = setInterval(function(){
       if (count_animation <= 120){
         if (count_animation > 0 && count_animation <= 5) {
+          jQuery('.draggable_s6').css({
+            color: '#FFF0C7',
+            transform: 'scale(1)',
+            background: 'rgba(83, 35, 69, 0.4)',
+            opacity: 1
+          });
           jQuery('.status_percent').text('52%');
           jQuery('.draggable_v1').css({
             color: 'transparent',
@@ -14754,12 +14754,6 @@ drenag = function(){
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_d6').css('top'));
         }
-        jQuery('.draggable_d6').css({
-          color: '#FFF0C7',
-          transform: 'scale(1)',
-          background: 'rgba(83, 35, 69, 0.4)',
-          opacity: 1
-        });
         jQuery('.zone_x').css('transform', 'scale(1.3) rotate('+rotate_one+'deg)');
         jQuery('.zone_l').css('transform', 'scale(1.3) rotate(-'+rotate_two+'deg)');
         count_animation += 1;
@@ -14777,6 +14771,12 @@ drenag = function(){
     phaseOne = setInterval(function(){
       if (count_animation <= 120){
         if (count_animation > 0 && count_animation <= 5) {
+          jQuery('.draggable_d6').css({
+            color: '#FFF0C7',
+            transform: 'scale(1)',
+            background: 'rgba(83, 35, 69, 0.4)',
+            opacity: 1
+          });
           jQuery('.status_percent').text('60%');
           jQuery('.draggable_v0').css({
             color: 'transparent',
@@ -15112,12 +15112,6 @@ drenag = function(){
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v5').css('top'));
         }
-        jQuery('.draggable_v5').css({
-          color: '#FFF0C7',
-          transform: 'scale(1)',
-          background: 'rgba(83, 35, 69, 0.4)',
-          opacity: 1
-        });
         jQuery('.zone_x').css('transform', 'scale(1.3) rotate('+rotate_one+'deg)');
         jQuery('.zone_l').css('transform', 'scale(1.3) rotate(-'+rotate_two+'deg)');
         count_animation += 1;
@@ -15136,6 +15130,12 @@ drenag = function(){
     phaseOne = setInterval(function(){
       if (count_animation <= 120){
         if (count_animation > 0 && count_animation <= 5) {
+          jQuery('.draggable_v5').css({
+            color: '#FFF0C7',
+            transform: 'scale(1)',
+            background: 'rgba(83, 35, 69, 0.4)',
+            opacity: 1
+          });
           jQuery('.status_percent').text('70%');
           jQuery('.draggable_v1').css({
             color: 'transparent',
@@ -15470,12 +15470,6 @@ drenag = function(){
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_s6').css('top'));
         }
-        jQuery('.draggable_s6').css({
-          color: '#FFF0C7',
-          transform: 'scale(1)',
-          background: 'rgba(83, 35, 69, 0.4)',
-          opacity: 1
-        });
         jQuery('.zone_x').css('transform', 'scale(1.3) rotate('+rotate_one+'deg)');
         jQuery('.zone_l').css('transform', 'scale(1.3) rotate(-'+rotate_two+'deg)');
         count_animation += 1;
@@ -15494,6 +15488,12 @@ drenag = function(){
     phaseOne = setInterval(function(){
       if (count_animation <= 120){
         if (count_animation > 0 && count_animation <= 5) {
+          jQuery('.draggable_s6').css({
+            color: '#FFF0C7',
+            transform: 'scale(1)',
+            background: 'rgba(83, 35, 69, 0.4)',
+            opacity: 1
+          });
           jQuery('.status_percent').text('78%');
           jQuery('.draggable_v1').css({
             color: 'transparent',
@@ -15828,12 +15828,6 @@ drenag = function(){
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_d6').css('top'));
         }
-        jQuery('.draggable_d6').css({
-          color: '#FFF0C7',
-          transform: 'scale(1)',
-          background: 'rgba(83, 35, 69, 0.4)',
-          opacity: 1
-        });
         jQuery('.zone_x').css('transform', 'scale(1.3) rotate('+rotate_one+'deg)');
         jQuery('.zone_l').css('transform', 'scale(1.3) rotate(-'+rotate_two+'deg)');
         count_animation += 1;
@@ -15851,6 +15845,12 @@ drenag = function(){
     phaseOne = setInterval(function(){
       if (count_animation <= 120){
         if (count_animation > 0 && count_animation <= 5) {
+          jQuery('.draggable_d6').css({
+            color: '#FFF0C7',
+            transform: 'scale(1)',
+            background: 'rgba(83, 35, 69, 0.4)',
+            opacity: 1
+          });
           jQuery('.draggable_v0').css({
             color: 'transparent',
             transform: 'scale(1.3)',
@@ -16186,12 +16186,6 @@ drenag = function(){
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v5').css('top'));
         }
-        jQuery('.draggable_v5').css({
-          color: '#FFF0C7',
-          transform: 'scale(1)',
-          background: 'rgba(83, 35, 69, 0.4)',
-          opacity: 1
-        });
         jQuery('.zone_x').css('transform', 'scale(1.3) rotate('+rotate_one+'deg)');
         jQuery('.zone_l').css('transform', 'scale(1.3) rotate(-'+rotate_two+'deg)');
         count_animation += 1;
@@ -16210,6 +16204,12 @@ drenag = function(){
     phaseOne = setInterval(function(){
       if (count_animation <= 120){
         if (count_animation > 0 && count_animation <= 5) {
+          jQuery('.draggable_v5').css({
+            color: '#FFF0C7',
+            transform: 'scale(1)',
+            background: 'rgba(83, 35, 69, 0.4)',
+            opacity: 1
+          });
           jQuery('.status_percent').text('96%');
           jQuery('.draggable_v1').css({
             color: 'transparent',
@@ -16544,6 +16544,12 @@ drenag = function(){
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_s6').css('top'));
         }
+        jQuery('.zone_x').css('transform', 'scale(1.3) rotate('+rotate_one+'deg)');
+        jQuery('.zone_l').css('transform', 'scale(1.3) rotate(-'+rotate_two+'deg)');
+        count_animation += 1;
+        rotate_one += 2;
+        rotate_two += 20;
+      } else {
         jQuery('.draggable_s6, .draggable_v3').css({
           color: '#FFF0C7',
           transform: 'scale(1)',
@@ -16551,12 +16557,6 @@ drenag = function(){
           opacity: 1
         });
         jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v3').css('top'));
-        jQuery('.zone_x').css('transform', 'scale(1.3) rotate('+rotate_one+'deg)');
-        jQuery('.zone_l').css('transform', 'scale(1.3) rotate(-'+rotate_two+'deg)');
-        count_animation += 1;
-        rotate_one += 2;
-        rotate_two += 20;
-      } else {
         clearInterval(phaseOne);
         count_animation = 0;
         jQuery('.status_percent').text('100%');
