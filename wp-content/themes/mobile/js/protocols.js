@@ -16566,6 +16566,107 @@ drenag = function(){
   });
 }
 
+solis = function(){
+  chain(function(next) {
+    console.log('Фаза 1');
+    jQuery('.status').removeClass('hidden');
+    jQuery('.status_pahaze_all').text('5');
+    jQuery('.zone_x, .zone_l').removeClass('hidden').css('transform', 'scale(1)');
+    r_top = jQuery('.draggable_v3').css('top');
+    // r_bottom = jQuery('.draggable_v-').css('top');
+    l_top = jQuery('.draggable_v3').css('top');
+    // l_bottom = jQuery('.draggable_v1').css('top');
+// Фаза 1.1
+    jQuery('.status_percent').text('0%');
+    jQuery('.status_pahaze_now').text('1');
+    jQuery('.draggable_v-').css({
+      color: 'transparent',
+      transform: 'scale(1.3)',
+      background: '#fff url(/wp-content/themes/mobile/img/veter.png) 0 0/100% no-repeat',
+      opacity: 0.8
+    });
+    jQuery('.zone_x').css('top', l_top);
+    jQuery('.zone_l').css('top', r_top);
+    count_animation = 0;
+    phaseOne = setInterval(function(){
+      if (count_animation <= 48){
+        if (count_animation <= 4) {
+          jQuery('.draggable_v3').css({
+            color: 'transparent',
+            transform: 'scale(1.3)',
+            background: '#fff url(/wp-content/themes/mobile/img/disfunction.jpg) 0 0/100% no-repeat',
+            opacity: 0.8
+          });
+        } else if (count_animation <= 8) {
+          jQuery('.draggable_v3').css({
+            background: '#fff url(/wp-content/themes/mobile/img/travma.jpg) 0 0/100% no-repeat'
+          });
+        } else if (count_animation <= 12) {
+          jQuery('.draggable_v3').css({
+            background: '#fff url(/wp-content/themes/mobile/img/povregdenie_demona.jpg) 0 0/100% no-repeat'
+          });
+        } else if (count_animation <= 16) {
+          jQuery('.draggable_v3').css({
+            background: '#fff url(/wp-content/themes/mobile/img/disfunction.jpg) 0 0/100% no-repeat'
+          });
+        } else if (count_animation <= 20) {
+          jQuery('.draggable_v3').css({
+            background: '#fff url(/wp-content/themes/mobile/img/travma.jpg) 0 0/100% no-repeat'
+          });
+        } else if (count_animation <= 24) {
+          jQuery('.draggable_v3').css({
+            background: '#fff url(/wp-content/themes/mobile/img/povregdenie_demona.jpg) 0 0/100% no-repeat'
+          });
+        } else if (count_animation <= 28) {
+          jQuery('.draggable_v3').css({
+            background: '#fff url(/wp-content/themes/mobile/img/disfunction.jpg) 0 0/100% no-repeat'
+          });
+        } else if (count_animation <= 32) {
+          jQuery('.draggable_v3').css({
+            background: '#fff url(/wp-content/themes/mobile/img/travma.jpg) 0 0/100% no-repeat'
+          });
+        } else if (count_animation <= 36) {
+          jQuery('.draggable_v3').css({
+            background: '#fff url(/wp-content/themes/mobile/img/povregdenie_demona.jpg) 0 0/100% no-repeat'
+          });
+        } else if (count_animation <= 40) {
+          jQuery('.draggable_v3').css({
+            background: '#fff url(/wp-content/themes/mobile/img/disfunction.jpg) 0 0/100% no-repeat'
+          });
+        } else if (count_animation <= 44) {
+          jQuery('.draggable_v3').css({
+            background: '#fff url(/wp-content/themes/mobile/img/travma.jpg) 0 0/100% no-repeat'
+          });
+        } else if (count_animation <= 48) {
+          jQuery('.draggable_v3').css({
+            background: '#fff url(/wp-content/themes/mobile/img/povregdenie_demona.jpg) 0 0/100% no-repeat'
+          });
+        }
+        count_animation += 1;
+      } else {
+        clearInterval(phaseOne);
+        jQuery('.draggable_v3, .draggable_v-').css({
+          color: '#FFF0C7',
+          transform: 'scale(1)',
+          background: 'rgba(83, 35, 69, 0.4)',
+          opacity: 1
+        });
+        next();
+      }
+    }, 1000);
+  }).then(function(next) {
+    next();
+  }).then(function(next) {
+    next();
+  }).then(function(next) {
+    next();
+  }).then(function(next) {
+    next();
+  }).then(function(next) {
+    next();
+  });
+}
+
 mmt = function(){
   chain(function(next) {
     next();
@@ -16592,6 +16693,9 @@ jQuery('.btn_start').on('click', function(event) {
     jQuery('.status_title').text('Протокол V4-3');
   } else if (protocol == 'v5') {
     v5();
+    jQuery('.status_title').text('Протокол V5-2');
+  } else if (protocol == 'solis') {
+    solis();
     jQuery('.status_title').text('Протокол V5-2');
   } else if (protocol == 'drenag') {
     drenag();
