@@ -12276,7 +12276,7 @@ drenag = function(){
           jQuery('.draggable_v1').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v1').css('top'));
@@ -12290,7 +12290,7 @@ drenag = function(){
           jQuery('.draggable_d2').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_d2').css('top'));
@@ -12304,7 +12304,7 @@ drenag = function(){
           jQuery('.draggable_d3').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_d3').css('top'));
@@ -12318,7 +12318,7 @@ drenag = function(){
           jQuery('.draggable_d4').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_d4').css('top'));
@@ -12332,7 +12332,7 @@ drenag = function(){
           jQuery('.draggable_d5').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_d5').css('top'));
@@ -12346,7 +12346,7 @@ drenag = function(){
           jQuery('.draggable_d6').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_d6').css('top'));
@@ -12361,7 +12361,7 @@ drenag = function(){
           jQuery('.draggable_v1').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v1').css('top'));
@@ -12375,7 +12375,7 @@ drenag = function(){
           jQuery('.draggable_d2').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_d2').css('top'));
@@ -12389,7 +12389,7 @@ drenag = function(){
           jQuery('.draggable_d3').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_d3').css('top'));
@@ -12403,7 +12403,7 @@ drenag = function(){
           jQuery('.draggable_d4').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_d4').css('top'));
@@ -12417,7 +12417,7 @@ drenag = function(){
           jQuery('.draggable_d5').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_d5').css('top'));
@@ -12431,7 +12431,7 @@ drenag = function(){
           jQuery('.draggable_d6').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_d6').css('top'));
@@ -12446,7 +12446,7 @@ drenag = function(){
           jQuery('.draggable_v1').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v1').css('top'));
@@ -12460,7 +12460,7 @@ drenag = function(){
           jQuery('.draggable_d2').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_d2').css('top'));
@@ -12474,7 +12474,7 @@ drenag = function(){
           jQuery('.draggable_d3').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_d3').css('top'));
@@ -12488,7 +12488,7 @@ drenag = function(){
           jQuery('.draggable_d4').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_d4').css('top'));
@@ -12502,7 +12502,7 @@ drenag = function(){
           jQuery('.draggable_d5').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_d5').css('top'));
@@ -12516,7 +12516,7 @@ drenag = function(){
           jQuery('.draggable_d6').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_d6').css('top'));
@@ -12531,7 +12531,7 @@ drenag = function(){
           jQuery('.draggable_v1').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v1').css('top'));
@@ -12545,7 +12545,7 @@ drenag = function(){
           jQuery('.draggable_d2').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_d2').css('top'));
@@ -12559,7 +12559,7 @@ drenag = function(){
           jQuery('.draggable_d3').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_d3').css('top'));
@@ -12573,7 +12573,7 @@ drenag = function(){
           jQuery('.draggable_d4').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_d4').css('top'));
@@ -12587,7 +12587,7 @@ drenag = function(){
           jQuery('.draggable_d5').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_d5').css('top'));
@@ -12601,7 +12601,7 @@ drenag = function(){
           jQuery('.draggable_d6').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_d6').css('top'));
@@ -12633,7 +12633,7 @@ drenag = function(){
           jQuery('.draggable_v0').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v1').css('top'));
@@ -12647,7 +12647,7 @@ drenag = function(){
           jQuery('.draggable_v2').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v2').css('top'));
@@ -12661,7 +12661,7 @@ drenag = function(){
           jQuery('.draggable_v4').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v4').css('top'));
@@ -12675,7 +12675,7 @@ drenag = function(){
           jQuery('.draggable_v5').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v5').css('top'));
@@ -12689,7 +12689,7 @@ drenag = function(){
           jQuery('.draggable_v-').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v-').css('top'));
@@ -12704,7 +12704,7 @@ drenag = function(){
           jQuery('.draggable_v0').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v0').css('top'));
@@ -12718,7 +12718,7 @@ drenag = function(){
           jQuery('.draggable_v2').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v2').css('top'));
@@ -12732,7 +12732,7 @@ drenag = function(){
           jQuery('.draggable_v4').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v4').css('top'));
@@ -12746,7 +12746,7 @@ drenag = function(){
           jQuery('.draggable_v5').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v5').css('top'));
@@ -12760,7 +12760,7 @@ drenag = function(){
           jQuery('.draggable_v-').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v-').css('top'));
@@ -12775,7 +12775,7 @@ drenag = function(){
           jQuery('.draggable_v0').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v0').css('top'));
@@ -12789,7 +12789,7 @@ drenag = function(){
           jQuery('.draggable_v2').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v2').css('top'));
@@ -12803,7 +12803,7 @@ drenag = function(){
           jQuery('.draggable_v4').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v4').css('top'));
@@ -12817,7 +12817,7 @@ drenag = function(){
           jQuery('.draggable_v5').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v5').css('top'));
@@ -12831,7 +12831,7 @@ drenag = function(){
           jQuery('.draggable_v-').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v-').css('top'));
@@ -12846,7 +12846,7 @@ drenag = function(){
           jQuery('.draggable_v0').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v0').css('top'));
@@ -12860,7 +12860,7 @@ drenag = function(){
           jQuery('.draggable_v2').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v2').css('top'));
@@ -12874,7 +12874,7 @@ drenag = function(){
           jQuery('.draggable_v4').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v4').css('top'));
@@ -12888,7 +12888,7 @@ drenag = function(){
           jQuery('.draggable_v5').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v5').css('top'));
@@ -12902,7 +12902,7 @@ drenag = function(){
           jQuery('.draggable_v-').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v-').css('top'));
@@ -12917,7 +12917,7 @@ drenag = function(){
           jQuery('.draggable_v0').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v0').css('top'));
@@ -12931,7 +12931,7 @@ drenag = function(){
           jQuery('.draggable_v2').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v2').css('top'));
@@ -12945,7 +12945,7 @@ drenag = function(){
           jQuery('.draggable_v4').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v4').css('top'));
@@ -12959,7 +12959,7 @@ drenag = function(){
           jQuery('.draggable_v5').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v5').css('top'));
@@ -12992,7 +12992,7 @@ drenag = function(){
           jQuery('.draggable_v1').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v1').css('top'));
@@ -13006,7 +13006,7 @@ drenag = function(){
           jQuery('.draggable_s2').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_s2').css('top'));
@@ -13020,7 +13020,7 @@ drenag = function(){
           jQuery('.draggable_s3').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_s3').css('top'));
@@ -13034,7 +13034,7 @@ drenag = function(){
           jQuery('.draggable_s4').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_s4').css('top'));
@@ -13048,7 +13048,7 @@ drenag = function(){
           jQuery('.draggable_s5').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_s5').css('top'));
@@ -13062,7 +13062,7 @@ drenag = function(){
           jQuery('.draggable_s6').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_s6').css('top'));
@@ -13077,7 +13077,7 @@ drenag = function(){
           jQuery('.draggable_v1').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v1').css('top'));
@@ -13091,7 +13091,7 @@ drenag = function(){
           jQuery('.draggable_s2').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_s2').css('top'));
@@ -13105,7 +13105,7 @@ drenag = function(){
           jQuery('.draggable_s3').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_s3').css('top'));
@@ -13119,7 +13119,7 @@ drenag = function(){
           jQuery('.draggable_s4').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_s4').css('top'));
@@ -13133,7 +13133,7 @@ drenag = function(){
           jQuery('.draggable_s5').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_s5').css('top'));
@@ -13147,7 +13147,7 @@ drenag = function(){
           jQuery('.draggable_s6').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_s6').css('top'));
@@ -13162,7 +13162,7 @@ drenag = function(){
           jQuery('.draggable_v1').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v1').css('top'));
@@ -13176,7 +13176,7 @@ drenag = function(){
           jQuery('.draggable_s2').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_s2').css('top'));
@@ -13190,7 +13190,7 @@ drenag = function(){
           jQuery('.draggable_s3').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_s3').css('top'));
@@ -13204,7 +13204,7 @@ drenag = function(){
           jQuery('.draggable_s4').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_s4').css('top'));
@@ -13218,7 +13218,7 @@ drenag = function(){
           jQuery('.draggable_s5').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_s5').css('top'));
@@ -13232,7 +13232,7 @@ drenag = function(){
           jQuery('.draggable_s6').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_s6').css('top'));
@@ -13247,7 +13247,7 @@ drenag = function(){
           jQuery('.draggable_v1').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v1').css('top'));
@@ -13261,7 +13261,7 @@ drenag = function(){
           jQuery('.draggable_s2').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_s2').css('top'));
@@ -13275,7 +13275,7 @@ drenag = function(){
           jQuery('.draggable_s3').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_s3').css('top'));
@@ -13289,7 +13289,7 @@ drenag = function(){
           jQuery('.draggable_s4').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_s4').css('top'));
@@ -13303,7 +13303,7 @@ drenag = function(){
           jQuery('.draggable_s5').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_s5').css('top'));
@@ -13317,7 +13317,7 @@ drenag = function(){
           jQuery('.draggable_s6').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_s6').css('top'));
@@ -13350,7 +13350,7 @@ drenag = function(){
           jQuery('.draggable_v1').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v1').css('top'));
@@ -13364,7 +13364,7 @@ drenag = function(){
           jQuery('.draggable_d2').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_d2').css('top'));
@@ -13378,7 +13378,7 @@ drenag = function(){
           jQuery('.draggable_d3').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_d3').css('top'));
@@ -13392,7 +13392,7 @@ drenag = function(){
           jQuery('.draggable_d4').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_d4').css('top'));
@@ -13406,7 +13406,7 @@ drenag = function(){
           jQuery('.draggable_d5').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_d5').css('top'));
@@ -13420,7 +13420,7 @@ drenag = function(){
           jQuery('.draggable_d6').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_d6').css('top'));
@@ -13435,7 +13435,7 @@ drenag = function(){
           jQuery('.draggable_v1').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v1').css('top'));
@@ -13449,7 +13449,7 @@ drenag = function(){
           jQuery('.draggable_d2').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_d2').css('top'));
@@ -13463,7 +13463,7 @@ drenag = function(){
           jQuery('.draggable_d3').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_d3').css('top'));
@@ -13477,7 +13477,7 @@ drenag = function(){
           jQuery('.draggable_d4').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_d4').css('top'));
@@ -13491,7 +13491,7 @@ drenag = function(){
           jQuery('.draggable_d5').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_d5').css('top'));
@@ -13505,7 +13505,7 @@ drenag = function(){
           jQuery('.draggable_d6').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_d6').css('top'));
@@ -13520,7 +13520,7 @@ drenag = function(){
           jQuery('.draggable_v1').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v1').css('top'));
@@ -13534,7 +13534,7 @@ drenag = function(){
           jQuery('.draggable_d2').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_d2').css('top'));
@@ -13548,7 +13548,7 @@ drenag = function(){
           jQuery('.draggable_d3').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_d3').css('top'));
@@ -13562,7 +13562,7 @@ drenag = function(){
           jQuery('.draggable_d4').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_d4').css('top'));
@@ -13576,7 +13576,7 @@ drenag = function(){
           jQuery('.draggable_d5').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_d5').css('top'));
@@ -13590,7 +13590,7 @@ drenag = function(){
           jQuery('.draggable_d6').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_d6').css('top'));
@@ -13605,7 +13605,7 @@ drenag = function(){
           jQuery('.draggable_v1').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v1').css('top'));
@@ -13619,7 +13619,7 @@ drenag = function(){
           jQuery('.draggable_d2').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_d2').css('top'));
@@ -13633,7 +13633,7 @@ drenag = function(){
           jQuery('.draggable_d3').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_d3').css('top'));
@@ -13647,7 +13647,7 @@ drenag = function(){
           jQuery('.draggable_d4').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_d4').css('top'));
@@ -13661,7 +13661,7 @@ drenag = function(){
           jQuery('.draggable_d5').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_d5').css('top'));
@@ -13675,7 +13675,7 @@ drenag = function(){
           jQuery('.draggable_d6').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_d6').css('top'));
@@ -13707,7 +13707,7 @@ drenag = function(){
           jQuery('.draggable_v0').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v1').css('top'));
@@ -13721,7 +13721,7 @@ drenag = function(){
           jQuery('.draggable_v2').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v2').css('top'));
@@ -13735,7 +13735,7 @@ drenag = function(){
           jQuery('.draggable_v4').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v4').css('top'));
@@ -13749,7 +13749,7 @@ drenag = function(){
           jQuery('.draggable_v5').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v5').css('top'));
@@ -13763,7 +13763,7 @@ drenag = function(){
           jQuery('.draggable_v-').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v-').css('top'));
@@ -13778,7 +13778,7 @@ drenag = function(){
           jQuery('.draggable_v0').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v0').css('top'));
@@ -13792,7 +13792,7 @@ drenag = function(){
           jQuery('.draggable_v2').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v2').css('top'));
@@ -13806,7 +13806,7 @@ drenag = function(){
           jQuery('.draggable_v4').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v4').css('top'));
@@ -13820,7 +13820,7 @@ drenag = function(){
           jQuery('.draggable_v5').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v5').css('top'));
@@ -13834,7 +13834,7 @@ drenag = function(){
           jQuery('.draggable_v-').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v-').css('top'));
@@ -13849,7 +13849,7 @@ drenag = function(){
           jQuery('.draggable_v0').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v0').css('top'));
@@ -13863,7 +13863,7 @@ drenag = function(){
           jQuery('.draggable_v2').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v2').css('top'));
@@ -13877,7 +13877,7 @@ drenag = function(){
           jQuery('.draggable_v4').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v4').css('top'));
@@ -13891,7 +13891,7 @@ drenag = function(){
           jQuery('.draggable_v5').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v5').css('top'));
@@ -13905,7 +13905,7 @@ drenag = function(){
           jQuery('.draggable_v-').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v-').css('top'));
@@ -13920,7 +13920,7 @@ drenag = function(){
           jQuery('.draggable_v0').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v0').css('top'));
@@ -13934,7 +13934,7 @@ drenag = function(){
           jQuery('.draggable_v2').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v2').css('top'));
@@ -13948,7 +13948,7 @@ drenag = function(){
           jQuery('.draggable_v4').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v4').css('top'));
@@ -13962,7 +13962,7 @@ drenag = function(){
           jQuery('.draggable_v5').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v5').css('top'));
@@ -13976,7 +13976,7 @@ drenag = function(){
           jQuery('.draggable_v-').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v-').css('top'));
@@ -13991,7 +13991,7 @@ drenag = function(){
           jQuery('.draggable_v0').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v0').css('top'));
@@ -14005,7 +14005,7 @@ drenag = function(){
           jQuery('.draggable_v2').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v2').css('top'));
@@ -14019,7 +14019,7 @@ drenag = function(){
           jQuery('.draggable_v4').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v4').css('top'));
@@ -14033,7 +14033,7 @@ drenag = function(){
           jQuery('.draggable_v5').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v5').css('top'));
@@ -14066,7 +14066,7 @@ drenag = function(){
           jQuery('.draggable_v1').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v1').css('top'));
@@ -14080,7 +14080,7 @@ drenag = function(){
           jQuery('.draggable_s2').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_s2').css('top'));
@@ -14094,7 +14094,7 @@ drenag = function(){
           jQuery('.draggable_s3').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_s3').css('top'));
@@ -14108,7 +14108,7 @@ drenag = function(){
           jQuery('.draggable_s4').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_s4').css('top'));
@@ -14122,7 +14122,7 @@ drenag = function(){
           jQuery('.draggable_s5').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_s5').css('top'));
@@ -14136,7 +14136,7 @@ drenag = function(){
           jQuery('.draggable_s6').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_s6').css('top'));
@@ -14151,7 +14151,7 @@ drenag = function(){
           jQuery('.draggable_v1').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v1').css('top'));
@@ -14165,7 +14165,7 @@ drenag = function(){
           jQuery('.draggable_s2').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_s2').css('top'));
@@ -14179,7 +14179,7 @@ drenag = function(){
           jQuery('.draggable_s3').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_s3').css('top'));
@@ -14193,7 +14193,7 @@ drenag = function(){
           jQuery('.draggable_s4').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_s4').css('top'));
@@ -14207,7 +14207,7 @@ drenag = function(){
           jQuery('.draggable_s5').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_s5').css('top'));
@@ -14221,7 +14221,7 @@ drenag = function(){
           jQuery('.draggable_s6').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_s6').css('top'));
@@ -14236,7 +14236,7 @@ drenag = function(){
           jQuery('.draggable_v1').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v1').css('top'));
@@ -14250,7 +14250,7 @@ drenag = function(){
           jQuery('.draggable_s2').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_s2').css('top'));
@@ -14264,7 +14264,7 @@ drenag = function(){
           jQuery('.draggable_s3').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_s3').css('top'));
@@ -14278,7 +14278,7 @@ drenag = function(){
           jQuery('.draggable_s4').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_s4').css('top'));
@@ -14292,7 +14292,7 @@ drenag = function(){
           jQuery('.draggable_s5').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_s5').css('top'));
@@ -14306,7 +14306,7 @@ drenag = function(){
           jQuery('.draggable_s6').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_s6').css('top'));
@@ -14321,7 +14321,7 @@ drenag = function(){
           jQuery('.draggable_v1').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v1').css('top'));
@@ -14335,7 +14335,7 @@ drenag = function(){
           jQuery('.draggable_s2').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_s2').css('top'));
@@ -14349,7 +14349,7 @@ drenag = function(){
           jQuery('.draggable_s3').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_s3').css('top'));
@@ -14363,7 +14363,7 @@ drenag = function(){
           jQuery('.draggable_s4').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_s4').css('top'));
@@ -14377,7 +14377,7 @@ drenag = function(){
           jQuery('.draggable_s5').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_s5').css('top'));
@@ -14391,7 +14391,7 @@ drenag = function(){
           jQuery('.draggable_s6').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_s6').css('top'));
@@ -14424,7 +14424,7 @@ drenag = function(){
           jQuery('.draggable_v1').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v1').css('top'));
@@ -14438,7 +14438,7 @@ drenag = function(){
           jQuery('.draggable_d2').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_d2').css('top'));
@@ -14452,7 +14452,7 @@ drenag = function(){
           jQuery('.draggable_d3').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_d3').css('top'));
@@ -14466,7 +14466,7 @@ drenag = function(){
           jQuery('.draggable_d4').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_d4').css('top'));
@@ -14480,7 +14480,7 @@ drenag = function(){
           jQuery('.draggable_d5').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_d5').css('top'));
@@ -14494,7 +14494,7 @@ drenag = function(){
           jQuery('.draggable_d6').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_d6').css('top'));
@@ -14509,7 +14509,7 @@ drenag = function(){
           jQuery('.draggable_v1').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v1').css('top'));
@@ -14523,7 +14523,7 @@ drenag = function(){
           jQuery('.draggable_d2').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_d2').css('top'));
@@ -14537,7 +14537,7 @@ drenag = function(){
           jQuery('.draggable_d3').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_d3').css('top'));
@@ -14551,7 +14551,7 @@ drenag = function(){
           jQuery('.draggable_d4').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_d4').css('top'));
@@ -14565,7 +14565,7 @@ drenag = function(){
           jQuery('.draggable_d5').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_d5').css('top'));
@@ -14579,7 +14579,7 @@ drenag = function(){
           jQuery('.draggable_d6').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_d6').css('top'));
@@ -14594,7 +14594,7 @@ drenag = function(){
           jQuery('.draggable_v1').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v1').css('top'));
@@ -14608,7 +14608,7 @@ drenag = function(){
           jQuery('.draggable_d2').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_d2').css('top'));
@@ -14622,7 +14622,7 @@ drenag = function(){
           jQuery('.draggable_d3').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_d3').css('top'));
@@ -14636,7 +14636,7 @@ drenag = function(){
           jQuery('.draggable_d4').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_d4').css('top'));
@@ -14650,7 +14650,7 @@ drenag = function(){
           jQuery('.draggable_d5').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_d5').css('top'));
@@ -14664,7 +14664,7 @@ drenag = function(){
           jQuery('.draggable_d6').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_d6').css('top'));
@@ -14679,7 +14679,7 @@ drenag = function(){
           jQuery('.draggable_v1').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v1').css('top'));
@@ -14693,7 +14693,7 @@ drenag = function(){
           jQuery('.draggable_d2').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_d2').css('top'));
@@ -14707,7 +14707,7 @@ drenag = function(){
           jQuery('.draggable_d3').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_d3').css('top'));
@@ -14721,7 +14721,7 @@ drenag = function(){
           jQuery('.draggable_d4').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_d4').css('top'));
@@ -14735,7 +14735,7 @@ drenag = function(){
           jQuery('.draggable_d5').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_d5').css('top'));
@@ -14749,7 +14749,7 @@ drenag = function(){
           jQuery('.draggable_d6').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_d6').css('top'));
@@ -14781,7 +14781,7 @@ drenag = function(){
           jQuery('.draggable_v0').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v1').css('top'));
@@ -14795,7 +14795,7 @@ drenag = function(){
           jQuery('.draggable_v2').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v2').css('top'));
@@ -14809,7 +14809,7 @@ drenag = function(){
           jQuery('.draggable_v4').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v4').css('top'));
@@ -14823,7 +14823,7 @@ drenag = function(){
           jQuery('.draggable_v5').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v5').css('top'));
@@ -14837,7 +14837,7 @@ drenag = function(){
           jQuery('.draggable_v-').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v-').css('top'));
@@ -14852,7 +14852,7 @@ drenag = function(){
           jQuery('.draggable_v0').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v0').css('top'));
@@ -14866,7 +14866,7 @@ drenag = function(){
           jQuery('.draggable_v2').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v2').css('top'));
@@ -14880,7 +14880,7 @@ drenag = function(){
           jQuery('.draggable_v4').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v4').css('top'));
@@ -14894,7 +14894,7 @@ drenag = function(){
           jQuery('.draggable_v5').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v5').css('top'));
@@ -14908,7 +14908,7 @@ drenag = function(){
           jQuery('.draggable_v-').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v-').css('top'));
@@ -14923,7 +14923,7 @@ drenag = function(){
           jQuery('.draggable_v0').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v0').css('top'));
@@ -14937,7 +14937,7 @@ drenag = function(){
           jQuery('.draggable_v2').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v2').css('top'));
@@ -14951,7 +14951,7 @@ drenag = function(){
           jQuery('.draggable_v4').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v4').css('top'));
@@ -14965,7 +14965,7 @@ drenag = function(){
           jQuery('.draggable_v5').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v5').css('top'));
@@ -14979,7 +14979,7 @@ drenag = function(){
           jQuery('.draggable_v-').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v-').css('top'));
@@ -14994,7 +14994,7 @@ drenag = function(){
           jQuery('.draggable_v0').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v0').css('top'));
@@ -15008,7 +15008,7 @@ drenag = function(){
           jQuery('.draggable_v2').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v2').css('top'));
@@ -15022,7 +15022,7 @@ drenag = function(){
           jQuery('.draggable_v4').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v4').css('top'));
@@ -15036,7 +15036,7 @@ drenag = function(){
           jQuery('.draggable_v5').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v5').css('top'));
@@ -15050,7 +15050,7 @@ drenag = function(){
           jQuery('.draggable_v-').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v-').css('top'));
@@ -15065,7 +15065,7 @@ drenag = function(){
           jQuery('.draggable_v0').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v0').css('top'));
@@ -15079,7 +15079,7 @@ drenag = function(){
           jQuery('.draggable_v2').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v2').css('top'));
@@ -15093,7 +15093,7 @@ drenag = function(){
           jQuery('.draggable_v4').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v4').css('top'));
@@ -15107,7 +15107,7 @@ drenag = function(){
           jQuery('.draggable_v5').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v5').css('top'));
@@ -15140,7 +15140,7 @@ drenag = function(){
           jQuery('.draggable_v1').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v1').css('top'));
@@ -15154,7 +15154,7 @@ drenag = function(){
           jQuery('.draggable_s2').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_s2').css('top'));
@@ -15168,7 +15168,7 @@ drenag = function(){
           jQuery('.draggable_s3').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_s3').css('top'));
@@ -15182,7 +15182,7 @@ drenag = function(){
           jQuery('.draggable_s4').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_s4').css('top'));
@@ -15196,7 +15196,7 @@ drenag = function(){
           jQuery('.draggable_s5').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_s5').css('top'));
@@ -15210,7 +15210,7 @@ drenag = function(){
           jQuery('.draggable_s6').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_s6').css('top'));
@@ -15225,7 +15225,7 @@ drenag = function(){
           jQuery('.draggable_v1').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v1').css('top'));
@@ -15239,7 +15239,7 @@ drenag = function(){
           jQuery('.draggable_s2').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_s2').css('top'));
@@ -15253,7 +15253,7 @@ drenag = function(){
           jQuery('.draggable_s3').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_s3').css('top'));
@@ -15267,7 +15267,7 @@ drenag = function(){
           jQuery('.draggable_s4').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_s4').css('top'));
@@ -15281,7 +15281,7 @@ drenag = function(){
           jQuery('.draggable_s5').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_s5').css('top'));
@@ -15295,7 +15295,7 @@ drenag = function(){
           jQuery('.draggable_s6').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_s6').css('top'));
@@ -15310,7 +15310,7 @@ drenag = function(){
           jQuery('.draggable_v1').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v1').css('top'));
@@ -15324,7 +15324,7 @@ drenag = function(){
           jQuery('.draggable_s2').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_s2').css('top'));
@@ -15338,7 +15338,7 @@ drenag = function(){
           jQuery('.draggable_s3').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_s3').css('top'));
@@ -15352,7 +15352,7 @@ drenag = function(){
           jQuery('.draggable_s4').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_s4').css('top'));
@@ -15366,7 +15366,7 @@ drenag = function(){
           jQuery('.draggable_s5').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_s5').css('top'));
@@ -15380,7 +15380,7 @@ drenag = function(){
           jQuery('.draggable_s6').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_s6').css('top'));
@@ -15395,7 +15395,7 @@ drenag = function(){
           jQuery('.draggable_v1').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v1').css('top'));
@@ -15409,7 +15409,7 @@ drenag = function(){
           jQuery('.draggable_s2').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_s2').css('top'));
@@ -15423,7 +15423,7 @@ drenag = function(){
           jQuery('.draggable_s3').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_s3').css('top'));
@@ -15437,7 +15437,7 @@ drenag = function(){
           jQuery('.draggable_s4').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_s4').css('top'));
@@ -15451,7 +15451,7 @@ drenag = function(){
           jQuery('.draggable_s5').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_s5').css('top'));
@@ -15465,7 +15465,7 @@ drenag = function(){
           jQuery('.draggable_s6').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_s6').css('top'));
@@ -15498,7 +15498,7 @@ drenag = function(){
           jQuery('.draggable_v1').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v1').css('top'));
@@ -15512,7 +15512,7 @@ drenag = function(){
           jQuery('.draggable_d2').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_d2').css('top'));
@@ -15526,7 +15526,7 @@ drenag = function(){
           jQuery('.draggable_d3').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_d3').css('top'));
@@ -15540,7 +15540,7 @@ drenag = function(){
           jQuery('.draggable_d4').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_d4').css('top'));
@@ -15554,7 +15554,7 @@ drenag = function(){
           jQuery('.draggable_d5').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_d5').css('top'));
@@ -15568,7 +15568,7 @@ drenag = function(){
           jQuery('.draggable_d6').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_d6').css('top'));
@@ -15583,7 +15583,7 @@ drenag = function(){
           jQuery('.draggable_v1').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v1').css('top'));
@@ -15597,7 +15597,7 @@ drenag = function(){
           jQuery('.draggable_d2').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_d2').css('top'));
@@ -15611,7 +15611,7 @@ drenag = function(){
           jQuery('.draggable_d3').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_d3').css('top'));
@@ -15625,7 +15625,7 @@ drenag = function(){
           jQuery('.draggable_d4').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_d4').css('top'));
@@ -15639,7 +15639,7 @@ drenag = function(){
           jQuery('.draggable_d5').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_d5').css('top'));
@@ -15653,7 +15653,7 @@ drenag = function(){
           jQuery('.draggable_d6').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_d6').css('top'));
@@ -15668,7 +15668,7 @@ drenag = function(){
           jQuery('.draggable_v1').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v1').css('top'));
@@ -15682,7 +15682,7 @@ drenag = function(){
           jQuery('.draggable_d2').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_d2').css('top'));
@@ -15696,7 +15696,7 @@ drenag = function(){
           jQuery('.draggable_d3').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_d3').css('top'));
@@ -15710,7 +15710,7 @@ drenag = function(){
           jQuery('.draggable_d4').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_d4').css('top'));
@@ -15724,7 +15724,7 @@ drenag = function(){
           jQuery('.draggable_d5').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_d5').css('top'));
@@ -15738,7 +15738,7 @@ drenag = function(){
           jQuery('.draggable_d6').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_d6').css('top'));
@@ -15753,7 +15753,7 @@ drenag = function(){
           jQuery('.draggable_v1').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v1').css('top'));
@@ -15767,7 +15767,7 @@ drenag = function(){
           jQuery('.draggable_d2').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_d2').css('top'));
@@ -15781,7 +15781,7 @@ drenag = function(){
           jQuery('.draggable_d3').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_d3').css('top'));
@@ -15795,7 +15795,7 @@ drenag = function(){
           jQuery('.draggable_d4').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_d4').css('top'));
@@ -15809,7 +15809,7 @@ drenag = function(){
           jQuery('.draggable_d5').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_d5').css('top'));
@@ -15823,7 +15823,7 @@ drenag = function(){
           jQuery('.draggable_d6').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_d6').css('top'));
@@ -15854,7 +15854,7 @@ drenag = function(){
           jQuery('.draggable_v0').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v1').css('top'));
@@ -15869,7 +15869,7 @@ drenag = function(){
           jQuery('.draggable_v2').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v2').css('top'));
@@ -15883,7 +15883,7 @@ drenag = function(){
           jQuery('.draggable_v4').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v4').css('top'));
@@ -15897,7 +15897,7 @@ drenag = function(){
           jQuery('.draggable_v5').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v5').css('top'));
@@ -15911,7 +15911,7 @@ drenag = function(){
           jQuery('.draggable_v-').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v-').css('top'));
@@ -15926,7 +15926,7 @@ drenag = function(){
           jQuery('.draggable_v0').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v0').css('top'));
@@ -15940,7 +15940,7 @@ drenag = function(){
           jQuery('.draggable_v2').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v2').css('top'));
@@ -15954,7 +15954,7 @@ drenag = function(){
           jQuery('.draggable_v4').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v4').css('top'));
@@ -15968,7 +15968,7 @@ drenag = function(){
           jQuery('.draggable_v5').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v5').css('top'));
@@ -15982,7 +15982,7 @@ drenag = function(){
           jQuery('.draggable_v-').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v-').css('top'));
@@ -15997,7 +15997,7 @@ drenag = function(){
           jQuery('.draggable_v0').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v0').css('top'));
@@ -16011,7 +16011,7 @@ drenag = function(){
           jQuery('.draggable_v2').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v2').css('top'));
@@ -16025,7 +16025,7 @@ drenag = function(){
           jQuery('.draggable_v4').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v4').css('top'));
@@ -16039,7 +16039,7 @@ drenag = function(){
           jQuery('.draggable_v5').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v5').css('top'));
@@ -16053,7 +16053,7 @@ drenag = function(){
           jQuery('.draggable_v-').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v-').css('top'));
@@ -16068,7 +16068,7 @@ drenag = function(){
           jQuery('.draggable_v0').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v0').css('top'));
@@ -16082,7 +16082,7 @@ drenag = function(){
           jQuery('.draggable_v2').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v2').css('top'));
@@ -16096,7 +16096,7 @@ drenag = function(){
           jQuery('.draggable_v4').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v4').css('top'));
@@ -16110,7 +16110,7 @@ drenag = function(){
           jQuery('.draggable_v5').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v5').css('top'));
@@ -16124,7 +16124,7 @@ drenag = function(){
           jQuery('.draggable_v-').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v-').css('top'));
@@ -16139,7 +16139,7 @@ drenag = function(){
           jQuery('.draggable_v0').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v0').css('top'));
@@ -16153,7 +16153,7 @@ drenag = function(){
           jQuery('.draggable_v2').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v2').css('top'));
@@ -16167,7 +16167,7 @@ drenag = function(){
           jQuery('.draggable_v4').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v4').css('top'));
@@ -16181,7 +16181,7 @@ drenag = function(){
           jQuery('.draggable_v5').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v5').css('top'));
@@ -16214,7 +16214,7 @@ drenag = function(){
           jQuery('.draggable_v1').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v1').css('top'));
@@ -16228,7 +16228,7 @@ drenag = function(){
           jQuery('.draggable_s2').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_s2').css('top'));
@@ -16242,7 +16242,7 @@ drenag = function(){
           jQuery('.draggable_s3').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_s3').css('top'));
@@ -16256,7 +16256,7 @@ drenag = function(){
           jQuery('.draggable_s4').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_s4').css('top'));
@@ -16270,7 +16270,7 @@ drenag = function(){
           jQuery('.draggable_s5').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_s5').css('top'));
@@ -16284,7 +16284,7 @@ drenag = function(){
           jQuery('.draggable_s6').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_s6').css('top'));
@@ -16299,7 +16299,7 @@ drenag = function(){
           jQuery('.draggable_v1').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v1').css('top'));
@@ -16313,7 +16313,7 @@ drenag = function(){
           jQuery('.draggable_s2').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_s2').css('top'));
@@ -16327,7 +16327,7 @@ drenag = function(){
           jQuery('.draggable_s3').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_s3').css('top'));
@@ -16341,7 +16341,7 @@ drenag = function(){
           jQuery('.draggable_s4').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_s4').css('top'));
@@ -16355,7 +16355,7 @@ drenag = function(){
           jQuery('.draggable_s5').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_s5').css('top'));
@@ -16369,7 +16369,7 @@ drenag = function(){
           jQuery('.draggable_s6').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_s6').css('top'));
@@ -16383,7 +16383,7 @@ drenag = function(){
           jQuery('.draggable_v1').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.status_percent').text('98%');
@@ -16398,7 +16398,7 @@ drenag = function(){
           jQuery('.draggable_s2').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_s2').css('top'));
@@ -16412,7 +16412,7 @@ drenag = function(){
           jQuery('.draggable_s3').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_s3').css('top'));
@@ -16426,7 +16426,7 @@ drenag = function(){
           jQuery('.draggable_s4').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_s4').css('top'));
@@ -16440,7 +16440,7 @@ drenag = function(){
           jQuery('.draggable_s5').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_s5').css('top'));
@@ -16454,7 +16454,7 @@ drenag = function(){
           jQuery('.draggable_s6').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_s6').css('top'));
@@ -16469,7 +16469,7 @@ drenag = function(){
           jQuery('.draggable_v1').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v1').css('top'));
@@ -16483,7 +16483,7 @@ drenag = function(){
           jQuery('.draggable_s2').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_s2').css('top'));
@@ -16497,7 +16497,7 @@ drenag = function(){
           jQuery('.draggable_s3').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_s3').css('top'));
@@ -16511,7 +16511,7 @@ drenag = function(){
           jQuery('.draggable_s4').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_s4').css('top'));
@@ -16525,7 +16525,7 @@ drenag = function(){
           jQuery('.draggable_s5').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_s5').css('top'));
@@ -16539,7 +16539,7 @@ drenag = function(){
           jQuery('.draggable_s6').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_s6').css('top'));
