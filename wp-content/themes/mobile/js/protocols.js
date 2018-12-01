@@ -146,20 +146,20 @@ v1 = function(){
           jQuery('.draggable_v1').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/disfunction.jpg) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/disfunction.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x').css('top', l_top);
           jQuery('.zone_l').css('top', r_bottom);
         } else if (count_animation <= 8) {
           jQuery('.draggable_v1').css({
-            background: '#fff url(/wp-content/themes/mobile/img/travma.jpg) 0 0/100% no-repeat'
+            background: '#fff url(/wp-content/themes/mobile/img/travma.png) 0 0/100% no-repeat'
           });
           jQuery('.zone_x').css('top', l_bottom);
           jQuery('.zone_l').css('top', r_top);
         } else if (count_animation <= 12) {
           jQuery('.draggable_v1').css({
-            background: '#fff url(/wp-content/themes/mobile/img/povregdenie_demona.jpg) 0 0/100% no-repeat'
+            background: '#fff url(/wp-content/themes/mobile/img/povregdenie_demona.png) 0 0/100% no-repeat'
           });
           jQuery('.zone_x').css('top', l_top);
           jQuery('.zone_l').css('top', r_bottom);
@@ -187,20 +187,20 @@ v1 = function(){
               jQuery('.draggable_v5').css({
                 color: 'transparent',
                 transform: 'scale(1.3)',
-                background: '#fff url(/wp-content/themes/mobile/img/disfunction.jpg) 0 0/100% no-repeat',
+                background: '#fff url(/wp-content/themes/mobile/img/disfunction.png) 0 0/100% no-repeat',
                 opacity: 0.8
               });
               jQuery('.zone_x').css('top', l_bottom);
               jQuery('.zone_l').css('top', r_top);
             } else if (count_animation <= 8) {
               jQuery('.draggable_v5').css({
-                background: '#fff url(/wp-content/themes/mobile/img/travma.jpg) 0 0/100% no-repeat'
+                background: '#fff url(/wp-content/themes/mobile/img/travma.png) 0 0/100% no-repeat'
               });
               jQuery('.zone_x').css('top', l_top);
               jQuery('.zone_l').css('top', r_bottom);
             } else if (count_animation <= 12) {
               jQuery('.draggable_v5').css({
-                background: '#fff url(/wp-content/themes/mobile/img/povregdenie_demona.jpg) 0 0/100% no-repeat'
+                background: '#fff url(/wp-content/themes/mobile/img/povregdenie_demona.png) 0 0/100% no-repeat'
               });
               jQuery('.zone_x').css('top', l_bottom);
               jQuery('.zone_l').css('top', r_top);
@@ -228,20 +228,20 @@ v1 = function(){
                   jQuery('.draggable_v-').css({
                     color: 'transparent',
                     transform: 'scale(1.3)',
-                    background: '#fff url(/wp-content/themes/mobile/img/disfunction.jpg) 0 0/100% no-repeat',
+                    background: '#fff url(/wp-content/themes/mobile/img/disfunction.png) 0 0/100% no-repeat',
                     opacity: 0.8
                   });
                   jQuery('.zone_x').css('top', l_top);
                   jQuery('.zone_l').css('top', r_bottom);
                 } else if (count_animation <= 8) {
                   jQuery('.draggable_v-').css({
-                    background: '#fff url(/wp-content/themes/mobile/img/travma.jpg) 0 0/100% no-repeat'
+                    background: '#fff url(/wp-content/themes/mobile/img/travma.png) 0 0/100% no-repeat'
                   });
                   jQuery('.zone_x').css('top', l_bottom);
                   jQuery('.zone_l').css('top', r_top);
                 } else if (count_animation <= 12) {
                   jQuery('.draggable_v-').css({
-                    background: '#fff url(/wp-content/themes/mobile/img/povregdenie_demona.jpg) 0 0/100% no-repeat'
+                    background: '#fff url(/wp-content/themes/mobile/img/povregdenie_demona.png) 0 0/100% no-repeat'
                   });
                   jQuery('.zone_x').css('top', l_top);
                   jQuery('.zone_l').css('top', r_bottom);
@@ -269,20 +269,20 @@ v1 = function(){
                       jQuery('.draggable_v1').css({
                         color: 'transparent',
                         transform: 'scale(1.3)',
-                        background: '#fff url(/wp-content/themes/mobile/img/disfunction.jpg) 0 0/100% no-repeat',
+                        background: '#fff url(/wp-content/themes/mobile/img/disfunction.png) 0 0/100% no-repeat',
                         opacity: 0.8
                       });
                       jQuery('.zone_x').css('top', l_bottom);
                       jQuery('.zone_l').css('top', r_top);
                     } else if (count_animation <= 8) {
                       jQuery('.draggable_v1').css({
-                        background: '#fff url(/wp-content/themes/mobile/img/travma.jpg) 0 0/100% no-repeat'
+                        background: '#fff url(/wp-content/themes/mobile/img/travma.png) 0 0/100% no-repeat'
                       });
                       jQuery('.zone_x').css('top', l_top);
                       jQuery('.zone_l').css('top', r_bottom);
                     } else if (count_animation <= 12) {
                       jQuery('.draggable_v1').css({
-                        background: '#fff url(/wp-content/themes/mobile/img/povregdenie_demona.jpg) 0 0/100% no-repeat'
+                        background: '#fff url(/wp-content/themes/mobile/img/povregdenie_demona.png) 0 0/100% no-repeat'
                       });
                       jQuery('.zone_x').css('top', l_bottom);
                       jQuery('.zone_l').css('top', r_top);
@@ -310,20 +310,20 @@ v1 = function(){
                           jQuery('.draggable_v5').css({
                             color: 'transparent',
                             transform: 'scale(1.3)',
-                            background: '#fff url(/wp-content/themes/mobile/img/disfunction.jpg) 0 0/100% no-repeat',
+                            background: '#fff url(/wp-content/themes/mobile/img/disfunction.png) 0 0/100% no-repeat',
                             opacity: 0.8
                           });
                           jQuery('.zone_x').css('top', l_top);
                           jQuery('.zone_l').css('top', r_bottom);
                         } else if (count_animation <= 8) {
                           jQuery('.draggable_v5').css({
-                            background: '#fff url(/wp-content/themes/mobile/img/travma.jpg) 0 0/100% no-repeat'
+                            background: '#fff url(/wp-content/themes/mobile/img/travma.png) 0 0/100% no-repeat'
                           });
                           jQuery('.zone_x').css('top', l_bottom);
                           jQuery('.zone_l').css('top', r_top);
                         } else if (count_animation <= 12) {
                           jQuery('.draggable_v5').css({
-                            background: '#fff url(/wp-content/themes/mobile/img/povregdenie_demona.jpg) 0 0/100% no-repeat'
+                            background: '#fff url(/wp-content/themes/mobile/img/povregdenie_demona.png) 0 0/100% no-repeat'
                           });
                           jQuery('.zone_x').css('top', l_top);
                           jQuery('.zone_l').css('top', r_bottom);
@@ -351,20 +351,20 @@ v1 = function(){
                               jQuery('.draggable_v-').css({
                                 color: 'transparent',
                                 transform: 'scale(1.3)',
-                                background: '#fff url(/wp-content/themes/mobile/img/disfunction.jpg) 0 0/100% no-repeat',
+                                background: '#fff url(/wp-content/themes/mobile/img/disfunction.png) 0 0/100% no-repeat',
                                 opacity: 0.8
                               });
                               jQuery('.zone_x').css('top', l_bottom);
                               jQuery('.zone_l').css('top', r_top);
                             } else if (count_animation <= 8) {
                               jQuery('.draggable_v-').css({
-                                background: '#fff url(/wp-content/themes/mobile/img/travma.jpg) 0 0/100% no-repeat'
+                                background: '#fff url(/wp-content/themes/mobile/img/travma.png) 0 0/100% no-repeat'
                               });
                               jQuery('.zone_x').css('top', l_top);
                               jQuery('.zone_l').css('top', r_bottom);
                             } else if (count_animation <= 12) {
                               jQuery('.draggable_v-').css({
-                                background: '#fff url(/wp-content/themes/mobile/img/povregdenie_demona.jpg) 0 0/100% no-repeat'
+                                background: '#fff url(/wp-content/themes/mobile/img/povregdenie_demona.png) 0 0/100% no-repeat'
                               });
                               jQuery('.zone_x').css('top', l_bottom);
                               jQuery('.zone_l').css('top', r_top);
@@ -392,20 +392,20 @@ v1 = function(){
                                   jQuery('.draggable_v1').css({
                                     color: 'transparent',
                                     transform: 'scale(1.3)',
-                                    background: '#fff url(/wp-content/themes/mobile/img/disfunction.jpg) 0 0/100% no-repeat',
+                                    background: '#fff url(/wp-content/themes/mobile/img/disfunction.png) 0 0/100% no-repeat',
                                     opacity: 0.8
                                   });
                                   jQuery('.zone_x').css('top', r_top);
                                   jQuery('.zone_l').css('top', l_bottom);
                                 } else if (count_animation <= 8) {
                                   jQuery('.draggable_v1').css({
-                                    background: '#fff url(/wp-content/themes/mobile/img/travma.jpg) 0 0/100% no-repeat'
+                                    background: '#fff url(/wp-content/themes/mobile/img/travma.png) 0 0/100% no-repeat'
                                   });
                                   jQuery('.zone_x').css('top', r_bottom);
                                   jQuery('.zone_l').css('top', l_top);
                                 } else if (count_animation <= 12) {
                                   jQuery('.draggable_v1').css({
-                                    background: '#fff url(/wp-content/themes/mobile/img/povregdenie_demona.jpg) 0 0/100% no-repeat'
+                                    background: '#fff url(/wp-content/themes/mobile/img/povregdenie_demona.png) 0 0/100% no-repeat'
                                   });
                                   jQuery('.zone_x').css('top', r_top);
                                   jQuery('.zone_l').css('top', l_bottom);
@@ -433,20 +433,20 @@ v1 = function(){
                                       jQuery('.draggable_v5').css({
                                         color: 'transparent',
                                         transform: 'scale(1.3)',
-                                        background: '#fff url(/wp-content/themes/mobile/img/disfunction.jpg) 0 0/100% no-repeat',
+                                        background: '#fff url(/wp-content/themes/mobile/img/disfunction.png) 0 0/100% no-repeat',
                                         opacity: 0.8
                                       });
                                       jQuery('.zone_x').css('top', r_bottom);
                                       jQuery('.zone_l').css('top', l_top);
                                     } else if (count_animation <= 8) {
                                       jQuery('.draggable_v5').css({
-                                        background: '#fff url(/wp-content/themes/mobile/img/travma.jpg) 0 0/100% no-repeat'
+                                        background: '#fff url(/wp-content/themes/mobile/img/travma.png) 0 0/100% no-repeat'
                                       });
                                       jQuery('.zone_x').css('top', r_top);
                                       jQuery('.zone_l').css('top', l_bottom);
                                     } else if (count_animation <= 12) {
                                       jQuery('.draggable_v5').css({
-                                        background: '#fff url(/wp-content/themes/mobile/img/povregdenie_demona.jpg) 0 0/100% no-repeat'
+                                        background: '#fff url(/wp-content/themes/mobile/img/povregdenie_demona.png) 0 0/100% no-repeat'
                                       });
                                       jQuery('.zone_x').css('top', r_bottom);
                                       jQuery('.zone_l').css('top', l_top);
@@ -474,20 +474,20 @@ v1 = function(){
                                           jQuery('.draggable_v-').css({
                                             color: 'transparent',
                                             transform: 'scale(1.3)',
-                                            background: '#fff url(/wp-content/themes/mobile/img/disfunction.jpg) 0 0/100% no-repeat',
+                                            background: '#fff url(/wp-content/themes/mobile/img/disfunction.png) 0 0/100% no-repeat',
                                             opacity: 0.8
                                           });
                                           jQuery('.zone_x').css('top', r_top);
                                           jQuery('.zone_l').css('top', l_bottom);
                                         } else if (count_animation <= 8) {
                                           jQuery('.draggable_v-').css({
-                                            background: '#fff url(/wp-content/themes/mobile/img/travma.jpg) 0 0/100% no-repeat'
+                                            background: '#fff url(/wp-content/themes/mobile/img/travma.png) 0 0/100% no-repeat'
                                           });
                                           jQuery('.zone_x').css('top', r_bottom);
                                           jQuery('.zone_l').css('top', l_top);
                                         } else if (count_animation <= 12) {
                                           jQuery('.draggable_v-').css({
-                                            background: '#fff url(/wp-content/themes/mobile/img/povregdenie_demona.jpg) 0 0/100% no-repeat'
+                                            background: '#fff url(/wp-content/themes/mobile/img/povregdenie_demona.png) 0 0/100% no-repeat'
                                           });
                                           jQuery('.zone_x').css('top', r_top);
                                           jQuery('.zone_l').css('top', l_bottom);
@@ -515,20 +515,20 @@ v1 = function(){
                                               jQuery('.draggable_v1').css({
                                                 color: 'transparent',
                                                 transform: 'scale(1.3)',
-                                                background: '#fff url(/wp-content/themes/mobile/img/disfunction.jpg) 0 0/100% no-repeat',
+                                                background: '#fff url(/wp-content/themes/mobile/img/disfunction.png) 0 0/100% no-repeat',
                                                 opacity: 0.8
                                               });
                                               jQuery('.zone_x').css('top', r_bottom);
                                               jQuery('.zone_l').css('top', l_top);
                                             } else if (count_animation <= 8) {
                                               jQuery('.draggable_v1').css({
-                                                background: '#fff url(/wp-content/themes/mobile/img/travma.jpg) 0 0/100% no-repeat'
+                                                background: '#fff url(/wp-content/themes/mobile/img/travma.png) 0 0/100% no-repeat'
                                               });
                                               jQuery('.zone_x').css('top', r_top);
                                               jQuery('.zone_l').css('top', l_bottom);
                                             } else if (count_animation <= 12) {
                                               jQuery('.draggable_v1').css({
-                                                background: '#fff url(/wp-content/themes/mobile/img/povregdenie_demona.jpg) 0 0/100% no-repeat'
+                                                background: '#fff url(/wp-content/themes/mobile/img/povregdenie_demona.png) 0 0/100% no-repeat'
                                               });
                                               jQuery('.zone_x').css('top', r_bottom);
                                               jQuery('.zone_l').css('top', l_top);
@@ -556,20 +556,20 @@ v1 = function(){
                                                   jQuery('.draggable_v5').css({
                                                     color: 'transparent',
                                                     transform: 'scale(1.3)',
-                                                    background: '#fff url(/wp-content/themes/mobile/img/disfunction.jpg) 0 0/100% no-repeat',
+                                                    background: '#fff url(/wp-content/themes/mobile/img/disfunction.png) 0 0/100% no-repeat',
                                                     opacity: 0.8
                                                   });
                                                   jQuery('.zone_x').css('top', r_top);
                                                   jQuery('.zone_l').css('top', l_bottom);
                                                 } else if (count_animation <= 8) {
                                                   jQuery('.draggable_v5').css({
-                                                    background: '#fff url(/wp-content/themes/mobile/img/travma.jpg) 0 0/100% no-repeat'
+                                                    background: '#fff url(/wp-content/themes/mobile/img/travma.png) 0 0/100% no-repeat'
                                                   });
                                                   jQuery('.zone_x').css('top', r_bottom);
                                                   jQuery('.zone_l').css('top', l_top);
                                                 } else if (count_animation <= 12) {
                                                   jQuery('.draggable_v5').css({
-                                                    background: '#fff url(/wp-content/themes/mobile/img/povregdenie_demona.jpg) 0 0/100% no-repeat'
+                                                    background: '#fff url(/wp-content/themes/mobile/img/povregdenie_demona.png) 0 0/100% no-repeat'
                                                   });
                                                   jQuery('.zone_x').css('top', r_top);
                                                   jQuery('.zone_l').css('top', l_bottom);
@@ -597,20 +597,20 @@ v1 = function(){
                                                       jQuery('.draggable_v-').css({
                                                         color: 'transparent',
                                                         transform: 'scale(1.3)',
-                                                        background: '#fff url(/wp-content/themes/mobile/img/disfunction.jpg) 0 0/100% no-repeat',
+                                                        background: '#fff url(/wp-content/themes/mobile/img/disfunction.png) 0 0/100% no-repeat',
                                                         opacity: 0.8
                                                       });
                                                       jQuery('.zone_x').css('top', r_bottom);
                                                       jQuery('.zone_l').css('top', l_top);
                                                     } else if (count_animation <= 8) {
                                                       jQuery('.draggable_v-').css({
-                                                        background: '#fff url(/wp-content/themes/mobile/img/travma.jpg) 0 0/100% no-repeat'
+                                                        background: '#fff url(/wp-content/themes/mobile/img/travma.png) 0 0/100% no-repeat'
                                                       });
                                                       jQuery('.zone_x').css('top', r_top);
                                                       jQuery('.zone_l').css('top', l_bottom);
                                                     } else if (count_animation <= 12) {
                                                       jQuery('.draggable_v-').css({
-                                                        background: '#fff url(/wp-content/themes/mobile/img/povregdenie_demona.jpg) 0 0/100% no-repeat'
+                                                        background: '#fff url(/wp-content/themes/mobile/img/povregdenie_demona.png) 0 0/100% no-repeat'
                                                       });
                                                       jQuery('.zone_x').css('top', r_bottom);
                                                       jQuery('.zone_l').css('top', l_top);
@@ -675,7 +675,7 @@ v1 = function(){
           jQuery('.draggable_d5').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/disfunction.jpg) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/disfunction.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x').css('top', l_bottom);
@@ -686,7 +686,7 @@ v1 = function(){
           rotate_two += 20;
         } else if (count_animation <= 8) {
           jQuery('.draggable_d5').css({
-            background: '#fff url(/wp-content/themes/mobile/img/travma.jpg) 0 0/100% no-repeat'
+            background: '#fff url(/wp-content/themes/mobile/img/travma.png) 0 0/100% no-repeat'
           });
           jQuery('.zone_x').css('top', l_top);
           jQuery('.zone_l').css('top', r_bottom);
@@ -696,7 +696,7 @@ v1 = function(){
           rotate_two += 8;
         } else if (count_animation <= 12) {
           jQuery('.draggable_d5').css({
-            background: '#fff url(/wp-content/themes/mobile/img/povregdenie_demona.jpg) 0 0/100% no-repeat'
+            background: '#fff url(/wp-content/themes/mobile/img/povregdenie_demona.png) 0 0/100% no-repeat'
           });
           jQuery('.zone_x').css('top', l_bottom);
           jQuery('.zone_l').css('top', r_top);
@@ -724,7 +724,7 @@ v1 = function(){
               jQuery('.draggable_d6').css({
                 color: 'transparent',
                 transform: 'scale(1.3)',
-                background: '#fff url(/wp-content/themes/mobile/img/disfunction.jpg) 0 0/100% no-repeat',
+                background: '#fff url(/wp-content/themes/mobile/img/disfunction.png) 0 0/100% no-repeat',
                 opacity: 0.8
               });
               jQuery('.zone_x').css('top', l_top);
@@ -735,7 +735,7 @@ v1 = function(){
               rotate_two += 8;
             } else if (count_animation <= 8) {
               jQuery('.draggable_d6').css({
-                background: '#fff url(/wp-content/themes/mobile/img/travma.jpg) 0 0/100% no-repeat'
+                background: '#fff url(/wp-content/themes/mobile/img/travma.png) 0 0/100% no-repeat'
               });
               jQuery('.zone_x').css('top', l_bottom);
               jQuery('.zone_l').css('top', r_top);
@@ -745,7 +745,7 @@ v1 = function(){
               rotate_two += 20;
             } else if (count_animation <= 12) {
               jQuery('.draggable_d6').css({
-                background: '#fff url(/wp-content/themes/mobile/img/povregdenie_demona.jpg) 0 0/100% no-repeat'
+                background: '#fff url(/wp-content/themes/mobile/img/povregdenie_demona.png) 0 0/100% no-repeat'
               });
               jQuery('.zone_x').css('top', l_top);
               jQuery('.zone_l').css('top', r_bottom);
@@ -773,7 +773,7 @@ v1 = function(){
                   jQuery('.draggable_s5').css({
                     color: 'transparent',
                     transform: 'scale(1.3)',
-                    background: '#fff url(/wp-content/themes/mobile/img/disfunction.jpg) 0 0/100% no-repeat',
+                    background: '#fff url(/wp-content/themes/mobile/img/disfunction.png) 0 0/100% no-repeat',
                     opacity: 0.8
                   });
                   jQuery('.zone_x').css('top', l_bottom);
@@ -784,7 +784,7 @@ v1 = function(){
                   rotate_two += 20;
                 } else if (count_animation <= 8) {
                   jQuery('.draggable_s5').css({
-                    background: '#fff url(/wp-content/themes/mobile/img/travma.jpg) 0 0/100% no-repeat'
+                    background: '#fff url(/wp-content/themes/mobile/img/travma.png) 0 0/100% no-repeat'
                   });
                   jQuery('.zone_x').css('top', l_top);
                   jQuery('.zone_l').css('top', r_bottom);
@@ -794,7 +794,7 @@ v1 = function(){
                   rotate_two += 8;
                 } else if (count_animation <= 12) {
                   jQuery('.draggable_s5').css({
-                    background: '#fff url(/wp-content/themes/mobile/img/povregdenie_demona.jpg) 0 0/100% no-repeat'
+                    background: '#fff url(/wp-content/themes/mobile/img/povregdenie_demona.png) 0 0/100% no-repeat'
                   });
                   jQuery('.zone_x').css('top', l_bottom);
                   jQuery('.zone_l').css('top', r_top);
@@ -822,7 +822,7 @@ v1 = function(){
                       jQuery('.draggable_s6').css({
                         color: 'transparent',
                         transform: 'scale(1.3)',
-                        background: '#fff url(/wp-content/themes/mobile/img/disfunction.jpg) 0 0/100% no-repeat',
+                        background: '#fff url(/wp-content/themes/mobile/img/disfunction.png) 0 0/100% no-repeat',
                         opacity: 0.8
                       });
                       jQuery('.zone_x').css('top', l_top);
@@ -833,7 +833,7 @@ v1 = function(){
                       rotate_two += 8;
                     } else if (count_animation <= 8) {
                       jQuery('.draggable_s6').css({
-                        background: '#fff url(/wp-content/themes/mobile/img/travma.jpg) 0 0/100% no-repeat'
+                        background: '#fff url(/wp-content/themes/mobile/img/travma.png) 0 0/100% no-repeat'
                       });
                       jQuery('.zone_x').css('top', l_bottom);
                       jQuery('.zone_l').css('top', r_top);
@@ -843,7 +843,7 @@ v1 = function(){
                       rotate_two += 20;
                     } else if (count_animation <= 12) {
                       jQuery('.draggable_s6').css({
-                        background: '#fff url(/wp-content/themes/mobile/img/povregdenie_demona.jpg) 0 0/100% no-repeat'
+                        background: '#fff url(/wp-content/themes/mobile/img/povregdenie_demona.png) 0 0/100% no-repeat'
                       });
                       jQuery('.zone_x').css('top', l_top);
                       jQuery('.zone_l').css('top', r_bottom);
@@ -871,7 +871,7 @@ v1 = function(){
                           jQuery('.draggable_d2').css({
                             color: 'transparent',
                             transform: 'scale(1.3)',
-                            background: '#fff url(/wp-content/themes/mobile/img/disfunction.jpg) 0 0/100% no-repeat',
+                            background: '#fff url(/wp-content/themes/mobile/img/disfunction.png) 0 0/100% no-repeat',
                             opacity: 0.8
                           });
                           jQuery('.zone_x').css('top', l_bottom);
@@ -882,7 +882,7 @@ v1 = function(){
                           rotate_two += 20;
                         } else if (count_animation <= 8) {
                           jQuery('.draggable_d2').css({
-                            background: '#fff url(/wp-content/themes/mobile/img/travma.jpg) 0 0/100% no-repeat'
+                            background: '#fff url(/wp-content/themes/mobile/img/travma.png) 0 0/100% no-repeat'
                           });
                           jQuery('.zone_x').css('top', l_top);
                           jQuery('.zone_l').css('top', r_bottom);
@@ -892,7 +892,7 @@ v1 = function(){
                           rotate_two += 8;
                         } else if (count_animation <= 12) {
                           jQuery('.draggable_d2').css({
-                            background: '#fff url(/wp-content/themes/mobile/img/povregdenie_demona.jpg) 0 0/100% no-repeat'
+                            background: '#fff url(/wp-content/themes/mobile/img/povregdenie_demona.png) 0 0/100% no-repeat'
                           });
                           jQuery('.zone_x').css('top', l_bottom);
                           jQuery('.zone_l').css('top', r_top);
@@ -920,7 +920,7 @@ v1 = function(){
                               jQuery('.draggable_s2').css({
                                 color: 'transparent',
                                 transform: 'scale(1.3)',
-                                background: '#fff url(/wp-content/themes/mobile/img/disfunction.jpg) 0 0/100% no-repeat',
+                                background: '#fff url(/wp-content/themes/mobile/img/disfunction.png) 0 0/100% no-repeat',
                                 opacity: 0.8
                               });
                               jQuery('.zone_x').css('top', l_top);
@@ -931,7 +931,7 @@ v1 = function(){
                               rotate_two += 8;
                             } else if (count_animation <= 8) {
                               jQuery('.draggable_s2').css({
-                                background: '#fff url(/wp-content/themes/mobile/img/travma.jpg) 0 0/100% no-repeat'
+                                background: '#fff url(/wp-content/themes/mobile/img/travma.png) 0 0/100% no-repeat'
                               });
                               jQuery('.zone_x').css('top', l_bottom);
                               jQuery('.zone_l').css('top', r_top);
@@ -941,7 +941,7 @@ v1 = function(){
                               rotate_two += 20;
                             } else if (count_animation <= 12) {
                               jQuery('.draggable_s2').css({
-                                background: '#fff url(/wp-content/themes/mobile/img/povregdenie_demona.jpg) 0 0/100% no-repeat'
+                                background: '#fff url(/wp-content/themes/mobile/img/povregdenie_demona.png) 0 0/100% no-repeat'
                               });
                               jQuery('.zone_x').css('top', l_top);
                               jQuery('.zone_l').css('top', r_bottom);
@@ -969,7 +969,7 @@ v1 = function(){
                                   jQuery('.draggable_d5').css({
                                     color: 'transparent',
                                     transform: 'scale(1.3)',
-                                    background: '#fff url(/wp-content/themes/mobile/img/disfunction.jpg) 0 0/100% no-repeat',
+                                    background: '#fff url(/wp-content/themes/mobile/img/disfunction.png) 0 0/100% no-repeat',
                                     opacity: 0.8
                                   });
                                   jQuery('.zone_x').css('top', l_bottom);
@@ -980,7 +980,7 @@ v1 = function(){
                                   rotate_two += 20;
                                 } else if (count_animation <= 8) {
                                   jQuery('.draggable_d5').css({
-                                    background: '#fff url(/wp-content/themes/mobile/img/travma.jpg) 0 0/100% no-repeat'
+                                    background: '#fff url(/wp-content/themes/mobile/img/travma.png) 0 0/100% no-repeat'
                                   });
                                   jQuery('.zone_x').css('top', l_top);
                                   jQuery('.zone_l').css('top', r_bottom);
@@ -990,7 +990,7 @@ v1 = function(){
                                   rotate_two += 8;
                                 } else if (count_animation <= 12) {
                                   jQuery('.draggable_d5').css({
-                                    background: '#fff url(/wp-content/themes/mobile/img/povregdenie_demona.jpg) 0 0/100% no-repeat'
+                                    background: '#fff url(/wp-content/themes/mobile/img/povregdenie_demona.png) 0 0/100% no-repeat'
                                   });
                                   jQuery('.zone_x').css('top', l_bottom);
                                   jQuery('.zone_l').css('top', r_top);
@@ -1018,7 +1018,7 @@ v1 = function(){
                                       jQuery('.draggable_d6').css({
                                         color: 'transparent',
                                         transform: 'scale(1.3)',
-                                        background: '#fff url(/wp-content/themes/mobile/img/disfunction.jpg) 0 0/100% no-repeat',
+                                        background: '#fff url(/wp-content/themes/mobile/img/disfunction.png) 0 0/100% no-repeat',
                                         opacity: 0.8
                                       });
                                       jQuery('.zone_x').css('top', l_top);
@@ -1029,7 +1029,7 @@ v1 = function(){
                                       rotate_two += 8;
                                     } else if (count_animation <= 8) {
                                       jQuery('.draggable_d6').css({
-                                        background: '#fff url(/wp-content/themes/mobile/img/travma.jpg) 0 0/100% no-repeat'
+                                        background: '#fff url(/wp-content/themes/mobile/img/travma.png) 0 0/100% no-repeat'
                                       });
                                       jQuery('.zone_x').css('top', l_bottom);
                                       jQuery('.zone_l').css('top', r_top);
@@ -1039,7 +1039,7 @@ v1 = function(){
                                       rotate_two += 20;
                                     } else if (count_animation <= 12) {
                                       jQuery('.draggable_d6').css({
-                                        background: '#fff url(/wp-content/themes/mobile/img/povregdenie_demona.jpg) 0 0/100% no-repeat'
+                                        background: '#fff url(/wp-content/themes/mobile/img/povregdenie_demona.png) 0 0/100% no-repeat'
                                       });
                                       jQuery('.zone_x').css('top', l_top);
                                       jQuery('.zone_l').css('top', r_bottom);
@@ -1067,7 +1067,7 @@ v1 = function(){
                                           jQuery('.draggable_s5').css({
                                             color: 'transparent',
                                             transform: 'scale(1.3)',
-                                            background: '#fff url(/wp-content/themes/mobile/img/disfunction.jpg) 0 0/100% no-repeat',
+                                            background: '#fff url(/wp-content/themes/mobile/img/disfunction.png) 0 0/100% no-repeat',
                                             opacity: 0.8
                                           });
                                           jQuery('.zone_x').css('top', l_bottom);
@@ -1078,7 +1078,7 @@ v1 = function(){
                                           rotate_two += 20;
                                         } else if (count_animation <= 8) {
                                           jQuery('.draggable_s5').css({
-                                            background: '#fff url(/wp-content/themes/mobile/img/travma.jpg) 0 0/100% no-repeat'
+                                            background: '#fff url(/wp-content/themes/mobile/img/travma.png) 0 0/100% no-repeat'
                                           });
                                           jQuery('.zone_x').css('top', l_top);
                                           jQuery('.zone_l').css('top', r_bottom);
@@ -1088,7 +1088,7 @@ v1 = function(){
                                           rotate_two += 8;
                                         } else if (count_animation <= 12) {
                                           jQuery('.draggable_s5').css({
-                                            background: '#fff url(/wp-content/themes/mobile/img/povregdenie_demona.jpg) 0 0/100% no-repeat'
+                                            background: '#fff url(/wp-content/themes/mobile/img/povregdenie_demona.png) 0 0/100% no-repeat'
                                           });
                                           jQuery('.zone_x').css('top', l_bottom);
                                           jQuery('.zone_l').css('top', r_top);
@@ -1116,7 +1116,7 @@ v1 = function(){
                                               jQuery('.draggable_s6').css({
                                                 color: 'transparent',
                                                 transform: 'scale(1.3)',
-                                                background: '#fff url(/wp-content/themes/mobile/img/disfunction.jpg) 0 0/100% no-repeat',
+                                                background: '#fff url(/wp-content/themes/mobile/img/disfunction.png) 0 0/100% no-repeat',
                                                 opacity: 0.8
                                               });
                                               jQuery('.zone_x').css('top', l_top);
@@ -1127,7 +1127,7 @@ v1 = function(){
                                               rotate_two += 8;
                                             } else if (count_animation <= 8) {
                                               jQuery('.draggable_s6').css({
-                                                background: '#fff url(/wp-content/themes/mobile/img/travma.jpg) 0 0/100% no-repeat'
+                                                background: '#fff url(/wp-content/themes/mobile/img/travma.png) 0 0/100% no-repeat'
                                               });
                                               jQuery('.zone_x').css('top', l_bottom);
                                               jQuery('.zone_l').css('top', r_top);
@@ -1137,7 +1137,7 @@ v1 = function(){
                                               rotate_two += 20;
                                             } else if (count_animation <= 12) {
                                               jQuery('.draggable_s6').css({
-                                                background: '#fff url(/wp-content/themes/mobile/img/povregdenie_demona.jpg) 0 0/100% no-repeat'
+                                                background: '#fff url(/wp-content/themes/mobile/img/povregdenie_demona.png) 0 0/100% no-repeat'
                                               });
                                               jQuery('.zone_x').css('top', l_top);
                                               jQuery('.zone_l').css('top', r_bottom);
@@ -1165,7 +1165,7 @@ v1 = function(){
                                                   jQuery('.draggable_d2').css({
                                                     color: 'transparent',
                                                     transform: 'scale(1.3)',
-                                                    background: '#fff url(/wp-content/themes/mobile/img/disfunction.jpg) 0 0/100% no-repeat',
+                                                    background: '#fff url(/wp-content/themes/mobile/img/disfunction.png) 0 0/100% no-repeat',
                                                     opacity: 0.8
                                                   });
                                                   jQuery('.zone_x').css('top', l_bottom);
@@ -1176,7 +1176,7 @@ v1 = function(){
                                                   rotate_two += 20;
                                                 } else if (count_animation <= 8) {
                                                   jQuery('.draggable_d2').css({
-                                                    background: '#fff url(/wp-content/themes/mobile/img/travma.jpg) 0 0/100% no-repeat'
+                                                    background: '#fff url(/wp-content/themes/mobile/img/travma.png) 0 0/100% no-repeat'
                                                   });
                                                   jQuery('.zone_x').css('top', l_top);
                                                   jQuery('.zone_l').css('top', r_bottom);
@@ -1186,7 +1186,7 @@ v1 = function(){
                                                   rotate_two += 8;
                                                 } else if (count_animation <= 12) {
                                                   jQuery('.draggable_d2').css({
-                                                    background: '#fff url(/wp-content/themes/mobile/img/povregdenie_demona.jpg) 0 0/100% no-repeat'
+                                                    background: '#fff url(/wp-content/themes/mobile/img/povregdenie_demona.png) 0 0/100% no-repeat'
                                                   });
                                                   jQuery('.zone_x').css('top', l_bottom);
                                                   jQuery('.zone_l').css('top', r_top);
@@ -1214,7 +1214,7 @@ v1 = function(){
                                                       jQuery('.draggable_s2').css({
                                                         color: 'transparent',
                                                         transform: 'scale(1.3)',
-                                                        background: '#fff url(/wp-content/themes/mobile/img/disfunction.jpg) 0 0/100% no-repeat',
+                                                        background: '#fff url(/wp-content/themes/mobile/img/disfunction.png) 0 0/100% no-repeat',
                                                         opacity: 0.8
                                                       });
                                                       jQuery('.zone_x').css('top', l_top);
@@ -1225,7 +1225,7 @@ v1 = function(){
                                                       rotate_two += 8;
                                                     } else if (count_animation <= 8) {
                                                       jQuery('.draggable_s2').css({
-                                                        background: '#fff url(/wp-content/themes/mobile/img/travma.jpg) 0 0/100% no-repeat'
+                                                        background: '#fff url(/wp-content/themes/mobile/img/travma.png) 0 0/100% no-repeat'
                                                       });
                                                       jQuery('.zone_x').css('top', l_bottom);
                                                       jQuery('.zone_l').css('top', r_top);
@@ -1235,7 +1235,7 @@ v1 = function(){
                                                       rotate_two += 20;
                                                     } else if (count_animation <= 12) {
                                                       jQuery('.draggable_s2').css({
-                                                        background: '#fff url(/wp-content/themes/mobile/img/povregdenie_demona.jpg) 0 0/100% no-repeat'
+                                                        background: '#fff url(/wp-content/themes/mobile/img/povregdenie_demona.png) 0 0/100% no-repeat'
                                                       });
                                                       jQuery('.zone_x').css('top', l_top);
                                                       jQuery('.zone_l').css('top', r_bottom);
@@ -1300,7 +1300,7 @@ v1 = function(){
           jQuery('.draggable_d5').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/disfunction.jpg) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/disfunction.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x').css('top', r_bottom);
@@ -1311,7 +1311,7 @@ v1 = function(){
           rotate_two += 6;
         } else if (count_animation <= 8) {
           jQuery('.draggable_d5').css({
-            background: '#fff url(/wp-content/themes/mobile/img/travma.jpg) 0 0/100% no-repeat'
+            background: '#fff url(/wp-content/themes/mobile/img/travma.png) 0 0/100% no-repeat'
           });
           jQuery('.zone_x').css('top', r_top);
           jQuery('.zone_l').css('top', l_bottom);
@@ -1321,7 +1321,7 @@ v1 = function(){
           rotate_two += 4;
         } else if (count_animation <= 12) {
           jQuery('.draggable_d5').css({
-            background: '#fff url(/wp-content/themes/mobile/img/povregdenie_demona.jpg) 0 0/100% no-repeat'
+            background: '#fff url(/wp-content/themes/mobile/img/povregdenie_demona.png) 0 0/100% no-repeat'
           });
           jQuery('.zone_x').css('top', r_bottom);
           jQuery('.zone_l').css('top', l_top);
@@ -1349,7 +1349,7 @@ v1 = function(){
               jQuery('.draggable_d6').css({
                 color: 'transparent',
                 transform: 'scale(1.3)',
-                background: '#fff url(/wp-content/themes/mobile/img/disfunction.jpg) 0 0/100% no-repeat',
+                background: '#fff url(/wp-content/themes/mobile/img/disfunction.png) 0 0/100% no-repeat',
                 opacity: 0.8
               });
               jQuery('.zone_x').css('top', r_top);
@@ -1360,7 +1360,7 @@ v1 = function(){
               rotate_two += 4;
             } else if (count_animation <= 8) {
               jQuery('.draggable_d6').css({
-                background: '#fff url(/wp-content/themes/mobile/img/travma.jpg) 0 0/100% no-repeat'
+                background: '#fff url(/wp-content/themes/mobile/img/travma.png) 0 0/100% no-repeat'
               });
               jQuery('.zone_x').css('top', r_bottom);
               jQuery('.zone_l').css('top', l_top);
@@ -1370,7 +1370,7 @@ v1 = function(){
               rotate_two += 6;
             } else if (count_animation <= 12) {
               jQuery('.draggable_d6').css({
-                background: '#fff url(/wp-content/themes/mobile/img/povregdenie_demona.jpg) 0 0/100% no-repeat'
+                background: '#fff url(/wp-content/themes/mobile/img/povregdenie_demona.png) 0 0/100% no-repeat'
               });
               jQuery('.zone_x').css('top', r_top);
               jQuery('.zone_l').css('top', l_bottom);
@@ -1398,7 +1398,7 @@ v1 = function(){
                   jQuery('.draggable_s5').css({
                     color: 'transparent',
                     transform: 'scale(1.3)',
-                    background: '#fff url(/wp-content/themes/mobile/img/disfunction.jpg) 0 0/100% no-repeat',
+                    background: '#fff url(/wp-content/themes/mobile/img/disfunction.png) 0 0/100% no-repeat',
                     opacity: 0.8
                   });
                   jQuery('.zone_x').css('top', r_bottom);
@@ -1409,7 +1409,7 @@ v1 = function(){
                   rotate_two += 6;
                 } else if (count_animation <= 8) {
                   jQuery('.draggable_s5').css({
-                    background: '#fff url(/wp-content/themes/mobile/img/travma.jpg) 0 0/100% no-repeat'
+                    background: '#fff url(/wp-content/themes/mobile/img/travma.png) 0 0/100% no-repeat'
                   });
                   jQuery('.zone_x').css('top', r_top);
                   jQuery('.zone_l').css('top', l_bottom);
@@ -1419,7 +1419,7 @@ v1 = function(){
                   rotate_two += 4;
                 } else if (count_animation <= 12) {
                   jQuery('.draggable_s5').css({
-                    background: '#fff url(/wp-content/themes/mobile/img/povregdenie_demona.jpg) 0 0/100% no-repeat'
+                    background: '#fff url(/wp-content/themes/mobile/img/povregdenie_demona.png) 0 0/100% no-repeat'
                   });
                   jQuery('.zone_x').css('top', r_bottom);
                   jQuery('.zone_l').css('top', l_top);
@@ -1447,7 +1447,7 @@ v1 = function(){
                       jQuery('.draggable_s6').css({
                         color: 'transparent',
                         transform: 'scale(1.3)',
-                        background: '#fff url(/wp-content/themes/mobile/img/disfunction.jpg) 0 0/100% no-repeat',
+                        background: '#fff url(/wp-content/themes/mobile/img/disfunction.png) 0 0/100% no-repeat',
                         opacity: 0.8
                       });
                       jQuery('.zone_x').css('top', r_top);
@@ -1458,7 +1458,7 @@ v1 = function(){
                       rotate_two += 4;
                     } else if (count_animation <= 8) {
                       jQuery('.draggable_s6').css({
-                        background: '#fff url(/wp-content/themes/mobile/img/travma.jpg) 0 0/100% no-repeat'
+                        background: '#fff url(/wp-content/themes/mobile/img/travma.png) 0 0/100% no-repeat'
                       });
                       jQuery('.zone_x').css('top', r_bottom);
                       jQuery('.zone_l').css('top', l_top);
@@ -1468,7 +1468,7 @@ v1 = function(){
                       rotate_two += 6;
                     } else if (count_animation <= 12) {
                       jQuery('.draggable_s6').css({
-                        background: '#fff url(/wp-content/themes/mobile/img/povregdenie_demona.jpg) 0 0/100% no-repeat'
+                        background: '#fff url(/wp-content/themes/mobile/img/povregdenie_demona.png) 0 0/100% no-repeat'
                       });
                       jQuery('.zone_x').css('top', r_top);
                       jQuery('.zone_l').css('top', l_bottom);
@@ -1496,7 +1496,7 @@ v1 = function(){
                           jQuery('.draggable_d2').css({
                             color: 'transparent',
                             transform: 'scale(1.3)',
-                            background: '#fff url(/wp-content/themes/mobile/img/disfunction.jpg) 0 0/100% no-repeat',
+                            background: '#fff url(/wp-content/themes/mobile/img/disfunction.png) 0 0/100% no-repeat',
                             opacity: 0.8
                           });
                           jQuery('.zone_x').css('top', r_bottom);
@@ -1507,7 +1507,7 @@ v1 = function(){
                           rotate_two += 6;
                         } else if (count_animation <= 8) {
                           jQuery('.draggable_d2').css({
-                            background: '#fff url(/wp-content/themes/mobile/img/travma.jpg) 0 0/100% no-repeat'
+                            background: '#fff url(/wp-content/themes/mobile/img/travma.png) 0 0/100% no-repeat'
                           });
                           jQuery('.zone_x').css('top', r_top);
                           jQuery('.zone_l').css('top', l_bottom);
@@ -1517,7 +1517,7 @@ v1 = function(){
                           rotate_two += 4;
                         } else if (count_animation <= 12) {
                           jQuery('.draggable_d2').css({
-                            background: '#fff url(/wp-content/themes/mobile/img/povregdenie_demona.jpg) 0 0/100% no-repeat'
+                            background: '#fff url(/wp-content/themes/mobile/img/povregdenie_demona.png) 0 0/100% no-repeat'
                           });
                           jQuery('.zone_x').css('top', r_bottom);
                           jQuery('.zone_l').css('top', l_top);
@@ -1545,7 +1545,7 @@ v1 = function(){
                               jQuery('.draggable_s2').css({
                                 color: 'transparent',
                                 transform: 'scale(1.3)',
-                                background: '#fff url(/wp-content/themes/mobile/img/disfunction.jpg) 0 0/100% no-repeat',
+                                background: '#fff url(/wp-content/themes/mobile/img/disfunction.png) 0 0/100% no-repeat',
                                 opacity: 0.8
                               });
                               jQuery('.zone_x').css('top', r_top);
@@ -1556,7 +1556,7 @@ v1 = function(){
                               rotate_two += 4;
                             } else if (count_animation <= 8) {
                               jQuery('.draggable_s2').css({
-                                background: '#fff url(/wp-content/themes/mobile/img/travma.jpg) 0 0/100% no-repeat'
+                                background: '#fff url(/wp-content/themes/mobile/img/travma.png) 0 0/100% no-repeat'
                               });
                               jQuery('.zone_x').css('top', r_bottom);
                               jQuery('.zone_l').css('top', l_top);
@@ -1566,7 +1566,7 @@ v1 = function(){
                               rotate_two += 6;
                             } else if (count_animation <= 12) {
                               jQuery('.draggable_s2').css({
-                                background: '#fff url(/wp-content/themes/mobile/img/povregdenie_demona.jpg) 0 0/100% no-repeat'
+                                background: '#fff url(/wp-content/themes/mobile/img/povregdenie_demona.png) 0 0/100% no-repeat'
                               });
                               jQuery('.zone_x').css('top', r_top);
                               jQuery('.zone_l').css('top', l_bottom);
@@ -1594,7 +1594,7 @@ v1 = function(){
                                   jQuery('.draggable_d5').css({
                                     color: 'transparent',
                                     transform: 'scale(1.3)',
-                                    background: '#fff url(/wp-content/themes/mobile/img/disfunction.jpg) 0 0/100% no-repeat',
+                                    background: '#fff url(/wp-content/themes/mobile/img/disfunction.png) 0 0/100% no-repeat',
                                     opacity: 0.8
                                   });
                                   jQuery('.zone_x').css('top', r_bottom);
@@ -1605,7 +1605,7 @@ v1 = function(){
                                   rotate_two += 6;
                                 } else if (count_animation <= 8) {
                                   jQuery('.draggable_d5').css({
-                                    background: '#fff url(/wp-content/themes/mobile/img/travma.jpg) 0 0/100% no-repeat'
+                                    background: '#fff url(/wp-content/themes/mobile/img/travma.png) 0 0/100% no-repeat'
                                   });
                                   jQuery('.zone_x').css('top', r_top);
                                   jQuery('.zone_l').css('top', l_bottom);
@@ -1615,7 +1615,7 @@ v1 = function(){
                                   rotate_two += 4;
                                 } else if (count_animation <= 12) {
                                   jQuery('.draggable_d5').css({
-                                    background: '#fff url(/wp-content/themes/mobile/img/povregdenie_demona.jpg) 0 0/100% no-repeat'
+                                    background: '#fff url(/wp-content/themes/mobile/img/povregdenie_demona.png) 0 0/100% no-repeat'
                                   });
                                   jQuery('.zone_x').css('top', r_bottom);
                                   jQuery('.zone_l').css('top', l_top);
@@ -1643,7 +1643,7 @@ v1 = function(){
                                       jQuery('.draggable_d6').css({
                                         color: 'transparent',
                                         transform: 'scale(1.3)',
-                                        background: '#fff url(/wp-content/themes/mobile/img/disfunction.jpg) 0 0/100% no-repeat',
+                                        background: '#fff url(/wp-content/themes/mobile/img/disfunction.png) 0 0/100% no-repeat',
                                         opacity: 0.8
                                       });
                                       jQuery('.zone_x').css('top', r_top);
@@ -1654,7 +1654,7 @@ v1 = function(){
                                       rotate_two += 4;
                                     } else if (count_animation <= 8) {
                                       jQuery('.draggable_d6').css({
-                                        background: '#fff url(/wp-content/themes/mobile/img/travma.jpg) 0 0/100% no-repeat'
+                                        background: '#fff url(/wp-content/themes/mobile/img/travma.png) 0 0/100% no-repeat'
                                       });
                                       jQuery('.zone_x').css('top', r_bottom);
                                       jQuery('.zone_l').css('top', l_top);
@@ -1664,7 +1664,7 @@ v1 = function(){
                                       rotate_two += 6;
                                     } else if (count_animation <= 12) {
                                       jQuery('.draggable_d6').css({
-                                        background: '#fff url(/wp-content/themes/mobile/img/povregdenie_demona.jpg) 0 0/100% no-repeat'
+                                        background: '#fff url(/wp-content/themes/mobile/img/povregdenie_demona.png) 0 0/100% no-repeat'
                                       });
                                       jQuery('.zone_x').css('top', r_top);
                                       jQuery('.zone_l').css('top', l_bottom);
@@ -1692,7 +1692,7 @@ v1 = function(){
                                           jQuery('.draggable_s5').css({
                                             color: 'transparent',
                                             transform: 'scale(1.3)',
-                                            background: '#fff url(/wp-content/themes/mobile/img/disfunction.jpg) 0 0/100% no-repeat',
+                                            background: '#fff url(/wp-content/themes/mobile/img/disfunction.png) 0 0/100% no-repeat',
                                             opacity: 0.8
                                           });
                                           jQuery('.zone_x').css('top', r_bottom);
@@ -1703,7 +1703,7 @@ v1 = function(){
                                           rotate_two += 6;
                                         } else if (count_animation <= 8) {
                                           jQuery('.draggable_s5').css({
-                                            background: '#fff url(/wp-content/themes/mobile/img/travma.jpg) 0 0/100% no-repeat'
+                                            background: '#fff url(/wp-content/themes/mobile/img/travma.png) 0 0/100% no-repeat'
                                           });
                                           jQuery('.zone_x').css('top', r_top);
                                           jQuery('.zone_l').css('top', l_bottom);
@@ -1713,7 +1713,7 @@ v1 = function(){
                                           rotate_two += 4;
                                         } else if (count_animation <= 12) {
                                           jQuery('.draggable_s5').css({
-                                            background: '#fff url(/wp-content/themes/mobile/img/povregdenie_demona.jpg) 0 0/100% no-repeat'
+                                            background: '#fff url(/wp-content/themes/mobile/img/povregdenie_demona.png) 0 0/100% no-repeat'
                                           });
                                           jQuery('.zone_x').css('top', r_bottom);
                                           jQuery('.zone_l').css('top', l_top);
@@ -1741,7 +1741,7 @@ v1 = function(){
                                               jQuery('.draggable_s6').css({
                                                 color: 'transparent',
                                                 transform: 'scale(1.3)',
-                                                background: '#fff url(/wp-content/themes/mobile/img/disfunction.jpg) 0 0/100% no-repeat',
+                                                background: '#fff url(/wp-content/themes/mobile/img/disfunction.png) 0 0/100% no-repeat',
                                                 opacity: 0.8
                                               });
                                               jQuery('.zone_x').css('top', r_top);
@@ -1752,7 +1752,7 @@ v1 = function(){
                                               rotate_two += 4;
                                             } else if (count_animation <= 8) {
                                               jQuery('.draggable_s6').css({
-                                                background: '#fff url(/wp-content/themes/mobile/img/travma.jpg) 0 0/100% no-repeat'
+                                                background: '#fff url(/wp-content/themes/mobile/img/travma.png) 0 0/100% no-repeat'
                                               });
                                               jQuery('.zone_x').css('top', r_bottom);
                                               jQuery('.zone_l').css('top', l_top);
@@ -1762,7 +1762,7 @@ v1 = function(){
                                               rotate_two += 6;
                                             } else if (count_animation <= 12) {
                                               jQuery('.draggable_s6').css({
-                                                background: '#fff url(/wp-content/themes/mobile/img/povregdenie_demona.jpg) 0 0/100% no-repeat'
+                                                background: '#fff url(/wp-content/themes/mobile/img/povregdenie_demona.png) 0 0/100% no-repeat'
                                               });
                                               jQuery('.zone_x').css('top', r_top);
                                               jQuery('.zone_l').css('top', l_bottom);
@@ -1790,7 +1790,7 @@ v1 = function(){
                                                   jQuery('.draggable_d2').css({
                                                     color: 'transparent',
                                                     transform: 'scale(1.3)',
-                                                    background: '#fff url(/wp-content/themes/mobile/img/disfunction.jpg) 0 0/100% no-repeat',
+                                                    background: '#fff url(/wp-content/themes/mobile/img/disfunction.png) 0 0/100% no-repeat',
                                                     opacity: 0.8
                                                   });
                                                   jQuery('.zone_x').css('top', r_bottom);
@@ -1801,7 +1801,7 @@ v1 = function(){
                                                   rotate_two += 6;
                                                 } else if (count_animation <= 8) {
                                                   jQuery('.draggable_d2').css({
-                                                    background: '#fff url(/wp-content/themes/mobile/img/travma.jpg) 0 0/100% no-repeat'
+                                                    background: '#fff url(/wp-content/themes/mobile/img/travma.png) 0 0/100% no-repeat'
                                                   });
                                                   jQuery('.zone_x').css('top', r_top);
                                                   jQuery('.zone_l').css('top', l_bottom);
@@ -1811,7 +1811,7 @@ v1 = function(){
                                                   rotate_two += 4;
                                                 } else if (count_animation <= 12) {
                                                   jQuery('.draggable_d2').css({
-                                                    background: '#fff url(/wp-content/themes/mobile/img/povregdenie_demona.jpg) 0 0/100% no-repeat'
+                                                    background: '#fff url(/wp-content/themes/mobile/img/povregdenie_demona.png) 0 0/100% no-repeat'
                                                   });
                                                   jQuery('.zone_x').css('top', r_bottom);
                                                   jQuery('.zone_l').css('top', l_top);
@@ -1840,7 +1840,7 @@ v1 = function(){
                                                       jQuery('.draggable_s2').css({
                                                         color: 'transparent',
                                                         transform: 'scale(1.3)',
-                                                        background: '#fff url(/wp-content/themes/mobile/img/disfunction.jpg) 0 0/100% no-repeat',
+                                                        background: '#fff url(/wp-content/themes/mobile/img/disfunction.png) 0 0/100% no-repeat',
                                                         opacity: 0.8
                                                       });
                                                       jQuery('.zone_x').css('top', r_top);
@@ -1851,7 +1851,7 @@ v1 = function(){
                                                       rotate_two += 4;
                                                     } else if (count_animation <= 8) {
                                                       jQuery('.draggable_s2').css({
-                                                        background: '#fff url(/wp-content/themes/mobile/img/travma.jpg) 0 0/100% no-repeat'
+                                                        background: '#fff url(/wp-content/themes/mobile/img/travma.png) 0 0/100% no-repeat'
                                                       });
                                                       jQuery('.zone_x').css('top', r_bottom);
                                                       jQuery('.zone_l').css('top', l_top);
@@ -1861,7 +1861,7 @@ v1 = function(){
                                                       rotate_two += 6;
                                                     } else if (count_animation <= 12) {
                                                       jQuery('.draggable_s2').css({
-                                                        background: '#fff url(/wp-content/themes/mobile/img/povregdenie_demona.jpg) 0 0/100% no-repeat'
+                                                        background: '#fff url(/wp-content/themes/mobile/img/povregdenie_demona.png) 0 0/100% no-repeat'
                                                       });
                                                       jQuery('.zone_x').css('top', r_top);
                                                       jQuery('.zone_l').css('top', l_bottom);
@@ -2356,14 +2356,14 @@ v2 = function(){
         jQuery('.draggable_lovushka').css({
           color: 'transparent',
           transform: 'scale(1.3) rotate(-'+rotate_lovushka+'deg)',
-          background: '#fff url(/wp-content/themes/mobile/img/lovushka.jpg) 0 0/100% no-repeat',
+          background: '#fff url(/wp-content/themes/mobile/img/lovushka.png) 0 0/100% no-repeat',
           opacity: 0.8
         });
         if (count_animation <= 4) {
           jQuery('.draggable_d2').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/disfunction.jpg) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/disfunction.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x').css('top', l_bottom);
@@ -2374,7 +2374,7 @@ v2 = function(){
           rotate_two += 20;
         } else if (count_animation <= 8) {
           jQuery('.draggable_d2').css({
-            background: '#fff url(/wp-content/themes/mobile/img/travma.jpg) 0 0/100% no-repeat'
+            background: '#fff url(/wp-content/themes/mobile/img/travma.png) 0 0/100% no-repeat'
           });
           jQuery('.zone_x').css('top', l_top);
           jQuery('.zone_l').css('top', r_bottom);
@@ -2384,7 +2384,7 @@ v2 = function(){
           rotate_two += 8;
         } else if (count_animation <= 12) {
           jQuery('.draggable_d2').css({
-            background: '#fff url(/wp-content/themes/mobile/img/povregdenie_demona.jpg) 0 0/100% no-repeat'
+            background: '#fff url(/wp-content/themes/mobile/img/povregdenie_demona.png) 0 0/100% no-repeat'
           });
           jQuery('.zone_x').css('top', l_bottom);
           jQuery('.zone_l').css('top', r_top);
@@ -2411,14 +2411,14 @@ v2 = function(){
             jQuery('.draggable_lovushka').css({
               color: 'transparent',
               transform: 'scale(1.3) rotate(-'+rotate_lovushka+'deg)',
-              background: '#fff url(/wp-content/themes/mobile/img/lovushka.jpg) 0 0/100% no-repeat',
+              background: '#fff url(/wp-content/themes/mobile/img/lovushka.png) 0 0/100% no-repeat',
               opacity: 0.8
             });
             if (count_animation <= 4) {
               jQuery('.draggable_v2').css({
                 color: 'transparent',
                 transform: 'scale(1.3)',
-                background: '#fff url(/wp-content/themes/mobile/img/disfunction.jpg) 0 0/100% no-repeat',
+                background: '#fff url(/wp-content/themes/mobile/img/disfunction.png) 0 0/100% no-repeat',
                 opacity: 0.8
               });
               jQuery('.zone_x').css('top', l_top);
@@ -2429,7 +2429,7 @@ v2 = function(){
               rotate_two += 8;
             } else if (count_animation <= 8) {
               jQuery('.draggable_v2').css({
-                background: '#fff url(/wp-content/themes/mobile/img/travma.jpg) 0 0/100% no-repeat'
+                background: '#fff url(/wp-content/themes/mobile/img/travma.png) 0 0/100% no-repeat'
               });
               jQuery('.zone_x').css('top', l_bottom);
               jQuery('.zone_l').css('top', r_top);
@@ -2439,7 +2439,7 @@ v2 = function(){
               rotate_two += 20;
             } else if (count_animation <= 12) {
               jQuery('.draggable_v2').css({
-                background: '#fff url(/wp-content/themes/mobile/img/povregdenie_demona.jpg) 0 0/100% no-repeat'
+                background: '#fff url(/wp-content/themes/mobile/img/povregdenie_demona.png) 0 0/100% no-repeat'
               });
               jQuery('.zone_x').css('top', l_top);
               jQuery('.zone_l').css('top', r_bottom);
@@ -2466,14 +2466,14 @@ v2 = function(){
                 jQuery('.draggable_lovushka').css({
                   color: 'transparent',
                   transform: 'scale(1.3) rotate(-'+rotate_lovushka+'deg)',
-                  background: '#fff url(/wp-content/themes/mobile/img/lovushka.jpg) 0 0/100% no-repeat',
+                  background: '#fff url(/wp-content/themes/mobile/img/lovushka.png) 0 0/100% no-repeat',
                   opacity: 0.8
                 });
                 if (count_animation <= 4) {
                   jQuery('.draggable_s2').css({
                     color: 'transparent',
                     transform: 'scale(1.3)',
-                    background: '#fff url(/wp-content/themes/mobile/img/disfunction.jpg) 0 0/100% no-repeat',
+                    background: '#fff url(/wp-content/themes/mobile/img/disfunction.png) 0 0/100% no-repeat',
                     opacity: 0.8
                   });
                   jQuery('.zone_x').css('top', l_bottom);
@@ -2484,7 +2484,7 @@ v2 = function(){
                   rotate_two += 20;
                 } else if (count_animation <= 8) {
                   jQuery('.draggable_s2').css({
-                    background: '#fff url(/wp-content/themes/mobile/img/travma.jpg) 0 0/100% no-repeat'
+                    background: '#fff url(/wp-content/themes/mobile/img/travma.png) 0 0/100% no-repeat'
                   });
                   jQuery('.zone_x').css('top', l_top);
                   jQuery('.zone_l').css('top', r_bottom);
@@ -2494,7 +2494,7 @@ v2 = function(){
                   rotate_two += 8;
                 } else if (count_animation <= 12) {
                   jQuery('.draggable_s2').css({
-                    background: '#fff url(/wp-content/themes/mobile/img/povregdenie_demona.jpg) 0 0/100% no-repeat'
+                    background: '#fff url(/wp-content/themes/mobile/img/povregdenie_demona.png) 0 0/100% no-repeat'
                   });
                   jQuery('.zone_x').css('top', l_bottom);
                   jQuery('.zone_l').css('top', r_top);
@@ -2521,14 +2521,14 @@ v2 = function(){
                     jQuery('.draggable_lovushka').css({
                       color: 'transparent',
                       transform: 'scale(1.3) rotate(-'+rotate_lovushka+'deg)',
-                      background: '#fff url(/wp-content/themes/mobile/img/lovushka.jpg) 0 0/100% no-repeat',
+                      background: '#fff url(/wp-content/themes/mobile/img/lovushka.png) 0 0/100% no-repeat',
                       opacity: 0.8
                     });
                     if (count_animation <= 4) {
                       jQuery('.draggable_d2').css({
                         color: 'transparent',
                         transform: 'scale(1.3)',
-                        background: '#fff url(/wp-content/themes/mobile/img/disfunction.jpg) 0 0/100% no-repeat',
+                        background: '#fff url(/wp-content/themes/mobile/img/disfunction.png) 0 0/100% no-repeat',
                         opacity: 0.8
                       });
                       jQuery('.zone_x').css('top', l_top);
@@ -2539,7 +2539,7 @@ v2 = function(){
                       rotate_two += 8;
                     } else if (count_animation <= 8) {
                       jQuery('.draggable_d2').css({
-                        background: '#fff url(/wp-content/themes/mobile/img/travma.jpg) 0 0/100% no-repeat'
+                        background: '#fff url(/wp-content/themes/mobile/img/travma.png) 0 0/100% no-repeat'
                       });
                       jQuery('.zone_x').css('top', l_bottom);
                       jQuery('.zone_l').css('top', r_top);
@@ -2549,7 +2549,7 @@ v2 = function(){
                       rotate_two += 20;
                     } else if (count_animation <= 12) {
                       jQuery('.draggable_d2').css({
-                        background: '#fff url(/wp-content/themes/mobile/img/povregdenie_demona.jpg) 0 0/100% no-repeat'
+                        background: '#fff url(/wp-content/themes/mobile/img/povregdenie_demona.png) 0 0/100% no-repeat'
                       });
                       jQuery('.zone_x').css('top', l_top);
                       jQuery('.zone_l').css('top', r_bottom);
@@ -2576,14 +2576,14 @@ v2 = function(){
                         jQuery('.draggable_lovushka').css({
                           color: 'transparent',
                           transform: 'scale(1.3) rotate(-'+rotate_lovushka+'deg)',
-                          background: '#fff url(/wp-content/themes/mobile/img/lovushka.jpg) 0 0/100% no-repeat',
+                          background: '#fff url(/wp-content/themes/mobile/img/lovushka.png) 0 0/100% no-repeat',
                           opacity: 0.8
                         });
                         if (count_animation <= 4) {
                           jQuery('.draggable_v2').css({
                             color: 'transparent',
                             transform: 'scale(1.3)',
-                            background: '#fff url(/wp-content/themes/mobile/img/disfunction.jpg) 0 0/100% no-repeat',
+                            background: '#fff url(/wp-content/themes/mobile/img/disfunction.png) 0 0/100% no-repeat',
                             opacity: 0.8
                           });
                           jQuery('.zone_x').css('top', l_bottom);
@@ -2594,7 +2594,7 @@ v2 = function(){
                           rotate_two += 20;
                         } else if (count_animation <= 8) {
                           jQuery('.draggable_v2').css({
-                            background: '#fff url(/wp-content/themes/mobile/img/travma.jpg) 0 0/100% no-repeat'
+                            background: '#fff url(/wp-content/themes/mobile/img/travma.png) 0 0/100% no-repeat'
                           });
                           jQuery('.zone_x').css('top', l_top);
                           jQuery('.zone_l').css('top', r_bottom);
@@ -2604,7 +2604,7 @@ v2 = function(){
                           rotate_two += 8;
                         } else if (count_animation <= 12) {
                           jQuery('.draggable_v2').css({
-                            background: '#fff url(/wp-content/themes/mobile/img/povregdenie_demona.jpg) 0 0/100% no-repeat'
+                            background: '#fff url(/wp-content/themes/mobile/img/povregdenie_demona.png) 0 0/100% no-repeat'
                           });
                           jQuery('.zone_x').css('top', l_bottom);
                           jQuery('.zone_l').css('top', r_top);
@@ -2631,14 +2631,14 @@ v2 = function(){
                             jQuery('.draggable_lovushka').css({
                               color: 'transparent',
                               transform: 'scale(1.3) rotate(-'+rotate_lovushka+'deg)',
-                              background: '#fff url(/wp-content/themes/mobile/img/lovushka.jpg) 0 0/100% no-repeat',
+                              background: '#fff url(/wp-content/themes/mobile/img/lovushka.png) 0 0/100% no-repeat',
                               opacity: 0.8
                             });
                             if (count_animation <= 4) {
                               jQuery('.draggable_s2').css({
                                 color: 'transparent',
                                 transform: 'scale(1.3)',
-                                background: '#fff url(/wp-content/themes/mobile/img/disfunction.jpg) 0 0/100% no-repeat',
+                                background: '#fff url(/wp-content/themes/mobile/img/disfunction.png) 0 0/100% no-repeat',
                                 opacity: 0.8
                               });
                               jQuery('.zone_x').css('top', l_top);
@@ -2649,7 +2649,7 @@ v2 = function(){
                               rotate_two += 8;
                             } else if (count_animation <= 8) {
                               jQuery('.draggable_s2').css({
-                                background: '#fff url(/wp-content/themes/mobile/img/travma.jpg) 0 0/100% no-repeat'
+                                background: '#fff url(/wp-content/themes/mobile/img/travma.png) 0 0/100% no-repeat'
                               });
                               jQuery('.zone_x').css('top', l_bottom);
                               jQuery('.zone_l').css('top', r_top);
@@ -2659,7 +2659,7 @@ v2 = function(){
                               rotate_two += 20;
                             } else if (count_animation <= 12) {
                               jQuery('.draggable_s2').css({
-                                background: '#fff url(/wp-content/themes/mobile/img/povregdenie_demona.jpg) 0 0/100% no-repeat'
+                                background: '#fff url(/wp-content/themes/mobile/img/povregdenie_demona.png) 0 0/100% no-repeat'
                               });
                               jQuery('.zone_x').css('top', l_top);
                               jQuery('.zone_l').css('top', r_bottom);
@@ -2687,14 +2687,14 @@ v2 = function(){
                                 jQuery('.draggable_lovushka').css({
                                   color: 'transparent',
                                   transform: 'scale(1.3) rotate(-'+rotate_lovushka+'deg)',
-                                  background: '#fff url(/wp-content/themes/mobile/img/lovushka.jpg) 0 0/100% no-repeat',
+                                  background: '#fff url(/wp-content/themes/mobile/img/lovushka.png) 0 0/100% no-repeat',
                                   opacity: 0.8
                                 });
                                 if (count_animation <= 4) {
                                   jQuery('.draggable_d2').css({
                                     color: 'transparent',
                                     transform: 'scale(1.3)',
-                                    background: '#fff url(/wp-content/themes/mobile/img/disfunction.jpg) 0 0/100% no-repeat',
+                                    background: '#fff url(/wp-content/themes/mobile/img/disfunction.png) 0 0/100% no-repeat',
                                     opacity: 0.8
                                   });
                                   jQuery('.zone_x').css('top', r_bottom);
@@ -2705,7 +2705,7 @@ v2 = function(){
                                   rotate_two += 2;
                                 } else if (count_animation <= 8) {
                                   jQuery('.draggable_d2').css({
-                                    background: '#fff url(/wp-content/themes/mobile/img/travma.jpg) 0 0/100% no-repeat'
+                                    background: '#fff url(/wp-content/themes/mobile/img/travma.png) 0 0/100% no-repeat'
                                   });
                                   jQuery('.zone_x').css('top', r_top);
                                   jQuery('.zone_l').css('top', l_bottom);
@@ -2715,7 +2715,7 @@ v2 = function(){
                                   rotate_two += 2;
                                 } else if (count_animation <= 12) {
                                   jQuery('.draggable_d2').css({
-                                    background: '#fff url(/wp-content/themes/mobile/img/povregdenie_demona.jpg) 0 0/100% no-repeat'
+                                    background: '#fff url(/wp-content/themes/mobile/img/povregdenie_demona.png) 0 0/100% no-repeat'
                                   });
                                   jQuery('.zone_x').css('top', r_bottom);
                                   jQuery('.zone_l').css('top', l_top);
@@ -2742,14 +2742,14 @@ v2 = function(){
                                     jQuery('.draggable_lovushka').css({
                                       color: 'transparent',
                                       transform: 'scale(1.3) rotate(-'+rotate_lovushka+'deg)',
-                                      background: '#fff url(/wp-content/themes/mobile/img/lovushka.jpg) 0 0/100% no-repeat',
+                                      background: '#fff url(/wp-content/themes/mobile/img/lovushka.png) 0 0/100% no-repeat',
                                       opacity: 0.8
                                     });
                                     if (count_animation <= 4) {
                                       jQuery('.draggable_v2').css({
                                         color: 'transparent',
                                         transform: 'scale(1.3)',
-                                        background: '#fff url(/wp-content/themes/mobile/img/disfunction.jpg) 0 0/100% no-repeat',
+                                        background: '#fff url(/wp-content/themes/mobile/img/disfunction.png) 0 0/100% no-repeat',
                                         opacity: 0.8
                                       });
                                       jQuery('.zone_x').css('top', r_top);
@@ -2760,7 +2760,7 @@ v2 = function(){
                                       rotate_two += 2;
                                     } else if (count_animation <= 8) {
                                       jQuery('.draggable_v2').css({
-                                        background: '#fff url(/wp-content/themes/mobile/img/travma.jpg) 0 0/100% no-repeat'
+                                        background: '#fff url(/wp-content/themes/mobile/img/travma.png) 0 0/100% no-repeat'
                                       });
                                       jQuery('.zone_x').css('top', r_bottom);
                                       jQuery('.zone_l').css('top', l_top);
@@ -2770,7 +2770,7 @@ v2 = function(){
                                       rotate_two += 2;
                                     } else if (count_animation <= 12) {
                                       jQuery('.draggable_v2').css({
-                                        background: '#fff url(/wp-content/themes/mobile/img/povregdenie_demona.jpg) 0 0/100% no-repeat'
+                                        background: '#fff url(/wp-content/themes/mobile/img/povregdenie_demona.png) 0 0/100% no-repeat'
                                       });
                                       jQuery('.zone_x').css('top', r_top);
                                       jQuery('.zone_l').css('top', l_bottom);
@@ -2797,14 +2797,14 @@ v2 = function(){
                                         jQuery('.draggable_lovushka').css({
                                           color: 'transparent',
                                           transform: 'scale(1.3) rotate(-'+rotate_lovushka+'deg)',
-                                          background: '#fff url(/wp-content/themes/mobile/img/lovushka.jpg) 0 0/100% no-repeat',
+                                          background: '#fff url(/wp-content/themes/mobile/img/lovushka.png) 0 0/100% no-repeat',
                                           opacity: 0.8
                                         });
                                         if (count_animation <= 4) {
                                           jQuery('.draggable_s2').css({
                                             color: 'transparent',
                                             transform: 'scale(1.3)',
-                                            background: '#fff url(/wp-content/themes/mobile/img/disfunction.jpg) 0 0/100% no-repeat',
+                                            background: '#fff url(/wp-content/themes/mobile/img/disfunction.png) 0 0/100% no-repeat',
                                             opacity: 0.8
                                           });
                                           jQuery('.zone_x').css('top', r_bottom);
@@ -2815,7 +2815,7 @@ v2 = function(){
                                           rotate_two += 2;
                                         } else if (count_animation <= 8) {
                                           jQuery('.draggable_s2').css({
-                                            background: '#fff url(/wp-content/themes/mobile/img/travma.jpg) 0 0/100% no-repeat'
+                                            background: '#fff url(/wp-content/themes/mobile/img/travma.png) 0 0/100% no-repeat'
                                           });
                                           jQuery('.zone_x').css('top', r_top);
                                           jQuery('.zone_l').css('top', l_bottom);
@@ -2825,7 +2825,7 @@ v2 = function(){
                                           rotate_two += 2;
                                         } else if (count_animation <= 12) {
                                           jQuery('.draggable_s2').css({
-                                            background: '#fff url(/wp-content/themes/mobile/img/povregdenie_demona.jpg) 0 0/100% no-repeat'
+                                            background: '#fff url(/wp-content/themes/mobile/img/povregdenie_demona.png) 0 0/100% no-repeat'
                                           });
                                           jQuery('.zone_x').css('top', r_bottom);
                                           jQuery('.zone_l').css('top', l_top);
@@ -2855,14 +2855,14 @@ v2 = function(){
                                             jQuery('.draggable_lovushka').css({
                                               color: 'transparent',
                                               transform: 'scale(1.3) rotate(-'+rotate_lovushka+'deg)',
-                                              background: '#fff url(/wp-content/themes/mobile/img/lovushka.jpg) 0 0/100% no-repeat',
+                                              background: '#fff url(/wp-content/themes/mobile/img/lovushka.png) 0 0/100% no-repeat',
                                               opacity: 0.8
                                             });
                                             if (count_animation <= 4) {
                                               jQuery('.draggable_d2').css({
                                                 color: 'transparent',
                                                 transform: 'scale(1.3)',
-                                                background: '#fff url(/wp-content/themes/mobile/img/disfunction.jpg) 0 0/100% no-repeat',
+                                                background: '#fff url(/wp-content/themes/mobile/img/disfunction.png) 0 0/100% no-repeat',
                                                 opacity: 0.8
                                               });
                                               jQuery('.zone_x').css('top', r_top);
@@ -2873,7 +2873,7 @@ v2 = function(){
                                               rotate_two += 2;
                                             } else if (count_animation <= 8) {
                                               jQuery('.draggable_d2').css({
-                                                background: '#fff url(/wp-content/themes/mobile/img/travma.jpg) 0 0/100% no-repeat'
+                                                background: '#fff url(/wp-content/themes/mobile/img/travma.png) 0 0/100% no-repeat'
                                               });
                                               jQuery('.zone_x').css('top', r_bottom);
                                               jQuery('.zone_l').css('top', l_top);
@@ -2883,7 +2883,7 @@ v2 = function(){
                                               rotate_two += 2;
                                             } else if (count_animation <= 12) {
                                               jQuery('.draggable_d2').css({
-                                                background: '#fff url(/wp-content/themes/mobile/img/povregdenie_demona.jpg) 0 0/100% no-repeat'
+                                                background: '#fff url(/wp-content/themes/mobile/img/povregdenie_demona.png) 0 0/100% no-repeat'
                                               });
                                               jQuery('.zone_x').css('top', r_top);
                                               jQuery('.zone_l').css('top', l_bottom);
@@ -2910,14 +2910,14 @@ v2 = function(){
                                                 jQuery('.draggable_lovushka').css({
                                                   color: 'transparent',
                                                   transform: 'scale(1.3) rotate(-'+rotate_lovushka+'deg)',
-                                                  background: '#fff url(/wp-content/themes/mobile/img/lovushka.jpg) 0 0/100% no-repeat',
+                                                  background: '#fff url(/wp-content/themes/mobile/img/lovushka.png) 0 0/100% no-repeat',
                                                   opacity: 0.8
                                                 });
                                                 if (count_animation <= 4) {
                                                   jQuery('.draggable_v2').css({
                                                     color: 'transparent',
                                                     transform: 'scale(1.3)',
-                                                    background: '#fff url(/wp-content/themes/mobile/img/disfunction.jpg) 0 0/100% no-repeat',
+                                                    background: '#fff url(/wp-content/themes/mobile/img/disfunction.png) 0 0/100% no-repeat',
                                                     opacity: 0.8
                                                   });
                                                   jQuery('.zone_x').css('top', r_bottom);
@@ -2928,7 +2928,7 @@ v2 = function(){
                                                   rotate_two += 2;
                                                 } else if (count_animation <= 8) {
                                                   jQuery('.draggable_v2').css({
-                                                    background: '#fff url(/wp-content/themes/mobile/img/travma.jpg) 0 0/100% no-repeat'
+                                                    background: '#fff url(/wp-content/themes/mobile/img/travma.png) 0 0/100% no-repeat'
                                                   });
                                                   jQuery('.zone_x').css('top', r_top);
                                                   jQuery('.zone_l').css('top', l_bottom);
@@ -2938,7 +2938,7 @@ v2 = function(){
                                                   rotate_two += 2;
                                                 } else if (count_animation <= 12) {
                                                   jQuery('.draggable_v2').css({
-                                                    background: '#fff url(/wp-content/themes/mobile/img/povregdenie_demona.jpg) 0 0/100% no-repeat'
+                                                    background: '#fff url(/wp-content/themes/mobile/img/povregdenie_demona.png) 0 0/100% no-repeat'
                                                   });
                                                   jQuery('.zone_x').css('top', r_bottom);
                                                   jQuery('.zone_l').css('top', l_top);
@@ -2965,14 +2965,14 @@ v2 = function(){
                                                     jQuery('.draggable_lovushka').css({
                                                       color: 'transparent',
                                                       transform: 'scale(1.3) rotate(-'+rotate_lovushka+'deg)',
-                                                      background: '#fff url(/wp-content/themes/mobile/img/lovushka.jpg) 0 0/100% no-repeat',
+                                                      background: '#fff url(/wp-content/themes/mobile/img/lovushka.png) 0 0/100% no-repeat',
                                                       opacity: 0.8
                                                     });
                                                     if (count_animation <= 4) {
                                                       jQuery('.draggable_s2').css({
                                                         color: 'transparent',
                                                         transform: 'scale(1.3)',
-                                                        background: '#fff url(/wp-content/themes/mobile/img/disfunction.jpg) 0 0/100% no-repeat',
+                                                        background: '#fff url(/wp-content/themes/mobile/img/disfunction.png) 0 0/100% no-repeat',
                                                         opacity: 0.8
                                                       });
                                                       jQuery('.zone_x').css('top', r_top);
@@ -2983,7 +2983,7 @@ v2 = function(){
                                                       rotate_two += 2;
                                                     } else if (count_animation <= 8) {
                                                       jQuery('.draggable_s2').css({
-                                                        background: '#fff url(/wp-content/themes/mobile/img/travma.jpg) 0 0/100% no-repeat'
+                                                        background: '#fff url(/wp-content/themes/mobile/img/travma.png) 0 0/100% no-repeat'
                                                       });
                                                       jQuery('.zone_x').css('top', r_bottom);
                                                       jQuery('.zone_l').css('top', l_top);
@@ -2993,7 +2993,7 @@ v2 = function(){
                                                       rotate_two += 2;
                                                     } else if (count_animation <= 12) {
                                                       jQuery('.draggable_s2').css({
-                                                        background: '#fff url(/wp-content/themes/mobile/img/povregdenie_demona.jpg) 0 0/100% no-repeat'
+                                                        background: '#fff url(/wp-content/themes/mobile/img/povregdenie_demona.png) 0 0/100% no-repeat'
                                                       });
                                                       jQuery('.zone_x').css('top', r_top);
                                                       jQuery('.zone_l').css('top', l_bottom);
@@ -3055,7 +3055,7 @@ v2 = function(){
           jQuery('.draggable_v5').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/disfunction.jpg) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/disfunction.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x').css('top', r_bottom);
@@ -3066,7 +3066,7 @@ v2 = function(){
           rotate_two += 20;
         } else if (count_animation <= 8) {
           jQuery('.draggable_v5').css({
-            background: '#fff url(/wp-content/themes/mobile/img/travma.jpg) 0 0/100% no-repeat'
+            background: '#fff url(/wp-content/themes/mobile/img/travma.png) 0 0/100% no-repeat'
           });
           jQuery('.zone_x').css('top', r_top);
           jQuery('.zone_l').css('top', l_bottom);
@@ -3076,7 +3076,7 @@ v2 = function(){
           rotate_two += 8;
         } else if (count_animation <= 12) {
           jQuery('.draggable_v5').css({
-            background: '#fff url(/wp-content/themes/mobile/img/povregdenie_demona.jpg) 0 0/100% no-repeat'
+            background: '#fff url(/wp-content/themes/mobile/img/povregdenie_demona.png) 0 0/100% no-repeat'
           });
           jQuery('.zone_x').css('top', r_bottom);
           jQuery('.zone_l').css('top', l_top);
@@ -3103,7 +3103,7 @@ v2 = function(){
               jQuery('.draggable_v-').css({
                 color: 'transparent',
                 transform: 'scale(1.3)',
-                background: '#fff url(/wp-content/themes/mobile/img/disfunction.jpg) 0 0/100% no-repeat',
+                background: '#fff url(/wp-content/themes/mobile/img/disfunction.png) 0 0/100% no-repeat',
                 opacity: 0.8
               });
               jQuery('.zone_x').css('top', r_top);
@@ -3114,7 +3114,7 @@ v2 = function(){
               rotate_two += 8;
             } else if (count_animation <= 8) {
               jQuery('.draggable_v-').css({
-                background: '#fff url(/wp-content/themes/mobile/img/travma.jpg) 0 0/100% no-repeat'
+                background: '#fff url(/wp-content/themes/mobile/img/travma.png) 0 0/100% no-repeat'
               });
               jQuery('.zone_x').css('top', r_bottom);
               jQuery('.zone_l').css('top', l_top);
@@ -3124,7 +3124,7 @@ v2 = function(){
               rotate_two += 20;
             } else if (count_animation <= 12) {
               jQuery('.draggable_v-').css({
-                background: '#fff url(/wp-content/themes/mobile/img/povregdenie_demona.jpg) 0 0/100% no-repeat'
+                background: '#fff url(/wp-content/themes/mobile/img/povregdenie_demona.png) 0 0/100% no-repeat'
               });
               jQuery('.zone_x').css('top', r_top);
               jQuery('.zone_l').css('top', l_bottom);
@@ -3151,7 +3151,7 @@ v2 = function(){
                   jQuery('.draggable_v1').css({
                     color: 'transparent',
                     transform: 'scale(1.3)',
-                    background: '#fff url(/wp-content/themes/mobile/img/disfunction.jpg) 0 0/100% no-repeat',
+                    background: '#fff url(/wp-content/themes/mobile/img/disfunction.png) 0 0/100% no-repeat',
                     opacity: 0.8
                   });
                   jQuery('.zone_x').css('top', r_bottom);
@@ -3162,7 +3162,7 @@ v2 = function(){
                   rotate_two += 20;
                 } else if (count_animation <= 8) {
                   jQuery('.draggable_v1').css({
-                    background: '#fff url(/wp-content/themes/mobile/img/travma.jpg) 0 0/100% no-repeat'
+                    background: '#fff url(/wp-content/themes/mobile/img/travma.png) 0 0/100% no-repeat'
                   });
                   jQuery('.zone_x').css('top', r_top);
                   jQuery('.zone_l').css('top', l_bottom);
@@ -3172,7 +3172,7 @@ v2 = function(){
                   rotate_two += 8;
                 } else if (count_animation <= 12) {
                   jQuery('.draggable_v1').css({
-                    background: '#fff url(/wp-content/themes/mobile/img/povregdenie_demona.jpg) 0 0/100% no-repeat'
+                    background: '#fff url(/wp-content/themes/mobile/img/povregdenie_demona.png) 0 0/100% no-repeat'
                   });
                   jQuery('.zone_x').css('top', r_bottom);
                   jQuery('.zone_l').css('top', l_top);
@@ -3199,7 +3199,7 @@ v2 = function(){
                       jQuery('.draggable_s5').css({
                         color: 'transparent',
                         transform: 'scale(1.3)',
-                        background: '#fff url(/wp-content/themes/mobile/img/disfunction.jpg) 0 0/100% no-repeat',
+                        background: '#fff url(/wp-content/themes/mobile/img/disfunction.png) 0 0/100% no-repeat',
                         opacity: 0.8
                       });
                       jQuery('.zone_x').css('top', r_top);
@@ -3210,7 +3210,7 @@ v2 = function(){
                       rotate_two += 8;
                     } else if (count_animation <= 8) {
                       jQuery('.draggable_s5').css({
-                        background: '#fff url(/wp-content/themes/mobile/img/travma.jpg) 0 0/100% no-repeat'
+                        background: '#fff url(/wp-content/themes/mobile/img/travma.png) 0 0/100% no-repeat'
                       });
                       jQuery('.zone_x').css('top', r_bottom);
                       jQuery('.zone_l').css('top', l_top);
@@ -3220,7 +3220,7 @@ v2 = function(){
                       rotate_two += 20;
                     } else if (count_animation <= 12) {
                       jQuery('.draggable_s5').css({
-                        background: '#fff url(/wp-content/themes/mobile/img/povregdenie_demona.jpg) 0 0/100% no-repeat'
+                        background: '#fff url(/wp-content/themes/mobile/img/povregdenie_demona.png) 0 0/100% no-repeat'
                       });
                       jQuery('.zone_x').css('top', r_top);
                       jQuery('.zone_l').css('top', l_bottom);
@@ -3247,7 +3247,7 @@ v2 = function(){
                           jQuery('.draggable_s6').css({
                             color: 'transparent',
                             transform: 'scale(1.3)',
-                            background: '#fff url(/wp-content/themes/mobile/img/disfunction.jpg) 0 0/100% no-repeat',
+                            background: '#fff url(/wp-content/themes/mobile/img/disfunction.png) 0 0/100% no-repeat',
                             opacity: 0.8
                           });
                           jQuery('.zone_x').css('top', r_bottom);
@@ -3258,7 +3258,7 @@ v2 = function(){
                           rotate_two += 20;
                         } else if (count_animation <= 8) {
                           jQuery('.draggable_s6').css({
-                            background: '#fff url(/wp-content/themes/mobile/img/travma.jpg) 0 0/100% no-repeat'
+                            background: '#fff url(/wp-content/themes/mobile/img/travma.png) 0 0/100% no-repeat'
                           });
                           jQuery('.zone_x').css('top', r_top);
                           jQuery('.zone_l').css('top', l_bottom);
@@ -3268,7 +3268,7 @@ v2 = function(){
                           rotate_two += 8;
                         } else if (count_animation <= 12) {
                           jQuery('.draggable_s6').css({
-                            background: '#fff url(/wp-content/themes/mobile/img/povregdenie_demona.jpg) 0 0/100% no-repeat'
+                            background: '#fff url(/wp-content/themes/mobile/img/povregdenie_demona.png) 0 0/100% no-repeat'
                           });
                           jQuery('.zone_x').css('top', r_bottom);
                           jQuery('.zone_l').css('top', l_top);
@@ -3299,7 +3299,7 @@ v2 = function(){
                               jQuery('.draggable_v5').css({
                                 color: 'transparent',
                                 transform: 'scale(1.3)',
-                                background: '#fff url(/wp-content/themes/mobile/img/disfunction.jpg) 0 0/100% no-repeat',
+                                background: '#fff url(/wp-content/themes/mobile/img/disfunction.png) 0 0/100% no-repeat',
                                 opacity: 0.8
                               });
                               jQuery('.zone_x').css('top', r_top);
@@ -3310,7 +3310,7 @@ v2 = function(){
                               rotate_two += 8;
                             } else if (count_animation <= 8) {
                               jQuery('.draggable_v5').css({
-                                background: '#fff url(/wp-content/themes/mobile/img/travma.jpg) 0 0/100% no-repeat'
+                                background: '#fff url(/wp-content/themes/mobile/img/travma.png) 0 0/100% no-repeat'
                               });
                               jQuery('.zone_x').css('top', r_bottom);
                               jQuery('.zone_l').css('top', l_top);
@@ -3320,7 +3320,7 @@ v2 = function(){
                               rotate_two += 20;
                             } else if (count_animation <= 12) {
                               jQuery('.draggable_v5').css({
-                                background: '#fff url(/wp-content/themes/mobile/img/povregdenie_demona.jpg) 0 0/100% no-repeat'
+                                background: '#fff url(/wp-content/themes/mobile/img/povregdenie_demona.png) 0 0/100% no-repeat'
                               });
                               jQuery('.zone_x').css('top', r_top);
                               jQuery('.zone_l').css('top', l_bottom);
@@ -3347,7 +3347,7 @@ v2 = function(){
                                   jQuery('.draggable_v-').css({
                                     color: 'transparent',
                                     transform: 'scale(1.3)',
-                                    background: '#fff url(/wp-content/themes/mobile/img/disfunction.jpg) 0 0/100% no-repeat',
+                                    background: '#fff url(/wp-content/themes/mobile/img/disfunction.png) 0 0/100% no-repeat',
                                     opacity: 0.8
                                   });
                                   jQuery('.zone_x').css('top', r_bottom);
@@ -3358,7 +3358,7 @@ v2 = function(){
                                   rotate_two += 20;
                                 } else if (count_animation <= 8) {
                                   jQuery('.draggable_v-').css({
-                                    background: '#fff url(/wp-content/themes/mobile/img/travma.jpg) 0 0/100% no-repeat'
+                                    background: '#fff url(/wp-content/themes/mobile/img/travma.png) 0 0/100% no-repeat'
                                   });
                                   jQuery('.zone_x').css('top', r_top);
                                   jQuery('.zone_l').css('top', l_bottom);
@@ -3368,7 +3368,7 @@ v2 = function(){
                                   rotate_two += 8;
                                 } else if (count_animation <= 12) {
                                   jQuery('.draggable_v-').css({
-                                    background: '#fff url(/wp-content/themes/mobile/img/povregdenie_demona.jpg) 0 0/100% no-repeat'
+                                    background: '#fff url(/wp-content/themes/mobile/img/povregdenie_demona.png) 0 0/100% no-repeat'
                                   });
                                   jQuery('.zone_x').css('top', r_bottom);
                                   jQuery('.zone_l').css('top', l_top);
@@ -3395,7 +3395,7 @@ v2 = function(){
                                       jQuery('.draggable_v1').css({
                                         color: 'transparent',
                                         transform: 'scale(1.3)',
-                                        background: '#fff url(/wp-content/themes/mobile/img/disfunction.jpg) 0 0/100% no-repeat',
+                                        background: '#fff url(/wp-content/themes/mobile/img/disfunction.png) 0 0/100% no-repeat',
                                         opacity: 0.8
                                       });
                                       jQuery('.zone_x').css('top', r_top);
@@ -3406,7 +3406,7 @@ v2 = function(){
                                       rotate_two += 8;
                                     } else if (count_animation <= 8) {
                                       jQuery('.draggable_v1').css({
-                                        background: '#fff url(/wp-content/themes/mobile/img/travma.jpg) 0 0/100% no-repeat'
+                                        background: '#fff url(/wp-content/themes/mobile/img/travma.png) 0 0/100% no-repeat'
                                       });
                                       jQuery('.zone_x').css('top', r_bottom);
                                       jQuery('.zone_l').css('top', l_top);
@@ -3416,7 +3416,7 @@ v2 = function(){
                                       rotate_two += 20;
                                     } else if (count_animation <= 12) {
                                       jQuery('.draggable_v1').css({
-                                        background: '#fff url(/wp-content/themes/mobile/img/povregdenie_demona.jpg) 0 0/100% no-repeat'
+                                        background: '#fff url(/wp-content/themes/mobile/img/povregdenie_demona.png) 0 0/100% no-repeat'
                                       });
                                       jQuery('.zone_x').css('top', r_top);
                                       jQuery('.zone_l').css('top', l_bottom);
@@ -3443,7 +3443,7 @@ v2 = function(){
                                           jQuery('.draggable_s5').css({
                                             color: 'transparent',
                                             transform: 'scale(1.3)',
-                                            background: '#fff url(/wp-content/themes/mobile/img/disfunction.jpg) 0 0/100% no-repeat',
+                                            background: '#fff url(/wp-content/themes/mobile/img/disfunction.png) 0 0/100% no-repeat',
                                             opacity: 0.8
                                           });
                                           jQuery('.zone_x').css('top', r_bottom);
@@ -3454,7 +3454,7 @@ v2 = function(){
                                           rotate_two += 20;
                                         } else if (count_animation <= 8) {
                                           jQuery('.draggable_s5').css({
-                                            background: '#fff url(/wp-content/themes/mobile/img/travma.jpg) 0 0/100% no-repeat'
+                                            background: '#fff url(/wp-content/themes/mobile/img/travma.png) 0 0/100% no-repeat'
                                           });
                                           jQuery('.zone_x').css('top', r_top);
                                           jQuery('.zone_l').css('top', l_bottom);
@@ -3464,7 +3464,7 @@ v2 = function(){
                                           rotate_two += 8;
                                         } else if (count_animation <= 12) {
                                           jQuery('.draggable_s5').css({
-                                            background: '#fff url(/wp-content/themes/mobile/img/povregdenie_demona.jpg) 0 0/100% no-repeat'
+                                            background: '#fff url(/wp-content/themes/mobile/img/povregdenie_demona.png) 0 0/100% no-repeat'
                                           });
                                           jQuery('.zone_x').css('top', r_bottom);
                                           jQuery('.zone_l').css('top', l_top);
@@ -3491,7 +3491,7 @@ v2 = function(){
                                               jQuery('.draggable_s6').css({
                                                 color: 'transparent',
                                                 transform: 'scale(1.3)',
-                                                background: '#fff url(/wp-content/themes/mobile/img/disfunction.jpg) 0 0/100% no-repeat',
+                                                background: '#fff url(/wp-content/themes/mobile/img/disfunction.png) 0 0/100% no-repeat',
                                                 opacity: 0.8
                                               });
                                               jQuery('.zone_x').css('top', r_top);
@@ -3502,7 +3502,7 @@ v2 = function(){
                                               rotate_two += 8;
                                             } else if (count_animation <= 8) {
                                               jQuery('.draggable_s6').css({
-                                                background: '#fff url(/wp-content/themes/mobile/img/travma.jpg) 0 0/100% no-repeat'
+                                                background: '#fff url(/wp-content/themes/mobile/img/travma.png) 0 0/100% no-repeat'
                                               });
                                               jQuery('.zone_x').css('top', r_bottom);
                                               jQuery('.zone_l').css('top', l_top);
@@ -3512,7 +3512,7 @@ v2 = function(){
                                               rotate_two += 20;
                                             } else if (count_animation <= 12) {
                                               jQuery('.draggable_s6').css({
-                                                background: '#fff url(/wp-content/themes/mobile/img/povregdenie_demona.jpg) 0 0/100% no-repeat'
+                                                background: '#fff url(/wp-content/themes/mobile/img/povregdenie_demona.png) 0 0/100% no-repeat'
                                               });
                                               jQuery('.zone_x').css('top', r_top);
                                               jQuery('.zone_l').css('top', l_bottom);
@@ -3567,7 +3567,7 @@ v2 = function(){
           jQuery('.draggable_v5').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/disfunction.jpg) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/disfunction.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x').css('top', l_top);
@@ -3578,7 +3578,7 @@ v2 = function(){
           rotate_two += 2;
         } else if (count_animation <= 8) {
           jQuery('.draggable_v5').css({
-            background: '#fff url(/wp-content/themes/mobile/img/travma.jpg) 0 0/100% no-repeat'
+            background: '#fff url(/wp-content/themes/mobile/img/travma.png) 0 0/100% no-repeat'
           });
           jQuery('.zone_x').css('top', l_bottom);
           jQuery('.zone_l').css('top', r_top);
@@ -3588,7 +3588,7 @@ v2 = function(){
           rotate_two += 2;
         } else if (count_animation <= 12) {
           jQuery('.draggable_v5').css({
-            background: '#fff url(/wp-content/themes/mobile/img/povregdenie_demona.jpg) 0 0/100% no-repeat'
+            background: '#fff url(/wp-content/themes/mobile/img/povregdenie_demona.png) 0 0/100% no-repeat'
           });
           jQuery('.zone_x').css('top', l_top);
           jQuery('.zone_l').css('top', r_bottom);
@@ -3615,7 +3615,7 @@ v2 = function(){
               jQuery('.draggable_v-').css({
                 color: 'transparent',
                 transform: 'scale(1.3)',
-                background: '#fff url(/wp-content/themes/mobile/img/disfunction.jpg) 0 0/100% no-repeat',
+                background: '#fff url(/wp-content/themes/mobile/img/disfunction.png) 0 0/100% no-repeat',
                 opacity: 0.8
               });
               jQuery('.zone_x').css('top', l_bottom);
@@ -3626,7 +3626,7 @@ v2 = function(){
               rotate_two += 2;
             } else if (count_animation <= 8) {
               jQuery('.draggable_v-').css({
-                background: '#fff url(/wp-content/themes/mobile/img/travma.jpg) 0 0/100% no-repeat'
+                background: '#fff url(/wp-content/themes/mobile/img/travma.png) 0 0/100% no-repeat'
               });
               jQuery('.zone_x').css('top', l_top);
               jQuery('.zone_l').css('top', r_bottom);
@@ -3636,7 +3636,7 @@ v2 = function(){
               rotate_two += 2;
             } else if (count_animation <= 12) {
               jQuery('.draggable_v-').css({
-                background: '#fff url(/wp-content/themes/mobile/img/povregdenie_demona.jpg) 0 0/100% no-repeat'
+                background: '#fff url(/wp-content/themes/mobile/img/povregdenie_demona.png) 0 0/100% no-repeat'
               });
               jQuery('.zone_x').css('top', l_bottom);
               jQuery('.zone_l').css('top', r_top);
@@ -3663,7 +3663,7 @@ v2 = function(){
                   jQuery('.draggable_v1').css({
                     color: 'transparent',
                     transform: 'scale(1.3)',
-                    background: '#fff url(/wp-content/themes/mobile/img/disfunction.jpg) 0 0/100% no-repeat',
+                    background: '#fff url(/wp-content/themes/mobile/img/disfunction.png) 0 0/100% no-repeat',
                     opacity: 0.8
                   });
                   jQuery('.zone_x').css('top', l_top);
@@ -3674,7 +3674,7 @@ v2 = function(){
                   rotate_two += 2;
                 } else if (count_animation <= 8) {
                   jQuery('.draggable_v1').css({
-                    background: '#fff url(/wp-content/themes/mobile/img/travma.jpg) 0 0/100% no-repeat'
+                    background: '#fff url(/wp-content/themes/mobile/img/travma.png) 0 0/100% no-repeat'
                   });
                   jQuery('.zone_x').css('top', l_bottom);
                   jQuery('.zone_l').css('top', r_top);
@@ -3684,7 +3684,7 @@ v2 = function(){
                   rotate_two += 2;
                 } else if (count_animation <= 12) {
                   jQuery('.draggable_v1').css({
-                    background: '#fff url(/wp-content/themes/mobile/img/povregdenie_demona.jpg) 0 0/100% no-repeat'
+                    background: '#fff url(/wp-content/themes/mobile/img/povregdenie_demona.png) 0 0/100% no-repeat'
                   });
                   jQuery('.zone_x').css('top', l_top);
                   jQuery('.zone_l').css('top', r_bottom);
@@ -3711,7 +3711,7 @@ v2 = function(){
                       jQuery('.draggable_s5').css({
                         color: 'transparent',
                         transform: 'scale(1.3)',
-                        background: '#fff url(/wp-content/themes/mobile/img/disfunction.jpg) 0 0/100% no-repeat',
+                        background: '#fff url(/wp-content/themes/mobile/img/disfunction.png) 0 0/100% no-repeat',
                         opacity: 0.8
                       });
                       jQuery('.zone_x').css('top', l_bottom);
@@ -3722,7 +3722,7 @@ v2 = function(){
                       rotate_two += 2;
                     } else if (count_animation <= 8) {
                       jQuery('.draggable_s5').css({
-                        background: '#fff url(/wp-content/themes/mobile/img/travma.jpg) 0 0/100% no-repeat'
+                        background: '#fff url(/wp-content/themes/mobile/img/travma.png) 0 0/100% no-repeat'
                       });
                       jQuery('.zone_x').css('top', l_top);
                       jQuery('.zone_l').css('top', r_bottom);
@@ -3732,7 +3732,7 @@ v2 = function(){
                       rotate_two += 2;
                     } else if (count_animation <= 12) {
                       jQuery('.draggable_s5').css({
-                        background: '#fff url(/wp-content/themes/mobile/img/povregdenie_demona.jpg) 0 0/100% no-repeat'
+                        background: '#fff url(/wp-content/themes/mobile/img/povregdenie_demona.png) 0 0/100% no-repeat'
                       });
                       jQuery('.zone_x').css('top', l_bottom);
                       jQuery('.zone_l').css('top', r_top);
@@ -3759,7 +3759,7 @@ v2 = function(){
                           jQuery('.draggable_s6').css({
                             color: 'transparent',
                             transform: 'scale(1.3)',
-                            background: '#fff url(/wp-content/themes/mobile/img/disfunction.jpg) 0 0/100% no-repeat',
+                            background: '#fff url(/wp-content/themes/mobile/img/disfunction.png) 0 0/100% no-repeat',
                             opacity: 0.8
                           });
                           jQuery('.zone_x').css('top', l_top);
@@ -3770,7 +3770,7 @@ v2 = function(){
                           rotate_two += 2;
                         } else if (count_animation <= 8) {
                           jQuery('.draggable_s6').css({
-                            background: '#fff url(/wp-content/themes/mobile/img/travma.jpg) 0 0/100% no-repeat'
+                            background: '#fff url(/wp-content/themes/mobile/img/travma.png) 0 0/100% no-repeat'
                           });
                           jQuery('.zone_x').css('top', l_bottom);
                           jQuery('.zone_l').css('top', r_top);
@@ -3780,7 +3780,7 @@ v2 = function(){
                           rotate_two += 2;
                         } else if (count_animation <= 12) {
                           jQuery('.draggable_s6').css({
-                            background: '#fff url(/wp-content/themes/mobile/img/povregdenie_demona.jpg) 0 0/100% no-repeat'
+                            background: '#fff url(/wp-content/themes/mobile/img/povregdenie_demona.png) 0 0/100% no-repeat'
                           });
                           jQuery('.zone_x').css('top', l_top);
                           jQuery('.zone_l').css('top', r_bottom);
@@ -3807,7 +3807,7 @@ v2 = function(){
                               jQuery('.draggable_v5').css({
                                 color: 'transparent',
                                 transform: 'scale(1.3)',
-                                background: '#fff url(/wp-content/themes/mobile/img/disfunction.jpg) 0 0/100% no-repeat',
+                                background: '#fff url(/wp-content/themes/mobile/img/disfunction.png) 0 0/100% no-repeat',
                                 opacity: 0.8
                               });
                               jQuery('.zone_x').css('top', l_top);
@@ -3818,7 +3818,7 @@ v2 = function(){
                               rotate_two += 2;
                             } else if (count_animation <= 8) {
                               jQuery('.draggable_v5').css({
-                                background: '#fff url(/wp-content/themes/mobile/img/travma.jpg) 0 0/100% no-repeat'
+                                background: '#fff url(/wp-content/themes/mobile/img/travma.png) 0 0/100% no-repeat'
                               });
                               jQuery('.zone_x').css('top', l_bottom);
                               jQuery('.zone_l').css('top', r_top);
@@ -3828,7 +3828,7 @@ v2 = function(){
                               rotate_two += 2;
                             } else if (count_animation <= 12) {
                               jQuery('.draggable_v5').css({
-                                background: '#fff url(/wp-content/themes/mobile/img/povregdenie_demona.jpg) 0 0/100% no-repeat'
+                                background: '#fff url(/wp-content/themes/mobile/img/povregdenie_demona.png) 0 0/100% no-repeat'
                               });
                               jQuery('.zone_x').css('top', l_top);
                               jQuery('.zone_l').css('top', r_bottom);
@@ -3855,7 +3855,7 @@ v2 = function(){
                                   jQuery('.draggable_v-').css({
                                     color: 'transparent',
                                     transform: 'scale(1.3)',
-                                    background: '#fff url(/wp-content/themes/mobile/img/disfunction.jpg) 0 0/100% no-repeat',
+                                    background: '#fff url(/wp-content/themes/mobile/img/disfunction.png) 0 0/100% no-repeat',
                                     opacity: 0.8
                                   });
                                   jQuery('.zone_x').css('top', l_bottom);
@@ -3866,7 +3866,7 @@ v2 = function(){
                                   rotate_two += 2;
                                 } else if (count_animation <= 8) {
                                   jQuery('.draggable_v-').css({
-                                    background: '#fff url(/wp-content/themes/mobile/img/travma.jpg) 0 0/100% no-repeat'
+                                    background: '#fff url(/wp-content/themes/mobile/img/travma.png) 0 0/100% no-repeat'
                                   });
                                   jQuery('.zone_x').css('top', l_top);
                                   jQuery('.zone_l').css('top', r_bottom);
@@ -3876,7 +3876,7 @@ v2 = function(){
                                   rotate_two += 2;
                                 } else if (count_animation <= 12) {
                                   jQuery('.draggable_v-').css({
-                                    background: '#fff url(/wp-content/themes/mobile/img/povregdenie_demona.jpg) 0 0/100% no-repeat'
+                                    background: '#fff url(/wp-content/themes/mobile/img/povregdenie_demona.png) 0 0/100% no-repeat'
                                   });
                                   jQuery('.zone_x').css('top', l_bottom);
                                   jQuery('.zone_l').css('top', r_top);
@@ -3903,7 +3903,7 @@ v2 = function(){
                                       jQuery('.draggable_v1').css({
                                         color: 'transparent',
                                         transform: 'scale(1.3)',
-                                        background: '#fff url(/wp-content/themes/mobile/img/disfunction.jpg) 0 0/100% no-repeat',
+                                        background: '#fff url(/wp-content/themes/mobile/img/disfunction.png) 0 0/100% no-repeat',
                                         opacity: 0.8
                                       });
                                       jQuery('.zone_x').css('top', l_top);
@@ -3914,7 +3914,7 @@ v2 = function(){
                                       rotate_two += 2;
                                     } else if (count_animation <= 8) {
                                       jQuery('.draggable_v1').css({
-                                        background: '#fff url(/wp-content/themes/mobile/img/travma.jpg) 0 0/100% no-repeat'
+                                        background: '#fff url(/wp-content/themes/mobile/img/travma.png) 0 0/100% no-repeat'
                                       });
                                       jQuery('.zone_x').css('top', l_bottom);
                                       jQuery('.zone_l').css('top', r_top);
@@ -3924,7 +3924,7 @@ v2 = function(){
                                       rotate_two += 2;
                                     } else if (count_animation <= 12) {
                                       jQuery('.draggable_v1').css({
-                                        background: '#fff url(/wp-content/themes/mobile/img/povregdenie_demona.jpg) 0 0/100% no-repeat'
+                                        background: '#fff url(/wp-content/themes/mobile/img/povregdenie_demona.png) 0 0/100% no-repeat'
                                       });
                                       jQuery('.zone_x').css('top', l_top);
                                       jQuery('.zone_l').css('top', r_bottom);
@@ -3951,7 +3951,7 @@ v2 = function(){
                                           jQuery('.draggable_s5').css({
                                             color: 'transparent',
                                             transform: 'scale(1.3)',
-                                            background: '#fff url(/wp-content/themes/mobile/img/disfunction.jpg) 0 0/100% no-repeat',
+                                            background: '#fff url(/wp-content/themes/mobile/img/disfunction.png) 0 0/100% no-repeat',
                                             opacity: 0.8
                                           });
                                           jQuery('.zone_x').css('top', l_bottom);
@@ -3962,7 +3962,7 @@ v2 = function(){
                                           rotate_two += 2;
                                         } else if (count_animation <= 8) {
                                           jQuery('.draggable_s5').css({
-                                            background: '#fff url(/wp-content/themes/mobile/img/travma.jpg) 0 0/100% no-repeat'
+                                            background: '#fff url(/wp-content/themes/mobile/img/travma.png) 0 0/100% no-repeat'
                                           });
                                           jQuery('.zone_x').css('top', l_top);
                                           jQuery('.zone_l').css('top', r_bottom);
@@ -3972,7 +3972,7 @@ v2 = function(){
                                           rotate_two += 2;
                                         } else if (count_animation <= 12) {
                                           jQuery('.draggable_s5').css({
-                                            background: '#fff url(/wp-content/themes/mobile/img/povregdenie_demona.jpg) 0 0/100% no-repeat'
+                                            background: '#fff url(/wp-content/themes/mobile/img/povregdenie_demona.png) 0 0/100% no-repeat'
                                           });
                                           jQuery('.zone_x').css('top', l_bottom);
                                           jQuery('.zone_l').css('top', r_top);
@@ -3999,7 +3999,7 @@ v2 = function(){
                                               jQuery('.draggable_s6').css({
                                                 color: 'transparent',
                                                 transform: 'scale(1.3)',
-                                                background: '#fff url(/wp-content/themes/mobile/img/disfunction.jpg) 0 0/100% no-repeat',
+                                                background: '#fff url(/wp-content/themes/mobile/img/disfunction.png) 0 0/100% no-repeat',
                                                 opacity: 0.8
                                               });
                                               jQuery('.zone_x').css('top', l_top);
@@ -4010,7 +4010,7 @@ v2 = function(){
                                               rotate_two += 2;
                                             } else if (count_animation <= 8) {
                                               jQuery('.draggable_s6').css({
-                                                background: '#fff url(/wp-content/themes/mobile/img/travma.jpg) 0 0/100% no-repeat'
+                                                background: '#fff url(/wp-content/themes/mobile/img/travma.png) 0 0/100% no-repeat'
                                               });
                                               jQuery('.zone_x').css('top', l_bottom);
                                               jQuery('.zone_l').css('top', r_top);
@@ -4020,7 +4020,7 @@ v2 = function(){
                                               rotate_two += 2;
                                             } else if (count_animation <= 12) {
                                               jQuery('.draggable_s6').css({
-                                                background: '#fff url(/wp-content/themes/mobile/img/povregdenie_demona.jpg) 0 0/100% no-repeat'
+                                                background: '#fff url(/wp-content/themes/mobile/img/povregdenie_demona.png) 0 0/100% no-repeat'
                                               });
                                               jQuery('.zone_x').css('top', l_top);
                                               jQuery('.zone_l').css('top', r_bottom);
@@ -4075,7 +4075,7 @@ v2 = function(){
           jQuery('.draggable_v5').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/disfunction.jpg) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/disfunction.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x').css('top', r_bottom);
@@ -4086,7 +4086,7 @@ v2 = function(){
           rotate_two += 20;
         } else if (count_animation <= 8) {
           jQuery('.draggable_v5').css({
-            background: '#fff url(/wp-content/themes/mobile/img/travma.jpg) 0 0/100% no-repeat'
+            background: '#fff url(/wp-content/themes/mobile/img/travma.png) 0 0/100% no-repeat'
           });
           jQuery('.zone_x').css('top', r_top);
           jQuery('.zone_l').css('top', l_bottom);
@@ -4096,7 +4096,7 @@ v2 = function(){
           rotate_two += 8;
         } else if (count_animation <= 12) {
           jQuery('.draggable_v5').css({
-            background: '#fff url(/wp-content/themes/mobile/img/povregdenie_demona.jpg) 0 0/100% no-repeat'
+            background: '#fff url(/wp-content/themes/mobile/img/povregdenie_demona.png) 0 0/100% no-repeat'
           });
           jQuery('.zone_x').css('top', r_bottom);
           jQuery('.zone_l').css('top', l_top);
@@ -4123,7 +4123,7 @@ v2 = function(){
               jQuery('.draggable_v-').css({
                 color: 'transparent',
                 transform: 'scale(1.3)',
-                background: '#fff url(/wp-content/themes/mobile/img/disfunction.jpg) 0 0/100% no-repeat',
+                background: '#fff url(/wp-content/themes/mobile/img/disfunction.png) 0 0/100% no-repeat',
                 opacity: 0.8
               });
               jQuery('.zone_x').css('top', r_top);
@@ -4134,7 +4134,7 @@ v2 = function(){
               rotate_two += 8;
             } else if (count_animation <= 8) {
               jQuery('.draggable_v-').css({
-                background: '#fff url(/wp-content/themes/mobile/img/travma.jpg) 0 0/100% no-repeat'
+                background: '#fff url(/wp-content/themes/mobile/img/travma.png) 0 0/100% no-repeat'
               });
               jQuery('.zone_x').css('top', r_bottom);
               jQuery('.zone_l').css('top', l_top);
@@ -4144,7 +4144,7 @@ v2 = function(){
               rotate_two += 20;
             } else if (count_animation <= 12) {
               jQuery('.draggable_v-').css({
-                background: '#fff url(/wp-content/themes/mobile/img/povregdenie_demona.jpg) 0 0/100% no-repeat'
+                background: '#fff url(/wp-content/themes/mobile/img/povregdenie_demona.png) 0 0/100% no-repeat'
               });
               jQuery('.zone_x').css('top', r_top);
               jQuery('.zone_l').css('top', l_bottom);
@@ -4171,7 +4171,7 @@ v2 = function(){
                   jQuery('.draggable_v1').css({
                     color: 'transparent',
                     transform: 'scale(1.3)',
-                    background: '#fff url(/wp-content/themes/mobile/img/disfunction.jpg) 0 0/100% no-repeat',
+                    background: '#fff url(/wp-content/themes/mobile/img/disfunction.png) 0 0/100% no-repeat',
                     opacity: 0.8
                   });
                   jQuery('.zone_x').css('top', r_bottom);
@@ -4182,7 +4182,7 @@ v2 = function(){
                   rotate_two += 20;
                 } else if (count_animation <= 8) {
                   jQuery('.draggable_v1').css({
-                    background: '#fff url(/wp-content/themes/mobile/img/travma.jpg) 0 0/100% no-repeat'
+                    background: '#fff url(/wp-content/themes/mobile/img/travma.png) 0 0/100% no-repeat'
                   });
                   jQuery('.zone_x').css('top', r_top);
                   jQuery('.zone_l').css('top', l_bottom);
@@ -4192,7 +4192,7 @@ v2 = function(){
                   rotate_two += 8;
                 } else if (count_animation <= 12) {
                   jQuery('.draggable_v1').css({
-                    background: '#fff url(/wp-content/themes/mobile/img/povregdenie_demona.jpg) 0 0/100% no-repeat'
+                    background: '#fff url(/wp-content/themes/mobile/img/povregdenie_demona.png) 0 0/100% no-repeat'
                   });
                   jQuery('.zone_x').css('top', r_bottom);
                   jQuery('.zone_l').css('top', l_top);
@@ -4219,7 +4219,7 @@ v2 = function(){
                       jQuery('.draggable_d5').css({
                         color: 'transparent',
                         transform: 'scale(1.3)',
-                        background: '#fff url(/wp-content/themes/mobile/img/disfunction.jpg) 0 0/100% no-repeat',
+                        background: '#fff url(/wp-content/themes/mobile/img/disfunction.png) 0 0/100% no-repeat',
                         opacity: 0.8
                       });
                       jQuery('.zone_x').css('top', r_top);
@@ -4230,7 +4230,7 @@ v2 = function(){
                       rotate_two += 8;
                     } else if (count_animation <= 8) {
                       jQuery('.draggable_d5').css({
-                        background: '#fff url(/wp-content/themes/mobile/img/travma.jpg) 0 0/100% no-repeat'
+                        background: '#fff url(/wp-content/themes/mobile/img/travma.png) 0 0/100% no-repeat'
                       });
                       jQuery('.zone_x').css('top', r_bottom);
                       jQuery('.zone_l').css('top', l_top);
@@ -4240,7 +4240,7 @@ v2 = function(){
                       rotate_two += 20;
                     } else if (count_animation <= 12) {
                       jQuery('.draggable_d5').css({
-                        background: '#fff url(/wp-content/themes/mobile/img/povregdenie_demona.jpg) 0 0/100% no-repeat'
+                        background: '#fff url(/wp-content/themes/mobile/img/povregdenie_demona.png) 0 0/100% no-repeat'
                       });
                       jQuery('.zone_x').css('top', r_top);
                       jQuery('.zone_l').css('top', l_bottom);
@@ -4267,7 +4267,7 @@ v2 = function(){
                           jQuery('.draggable_d6').css({
                             color: 'transparent',
                             transform: 'scale(1.3)',
-                            background: '#fff url(/wp-content/themes/mobile/img/disfunction.jpg) 0 0/100% no-repeat',
+                            background: '#fff url(/wp-content/themes/mobile/img/disfunction.png) 0 0/100% no-repeat',
                             opacity: 0.8
                           });
                           jQuery('.zone_x').css('top', r_bottom);
@@ -4278,7 +4278,7 @@ v2 = function(){
                           rotate_two += 20;
                         } else if (count_animation <= 8) {
                           jQuery('.draggable_d6').css({
-                            background: '#fff url(/wp-content/themes/mobile/img/travma.jpg) 0 0/100% no-repeat'
+                            background: '#fff url(/wp-content/themes/mobile/img/travma.png) 0 0/100% no-repeat'
                           });
                           jQuery('.zone_x').css('top', r_top);
                           jQuery('.zone_l').css('top', l_bottom);
@@ -4288,7 +4288,7 @@ v2 = function(){
                           rotate_two += 8;
                         } else if (count_animation <= 12) {
                           jQuery('.draggable_d6').css({
-                            background: '#fff url(/wp-content/themes/mobile/img/povregdenie_demona.jpg) 0 0/100% no-repeat'
+                            background: '#fff url(/wp-content/themes/mobile/img/povregdenie_demona.png) 0 0/100% no-repeat'
                           });
                           jQuery('.zone_x').css('top', r_bottom);
                           jQuery('.zone_l').css('top', l_top);
@@ -4319,7 +4319,7 @@ v2 = function(){
                               jQuery('.draggable_v5').css({
                                 color: 'transparent',
                                 transform: 'scale(1.3)',
-                                background: '#fff url(/wp-content/themes/mobile/img/disfunction.jpg) 0 0/100% no-repeat',
+                                background: '#fff url(/wp-content/themes/mobile/img/disfunction.png) 0 0/100% no-repeat',
                                 opacity: 0.8
                               });
                               jQuery('.zone_x').css('top', r_top);
@@ -4330,7 +4330,7 @@ v2 = function(){
                               rotate_two += 8;
                             } else if (count_animation <= 8) {
                               jQuery('.draggable_v5').css({
-                                background: '#fff url(/wp-content/themes/mobile/img/travma.jpg) 0 0/100% no-repeat'
+                                background: '#fff url(/wp-content/themes/mobile/img/travma.png) 0 0/100% no-repeat'
                               });
                               jQuery('.zone_x').css('top', r_bottom);
                               jQuery('.zone_l').css('top', l_top);
@@ -4340,7 +4340,7 @@ v2 = function(){
                               rotate_two += 20;
                             } else if (count_animation <= 12) {
                               jQuery('.draggable_v5').css({
-                                background: '#fff url(/wp-content/themes/mobile/img/povregdenie_demona.jpg) 0 0/100% no-repeat'
+                                background: '#fff url(/wp-content/themes/mobile/img/povregdenie_demona.png) 0 0/100% no-repeat'
                               });
                               jQuery('.zone_x').css('top', r_top);
                               jQuery('.zone_l').css('top', l_bottom);
@@ -4367,7 +4367,7 @@ v2 = function(){
                                   jQuery('.draggable_v-').css({
                                     color: 'transparent',
                                     transform: 'scale(1.3)',
-                                    background: '#fff url(/wp-content/themes/mobile/img/disfunction.jpg) 0 0/100% no-repeat',
+                                    background: '#fff url(/wp-content/themes/mobile/img/disfunction.png) 0 0/100% no-repeat',
                                     opacity: 0.8
                                   });
                                   jQuery('.zone_x').css('top', r_bottom);
@@ -4378,7 +4378,7 @@ v2 = function(){
                                   rotate_two += 20;
                                 } else if (count_animation <= 8) {
                                   jQuery('.draggable_v-').css({
-                                    background: '#fff url(/wp-content/themes/mobile/img/travma.jpg) 0 0/100% no-repeat'
+                                    background: '#fff url(/wp-content/themes/mobile/img/travma.png) 0 0/100% no-repeat'
                                   });
                                   jQuery('.zone_x').css('top', r_top);
                                   jQuery('.zone_l').css('top', l_bottom);
@@ -4388,7 +4388,7 @@ v2 = function(){
                                   rotate_two += 8;
                                 } else if (count_animation <= 12) {
                                   jQuery('.draggable_v-').css({
-                                    background: '#fff url(/wp-content/themes/mobile/img/povregdenie_demona.jpg) 0 0/100% no-repeat'
+                                    background: '#fff url(/wp-content/themes/mobile/img/povregdenie_demona.png) 0 0/100% no-repeat'
                                   });
                                   jQuery('.zone_x').css('top', r_bottom);
                                   jQuery('.zone_l').css('top', l_top);
@@ -4415,7 +4415,7 @@ v2 = function(){
                                       jQuery('.draggable_v1').css({
                                         color: 'transparent',
                                         transform: 'scale(1.3)',
-                                        background: '#fff url(/wp-content/themes/mobile/img/disfunction.jpg) 0 0/100% no-repeat',
+                                        background: '#fff url(/wp-content/themes/mobile/img/disfunction.png) 0 0/100% no-repeat',
                                         opacity: 0.8
                                       });
                                       jQuery('.zone_x').css('top', r_top);
@@ -4426,7 +4426,7 @@ v2 = function(){
                                       rotate_two += 8;
                                     } else if (count_animation <= 8) {
                                       jQuery('.draggable_v1').css({
-                                        background: '#fff url(/wp-content/themes/mobile/img/travma.jpg) 0 0/100% no-repeat'
+                                        background: '#fff url(/wp-content/themes/mobile/img/travma.png) 0 0/100% no-repeat'
                                       });
                                       jQuery('.zone_x').css('top', r_bottom);
                                       jQuery('.zone_l').css('top', l_top);
@@ -4436,7 +4436,7 @@ v2 = function(){
                                       rotate_two += 20;
                                     } else if (count_animation <= 12) {
                                       jQuery('.draggable_v1').css({
-                                        background: '#fff url(/wp-content/themes/mobile/img/povregdenie_demona.jpg) 0 0/100% no-repeat'
+                                        background: '#fff url(/wp-content/themes/mobile/img/povregdenie_demona.png) 0 0/100% no-repeat'
                                       });
                                       jQuery('.zone_x').css('top', r_top);
                                       jQuery('.zone_l').css('top', l_bottom);
@@ -4463,7 +4463,7 @@ v2 = function(){
                                           jQuery('.draggable_d5').css({
                                             color: 'transparent',
                                             transform: 'scale(1.3)',
-                                            background: '#fff url(/wp-content/themes/mobile/img/disfunction.jpg) 0 0/100% no-repeat',
+                                            background: '#fff url(/wp-content/themes/mobile/img/disfunction.png) 0 0/100% no-repeat',
                                             opacity: 0.8
                                           });
                                           jQuery('.zone_x').css('top', r_bottom);
@@ -4474,7 +4474,7 @@ v2 = function(){
                                           rotate_two += 20;
                                         } else if (count_animation <= 8) {
                                           jQuery('.draggable_d5').css({
-                                            background: '#fff url(/wp-content/themes/mobile/img/travma.jpg) 0 0/100% no-repeat'
+                                            background: '#fff url(/wp-content/themes/mobile/img/travma.png) 0 0/100% no-repeat'
                                           });
                                           jQuery('.zone_x').css('top', r_top);
                                           jQuery('.zone_l').css('top', l_bottom);
@@ -4484,7 +4484,7 @@ v2 = function(){
                                           rotate_two += 8;
                                         } else if (count_animation <= 12) {
                                           jQuery('.draggable_d5').css({
-                                            background: '#fff url(/wp-content/themes/mobile/img/povregdenie_demona.jpg) 0 0/100% no-repeat'
+                                            background: '#fff url(/wp-content/themes/mobile/img/povregdenie_demona.png) 0 0/100% no-repeat'
                                           });
                                           jQuery('.zone_x').css('top', r_bottom);
                                           jQuery('.zone_l').css('top', l_top);
@@ -4511,7 +4511,7 @@ v2 = function(){
                                               jQuery('.draggable_d6').css({
                                                 color: 'transparent',
                                                 transform: 'scale(1.3)',
-                                                background: '#fff url(/wp-content/themes/mobile/img/disfunction.jpg) 0 0/100% no-repeat',
+                                                background: '#fff url(/wp-content/themes/mobile/img/disfunction.png) 0 0/100% no-repeat',
                                                 opacity: 0.8
                                               });
                                               jQuery('.zone_x').css('top', r_top);
@@ -4522,7 +4522,7 @@ v2 = function(){
                                               rotate_two += 8;
                                             } else if (count_animation <= 8) {
                                               jQuery('.draggable_d6').css({
-                                                background: '#fff url(/wp-content/themes/mobile/img/travma.jpg) 0 0/100% no-repeat'
+                                                background: '#fff url(/wp-content/themes/mobile/img/travma.png) 0 0/100% no-repeat'
                                               });
                                               jQuery('.zone_x').css('top', r_bottom);
                                               jQuery('.zone_l').css('top', l_top);
@@ -4532,7 +4532,7 @@ v2 = function(){
                                               rotate_two += 20;
                                             } else if (count_animation <= 12) {
                                               jQuery('.draggable_d6').css({
-                                                background: '#fff url(/wp-content/themes/mobile/img/povregdenie_demona.jpg) 0 0/100% no-repeat'
+                                                background: '#fff url(/wp-content/themes/mobile/img/povregdenie_demona.png) 0 0/100% no-repeat'
                                               });
                                               jQuery('.zone_x').css('top', r_top);
                                               jQuery('.zone_l').css('top', l_bottom);
@@ -4587,7 +4587,7 @@ v2 = function(){
           jQuery('.draggable_v5').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/disfunction.jpg) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/disfunction.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x').css('top', l_top);
@@ -4598,7 +4598,7 @@ v2 = function(){
           rotate_two += 2;
         } else if (count_animation <= 8) {
           jQuery('.draggable_v5').css({
-            background: '#fff url(/wp-content/themes/mobile/img/travma.jpg) 0 0/100% no-repeat'
+            background: '#fff url(/wp-content/themes/mobile/img/travma.png) 0 0/100% no-repeat'
           });
           jQuery('.zone_x').css('top', l_bottom);
           jQuery('.zone_l').css('top', r_top);
@@ -4608,7 +4608,7 @@ v2 = function(){
           rotate_two += 2;
         } else if (count_animation <= 12) {
           jQuery('.draggable_v5').css({
-            background: '#fff url(/wp-content/themes/mobile/img/povregdenie_demona.jpg) 0 0/100% no-repeat'
+            background: '#fff url(/wp-content/themes/mobile/img/povregdenie_demona.png) 0 0/100% no-repeat'
           });
           jQuery('.zone_x').css('top', l_top);
           jQuery('.zone_l').css('top', r_bottom);
@@ -4635,7 +4635,7 @@ v2 = function(){
               jQuery('.draggable_v-').css({
                 color: 'transparent',
                 transform: 'scale(1.3)',
-                background: '#fff url(/wp-content/themes/mobile/img/disfunction.jpg) 0 0/100% no-repeat',
+                background: '#fff url(/wp-content/themes/mobile/img/disfunction.png) 0 0/100% no-repeat',
                 opacity: 0.8
               });
               jQuery('.zone_x').css('top', l_bottom);
@@ -4646,7 +4646,7 @@ v2 = function(){
               rotate_two += 2;
             } else if (count_animation <= 8) {
               jQuery('.draggable_v-').css({
-                background: '#fff url(/wp-content/themes/mobile/img/travma.jpg) 0 0/100% no-repeat'
+                background: '#fff url(/wp-content/themes/mobile/img/travma.png) 0 0/100% no-repeat'
               });
               jQuery('.zone_x').css('top', l_top);
               jQuery('.zone_l').css('top', r_bottom);
@@ -4656,7 +4656,7 @@ v2 = function(){
               rotate_two += 2;
             } else if (count_animation <= 12) {
               jQuery('.draggable_v-').css({
-                background: '#fff url(/wp-content/themes/mobile/img/povregdenie_demona.jpg) 0 0/100% no-repeat'
+                background: '#fff url(/wp-content/themes/mobile/img/povregdenie_demona.png) 0 0/100% no-repeat'
               });
               jQuery('.zone_x').css('top', l_bottom);
               jQuery('.zone_l').css('top', r_top);
@@ -4683,7 +4683,7 @@ v2 = function(){
                   jQuery('.draggable_v1').css({
                     color: 'transparent',
                     transform: 'scale(1.3)',
-                    background: '#fff url(/wp-content/themes/mobile/img/disfunction.jpg) 0 0/100% no-repeat',
+                    background: '#fff url(/wp-content/themes/mobile/img/disfunction.png) 0 0/100% no-repeat',
                     opacity: 0.8
                   });
                   jQuery('.zone_x').css('top', l_top);
@@ -4694,7 +4694,7 @@ v2 = function(){
                   rotate_two += 2;
                 } else if (count_animation <= 8) {
                   jQuery('.draggable_v1').css({
-                    background: '#fff url(/wp-content/themes/mobile/img/travma.jpg) 0 0/100% no-repeat'
+                    background: '#fff url(/wp-content/themes/mobile/img/travma.png) 0 0/100% no-repeat'
                   });
                   jQuery('.zone_x').css('top', l_bottom);
                   jQuery('.zone_l').css('top', r_top);
@@ -4704,7 +4704,7 @@ v2 = function(){
                   rotate_two += 2;
                 } else if (count_animation <= 12) {
                   jQuery('.draggable_v1').css({
-                    background: '#fff url(/wp-content/themes/mobile/img/povregdenie_demona.jpg) 0 0/100% no-repeat'
+                    background: '#fff url(/wp-content/themes/mobile/img/povregdenie_demona.png) 0 0/100% no-repeat'
                   });
                   jQuery('.zone_x').css('top', l_top);
                   jQuery('.zone_l').css('top', r_bottom);
@@ -4731,7 +4731,7 @@ v2 = function(){
                       jQuery('.draggable_d5').css({
                         color: 'transparent',
                         transform: 'scale(1.3)',
-                        background: '#fff url(/wp-content/themes/mobile/img/disfunction.jpg) 0 0/100% no-repeat',
+                        background: '#fff url(/wp-content/themes/mobile/img/disfunction.png) 0 0/100% no-repeat',
                         opacity: 0.8
                       });
                       jQuery('.zone_x').css('top', l_bottom);
@@ -4742,7 +4742,7 @@ v2 = function(){
                       rotate_two += 2;
                     } else if (count_animation <= 8) {
                       jQuery('.draggable_d5').css({
-                        background: '#fff url(/wp-content/themes/mobile/img/travma.jpg) 0 0/100% no-repeat'
+                        background: '#fff url(/wp-content/themes/mobile/img/travma.png) 0 0/100% no-repeat'
                       });
                       jQuery('.zone_x').css('top', l_top);
                       jQuery('.zone_l').css('top', r_bottom);
@@ -4752,7 +4752,7 @@ v2 = function(){
                       rotate_two += 2;
                     } else if (count_animation <= 12) {
                       jQuery('.draggable_d5').css({
-                        background: '#fff url(/wp-content/themes/mobile/img/povregdenie_demona.jpg) 0 0/100% no-repeat'
+                        background: '#fff url(/wp-content/themes/mobile/img/povregdenie_demona.png) 0 0/100% no-repeat'
                       });
                       jQuery('.zone_x').css('top', l_bottom);
                       jQuery('.zone_l').css('top', r_top);
@@ -4779,7 +4779,7 @@ v2 = function(){
                           jQuery('.draggable_d6').css({
                             color: 'transparent',
                             transform: 'scale(1.3)',
-                            background: '#fff url(/wp-content/themes/mobile/img/disfunction.jpg) 0 0/100% no-repeat',
+                            background: '#fff url(/wp-content/themes/mobile/img/disfunction.png) 0 0/100% no-repeat',
                             opacity: 0.8
                           });
                           jQuery('.zone_x').css('top', l_top);
@@ -4790,7 +4790,7 @@ v2 = function(){
                           rotate_two += 2;
                         } else if (count_animation <= 8) {
                           jQuery('.draggable_d6').css({
-                            background: '#fff url(/wp-content/themes/mobile/img/travma.jpg) 0 0/100% no-repeat'
+                            background: '#fff url(/wp-content/themes/mobile/img/travma.png) 0 0/100% no-repeat'
                           });
                           jQuery('.zone_x').css('top', l_bottom);
                           jQuery('.zone_l').css('top', r_top);
@@ -4800,7 +4800,7 @@ v2 = function(){
                           rotate_two += 2;
                         } else if (count_animation <= 12) {
                           jQuery('.draggable_d6').css({
-                            background: '#fff url(/wp-content/themes/mobile/img/povregdenie_demona.jpg) 0 0/100% no-repeat'
+                            background: '#fff url(/wp-content/themes/mobile/img/povregdenie_demona.png) 0 0/100% no-repeat'
                           });
                           jQuery('.zone_x').css('top', l_top);
                           jQuery('.zone_l').css('top', r_bottom);
@@ -4827,7 +4827,7 @@ v2 = function(){
                               jQuery('.draggable_v5').css({
                                 color: 'transparent',
                                 transform: 'scale(1.3)',
-                                background: '#fff url(/wp-content/themes/mobile/img/disfunction.jpg) 0 0/100% no-repeat',
+                                background: '#fff url(/wp-content/themes/mobile/img/disfunction.png) 0 0/100% no-repeat',
                                 opacity: 0.8
                               });
                               jQuery('.zone_x').css('top', l_top);
@@ -4838,7 +4838,7 @@ v2 = function(){
                               rotate_two += 2;
                             } else if (count_animation <= 8) {
                               jQuery('.draggable_v5').css({
-                                background: '#fff url(/wp-content/themes/mobile/img/travma.jpg) 0 0/100% no-repeat'
+                                background: '#fff url(/wp-content/themes/mobile/img/travma.png) 0 0/100% no-repeat'
                               });
                               jQuery('.zone_x').css('top', l_bottom);
                               jQuery('.zone_l').css('top', r_top);
@@ -4848,7 +4848,7 @@ v2 = function(){
                               rotate_two += 2;
                             } else if (count_animation <= 12) {
                               jQuery('.draggable_v5').css({
-                                background: '#fff url(/wp-content/themes/mobile/img/povregdenie_demona.jpg) 0 0/100% no-repeat'
+                                background: '#fff url(/wp-content/themes/mobile/img/povregdenie_demona.png) 0 0/100% no-repeat'
                               });
                               jQuery('.zone_x').css('top', l_top);
                               jQuery('.zone_l').css('top', r_bottom);
@@ -4875,7 +4875,7 @@ v2 = function(){
                                   jQuery('.draggable_v-').css({
                                     color: 'transparent',
                                     transform: 'scale(1.3)',
-                                    background: '#fff url(/wp-content/themes/mobile/img/disfunction.jpg) 0 0/100% no-repeat',
+                                    background: '#fff url(/wp-content/themes/mobile/img/disfunction.png) 0 0/100% no-repeat',
                                     opacity: 0.8
                                   });
                                   jQuery('.zone_x').css('top', l_bottom);
@@ -4886,7 +4886,7 @@ v2 = function(){
                                   rotate_two += 2;
                                 } else if (count_animation <= 8) {
                                   jQuery('.draggable_v-').css({
-                                    background: '#fff url(/wp-content/themes/mobile/img/travma.jpg) 0 0/100% no-repeat'
+                                    background: '#fff url(/wp-content/themes/mobile/img/travma.png) 0 0/100% no-repeat'
                                   });
                                   jQuery('.zone_x').css('top', l_top);
                                   jQuery('.zone_l').css('top', r_bottom);
@@ -4896,7 +4896,7 @@ v2 = function(){
                                   rotate_two += 2;
                                 } else if (count_animation <= 12) {
                                   jQuery('.draggable_v-').css({
-                                    background: '#fff url(/wp-content/themes/mobile/img/povregdenie_demona.jpg) 0 0/100% no-repeat'
+                                    background: '#fff url(/wp-content/themes/mobile/img/povregdenie_demona.png) 0 0/100% no-repeat'
                                   });
                                   jQuery('.zone_x').css('top', l_bottom);
                                   jQuery('.zone_l').css('top', r_top);
@@ -4923,7 +4923,7 @@ v2 = function(){
                                       jQuery('.draggable_v1').css({
                                         color: 'transparent',
                                         transform: 'scale(1.3)',
-                                        background: '#fff url(/wp-content/themes/mobile/img/disfunction.jpg) 0 0/100% no-repeat',
+                                        background: '#fff url(/wp-content/themes/mobile/img/disfunction.png) 0 0/100% no-repeat',
                                         opacity: 0.8
                                       });
                                       jQuery('.zone_x').css('top', l_top);
@@ -4934,7 +4934,7 @@ v2 = function(){
                                       rotate_two += 2;
                                     } else if (count_animation <= 8) {
                                       jQuery('.draggable_v1').css({
-                                        background: '#fff url(/wp-content/themes/mobile/img/travma.jpg) 0 0/100% no-repeat'
+                                        background: '#fff url(/wp-content/themes/mobile/img/travma.png) 0 0/100% no-repeat'
                                       });
                                       jQuery('.zone_x').css('top', l_bottom);
                                       jQuery('.zone_l').css('top', r_top);
@@ -4944,7 +4944,7 @@ v2 = function(){
                                       rotate_two += 2;
                                     } else if (count_animation <= 12) {
                                       jQuery('.draggable_v1').css({
-                                        background: '#fff url(/wp-content/themes/mobile/img/povregdenie_demona.jpg) 0 0/100% no-repeat'
+                                        background: '#fff url(/wp-content/themes/mobile/img/povregdenie_demona.png) 0 0/100% no-repeat'
                                       });
                                       jQuery('.zone_x').css('top', l_top);
                                       jQuery('.zone_l').css('top', r_bottom);
@@ -4971,7 +4971,7 @@ v2 = function(){
                                           jQuery('.draggable_d5').css({
                                             color: 'transparent',
                                             transform: 'scale(1.3)',
-                                            background: '#fff url(/wp-content/themes/mobile/img/disfunction.jpg) 0 0/100% no-repeat',
+                                            background: '#fff url(/wp-content/themes/mobile/img/disfunction.png) 0 0/100% no-repeat',
                                             opacity: 0.8
                                           });
                                           jQuery('.zone_x').css('top', l_bottom);
@@ -4982,7 +4982,7 @@ v2 = function(){
                                           rotate_two += 2;
                                         } else if (count_animation <= 8) {
                                           jQuery('.draggable_d5').css({
-                                            background: '#fff url(/wp-content/themes/mobile/img/travma.jpg) 0 0/100% no-repeat'
+                                            background: '#fff url(/wp-content/themes/mobile/img/travma.png) 0 0/100% no-repeat'
                                           });
                                           jQuery('.zone_x').css('top', l_top);
                                           jQuery('.zone_l').css('top', r_bottom);
@@ -4992,7 +4992,7 @@ v2 = function(){
                                           rotate_two += 2;
                                         } else if (count_animation <= 12) {
                                           jQuery('.draggable_d5').css({
-                                            background: '#fff url(/wp-content/themes/mobile/img/povregdenie_demona.jpg) 0 0/100% no-repeat'
+                                            background: '#fff url(/wp-content/themes/mobile/img/povregdenie_demona.png) 0 0/100% no-repeat'
                                           });
                                           jQuery('.zone_x').css('top', l_bottom);
                                           jQuery('.zone_l').css('top', r_top);
@@ -5019,7 +5019,7 @@ v2 = function(){
                                               jQuery('.draggable_d6').css({
                                                 color: 'transparent',
                                                 transform: 'scale(1.3)',
-                                                background: '#fff url(/wp-content/themes/mobile/img/disfunction.jpg) 0 0/100% no-repeat',
+                                                background: '#fff url(/wp-content/themes/mobile/img/disfunction.png) 0 0/100% no-repeat',
                                                 opacity: 0.8
                                               });
                                               jQuery('.zone_x').css('top', l_top);
@@ -5030,7 +5030,7 @@ v2 = function(){
                                               rotate_two += 2;
                                             } else if (count_animation <= 8) {
                                               jQuery('.draggable_d6').css({
-                                                background: '#fff url(/wp-content/themes/mobile/img/travma.jpg) 0 0/100% no-repeat'
+                                                background: '#fff url(/wp-content/themes/mobile/img/travma.png) 0 0/100% no-repeat'
                                               });
                                               jQuery('.zone_x').css('top', l_bottom);
                                               jQuery('.zone_l').css('top', r_top);
@@ -5040,7 +5040,7 @@ v2 = function(){
                                               rotate_two += 2;
                                             } else if (count_animation <= 12) {
                                               jQuery('.draggable_d6').css({
-                                                background: '#fff url(/wp-content/themes/mobile/img/povregdenie_demona.jpg) 0 0/100% no-repeat'
+                                                background: '#fff url(/wp-content/themes/mobile/img/povregdenie_demona.png) 0 0/100% no-repeat'
                                               });
                                               jQuery('.zone_x').css('top', l_top);
                                               jQuery('.zone_l').css('top', r_bottom);
@@ -5661,14 +5661,14 @@ v3 = function(){
         jQuery('.draggable_lovushka').css({
           color: 'transparent',
           transform: 'scale(1.3) rotate(-'+rotate_lovushka+'deg)',
-          background: '#fff url(/wp-content/themes/mobile/img/lovushka.jpg) 0 0/100% no-repeat',
+          background: '#fff url(/wp-content/themes/mobile/img/lovushka.png) 0 0/100% no-repeat',
           opacity: 0.8
         });
         if (count_animation <= 4) {
           jQuery('.draggable_s3').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/disfunction.jpg) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/disfunction.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x').css('top', r_top);
@@ -5679,7 +5679,7 @@ v3 = function(){
           rotate_two += 4;
         } else if (count_animation <= 8) {
           jQuery('.draggable_s3').css({
-            background: '#fff url(/wp-content/themes/mobile/img/travma.jpg) 0 0/100% no-repeat'
+            background: '#fff url(/wp-content/themes/mobile/img/travma.png) 0 0/100% no-repeat'
           });
           jQuery('.zone_x').css('top', r_bottom);
           jQuery('.zone_l').css('top', r_bottom);
@@ -5689,7 +5689,7 @@ v3 = function(){
           rotate_two += 6;
         } else if (count_animation <= 12) {
           jQuery('.draggable_s3').css({
-            background: '#fff url(/wp-content/themes/mobile/img/povregdenie_demona.jpg) 0 0/100% no-repeat'
+            background: '#fff url(/wp-content/themes/mobile/img/povregdenie_demona.png) 0 0/100% no-repeat'
           });
           jQuery('.zone_x').css('top', l_top);
           jQuery('.zone_l').css('top', r_top);
@@ -5716,14 +5716,14 @@ v3 = function(){
             jQuery('.draggable_lovushka').css({
               color: 'transparent',
               transform: 'scale(1.3) rotate(-'+rotate_lovushka+'deg)',
-              background: '#fff url(/wp-content/themes/mobile/img/lovushka.jpg) 0 0/100% no-repeat',
+              background: '#fff url(/wp-content/themes/mobile/img/lovushka.png) 0 0/100% no-repeat',
               opacity: 0.8
             });
             if (count_animation <= 4) {
               jQuery('.draggable_s2').css({
                 color: 'transparent',
                 transform: 'scale(1.3)',
-                background: '#fff url(/wp-content/themes/mobile/img/disfunction.jpg) 0 0/100% no-repeat',
+                background: '#fff url(/wp-content/themes/mobile/img/disfunction.png) 0 0/100% no-repeat',
                 opacity: 0.8
               });
               jQuery('.zone_x').css('top', r_bottom);
@@ -5734,7 +5734,7 @@ v3 = function(){
               rotate_two += 6;
             } else if (count_animation <= 8) {
               jQuery('.draggable_s2').css({
-                background: '#fff url(/wp-content/themes/mobile/img/travma.jpg) 0 0/100% no-repeat'
+                background: '#fff url(/wp-content/themes/mobile/img/travma.png) 0 0/100% no-repeat'
               });
               jQuery('.zone_x').css('top', r_top);
               jQuery('.zone_l').css('top', l_top);
@@ -5744,7 +5744,7 @@ v3 = function(){
               rotate_two += 4;
             } else if (count_animation <= 12) {
               jQuery('.draggable_s2').css({
-                background: '#fff url(/wp-content/themes/mobile/img/povregdenie_demona.jpg) 0 0/100% no-repeat'
+                background: '#fff url(/wp-content/themes/mobile/img/povregdenie_demona.png) 0 0/100% no-repeat'
               });
               jQuery('.zone_x').css('top', r_bottom);
               jQuery('.zone_l').css('top', r_bottom);
@@ -5771,14 +5771,14 @@ v3 = function(){
                 jQuery('.draggable_lovushka').css({
                   color: 'transparent',
                   transform: 'scale(1.3) rotate(-'+rotate_lovushka+'deg)',
-                  background: '#fff url(/wp-content/themes/mobile/img/lovushka.jpg) 0 0/100% no-repeat',
+                  background: '#fff url(/wp-content/themes/mobile/img/lovushka.png) 0 0/100% no-repeat',
                   opacity: 0.8
                 });
                 if (count_animation <= 4) {
                   jQuery('.draggable_s4').css({
                     color: 'transparent',
                     transform: 'scale(1.3)',
-                    background: '#fff url(/wp-content/themes/mobile/img/disfunction.jpg) 0 0/100% no-repeat',
+                    background: '#fff url(/wp-content/themes/mobile/img/disfunction.png) 0 0/100% no-repeat',
                     opacity: 0.8
                   });
                   jQuery('.zone_x').css('top', l_top);
@@ -5789,7 +5789,7 @@ v3 = function(){
                   rotate_two += 8;
                 } else if (count_animation <= 8) {
                   jQuery('.draggable_s4').css({
-                    background: '#fff url(/wp-content/themes/mobile/img/travma.jpg) 0 0/100% no-repeat'
+                    background: '#fff url(/wp-content/themes/mobile/img/travma.png) 0 0/100% no-repeat'
                   });
                   jQuery('.zone_x').css('top', r_bottom);
                   jQuery('.zone_l').css('top', r_bottom);
@@ -5799,7 +5799,7 @@ v3 = function(){
                   rotate_two += 6;
                 } else if (count_animation <= 12) {
                   jQuery('.draggable_s4').css({
-                    background: '#fff url(/wp-content/themes/mobile/img/povregdenie_demona.jpg) 0 0/100% no-repeat'
+                    background: '#fff url(/wp-content/themes/mobile/img/povregdenie_demona.png) 0 0/100% no-repeat'
                   });
                   jQuery('.zone_x').css('top', r_top);
                   jQuery('.zone_l').css('top', l_top);
@@ -5826,14 +5826,14 @@ v3 = function(){
                     jQuery('.draggable_lovushka').css({
                       color: 'transparent',
                       transform: 'scale(1.3) rotate(-'+rotate_lovushka+'deg)',
-                      background: '#fff url(/wp-content/themes/mobile/img/lovushka.jpg) 0 0/100% no-repeat',
+                      background: '#fff url(/wp-content/themes/mobile/img/lovushka.png) 0 0/100% no-repeat',
                       opacity: 0.8
                     });
                     if (count_animation <= 4) {
                       jQuery('.draggable_v3').css({
                         color: 'transparent',
                         transform: 'scale(1.3)',
-                        background: '#fff url(/wp-content/themes/mobile/img/disfunction.jpg) 0 0/100% no-repeat',
+                        background: '#fff url(/wp-content/themes/mobile/img/disfunction.png) 0 0/100% no-repeat',
                         opacity: 0.8
                       });
                       jQuery('.zone_x').css('top', r_bottom);
@@ -5844,7 +5844,7 @@ v3 = function(){
                       rotate_two += 6;
                     } else if (count_animation <= 8) {
                       jQuery('.draggable_v3').css({
-                        background: '#fff url(/wp-content/themes/mobile/img/travma.jpg) 0 0/100% no-repeat'
+                        background: '#fff url(/wp-content/themes/mobile/img/travma.png) 0 0/100% no-repeat'
                       });
                       jQuery('.zone_x').css('top', l_top);
                       jQuery('.zone_l').css('top', r_top);
@@ -5854,7 +5854,7 @@ v3 = function(){
                       rotate_two += 8;
                     } else if (count_animation <= 12) {
                       jQuery('.draggable_v3').css({
-                        background: '#fff url(/wp-content/themes/mobile/img/povregdenie_demona.jpg) 0 0/100% no-repeat'
+                        background: '#fff url(/wp-content/themes/mobile/img/povregdenie_demona.png) 0 0/100% no-repeat'
                       });
                       jQuery('.zone_x').css('top', r_bottom);
                       jQuery('.zone_l').css('top', r_bottom);
@@ -5881,13 +5881,13 @@ v3 = function(){
                         jQuery('.draggable_lovushka').css({
                           color: 'transparent',
                           transform: 'scale(1.3) rotate(-'+rotate_lovushka+'deg)',
-                          background: '#fff url(/wp-content/themes/mobile/img/lovushka.jpg) 0 0/100% no-repeat',
+                          background: '#fff url(/wp-content/themes/mobile/img/lovushka.png) 0 0/100% no-repeat',
                           opacity: 0.8
                         });
                         if (count_animation <= 4) {
                           jQuery('.draggable_s3').css({
                             color: 'transparent',
-                            background: '#fff url(/wp-content/themes/mobile/img/disfunction.jpg) 0 0/100% no-repeat',
+                            background: '#fff url(/wp-content/themes/mobile/img/disfunction.png) 0 0/100% no-repeat',
                             opacity: 0.8
                           });
                           jQuery('.zone_x').css('top', r_top);
@@ -5898,7 +5898,7 @@ v3 = function(){
                           rotate_two += 4;
                         } else if (count_animation <= 8) {
                           jQuery('.draggable_s3').css({
-                            background: '#fff url(/wp-content/themes/mobile/img/travma.jpg) 0 0/100% no-repeat'
+                            background: '#fff url(/wp-content/themes/mobile/img/travma.png) 0 0/100% no-repeat'
                           });
                           jQuery('.zone_x').css('top', r_bottom);
                           jQuery('.zone_l').css('top', r_bottom);
@@ -5908,7 +5908,7 @@ v3 = function(){
                           rotate_two += 6;
                         } else if (count_animation <= 12) {
                           jQuery('.draggable_s3').css({
-                            background: '#fff url(/wp-content/themes/mobile/img/povregdenie_demona.jpg) 0 0/100% no-repeat'
+                            background: '#fff url(/wp-content/themes/mobile/img/povregdenie_demona.png) 0 0/100% no-repeat'
                           });
                           jQuery('.zone_x').css('top', l_top);
                           jQuery('.zone_l').css('top', r_top);
@@ -5935,14 +5935,14 @@ v3 = function(){
                             jQuery('.draggable_lovushka').css({
                               color: 'transparent',
                               transform: 'scale(1.3) rotate(-'+rotate_lovushka+'deg)',
-                              background: '#fff url(/wp-content/themes/mobile/img/lovushka.jpg) 0 0/100% no-repeat',
+                              background: '#fff url(/wp-content/themes/mobile/img/lovushka.png) 0 0/100% no-repeat',
                               opacity: 0.8
                             });
                             if (count_animation <= 4) {
                               jQuery('.draggable_s2').css({
                                 color: 'transparent',
                                 transform: 'scale(1.3)',
-                                background: '#fff url(/wp-content/themes/mobile/img/disfunction.jpg) 0 0/100% no-repeat',
+                                background: '#fff url(/wp-content/themes/mobile/img/disfunction.png) 0 0/100% no-repeat',
                                 opacity: 0.8
                               });
                               jQuery('.zone_x').css('top', r_bottom);
@@ -5953,7 +5953,7 @@ v3 = function(){
                               rotate_two += 6;
                             } else if (count_animation <= 8) {
                               jQuery('.draggable_s2').css({
-                                background: '#fff url(/wp-content/themes/mobile/img/travma.jpg) 0 0/100% no-repeat'
+                                background: '#fff url(/wp-content/themes/mobile/img/travma.png) 0 0/100% no-repeat'
                               });
                               jQuery('.zone_x').css('top', r_top);
                               jQuery('.zone_l').css('top', l_top);
@@ -5963,7 +5963,7 @@ v3 = function(){
                               rotate_two += 4;
                             } else if (count_animation <= 12) {
                               jQuery('.draggable_s2').css({
-                                background: '#fff url(/wp-content/themes/mobile/img/povregdenie_demona.jpg) 0 0/100% no-repeat'
+                                background: '#fff url(/wp-content/themes/mobile/img/povregdenie_demona.png) 0 0/100% no-repeat'
                               });
                               jQuery('.zone_x').css('top', r_bottom);
                               jQuery('.zone_l').css('top', r_bottom);
@@ -5990,14 +5990,14 @@ v3 = function(){
                                 jQuery('.draggable_lovushka').css({
                                   color: 'transparent',
                                   transform: 'scale(1.3) rotate(-'+rotate_lovushka+'deg)',
-                                  background: '#fff url(/wp-content/themes/mobile/img/lovushka.jpg) 0 0/100% no-repeat',
+                                  background: '#fff url(/wp-content/themes/mobile/img/lovushka.png) 0 0/100% no-repeat',
                                   opacity: 0.8
                                 });
                                 if (count_animation <= 4) {
                                   jQuery('.draggable_s4').css({
                                     color: 'transparent',
                                     transform: 'scale(1.3)',
-                                    background: '#fff url(/wp-content/themes/mobile/img/disfunction.jpg) 0 0/100% no-repeat',
+                                    background: '#fff url(/wp-content/themes/mobile/img/disfunction.png) 0 0/100% no-repeat',
                                     opacity: 0.8
                                   });
                                   jQuery('.zone_x').css('top', l_top);
@@ -6008,7 +6008,7 @@ v3 = function(){
                                   rotate_two += 8;
                                 } else if (count_animation <= 8) {
                                   jQuery('.draggable_s4').css({
-                                    background: '#fff url(/wp-content/themes/mobile/img/travma.jpg) 0 0/100% no-repeat'
+                                    background: '#fff url(/wp-content/themes/mobile/img/travma.png) 0 0/100% no-repeat'
                                   });
                                   jQuery('.zone_x').css('top', r_bottom);
                                   jQuery('.zone_l').css('top', r_bottom);
@@ -6018,7 +6018,7 @@ v3 = function(){
                                   rotate_two += 6;
                                 } else if (count_animation <= 12) {
                                   jQuery('.draggable_s4').css({
-                                    background: '#fff url(/wp-content/themes/mobile/img/povregdenie_demona.jpg) 0 0/100% no-repeat'
+                                    background: '#fff url(/wp-content/themes/mobile/img/povregdenie_demona.png) 0 0/100% no-repeat'
                                   });
                                   jQuery('.zone_x').css('top', r_top);
                                   jQuery('.zone_l').css('top', l_top);
@@ -6045,14 +6045,14 @@ v3 = function(){
                                     jQuery('.draggable_lovushka').css({
                                       color: 'transparent',
                                       transform: 'scale(1.3) rotate(-'+rotate_lovushka+'deg)',
-                                      background: '#fff url(/wp-content/themes/mobile/img/lovushka.jpg) 0 0/100% no-repeat',
+                                      background: '#fff url(/wp-content/themes/mobile/img/lovushka.png) 0 0/100% no-repeat',
                                       opacity: 0.8
                                     });
                                     if (count_animation <= 4) {
                                       jQuery('.draggable_v3').css({
                                         color: 'transparent',
                                         transform: 'scale(1.3)',
-                                        background: '#fff url(/wp-content/themes/mobile/img/disfunction.jpg) 0 0/100% no-repeat',
+                                        background: '#fff url(/wp-content/themes/mobile/img/disfunction.png) 0 0/100% no-repeat',
                                         opacity: 0.8
                                       });
                                       jQuery('.zone_x').css('top', r_bottom);
@@ -6063,7 +6063,7 @@ v3 = function(){
                                       rotate_two += 6;
                                     } else if (count_animation <= 8) {
                                       jQuery('.draggable_v3').css({
-                                        background: '#fff url(/wp-content/themes/mobile/img/travma.jpg) 0 0/100% no-repeat'
+                                        background: '#fff url(/wp-content/themes/mobile/img/travma.png) 0 0/100% no-repeat'
                                       });
                                       jQuery('.zone_x').css('top', l_top);
                                       jQuery('.zone_l').css('top', r_top);
@@ -6073,7 +6073,7 @@ v3 = function(){
                                       rotate_two += 8;
                                     } else if (count_animation <= 12) {
                                       jQuery('.draggable_v3').css({
-                                        background: '#fff url(/wp-content/themes/mobile/img/povregdenie_demona.jpg) 0 0/100% no-repeat'
+                                        background: '#fff url(/wp-content/themes/mobile/img/povregdenie_demona.png) 0 0/100% no-repeat'
                                       });
                                       jQuery('.zone_x').css('top', r_bottom);
                                       jQuery('.zone_l').css('top', r_bottom);
@@ -6101,14 +6101,14 @@ v3 = function(){
                                         jQuery('.draggable_lovushka').css({
                                           color: 'transparent',
                                           transform: 'scale(1.3) rotate(-'+rotate_lovushka+'deg)',
-                                          background: '#fff url(/wp-content/themes/mobile/img/lovushka.jpg) 0 0/100% no-repeat',
+                                          background: '#fff url(/wp-content/themes/mobile/img/lovushka.png) 0 0/100% no-repeat',
                                           opacity: 0.8
                                         });
                                         if (count_animation <= 4) {
                                           jQuery('.draggable_s3').css({
                                             color: 'transparent',
                                             transform: 'scale(1.3)',
-                                            background: '#fff url(/wp-content/themes/mobile/img/disfunction.jpg) 0 0/100% no-repeat',
+                                            background: '#fff url(/wp-content/themes/mobile/img/disfunction.png) 0 0/100% no-repeat',
                                             opacity: 0.8
                                           });
                                           jQuery('.zone_x').css('top', r_top);
@@ -6119,7 +6119,7 @@ v3 = function(){
                                           rotate_two += 4;
                                         } else if (count_animation <= 8) {
                                           jQuery('.draggable_s3').css({
-                                            background: '#fff url(/wp-content/themes/mobile/img/travma.jpg) 0 0/100% no-repeat'
+                                            background: '#fff url(/wp-content/themes/mobile/img/travma.png) 0 0/100% no-repeat'
                                           });
                                           jQuery('.zone_x').css('top', r_bottom);
                                           jQuery('.zone_l').css('top', r_bottom);
@@ -6129,7 +6129,7 @@ v3 = function(){
                                           rotate_two += 6;
                                         } else if (count_animation <= 12) {
                                           jQuery('.draggable_s3').css({
-                                            background: '#fff url(/wp-content/themes/mobile/img/povregdenie_demona.jpg) 0 0/100% no-repeat'
+                                            background: '#fff url(/wp-content/themes/mobile/img/povregdenie_demona.png) 0 0/100% no-repeat'
                                           });
                                           jQuery('.zone_x').css('top', l_top);
                                           jQuery('.zone_l').css('top', r_top);
@@ -6156,14 +6156,14 @@ v3 = function(){
                                             jQuery('.draggable_lovushka').css({
                                               color: 'transparent',
                                               transform: 'scale(1.3) rotate(-'+rotate_lovushka+'deg)',
-                                              background: '#fff url(/wp-content/themes/mobile/img/lovushka.jpg) 0 0/100% no-repeat',
+                                              background: '#fff url(/wp-content/themes/mobile/img/lovushka.png) 0 0/100% no-repeat',
                                               opacity: 0.8
                                             });
                                             if (count_animation <= 4) {
                                               jQuery('.draggable_s2').css({
                                                 color: 'transparent',
                                                 transform: 'scale(1.3)',
-                                                background: '#fff url(/wp-content/themes/mobile/img/disfunction.jpg) 0 0/100% no-repeat',
+                                                background: '#fff url(/wp-content/themes/mobile/img/disfunction.png) 0 0/100% no-repeat',
                                                 opacity: 0.8
                                               });
                                               jQuery('.zone_x').css('top', r_bottom);
@@ -6174,7 +6174,7 @@ v3 = function(){
                                               rotate_two += 6;
                                             } else if (count_animation <= 8) {
                                               jQuery('.draggable_s2').css({
-                                                background: '#fff url(/wp-content/themes/mobile/img/travma.jpg) 0 0/100% no-repeat'
+                                                background: '#fff url(/wp-content/themes/mobile/img/travma.png) 0 0/100% no-repeat'
                                               });
                                               jQuery('.zone_x').css('top', r_top);
                                               jQuery('.zone_l').css('top', l_top);
@@ -6184,7 +6184,7 @@ v3 = function(){
                                               rotate_two += 4;
                                             } else if (count_animation <= 12) {
                                               jQuery('.draggable_s2').css({
-                                                background: '#fff url(/wp-content/themes/mobile/img/povregdenie_demona.jpg) 0 0/100% no-repeat'
+                                                background: '#fff url(/wp-content/themes/mobile/img/povregdenie_demona.png) 0 0/100% no-repeat'
                                               });
                                               jQuery('.zone_x').css('top', r_bottom);
                                               jQuery('.zone_l').css('top', r_bottom);
@@ -6211,14 +6211,14 @@ v3 = function(){
                                                 jQuery('.draggable_lovushka').css({
                                                   color: 'transparent',
                                                   transform: 'scale(1.3) rotate(-'+rotate_lovushka+'deg)',
-                                                  background: '#fff url(/wp-content/themes/mobile/img/lovushka.jpg) 0 0/100% no-repeat',
+                                                  background: '#fff url(/wp-content/themes/mobile/img/lovushka.png) 0 0/100% no-repeat',
                                                   opacity: 0.8
                                                 });
                                                 if (count_animation <= 4) {
                                                   jQuery('.draggable_s4').css({
                                                     color: 'transparent',
                                                     transform: 'scale(1.3)',
-                                                    background: '#fff url(/wp-content/themes/mobile/img/disfunction.jpg) 0 0/100% no-repeat',
+                                                    background: '#fff url(/wp-content/themes/mobile/img/disfunction.png) 0 0/100% no-repeat',
                                                     opacity: 0.8
                                                   });
                                                   jQuery('.zone_x').css('top', l_top);
@@ -6229,7 +6229,7 @@ v3 = function(){
                                                   rotate_two += 8;
                                                 } else if (count_animation <= 8) {
                                                   jQuery('.draggable_s4').css({
-                                                    background: '#fff url(/wp-content/themes/mobile/img/travma.jpg) 0 0/100% no-repeat'
+                                                    background: '#fff url(/wp-content/themes/mobile/img/travma.png) 0 0/100% no-repeat'
                                                   });
                                                   jQuery('.zone_x').css('top', r_bottom);
                                                   jQuery('.zone_l').css('top', r_bottom);
@@ -6239,7 +6239,7 @@ v3 = function(){
                                                   rotate_two += 6;
                                                 } else if (count_animation <= 12) {
                                                   jQuery('.draggable_s4').css({
-                                                    background: '#fff url(/wp-content/themes/mobile/img/povregdenie_demona.jpg) 0 0/100% no-repeat'
+                                                    background: '#fff url(/wp-content/themes/mobile/img/povregdenie_demona.png) 0 0/100% no-repeat'
                                                   });
                                                   jQuery('.zone_x').css('top', r_top);
                                                   jQuery('.zone_l').css('top', l_top);
@@ -6266,14 +6266,14 @@ v3 = function(){
                                                     jQuery('.draggable_lovushka').css({
                                                       color: 'transparent',
                                                       transform: 'scale(1.3) rotate(-'+rotate_lovushka+'deg)',
-                                                      background: '#fff url(/wp-content/themes/mobile/img/lovushka.jpg) 0 0/100% no-repeat',
+                                                      background: '#fff url(/wp-content/themes/mobile/img/lovushka.png) 0 0/100% no-repeat',
                                                       opacity: 0.8
                                                     });
                                                     if (count_animation <= 4) {
                                                       jQuery('.draggable_v3').css({
                                                         color: 'transparent',
                                                         transform: 'scale(1.3)',
-                                                        background: '#fff url(/wp-content/themes/mobile/img/disfunction.jpg) 0 0/100% no-repeat',
+                                                        background: '#fff url(/wp-content/themes/mobile/img/disfunction.png) 0 0/100% no-repeat',
                                                         opacity: 0.8
                                                       });
                                                       jQuery('.zone_x').css('top', r_bottom);
@@ -6284,7 +6284,7 @@ v3 = function(){
                                                       rotate_two += 6;
                                                     } else if (count_animation <= 8) {
                                                       jQuery('.draggable_v3').css({
-                                                        background: '#fff url(/wp-content/themes/mobile/img/travma.jpg) 0 0/100% no-repeat'
+                                                        background: '#fff url(/wp-content/themes/mobile/img/travma.png) 0 0/100% no-repeat'
                                                       });
                                                       jQuery('.zone_x').css('top', l_top);
                                                       jQuery('.zone_l').css('top', r_top);
@@ -6294,7 +6294,7 @@ v3 = function(){
                                                       rotate_two += 8;
                                                     } else if (count_animation <= 12) {
                                                       jQuery('.draggable_v3').css({
-                                                        background: '#fff url(/wp-content/themes/mobile/img/povregdenie_demona.jpg) 0 0/100% no-repeat'
+                                                        background: '#fff url(/wp-content/themes/mobile/img/povregdenie_demona.png) 0 0/100% no-repeat'
                                                       });
                                                       jQuery('.zone_x').css('top', r_bottom);
                                                       jQuery('.zone_l').css('top', r_bottom);
@@ -6321,14 +6321,14 @@ v3 = function(){
                                                         jQuery('.draggable_lovushka').css({
                                                           color: 'transparent',
                                                           transform: 'scale(1.3) rotate(-'+rotate_lovushka+'deg)',
-                                                          background: '#fff url(/wp-content/themes/mobile/img/lovushka.jpg) 0 0/100% no-repeat',
+                                                          background: '#fff url(/wp-content/themes/mobile/img/lovushka.png) 0 0/100% no-repeat',
                                                           opacity: 0.8
                                                         });
                                                         if (count_animation <= 4) {
                                                           jQuery('.draggable_s3').css({
                                                             color: 'transparent',
                                                             transform: 'scale(1.3)',
-                                                            background: '#fff url(/wp-content/themes/mobile/img/disfunction.jpg) 0 0/100% no-repeat',
+                                                            background: '#fff url(/wp-content/themes/mobile/img/disfunction.png) 0 0/100% no-repeat',
                                                             opacity: 0.8
                                                           });
                                                           jQuery('.zone_x').css('top', r_top);
@@ -6339,7 +6339,7 @@ v3 = function(){
                                                           rotate_two += 4;
                                                         } else if (count_animation <= 8) {
                                                           jQuery('.draggable_s3').css({
-                                                            background: '#fff url(/wp-content/themes/mobile/img/travma.jpg) 0 0/100% no-repeat'
+                                                            background: '#fff url(/wp-content/themes/mobile/img/travma.png) 0 0/100% no-repeat'
                                                           });
                                                           jQuery('.zone_x').css('top', r_bottom);
                                                           jQuery('.zone_l').css('top', r_bottom);
@@ -6349,7 +6349,7 @@ v3 = function(){
                                                           rotate_two += 6;
                                                         } else if (count_animation <= 12) {
                                                           jQuery('.draggable_s3').css({
-                                                            background: '#fff url(/wp-content/themes/mobile/img/povregdenie_demona.jpg) 0 0/100% no-repeat'
+                                                            background: '#fff url(/wp-content/themes/mobile/img/povregdenie_demona.png) 0 0/100% no-repeat'
                                                           });
                                                           jQuery('.zone_x').css('top', l_top);
                                                           jQuery('.zone_l').css('top', r_top);
@@ -6376,14 +6376,14 @@ v3 = function(){
                                                             jQuery('.draggable_lovushka').css({
                                                               color: 'transparent',
                                                               transform: 'scale(1.3) rotate(-'+rotate_lovushka+'deg)',
-                                                              background: '#fff url(/wp-content/themes/mobile/img/lovushka.jpg) 0 0/100% no-repeat',
+                                                              background: '#fff url(/wp-content/themes/mobile/img/lovushka.png) 0 0/100% no-repeat',
                                                               opacity: 0.8
                                                             });
                                                             if (count_animation <= 4) {
                                                               jQuery('.draggable_s2').css({
                                                                 color: 'transparent',
                                                                 transform: 'scale(1.3)',
-                                                                background: '#fff url(/wp-content/themes/mobile/img/disfunction.jpg) 0 0/100% no-repeat',
+                                                                background: '#fff url(/wp-content/themes/mobile/img/disfunction.png) 0 0/100% no-repeat',
                                                                 opacity: 0.8
                                                               });
                                                               jQuery('.zone_x').css('top', r_bottom);
@@ -6394,7 +6394,7 @@ v3 = function(){
                                                               rotate_two += 6;
                                                             } else if (count_animation <= 8) {
                                                               jQuery('.draggable_s2').css({
-                                                                background: '#fff url(/wp-content/themes/mobile/img/travma.jpg) 0 0/100% no-repeat'
+                                                                background: '#fff url(/wp-content/themes/mobile/img/travma.png) 0 0/100% no-repeat'
                                                               });
                                                               jQuery('.zone_x').css('top', r_top);
                                                               jQuery('.zone_l').css('top', l_top);
@@ -6404,7 +6404,7 @@ v3 = function(){
                                                               rotate_two += 4;
                                                             } else if (count_animation <= 12) {
                                                               jQuery('.draggable_s2').css({
-                                                                background: '#fff url(/wp-content/themes/mobile/img/povregdenie_demona.jpg) 0 0/100% no-repeat'
+                                                                background: '#fff url(/wp-content/themes/mobile/img/povregdenie_demona.png) 0 0/100% no-repeat'
                                                               });
                                                               jQuery('.zone_x').css('top', r_bottom);
                                                               jQuery('.zone_l').css('top', r_bottom);
@@ -6431,14 +6431,14 @@ v3 = function(){
                                                                 jQuery('.draggable_lovushka').css({
                                                                   color: 'transparent',
                                                                   transform: 'scale(1.3) rotate(-'+rotate_lovushka+'deg)',
-                                                                  background: '#fff url(/wp-content/themes/mobile/img/lovushka.jpg) 0 0/100% no-repeat',
+                                                                  background: '#fff url(/wp-content/themes/mobile/img/lovushka.png) 0 0/100% no-repeat',
                                                                   opacity: 0.8
                                                                 });
                                                                 if (count_animation <= 4) {
                                                                   jQuery('.draggable_s4').css({
                                                                     color: 'transparent',
                                                                     transform: 'scale(1.3)',
-                                                                    background: '#fff url(/wp-content/themes/mobile/img/disfunction.jpg) 0 0/100% no-repeat',
+                                                                    background: '#fff url(/wp-content/themes/mobile/img/disfunction.png) 0 0/100% no-repeat',
                                                                     opacity: 0.8
                                                                   });
                                                                   jQuery('.zone_x').css('top', l_top);
@@ -6449,7 +6449,7 @@ v3 = function(){
                                                                   rotate_two += 8;
                                                                 } else if (count_animation <= 8) {
                                                                   jQuery('.draggable_s4').css({
-                                                                    background: '#fff url(/wp-content/themes/mobile/img/travma.jpg) 0 0/100% no-repeat'
+                                                                    background: '#fff url(/wp-content/themes/mobile/img/travma.png) 0 0/100% no-repeat'
                                                                   });
                                                                   jQuery('.zone_x').css('top', r_bottom);
                                                                   jQuery('.zone_l').css('top', r_bottom);
@@ -6459,7 +6459,7 @@ v3 = function(){
                                                                   rotate_two += 6;
                                                                 } else if (count_animation <= 12) {
                                                                   jQuery('.draggable_s4').css({
-                                                                    background: '#fff url(/wp-content/themes/mobile/img/povregdenie_demona.jpg) 0 0/100% no-repeat'
+                                                                    background: '#fff url(/wp-content/themes/mobile/img/povregdenie_demona.png) 0 0/100% no-repeat'
                                                                   });
                                                                   jQuery('.zone_x').css('top', r_top);
                                                                   jQuery('.zone_l').css('top', l_top);
@@ -6486,14 +6486,14 @@ v3 = function(){
                                                                     jQuery('.draggable_lovushka').css({
                                                                       color: 'transparent',
                                                                       transform: 'scale(1.3) rotate(-'+rotate_lovushka+'deg)',
-                                                                      background: '#fff url(/wp-content/themes/mobile/img/lovushka.jpg) 0 0/100% no-repeat',
+                                                                      background: '#fff url(/wp-content/themes/mobile/img/lovushka.png) 0 0/100% no-repeat',
                                                                       opacity: 0.8
                                                                     });
                                                                     if (count_animation <= 4) {
                                                                       jQuery('.draggable_v3').css({
                                                                         color: 'transparent',
                                                                         transform: 'scale(1.3)',
-                                                                        background: '#fff url(/wp-content/themes/mobile/img/disfunction.jpg) 0 0/100% no-repeat',
+                                                                        background: '#fff url(/wp-content/themes/mobile/img/disfunction.png) 0 0/100% no-repeat',
                                                                         opacity: 0.8
                                                                       });
                                                                       jQuery('.zone_x').css('top', r_bottom);
@@ -6504,7 +6504,7 @@ v3 = function(){
                                                                       rotate_two += 6;
                                                                     } else if (count_animation <= 8) {
                                                                       jQuery('.draggable_v3').css({
-                                                                        background: '#fff url(/wp-content/themes/mobile/img/travma.jpg) 0 0/100% no-repeat'
+                                                                        background: '#fff url(/wp-content/themes/mobile/img/travma.png) 0 0/100% no-repeat'
                                                                       });
                                                                       jQuery('.zone_x').css('top', l_top);
                                                                       jQuery('.zone_l').css('top', r_top);
@@ -6514,7 +6514,7 @@ v3 = function(){
                                                                       rotate_two += 8;
                                                                     } else if (count_animation <= 12) {
                                                                       jQuery('.draggable_v3').css({
-                                                                        background: '#fff url(/wp-content/themes/mobile/img/povregdenie_demona.jpg) 0 0/100% no-repeat'
+                                                                        background: '#fff url(/wp-content/themes/mobile/img/povregdenie_demona.png) 0 0/100% no-repeat'
                                                                       });
                                                                       jQuery('.zone_x').css('top', r_bottom);
                                                                       jQuery('.zone_l').css('top', r_bottom);
@@ -6583,7 +6583,7 @@ v3 = function(){
           jQuery('.draggable_d3').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/disfunction.jpg) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/disfunction.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x').css('top', l_bottom);
@@ -6594,7 +6594,7 @@ v3 = function(){
           rotate_two += 8;
         } else if (count_animation <= 8) {
           jQuery('.draggable_d3').css({
-            background: '#fff url(/wp-content/themes/mobile/img/travma.jpg) 0 0/100% no-repeat'
+            background: '#fff url(/wp-content/themes/mobile/img/travma.png) 0 0/100% no-repeat'
           });
           jQuery('.zone_x').css('top', l_bottom);
           jQuery('.zone_l').css('top', r_bottom);
@@ -6604,7 +6604,7 @@ v3 = function(){
           rotate_two += 6;
         } else if (count_animation <= 12) {
           jQuery('.draggable_d3').css({
-            background: '#fff url(/wp-content/themes/mobile/img/povregdenie_demona.jpg) 0 0/100% no-repeat'
+            background: '#fff url(/wp-content/themes/mobile/img/povregdenie_demona.png) 0 0/100% no-repeat'
           });
           jQuery('.zone_x').css('top', l_bottom);
           jQuery('.zone_l').css('top', l_top);
@@ -6631,7 +6631,7 @@ v3 = function(){
               jQuery('.draggable_v3').css({
                 color: 'transparent',
                 transform: 'scale(1.3)',
-                background: '#fff url(/wp-content/themes/mobile/img/disfunction.jpg) 0 0/100% no-repeat',
+                background: '#fff url(/wp-content/themes/mobile/img/disfunction.png) 0 0/100% no-repeat',
                 opacity: 0.8
               });
               jQuery('.zone_x').css('top', l_bottom);
@@ -6642,7 +6642,7 @@ v3 = function(){
               rotate_two += 6;
             } else if (count_animation <= 8) {
               jQuery('.draggable_v3').css({
-                background: '#fff url(/wp-content/themes/mobile/img/travma.jpg) 0 0/100% no-repeat'
+                background: '#fff url(/wp-content/themes/mobile/img/travma.png) 0 0/100% no-repeat'
               });
               jQuery('.zone_x').css('top', l_bottom);
               jQuery('.zone_l').css('top', r_top);
@@ -6652,7 +6652,7 @@ v3 = function(){
               rotate_two += 8;
             } else if (count_animation <= 12) {
               jQuery('.draggable_v3').css({
-                background: '#fff url(/wp-content/themes/mobile/img/povregdenie_demona.jpg) 0 0/100% no-repeat'
+                background: '#fff url(/wp-content/themes/mobile/img/povregdenie_demona.png) 0 0/100% no-repeat'
               });
               jQuery('.zone_x').css('top', l_bottom);
               jQuery('.zone_l').css('top', r_bottom);
@@ -6679,7 +6679,7 @@ v3 = function(){
                   jQuery('.draggable_v4').css({
                     color: 'transparent',
                     transform: 'scale(1.3)',
-                    background: '#fff url(/wp-content/themes/mobile/img/disfunction.jpg) 0 0/100% no-repeat',
+                    background: '#fff url(/wp-content/themes/mobile/img/disfunction.png) 0 0/100% no-repeat',
                     opacity: 0.8
                   });
                   jQuery('.zone_x').css('top', l_bottom);
@@ -6690,7 +6690,7 @@ v3 = function(){
                   rotate_two += 4;
                 } else if (count_animation <= 8) {
                   jQuery('.draggable_v4').css({
-                    background: '#fff url(/wp-content/themes/mobile/img/travma.jpg) 0 0/100% no-repeat'
+                    background: '#fff url(/wp-content/themes/mobile/img/travma.png) 0 0/100% no-repeat'
                   });
                   jQuery('.zone_x').css('top', l_bottom);
                   jQuery('.zone_l').css('top', r_bottom);
@@ -6700,7 +6700,7 @@ v3 = function(){
                   rotate_two += 6;
                 } else if (count_animation <= 12) {
                   jQuery('.draggable_v4').css({
-                    background: '#fff url(/wp-content/themes/mobile/img/povregdenie_demona.jpg) 0 0/100% no-repeat'
+                    background: '#fff url(/wp-content/themes/mobile/img/povregdenie_demona.png) 0 0/100% no-repeat'
                   });
                   jQuery('.zone_x').css('top', l_bottom);
                   jQuery('.zone_l').css('top', r_top);
@@ -6727,7 +6727,7 @@ v3 = function(){
                       jQuery('.draggable_d4').css({
                         color: 'transparent',
                         transform: 'scale(1.3)',
-                        background: '#fff url(/wp-content/themes/mobile/img/disfunction.jpg) 0 0/100% no-repeat',
+                        background: '#fff url(/wp-content/themes/mobile/img/disfunction.png) 0 0/100% no-repeat',
                         opacity: 0.8
                       });
                       jQuery('.zone_x').css('top', l_bottom);
@@ -6738,7 +6738,7 @@ v3 = function(){
                       rotate_two += 6;
                     } else if (count_animation <= 8) {
                       jQuery('.draggable_d4').css({
-                        background: '#fff url(/wp-content/themes/mobile/img/travma.jpg) 0 0/100% no-repeat'
+                        background: '#fff url(/wp-content/themes/mobile/img/travma.png) 0 0/100% no-repeat'
                       });
                       jQuery('.zone_x').css('top', l_bottom);
                       jQuery('.zone_l').css('top', l_top);
@@ -6748,7 +6748,7 @@ v3 = function(){
                       rotate_two += 4;
                     } else if (count_animation <= 12) {
                       jQuery('.draggable_d4').css({
-                        background: '#fff url(/wp-content/themes/mobile/img/povregdenie_demona.jpg) 0 0/100% no-repeat'
+                        background: '#fff url(/wp-content/themes/mobile/img/povregdenie_demona.png) 0 0/100% no-repeat'
                       });
                       jQuery('.zone_x').css('top', l_bottom);
                       jQuery('.zone_l').css('top', r_bottom);
@@ -6775,7 +6775,7 @@ v3 = function(){
                           jQuery('.draggable_d3').css({
                             color: 'transparent',
                             transform: 'scale(1.3)',
-                            background: '#fff url(/wp-content/themes/mobile/img/disfunction.jpg) 0 0/100% no-repeat',
+                            background: '#fff url(/wp-content/themes/mobile/img/disfunction.png) 0 0/100% no-repeat',
                             opacity: 0.8
                           });
                           jQuery('.zone_x').css('top', l_bottom);
@@ -6786,7 +6786,7 @@ v3 = function(){
                           rotate_two += 8;
                         } else if (count_animation <= 8) {
                           jQuery('.draggable_d3').css({
-                            background: '#fff url(/wp-content/themes/mobile/img/travma.jpg) 0 0/100% no-repeat'
+                            background: '#fff url(/wp-content/themes/mobile/img/travma.png) 0 0/100% no-repeat'
                           });
                           jQuery('.zone_x').css('top', l_bottom);
                           jQuery('.zone_l').css('top', r_bottom);
@@ -6796,7 +6796,7 @@ v3 = function(){
                           rotate_two += 6;
                         } else if (count_animation <= 12) {
                           jQuery('.draggable_d3').css({
-                            background: '#fff url(/wp-content/themes/mobile/img/povregdenie_demona.jpg) 0 0/100% no-repeat'
+                            background: '#fff url(/wp-content/themes/mobile/img/povregdenie_demona.png) 0 0/100% no-repeat'
                           });
                           jQuery('.zone_x').css('top', l_bottom);
                           jQuery('.zone_l').css('top', l_top);
@@ -6823,7 +6823,7 @@ v3 = function(){
                               jQuery('.draggable_v3').css({
                                 color: 'transparent',
                                 transform: 'scale(1.3)',
-                                background: '#fff url(/wp-content/themes/mobile/img/disfunction.jpg) 0 0/100% no-repeat',
+                                background: '#fff url(/wp-content/themes/mobile/img/disfunction.png) 0 0/100% no-repeat',
                                 opacity: 0.8
                               });
                               jQuery('.zone_x').css('top', l_bottom);
@@ -6834,7 +6834,7 @@ v3 = function(){
                               rotate_two += 6;
                             } else if (count_animation <= 8) {
                               jQuery('.draggable_v3').css({
-                                background: '#fff url(/wp-content/themes/mobile/img/travma.jpg) 0 0/100% no-repeat'
+                                background: '#fff url(/wp-content/themes/mobile/img/travma.png) 0 0/100% no-repeat'
                               });
                               jQuery('.zone_x').css('top', l_bottom);
                               jQuery('.zone_l').css('top', r_top);
@@ -6844,7 +6844,7 @@ v3 = function(){
                               rotate_two += 8;
                             } else if (count_animation <= 12) {
                               jQuery('.draggable_v3').css({
-                                background: '#fff url(/wp-content/themes/mobile/img/povregdenie_demona.jpg) 0 0/100% no-repeat'
+                                background: '#fff url(/wp-content/themes/mobile/img/povregdenie_demona.png) 0 0/100% no-repeat'
                               });
                               jQuery('.zone_x').css('top', l_bottom);
                               jQuery('.zone_l').css('top', r_bottom);
@@ -6871,7 +6871,7 @@ v3 = function(){
                                   jQuery('.draggable_v4').css({
                                     color: 'transparent',
                                     transform: 'scale(1.3)',
-                                    background: '#fff url(/wp-content/themes/mobile/img/disfunction.jpg) 0 0/100% no-repeat',
+                                    background: '#fff url(/wp-content/themes/mobile/img/disfunction.png) 0 0/100% no-repeat',
                                     opacity: 0.8
                                   });
                                   jQuery('.zone_x').css('top', l_bottom);
@@ -6882,7 +6882,7 @@ v3 = function(){
                                   rotate_two += 4;
                                 } else if (count_animation <= 8) {
                                   jQuery('.draggable_v4').css({
-                                    background: '#fff url(/wp-content/themes/mobile/img/travma.jpg) 0 0/100% no-repeat'
+                                    background: '#fff url(/wp-content/themes/mobile/img/travma.png) 0 0/100% no-repeat'
                                   });
                                   jQuery('.zone_x').css('top', l_bottom);
                                   jQuery('.zone_l').css('top', r_bottom);
@@ -6892,7 +6892,7 @@ v3 = function(){
                                   rotate_two += 6;
                                 } else if (count_animation <= 12) {
                                   jQuery('.draggable_v4').css({
-                                    background: '#fff url(/wp-content/themes/mobile/img/povregdenie_demona.jpg) 0 0/100% no-repeat'
+                                    background: '#fff url(/wp-content/themes/mobile/img/povregdenie_demona.png) 0 0/100% no-repeat'
                                   });
                                   jQuery('.zone_x').css('top', l_bottom);
                                   jQuery('.zone_l').css('top', r_top);
@@ -6919,7 +6919,7 @@ v3 = function(){
                                       jQuery('.draggable_d4').css({
                                         color: 'transparent',
                                         transform: 'scale(1.3)',
-                                        background: '#fff url(/wp-content/themes/mobile/img/disfunction.jpg) 0 0/100% no-repeat',
+                                        background: '#fff url(/wp-content/themes/mobile/img/disfunction.png) 0 0/100% no-repeat',
                                         opacity: 0.8
                                       });
                                       jQuery('.zone_x').css('top', l_bottom);
@@ -6930,7 +6930,7 @@ v3 = function(){
                                       rotate_two += 6;
                                     } else if (count_animation <= 8) {
                                       jQuery('.draggable_d4').css({
-                                        background: '#fff url(/wp-content/themes/mobile/img/travma.jpg) 0 0/100% no-repeat'
+                                        background: '#fff url(/wp-content/themes/mobile/img/travma.png) 0 0/100% no-repeat'
                                       });
                                       jQuery('.zone_x').css('top', l_bottom);
                                       jQuery('.zone_l').css('top', l_top);
@@ -6940,7 +6940,7 @@ v3 = function(){
                                       rotate_two += 4;
                                     } else if (count_animation <= 12) {
                                       jQuery('.draggable_d4').css({
-                                        background: '#fff url(/wp-content/themes/mobile/img/povregdenie_demona.jpg) 0 0/100% no-repeat'
+                                        background: '#fff url(/wp-content/themes/mobile/img/povregdenie_demona.png) 0 0/100% no-repeat'
                                       });
                                       jQuery('.zone_x').css('top', l_bottom);
                                       jQuery('.zone_l').css('top', r_bottom);
@@ -6968,7 +6968,7 @@ v3 = function(){
                                           jQuery('.draggable_d3').css({
                                             color: 'transparent',
                                             transform: 'scale(1.3)',
-                                            background: '#fff url(/wp-content/themes/mobile/img/disfunction.jpg) 0 0/100% no-repeat',
+                                            background: '#fff url(/wp-content/themes/mobile/img/disfunction.png) 0 0/100% no-repeat',
                                             opacity: 0.8
                                           });
                                           jQuery('.zone_x').css('top', l_bottom);
@@ -6979,7 +6979,7 @@ v3 = function(){
                                           rotate_two += 8;
                                         } else if (count_animation <= 8) {
                                           jQuery('.draggable_d3').css({
-                                            background: '#fff url(/wp-content/themes/mobile/img/travma.jpg) 0 0/100% no-repeat'
+                                            background: '#fff url(/wp-content/themes/mobile/img/travma.png) 0 0/100% no-repeat'
                                           });
                                           jQuery('.zone_x').css('top', l_bottom);
                                           jQuery('.zone_l').css('top', r_bottom);
@@ -6989,7 +6989,7 @@ v3 = function(){
                                           rotate_two += 6;
                                         } else if (count_animation <= 12) {
                                           jQuery('.draggable_d3').css({
-                                            background: '#fff url(/wp-content/themes/mobile/img/povregdenie_demona.jpg) 0 0/100% no-repeat'
+                                            background: '#fff url(/wp-content/themes/mobile/img/povregdenie_demona.png) 0 0/100% no-repeat'
                                           });
                                           jQuery('.zone_x').css('top', l_bottom);
                                           jQuery('.zone_l').css('top', l_top);
@@ -7016,7 +7016,7 @@ v3 = function(){
                                               jQuery('.draggable_v3').css({
                                                 color: 'transparent',
                                                 transform: 'scale(1.3)',
-                                                background: '#fff url(/wp-content/themes/mobile/img/disfunction.jpg) 0 0/100% no-repeat',
+                                                background: '#fff url(/wp-content/themes/mobile/img/disfunction.png) 0 0/100% no-repeat',
                                                 opacity: 0.8
                                               });
                                               jQuery('.zone_x').css('top', l_bottom);
@@ -7027,7 +7027,7 @@ v3 = function(){
                                               rotate_two += 6;
                                             } else if (count_animation <= 8) {
                                               jQuery('.draggable_v3').css({
-                                                background: '#fff url(/wp-content/themes/mobile/img/travma.jpg) 0 0/100% no-repeat'
+                                                background: '#fff url(/wp-content/themes/mobile/img/travma.png) 0 0/100% no-repeat'
                                               });
                                               jQuery('.zone_x').css('top', l_bottom);
                                               jQuery('.zone_l').css('top', r_top);
@@ -7037,7 +7037,7 @@ v3 = function(){
                                               rotate_two += 8;
                                             } else if (count_animation <= 12) {
                                               jQuery('.draggable_v3').css({
-                                                background: '#fff url(/wp-content/themes/mobile/img/povregdenie_demona.jpg) 0 0/100% no-repeat'
+                                                background: '#fff url(/wp-content/themes/mobile/img/povregdenie_demona.png) 0 0/100% no-repeat'
                                               });
                                               jQuery('.zone_x').css('top', l_bottom);
                                               jQuery('.zone_l').css('top', r_bottom);
@@ -7064,7 +7064,7 @@ v3 = function(){
                                                   jQuery('.draggable_v4').css({
                                                     color: 'transparent',
                                                     transform: 'scale(1.3)',
-                                                    background: '#fff url(/wp-content/themes/mobile/img/disfunction.jpg) 0 0/100% no-repeat',
+                                                    background: '#fff url(/wp-content/themes/mobile/img/disfunction.png) 0 0/100% no-repeat',
                                                     opacity: 0.8
                                                   });
                                                   jQuery('.zone_x').css('top', l_bottom);
@@ -7075,7 +7075,7 @@ v3 = function(){
                                                   rotate_two += 4;
                                                 } else if (count_animation <= 8) {
                                                   jQuery('.draggable_v4').css({
-                                                    background: '#fff url(/wp-content/themes/mobile/img/travma.jpg) 0 0/100% no-repeat'
+                                                    background: '#fff url(/wp-content/themes/mobile/img/travma.png) 0 0/100% no-repeat'
                                                   });
                                                   jQuery('.zone_x').css('top', l_bottom);
                                                   jQuery('.zone_l').css('top', r_bottom);
@@ -7085,7 +7085,7 @@ v3 = function(){
                                                   rotate_two += 6;
                                                 } else if (count_animation <= 12) {
                                                   jQuery('.draggable_v4').css({
-                                                    background: '#fff url(/wp-content/themes/mobile/img/povregdenie_demona.jpg) 0 0/100% no-repeat'
+                                                    background: '#fff url(/wp-content/themes/mobile/img/povregdenie_demona.png) 0 0/100% no-repeat'
                                                   });
                                                   jQuery('.zone_x').css('top', l_bottom);
                                                   jQuery('.zone_l').css('top', r_top);
@@ -7112,7 +7112,7 @@ v3 = function(){
                                                       jQuery('.draggable_d4').css({
                                                         color: 'transparent',
                                                         transform: 'scale(1.3)',
-                                                        background: '#fff url(/wp-content/themes/mobile/img/disfunction.jpg) 0 0/100% no-repeat',
+                                                        background: '#fff url(/wp-content/themes/mobile/img/disfunction.png) 0 0/100% no-repeat',
                                                         opacity: 0.8
                                                       });
                                                       jQuery('.zone_x').css('top', l_bottom);
@@ -7123,7 +7123,7 @@ v3 = function(){
                                                       rotate_two += 6;
                                                     } else if (count_animation <= 8) {
                                                       jQuery('.draggable_d4').css({
-                                                        background: '#fff url(/wp-content/themes/mobile/img/travma.jpg) 0 0/100% no-repeat'
+                                                        background: '#fff url(/wp-content/themes/mobile/img/travma.png) 0 0/100% no-repeat'
                                                       });
                                                       jQuery('.zone_x').css('top', l_bottom);
                                                       jQuery('.zone_l').css('top', l_top);
@@ -7133,7 +7133,7 @@ v3 = function(){
                                                       rotate_two += 4;
                                                     } else if (count_animation <= 12) {
                                                       jQuery('.draggable_d4').css({
-                                                        background: '#fff url(/wp-content/themes/mobile/img/povregdenie_demona.jpg) 0 0/100% no-repeat'
+                                                        background: '#fff url(/wp-content/themes/mobile/img/povregdenie_demona.png) 0 0/100% no-repeat'
                                                       });
                                                       jQuery('.zone_x').css('top', l_bottom);
                                                       jQuery('.zone_l').css('top', r_bottom);
@@ -7160,7 +7160,7 @@ v3 = function(){
                                                           jQuery('.draggable_d3').css({
                                                             color: 'transparent',
                                                             transform: 'scale(1.3)',
-                                                            background: '#fff url(/wp-content/themes/mobile/img/disfunction.jpg) 0 0/100% no-repeat',
+                                                            background: '#fff url(/wp-content/themes/mobile/img/disfunction.png) 0 0/100% no-repeat',
                                                             opacity: 0.8
                                                           });
                                                           jQuery('.zone_x').css('top', l_bottom);
@@ -7171,7 +7171,7 @@ v3 = function(){
                                                           rotate_two += 8;
                                                         } else if (count_animation <= 8) {
                                                           jQuery('.draggable_d3').css({
-                                                            background: '#fff url(/wp-content/themes/mobile/img/travma.jpg) 0 0/100% no-repeat'
+                                                            background: '#fff url(/wp-content/themes/mobile/img/travma.png) 0 0/100% no-repeat'
                                                           });
                                                           jQuery('.zone_x').css('top', l_bottom);
                                                           jQuery('.zone_l').css('top', r_bottom);
@@ -7181,7 +7181,7 @@ v3 = function(){
                                                           rotate_two += 6;
                                                         } else if (count_animation <= 12) {
                                                           jQuery('.draggable_d3').css({
-                                                            background: '#fff url(/wp-content/themes/mobile/img/povregdenie_demona.jpg) 0 0/100% no-repeat'
+                                                            background: '#fff url(/wp-content/themes/mobile/img/povregdenie_demona.png) 0 0/100% no-repeat'
                                                           });
                                                           jQuery('.zone_x').css('top', l_bottom);
                                                           jQuery('.zone_l').css('top', l_top);
@@ -7208,7 +7208,7 @@ v3 = function(){
                                                               jQuery('.draggable_v3').css({
                                                                 color: 'transparent',
                                                                 transform: 'scale(1.3)',
-                                                                background: '#fff url(/wp-content/themes/mobile/img/disfunction.jpg) 0 0/100% no-repeat',
+                                                                background: '#fff url(/wp-content/themes/mobile/img/disfunction.png) 0 0/100% no-repeat',
                                                                 opacity: 0.8
                                                               });
                                                               jQuery('.zone_x').css('top', l_bottom);
@@ -7219,7 +7219,7 @@ v3 = function(){
                                                               rotate_two += 6;
                                                             } else if (count_animation <= 8) {
                                                               jQuery('.draggable_v3').css({
-                                                                background: '#fff url(/wp-content/themes/mobile/img/travma.jpg) 0 0/100% no-repeat'
+                                                                background: '#fff url(/wp-content/themes/mobile/img/travma.png) 0 0/100% no-repeat'
                                                               });
                                                               jQuery('.zone_x').css('top', l_bottom);
                                                               jQuery('.zone_l').css('top', r_top);
@@ -7229,7 +7229,7 @@ v3 = function(){
                                                               rotate_two += 8;
                                                             } else if (count_animation <= 12) {
                                                               jQuery('.draggable_v3').css({
-                                                                background: '#fff url(/wp-content/themes/mobile/img/povregdenie_demona.jpg) 0 0/100% no-repeat'
+                                                                background: '#fff url(/wp-content/themes/mobile/img/povregdenie_demona.png) 0 0/100% no-repeat'
                                                               });
                                                               jQuery('.zone_x').css('top', l_bottom);
                                                               jQuery('.zone_l').css('top', r_bottom);
@@ -7256,7 +7256,7 @@ v3 = function(){
                                                                   jQuery('.draggable_v4').css({
                                                                     color: 'transparent',
                                                                     transform: 'scale(1.3)',
-                                                                    background: '#fff url(/wp-content/themes/mobile/img/disfunction.jpg) 0 0/100% no-repeat',
+                                                                    background: '#fff url(/wp-content/themes/mobile/img/disfunction.png) 0 0/100% no-repeat',
                                                                     opacity: 0.8
                                                                   });
                                                                   jQuery('.zone_x').css('top', l_bottom);
@@ -7267,7 +7267,7 @@ v3 = function(){
                                                                   rotate_two += 4;
                                                                 } else if (count_animation <= 8) {
                                                                   jQuery('.draggable_v4').css({
-                                                                    background: '#fff url(/wp-content/themes/mobile/img/travma.jpg) 0 0/100% no-repeat'
+                                                                    background: '#fff url(/wp-content/themes/mobile/img/travma.png) 0 0/100% no-repeat'
                                                                   });
                                                                   jQuery('.zone_x').css('top', l_bottom);
                                                                   jQuery('.zone_l').css('top', r_bottom);
@@ -7277,7 +7277,7 @@ v3 = function(){
                                                                   rotate_two += 6;
                                                                 } else if (count_animation <= 12) {
                                                                   jQuery('.draggable_v4').css({
-                                                                    background: '#fff url(/wp-content/themes/mobile/img/povregdenie_demona.jpg) 0 0/100% no-repeat'
+                                                                    background: '#fff url(/wp-content/themes/mobile/img/povregdenie_demona.png) 0 0/100% no-repeat'
                                                                   });
                                                                   jQuery('.zone_x').css('top', l_bottom);
                                                                   jQuery('.zone_l').css('top', r_top);
@@ -7304,7 +7304,7 @@ v3 = function(){
                                                                       jQuery('.draggable_d4').css({
                                                                         color: 'transparent',
                                                                         transform: 'scale(1.3)',
-                                                                        background: '#fff url(/wp-content/themes/mobile/img/disfunction.jpg) 0 0/100% no-repeat',
+                                                                        background: '#fff url(/wp-content/themes/mobile/img/disfunction.png) 0 0/100% no-repeat',
                                                                         opacity: 0.8
                                                                       });
                                                                       jQuery('.zone_x').css('top', l_bottom);
@@ -7315,7 +7315,7 @@ v3 = function(){
                                                                       rotate_two += 6;
                                                                     } else if (count_animation <= 8) {
                                                                       jQuery('.draggable_d4').css({
-                                                                        background: '#fff url(/wp-content/themes/mobile/img/travma.jpg) 0 0/100% no-repeat'
+                                                                        background: '#fff url(/wp-content/themes/mobile/img/travma.png) 0 0/100% no-repeat'
                                                                       });
                                                                       jQuery('.zone_x').css('top', l_bottom);
                                                                       jQuery('.zone_l').css('top', l_top);
@@ -7325,7 +7325,7 @@ v3 = function(){
                                                                       rotate_two += 4;
                                                                     } else if (count_animation <= 12) {
                                                                       jQuery('.draggable_d4').css({
-                                                                        background: '#fff url(/wp-content/themes/mobile/img/povregdenie_demona.jpg) 0 0/100% no-repeat'
+                                                                        background: '#fff url(/wp-content/themes/mobile/img/povregdenie_demona.png) 0 0/100% no-repeat'
                                                                       });
                                                                       jQuery('.zone_x').css('top', l_bottom);
                                                                       jQuery('.zone_l').css('top', r_bottom);
@@ -7396,7 +7396,7 @@ v3 = function(){
         jQuery('.draggable_v4').css({
           color: 'transparent',
           transform: 'scale(1.3) rotate(-'+rotate_lovushka+'deg)',
-          background: '#fff url(/wp-content/themes/mobile/img/lovushka.jpg) 0 0/100% no-repeat',
+          background: '#fff url(/wp-content/themes/mobile/img/lovushka.png) 0 0/100% no-repeat',
           opacity: 0.8
         });
         jQuery('.zone_x').css('transform', 'scale(1.3) rotate('+rotate_lovushka+'deg)');
@@ -7945,7 +7945,7 @@ v4 = function(){
         jQuery('.draggable_v4').css({
           color: 'transparent',
           transform: 'scale(1.3) rotate(-'+rotate_lovushka+'deg)',
-          background: '#fff url(/wp-content/themes/mobile/img/lovushka.jpg) 0 0/100% no-repeat',
+          background: '#fff url(/wp-content/themes/mobile/img/lovushka.png) 0 0/100% no-repeat',
           opacity: 0.8
         });
         jQuery('.zone_x').css('transform', 'scale(1.3) rotate('+rotate_lovushka+'deg)');
@@ -8058,14 +8058,14 @@ v4 = function(){
         jQuery('.draggable_lovushka').css({
           color: 'transparent',
           transform: 'scale(1.3) rotate(-'+rotate_lovushka+'deg)',
-          background: '#fff url(/wp-content/themes/mobile/img/lovushka.jpg) 0 0/100% no-repeat',
+          background: '#fff url(/wp-content/themes/mobile/img/lovushka.png) 0 0/100% no-repeat',
           opacity: 0.8
         });
         if (count_animation <= 4) {
           jQuery('.draggable_v4').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/disfunction.jpg) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/disfunction.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x').css('top', r_bottom);
@@ -8074,7 +8074,7 @@ v4 = function(){
           jQuery('.zone_l').css('transform', 'scale(1.3) rotate(-'+rotate_two+'deg)');
         } else if (count_animation <= 8) {
           jQuery('.draggable_v4').css({
-            background: '#fff url(/wp-content/themes/mobile/img/travma.jpg) 0 0/100% no-repeat'
+            background: '#fff url(/wp-content/themes/mobile/img/travma.png) 0 0/100% no-repeat'
           });
           jQuery('.zone_x').css('top', r_top);
           jQuery('.zone_l').css('top', l_bottom);
@@ -8082,7 +8082,7 @@ v4 = function(){
           jQuery('.zone_l').css('transform', 'scale(1.3) rotate(-'+rotate_two+'deg)');
         } else if (count_animation <= 12) {
           jQuery('.draggable_v4').css({
-            background: '#fff url(/wp-content/themes/mobile/img/povregdenie_demona.jpg) 0 0/100% no-repeat'
+            background: '#fff url(/wp-content/themes/mobile/img/povregdenie_demona.png) 0 0/100% no-repeat'
           });
           jQuery('.zone_x').css('top', r_bottom);
           jQuery('.zone_l').css('top', l_top);
@@ -8109,14 +8109,14 @@ v4 = function(){
             jQuery('.draggable_lovushka').css({
               color: 'transparent',
               transform: 'scale(1.3) rotate(-'+rotate_lovushka+'deg)',
-              background: '#fff url(/wp-content/themes/mobile/img/lovushka.jpg) 0 0/100% no-repeat',
+              background: '#fff url(/wp-content/themes/mobile/img/lovushka.png) 0 0/100% no-repeat',
               opacity: 0.8
             });
             if (count_animation <= 4) {
               jQuery('.draggable_v3').css({
                 color: 'transparent',
                 transform: 'scale(1.3)',
-                background: '#fff url(/wp-content/themes/mobile/img/disfunction.jpg) 0 0/100% no-repeat',
+                background: '#fff url(/wp-content/themes/mobile/img/disfunction.png) 0 0/100% no-repeat',
                 opacity: 0.8
               });
               jQuery('.zone_x').css('top', r_top);
@@ -8125,7 +8125,7 @@ v4 = function(){
               jQuery('.zone_l').css('transform', 'scale(1.3) rotate(-'+rotate_two+'deg)');
             } else if (count_animation <= 8) {
               jQuery('.draggable_v3').css({
-                background: '#fff url(/wp-content/themes/mobile/img/travma.jpg) 0 0/100% no-repeat'
+                background: '#fff url(/wp-content/themes/mobile/img/travma.png) 0 0/100% no-repeat'
               });
               jQuery('.zone_x').css('top', r_bottom);
               jQuery('.zone_l').css('top', l_top);
@@ -8133,7 +8133,7 @@ v4 = function(){
               jQuery('.zone_l').css('transform', 'scale(1.3) rotate(-'+rotate_two+'deg)');
             } else if (count_animation <= 12) {
               jQuery('.draggable_v3').css({
-                background: '#fff url(/wp-content/themes/mobile/img/povregdenie_demona.jpg) 0 0/100% no-repeat'
+                background: '#fff url(/wp-content/themes/mobile/img/povregdenie_demona.png) 0 0/100% no-repeat'
               });
               jQuery('.zone_x').css('top', r_top);
               jQuery('.zone_l').css('top', l_bottom);
@@ -8160,14 +8160,14 @@ v4 = function(){
                 jQuery('.draggable_lovushka').css({
                   color: 'transparent',
                   transform: 'scale(1.3) rotate(-'+rotate_lovushka+'deg)',
-                  background: '#fff url(/wp-content/themes/mobile/img/lovushka.jpg) 0 0/100% no-repeat',
+                  background: '#fff url(/wp-content/themes/mobile/img/lovushka.png) 0 0/100% no-repeat',
                   opacity: 0.8
                 });
                 if (count_animation <= 4) {
                   jQuery('.draggable_v1').css({
                     color: 'transparent',
                     transform: 'scale(1.3)',
-                    background: '#fff url(/wp-content/themes/mobile/img/disfunction.jpg) 0 0/100% no-repeat',
+                    background: '#fff url(/wp-content/themes/mobile/img/disfunction.png) 0 0/100% no-repeat',
                     opacity: 0.8
                   });
                   jQuery('.zone_x').css('top', r_bottom);
@@ -8176,7 +8176,7 @@ v4 = function(){
                   jQuery('.zone_l').css('transform', 'scale(1.3) rotate(-'+rotate_two+'deg)');
                 } else if (count_animation <= 8) {
                   jQuery('.draggable_v1').css({
-                    background: '#fff url(/wp-content/themes/mobile/img/travma.jpg) 0 0/100% no-repeat'
+                    background: '#fff url(/wp-content/themes/mobile/img/travma.png) 0 0/100% no-repeat'
                   });
                   jQuery('.zone_x').css('top', r_top);
                   jQuery('.zone_l').css('top', l_bottom);
@@ -8184,7 +8184,7 @@ v4 = function(){
                   jQuery('.zone_l').css('transform', 'scale(1.3) rotate(-'+rotate_two+'deg)');
                 } else if (count_animation <= 12) {
                   jQuery('.draggable_v1').css({
-                    background: '#fff url(/wp-content/themes/mobile/img/povregdenie_demona.jpg) 0 0/100% no-repeat'
+                    background: '#fff url(/wp-content/themes/mobile/img/povregdenie_demona.png) 0 0/100% no-repeat'
                   });
                   jQuery('.zone_x').css('top', r_bottom);
                   jQuery('.zone_l').css('top', l_top);
@@ -8211,14 +8211,14 @@ v4 = function(){
                     jQuery('.draggable_lovushka').css({
                       color: 'transparent',
                       transform: 'scale(1.3) rotate(-'+rotate_lovushka+'deg)',
-                      background: '#fff url(/wp-content/themes/mobile/img/lovushka.jpg) 0 0/100% no-repeat',
+                      background: '#fff url(/wp-content/themes/mobile/img/lovushka.png) 0 0/100% no-repeat',
                       opacity: 0.8
                     });
                     if (count_animation <= 4) {
                       jQuery('.draggable_v4').css({
                         color: 'transparent',
                         transform: 'scale(1.3)',
-                        background: '#fff url(/wp-content/themes/mobile/img/disfunction.jpg) 0 0/100% no-repeat',
+                        background: '#fff url(/wp-content/themes/mobile/img/disfunction.png) 0 0/100% no-repeat',
                         opacity: 0.8
                       });
                       jQuery('.zone_x').css('top', r_top);
@@ -8227,7 +8227,7 @@ v4 = function(){
                       jQuery('.zone_l').css('transform', 'scale(1.3) rotate(-'+rotate_two+'deg)');
                     } else if (count_animation <= 8) {
                       jQuery('.draggable_v4').css({
-                        background: '#fff url(/wp-content/themes/mobile/img/travma.jpg) 0 0/100% no-repeat'
+                        background: '#fff url(/wp-content/themes/mobile/img/travma.png) 0 0/100% no-repeat'
                       });
                       jQuery('.zone_x').css('top', r_bottom);
                       jQuery('.zone_l').css('top', l_top);
@@ -8235,7 +8235,7 @@ v4 = function(){
                       jQuery('.zone_l').css('transform', 'scale(1.3) rotate(-'+rotate_two+'deg)');
                     } else if (count_animation <= 12) {
                       jQuery('.draggable_v4').css({
-                        background: '#fff url(/wp-content/themes/mobile/img/povregdenie_demona.jpg) 0 0/100% no-repeat'
+                        background: '#fff url(/wp-content/themes/mobile/img/povregdenie_demona.png) 0 0/100% no-repeat'
                       });
                       jQuery('.zone_x').css('top', r_top);
                       jQuery('.zone_l').css('top', l_bottom);
@@ -8262,14 +8262,14 @@ v4 = function(){
                         jQuery('.draggable_lovushka').css({
                           color: 'transparent',
                           transform: 'scale(1.3) rotate(-'+rotate_lovushka+'deg)',
-                          background: '#fff url(/wp-content/themes/mobile/img/lovushka.jpg) 0 0/100% no-repeat',
+                          background: '#fff url(/wp-content/themes/mobile/img/lovushka.png) 0 0/100% no-repeat',
                           opacity: 0.8
                         });
                         if (count_animation <= 4) {
                           jQuery('.draggable_v3').css({
                             color: 'transparent',
                             transform: 'scale(1.3)',
-                            background: '#fff url(/wp-content/themes/mobile/img/disfunction.jpg) 0 0/100% no-repeat',
+                            background: '#fff url(/wp-content/themes/mobile/img/disfunction.png) 0 0/100% no-repeat',
                             opacity: 0.8
                           });
                           jQuery('.zone_x').css('top', r_bottom);
@@ -8278,7 +8278,7 @@ v4 = function(){
                           jQuery('.zone_l').css('transform', 'scale(1.3) rotate(-'+rotate_two+'deg)');
                         } else if (count_animation <= 8) {
                           jQuery('.draggable_v3').css({
-                            background: '#fff url(/wp-content/themes/mobile/img/travma.jpg) 0 0/100% no-repeat'
+                            background: '#fff url(/wp-content/themes/mobile/img/travma.png) 0 0/100% no-repeat'
                           });
                           jQuery('.zone_x').css('top', r_top);
                           jQuery('.zone_l').css('top', l_bottom);
@@ -8286,7 +8286,7 @@ v4 = function(){
                           jQuery('.zone_l').css('transform', 'scale(1.3) rotate(-'+rotate_two+'deg)');
                         } else if (count_animation <= 12) {
                           jQuery('.draggable_v3').css({
-                            background: '#fff url(/wp-content/themes/mobile/img/povregdenie_demona.jpg) 0 0/100% no-repeat'
+                            background: '#fff url(/wp-content/themes/mobile/img/povregdenie_demona.png) 0 0/100% no-repeat'
                           });
                           jQuery('.zone_x').css('top', r_bottom);
                           jQuery('.zone_l').css('top', l_top);
@@ -8313,14 +8313,14 @@ v4 = function(){
                             jQuery('.draggable_lovushka').css({
                               color: 'transparent',
                               transform: 'scale(1.3) rotate(-'+rotate_lovushka+'deg)',
-                              background: '#fff url(/wp-content/themes/mobile/img/lovushka.jpg) 0 0/100% no-repeat',
+                              background: '#fff url(/wp-content/themes/mobile/img/lovushka.png) 0 0/100% no-repeat',
                               opacity: 0.8
                             });
                             if (count_animation <= 4) {
                               jQuery('.draggable_v1').css({
                                 color: 'transparent',
                                 transform: 'scale(1.3)',
-                                background: '#fff url(/wp-content/themes/mobile/img/disfunction.jpg) 0 0/100% no-repeat',
+                                background: '#fff url(/wp-content/themes/mobile/img/disfunction.png) 0 0/100% no-repeat',
                                 opacity: 0.8
                               });
                               jQuery('.zone_x').css('top', r_top);
@@ -8329,7 +8329,7 @@ v4 = function(){
                               jQuery('.zone_l').css('transform', 'scale(1.3) rotate(-'+rotate_two+'deg)');
                             } else if (count_animation <= 8) {
                               jQuery('.draggable_v1').css({
-                                background: '#fff url(/wp-content/themes/mobile/img/travma.jpg) 0 0/100% no-repeat'
+                                background: '#fff url(/wp-content/themes/mobile/img/travma.png) 0 0/100% no-repeat'
                               });
                               jQuery('.zone_x').css('top', r_bottom);
                               jQuery('.zone_l').css('top', l_top);
@@ -8337,7 +8337,7 @@ v4 = function(){
                               jQuery('.zone_l').css('transform', 'scale(1.3) rotate(-'+rotate_two+'deg)');
                             } else if (count_animation <= 12) {
                               jQuery('.draggable_v1').css({
-                                background: '#fff url(/wp-content/themes/mobile/img/povregdenie_demona.jpg) 0 0/100% no-repeat'
+                                background: '#fff url(/wp-content/themes/mobile/img/povregdenie_demona.png) 0 0/100% no-repeat'
                               });
                               jQuery('.zone_x').css('top', r_top);
                               jQuery('.zone_l').css('top', l_bottom);
@@ -8365,14 +8365,14 @@ v4 = function(){
                                 jQuery('.draggable_lovushka').css({
                                   color: 'transparent',
                                   transform: 'scale(1.3) rotate(-'+rotate_lovushka+'deg)',
-                                  background: '#fff url(/wp-content/themes/mobile/img/lovushka.jpg) 0 0/100% no-repeat',
+                                  background: '#fff url(/wp-content/themes/mobile/img/lovushka.png) 0 0/100% no-repeat',
                                   opacity: 0.8
                                 });
                                 if (count_animation <= 4) {
                                   jQuery('.draggable_v4').css({
                                     color: 'transparent',
                                     transform: 'scale(1.3)',
-                                    background: '#fff url(/wp-content/themes/mobile/img/disfunction.jpg) 0 0/100% no-repeat',
+                                    background: '#fff url(/wp-content/themes/mobile/img/disfunction.png) 0 0/100% no-repeat',
                                     opacity: 0.8
                                   });
                                   jQuery('.zone_x').css('top', l_bottom);
@@ -8381,7 +8381,7 @@ v4 = function(){
                                   jQuery('.zone_l').css('transform', 'scale(1.3) rotate(-'+rotate_two+'deg)');
                                 } else if (count_animation <= 8) {
                                   jQuery('.draggable_v4').css({
-                                    background: '#fff url(/wp-content/themes/mobile/img/travma.jpg) 0 0/100% no-repeat'
+                                    background: '#fff url(/wp-content/themes/mobile/img/travma.png) 0 0/100% no-repeat'
                                   });
                                   jQuery('.zone_x').css('top', l_top);
                                   jQuery('.zone_l').css('top', r_bottom);
@@ -8389,7 +8389,7 @@ v4 = function(){
                                   jQuery('.zone_l').css('transform', 'scale(1.3) rotate(-'+rotate_two+'deg)');
                                 } else if (count_animation <= 12) {
                                   jQuery('.draggable_v4').css({
-                                    background: '#fff url(/wp-content/themes/mobile/img/povregdenie_demona.jpg) 0 0/100% no-repeat'
+                                    background: '#fff url(/wp-content/themes/mobile/img/povregdenie_demona.png) 0 0/100% no-repeat'
                                   });
                                   jQuery('.zone_x').css('top', l_bottom);
                                   jQuery('.zone_l').css('top', r_top);
@@ -8416,14 +8416,14 @@ v4 = function(){
                                     jQuery('.draggable_lovushka').css({
                                       color: 'transparent',
                                       transform: 'scale(1.3) rotate(-'+rotate_lovushka+'deg)',
-                                      background: '#fff url(/wp-content/themes/mobile/img/lovushka.jpg) 0 0/100% no-repeat',
+                                      background: '#fff url(/wp-content/themes/mobile/img/lovushka.png) 0 0/100% no-repeat',
                                       opacity: 0.8
                                     });
                                     if (count_animation <= 4) {
                                       jQuery('.draggable_v3').css({
                                         color: 'transparent',
                                         transform: 'scale(1.3)',
-                                        background: '#fff url(/wp-content/themes/mobile/img/disfunction.jpg) 0 0/100% no-repeat',
+                                        background: '#fff url(/wp-content/themes/mobile/img/disfunction.png) 0 0/100% no-repeat',
                                         opacity: 0.8
                                       });
                                       jQuery('.zone_x').css('top', l_top);
@@ -8432,7 +8432,7 @@ v4 = function(){
                                       jQuery('.zone_l').css('transform', 'scale(1.3) rotate(-'+rotate_two+'deg)');
                                     } else if (count_animation <= 8) {
                                       jQuery('.draggable_v3').css({
-                                        background: '#fff url(/wp-content/themes/mobile/img/travma.jpg) 0 0/100% no-repeat'
+                                        background: '#fff url(/wp-content/themes/mobile/img/travma.png) 0 0/100% no-repeat'
                                       });
                                       jQuery('.zone_x').css('top', l_bottom);
                                       jQuery('.zone_l').css('top', r_top);
@@ -8440,7 +8440,7 @@ v4 = function(){
                                       jQuery('.zone_l').css('transform', 'scale(1.3) rotate(-'+rotate_two+'deg)');
                                     } else if (count_animation <= 12) {
                                       jQuery('.draggable_v3').css({
-                                        background: '#fff url(/wp-content/themes/mobile/img/povregdenie_demona.jpg) 0 0/100% no-repeat'
+                                        background: '#fff url(/wp-content/themes/mobile/img/povregdenie_demona.png) 0 0/100% no-repeat'
                                       });
                                       jQuery('.zone_x').css('top', l_top);
                                       jQuery('.zone_l').css('top', r_bottom);
@@ -8467,14 +8467,14 @@ v4 = function(){
                                         jQuery('.draggable_lovushka').css({
                                           color: 'transparent',
                                           transform: 'scale(1.3) rotate(-'+rotate_lovushka+'deg)',
-                                          background: '#fff url(/wp-content/themes/mobile/img/lovushka.jpg) 0 0/100% no-repeat',
+                                          background: '#fff url(/wp-content/themes/mobile/img/lovushka.png) 0 0/100% no-repeat',
                                           opacity: 0.8
                                         });
                                         if (count_animation <= 4) {
                                           jQuery('.draggable_v1').css({
                                             color: 'transparent',
                                             transform: 'scale(1.3)',
-                                            background: '#fff url(/wp-content/themes/mobile/img/disfunction.jpg) 0 0/100% no-repeat',
+                                            background: '#fff url(/wp-content/themes/mobile/img/disfunction.png) 0 0/100% no-repeat',
                                             opacity: 0.8
                                           });
                                           jQuery('.zone_x').css('top', l_bottom);
@@ -8483,7 +8483,7 @@ v4 = function(){
                                           jQuery('.zone_l').css('transform', 'scale(1.3) rotate(-'+rotate_two+'deg)');
                                         } else if (count_animation <= 8) {
                                           jQuery('.draggable_v1').css({
-                                            background: '#fff url(/wp-content/themes/mobile/img/travma.jpg) 0 0/100% no-repeat'
+                                            background: '#fff url(/wp-content/themes/mobile/img/travma.png) 0 0/100% no-repeat'
                                           });
                                           jQuery('.zone_x').css('top', l_top);
                                           jQuery('.zone_l').css('top', r_bottom);
@@ -8491,7 +8491,7 @@ v4 = function(){
                                           jQuery('.zone_l').css('transform', 'scale(1.3) rotate(-'+rotate_two+'deg)');
                                         } else if (count_animation <= 12) {
                                           jQuery('.draggable_v1').css({
-                                            background: '#fff url(/wp-content/themes/mobile/img/povregdenie_demona.jpg) 0 0/100% no-repeat'
+                                            background: '#fff url(/wp-content/themes/mobile/img/povregdenie_demona.png) 0 0/100% no-repeat'
                                           });
                                           jQuery('.zone_x').css('top', l_bottom);
                                           jQuery('.zone_l').css('top', r_top);
@@ -8518,14 +8518,14 @@ v4 = function(){
                                             jQuery('.draggable_lovushka').css({
                                               color: 'transparent',
                                               transform: 'scale(1.3) rotate(-'+rotate_lovushka+'deg)',
-                                              background: '#fff url(/wp-content/themes/mobile/img/lovushka.jpg) 0 0/100% no-repeat',
+                                              background: '#fff url(/wp-content/themes/mobile/img/lovushka.png) 0 0/100% no-repeat',
                                               opacity: 0.8
                                             });
                                             if (count_animation <= 4) {
                                               jQuery('.draggable_v4').css({
                                                 color: 'transparent',
                                                 transform: 'scale(1.3)',
-                                                background: '#fff url(/wp-content/themes/mobile/img/disfunction.jpg) 0 0/100% no-repeat',
+                                                background: '#fff url(/wp-content/themes/mobile/img/disfunction.png) 0 0/100% no-repeat',
                                                 opacity: 0.8
                                               });
                                               jQuery('.zone_x').css('top', l_top);
@@ -8534,7 +8534,7 @@ v4 = function(){
                                               jQuery('.zone_l').css('transform', 'scale(1.3) rotate(-'+rotate_two+'deg)');
                                             } else if (count_animation <= 8) {
                                               jQuery('.draggable_v4').css({
-                                                background: '#fff url(/wp-content/themes/mobile/img/travma.jpg) 0 0/100% no-repeat'
+                                                background: '#fff url(/wp-content/themes/mobile/img/travma.png) 0 0/100% no-repeat'
                                               });
                                               jQuery('.zone_x').css('top', l_bottom);
                                               jQuery('.zone_l').css('top', r_top);
@@ -8542,7 +8542,7 @@ v4 = function(){
                                               jQuery('.zone_l').css('transform', 'scale(1.3) rotate(-'+rotate_two+'deg)');
                                             } else if (count_animation <= 12) {
                                               jQuery('.draggable_v4').css({
-                                                background: '#fff url(/wp-content/themes/mobile/img/povregdenie_demona.jpg) 0 0/100% no-repeat'
+                                                background: '#fff url(/wp-content/themes/mobile/img/povregdenie_demona.png) 0 0/100% no-repeat'
                                               });
                                               jQuery('.zone_x').css('top', l_top);
                                               jQuery('.zone_l').css('top', r_bottom);
@@ -8569,14 +8569,14 @@ v4 = function(){
                                                 jQuery('.draggable_lovushka').css({
                                                   color: 'transparent',
                                                   transform: 'scale(1.3) rotate(-'+rotate_lovushka+'deg)',
-                                                  background: '#fff url(/wp-content/themes/mobile/img/lovushka.jpg) 0 0/100% no-repeat',
+                                                  background: '#fff url(/wp-content/themes/mobile/img/lovushka.png) 0 0/100% no-repeat',
                                                   opacity: 0.8
                                                 });
                                                 if (count_animation <= 4) {
                                                   jQuery('.draggable_v3').css({
                                                     color: 'transparent',
                                                     transform: 'scale(1.3)',
-                                                    background: '#fff url(/wp-content/themes/mobile/img/disfunction.jpg) 0 0/100% no-repeat',
+                                                    background: '#fff url(/wp-content/themes/mobile/img/disfunction.png) 0 0/100% no-repeat',
                                                     opacity: 0.8
                                                   });
                                                   jQuery('.zone_x').css('top', l_bottom);
@@ -8585,7 +8585,7 @@ v4 = function(){
                                                   jQuery('.zone_l').css('transform', 'scale(1.3) rotate(-'+rotate_two+'deg)');
                                                 } else if (count_animation <= 8) {
                                                   jQuery('.draggable_v3').css({
-                                                    background: '#fff url(/wp-content/themes/mobile/img/travma.jpg) 0 0/100% no-repeat'
+                                                    background: '#fff url(/wp-content/themes/mobile/img/travma.png) 0 0/100% no-repeat'
                                                   });
                                                   jQuery('.zone_x').css('top', l_top);
                                                   jQuery('.zone_l').css('top', r_bottom);
@@ -8593,7 +8593,7 @@ v4 = function(){
                                                   jQuery('.zone_l').css('transform', 'scale(1.3) rotate(-'+rotate_two+'deg)');
                                                 } else if (count_animation <= 12) {
                                                   jQuery('.draggable_v3').css({
-                                                    background: '#fff url(/wp-content/themes/mobile/img/povregdenie_demona.jpg) 0 0/100% no-repeat'
+                                                    background: '#fff url(/wp-content/themes/mobile/img/povregdenie_demona.png) 0 0/100% no-repeat'
                                                   });
                                                   jQuery('.zone_x').css('top', l_bottom);
                                                   jQuery('.zone_l').css('top', r_top);
@@ -8620,14 +8620,14 @@ v4 = function(){
                                                     jQuery('.draggable_lovushka').css({
                                                       color: 'transparent',
                                                       transform: 'scale(1.3) rotate(-'+rotate_lovushka+'deg)',
-                                                      background: '#fff url(/wp-content/themes/mobile/img/lovushka.jpg) 0 0/100% no-repeat',
+                                                      background: '#fff url(/wp-content/themes/mobile/img/lovushka.png) 0 0/100% no-repeat',
                                                       opacity: 0.8
                                                     });
                                                     if (count_animation <= 4) {
                                                       jQuery('.draggable_v1').css({
                                                         color: 'transparent',
                                                         transform: 'scale(1.3)',
-                                                        background: '#fff url(/wp-content/themes/mobile/img/disfunction.jpg) 0 0/100% no-repeat',
+                                                        background: '#fff url(/wp-content/themes/mobile/img/disfunction.png) 0 0/100% no-repeat',
                                                         opacity: 0.8
                                                       });
                                                       jQuery('.zone_x').css('top', l_top);
@@ -8636,7 +8636,7 @@ v4 = function(){
                                                       jQuery('.zone_l').css('transform', 'scale(1.3) rotate(-'+rotate_two+'deg)');
                                                     } else if (count_animation <= 8) {
                                                       jQuery('.draggable_v1').css({
-                                                        background: '#fff url(/wp-content/themes/mobile/img/travma.jpg) 0 0/100% no-repeat'
+                                                        background: '#fff url(/wp-content/themes/mobile/img/travma.png) 0 0/100% no-repeat'
                                                       });
                                                       jQuery('.zone_x').css('top', l_bottom);
                                                       jQuery('.zone_l').css('top', r_top);
@@ -8644,7 +8644,7 @@ v4 = function(){
                                                       jQuery('.zone_l').css('transform', 'scale(1.3) rotate(-'+rotate_two+'deg)');
                                                     } else if (count_animation <= 12) {
                                                       jQuery('.draggable_v1').css({
-                                                        background: '#fff url(/wp-content/themes/mobile/img/povregdenie_demona.jpg) 0 0/100% no-repeat'
+                                                        background: '#fff url(/wp-content/themes/mobile/img/povregdenie_demona.png) 0 0/100% no-repeat'
                                                       });
                                                       jQuery('.zone_x').css('top', l_top);
                                                       jQuery('.zone_l').css('top', r_bottom);
@@ -8704,7 +8704,7 @@ v4 = function(){
           jQuery('.draggable_d3').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/disfunction.jpg) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/disfunction.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x').css('top', l_bottom);
@@ -8715,7 +8715,7 @@ v4 = function(){
           rotate_two += 6;
         } else if (count_animation <= 8) {
           jQuery('.draggable_d3').css({
-            background: '#fff url(/wp-content/themes/mobile/img/travma.jpg) 0 0/100% no-repeat'
+            background: '#fff url(/wp-content/themes/mobile/img/travma.png) 0 0/100% no-repeat'
           });
           jQuery('.zone_x').css('top', l_top);
           jQuery('.zone_l').css('top', r_bottom);
@@ -8725,7 +8725,7 @@ v4 = function(){
           rotate_two += 4;
         } else if (count_animation <= 12) {
           jQuery('.draggable_d3').css({
-            background: '#fff url(/wp-content/themes/mobile/img/povregdenie_demona.jpg) 0 0/100% no-repeat'
+            background: '#fff url(/wp-content/themes/mobile/img/povregdenie_demona.png) 0 0/100% no-repeat'
           });
           jQuery('.zone_x').css('top', l_bottom);
           jQuery('.zone_l').css('top', r_top);
@@ -8752,7 +8752,7 @@ v4 = function(){
               jQuery('.draggable_d4').css({
                 color: 'transparent',
                 transform: 'scale(1.3)',
-                background: '#fff url(/wp-content/themes/mobile/img/disfunction.jpg) 0 0/100% no-repeat',
+                background: '#fff url(/wp-content/themes/mobile/img/disfunction.png) 0 0/100% no-repeat',
                 opacity: 0.8
               });
               jQuery('.zone_x').css('top', l_bottom);
@@ -8763,7 +8763,7 @@ v4 = function(){
               rotate_two += 4;
             } else if (count_animation <= 8) {
               jQuery('.draggable_d4').css({
-                background: '#fff url(/wp-content/themes/mobile/img/travma.jpg) 0 0/100% no-repeat'
+                background: '#fff url(/wp-content/themes/mobile/img/travma.png) 0 0/100% no-repeat'
               });
               jQuery('.zone_x').css('top', l_top);
               jQuery('.zone_l').css('top', r_bottom);
@@ -8773,7 +8773,7 @@ v4 = function(){
               rotate_two += 6;
             } else if (count_animation <= 12) {
               jQuery('.draggable_d4').css({
-                background: '#fff url(/wp-content/themes/mobile/img/povregdenie_demona.jpg) 0 0/100% no-repeat'
+                background: '#fff url(/wp-content/themes/mobile/img/povregdenie_demona.png) 0 0/100% no-repeat'
               });
               jQuery('.zone_x').css('top', l_bottom);
               jQuery('.zone_l').css('top', r_top);
@@ -8800,7 +8800,7 @@ v4 = function(){
                   jQuery('.draggable_s3').css({
                     color: 'transparent',
                     transform: 'scale(1.3)',
-                    background: '#fff url(/wp-content/themes/mobile/img/disfunction.jpg) 0 0/100% no-repeat',
+                    background: '#fff url(/wp-content/themes/mobile/img/disfunction.png) 0 0/100% no-repeat',
                     opacity: 0.8
                   });
                   jQuery('.zone_x').css('top', l_top);
@@ -8811,7 +8811,7 @@ v4 = function(){
                   rotate_two += 6;
                 } else if (count_animation <= 8) {
                   jQuery('.draggable_s3').css({
-                    background: '#fff url(/wp-content/themes/mobile/img/travma.jpg) 0 0/100% no-repeat'
+                    background: '#fff url(/wp-content/themes/mobile/img/travma.png) 0 0/100% no-repeat'
                   });
                   jQuery('.zone_x').css('top', l_bottom);
                   jQuery('.zone_l').css('top', r_top);
@@ -8821,7 +8821,7 @@ v4 = function(){
                   rotate_two += 4;
                 } else if (count_animation <= 12) {
                   jQuery('.draggable_s3').css({
-                    background: '#fff url(/wp-content/themes/mobile/img/povregdenie_demona.jpg) 0 0/100% no-repeat'
+                    background: '#fff url(/wp-content/themes/mobile/img/povregdenie_demona.png) 0 0/100% no-repeat'
                   });
                   jQuery('.zone_x').css('top', l_top);
                   jQuery('.zone_l').css('top', r_bottom);
@@ -8848,7 +8848,7 @@ v4 = function(){
                       jQuery('.draggable_s4').css({
                         color: 'transparent',
                         transform: 'scale(1.3)',
-                        background: '#fff url(/wp-content/themes/mobile/img/disfunction.jpg) 0 0/100% no-repeat',
+                        background: '#fff url(/wp-content/themes/mobile/img/disfunction.png) 0 0/100% no-repeat',
                         opacity: 0.8
                       });
                       jQuery('.zone_x').css('top', l_bottom);
@@ -8859,7 +8859,7 @@ v4 = function(){
                       rotate_two += 4;
                     } else if (count_animation <= 8) {
                       jQuery('.draggable_s4').css({
-                        background: '#fff url(/wp-content/themes/mobile/img/travma.jpg) 0 0/100% no-repeat'
+                        background: '#fff url(/wp-content/themes/mobile/img/travma.png) 0 0/100% no-repeat'
                       });
                       jQuery('.zone_x').css('top', l_top);
                       jQuery('.zone_l').css('top', r_bottom);
@@ -8869,7 +8869,7 @@ v4 = function(){
                       rotate_two += 6;
                     } else if (count_animation <= 12) {
                       jQuery('.draggable_s4').css({
-                        background: '#fff url(/wp-content/themes/mobile/img/povregdenie_demona.jpg) 0 0/100% no-repeat'
+                        background: '#fff url(/wp-content/themes/mobile/img/povregdenie_demona.png) 0 0/100% no-repeat'
                       });
                       jQuery('.zone_x').css('top', l_bottom);
                       jQuery('.zone_l').css('top', r_top);
@@ -8896,7 +8896,7 @@ v4 = function(){
                           jQuery('.draggable_d3').css({
                             color: 'transparent',
                             transform: 'scale(1.3)',
-                            background: '#fff url(/wp-content/themes/mobile/img/disfunction.jpg) 0 0/100% no-repeat',
+                            background: '#fff url(/wp-content/themes/mobile/img/disfunction.png) 0 0/100% no-repeat',
                             opacity: 0.8
                           });
                           jQuery('.zone_x').css('top', l_top);
@@ -8907,7 +8907,7 @@ v4 = function(){
                           rotate_two += 6;
                         } else if (count_animation <= 8) {
                           jQuery('.draggable_d3').css({
-                            background: '#fff url(/wp-content/themes/mobile/img/travma.jpg) 0 0/100% no-repeat'
+                            background: '#fff url(/wp-content/themes/mobile/img/travma.png) 0 0/100% no-repeat'
                           });
                           jQuery('.zone_x').css('top', l_bottom);
                           jQuery('.zone_l').css('top', r_top);
@@ -8917,7 +8917,7 @@ v4 = function(){
                           rotate_two += 4;
                         } else if (count_animation <= 12) {
                           jQuery('.draggable_d3').css({
-                            background: '#fff url(/wp-content/themes/mobile/img/povregdenie_demona.jpg) 0 0/100% no-repeat'
+                            background: '#fff url(/wp-content/themes/mobile/img/povregdenie_demona.png) 0 0/100% no-repeat'
                           });
                           jQuery('.zone_x').css('top', l_top);
                           jQuery('.zone_l').css('top', r_bottom);
@@ -8944,7 +8944,7 @@ v4 = function(){
                               jQuery('.draggable_d4').css({
                                 color: 'transparent',
                                 transform: 'scale(1.3)',
-                                background: '#fff url(/wp-content/themes/mobile/img/disfunction.jpg) 0 0/100% no-repeat',
+                                background: '#fff url(/wp-content/themes/mobile/img/disfunction.png) 0 0/100% no-repeat',
                                 opacity: 0.8
                               });
                               jQuery('.zone_x').css('top', l_bottom);
@@ -8955,7 +8955,7 @@ v4 = function(){
                               rotate_two += 4;
                             } else if (count_animation <= 8) {
                               jQuery('.draggable_d4').css({
-                                background: '#fff url(/wp-content/themes/mobile/img/travma.jpg) 0 0/100% no-repeat'
+                                background: '#fff url(/wp-content/themes/mobile/img/travma.png) 0 0/100% no-repeat'
                               });
                               jQuery('.zone_x').css('top', l_top);
                               jQuery('.zone_l').css('top', r_bottom);
@@ -8965,7 +8965,7 @@ v4 = function(){
                               rotate_two += 6;
                             } else if (count_animation <= 12) {
                               jQuery('.draggable_d4').css({
-                                background: '#fff url(/wp-content/themes/mobile/img/povregdenie_demona.jpg) 0 0/100% no-repeat'
+                                background: '#fff url(/wp-content/themes/mobile/img/povregdenie_demona.png) 0 0/100% no-repeat'
                               });
                               jQuery('.zone_x').css('top', l_bottom);
                               jQuery('.zone_l').css('top', r_top);
@@ -8992,7 +8992,7 @@ v4 = function(){
                                   jQuery('.draggable_s3').css({
                                     color: 'transparent',
                                     transform: 'scale(1.3)',
-                                    background: '#fff url(/wp-content/themes/mobile/img/disfunction.jpg) 0 0/100% no-repeat',
+                                    background: '#fff url(/wp-content/themes/mobile/img/disfunction.png) 0 0/100% no-repeat',
                                     opacity: 0.8
                                   });
                                   jQuery('.zone_x').css('top', l_top);
@@ -9003,7 +9003,7 @@ v4 = function(){
                                   rotate_two += 6;
                                 } else if (count_animation <= 8) {
                                   jQuery('.draggable_s3').css({
-                                    background: '#fff url(/wp-content/themes/mobile/img/travma.jpg) 0 0/100% no-repeat'
+                                    background: '#fff url(/wp-content/themes/mobile/img/travma.png) 0 0/100% no-repeat'
                                   });
                                   jQuery('.zone_x').css('top', l_bottom);
                                   jQuery('.zone_l').css('top', r_top);
@@ -9013,7 +9013,7 @@ v4 = function(){
                                   rotate_two += 4;
                                 } else if (count_animation <= 12) {
                                   jQuery('.draggable_s3').css({
-                                    background: '#fff url(/wp-content/themes/mobile/img/povregdenie_demona.jpg) 0 0/100% no-repeat'
+                                    background: '#fff url(/wp-content/themes/mobile/img/povregdenie_demona.png) 0 0/100% no-repeat'
                                   });
                                   jQuery('.zone_x').css('top', l_top);
                                   jQuery('.zone_l').css('top', r_bottom);
@@ -9040,7 +9040,7 @@ v4 = function(){
                                       jQuery('.draggable_s4').css({
                                         color: 'transparent',
                                         transform: 'scale(1.3)',
-                                        background: '#fff url(/wp-content/themes/mobile/img/disfunction.jpg) 0 0/100% no-repeat',
+                                        background: '#fff url(/wp-content/themes/mobile/img/disfunction.png) 0 0/100% no-repeat',
                                         opacity: 0.8
                                       });
                                       jQuery('.zone_x').css('top', l_bottom);
@@ -9051,7 +9051,7 @@ v4 = function(){
                                       rotate_two += 4;
                                     } else if (count_animation <= 8) {
                                       jQuery('.draggable_s4').css({
-                                        background: '#fff url(/wp-content/themes/mobile/img/travma.jpg) 0 0/100% no-repeat'
+                                        background: '#fff url(/wp-content/themes/mobile/img/travma.png) 0 0/100% no-repeat'
                                       });
                                       jQuery('.zone_x').css('top', l_top);
                                       jQuery('.zone_l').css('top', r_bottom);
@@ -9061,7 +9061,7 @@ v4 = function(){
                                       rotate_two += 6;
                                     } else if (count_animation <= 12) {
                                       jQuery('.draggable_s4').css({
-                                        background: '#fff url(/wp-content/themes/mobile/img/povregdenie_demona.jpg) 0 0/100% no-repeat'
+                                        background: '#fff url(/wp-content/themes/mobile/img/povregdenie_demona.png) 0 0/100% no-repeat'
                                       });
                                       jQuery('.zone_x').css('top', l_bottom);
                                       jQuery('.zone_l').css('top', r_top);
@@ -9089,7 +9089,7 @@ v4 = function(){
                                           jQuery('.draggable_d3').css({
                                             color: 'transparent',
                                             transform: 'scale(1.3)',
-                                            background: '#fff url(/wp-content/themes/mobile/img/disfunction.jpg) 0 0/100% no-repeat',
+                                            background: '#fff url(/wp-content/themes/mobile/img/disfunction.png) 0 0/100% no-repeat',
                                             opacity: 0.8
                                           });
                                           jQuery('.zone_x').css('top', r_top);
@@ -9100,7 +9100,7 @@ v4 = function(){
                                           rotate_two += 6;
                                         } else if (count_animation <= 8) {
                                           jQuery('.draggable_d3').css({
-                                            background: '#fff url(/wp-content/themes/mobile/img/travma.jpg) 0 0/100% no-repeat'
+                                            background: '#fff url(/wp-content/themes/mobile/img/travma.png) 0 0/100% no-repeat'
                                           });
                                           jQuery('.zone_x').css('top', r_bottom);
                                           jQuery('.zone_l').css('top', l_top);
@@ -9110,7 +9110,7 @@ v4 = function(){
                                           rotate_two += 4;
                                         } else if (count_animation <= 12) {
                                           jQuery('.draggable_d3').css({
-                                            background: '#fff url(/wp-content/themes/mobile/img/povregdenie_demona.jpg) 0 0/100% no-repeat'
+                                            background: '#fff url(/wp-content/themes/mobile/img/povregdenie_demona.png) 0 0/100% no-repeat'
                                           });
                                           jQuery('.zone_x').css('top', r_top);
                                           jQuery('.zone_l').css('top', l_bottom);
@@ -9137,7 +9137,7 @@ v4 = function(){
                                               jQuery('.draggable_d4').css({
                                                 color: 'transparent',
                                                 transform: 'scale(1.3)',
-                                                background: '#fff url(/wp-content/themes/mobile/img/disfunction.jpg) 0 0/100% no-repeat',
+                                                background: '#fff url(/wp-content/themes/mobile/img/disfunction.png) 0 0/100% no-repeat',
                                                 opacity: 0.8
                                               });
                                               jQuery('.zone_x').css('top', r_bottom);
@@ -9148,7 +9148,7 @@ v4 = function(){
                                               rotate_two += 4;
                                             } else if (count_animation <= 8) {
                                               jQuery('.draggable_d4').css({
-                                                background: '#fff url(/wp-content/themes/mobile/img/travma.jpg) 0 0/100% no-repeat'
+                                                background: '#fff url(/wp-content/themes/mobile/img/travma.png) 0 0/100% no-repeat'
                                               });
                                               jQuery('.zone_x').css('top', r_top);
                                               jQuery('.zone_l').css('top', l_bottom);
@@ -9158,7 +9158,7 @@ v4 = function(){
                                               rotate_two += 6;
                                             } else if (count_animation <= 12) {
                                               jQuery('.draggable_d4').css({
-                                                background: '#fff url(/wp-content/themes/mobile/img/povregdenie_demona.jpg) 0 0/100% no-repeat'
+                                                background: '#fff url(/wp-content/themes/mobile/img/povregdenie_demona.png) 0 0/100% no-repeat'
                                               });
                                               jQuery('.zone_x').css('top', r_bottom);
                                               jQuery('.zone_l').css('top', l_top);
@@ -9185,7 +9185,7 @@ v4 = function(){
                                                   jQuery('.draggable_s3').css({
                                                     color: 'transparent',
                                                     transform: 'scale(1.3)',
-                                                    background: '#fff url(/wp-content/themes/mobile/img/disfunction.jpg) 0 0/100% no-repeat',
+                                                    background: '#fff url(/wp-content/themes/mobile/img/disfunction.png) 0 0/100% no-repeat',
                                                     opacity: 0.8
                                                   });
                                                   jQuery('.zone_x').css('top', r_top);
@@ -9196,7 +9196,7 @@ v4 = function(){
                                                   rotate_two += 6;
                                                 } else if (count_animation <= 8) {
                                                   jQuery('.draggable_s3').css({
-                                                    background: '#fff url(/wp-content/themes/mobile/img/travma.jpg) 0 0/100% no-repeat'
+                                                    background: '#fff url(/wp-content/themes/mobile/img/travma.png) 0 0/100% no-repeat'
                                                   });
                                                   jQuery('.zone_x').css('top', r_bottom);
                                                   jQuery('.zone_l').css('top', l_top);
@@ -9206,7 +9206,7 @@ v4 = function(){
                                                   rotate_two += 4;
                                                 } else if (count_animation <= 12) {
                                                   jQuery('.draggable_s3').css({
-                                                    background: '#fff url(/wp-content/themes/mobile/img/povregdenie_demona.jpg) 0 0/100% no-repeat'
+                                                    background: '#fff url(/wp-content/themes/mobile/img/povregdenie_demona.png) 0 0/100% no-repeat'
                                                   });
                                                   jQuery('.zone_x').css('top', r_top);
                                                   jQuery('.zone_l').css('top', l_bottom);
@@ -9233,7 +9233,7 @@ v4 = function(){
                                                       jQuery('.draggable_s4').css({
                                                         color: 'transparent',
                                                         transform: 'scale(1.3)',
-                                                        background: '#fff url(/wp-content/themes/mobile/img/disfunction.jpg) 0 0/100% no-repeat',
+                                                        background: '#fff url(/wp-content/themes/mobile/img/disfunction.png) 0 0/100% no-repeat',
                                                         opacity: 0.8
                                                       });
                                                       jQuery('.zone_x').css('top', r_bottom);
@@ -9244,7 +9244,7 @@ v4 = function(){
                                                       rotate_two += 4;
                                                     } else if (count_animation <= 8) {
                                                       jQuery('.draggable_s4').css({
-                                                        background: '#fff url(/wp-content/themes/mobile/img/travma.jpg) 0 0/100% no-repeat'
+                                                        background: '#fff url(/wp-content/themes/mobile/img/travma.png) 0 0/100% no-repeat'
                                                       });
                                                       jQuery('.zone_x').css('top', r_top);
                                                       jQuery('.zone_l').css('top', l_bottom);
@@ -9254,7 +9254,7 @@ v4 = function(){
                                                       rotate_two += 6;
                                                     } else if (count_animation <= 12) {
                                                       jQuery('.draggable_s4').css({
-                                                        background: '#fff url(/wp-content/themes/mobile/img/povregdenie_demona.jpg) 0 0/100% no-repeat'
+                                                        background: '#fff url(/wp-content/themes/mobile/img/povregdenie_demona.png) 0 0/100% no-repeat'
                                                       });
                                                       jQuery('.zone_x').css('top', r_bottom);
                                                       jQuery('.zone_l').css('top', l_top);
@@ -9281,7 +9281,7 @@ v4 = function(){
                                                           jQuery('.draggable_d3').css({
                                                             color: 'transparent',
                                                             transform: 'scale(1.3)',
-                                                            background: '#fff url(/wp-content/themes/mobile/img/disfunction.jpg) 0 0/100% no-repeat',
+                                                            background: '#fff url(/wp-content/themes/mobile/img/disfunction.png) 0 0/100% no-repeat',
                                                             opacity: 0.8
                                                           });
                                                           jQuery('.zone_x').css('top', r_top);
@@ -9292,7 +9292,7 @@ v4 = function(){
                                                           rotate_two += 6;
                                                         } else if (count_animation <= 8) {
                                                           jQuery('.draggable_d3').css({
-                                                            background: '#fff url(/wp-content/themes/mobile/img/travma.jpg) 0 0/100% no-repeat'
+                                                            background: '#fff url(/wp-content/themes/mobile/img/travma.png) 0 0/100% no-repeat'
                                                           });
                                                           jQuery('.zone_x').css('top', r_bottom);
                                                           jQuery('.zone_l').css('top', l_top);
@@ -9302,7 +9302,7 @@ v4 = function(){
                                                           rotate_two += 4;
                                                         } else if (count_animation <= 12) {
                                                           jQuery('.draggable_d3').css({
-                                                            background: '#fff url(/wp-content/themes/mobile/img/povregdenie_demona.jpg) 0 0/100% no-repeat'
+                                                            background: '#fff url(/wp-content/themes/mobile/img/povregdenie_demona.png) 0 0/100% no-repeat'
                                                           });
                                                           jQuery('.zone_x').css('top', r_top);
                                                           jQuery('.zone_l').css('top', l_bottom);
@@ -9329,7 +9329,7 @@ v4 = function(){
                                                               jQuery('.draggable_d4').css({
                                                                 color: 'transparent',
                                                                 transform: 'scale(1.3)',
-                                                                background: '#fff url(/wp-content/themes/mobile/img/disfunction.jpg) 0 0/100% no-repeat',
+                                                                background: '#fff url(/wp-content/themes/mobile/img/disfunction.png) 0 0/100% no-repeat',
                                                                 opacity: 0.8
                                                               });
                                                               jQuery('.zone_x').css('top', r_bottom);
@@ -9340,7 +9340,7 @@ v4 = function(){
                                                               rotate_two += 4;
                                                             } else if (count_animation <= 8) {
                                                               jQuery('.draggable_d4').css({
-                                                                background: '#fff url(/wp-content/themes/mobile/img/travma.jpg) 0 0/100% no-repeat'
+                                                                background: '#fff url(/wp-content/themes/mobile/img/travma.png) 0 0/100% no-repeat'
                                                               });
                                                               jQuery('.zone_x').css('top', r_top);
                                                               jQuery('.zone_l').css('top', l_bottom);
@@ -9350,7 +9350,7 @@ v4 = function(){
                                                               rotate_two += 6;
                                                             } else if (count_animation <= 12) {
                                                               jQuery('.draggable_d4').css({
-                                                                background: '#fff url(/wp-content/themes/mobile/img/povregdenie_demona.jpg) 0 0/100% no-repeat'
+                                                                background: '#fff url(/wp-content/themes/mobile/img/povregdenie_demona.png) 0 0/100% no-repeat'
                                                               });
                                                               jQuery('.zone_x').css('top', r_bottom);
                                                               jQuery('.zone_l').css('top', l_top);
@@ -9377,7 +9377,7 @@ v4 = function(){
                                                                   jQuery('.draggable_s3').css({
                                                                     color: 'transparent',
                                                                     transform: 'scale(1.3)',
-                                                                    background: '#fff url(/wp-content/themes/mobile/img/disfunction.jpg) 0 0/100% no-repeat',
+                                                                    background: '#fff url(/wp-content/themes/mobile/img/disfunction.png) 0 0/100% no-repeat',
                                                                     opacity: 0.8
                                                                   });
                                                                   jQuery('.zone_x').css('top', r_top);
@@ -9388,7 +9388,7 @@ v4 = function(){
                                                                   rotate_two += 6;
                                                                 } else if (count_animation <= 8) {
                                                                   jQuery('.draggable_s3').css({
-                                                                    background: '#fff url(/wp-content/themes/mobile/img/travma.jpg) 0 0/100% no-repeat'
+                                                                    background: '#fff url(/wp-content/themes/mobile/img/travma.png) 0 0/100% no-repeat'
                                                                   });
                                                                   jQuery('.zone_x').css('top', r_bottom);
                                                                   jQuery('.zone_l').css('top', l_top);
@@ -9398,7 +9398,7 @@ v4 = function(){
                                                                   rotate_two += 4;
                                                                 } else if (count_animation <= 12) {
                                                                   jQuery('.draggable_s3').css({
-                                                                    background: '#fff url(/wp-content/themes/mobile/img/povregdenie_demona.jpg) 0 0/100% no-repeat'
+                                                                    background: '#fff url(/wp-content/themes/mobile/img/povregdenie_demona.png) 0 0/100% no-repeat'
                                                                   });
                                                                   jQuery('.zone_x').css('top', r_top);
                                                                   jQuery('.zone_l').css('top', l_bottom);
@@ -9425,7 +9425,7 @@ v4 = function(){
                                                                       jQuery('.draggable_s4').css({
                                                                         color: 'transparent',
                                                                         transform: 'scale(1.3)',
-                                                                        background: '#fff url(/wp-content/themes/mobile/img/disfunction.jpg) 0 0/100% no-repeat',
+                                                                        background: '#fff url(/wp-content/themes/mobile/img/disfunction.png) 0 0/100% no-repeat',
                                                                         opacity: 0.8
                                                                       });
                                                                       jQuery('.zone_x').css('top', r_bottom);
@@ -9436,7 +9436,7 @@ v4 = function(){
                                                                       rotate_two += 4;
                                                                     } else if (count_animation <= 8) {
                                                                       jQuery('.draggable_s4').css({
-                                                                        background: '#fff url(/wp-content/themes/mobile/img/travma.jpg) 0 0/100% no-repeat'
+                                                                        background: '#fff url(/wp-content/themes/mobile/img/travma.png) 0 0/100% no-repeat'
                                                                       });
                                                                       jQuery('.zone_x').css('top', r_top);
                                                                       jQuery('.zone_l').css('top', l_bottom);
@@ -9446,7 +9446,7 @@ v4 = function(){
                                                                       rotate_two += 6;
                                                                     } else if (count_animation <= 12) {
                                                                       jQuery('.draggable_s4').css({
-                                                                        background: '#fff url(/wp-content/themes/mobile/img/povregdenie_demona.jpg) 0 0/100% no-repeat'
+                                                                        background: '#fff url(/wp-content/themes/mobile/img/povregdenie_demona.png) 0 0/100% no-repeat'
                                                                       });
                                                                       jQuery('.zone_x').css('top', r_bottom);
                                                                       jQuery('.zone_l').css('top', l_top);
@@ -9950,14 +9950,14 @@ v5 = function(){
         jQuery('.draggable_lovushka').css({
           color: 'transparent',
           transform: 'scale(1.3) rotate(-'+rotate_lovushka+'deg)',
-          background: '#fff url(/wp-content/themes/mobile/img/lovushka.jpg) 0 0/100% no-repeat',
+          background: '#fff url(/wp-content/themes/mobile/img/lovushka.png) 0 0/100% no-repeat',
           opacity: 0.8
         });
         if (count_animation <= 4) {
           jQuery('.draggable_v5').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/disfunction.jpg) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/disfunction.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x').css('top', r_bottom);
@@ -9968,7 +9968,7 @@ v5 = function(){
           rotate_two += 14;
         } else if (count_animation <= 8) {
           jQuery('.draggable_v5').css({
-            background: '#fff url(/wp-content/themes/mobile/img/travma.jpg) 0 0/100% no-repeat'
+            background: '#fff url(/wp-content/themes/mobile/img/travma.png) 0 0/100% no-repeat'
           });
           jQuery('.zone_x').css('top', r_middle_2);
           jQuery('.zone_l').css('top', l_middle_1);
@@ -9978,7 +9978,7 @@ v5 = function(){
           rotate_two += 8;
         } else if (count_animation <= 12) {
           jQuery('.draggable_v5').css({
-            background: '#fff url(/wp-content/themes/mobile/img/povregdenie_demona.jpg) 0 0/100% no-repeat'
+            background: '#fff url(/wp-content/themes/mobile/img/povregdenie_demona.png) 0 0/100% no-repeat'
           });
           jQuery('.zone_x').css('top', r_middle_1);
           jQuery('.zone_l').css('top', l_middle_2);
@@ -10005,14 +10005,14 @@ v5 = function(){
             jQuery('.draggable_lovushka').css({
               color: 'transparent',
               transform: 'scale(1.3) rotate(-'+rotate_lovushka+'deg)',
-              background: '#fff url(/wp-content/themes/mobile/img/lovushka.jpg) 0 0/100% no-repeat',
+              background: '#fff url(/wp-content/themes/mobile/img/lovushka.png) 0 0/100% no-repeat',
               opacity: 0.8
             });
             if (count_animation <= 4) {
               jQuery('.draggable_v-').css({
                 color: 'transparent',
                 transform: 'scale(1.3)',
-                background: '#fff url(/wp-content/themes/mobile/img/disfunction.jpg) 0 0/100% no-repeat',
+                background: '#fff url(/wp-content/themes/mobile/img/disfunction.png) 0 0/100% no-repeat',
                 opacity: 0.8
               });
               jQuery('.zone_x').css('top', r_top);
@@ -10023,7 +10023,7 @@ v5 = function(){
               rotate_two += 2;
             } else if (count_animation <= 8) {
               jQuery('.draggable_v-').css({
-                background: '#fff url(/wp-content/themes/mobile/img/travma.jpg) 0 0/100% no-repeat'
+                background: '#fff url(/wp-content/themes/mobile/img/travma.png) 0 0/100% no-repeat'
               });
               jQuery('.zone_x').css('top', r_middle_1);
               jQuery('.zone_l').css('top', l_middle_2);
@@ -10033,7 +10033,7 @@ v5 = function(){
               rotate_two += 2;
             } else if (count_animation <= 12) {
               jQuery('.draggable_v-').css({
-                background: '#fff url(/wp-content/themes/mobile/img/povregdenie_demona.jpg) 0 0/100% no-repeat'
+                background: '#fff url(/wp-content/themes/mobile/img/povregdenie_demona.png) 0 0/100% no-repeat'
               });
               jQuery('.zone_x').css('top', r_middle_2);
               jQuery('.zone_l').css('top', l_middle_1);
@@ -10062,14 +10062,14 @@ v5 = function(){
                 jQuery('.draggable_lovushka').css({
                   color: 'transparent',
                   transform: 'scale(1.3) rotate(-'+rotate_lovushka+'deg)',
-                  background: '#fff url(/wp-content/themes/mobile/img/lovushka.jpg) 0 0/100% no-repeat',
+                  background: '#fff url(/wp-content/themes/mobile/img/lovushka.png) 0 0/100% no-repeat',
                   opacity: 0.8
                 });
                 if (count_animation <= 4) {
                   jQuery('.draggable_v5').css({
                     color: 'transparent',
                     transform: 'scale(1.3)',
-                    background: '#fff url(/wp-content/themes/mobile/img/disfunction.jpg) 0 0/100% no-repeat',
+                    background: '#fff url(/wp-content/themes/mobile/img/disfunction.png) 0 0/100% no-repeat',
                     opacity: 0.8
                   });
                   jQuery('.zone_x').css('top', r_bottom);
@@ -10080,7 +10080,7 @@ v5 = function(){
                   rotate_two += 14;
                 } else if (count_animation <= 8) {
                   jQuery('.draggable_v5').css({
-                    background: '#fff url(/wp-content/themes/mobile/img/travma.jpg) 0 0/100% no-repeat'
+                    background: '#fff url(/wp-content/themes/mobile/img/travma.png) 0 0/100% no-repeat'
                   });
                   jQuery('.zone_x').css('top', r_middle_2);
                   jQuery('.zone_l').css('top', l_middle_1);
@@ -10090,7 +10090,7 @@ v5 = function(){
                   rotate_two += 8;
                 } else if (count_animation <= 12) {
                   jQuery('.draggable_v5').css({
-                    background: '#fff url(/wp-content/themes/mobile/img/povregdenie_demona.jpg) 0 0/100% no-repeat'
+                    background: '#fff url(/wp-content/themes/mobile/img/povregdenie_demona.png) 0 0/100% no-repeat'
                   });
                   jQuery('.zone_x').css('top', r_middle_1);
                   jQuery('.zone_l').css('top', l_middle_2);
@@ -10117,14 +10117,14 @@ v5 = function(){
                     jQuery('.draggable_lovushka').css({
                       color: 'transparent',
                       transform: 'scale(1.3) rotate(-'+rotate_lovushka+'deg)',
-                      background: '#fff url(/wp-content/themes/mobile/img/lovushka.jpg) 0 0/100% no-repeat',
+                      background: '#fff url(/wp-content/themes/mobile/img/lovushka.png) 0 0/100% no-repeat',
                       opacity: 0.8
                     });
                     if (count_animation <= 4) {
                       jQuery('.draggable_v-').css({
                         color: 'transparent',
                         transform: 'scale(1.3)',
-                        background: '#fff url(/wp-content/themes/mobile/img/disfunction.jpg) 0 0/100% no-repeat',
+                        background: '#fff url(/wp-content/themes/mobile/img/disfunction.png) 0 0/100% no-repeat',
                         opacity: 0.8
                       });
                       jQuery('.zone_x').css('top', r_top);
@@ -10135,7 +10135,7 @@ v5 = function(){
                       rotate_two += 2;
                     } else if (count_animation <= 8) {
                       jQuery('.draggable_v-').css({
-                        background: '#fff url(/wp-content/themes/mobile/img/travma.jpg) 0 0/100% no-repeat'
+                        background: '#fff url(/wp-content/themes/mobile/img/travma.png) 0 0/100% no-repeat'
                       });
                       jQuery('.zone_x').css('top', r_middle_1);
                       jQuery('.zone_l').css('top', l_middle_2);
@@ -10145,7 +10145,7 @@ v5 = function(){
                       rotate_two += 2;
                     } else if (count_animation <= 12) {
                       jQuery('.draggable_v-').css({
-                        background: '#fff url(/wp-content/themes/mobile/img/povregdenie_demona.jpg) 0 0/100% no-repeat'
+                        background: '#fff url(/wp-content/themes/mobile/img/povregdenie_demona.png) 0 0/100% no-repeat'
                       });
                       jQuery('.zone_x').css('top', r_middle_2);
                       jQuery('.zone_l').css('top', l_middle_1);
@@ -10175,14 +10175,14 @@ v5 = function(){
                         jQuery('.draggable_lovushka').css({
                           color: 'transparent',
                           transform: 'scale(1.3) rotate(-'+rotate_lovushka+'deg)',
-                          background: '#fff url(/wp-content/themes/mobile/img/lovushka.jpg) 0 0/100% no-repeat',
+                          background: '#fff url(/wp-content/themes/mobile/img/lovushka.png) 0 0/100% no-repeat',
                           opacity: 0.8
                         });
                         if (count_animation <= 4) {
                           jQuery('.draggable_v5').css({
                             color: 'transparent',
                             transform: 'scale(1.3)',
-                            background: '#fff url(/wp-content/themes/mobile/img/disfunction.jpg) 0 0/100% no-repeat',
+                            background: '#fff url(/wp-content/themes/mobile/img/disfunction.png) 0 0/100% no-repeat',
                             opacity: 0.8
                           });
                           jQuery('.zone_x').css('top', l_bottom);
@@ -10193,7 +10193,7 @@ v5 = function(){
                           rotate_two += 36;
                         } else if (count_animation <= 8) {
                           jQuery('.draggable_v5').css({
-                            background: '#fff url(/wp-content/themes/mobile/img/travma.jpg) 0 0/100% no-repeat'
+                            background: '#fff url(/wp-content/themes/mobile/img/travma.png) 0 0/100% no-repeat'
                           });
                           jQuery('.zone_x').css('top', l_middle_2);
                           jQuery('.zone_l').css('top', r_middle_1);
@@ -10203,7 +10203,7 @@ v5 = function(){
                           rotate_two += 8;
                         } else if (count_animation <= 12) {
                           jQuery('.draggable_v5').css({
-                            background: '#fff url(/wp-content/themes/mobile/img/povregdenie_demona.jpg) 0 0/100% no-repeat'
+                            background: '#fff url(/wp-content/themes/mobile/img/povregdenie_demona.png) 0 0/100% no-repeat'
                           });
                           jQuery('.zone_x').css('top', l_middle_1);
                           jQuery('.zone_l').css('top', r_middle_2);
@@ -10230,14 +10230,14 @@ v5 = function(){
                             jQuery('.draggable_lovushka').css({
                               color: 'transparent',
                               transform: 'scale(1.3) rotate(-'+rotate_lovushka+'deg)',
-                              background: '#fff url(/wp-content/themes/mobile/img/lovushka.jpg) 0 0/100% no-repeat',
+                              background: '#fff url(/wp-content/themes/mobile/img/lovushka.png) 0 0/100% no-repeat',
                               opacity: 0.8
                             });
                             if (count_animation <= 4) {
                               jQuery('.draggable_v-').css({
                                 color: 'transparent',
                                 transform: 'scale(1.3)',
-                                background: '#fff url(/wp-content/themes/mobile/img/disfunction.jpg) 0 0/100% no-repeat',
+                                background: '#fff url(/wp-content/themes/mobile/img/disfunction.png) 0 0/100% no-repeat',
                                 opacity: 0.8
                               });
                               jQuery('.zone_x').css('top', l_top);
@@ -10248,7 +10248,7 @@ v5 = function(){
                               rotate_two += 2;
                             } else if (count_animation <= 8) {
                               jQuery('.draggable_v-').css({
-                                background: '#fff url(/wp-content/themes/mobile/img/travma.jpg) 0 0/100% no-repeat'
+                                background: '#fff url(/wp-content/themes/mobile/img/travma.png) 0 0/100% no-repeat'
                               });
                               jQuery('.zone_x').css('top', l_middle_1);
                               jQuery('.zone_l').css('top', r_middle_2);
@@ -10258,7 +10258,7 @@ v5 = function(){
                               rotate_two += 2;
                             } else if (count_animation <= 12) {
                               jQuery('.draggable_v-').css({
-                                background: '#fff url(/wp-content/themes/mobile/img/povregdenie_demona.jpg) 0 0/100% no-repeat'
+                                background: '#fff url(/wp-content/themes/mobile/img/povregdenie_demona.png) 0 0/100% no-repeat'
                               });
                               jQuery('.zone_x').css('top', l_middle_2);
                               jQuery('.zone_l').css('top', r_middle_1);
@@ -10287,14 +10287,14 @@ v5 = function(){
                                 jQuery('.draggable_lovushka').css({
                                   color: 'transparent',
                                   transform: 'scale(1.3) rotate(-'+rotate_lovushka+'deg)',
-                                  background: '#fff url(/wp-content/themes/mobile/img/lovushka.jpg) 0 0/100% no-repeat',
+                                  background: '#fff url(/wp-content/themes/mobile/img/lovushka.png) 0 0/100% no-repeat',
                                   opacity: 0.8
                                 });
                                 if (count_animation <= 4) {
                                   jQuery('.draggable_v5').css({
                                     color: 'transparent',
                                     transform: 'scale(1.3)',
-                                    background: '#fff url(/wp-content/themes/mobile/img/disfunction.jpg) 0 0/100% no-repeat',
+                                    background: '#fff url(/wp-content/themes/mobile/img/disfunction.png) 0 0/100% no-repeat',
                                     opacity: 0.8
                                   });
                                   jQuery('.zone_x').css('top', l_bottom);
@@ -10305,7 +10305,7 @@ v5 = function(){
                                   rotate_two += 36;
                                 } else if (count_animation <= 8) {
                                   jQuery('.draggable_v5').css({
-                                    background: '#fff url(/wp-content/themes/mobile/img/travma.jpg) 0 0/100% no-repeat'
+                                    background: '#fff url(/wp-content/themes/mobile/img/travma.png) 0 0/100% no-repeat'
                                   });
                                   jQuery('.zone_x').css('top', l_middle_2);
                                   jQuery('.zone_l').css('top', r_middle_1);
@@ -10315,7 +10315,7 @@ v5 = function(){
                                   rotate_two += 8;
                                 } else if (count_animation <= 12) {
                                   jQuery('.draggable_v5').css({
-                                    background: '#fff url(/wp-content/themes/mobile/img/povregdenie_demona.jpg) 0 0/100% no-repeat'
+                                    background: '#fff url(/wp-content/themes/mobile/img/povregdenie_demona.png) 0 0/100% no-repeat'
                                   });
                                   jQuery('.zone_x').css('top', l_middle_1);
                                   jQuery('.zone_l').css('top', r_middle_2);
@@ -10342,14 +10342,14 @@ v5 = function(){
                                     jQuery('.draggable_lovushka').css({
                                       color: 'transparent',
                                       transform: 'scale(1.3) rotate(-'+rotate_lovushka+'deg)',
-                                      background: '#fff url(/wp-content/themes/mobile/img/lovushka.jpg) 0 0/100% no-repeat',
+                                      background: '#fff url(/wp-content/themes/mobile/img/lovushka.png) 0 0/100% no-repeat',
                                       opacity: 0.8
                                     });
                                     if (count_animation <= 4) {
                                       jQuery('.draggable_v-').css({
                                         color: 'transparent',
                                         transform: 'scale(1.3)',
-                                        background: '#fff url(/wp-content/themes/mobile/img/disfunction.jpg) 0 0/100% no-repeat',
+                                        background: '#fff url(/wp-content/themes/mobile/img/disfunction.png) 0 0/100% no-repeat',
                                         opacity: 0.8
                                       });
                                       jQuery('.zone_x').css('top', l_top);
@@ -10360,7 +10360,7 @@ v5 = function(){
                                       rotate_two += 2;
                                     } else if (count_animation <= 8) {
                                       jQuery('.draggable_v-').css({
-                                        background: '#fff url(/wp-content/themes/mobile/img/travma.jpg) 0 0/100% no-repeat'
+                                        background: '#fff url(/wp-content/themes/mobile/img/travma.png) 0 0/100% no-repeat'
                                       });
                                       jQuery('.zone_x').css('top', l_middle_1);
                                       jQuery('.zone_l').css('top', r_middle_2);
@@ -10370,7 +10370,7 @@ v5 = function(){
                                       rotate_two += 2;
                                     } else if (count_animation <= 12) {
                                       jQuery('.draggable_v-').css({
-                                        background: '#fff url(/wp-content/themes/mobile/img/povregdenie_demona.jpg) 0 0/100% no-repeat'
+                                        background: '#fff url(/wp-content/themes/mobile/img/povregdenie_demona.png) 0 0/100% no-repeat'
                                       });
                                       jQuery('.zone_x').css('top', l_middle_2);
                                       jQuery('.zone_l').css('top', r_middle_1);
@@ -10424,7 +10424,7 @@ v5 = function(){
           jQuery('.draggable_d5').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/disfunction.jpg) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/disfunction.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x').css('top', l_bottom);
@@ -10435,7 +10435,7 @@ v5 = function(){
           rotate_two += 6;
         } else if (count_animation <= 8) {
           jQuery('.draggable_d5').css({
-            background: '#fff url(/wp-content/themes/mobile/img/travma.jpg) 0 0/100% no-repeat'
+            background: '#fff url(/wp-content/themes/mobile/img/travma.png) 0 0/100% no-repeat'
           });
           jQuery('.zone_x').css('top', l_top);
           jQuery('.zone_l').css('top', r_bottom);
@@ -10445,7 +10445,7 @@ v5 = function(){
           rotate_two += 4;
         } else if (count_animation <= 12) {
           jQuery('.draggable_d5').css({
-            background: '#fff url(/wp-content/themes/mobile/img/povregdenie_demona.jpg) 0 0/100% no-repeat'
+            background: '#fff url(/wp-content/themes/mobile/img/povregdenie_demona.png) 0 0/100% no-repeat'
           });
           jQuery('.zone_x').css('top', l_bottom);
           jQuery('.zone_l').css('top', r_top);
@@ -10472,7 +10472,7 @@ v5 = function(){
               jQuery('.draggable_d6').css({
                 color: 'transparent',
                 transform: 'scale(1.3)',
-                background: '#fff url(/wp-content/themes/mobile/img/disfunction.jpg) 0 0/100% no-repeat',
+                background: '#fff url(/wp-content/themes/mobile/img/disfunction.png) 0 0/100% no-repeat',
                 opacity: 0.8
               });
               jQuery('.zone_x').css('top', l_bottom);
@@ -10483,7 +10483,7 @@ v5 = function(){
               rotate_two += 2;
             } else if (count_animation <= 8) {
               jQuery('.draggable_d6').css({
-                background: '#fff url(/wp-content/themes/mobile/img/travma.jpg) 0 0/100% no-repeat'
+                background: '#fff url(/wp-content/themes/mobile/img/travma.png) 0 0/100% no-repeat'
               });
               jQuery('.zone_x').css('top', l_top);
               jQuery('.zone_l').css('top', r_bottom);
@@ -10493,7 +10493,7 @@ v5 = function(){
               rotate_two += 2;
             } else if (count_animation <= 12) {
               jQuery('.draggable_d6').css({
-                background: '#fff url(/wp-content/themes/mobile/img/povregdenie_demona.jpg) 0 0/100% no-repeat'
+                background: '#fff url(/wp-content/themes/mobile/img/povregdenie_demona.png) 0 0/100% no-repeat'
               });
               jQuery('.zone_x').css('top', l_bottom);
               jQuery('.zone_l').css('top', r_top);
@@ -10520,7 +10520,7 @@ v5 = function(){
                   jQuery('.draggable_s5').css({
                     color: 'transparent',
                     transform: 'scale(1.3)',
-                    background: '#fff url(/wp-content/themes/mobile/img/disfunction.jpg) 0 0/100% no-repeat',
+                    background: '#fff url(/wp-content/themes/mobile/img/disfunction.png) 0 0/100% no-repeat',
                     opacity: 0.8
                   });
                   jQuery('.zone_x').css('top', l_top);
@@ -10531,7 +10531,7 @@ v5 = function(){
                   rotate_two += 2;
                 } else if (count_animation <= 8) {
                   jQuery('.draggable_s5').css({
-                    background: '#fff url(/wp-content/themes/mobile/img/travma.jpg) 0 0/100% no-repeat'
+                    background: '#fff url(/wp-content/themes/mobile/img/travma.png) 0 0/100% no-repeat'
                   });
                   jQuery('.zone_x').css('top', l_bottom);
                   jQuery('.zone_l').css('top', r_top);
@@ -10541,7 +10541,7 @@ v5 = function(){
                   rotate_two += 2;
                 } else if (count_animation <= 12) {
                   jQuery('.draggable_s5').css({
-                    background: '#fff url(/wp-content/themes/mobile/img/povregdenie_demona.jpg) 0 0/100% no-repeat'
+                    background: '#fff url(/wp-content/themes/mobile/img/povregdenie_demona.png) 0 0/100% no-repeat'
                   });
                   jQuery('.zone_x').css('top', l_top);
                   jQuery('.zone_l').css('top', r_bottom);
@@ -10568,7 +10568,7 @@ v5 = function(){
                       jQuery('.draggable_s6').css({
                         color: 'transparent',
                         transform: 'scale(1.3)',
-                        background: '#fff url(/wp-content/themes/mobile/img/disfunction.jpg) 0 0/100% no-repeat',
+                        background: '#fff url(/wp-content/themes/mobile/img/disfunction.png) 0 0/100% no-repeat',
                         opacity: 0.8
                       });
                       jQuery('.zone_x').css('top', l_bottom);
@@ -10579,7 +10579,7 @@ v5 = function(){
                       rotate_two += 2;
                     } else if (count_animation <= 8) {
                       jQuery('.draggable_s6').css({
-                        background: '#fff url(/wp-content/themes/mobile/img/travma.jpg) 0 0/100% no-repeat'
+                        background: '#fff url(/wp-content/themes/mobile/img/travma.png) 0 0/100% no-repeat'
                       });
                       jQuery('.zone_x').css('top', l_top);
                       jQuery('.zone_l').css('top', r_bottom);
@@ -10589,7 +10589,7 @@ v5 = function(){
                       rotate_two += 2;
                     } else if (count_animation <= 12) {
                       jQuery('.draggable_s6').css({
-                        background: '#fff url(/wp-content/themes/mobile/img/povregdenie_demona.jpg) 0 0/100% no-repeat'
+                        background: '#fff url(/wp-content/themes/mobile/img/povregdenie_demona.png) 0 0/100% no-repeat'
                       });
                       jQuery('.zone_x').css('top', l_bottom);
                       jQuery('.zone_l').css('top', r_top);
@@ -10616,7 +10616,7 @@ v5 = function(){
                           jQuery('.draggable_d5').css({
                             color: 'transparent',
                             transform: 'scale(1.3)',
-                            background: '#fff url(/wp-content/themes/mobile/img/disfunction.jpg) 0 0/100% no-repeat',
+                            background: '#fff url(/wp-content/themes/mobile/img/disfunction.png) 0 0/100% no-repeat',
                             opacity: 0.8
                           });
                           jQuery('.zone_x').css('top', l_top);
@@ -10627,7 +10627,7 @@ v5 = function(){
                           rotate_two += 2;
                         } else if (count_animation <= 8) {
                           jQuery('.draggable_d5').css({
-                            background: '#fff url(/wp-content/themes/mobile/img/travma.jpg) 0 0/100% no-repeat'
+                            background: '#fff url(/wp-content/themes/mobile/img/travma.png) 0 0/100% no-repeat'
                           });
                           jQuery('.zone_x').css('top', l_bottom);
                           jQuery('.zone_l').css('top', r_top);
@@ -10637,7 +10637,7 @@ v5 = function(){
                           rotate_two += 2;
                         } else if (count_animation <= 12) {
                           jQuery('.draggable_d5').css({
-                            background: '#fff url(/wp-content/themes/mobile/img/povregdenie_demona.jpg) 0 0/100% no-repeat'
+                            background: '#fff url(/wp-content/themes/mobile/img/povregdenie_demona.png) 0 0/100% no-repeat'
                           });
                           jQuery('.zone_x').css('top', l_top);
                           jQuery('.zone_l').css('top', r_bottom);
@@ -10664,7 +10664,7 @@ v5 = function(){
                               jQuery('.draggable_d6').css({
                                 color: 'transparent',
                                 transform: 'scale(1.3)',
-                                background: '#fff url(/wp-content/themes/mobile/img/disfunction.jpg) 0 0/100% no-repeat',
+                                background: '#fff url(/wp-content/themes/mobile/img/disfunction.png) 0 0/100% no-repeat',
                                 opacity: 0.8
                               });
                               jQuery('.zone_x').css('top', l_bottom);
@@ -10675,7 +10675,7 @@ v5 = function(){
                               rotate_two += 2;
                             } else if (count_animation <= 8) {
                               jQuery('.draggable_d6').css({
-                                background: '#fff url(/wp-content/themes/mobile/img/travma.jpg) 0 0/100% no-repeat'
+                                background: '#fff url(/wp-content/themes/mobile/img/travma.png) 0 0/100% no-repeat'
                               });
                               jQuery('.zone_x').css('top', l_top);
                               jQuery('.zone_l').css('top', r_bottom);
@@ -10685,7 +10685,7 @@ v5 = function(){
                               rotate_two += 2;
                             } else if (count_animation <= 12) {
                               jQuery('.draggable_d6').css({
-                                background: '#fff url(/wp-content/themes/mobile/img/povregdenie_demona.jpg) 0 0/100% no-repeat'
+                                background: '#fff url(/wp-content/themes/mobile/img/povregdenie_demona.png) 0 0/100% no-repeat'
                               });
                               jQuery('.zone_x').css('top', l_bottom);
                               jQuery('.zone_l').css('top', r_top);
@@ -10712,7 +10712,7 @@ v5 = function(){
                                   jQuery('.draggable_s5').css({
                                     color: 'transparent',
                                     transform: 'scale(1.3)',
-                                    background: '#fff url(/wp-content/themes/mobile/img/disfunction.jpg) 0 0/100% no-repeat',
+                                    background: '#fff url(/wp-content/themes/mobile/img/disfunction.png) 0 0/100% no-repeat',
                                     opacity: 0.8
                                   });
                                   jQuery('.zone_x').css('top', l_top);
@@ -10723,7 +10723,7 @@ v5 = function(){
                                   rotate_two += 2;
                                 } else if (count_animation <= 8) {
                                   jQuery('.draggable_s5').css({
-                                    background: '#fff url(/wp-content/themes/mobile/img/travma.jpg) 0 0/100% no-repeat'
+                                    background: '#fff url(/wp-content/themes/mobile/img/travma.png) 0 0/100% no-repeat'
                                   });
                                   jQuery('.zone_x').css('top', l_bottom);
                                   jQuery('.zone_l').css('top', r_top);
@@ -10733,7 +10733,7 @@ v5 = function(){
                                   rotate_two += 2;
                                 } else if (count_animation <= 12) {
                                   jQuery('.draggable_s5').css({
-                                    background: '#fff url(/wp-content/themes/mobile/img/povregdenie_demona.jpg) 0 0/100% no-repeat'
+                                    background: '#fff url(/wp-content/themes/mobile/img/povregdenie_demona.png) 0 0/100% no-repeat'
                                   });
                                   jQuery('.zone_x').css('top', l_top);
                                   jQuery('.zone_l').css('top', r_bottom);
@@ -10760,7 +10760,7 @@ v5 = function(){
                                       jQuery('.draggable_s6').css({
                                         color: 'transparent',
                                         transform: 'scale(1.3)',
-                                        background: '#fff url(/wp-content/themes/mobile/img/disfunction.jpg) 0 0/100% no-repeat',
+                                        background: '#fff url(/wp-content/themes/mobile/img/disfunction.png) 0 0/100% no-repeat',
                                         opacity: 0.8
                                       });
                                       jQuery('.zone_x').css('top', l_bottom);
@@ -10771,7 +10771,7 @@ v5 = function(){
                                       rotate_two += 2;
                                     } else if (count_animation <= 8) {
                                       jQuery('.draggable_s6').css({
-                                        background: '#fff url(/wp-content/themes/mobile/img/travma.jpg) 0 0/100% no-repeat'
+                                        background: '#fff url(/wp-content/themes/mobile/img/travma.png) 0 0/100% no-repeat'
                                       });
                                       jQuery('.zone_x').css('top', l_top);
                                       jQuery('.zone_l').css('top', r_bottom);
@@ -10781,7 +10781,7 @@ v5 = function(){
                                       rotate_two += 2;
                                     } else if (count_animation <= 12) {
                                       jQuery('.draggable_s6').css({
-                                        background: '#fff url(/wp-content/themes/mobile/img/povregdenie_demona.jpg) 0 0/100% no-repeat'
+                                        background: '#fff url(/wp-content/themes/mobile/img/povregdenie_demona.png) 0 0/100% no-repeat'
                                       });
                                       jQuery('.zone_x').css('top', l_bottom);
                                       jQuery('.zone_l').css('top', r_top);
@@ -10809,7 +10809,7 @@ v5 = function(){
                                           jQuery('.draggable_d5').css({
                                             color: 'transparent',
                                             transform: 'scale(1.3)',
-                                            background: '#fff url(/wp-content/themes/mobile/img/disfunction.jpg) 0 0/100% no-repeat',
+                                            background: '#fff url(/wp-content/themes/mobile/img/disfunction.png) 0 0/100% no-repeat',
                                             opacity: 0.8
                                           });
                                           jQuery('.zone_x').css('top', r_top);
@@ -10820,7 +10820,7 @@ v5 = function(){
                                           rotate_two += 2;
                                         } else if (count_animation <= 8) {
                                           jQuery('.draggable_d5').css({
-                                            background: '#fff url(/wp-content/themes/mobile/img/travma.jpg) 0 0/100% no-repeat'
+                                            background: '#fff url(/wp-content/themes/mobile/img/travma.png) 0 0/100% no-repeat'
                                           });
                                           jQuery('.zone_x').css('top', r_bottom);
                                           jQuery('.zone_l').css('top', l_top);
@@ -10830,7 +10830,7 @@ v5 = function(){
                                           rotate_two += 2;
                                         } else if (count_animation <= 12) {
                                           jQuery('.draggable_d5').css({
-                                            background: '#fff url(/wp-content/themes/mobile/img/povregdenie_demona.jpg) 0 0/100% no-repeat'
+                                            background: '#fff url(/wp-content/themes/mobile/img/povregdenie_demona.png) 0 0/100% no-repeat'
                                           });
                                           jQuery('.zone_x').css('top', r_top);
                                           jQuery('.zone_l').css('top', l_bottom);
@@ -10857,7 +10857,7 @@ v5 = function(){
                                               jQuery('.draggable_d6').css({
                                                 color: 'transparent',
                                                 transform: 'scale(1.3)',
-                                                background: '#fff url(/wp-content/themes/mobile/img/disfunction.jpg) 0 0/100% no-repeat',
+                                                background: '#fff url(/wp-content/themes/mobile/img/disfunction.png) 0 0/100% no-repeat',
                                                 opacity: 0.8
                                               });
                                               jQuery('.zone_x').css('top', r_bottom);
@@ -10868,7 +10868,7 @@ v5 = function(){
                                               rotate_two += 2;
                                             } else if (count_animation <= 8) {
                                               jQuery('.draggable_d6').css({
-                                                background: '#fff url(/wp-content/themes/mobile/img/travma.jpg) 0 0/100% no-repeat'
+                                                background: '#fff url(/wp-content/themes/mobile/img/travma.png) 0 0/100% no-repeat'
                                               });
                                               jQuery('.zone_x').css('top', r_top);
                                               jQuery('.zone_l').css('top', l_bottom);
@@ -10878,7 +10878,7 @@ v5 = function(){
                                               rotate_two += 2;
                                             } else if (count_animation <= 12) {
                                               jQuery('.draggable_d6').css({
-                                                background: '#fff url(/wp-content/themes/mobile/img/povregdenie_demona.jpg) 0 0/100% no-repeat'
+                                                background: '#fff url(/wp-content/themes/mobile/img/povregdenie_demona.png) 0 0/100% no-repeat'
                                               });
                                               jQuery('.zone_x').css('top', r_bottom);
                                               jQuery('.zone_l').css('top', l_top);
@@ -10905,7 +10905,7 @@ v5 = function(){
                                                   jQuery('.draggable_s5').css({
                                                     color: 'transparent',
                                                     transform: 'scale(1.3)',
-                                                    background: '#fff url(/wp-content/themes/mobile/img/disfunction.jpg) 0 0/100% no-repeat',
+                                                    background: '#fff url(/wp-content/themes/mobile/img/disfunction.png) 0 0/100% no-repeat',
                                                     opacity: 0.8
                                                   });
                                                   jQuery('.zone_x').css('top', r_top);
@@ -10916,7 +10916,7 @@ v5 = function(){
                                                   rotate_two += 2;
                                                 } else if (count_animation <= 8) {
                                                   jQuery('.draggable_s5').css({
-                                                    background: '#fff url(/wp-content/themes/mobile/img/travma.jpg) 0 0/100% no-repeat'
+                                                    background: '#fff url(/wp-content/themes/mobile/img/travma.png) 0 0/100% no-repeat'
                                                   });
                                                   jQuery('.zone_x').css('top', r_bottom);
                                                   jQuery('.zone_l').css('top', l_top);
@@ -10926,7 +10926,7 @@ v5 = function(){
                                                   rotate_two += 2;
                                                 } else if (count_animation <= 12) {
                                                   jQuery('.draggable_s5').css({
-                                                    background: '#fff url(/wp-content/themes/mobile/img/povregdenie_demona.jpg) 0 0/100% no-repeat'
+                                                    background: '#fff url(/wp-content/themes/mobile/img/povregdenie_demona.png) 0 0/100% no-repeat'
                                                   });
                                                   jQuery('.zone_x').css('top', r_top);
                                                   jQuery('.zone_l').css('top', l_bottom);
@@ -10953,7 +10953,7 @@ v5 = function(){
                                                       jQuery('.draggable_s6').css({
                                                         color: 'transparent',
                                                         transform: 'scale(1.3)',
-                                                        background: '#fff url(/wp-content/themes/mobile/img/disfunction.jpg) 0 0/100% no-repeat',
+                                                        background: '#fff url(/wp-content/themes/mobile/img/disfunction.png) 0 0/100% no-repeat',
                                                         opacity: 0.8
                                                       });
                                                       jQuery('.zone_x').css('top', r_bottom);
@@ -10964,7 +10964,7 @@ v5 = function(){
                                                       rotate_two += 2;
                                                     } else if (count_animation <= 8) {
                                                       jQuery('.draggable_s6').css({
-                                                        background: '#fff url(/wp-content/themes/mobile/img/travma.jpg) 0 0/100% no-repeat'
+                                                        background: '#fff url(/wp-content/themes/mobile/img/travma.png) 0 0/100% no-repeat'
                                                       });
                                                       jQuery('.zone_x').css('top', r_top);
                                                       jQuery('.zone_l').css('top', l_bottom);
@@ -10974,7 +10974,7 @@ v5 = function(){
                                                       rotate_two += 2;
                                                     } else if (count_animation <= 12) {
                                                       jQuery('.draggable_s6').css({
-                                                        background: '#fff url(/wp-content/themes/mobile/img/povregdenie_demona.jpg) 0 0/100% no-repeat'
+                                                        background: '#fff url(/wp-content/themes/mobile/img/povregdenie_demona.png) 0 0/100% no-repeat'
                                                       });
                                                       jQuery('.zone_x').css('top', r_bottom);
                                                       jQuery('.zone_l').css('top', l_top);
@@ -11001,7 +11001,7 @@ v5 = function(){
                                                           jQuery('.draggable_d5').css({
                                                             color: 'transparent',
                                                             transform: 'scale(1.3)',
-                                                            background: '#fff url(/wp-content/themes/mobile/img/disfunction.jpg) 0 0/100% no-repeat',
+                                                            background: '#fff url(/wp-content/themes/mobile/img/disfunction.png) 0 0/100% no-repeat',
                                                             opacity: 0.8
                                                           });
                                                           jQuery('.zone_x').css('top', r_top);
@@ -11012,7 +11012,7 @@ v5 = function(){
                                                           rotate_two += 2;
                                                         } else if (count_animation <= 8) {
                                                           jQuery('.draggable_d5').css({
-                                                            background: '#fff url(/wp-content/themes/mobile/img/travma.jpg) 0 0/100% no-repeat'
+                                                            background: '#fff url(/wp-content/themes/mobile/img/travma.png) 0 0/100% no-repeat'
                                                           });
                                                           jQuery('.zone_x').css('top', r_bottom);
                                                           jQuery('.zone_l').css('top', l_top);
@@ -11022,7 +11022,7 @@ v5 = function(){
                                                           rotate_two += 2;
                                                         } else if (count_animation <= 12) {
                                                           jQuery('.draggable_d5').css({
-                                                            background: '#fff url(/wp-content/themes/mobile/img/povregdenie_demona.jpg) 0 0/100% no-repeat'
+                                                            background: '#fff url(/wp-content/themes/mobile/img/povregdenie_demona.png) 0 0/100% no-repeat'
                                                           });
                                                           jQuery('.zone_x').css('top', r_top);
                                                           jQuery('.zone_l').css('top', l_bottom);
@@ -11049,7 +11049,7 @@ v5 = function(){
                                                               jQuery('.draggable_d6').css({
                                                                 color: 'transparent',
                                                                 transform: 'scale(1.3)',
-                                                                background: '#fff url(/wp-content/themes/mobile/img/disfunction.jpg) 0 0/100% no-repeat',
+                                                                background: '#fff url(/wp-content/themes/mobile/img/disfunction.png) 0 0/100% no-repeat',
                                                                 opacity: 0.8
                                                               });
                                                               jQuery('.zone_x').css('top', r_bottom);
@@ -11060,7 +11060,7 @@ v5 = function(){
                                                               rotate_two += 2;
                                                             } else if (count_animation <= 8) {
                                                               jQuery('.draggable_d6').css({
-                                                                background: '#fff url(/wp-content/themes/mobile/img/travma.jpg) 0 0/100% no-repeat'
+                                                                background: '#fff url(/wp-content/themes/mobile/img/travma.png) 0 0/100% no-repeat'
                                                               });
                                                               jQuery('.zone_x').css('top', r_top);
                                                               jQuery('.zone_l').css('top', l_bottom);
@@ -11070,7 +11070,7 @@ v5 = function(){
                                                               rotate_two += 2;
                                                             } else if (count_animation <= 12) {
                                                               jQuery('.draggable_d6').css({
-                                                                background: '#fff url(/wp-content/themes/mobile/img/povregdenie_demona.jpg) 0 0/100% no-repeat'
+                                                                background: '#fff url(/wp-content/themes/mobile/img/povregdenie_demona.png) 0 0/100% no-repeat'
                                                               });
                                                               jQuery('.zone_x').css('top', r_bottom);
                                                               jQuery('.zone_l').css('top', l_top);
@@ -11097,7 +11097,7 @@ v5 = function(){
                                                                   jQuery('.draggable_s5').css({
                                                                     color: 'transparent',
                                                                     transform: 'scale(1.3)',
-                                                                    background: '#fff url(/wp-content/themes/mobile/img/disfunction.jpg) 0 0/100% no-repeat',
+                                                                    background: '#fff url(/wp-content/themes/mobile/img/disfunction.png) 0 0/100% no-repeat',
                                                                     opacity: 0.8
                                                                   });
                                                                   jQuery('.zone_x').css('top', r_top);
@@ -11108,7 +11108,7 @@ v5 = function(){
                                                                   rotate_two += 2;
                                                                 } else if (count_animation <= 8) {
                                                                   jQuery('.draggable_s5').css({
-                                                                    background: '#fff url(/wp-content/themes/mobile/img/travma.jpg) 0 0/100% no-repeat'
+                                                                    background: '#fff url(/wp-content/themes/mobile/img/travma.png) 0 0/100% no-repeat'
                                                                   });
                                                                   jQuery('.zone_x').css('top', r_bottom);
                                                                   jQuery('.zone_l').css('top', l_top);
@@ -11118,7 +11118,7 @@ v5 = function(){
                                                                   rotate_two += 2;
                                                                 } else if (count_animation <= 12) {
                                                                   jQuery('.draggable_s5').css({
-                                                                    background: '#fff url(/wp-content/themes/mobile/img/povregdenie_demona.jpg) 0 0/100% no-repeat'
+                                                                    background: '#fff url(/wp-content/themes/mobile/img/povregdenie_demona.png) 0 0/100% no-repeat'
                                                                   });
                                                                   jQuery('.zone_x').css('top', r_top);
                                                                   jQuery('.zone_l').css('top', l_bottom);
@@ -11145,7 +11145,7 @@ v5 = function(){
                                                                       jQuery('.draggable_s6').css({
                                                                         color: 'transparent',
                                                                         transform: 'scale(1.3)',
-                                                                        background: '#fff url(/wp-content/themes/mobile/img/disfunction.jpg) 0 0/100% no-repeat',
+                                                                        background: '#fff url(/wp-content/themes/mobile/img/disfunction.png) 0 0/100% no-repeat',
                                                                         opacity: 0.8
                                                                       });
                                                                       jQuery('.zone_x').css('top', r_bottom);
@@ -11156,7 +11156,7 @@ v5 = function(){
                                                                       rotate_two += 2;
                                                                     } else if (count_animation <= 8) {
                                                                       jQuery('.draggable_s6').css({
-                                                                        background: '#fff url(/wp-content/themes/mobile/img/travma.jpg) 0 0/100% no-repeat'
+                                                                        background: '#fff url(/wp-content/themes/mobile/img/travma.png) 0 0/100% no-repeat'
                                                                       });
                                                                       jQuery('.zone_x').css('top', r_top);
                                                                       jQuery('.zone_l').css('top', l_bottom);
@@ -11166,7 +11166,7 @@ v5 = function(){
                                                                       rotate_two += 2;
                                                                     } else if (count_animation <= 12) {
                                                                       jQuery('.draggable_s6').css({
-                                                                        background: '#fff url(/wp-content/themes/mobile/img/povregdenie_demona.jpg) 0 0/100% no-repeat'
+                                                                        background: '#fff url(/wp-content/themes/mobile/img/povregdenie_demona.png) 0 0/100% no-repeat'
                                                                       });
                                                                       jQuery('.zone_x').css('top', r_bottom);
                                                                       jQuery('.zone_l').css('top', l_top);
@@ -11233,7 +11233,7 @@ v5 = function(){
           jQuery('.draggable_v2').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/disfunction.jpg) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/disfunction.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x').css('top', r_top);
@@ -11244,7 +11244,7 @@ v5 = function(){
           rotate_two += 8;
         } else if (count_animation <= 8) {
           jQuery('.draggable_v2').css({
-            background: '#fff url(/wp-content/themes/mobile/img/travma.jpg) 0 0/100% no-repeat'
+            background: '#fff url(/wp-content/themes/mobile/img/travma.png) 0 0/100% no-repeat'
           });
           jQuery('.zone_x').css('top', r_top);
           jQuery('.zone_l').css('top', l_bottom);
@@ -11254,7 +11254,7 @@ v5 = function(){
           rotate_two += 14;
         } else if (count_animation <= 12) {
           jQuery('.draggable_v2').css({
-            background: '#fff url(/wp-content/themes/mobile/img/povregdenie_demona.jpg) 0 0/100% no-repeat'
+            background: '#fff url(/wp-content/themes/mobile/img/povregdenie_demona.png) 0 0/100% no-repeat'
           });
           jQuery('.zone_x').css('top', r_top);
           jQuery('.zone_l').css('top', l_top);
@@ -11281,7 +11281,7 @@ v5 = function(){
               jQuery('.draggable_s2').css({
                 color: 'transparent',
                 transform: 'scale(1.3)',
-                background: '#fff url(/wp-content/themes/mobile/img/disfunction.jpg) 0 0/100% no-repeat',
+                background: '#fff url(/wp-content/themes/mobile/img/disfunction.png) 0 0/100% no-repeat',
                 opacity: 0.8
               });
               jQuery('.zone_x').css('top', r_top);
@@ -11292,7 +11292,7 @@ v5 = function(){
               rotate_two += 14;
             } else if (count_animation <= 8) {
               jQuery('.draggable_s2').css({
-                background: '#fff url(/wp-content/themes/mobile/img/travma.jpg) 0 0/100% no-repeat'
+                background: '#fff url(/wp-content/themes/mobile/img/travma.png) 0 0/100% no-repeat'
               });
               jQuery('.zone_x').css('top', r_top);
               jQuery('.zone_l').css('top', l_bottom);
@@ -11302,7 +11302,7 @@ v5 = function(){
               rotate_two += 8;
             } else if (count_animation <= 12) {
               jQuery('.draggable_s2').css({
-                background: '#fff url(/wp-content/themes/mobile/img/povregdenie_demona.jpg) 0 0/100% no-repeat'
+                background: '#fff url(/wp-content/themes/mobile/img/povregdenie_demona.png) 0 0/100% no-repeat'
               });
               jQuery('.zone_x').css('top', r_top);
               jQuery('.zone_l').css('top', l_bottom);
@@ -11329,7 +11329,7 @@ v5 = function(){
                   jQuery('.draggable_d2').css({
                     color: 'transparent',
                     transform: 'scale(1.3)',
-                    background: '#fff url(/wp-content/themes/mobile/img/disfunction.jpg) 0 0/100% no-repeat',
+                    background: '#fff url(/wp-content/themes/mobile/img/disfunction.png) 0 0/100% no-repeat',
                     opacity: 0.8
                   });
                   jQuery('.zone_x').css('top', r_top);
@@ -11340,7 +11340,7 @@ v5 = function(){
                   rotate_two += 8;
                 } else if (count_animation <= 8) {
                   jQuery('.draggable_d2').css({
-                    background: '#fff url(/wp-content/themes/mobile/img/travma.jpg) 0 0/100% no-repeat'
+                    background: '#fff url(/wp-content/themes/mobile/img/travma.png) 0 0/100% no-repeat'
                   });
                   jQuery('.zone_x').css('top', r_top);
                   jQuery('.zone_l').css('top', l_bottom);
@@ -11350,7 +11350,7 @@ v5 = function(){
                   rotate_two += 14;
                 } else if (count_animation <= 12) {
                   jQuery('.draggable_d2').css({
-                    background: '#fff url(/wp-content/themes/mobile/img/povregdenie_demona.jpg) 0 0/100% no-repeat'
+                    background: '#fff url(/wp-content/themes/mobile/img/povregdenie_demona.png) 0 0/100% no-repeat'
                   });
                   jQuery('.zone_x').css('top', r_top);
                   jQuery('.zone_l').css('top', l_bottom);
@@ -11377,7 +11377,7 @@ v5 = function(){
                       jQuery('.draggable_v2').css({
                         color: 'transparent',
                         transform: 'scale(1.3)',
-                        background: '#fff url(/wp-content/themes/mobile/img/disfunction.jpg) 0 0/100% no-repeat',
+                        background: '#fff url(/wp-content/themes/mobile/img/disfunction.png) 0 0/100% no-repeat',
                         opacity: 0.8
                       });
                       jQuery('.zone_x').css('top', r_top);
@@ -11388,7 +11388,7 @@ v5 = function(){
                       rotate_two += 14;
                     } else if (count_animation <= 8) {
                       jQuery('.draggable_v2').css({
-                        background: '#fff url(/wp-content/themes/mobile/img/travma.jpg) 0 0/100% no-repeat'
+                        background: '#fff url(/wp-content/themes/mobile/img/travma.png) 0 0/100% no-repeat'
                       });
                       jQuery('.zone_x').css('top', r_top);
                       jQuery('.zone_l').css('top', l_top);
@@ -11398,7 +11398,7 @@ v5 = function(){
                       rotate_two += 8;
                     } else if (count_animation <= 12) {
                       jQuery('.draggable_v2').css({
-                        background: '#fff url(/wp-content/themes/mobile/img/povregdenie_demona.jpg) 0 0/100% no-repeat'
+                        background: '#fff url(/wp-content/themes/mobile/img/povregdenie_demona.png) 0 0/100% no-repeat'
                       });
                       jQuery('.zone_x').css('top', r_top);
                       jQuery('.zone_l').css('top', l_bottom);
@@ -11425,7 +11425,7 @@ v5 = function(){
                           jQuery('.draggable_s2').css({
                             color: 'transparent',
                             transform: 'scale(1.3)',
-                            background: '#fff url(/wp-content/themes/mobile/img/disfunction.jpg) 0 0/100% no-repeat',
+                            background: '#fff url(/wp-content/themes/mobile/img/disfunction.png) 0 0/100% no-repeat',
                             opacity: 0.8
                           });
                           jQuery('.zone_x').css('top', r_top);
@@ -11436,7 +11436,7 @@ v5 = function(){
                           rotate_two += 8;
                         } else if (count_animation <= 8) {
                           jQuery('.draggable_s2').css({
-                            background: '#fff url(/wp-content/themes/mobile/img/travma.jpg) 0 0/100% no-repeat'
+                            background: '#fff url(/wp-content/themes/mobile/img/travma.png) 0 0/100% no-repeat'
                           });
                           jQuery('.zone_x').css('top', r_top);
                           jQuery('.zone_l').css('top', l_bottom);
@@ -11446,7 +11446,7 @@ v5 = function(){
                           rotate_two += 14;
                         } else if (count_animation <= 12) {
                           jQuery('.draggable_s2').css({
-                            background: '#fff url(/wp-content/themes/mobile/img/povregdenie_demona.jpg) 0 0/100% no-repeat'
+                            background: '#fff url(/wp-content/themes/mobile/img/povregdenie_demona.png) 0 0/100% no-repeat'
                           });
                           jQuery('.zone_x').css('top', r_top);
                           jQuery('.zone_l').css('top', l_top);
@@ -11473,7 +11473,7 @@ v5 = function(){
                               jQuery('.draggable_d2').css({
                                 color: 'transparent',
                                 transform: 'scale(1.3)',
-                                background: '#fff url(/wp-content/themes/mobile/img/disfunction.jpg) 0 0/100% no-repeat',
+                                background: '#fff url(/wp-content/themes/mobile/img/disfunction.png) 0 0/100% no-repeat',
                                 opacity: 0.8
                               });
                               jQuery('.zone_x').css('top', r_top);
@@ -11484,7 +11484,7 @@ v5 = function(){
                               rotate_two += 14;
                             } else if (count_animation <= 8) {
                               jQuery('.draggable_d2').css({
-                                background: '#fff url(/wp-content/themes/mobile/img/travma.jpg) 0 0/100% no-repeat'
+                                background: '#fff url(/wp-content/themes/mobile/img/travma.png) 0 0/100% no-repeat'
                               });
                               jQuery('.zone_x').css('top', r_top);
                               jQuery('.zone_l').css('top', l_top);
@@ -11494,7 +11494,7 @@ v5 = function(){
                               rotate_two += 8;
                             } else if (count_animation <= 12) {
                               jQuery('.draggable_d2').css({
-                                background: '#fff url(/wp-content/themes/mobile/img/povregdenie_demona.jpg) 0 0/100% no-repeat'
+                                background: '#fff url(/wp-content/themes/mobile/img/povregdenie_demona.png) 0 0/100% no-repeat'
                               });
                               jQuery('.zone_x').css('top', r_top);
                               jQuery('.zone_l').css('top', l_bottom);
@@ -11522,7 +11522,7 @@ v5 = function(){
                                   jQuery('.draggable_v2').css({
                                     color: 'transparent',
                                     transform: 'scale(1.3)',
-                                    background: '#fff url(/wp-content/themes/mobile/img/disfunction.jpg) 0 0/100% no-repeat',
+                                    background: '#fff url(/wp-content/themes/mobile/img/disfunction.png) 0 0/100% no-repeat',
                                     opacity: 0.8
                                   });
                                   jQuery('.zone_x').css('top', r_top);
@@ -11533,7 +11533,7 @@ v5 = function(){
                                   rotate_two += 8;
                                 } else if (count_animation <= 8) {
                                   jQuery('.draggable_v2').css({
-                                    background: '#fff url(/wp-content/themes/mobile/img/travma.jpg) 0 0/100% no-repeat'
+                                    background: '#fff url(/wp-content/themes/mobile/img/travma.png) 0 0/100% no-repeat'
                                   });
                                   jQuery('.zone_x').css('top', r_top);
                                   jQuery('.zone_l').css('top', l_bottom);
@@ -11543,7 +11543,7 @@ v5 = function(){
                                   rotate_two += 14;
                                 } else if (count_animation <= 12) {
                                   jQuery('.draggable_v2').css({
-                                    background: '#fff url(/wp-content/themes/mobile/img/povregdenie_demona.jpg) 0 0/100% no-repeat'
+                                    background: '#fff url(/wp-content/themes/mobile/img/povregdenie_demona.png) 0 0/100% no-repeat'
                                   });
                                   jQuery('.zone_x').css('top', r_top);
                                   jQuery('.zone_l').css('top', l_top);
@@ -11570,7 +11570,7 @@ v5 = function(){
                                       jQuery('.draggable_s2').css({
                                         color: 'transparent',
                                         transform: 'scale(1.3)',
-                                        background: '#fff url(/wp-content/themes/mobile/img/disfunction.jpg) 0 0/100% no-repeat',
+                                        background: '#fff url(/wp-content/themes/mobile/img/disfunction.png) 0 0/100% no-repeat',
                                         opacity: 0.8
                                       });
                                       jQuery('.zone_x').css('top', r_top);
@@ -11581,7 +11581,7 @@ v5 = function(){
                                       rotate_two += 14;
                                     } else if (count_animation <= 8) {
                                       jQuery('.draggable_s2').css({
-                                        background: '#fff url(/wp-content/themes/mobile/img/travma.jpg) 0 0/100% no-repeat'
+                                        background: '#fff url(/wp-content/themes/mobile/img/travma.png) 0 0/100% no-repeat'
                                       });
                                       jQuery('.zone_x').css('top', r_top);
                                       jQuery('.zone_l').css('top', l_bottom);
@@ -11591,7 +11591,7 @@ v5 = function(){
                                       rotate_two += 8;
                                     } else if (count_animation <= 12) {
                                       jQuery('.draggable_s2').css({
-                                        background: '#fff url(/wp-content/themes/mobile/img/povregdenie_demona.jpg) 0 0/100% no-repeat'
+                                        background: '#fff url(/wp-content/themes/mobile/img/povregdenie_demona.png) 0 0/100% no-repeat'
                                       });
                                       jQuery('.zone_x').css('top', r_top);
                                       jQuery('.zone_l').css('top', l_bottom);
@@ -11618,7 +11618,7 @@ v5 = function(){
                                           jQuery('.draggable_d2').css({
                                             color: 'transparent',
                                             transform: 'scale(1.3)',
-                                            background: '#fff url(/wp-content/themes/mobile/img/disfunction.jpg) 0 0/100% no-repeat',
+                                            background: '#fff url(/wp-content/themes/mobile/img/disfunction.png) 0 0/100% no-repeat',
                                             opacity: 0.8
                                           });
                                           jQuery('.zone_x').css('top', r_top);
@@ -11629,7 +11629,7 @@ v5 = function(){
                                           rotate_two += 8;
                                         } else if (count_animation <= 8) {
                                           jQuery('.draggable_d2').css({
-                                            background: '#fff url(/wp-content/themes/mobile/img/travma.jpg) 0 0/100% no-repeat'
+                                            background: '#fff url(/wp-content/themes/mobile/img/travma.png) 0 0/100% no-repeat'
                                           });
                                           jQuery('.zone_x').css('top', r_top);
                                           jQuery('.zone_l').css('top', l_bottom);
@@ -11639,7 +11639,7 @@ v5 = function(){
                                           rotate_two += 14;
                                         } else if (count_animation <= 12) {
                                           jQuery('.draggable_d2').css({
-                                            background: '#fff url(/wp-content/themes/mobile/img/povregdenie_demona.jpg) 0 0/100% no-repeat'
+                                            background: '#fff url(/wp-content/themes/mobile/img/povregdenie_demona.png) 0 0/100% no-repeat'
                                           });
                                           jQuery('.zone_x').css('top', r_top);
                                           jQuery('.zone_l').css('top', l_bottom);
@@ -11666,7 +11666,7 @@ v5 = function(){
                                               jQuery('.draggable_v2').css({
                                                 color: 'transparent',
                                                 transform: 'scale(1.3)',
-                                                background: '#fff url(/wp-content/themes/mobile/img/disfunction.jpg) 0 0/100% no-repeat',
+                                                background: '#fff url(/wp-content/themes/mobile/img/disfunction.png) 0 0/100% no-repeat',
                                                 opacity: 0.8
                                               });
                                               jQuery('.zone_x').css('top', r_top);
@@ -11677,7 +11677,7 @@ v5 = function(){
                                               rotate_two += 14;
                                             } else if (count_animation <= 8) {
                                               jQuery('.draggable_v2').css({
-                                                background: '#fff url(/wp-content/themes/mobile/img/travma.jpg) 0 0/100% no-repeat'
+                                                background: '#fff url(/wp-content/themes/mobile/img/travma.png) 0 0/100% no-repeat'
                                               });
                                               jQuery('.zone_x').css('top', r_top);
                                               jQuery('.zone_l').css('top', l_top);
@@ -11687,7 +11687,7 @@ v5 = function(){
                                               rotate_two += 8;
                                             } else if (count_animation <= 12) {
                                               jQuery('.draggable_v2').css({
-                                                background: '#fff url(/wp-content/themes/mobile/img/povregdenie_demona.jpg) 0 0/100% no-repeat'
+                                                background: '#fff url(/wp-content/themes/mobile/img/povregdenie_demona.png) 0 0/100% no-repeat'
                                               });
                                               jQuery('.zone_x').css('top', r_top);
                                               jQuery('.zone_l').css('top', l_bottom);
@@ -11714,7 +11714,7 @@ v5 = function(){
                                                   jQuery('.draggable_s2').css({
                                                     color: 'transparent',
                                                     transform: 'scale(1.3)',
-                                                    background: '#fff url(/wp-content/themes/mobile/img/disfunction.jpg) 0 0/100% no-repeat',
+                                                    background: '#fff url(/wp-content/themes/mobile/img/disfunction.png) 0 0/100% no-repeat',
                                                     opacity: 0.8
                                                   });
                                                   jQuery('.zone_x').css('top', r_top);
@@ -11725,7 +11725,7 @@ v5 = function(){
                                                   rotate_two += 8;
                                                 } else if (count_animation <= 8) {
                                                   jQuery('.draggable_s2').css({
-                                                    background: '#fff url(/wp-content/themes/mobile/img/travma.jpg) 0 0/100% no-repeat'
+                                                    background: '#fff url(/wp-content/themes/mobile/img/travma.png) 0 0/100% no-repeat'
                                                   });
                                                   jQuery('.zone_x').css('top', r_top);
                                                   jQuery('.zone_l').css('top', l_bottom);
@@ -11735,7 +11735,7 @@ v5 = function(){
                                                   rotate_two += 14;
                                                 } else if (count_animation <= 12) {
                                                   jQuery('.draggable_s2').css({
-                                                    background: '#fff url(/wp-content/themes/mobile/img/povregdenie_demona.jpg) 0 0/100% no-repeat'
+                                                    background: '#fff url(/wp-content/themes/mobile/img/povregdenie_demona.png) 0 0/100% no-repeat'
                                                   });
                                                   jQuery('.zone_x').css('top', r_top);
                                                   jQuery('.zone_l').css('top', l_top);
@@ -11762,7 +11762,7 @@ v5 = function(){
                                                       jQuery('.draggable_d2').css({
                                                         color: 'transparent',
                                                         transform: 'scale(1.3)',
-                                                        background: '#fff url(/wp-content/themes/mobile/img/disfunction.jpg) 0 0/100% no-repeat',
+                                                        background: '#fff url(/wp-content/themes/mobile/img/disfunction.png) 0 0/100% no-repeat',
                                                         opacity: 0.8
                                                       });
                                                       jQuery('.zone_x').css('top', r_top);
@@ -11773,7 +11773,7 @@ v5 = function(){
                                                       rotate_two += 14;
                                                     } else if (count_animation <= 8) {
                                                       jQuery('.draggable_d2').css({
-                                                        background: '#fff url(/wp-content/themes/mobile/img/travma.jpg) 0 0/100% no-repeat'
+                                                        background: '#fff url(/wp-content/themes/mobile/img/travma.png) 0 0/100% no-repeat'
                                                       });
                                                       jQuery('.zone_x').css('top', r_top);
                                                       jQuery('.zone_l').css('top', l_top);
@@ -11783,7 +11783,7 @@ v5 = function(){
                                                       rotate_two += 8;
                                                     } else if (count_animation <= 12) {
                                                       jQuery('.draggable_d2').css({
-                                                        background: '#fff url(/wp-content/themes/mobile/img/povregdenie_demona.jpg) 0 0/100% no-repeat'
+                                                        background: '#fff url(/wp-content/themes/mobile/img/povregdenie_demona.png) 0 0/100% no-repeat'
                                                       });
                                                       jQuery('.zone_x').css('top', r_top);
                                                       jQuery('.zone_l').css('top', l_bottom);
@@ -12273,14 +12273,14 @@ drenag = function(){
         jQuery('.draggable_v3').css({
           color: 'transparent',
           transform: 'scale(1.3)',
-          background: '#fff url(/wp-content/themes/mobile/img/edinenie_s_tvorcom.jpg) 0 0/100% no-repeat',
+          background: '#fff url(/wp-content/themes/mobile/img/edinenie_s_tvorcom.png) 0 0/100% no-repeat',
           opacity: 0.8
         });
         if (count_animation > 0 && count_animation <= 5) {
           jQuery('.draggable_v1').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v1').css('top'));
@@ -12294,7 +12294,7 @@ drenag = function(){
           jQuery('.draggable_d2').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_d2').css('top'));
@@ -12308,7 +12308,7 @@ drenag = function(){
           jQuery('.draggable_d3').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_d3').css('top'));
@@ -12322,7 +12322,7 @@ drenag = function(){
           jQuery('.draggable_d4').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_d4').css('top'));
@@ -12336,7 +12336,7 @@ drenag = function(){
           jQuery('.draggable_d5').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_d5').css('top'));
@@ -12350,7 +12350,7 @@ drenag = function(){
           jQuery('.draggable_d6').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_d6').css('top'));
@@ -12365,7 +12365,7 @@ drenag = function(){
           jQuery('.draggable_v1').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v1').css('top'));
@@ -12379,7 +12379,7 @@ drenag = function(){
           jQuery('.draggable_d2').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_d2').css('top'));
@@ -12393,7 +12393,7 @@ drenag = function(){
           jQuery('.draggable_d3').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_d3').css('top'));
@@ -12407,7 +12407,7 @@ drenag = function(){
           jQuery('.draggable_d4').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_d4').css('top'));
@@ -12421,7 +12421,7 @@ drenag = function(){
           jQuery('.draggable_d5').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_d5').css('top'));
@@ -12435,7 +12435,7 @@ drenag = function(){
           jQuery('.draggable_d6').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_d6').css('top'));
@@ -12450,7 +12450,7 @@ drenag = function(){
           jQuery('.draggable_v1').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v1').css('top'));
@@ -12464,7 +12464,7 @@ drenag = function(){
           jQuery('.draggable_d2').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_d2').css('top'));
@@ -12478,7 +12478,7 @@ drenag = function(){
           jQuery('.draggable_d3').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_d3').css('top'));
@@ -12492,7 +12492,7 @@ drenag = function(){
           jQuery('.draggable_d4').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_d4').css('top'));
@@ -12506,7 +12506,7 @@ drenag = function(){
           jQuery('.draggable_d5').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_d5').css('top'));
@@ -12520,7 +12520,7 @@ drenag = function(){
           jQuery('.draggable_d6').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_d6').css('top'));
@@ -12535,7 +12535,7 @@ drenag = function(){
           jQuery('.draggable_v1').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v1').css('top'));
@@ -12549,7 +12549,7 @@ drenag = function(){
           jQuery('.draggable_d2').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_d2').css('top'));
@@ -12563,7 +12563,7 @@ drenag = function(){
           jQuery('.draggable_d3').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_d3').css('top'));
@@ -12577,7 +12577,7 @@ drenag = function(){
           jQuery('.draggable_d4').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_d4').css('top'));
@@ -12591,7 +12591,7 @@ drenag = function(){
           jQuery('.draggable_d5').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_d5').css('top'));
@@ -12605,7 +12605,7 @@ drenag = function(){
           jQuery('.draggable_d6').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_d6').css('top'));
@@ -12637,7 +12637,7 @@ drenag = function(){
           jQuery('.draggable_v0').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v1').css('top'));
@@ -12651,7 +12651,7 @@ drenag = function(){
           jQuery('.draggable_v2').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v2').css('top'));
@@ -12665,7 +12665,7 @@ drenag = function(){
           jQuery('.draggable_v4').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v4').css('top'));
@@ -12679,7 +12679,7 @@ drenag = function(){
           jQuery('.draggable_v5').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v5').css('top'));
@@ -12693,7 +12693,7 @@ drenag = function(){
           jQuery('.draggable_v-').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v-').css('top'));
@@ -12708,7 +12708,7 @@ drenag = function(){
           jQuery('.draggable_v0').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v0').css('top'));
@@ -12722,7 +12722,7 @@ drenag = function(){
           jQuery('.draggable_v2').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v2').css('top'));
@@ -12736,7 +12736,7 @@ drenag = function(){
           jQuery('.draggable_v4').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v4').css('top'));
@@ -12750,7 +12750,7 @@ drenag = function(){
           jQuery('.draggable_v5').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v5').css('top'));
@@ -12764,7 +12764,7 @@ drenag = function(){
           jQuery('.draggable_v-').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v-').css('top'));
@@ -12779,7 +12779,7 @@ drenag = function(){
           jQuery('.draggable_v0').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v0').css('top'));
@@ -12793,7 +12793,7 @@ drenag = function(){
           jQuery('.draggable_v2').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v2').css('top'));
@@ -12807,7 +12807,7 @@ drenag = function(){
           jQuery('.draggable_v4').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v4').css('top'));
@@ -12821,7 +12821,7 @@ drenag = function(){
           jQuery('.draggable_v5').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v5').css('top'));
@@ -12835,7 +12835,7 @@ drenag = function(){
           jQuery('.draggable_v-').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v-').css('top'));
@@ -12850,7 +12850,7 @@ drenag = function(){
           jQuery('.draggable_v0').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v0').css('top'));
@@ -12864,7 +12864,7 @@ drenag = function(){
           jQuery('.draggable_v2').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v2').css('top'));
@@ -12878,7 +12878,7 @@ drenag = function(){
           jQuery('.draggable_v4').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v4').css('top'));
@@ -12892,7 +12892,7 @@ drenag = function(){
           jQuery('.draggable_v5').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v5').css('top'));
@@ -12906,7 +12906,7 @@ drenag = function(){
           jQuery('.draggable_v-').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v-').css('top'));
@@ -12921,7 +12921,7 @@ drenag = function(){
           jQuery('.draggable_v0').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v0').css('top'));
@@ -12935,7 +12935,7 @@ drenag = function(){
           jQuery('.draggable_v2').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v2').css('top'));
@@ -12949,7 +12949,7 @@ drenag = function(){
           jQuery('.draggable_v4').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v4').css('top'));
@@ -12963,7 +12963,7 @@ drenag = function(){
           jQuery('.draggable_v5').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v5').css('top'));
@@ -12996,7 +12996,7 @@ drenag = function(){
           jQuery('.draggable_v1').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v1').css('top'));
@@ -13010,7 +13010,7 @@ drenag = function(){
           jQuery('.draggable_s2').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_s2').css('top'));
@@ -13024,7 +13024,7 @@ drenag = function(){
           jQuery('.draggable_s3').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_s3').css('top'));
@@ -13038,7 +13038,7 @@ drenag = function(){
           jQuery('.draggable_s4').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_s4').css('top'));
@@ -13052,7 +13052,7 @@ drenag = function(){
           jQuery('.draggable_s5').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_s5').css('top'));
@@ -13066,7 +13066,7 @@ drenag = function(){
           jQuery('.draggable_s6').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_s6').css('top'));
@@ -13081,7 +13081,7 @@ drenag = function(){
           jQuery('.draggable_v1').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v1').css('top'));
@@ -13095,7 +13095,7 @@ drenag = function(){
           jQuery('.draggable_s2').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_s2').css('top'));
@@ -13109,7 +13109,7 @@ drenag = function(){
           jQuery('.draggable_s3').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_s3').css('top'));
@@ -13123,7 +13123,7 @@ drenag = function(){
           jQuery('.draggable_s4').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_s4').css('top'));
@@ -13137,7 +13137,7 @@ drenag = function(){
           jQuery('.draggable_s5').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_s5').css('top'));
@@ -13151,7 +13151,7 @@ drenag = function(){
           jQuery('.draggable_s6').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_s6').css('top'));
@@ -13166,7 +13166,7 @@ drenag = function(){
           jQuery('.draggable_v1').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v1').css('top'));
@@ -13180,7 +13180,7 @@ drenag = function(){
           jQuery('.draggable_s2').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_s2').css('top'));
@@ -13194,7 +13194,7 @@ drenag = function(){
           jQuery('.draggable_s3').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_s3').css('top'));
@@ -13208,7 +13208,7 @@ drenag = function(){
           jQuery('.draggable_s4').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_s4').css('top'));
@@ -13222,7 +13222,7 @@ drenag = function(){
           jQuery('.draggable_s5').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_s5').css('top'));
@@ -13236,7 +13236,7 @@ drenag = function(){
           jQuery('.draggable_s6').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_s6').css('top'));
@@ -13251,7 +13251,7 @@ drenag = function(){
           jQuery('.draggable_v1').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v1').css('top'));
@@ -13265,7 +13265,7 @@ drenag = function(){
           jQuery('.draggable_s2').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_s2').css('top'));
@@ -13279,7 +13279,7 @@ drenag = function(){
           jQuery('.draggable_s3').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_s3').css('top'));
@@ -13293,7 +13293,7 @@ drenag = function(){
           jQuery('.draggable_s4').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_s4').css('top'));
@@ -13307,7 +13307,7 @@ drenag = function(){
           jQuery('.draggable_s5').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_s5').css('top'));
@@ -13321,7 +13321,7 @@ drenag = function(){
           jQuery('.draggable_s6').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_s6').css('top'));
@@ -13354,7 +13354,7 @@ drenag = function(){
           jQuery('.draggable_v1').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v1').css('top'));
@@ -13368,7 +13368,7 @@ drenag = function(){
           jQuery('.draggable_d2').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_d2').css('top'));
@@ -13382,7 +13382,7 @@ drenag = function(){
           jQuery('.draggable_d3').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_d3').css('top'));
@@ -13396,7 +13396,7 @@ drenag = function(){
           jQuery('.draggable_d4').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_d4').css('top'));
@@ -13410,7 +13410,7 @@ drenag = function(){
           jQuery('.draggable_d5').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_d5').css('top'));
@@ -13424,7 +13424,7 @@ drenag = function(){
           jQuery('.draggable_d6').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_d6').css('top'));
@@ -13439,7 +13439,7 @@ drenag = function(){
           jQuery('.draggable_v1').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v1').css('top'));
@@ -13453,7 +13453,7 @@ drenag = function(){
           jQuery('.draggable_d2').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_d2').css('top'));
@@ -13467,7 +13467,7 @@ drenag = function(){
           jQuery('.draggable_d3').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_d3').css('top'));
@@ -13481,7 +13481,7 @@ drenag = function(){
           jQuery('.draggable_d4').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_d4').css('top'));
@@ -13495,7 +13495,7 @@ drenag = function(){
           jQuery('.draggable_d5').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_d5').css('top'));
@@ -13509,7 +13509,7 @@ drenag = function(){
           jQuery('.draggable_d6').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_d6').css('top'));
@@ -13524,7 +13524,7 @@ drenag = function(){
           jQuery('.draggable_v1').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v1').css('top'));
@@ -13538,7 +13538,7 @@ drenag = function(){
           jQuery('.draggable_d2').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_d2').css('top'));
@@ -13552,7 +13552,7 @@ drenag = function(){
           jQuery('.draggable_d3').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_d3').css('top'));
@@ -13566,7 +13566,7 @@ drenag = function(){
           jQuery('.draggable_d4').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_d4').css('top'));
@@ -13580,7 +13580,7 @@ drenag = function(){
           jQuery('.draggable_d5').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_d5').css('top'));
@@ -13594,7 +13594,7 @@ drenag = function(){
           jQuery('.draggable_d6').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_d6').css('top'));
@@ -13609,7 +13609,7 @@ drenag = function(){
           jQuery('.draggable_v1').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v1').css('top'));
@@ -13623,7 +13623,7 @@ drenag = function(){
           jQuery('.draggable_d2').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_d2').css('top'));
@@ -13637,7 +13637,7 @@ drenag = function(){
           jQuery('.draggable_d3').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_d3').css('top'));
@@ -13651,7 +13651,7 @@ drenag = function(){
           jQuery('.draggable_d4').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_d4').css('top'));
@@ -13665,7 +13665,7 @@ drenag = function(){
           jQuery('.draggable_d5').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_d5').css('top'));
@@ -13679,7 +13679,7 @@ drenag = function(){
           jQuery('.draggable_d6').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_d6').css('top'));
@@ -13711,7 +13711,7 @@ drenag = function(){
           jQuery('.draggable_v0').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v1').css('top'));
@@ -13725,7 +13725,7 @@ drenag = function(){
           jQuery('.draggable_v2').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v2').css('top'));
@@ -13739,7 +13739,7 @@ drenag = function(){
           jQuery('.draggable_v4').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v4').css('top'));
@@ -13753,7 +13753,7 @@ drenag = function(){
           jQuery('.draggable_v5').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v5').css('top'));
@@ -13767,7 +13767,7 @@ drenag = function(){
           jQuery('.draggable_v-').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v-').css('top'));
@@ -13782,7 +13782,7 @@ drenag = function(){
           jQuery('.draggable_v0').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v0').css('top'));
@@ -13796,7 +13796,7 @@ drenag = function(){
           jQuery('.draggable_v2').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v2').css('top'));
@@ -13810,7 +13810,7 @@ drenag = function(){
           jQuery('.draggable_v4').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v4').css('top'));
@@ -13824,7 +13824,7 @@ drenag = function(){
           jQuery('.draggable_v5').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v5').css('top'));
@@ -13838,7 +13838,7 @@ drenag = function(){
           jQuery('.draggable_v-').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v-').css('top'));
@@ -13853,7 +13853,7 @@ drenag = function(){
           jQuery('.draggable_v0').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v0').css('top'));
@@ -13867,7 +13867,7 @@ drenag = function(){
           jQuery('.draggable_v2').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v2').css('top'));
@@ -13881,7 +13881,7 @@ drenag = function(){
           jQuery('.draggable_v4').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v4').css('top'));
@@ -13895,7 +13895,7 @@ drenag = function(){
           jQuery('.draggable_v5').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v5').css('top'));
@@ -13909,7 +13909,7 @@ drenag = function(){
           jQuery('.draggable_v-').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v-').css('top'));
@@ -13924,7 +13924,7 @@ drenag = function(){
           jQuery('.draggable_v0').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v0').css('top'));
@@ -13938,7 +13938,7 @@ drenag = function(){
           jQuery('.draggable_v2').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v2').css('top'));
@@ -13952,7 +13952,7 @@ drenag = function(){
           jQuery('.draggable_v4').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v4').css('top'));
@@ -13966,7 +13966,7 @@ drenag = function(){
           jQuery('.draggable_v5').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v5').css('top'));
@@ -13980,7 +13980,7 @@ drenag = function(){
           jQuery('.draggable_v-').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v-').css('top'));
@@ -13995,7 +13995,7 @@ drenag = function(){
           jQuery('.draggable_v0').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v0').css('top'));
@@ -14009,7 +14009,7 @@ drenag = function(){
           jQuery('.draggable_v2').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v2').css('top'));
@@ -14023,7 +14023,7 @@ drenag = function(){
           jQuery('.draggable_v4').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v4').css('top'));
@@ -14037,7 +14037,7 @@ drenag = function(){
           jQuery('.draggable_v5').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v5').css('top'));
@@ -14070,7 +14070,7 @@ drenag = function(){
           jQuery('.draggable_v1').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v1').css('top'));
@@ -14084,7 +14084,7 @@ drenag = function(){
           jQuery('.draggable_s2').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_s2').css('top'));
@@ -14098,7 +14098,7 @@ drenag = function(){
           jQuery('.draggable_s3').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_s3').css('top'));
@@ -14112,7 +14112,7 @@ drenag = function(){
           jQuery('.draggable_s4').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_s4').css('top'));
@@ -14126,7 +14126,7 @@ drenag = function(){
           jQuery('.draggable_s5').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_s5').css('top'));
@@ -14140,7 +14140,7 @@ drenag = function(){
           jQuery('.draggable_s6').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_s6').css('top'));
@@ -14155,7 +14155,7 @@ drenag = function(){
           jQuery('.draggable_v1').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v1').css('top'));
@@ -14169,7 +14169,7 @@ drenag = function(){
           jQuery('.draggable_s2').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_s2').css('top'));
@@ -14183,7 +14183,7 @@ drenag = function(){
           jQuery('.draggable_s3').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_s3').css('top'));
@@ -14197,7 +14197,7 @@ drenag = function(){
           jQuery('.draggable_s4').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_s4').css('top'));
@@ -14211,7 +14211,7 @@ drenag = function(){
           jQuery('.draggable_s5').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_s5').css('top'));
@@ -14225,7 +14225,7 @@ drenag = function(){
           jQuery('.draggable_s6').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_s6').css('top'));
@@ -14240,7 +14240,7 @@ drenag = function(){
           jQuery('.draggable_v1').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v1').css('top'));
@@ -14254,7 +14254,7 @@ drenag = function(){
           jQuery('.draggable_s2').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_s2').css('top'));
@@ -14268,7 +14268,7 @@ drenag = function(){
           jQuery('.draggable_s3').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_s3').css('top'));
@@ -14282,7 +14282,7 @@ drenag = function(){
           jQuery('.draggable_s4').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_s4').css('top'));
@@ -14296,7 +14296,7 @@ drenag = function(){
           jQuery('.draggable_s5').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_s5').css('top'));
@@ -14310,7 +14310,7 @@ drenag = function(){
           jQuery('.draggable_s6').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_s6').css('top'));
@@ -14325,7 +14325,7 @@ drenag = function(){
           jQuery('.draggable_v1').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v1').css('top'));
@@ -14339,7 +14339,7 @@ drenag = function(){
           jQuery('.draggable_s2').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_s2').css('top'));
@@ -14353,7 +14353,7 @@ drenag = function(){
           jQuery('.draggable_s3').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_s3').css('top'));
@@ -14367,7 +14367,7 @@ drenag = function(){
           jQuery('.draggable_s4').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_s4').css('top'));
@@ -14381,7 +14381,7 @@ drenag = function(){
           jQuery('.draggable_s5').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_s5').css('top'));
@@ -14395,7 +14395,7 @@ drenag = function(){
           jQuery('.draggable_s6').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_s6').css('top'));
@@ -14428,7 +14428,7 @@ drenag = function(){
           jQuery('.draggable_v1').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v1').css('top'));
@@ -14442,7 +14442,7 @@ drenag = function(){
           jQuery('.draggable_d2').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_d2').css('top'));
@@ -14456,7 +14456,7 @@ drenag = function(){
           jQuery('.draggable_d3').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_d3').css('top'));
@@ -14470,7 +14470,7 @@ drenag = function(){
           jQuery('.draggable_d4').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_d4').css('top'));
@@ -14484,7 +14484,7 @@ drenag = function(){
           jQuery('.draggable_d5').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_d5').css('top'));
@@ -14498,7 +14498,7 @@ drenag = function(){
           jQuery('.draggable_d6').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_d6').css('top'));
@@ -14513,7 +14513,7 @@ drenag = function(){
           jQuery('.draggable_v1').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v1').css('top'));
@@ -14527,7 +14527,7 @@ drenag = function(){
           jQuery('.draggable_d2').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_d2').css('top'));
@@ -14541,7 +14541,7 @@ drenag = function(){
           jQuery('.draggable_d3').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_d3').css('top'));
@@ -14555,7 +14555,7 @@ drenag = function(){
           jQuery('.draggable_d4').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_d4').css('top'));
@@ -14569,7 +14569,7 @@ drenag = function(){
           jQuery('.draggable_d5').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_d5').css('top'));
@@ -14583,7 +14583,7 @@ drenag = function(){
           jQuery('.draggable_d6').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_d6').css('top'));
@@ -14598,7 +14598,7 @@ drenag = function(){
           jQuery('.draggable_v1').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v1').css('top'));
@@ -14612,7 +14612,7 @@ drenag = function(){
           jQuery('.draggable_d2').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_d2').css('top'));
@@ -14626,7 +14626,7 @@ drenag = function(){
           jQuery('.draggable_d3').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_d3').css('top'));
@@ -14640,7 +14640,7 @@ drenag = function(){
           jQuery('.draggable_d4').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_d4').css('top'));
@@ -14654,7 +14654,7 @@ drenag = function(){
           jQuery('.draggable_d5').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_d5').css('top'));
@@ -14668,7 +14668,7 @@ drenag = function(){
           jQuery('.draggable_d6').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_d6').css('top'));
@@ -14683,7 +14683,7 @@ drenag = function(){
           jQuery('.draggable_v1').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v1').css('top'));
@@ -14697,7 +14697,7 @@ drenag = function(){
           jQuery('.draggable_d2').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_d2').css('top'));
@@ -14711,7 +14711,7 @@ drenag = function(){
           jQuery('.draggable_d3').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_d3').css('top'));
@@ -14725,7 +14725,7 @@ drenag = function(){
           jQuery('.draggable_d4').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_d4').css('top'));
@@ -14739,7 +14739,7 @@ drenag = function(){
           jQuery('.draggable_d5').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_d5').css('top'));
@@ -14753,7 +14753,7 @@ drenag = function(){
           jQuery('.draggable_d6').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_d6').css('top'));
@@ -14785,7 +14785,7 @@ drenag = function(){
           jQuery('.draggable_v0').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v1').css('top'));
@@ -14799,7 +14799,7 @@ drenag = function(){
           jQuery('.draggable_v2').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v2').css('top'));
@@ -14813,7 +14813,7 @@ drenag = function(){
           jQuery('.draggable_v4').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v4').css('top'));
@@ -14827,7 +14827,7 @@ drenag = function(){
           jQuery('.draggable_v5').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v5').css('top'));
@@ -14841,7 +14841,7 @@ drenag = function(){
           jQuery('.draggable_v-').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v-').css('top'));
@@ -14856,7 +14856,7 @@ drenag = function(){
           jQuery('.draggable_v0').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v0').css('top'));
@@ -14870,7 +14870,7 @@ drenag = function(){
           jQuery('.draggable_v2').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v2').css('top'));
@@ -14884,7 +14884,7 @@ drenag = function(){
           jQuery('.draggable_v4').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v4').css('top'));
@@ -14898,7 +14898,7 @@ drenag = function(){
           jQuery('.draggable_v5').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v5').css('top'));
@@ -14912,7 +14912,7 @@ drenag = function(){
           jQuery('.draggable_v-').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v-').css('top'));
@@ -14927,7 +14927,7 @@ drenag = function(){
           jQuery('.draggable_v0').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v0').css('top'));
@@ -14941,7 +14941,7 @@ drenag = function(){
           jQuery('.draggable_v2').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v2').css('top'));
@@ -14955,7 +14955,7 @@ drenag = function(){
           jQuery('.draggable_v4').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v4').css('top'));
@@ -14969,7 +14969,7 @@ drenag = function(){
           jQuery('.draggable_v5').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v5').css('top'));
@@ -14983,7 +14983,7 @@ drenag = function(){
           jQuery('.draggable_v-').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v-').css('top'));
@@ -14998,7 +14998,7 @@ drenag = function(){
           jQuery('.draggable_v0').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v0').css('top'));
@@ -15012,7 +15012,7 @@ drenag = function(){
           jQuery('.draggable_v2').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v2').css('top'));
@@ -15026,7 +15026,7 @@ drenag = function(){
           jQuery('.draggable_v4').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v4').css('top'));
@@ -15040,7 +15040,7 @@ drenag = function(){
           jQuery('.draggable_v5').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v5').css('top'));
@@ -15054,7 +15054,7 @@ drenag = function(){
           jQuery('.draggable_v-').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v-').css('top'));
@@ -15069,7 +15069,7 @@ drenag = function(){
           jQuery('.draggable_v0').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v0').css('top'));
@@ -15083,7 +15083,7 @@ drenag = function(){
           jQuery('.draggable_v2').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v2').css('top'));
@@ -15097,7 +15097,7 @@ drenag = function(){
           jQuery('.draggable_v4').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v4').css('top'));
@@ -15111,7 +15111,7 @@ drenag = function(){
           jQuery('.draggable_v5').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v5').css('top'));
@@ -15144,7 +15144,7 @@ drenag = function(){
           jQuery('.draggable_v1').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v1').css('top'));
@@ -15158,7 +15158,7 @@ drenag = function(){
           jQuery('.draggable_s2').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_s2').css('top'));
@@ -15172,7 +15172,7 @@ drenag = function(){
           jQuery('.draggable_s3').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_s3').css('top'));
@@ -15186,7 +15186,7 @@ drenag = function(){
           jQuery('.draggable_s4').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_s4').css('top'));
@@ -15200,7 +15200,7 @@ drenag = function(){
           jQuery('.draggable_s5').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_s5').css('top'));
@@ -15214,7 +15214,7 @@ drenag = function(){
           jQuery('.draggable_s6').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_s6').css('top'));
@@ -15229,7 +15229,7 @@ drenag = function(){
           jQuery('.draggable_v1').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v1').css('top'));
@@ -15243,7 +15243,7 @@ drenag = function(){
           jQuery('.draggable_s2').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_s2').css('top'));
@@ -15257,7 +15257,7 @@ drenag = function(){
           jQuery('.draggable_s3').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_s3').css('top'));
@@ -15271,7 +15271,7 @@ drenag = function(){
           jQuery('.draggable_s4').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_s4').css('top'));
@@ -15285,7 +15285,7 @@ drenag = function(){
           jQuery('.draggable_s5').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_s5').css('top'));
@@ -15299,7 +15299,7 @@ drenag = function(){
           jQuery('.draggable_s6').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_s6').css('top'));
@@ -15314,7 +15314,7 @@ drenag = function(){
           jQuery('.draggable_v1').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v1').css('top'));
@@ -15328,7 +15328,7 @@ drenag = function(){
           jQuery('.draggable_s2').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_s2').css('top'));
@@ -15342,7 +15342,7 @@ drenag = function(){
           jQuery('.draggable_s3').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_s3').css('top'));
@@ -15356,7 +15356,7 @@ drenag = function(){
           jQuery('.draggable_s4').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_s4').css('top'));
@@ -15370,7 +15370,7 @@ drenag = function(){
           jQuery('.draggable_s5').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_s5').css('top'));
@@ -15384,7 +15384,7 @@ drenag = function(){
           jQuery('.draggable_s6').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_s6').css('top'));
@@ -15399,7 +15399,7 @@ drenag = function(){
           jQuery('.draggable_v1').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v1').css('top'));
@@ -15413,7 +15413,7 @@ drenag = function(){
           jQuery('.draggable_s2').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_s2').css('top'));
@@ -15427,7 +15427,7 @@ drenag = function(){
           jQuery('.draggable_s3').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_s3').css('top'));
@@ -15441,7 +15441,7 @@ drenag = function(){
           jQuery('.draggable_s4').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_s4').css('top'));
@@ -15455,7 +15455,7 @@ drenag = function(){
           jQuery('.draggable_s5').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_s5').css('top'));
@@ -15469,7 +15469,7 @@ drenag = function(){
           jQuery('.draggable_s6').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_s6').css('top'));
@@ -15502,7 +15502,7 @@ drenag = function(){
           jQuery('.draggable_v1').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v1').css('top'));
@@ -15516,7 +15516,7 @@ drenag = function(){
           jQuery('.draggable_d2').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_d2').css('top'));
@@ -15530,7 +15530,7 @@ drenag = function(){
           jQuery('.draggable_d3').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_d3').css('top'));
@@ -15544,7 +15544,7 @@ drenag = function(){
           jQuery('.draggable_d4').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_d4').css('top'));
@@ -15558,7 +15558,7 @@ drenag = function(){
           jQuery('.draggable_d5').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_d5').css('top'));
@@ -15572,7 +15572,7 @@ drenag = function(){
           jQuery('.draggable_d6').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_d6').css('top'));
@@ -15587,7 +15587,7 @@ drenag = function(){
           jQuery('.draggable_v1').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v1').css('top'));
@@ -15601,7 +15601,7 @@ drenag = function(){
           jQuery('.draggable_d2').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_d2').css('top'));
@@ -15615,7 +15615,7 @@ drenag = function(){
           jQuery('.draggable_d3').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_d3').css('top'));
@@ -15629,7 +15629,7 @@ drenag = function(){
           jQuery('.draggable_d4').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_d4').css('top'));
@@ -15643,7 +15643,7 @@ drenag = function(){
           jQuery('.draggable_d5').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_d5').css('top'));
@@ -15657,7 +15657,7 @@ drenag = function(){
           jQuery('.draggable_d6').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_d6').css('top'));
@@ -15672,7 +15672,7 @@ drenag = function(){
           jQuery('.draggable_v1').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v1').css('top'));
@@ -15686,7 +15686,7 @@ drenag = function(){
           jQuery('.draggable_d2').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_d2').css('top'));
@@ -15700,7 +15700,7 @@ drenag = function(){
           jQuery('.draggable_d3').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_d3').css('top'));
@@ -15714,7 +15714,7 @@ drenag = function(){
           jQuery('.draggable_d4').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_d4').css('top'));
@@ -15728,7 +15728,7 @@ drenag = function(){
           jQuery('.draggable_d5').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_d5').css('top'));
@@ -15742,7 +15742,7 @@ drenag = function(){
           jQuery('.draggable_d6').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_d6').css('top'));
@@ -15757,7 +15757,7 @@ drenag = function(){
           jQuery('.draggable_v1').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v1').css('top'));
@@ -15771,7 +15771,7 @@ drenag = function(){
           jQuery('.draggable_d2').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_d2').css('top'));
@@ -15785,7 +15785,7 @@ drenag = function(){
           jQuery('.draggable_d3').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_d3').css('top'));
@@ -15799,7 +15799,7 @@ drenag = function(){
           jQuery('.draggable_d4').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_d4').css('top'));
@@ -15813,7 +15813,7 @@ drenag = function(){
           jQuery('.draggable_d5').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_d5').css('top'));
@@ -15827,7 +15827,7 @@ drenag = function(){
           jQuery('.draggable_d6').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_d6').css('top'));
@@ -15858,7 +15858,7 @@ drenag = function(){
           jQuery('.draggable_v0').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v1').css('top'));
@@ -15873,7 +15873,7 @@ drenag = function(){
           jQuery('.draggable_v2').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v2').css('top'));
@@ -15887,7 +15887,7 @@ drenag = function(){
           jQuery('.draggable_v4').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v4').css('top'));
@@ -15901,7 +15901,7 @@ drenag = function(){
           jQuery('.draggable_v5').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v5').css('top'));
@@ -15915,7 +15915,7 @@ drenag = function(){
           jQuery('.draggable_v-').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v-').css('top'));
@@ -15930,7 +15930,7 @@ drenag = function(){
           jQuery('.draggable_v0').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v0').css('top'));
@@ -15944,7 +15944,7 @@ drenag = function(){
           jQuery('.draggable_v2').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v2').css('top'));
@@ -15958,7 +15958,7 @@ drenag = function(){
           jQuery('.draggable_v4').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v4').css('top'));
@@ -15972,7 +15972,7 @@ drenag = function(){
           jQuery('.draggable_v5').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v5').css('top'));
@@ -15986,7 +15986,7 @@ drenag = function(){
           jQuery('.draggable_v-').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v-').css('top'));
@@ -16001,7 +16001,7 @@ drenag = function(){
           jQuery('.draggable_v0').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v0').css('top'));
@@ -16015,7 +16015,7 @@ drenag = function(){
           jQuery('.draggable_v2').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v2').css('top'));
@@ -16029,7 +16029,7 @@ drenag = function(){
           jQuery('.draggable_v4').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v4').css('top'));
@@ -16043,7 +16043,7 @@ drenag = function(){
           jQuery('.draggable_v5').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v5').css('top'));
@@ -16057,7 +16057,7 @@ drenag = function(){
           jQuery('.draggable_v-').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v-').css('top'));
@@ -16072,7 +16072,7 @@ drenag = function(){
           jQuery('.draggable_v0').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v0').css('top'));
@@ -16086,7 +16086,7 @@ drenag = function(){
           jQuery('.draggable_v2').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v2').css('top'));
@@ -16100,7 +16100,7 @@ drenag = function(){
           jQuery('.draggable_v4').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v4').css('top'));
@@ -16114,7 +16114,7 @@ drenag = function(){
           jQuery('.draggable_v5').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v5').css('top'));
@@ -16128,7 +16128,7 @@ drenag = function(){
           jQuery('.draggable_v-').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v-').css('top'));
@@ -16143,7 +16143,7 @@ drenag = function(){
           jQuery('.draggable_v0').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v0').css('top'));
@@ -16157,7 +16157,7 @@ drenag = function(){
           jQuery('.draggable_v2').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v2').css('top'));
@@ -16171,7 +16171,7 @@ drenag = function(){
           jQuery('.draggable_v4').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v4').css('top'));
@@ -16185,7 +16185,7 @@ drenag = function(){
           jQuery('.draggable_v5').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v5').css('top'));
@@ -16218,7 +16218,7 @@ drenag = function(){
           jQuery('.draggable_v1').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v1').css('top'));
@@ -16232,7 +16232,7 @@ drenag = function(){
           jQuery('.draggable_s2').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_s2').css('top'));
@@ -16246,7 +16246,7 @@ drenag = function(){
           jQuery('.draggable_s3').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_s3').css('top'));
@@ -16260,7 +16260,7 @@ drenag = function(){
           jQuery('.draggable_s4').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_s4').css('top'));
@@ -16274,7 +16274,7 @@ drenag = function(){
           jQuery('.draggable_s5').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_s5').css('top'));
@@ -16288,7 +16288,7 @@ drenag = function(){
           jQuery('.draggable_s6').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_s6').css('top'));
@@ -16303,7 +16303,7 @@ drenag = function(){
           jQuery('.draggable_v1').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v1').css('top'));
@@ -16317,7 +16317,7 @@ drenag = function(){
           jQuery('.draggable_s2').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_s2').css('top'));
@@ -16331,7 +16331,7 @@ drenag = function(){
           jQuery('.draggable_s3').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_s3').css('top'));
@@ -16345,7 +16345,7 @@ drenag = function(){
           jQuery('.draggable_s4').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_s4').css('top'));
@@ -16359,7 +16359,7 @@ drenag = function(){
           jQuery('.draggable_s5').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_s5').css('top'));
@@ -16373,7 +16373,7 @@ drenag = function(){
           jQuery('.draggable_s6').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_s6').css('top'));
@@ -16387,7 +16387,7 @@ drenag = function(){
           jQuery('.draggable_v1').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.status_percent').text('98%');
@@ -16402,7 +16402,7 @@ drenag = function(){
           jQuery('.draggable_s2').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_s2').css('top'));
@@ -16416,7 +16416,7 @@ drenag = function(){
           jQuery('.draggable_s3').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_s3').css('top'));
@@ -16430,7 +16430,7 @@ drenag = function(){
           jQuery('.draggable_s4').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_s4').css('top'));
@@ -16444,7 +16444,7 @@ drenag = function(){
           jQuery('.draggable_s5').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_s5').css('top'));
@@ -16458,7 +16458,7 @@ drenag = function(){
           jQuery('.draggable_s6').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_s6').css('top'));
@@ -16473,7 +16473,7 @@ drenag = function(){
           jQuery('.draggable_v1').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v1').css('top'));
@@ -16487,7 +16487,7 @@ drenag = function(){
           jQuery('.draggable_s2').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_s2').css('top'));
@@ -16501,7 +16501,7 @@ drenag = function(){
           jQuery('.draggable_s3').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_s3').css('top'));
@@ -16515,7 +16515,7 @@ drenag = function(){
           jQuery('.draggable_s4').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_s4').css('top'));
@@ -16529,7 +16529,7 @@ drenag = function(){
           jQuery('.draggable_s5').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_s5').css('top'));
@@ -16543,7 +16543,7 @@ drenag = function(){
           jQuery('.draggable_s6').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod_1.png) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
           jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_s6').css('top'));
@@ -16598,52 +16598,52 @@ solis = function(){
           jQuery('.draggable_v3').css({
             color: 'transparent',
             transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/disfunction.jpg) 0 0/100% no-repeat',
+            background: '#fff url(/wp-content/themes/mobile/img/disfunction.png) 0 0/100% no-repeat',
             opacity: 0.8
           });
         } else if (count_animation <= 8) {
           jQuery('.draggable_v3').css({
-            background: '#fff url(/wp-content/themes/mobile/img/travma.jpg) 0 0/100% no-repeat'
+            background: '#fff url(/wp-content/themes/mobile/img/travma.png) 0 0/100% no-repeat'
           });
         } else if (count_animation <= 12) {
           jQuery('.draggable_v3').css({
-            background: '#fff url(/wp-content/themes/mobile/img/povregdenie_demona.jpg) 0 0/100% no-repeat'
+            background: '#fff url(/wp-content/themes/mobile/img/povregdenie_demona.png) 0 0/100% no-repeat'
           });
         } else if (count_animation <= 16) {
           jQuery('.draggable_v3').css({
-            background: '#fff url(/wp-content/themes/mobile/img/disfunction.jpg) 0 0/100% no-repeat'
+            background: '#fff url(/wp-content/themes/mobile/img/disfunction.png) 0 0/100% no-repeat'
           });
         } else if (count_animation <= 20) {
           jQuery('.draggable_v3').css({
-            background: '#fff url(/wp-content/themes/mobile/img/travma.jpg) 0 0/100% no-repeat'
+            background: '#fff url(/wp-content/themes/mobile/img/travma.png) 0 0/100% no-repeat'
           });
         } else if (count_animation <= 24) {
           jQuery('.draggable_v3').css({
-            background: '#fff url(/wp-content/themes/mobile/img/povregdenie_demona.jpg) 0 0/100% no-repeat'
+            background: '#fff url(/wp-content/themes/mobile/img/povregdenie_demona.png) 0 0/100% no-repeat'
           });
         } else if (count_animation <= 28) {
           jQuery('.draggable_v3').css({
-            background: '#fff url(/wp-content/themes/mobile/img/disfunction.jpg) 0 0/100% no-repeat'
+            background: '#fff url(/wp-content/themes/mobile/img/disfunction.png) 0 0/100% no-repeat'
           });
         } else if (count_animation <= 32) {
           jQuery('.draggable_v3').css({
-            background: '#fff url(/wp-content/themes/mobile/img/travma.jpg) 0 0/100% no-repeat'
+            background: '#fff url(/wp-content/themes/mobile/img/travma.png) 0 0/100% no-repeat'
           });
         } else if (count_animation <= 36) {
           jQuery('.draggable_v3').css({
-            background: '#fff url(/wp-content/themes/mobile/img/povregdenie_demona.jpg) 0 0/100% no-repeat'
+            background: '#fff url(/wp-content/themes/mobile/img/povregdenie_demona.png) 0 0/100% no-repeat'
           });
         } else if (count_animation <= 40) {
           jQuery('.draggable_v3').css({
-            background: '#fff url(/wp-content/themes/mobile/img/disfunction.jpg) 0 0/100% no-repeat'
+            background: '#fff url(/wp-content/themes/mobile/img/disfunction.png) 0 0/100% no-repeat'
           });
         } else if (count_animation <= 44) {
           jQuery('.draggable_v3').css({
-            background: '#fff url(/wp-content/themes/mobile/img/travma.jpg) 0 0/100% no-repeat'
+            background: '#fff url(/wp-content/themes/mobile/img/travma.png) 0 0/100% no-repeat'
           });
         } else if (count_animation <= 48) {
           jQuery('.draggable_v3').css({
-            background: '#fff url(/wp-content/themes/mobile/img/povregdenie_demona.jpg) 0 0/100% no-repeat'
+            background: '#fff url(/wp-content/themes/mobile/img/povregdenie_demona.png) 0 0/100% no-repeat'
           });
         }
         count_animation += 1;
