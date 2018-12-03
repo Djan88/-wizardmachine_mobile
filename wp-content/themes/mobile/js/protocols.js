@@ -30,6 +30,7 @@ var chain,
     endStatus = false;
 
 onEnd = function(){
+  jQuery(this).removeAttr('disabled');
   jQuery('.zone_x, .zone_l, .zone').css('transform', 'rotate(0deg)');
   jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v0').css('top'));
   rotate_one = 0;
@@ -16681,31 +16682,36 @@ mmt = function(){
 
 // START
 jQuery('.btn_start').on('click', function(event) {
-  protocol = localStorage.getItem('protocol');
-  jQuery('.btn-to_endNow').removeClass('hidden');
-  if (protocol == 'v1') {
-    v1();
-    jQuery('.status_title').text('Протокол V1');
-  } else if (protocol == 'v2') {
-    v2();
-    jQuery('.status_title').text('Протокол V2-5');
-  } else if (protocol == 'v3') {
-    v3();
-    jQuery('.status_title').text('Протокол V3-4');
-  } else if (protocol == 'v4') {
-    v4();
-    jQuery('.status_title').text('Протокол V4-3');
-  } else if (protocol == 'v5') {
-    v5();
-    jQuery('.status_title').text('Протокол V5-2');
-  } else if (protocol == 'solis') {
-    solis();
-    jQuery('.status_title').text('Протокол V5-2');
-  } else if (protocol == 'drenag') {
-    drenag();
-    jQuery('.status_title').text('Дренажный протокол');
+  if (jQuery(this).attr('disabled')) {
+
+  } else {
+    protocol = localStorage.getItem('protocol');
+    jQuery('.btn-to_endNow').removeClass('hidden');
+    if (protocol == 'v1') {
+      v1();
+      jQuery('.status_title').text('Протокол V1');
+    } else if (protocol == 'v2') {
+      v2();
+      jQuery('.status_title').text('Протокол V2-5');
+    } else if (protocol == 'v3') {
+      v3();
+      jQuery('.status_title').text('Протокол V3-4');
+    } else if (protocol == 'v4') {
+      v4();
+      jQuery('.status_title').text('Протокол V4-3');
+    } else if (protocol == 'v5') {
+      v5();
+      jQuery('.status_title').text('Протокол V5-2');
+    } else if (protocol == 'solis') {
+      solis();
+      jQuery('.status_title').text('Протокол V5-2');
+    } else if (protocol == 'drenag') {
+      drenag();
+      jQuery('.status_title').text('Дренажный протокол');
+    }
+    jQuery('.header-title').text('Программа выполняется');
+    jQuery(this).attr('disabled');
   }
-  jQuery('.header-title').text('Программа выполняется');
 });
 // STOP
 function hideNote() {
