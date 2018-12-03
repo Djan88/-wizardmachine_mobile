@@ -30,7 +30,7 @@ var chain,
     endStatus = false;
 
 onEnd = function(){
-  jQuery(this).removeAttr('disabled');
+  jQuery('.btn_start').removeAttr('disabled');
   jQuery('.zone_x, .zone_l, .zone').css('transform', 'rotate(0deg)');
   jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v0').css('top'));
   rotate_one = 0;
@@ -16710,7 +16710,7 @@ jQuery('.btn_start').on('click', function(event) {
       jQuery('.status_title').text('Дренажный протокол');
     }
     jQuery('.header-title').text('Программа выполняется');
-    jQuery(this).attr('disabled', 'disabled');
+    jQuery('.btn_start').attr('disabled', 'disabled');
   }
 });
 // STOP
