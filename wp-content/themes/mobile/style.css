@@ -243,6 +243,9 @@ span.menu_item_img
   padding: 0;
   padding-right: 5px;
   padding-bottom: 10px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
 }
 .diagnostic_rezult .loaded_img
 {
