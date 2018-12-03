@@ -68,6 +68,7 @@ onEnd = function(){
   jQuery('.status_pahaze_all').text('0');
 }
 endNow = function(){
+  jQuery('.btn_start').removeAttr('disabled');
   jQuery('.zone_x, .zone_l, .zone').css('transform', 'rotate(0deg)');
   jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v0').css('top'));
   rotate_one = 0;
