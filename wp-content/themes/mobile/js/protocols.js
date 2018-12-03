@@ -16710,7 +16710,7 @@ jQuery('.btn_start').on('click', function(event) {
       jQuery('.status_title').text('Дренажный протокол');
     }
     jQuery('.header-title').text('Программа выполняется');
-    jQuery(this).attr('disabled');
+    jQuery(this).attr('disabled', 'disabled');
   }
 });
 // STOP
