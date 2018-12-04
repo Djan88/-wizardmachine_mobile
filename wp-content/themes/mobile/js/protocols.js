@@ -16665,8 +16665,8 @@ solis = function(){
       }
     }, 1000);
   }).then(function(next) {
-    r_top = jQuery('.draggable_v2').css('top');
-    l_top = jQuery('.draggable_v4').css('top');
+    r_top = jQuery('.draggable_v4').css('top');
+    l_top = jQuery('.draggable_v2').css('top');
 // Фаза 2
     jQuery('.status_percent').text('14%');
     jQuery('.status_pahaze_now').text('2');
@@ -16740,8 +16740,8 @@ solis = function(){
       }
     }, 1000);
   }).then(function(next) {
-    r_top = jQuery('.draggable_v1').css('top');
-    l_top = jQuery('.draggable_v5').css('top');
+    r_top = jQuery('.draggable_v5').css('top');
+    l_top = jQuery('.draggable_v1').css('top');
 // Фаза 3
     jQuery('.status_percent').text('28%');
     jQuery('.status_pahaze_now').text('3');
@@ -16821,8 +16821,8 @@ solis = function(){
       }
     }, 1000);
   }).then(function(next) {
-    r_top = jQuery('.draggable_v1').css('top');
-    l_top = jQuery('.draggable_s6').css('top');
+    r_top = jQuery('.draggable_s6').css('top');
+    l_top = jQuery('.draggable_v1').css('top');
 // Фаза 4.1
     jQuery('.status_percent').text('42%');   
     jQuery('.status_pahaze_now').text('4');
