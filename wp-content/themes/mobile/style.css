@@ -247,6 +247,17 @@ span.menu_item_img
   -moz-user-select: none;
   -ms-user-select: none;
 }
+.col-12.text_center.zone_diag
+{
+  position: relative;
+}
+.paranja
+{
+  width: 100%;
+  position: absolute;
+  height: 100%;
+  top: 0;
+}
 .diagnostic_rezult .loaded_img
 {
   width: 100%;
