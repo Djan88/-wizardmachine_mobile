@@ -248,7 +248,7 @@
 							</div> -->
 						</div>
 						<div class="col-12 text_center zone_diag">
-							<img class="loaded_img" src="" alt="">
+							<img class="loaded_img" src="" alt="" oncontextmenu="return false;">
 						</div>
 						<div class="col-12 text_center">
 							<button class="btn btn-primary btn_start"><i class="fab fa-react"></i> Выполнить</button>
