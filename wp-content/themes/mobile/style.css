@@ -252,6 +252,7 @@ span.menu_item_img
   position: relative;
   -moz-user-select: none;
   -khtml-user-select: none;
+  -webkit-user-select: none;
   user-select: none;
 }
 .paranja
@@ -260,6 +261,10 @@ span.menu_item_img
   position: absolute;
   height: 100%;
   top: 0;
+  -moz-user-select: none;
+  -khtml-user-select: none;
+  -webkit-user-select: none;
+  user-select: none;
 }
 .diagnostic_rezult .loaded_img
 {
