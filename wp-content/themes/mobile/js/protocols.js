@@ -16966,7 +16966,7 @@ solis = function(){
     jQuery('.draggable_v3').css({
       color: 'transparent',
       transform: 'scale(1.3)',
-      background: '#fff url(/wp-content/themes/mobile/img/resurs.png) 0 0/100% no-repeat',
+      background: '#fff url(/wp-content/themes/mobile/img/veter.png) 0 0/100% no-repeat',
       opacity: 0.8
     });
     jQuery('.draggable_v0').css({
