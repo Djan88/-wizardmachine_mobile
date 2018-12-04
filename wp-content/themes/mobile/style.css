@@ -250,6 +250,9 @@ span.menu_item_img
 .col-12.text_center.zone_diag
 {
   position: relative;
+  -moz-user-select: none;
+  -khtml-user-select: none;
+  user-select: none;
 }
 .paranja
 {
