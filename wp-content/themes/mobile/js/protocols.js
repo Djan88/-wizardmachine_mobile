@@ -16668,7 +16668,7 @@ solis = function(){
     r_top = jQuery('.draggable_v4').css('top');
     l_top = jQuery('.draggable_v2').css('top');
 // Фаза 2
-    jQuery('.status_percent').text('14%');
+    jQuery('.status_percent').text('16%');
     jQuery('.status_pahaze_now').text('2');
     jQuery('.zone_x').css('top', l_top);
     jQuery('.zone_l').css('top', r_top);
@@ -16743,7 +16743,7 @@ solis = function(){
     r_top = jQuery('.draggable_v5').css('top');
     l_top = jQuery('.draggable_v1').css('top');
 // Фаза 3
-    jQuery('.status_percent').text('28%');
+    jQuery('.status_percent').text('34%');
     jQuery('.status_pahaze_now').text('3');
     jQuery('.draggable_v-').css({
       color: 'transparent',
@@ -16824,7 +16824,7 @@ solis = function(){
     r_top = jQuery('.draggable_s6').css('top');
     l_top = jQuery('.draggable_v1').css('top');
 // Фаза 4.1
-    jQuery('.status_percent').text('42%');   
+    jQuery('.status_percent').text('50%');   
     jQuery('.status_pahaze_now').text('4');
     jQuery('.draggable_v-').css({
       color: 'transparent',
@@ -16896,7 +16896,7 @@ solis = function(){
             opacity: 1
           });
 // Фаза 4.2
-          jQuery('.status_percent').text('56%');
+          jQuery('.status_percent').text('67%');
           jQuery('.draggable_v1').css({
             background: '#fff url(/wp-content/themes/mobile/img/disfunction.png) 0 0/100% no-repeat'
           });
@@ -16961,7 +16961,7 @@ solis = function(){
     }, 1000);
   }).then(function(next) {
 // Фаза 5
-    jQuery('.status_percent').text('70%');
+    jQuery('.status_percent').text('84%');
     jQuery('.status_pahaze_now').text('5');
     jQuery('.draggable_v3').css({
       color: 'transparent',
@@ -16996,39 +16996,6 @@ solis = function(){
       } else {
         clearInterval(phaseOne);
         jQuery('.draggable_v0, .draggable_v3, .draggable_v-').css({
-          color: '#FFF0C7',
-          transform: 'scale(1)',
-          background: 'rgba(83, 35, 69, 0.4)',
-          opacity: 1
-        });
-        next();
-      }
-    }, 1000);
-  }).then(function(next) {
-    count_animation = 0;
-// Фаза 6
-    jQuery('.status_percent').text('84%');
-    console.log('Фаза 6');
-    phaseOne = setInterval(function(){
-      if (count_animation <= 80){
-        jQuery('.draggable_v5, .draggable_v-, .draggable_v3, .draggable_v0').css({
-          color: 'transparent',
-          transform: 'scale(1.3)',
-          opacity: 0.8
-        });
-        jQuery('.draggable_v5, .draggable_v-').css({
-          background: '#fff url(/wp-content/themes/mobile/img/gold.png) 0 0/100% no-repeat'
-        });
-        jQuery('.draggable_v3').css({
-          background: '#fff url(/wp-content/themes/mobile/img/chisty_vnutri.jpg) 0 0/100% no-repeat'
-        });
-        jQuery('.draggable_v0').css({
-          background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat'
-        });
-        count_animation += 1;
-      } else {
-        clearInterval(phaseOne);
-        jQuery('.draggable_v5, .draggable_v-, .draggable_v3, .draggable_v0').css({
           color: '#FFF0C7',
           transform: 'scale(1)',
           background: 'rgba(83, 35, 69, 0.4)',
