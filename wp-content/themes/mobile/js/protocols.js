@@ -34,6 +34,7 @@ var chain,
 
 // if paused procedure is exist
 if (localStorage.getItem('paused')) {
+  pausedStatus = true;
   swal({
     title: "У Вас есть незавершенный протокол",   
     text: "Хотите продалжить его выполнение?",   
