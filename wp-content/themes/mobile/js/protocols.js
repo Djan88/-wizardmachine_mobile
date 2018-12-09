@@ -91,11 +91,11 @@ onEnd = function(){
   function(isConfirm){
     var protocol = undefined;   
     if (isConfirm) {    
-      jQuery('.mobile_screen').addClass('hidden').css('display', 'none');
-      jQuery('.btn-to_protocols, .btn_man_with_zones, .btn_start').addClass('hidden');
-      jQuery('.mobile_screen_protocols').fadeIn(500);
-      jQuery('.btn-to_mode').removeClass('hidden');
-      jQuery('.header-title').text('Выберите протокол');
+      // jQuery('.mobile_screen').addClass('hidden').css('display', 'none');
+      // jQuery('.btn-to_protocols, .btn_man_with_zones, .btn_start').addClass('hidden');
+      // jQuery('.mobile_screen_protocols').fadeIn(500);
+      // jQuery('.btn-to_mode').removeClass('hidden');
+      // jQuery('.header-title').text('Выберите протокол');
     } else {    
       jQuery(location).attr('href','/');
     } 
@@ -17148,7 +17148,7 @@ jQuery('.btn_start').on('click', function(event) {
   } else if (pausedStatus == true) {
     jQuery('.loaded_img').attr('src', localStorage.getItem('pausedPhoto'));
     console.log(localStorage.getItem('pausedPhoto'));
-    protocolfromMemory = localStorage.getItem('paused')
+    protocolfromMemory = eval(localStorage.getItem('paused'))
     protocolfromMemory();
   } else {
     protocol = localStorage.getItem('protocol');
@@ -17185,11 +17185,11 @@ function hideNote() {
 }
 
 jQuery('.btn-to_endNow').on('click', function(event) {
-  // jQuery('.btn-to_endNow').css('color', 'crimson');
-  // jQuery('.header-title').text('Программа останавливается');
+  jQuery('.btn-to_endNow').css('color', 'crimson');
+  jQuery('.header-title').text('Программа останавливается');
   // endStatus = true;
-  // jQuery('.btn-to_endNow').popover('show');
-  // setTimeout(hideNote, 5000);
+  jQuery('.btn-to_endNow').popover('show');
+  setTimeout(hideNote, 5000);
   localStorage.setItem('pausedPhoto', jQuery('.loaded_img').attr('src'));
   pausedStatus = true;
   console.log('pausedStatus = true');
