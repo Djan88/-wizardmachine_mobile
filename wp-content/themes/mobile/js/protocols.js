@@ -17130,7 +17130,7 @@ mmt1 = function(){
       });
       count_animation = 0;
       if (pausedStatus == true) {
-        localStorage.setItem('paused', mmt2);
+        localStorage.setItem('paused', 'mmt2');
         endNow()
       } else {
         mmt2();
