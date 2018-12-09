@@ -92,11 +92,11 @@ onEnd = function(){
   function(isConfirm){
     var protocol = undefined;   
     if (isConfirm) {    
-      // jQuery('.mobile_screen').addClass('hidden').css('display', 'none');
-      // jQuery('.btn-to_protocols, .btn_man_with_zones, .btn_start').addClass('hidden');
-      // jQuery('.mobile_screen_protocols').fadeIn(500);
-      // jQuery('.btn-to_mode').removeClass('hidden');
-      // jQuery('.header-title').text('Выберите протокол');
+      jQuery('.mobile_screen').addClass('hidden').css('display', 'none');
+      jQuery('.btn-to_protocols, .btn_man_with_zones, .btn_start').addClass('hidden');
+      jQuery('.mobile_screen_protocols').fadeIn(500);
+      jQuery('.btn-to_mode').removeClass('hidden');
+      jQuery('.header-title').text('Выберите протокол');
     } else {    
       jQuery(location).attr('href','/');
     } 
@@ -17063,28 +17063,29 @@ mmt = function(){
 mmt2 = function(){
   jQuery('.status_percent').text('84%');
   jQuery('.status_pahaze_now').text('5');
-  jQuery('.draggable_v3').css({
-    color: 'transparent',
-    transform: 'scale(1.3)',
-    background: '#fff url(/wp-content/themes/mobile/img/veter.png) 0 0/100% no-repeat',
-    opacity: 0.8
-  });
-  jQuery('.draggable_v0').css({
-    color: 'transparent',
-    transform: 'scale(1.3)',
-    background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
-    opacity: 0.8
-  });
-  jQuery('.draggable_v-').css({
-    color: 'transparent',
-    transform: 'scale(1.3)',
-    background: '#fff url(/wp-content/themes/mobile/img/x.png) 0 0/100% no-repeat',
-    opacity: 0.8
-  });
   count_animation = 0;
   phaseOne = setInterval(function(){
     if (count_animation <= 60){
-      if (count_animation > 30 && count_animation < 60) {
+      if (count_animation <= 30) {
+        jQuery('.draggable_v3').css({
+          color: 'transparent',
+          transform: 'scale(1.3)',
+          background: '#fff url(/wp-content/themes/mobile/img/veter.png) 0 0/100% no-repeat',
+          opacity: 0.8
+        });
+        jQuery('.draggable_v0').css({
+          color: 'transparent',
+          transform: 'scale(1.3)',
+          background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+          opacity: 0.8
+        });
+        jQuery('.draggable_v-').css({
+          color: 'transparent',
+          transform: 'scale(1.3)',
+          background: '#fff url(/wp-content/themes/mobile/img/x.png) 0 0/100% no-repeat',
+          opacity: 0.8
+        });
+      } else if (count_animation > 30 && count_animation < 60) {
         jQuery('.draggable_v3').css({
           color: 'transparent',
           transform: 'scale(1.3)',
@@ -17111,16 +17112,17 @@ mmt2 = function(){
 mmt1 = function(){
   jQuery('.status_percent').text('1%');
   jQuery('.status_pahaze_now').text('1');
-  jQuery('.draggable_v3').css({
-    color: 'transparent',
-    transform: 'scale(1.3)',
-    background: '#fff url(/wp-content/themes/mobile/img/veter.png) 0 0/100% no-repeat',
-    opacity: 0.8
-  });
   count_animation = 0;
   phaseOne = setInterval(function(){
     if (count_animation <= 60){
-      if (count_animation > 30 && count_animation < 60) {
+      if (count_animation <= 30) {
+        jQuery('.draggable_v3').css({
+          color: 'transparent',
+          transform: 'scale(1.3)',
+          background: '#fff url(/wp-content/themes/mobile/img/veter.png) 0 0/100% no-repeat',
+          opacity: 0.8
+        });
+      } else if (count_animation > 30 && count_animation < 60) {
         jQuery('.draggable_v3').css({
           color: 'transparent',
           transform: 'scale(1.3)',
