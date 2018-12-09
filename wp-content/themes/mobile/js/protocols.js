@@ -50,8 +50,9 @@ if (localStorage.getItem('paused')) {
       jQuery('.header-title').text('Перенесите зоны на фото');
       jQuery('.mobile_screen_protocols').addClass('hidden').css('display', 'none');
       jQuery('.mobile_screen_load').addClass('hidden').css('display', 'none');
+      jQuery('.mobile_screen_what_way').addClass('hidden').css('display', 'none');
       jQuery('.mobile_screen_final').fadeIn(500);
-      jQuery('.btn-to_mode, .btn-to_manual').addClass('hidden');
+      jQuery('.btn-to_mode, .btn-to_manual, .btn-to_protocols, .btn-to_img').addClass('hidden');
       jQuery('.btn-to_protocols, .btn_man_with_zones, .btn_start').removeClass('hidden');
       jQuery('.zone_final').css('height', jQuery('.zone_final').css('width'));
       jQuery('.loaded_img').attr('src', localStorage.getItem('pausedPhoto'));
