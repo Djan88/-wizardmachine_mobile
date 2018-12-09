@@ -17156,6 +17156,7 @@ mmt1 = function(){
 
 // START
 jQuery('.btn_start').on('click', function(event) {
+  jQuery('.btn-to_endNow').removeClass('hidden');
   if (jQuery(this).attr('disabled')) {
 
   } else if (pausedStatus == true) {
