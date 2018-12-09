@@ -17172,6 +17172,9 @@ jQuery('.btn_start').on('click', function(event) {
       solis();
       jQuery('.status_title').text('Протокол V5-2');
     } else if (protocol == 'drenag') {
+      drenag();
+      jQuery('.status_title').text('Дренажный протокол');
+    } else if (protocol == 'visceral') {
       mmt1();
       jQuery('.status_title').text('Дренажный протокол');
     }
