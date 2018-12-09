@@ -56,6 +56,7 @@ if (localStorage.getItem('paused')) {
       jQuery('.btn-to_protocols, .btn_man_with_zones, .btn_start').removeClass('hidden');
       jQuery('.zone_final').css('height', jQuery('.zone_final').css('width'));
       jQuery('.loaded_img').attr('src', localStorage.getItem('pausedPhoto'));
+      protocolfromMemory = eval(localStorage.getItem('paused'))
     } else {    
       jQuery(location).attr('href','/');
       localStorage.removeItem('paused');
@@ -127,8 +128,8 @@ endNow = function(){
     cancelButtonText: "К Началу"
   },
   function(isConfirm){
-    var protocol = undefined; 
-    jQuery('.btn-to_endNow').addClass('hidden');
+    // var protocol = undefined; 
+    // jQuery('.btn-to_endNow').addClass('hidden');
     endStatus == false;  
     if (isConfirm) {    
       
@@ -17159,7 +17160,6 @@ jQuery('.btn_start').on('click', function(event) {
   } else if (pausedStatus == true) {
     jQuery('.loaded_img').attr('src', localStorage.getItem('pausedPhoto'));
     console.log(localStorage.getItem('pausedPhoto'));
-    protocolfromMemory = eval(localStorage.getItem('paused'))
     protocolfromMemory();
     localStorage.removeItem('paused');
     localStorage.removeItem('pausedPhoto');
