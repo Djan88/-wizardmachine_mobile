@@ -17,7 +17,9 @@ var chain,
     x4,
     x5,
     x6,
+    pausedStatus = false,
     protocol,
+    protocolfromMemory,
     protocolName,
     phaseOne,
     count_animation = 0,
@@ -39,6 +41,9 @@ onEnd = function(){
   rotate_four = 0;
   rotate_lovushka = 0;
   count_animation = 0;
+  localStorage.removeItem('paused');
+  localStorage.removeItem('pausedPhoto');
+  pausedStatus = false;
 
   protocolName = localStorage.getItem('protocolName');
   swal({
@@ -85,7 +90,7 @@ endNow = function(){
     showCancelButton: true,   
     confirmButtonColor: "#DD6B55",   
     confirmButtonText: "Другой протокол",   
-    cancelButtonText: "Новый клиент"
+    cancelButtonText: "К Началу"
   },
   function(isConfirm){
     var protocol = undefined; 
@@ -109,7 +114,7 @@ chain = function (callback) {
 
   function _next() {
       if (endStatus == true) {
-        endNow();
+        // endNow();
         return;
       } else {
         cb = queue.shift();
@@ -17024,10 +17029,94 @@ mmt = function(){
   });
 }
 
+
+mmt2 = function(){
+  jQuery('.status_percent').text('2%');
+  jQuery('.status_pahaze_now').text('2');
+  jQuery('.draggable_v3').css({
+    color: 'transparent',
+    transform: 'scale(1.3)',
+    background: '#fff url(/wp-content/themes/mobile/img/veter.png) 0 0/100% no-repeat',
+    opacity: 0.8
+  });
+  count_animation = 0;
+  phaseOne = setInterval(function(){
+    if (count_animation <= 60){
+      if (count_animation > 30 && count_animation < 60) {
+        jQuery('.draggable_v3').css({
+          color: 'transparent',
+          transform: 'scale(1.3)',
+          background: '#fff url(/wp-content/themes/mobile/img/power.png) 0 0/100% no-repeat',
+          opacity: 0.8
+        });
+      }
+      count_animation += 1;
+    } else {
+      clearInterval(phaseOne);
+      jQuery('.draggable_v3').css({
+        color: '#FFF0C7',
+        transform: 'scale(1)',
+        background: 'rgba(83, 35, 69, 0.4)',
+        opacity: 1
+      });
+      count_animation = 0;
+      jQuery('.status_percent').text('100%');
+      onEnd();
+    }
+  }, 1000);
+}
+
+mmt1 = function(){
+  jQuery('.status_percent').text('1%');
+  jQuery('.status_pahaze_now').text('1');
+  jQuery('.draggable_v3').css({
+    color: 'transparent',
+    transform: 'scale(1.3)',
+    background: '#fff url(/wp-content/themes/mobile/img/veter.png) 0 0/100% no-repeat',
+    opacity: 0.8
+  });
+  count_animation = 0;
+  phaseOne = setInterval(function(){
+    if (count_animation <= 60){
+      if (count_animation > 30 && count_animation < 60) {
+        jQuery('.draggable_v3').css({
+          color: 'transparent',
+          transform: 'scale(1.3)',
+          background: '#fff url(/wp-content/themes/mobile/img/power.png) 0 0/100% no-repeat',
+          opacity: 0.8
+        });
+      }
+      count_animation += 1;
+    } else {
+      clearInterval(phaseOne);
+      jQuery('.draggable_v3').css({
+        color: '#FFF0C7',
+        transform: 'scale(1)',
+        background: 'rgba(83, 35, 69, 0.4)',
+        opacity: 1
+      });
+      count_animation = 0;
+      if (pausedStatus == true) {
+        localStorage.setItem('paused', mmt2);
+        endNow()
+      } else {
+        mmt2();
+      }
+    }
+  }, 1000);
+}
+
+
+
 // START
 jQuery('.btn_start').on('click', function(event) {
   if (jQuery(this).attr('disabled')) {
 
+  } else if (pausedStatus == true;) {
+    jQuery('.loaded_img').attr('src', localStorage.getItem('pausedPhoto'));
+    console.log(localStorage.getItem('pausedPhoto'));
+    protocolfromMemory = localStorage.getItem('paused')
+    protocolfromMemory();
   } else {
     protocol = localStorage.getItem('protocol');
     jQuery('.btn-to_endNow').removeClass('hidden');
@@ -17050,7 +17139,7 @@ jQuery('.btn_start').on('click', function(event) {
       solis();
       jQuery('.status_title').text('Протокол V5-2');
     } else if (protocol == 'drenag') {
-      drenag();
+      mmt1();
       jQuery('.status_title').text('Дренажный протокол');
     }
     jQuery('.header-title').text('Программа выполняется');
@@ -17061,10 +17150,14 @@ jQuery('.btn_start').on('click', function(event) {
 function hideNote() {
   jQuery('.btn-to_endNow').popover('hide');
 }
+
 jQuery('.btn-to_endNow').on('click', function(event) {
-  jQuery('.btn-to_endNow').css('color', 'crimson');
-  jQuery('.header-title').text('Программа останавливается');
-  endStatus = true;
-  jQuery('.btn-to_endNow').popover('show');
-  setTimeout(hideNote, 5000);
+  // jQuery('.btn-to_endNow').css('color', 'crimson');
+  // jQuery('.header-title').text('Программа останавливается');
+  // endStatus = true;
+  // jQuery('.btn-to_endNow').popover('show');
+  // setTimeout(hideNote, 5000);
+  localStorage.setItem('pausedPhoto', jQuery('.loaded_img').attr('src'));
+  pausedStatus = true;
+  console.log('pausedStatus = true');
 });
