@@ -130,11 +130,7 @@ endNow = function(){
     jQuery('.btn-to_endNow').addClass('hidden');
     endStatus == false;  
     if (isConfirm) {    
-      jQuery('.mobile_screen').addClass('hidden').css('display', 'none');
-      jQuery('.btn-to_protocols, .btn_man_with_zones, .btn_start').addClass('hidden');
-      jQuery('.mobile_screen_protocols').fadeIn(500);
-      jQuery('.btn-to_mode').removeClass('hidden');
-      jQuery('.header-title').text('Выберите протокол');
+      
     } else {    
       jQuery(location).attr('href','/');
     } 
@@ -17064,12 +17060,24 @@ mmt = function(){
 
 
 mmt2 = function(){
-  jQuery('.status_percent').text('2%');
-  jQuery('.status_pahaze_now').text('2');
+  jQuery('.status_percent').text('84%');
+  jQuery('.status_pahaze_now').text('5');
   jQuery('.draggable_v3').css({
     color: 'transparent',
     transform: 'scale(1.3)',
     background: '#fff url(/wp-content/themes/mobile/img/veter.png) 0 0/100% no-repeat',
+    opacity: 0.8
+  });
+  jQuery('.draggable_v0').css({
+    color: 'transparent',
+    transform: 'scale(1.3)',
+    background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+    opacity: 0.8
+  });
+  jQuery('.draggable_v-').css({
+    color: 'transparent',
+    transform: 'scale(1.3)',
+    background: '#fff url(/wp-content/themes/mobile/img/x.png) 0 0/100% no-repeat',
     opacity: 0.8
   });
   count_animation = 0;
@@ -17086,7 +17094,7 @@ mmt2 = function(){
       count_animation += 1;
     } else {
       clearInterval(phaseOne);
-      jQuery('.draggable_v3').css({
+      jQuery('.draggable_v0, .draggable_v3, .draggable_v-').css({
         color: '#FFF0C7',
         transform: 'scale(1)',
         background: 'rgba(83, 35, 69, 0.4)',
@@ -17150,6 +17158,9 @@ jQuery('.btn_start').on('click', function(event) {
     console.log(localStorage.getItem('pausedPhoto'));
     protocolfromMemory = eval(localStorage.getItem('paused'))
     protocolfromMemory();
+    localStorage.removeItem('paused');
+    localStorage.removeItem('pausedPhoto');
+    pausedStatus = false;
   } else {
     protocol = localStorage.getItem('protocol');
     jQuery('.btn-to_endNow').removeClass('hidden');
