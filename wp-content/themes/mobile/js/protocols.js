@@ -58,6 +58,8 @@ if (localStorage.getItem('paused')) {
       jQuery('.zone_final').css('height', jQuery('.zone_final').css('width'));
       jQuery('.loaded_img').attr('src', localStorage.getItem('pausedPhoto'));
       protocolfromMemory = eval(localStorage.getItem('paused'))
+      jQuery('.btn-to_endNow').css('color', '#fff');
+      jQuery('.header-title').text('Программа выполняется');
     } else {    
       jQuery(location).attr('href','/');
       localStorage.removeItem('paused');
