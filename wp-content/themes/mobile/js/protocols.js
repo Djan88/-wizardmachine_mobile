@@ -49,6 +49,7 @@ if (localStorage.getItem('paused')) {
       jQuery('.btn-to_endNow').css('color', '#fff');
       jQuery('.header-title').text('Перенесите зоны на фото');
       jQuery('.mobile_screen_protocols').addClass('hidden').css('display', 'none');
+      jQuery('.mobile_screen_load').addClass('hidden').css('display', 'none');
       jQuery('.mobile_screen_final').fadeIn(500);
       jQuery('.btn-to_mode, .btn-to_manual').addClass('hidden');
       jQuery('.btn-to_protocols, .btn_man_with_zones, .btn_start').removeClass('hidden');
