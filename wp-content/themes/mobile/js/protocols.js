@@ -37,7 +37,7 @@ if (localStorage.getItem('paused')) {
   swal({
     title: "У Вас есть незавершенный протокол",   
     text: "Хотите продалжить его выполнение?",   
-    type: "success",   
+    type: "info",   
     showCancelButton: true,   
     confirmButtonColor: "#DD6B55",   
     confirmButtonText: "Продолжить",   
