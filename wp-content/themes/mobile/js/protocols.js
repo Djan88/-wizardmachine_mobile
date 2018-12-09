@@ -17112,7 +17112,7 @@ mmt1 = function(){
 jQuery('.btn_start').on('click', function(event) {
   if (jQuery(this).attr('disabled')) {
 
-  } else if (pausedStatus == true;) {
+  } else if (pausedStatus == true) {
     jQuery('.loaded_img').attr('src', localStorage.getItem('pausedPhoto'));
     console.log(localStorage.getItem('pausedPhoto'));
     protocolfromMemory = localStorage.getItem('paused')
