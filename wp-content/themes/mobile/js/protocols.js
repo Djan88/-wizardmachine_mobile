@@ -31,6 +31,38 @@ var chain,
     v1,
     endStatus = false;
 
+
+// if paused procedure is exist
+if (pausedStatus == true) {
+  swal({
+    title: "У Вас есть незавершенный протокол",   
+    text: "Хотите продалжить его выполнение?",   
+    type: "success",   
+    showCancelButton: true,   
+    confirmButtonColor: "#DD6B55",   
+    confirmButtonText: "Продолжить",   
+    cancelButtonText: "Новый клиент"
+  },
+  function(isConfirm){
+    var protocol = undefined;   
+    if (isConfirm) {    
+      jQuery('.btn-to_endNow').css('color', '#fff');
+      jQuery('.header-title').text('Перенесите зоны на фото');
+      jQuery('.mobile_screen_protocols').addClass('hidden').css('display', 'none');
+      jQuery('.mobile_screen_final').fadeIn(500);
+      jQuery('.btn-to_mode, .btn-to_manual').addClass('hidden');
+      jQuery('.btn-to_protocols, .btn_man_with_zones, .btn_start').removeClass('hidden');
+      jQuery('.zone_final').css('height', jQuery('.zone_final').css('width'));
+      jQuery('.loaded_img').attr('src', localStorage.getItem('pausedPhoto'));
+    } else {    
+      jQuery(location).attr('href','/');
+      localStorage.removeItem('paused');
+      localStorage.removeItem('pausedPhoto');
+      pausedStatus = false;
+    } 
+  });
+}
+
 onEnd = function(){
   jQuery('.btn_start').removeAttr('disabled');
   jQuery('.zone_x, .zone_l, .zone').css('transform', 'rotate(0deg)');
@@ -89,7 +121,7 @@ endNow = function(){
     type: "error",   
     showCancelButton: true,   
     confirmButtonColor: "#DD6B55",   
-    confirmButtonText: "Другой протокол",   
+    confirmButtonText: "Продолжить",   
     cancelButtonText: "К Началу"
   },
   function(isConfirm){
