@@ -79,6 +79,9 @@ jQuery(document).ready(function () {
   // final screen show
   jQuery('.choice_protocol').on('click', function(event) {
     endStatus = false;
+    localStorage.removeItem('paused');
+    localStorage.removeItem('pausedPhoto');
+    pausedStatus = false;
     jQuery('.btn-to_endNow').css('color', '#fff');
     jQuery('.header-title').text('Перенесите зоны на фото');
     jQuery('.mobile_screen_protocols').addClass('hidden').css('display', 'none');
