@@ -70,6 +70,7 @@ if (localStorage.getItem('paused')) {
 }
 
 onEnd = function(){
+  jQuery('.btn-to_endNow').addClass('hidden');
   jQuery('.btn_start').removeAttr('disabled');
   jQuery('.zone_x, .zone_l, .zone').css('transform', 'rotate(0deg)');
   jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v0').css('top'));
