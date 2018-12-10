@@ -17194,7 +17194,7 @@ jQuery('.btn_start').on('click', function(event) {
       drenag();
       jQuery('.status_title').text('Дренажный протокол');
     } else if (protocol == 'visceral') {
-      mmt1();
+      mmt();
       jQuery('.status_title').text('Дренажный протокол');
     }
     jQuery('.header-title').text('Программа выполняется');
