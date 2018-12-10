@@ -18,6 +18,8 @@ var chain,
     x5,
     x6,
     pausedStatus = false,
+    pausedProtName,
+    pausedPhases,
     protocol,
     protocolfromMemory,
     protocolName,
@@ -17000,6 +17002,8 @@ solis = function(){
   console.log('Фаза 1');
   jQuery('.status').removeClass('hidden');
   jQuery('.status_pahaze_all').text('5');
+  localStorage.setItem('pausedPhases', '5');
+  localStorage.setItem('pausedProtName', 'Протокол Solis');
   jQuery('.zone_x, .zone_l').removeClass('hidden').css('transform', 'scale(1)');
   r_top = jQuery('.draggable_v3').css('top');
   l_top = jQuery('.draggable_v3').css('top');
@@ -17197,12 +17201,16 @@ jQuery('.btn_start').on('click', function(event) {
 
   } else if (pausedStatus == true) {
     jQuery('.status').removeClass('hidden');
+    jQuery('.status_pahaze_all').text(localStorage.getItem('pausedPhases'));
+    jQuery('.status_title').text(localStorage.getItem('pausedProtName'));
     jQuery('.loaded_img').attr('src', localStorage.getItem('pausedPhoto'));
     console.log(localStorage.getItem('pausedPhoto'));
     protocolfromMemory = eval(localStorage.getItem('paused'))
     protocolfromMemory();
     localStorage.removeItem('paused');
     localStorage.removeItem('pausedPhoto');
+    localStorage.removeItem('pausedPhases');
+    localStorage.removeItem('pausedProtName');
     pausedStatus = false;
     jQuery('.btn-to_endNow').css('color', '#fff');
   } else {
@@ -17225,7 +17233,7 @@ jQuery('.btn_start').on('click', function(event) {
       jQuery('.status_title').text('Протокол V5-2');
     } else if (protocol == 'solis') {
       solis();
-      jQuery('.status_title').text('Протокол V5-2');
+      jQuery('.status_title').text('Протокол Solis');
     } else if (protocol == 'drenag') {
       drenag();
       jQuery('.status_title').text('Дренажный протокол');
