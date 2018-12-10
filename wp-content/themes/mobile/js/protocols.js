@@ -45,10 +45,8 @@ if (localStorage.getItem('paused')) {
     cancelButtonText: "Новый клиент"
   },
   function(isConfirm){
-    var protocol = undefined;   
     if (isConfirm) {    
       jQuery('.btn-to_endNow').css('color', '#fff');
-      jQuery('.header-title').text('Перенесите зоны на фото');
       jQuery('.mobile_screen_protocols').addClass('hidden').css('display', 'none');
       jQuery('.mobile_screen_load').addClass('hidden').css('display', 'none');
       jQuery('.mobile_screen_what_way').addClass('hidden').css('display', 'none');
@@ -17200,10 +17198,12 @@ jQuery('.btn_start').on('click', function(event) {
   } else if (pausedStatus == true) {
     jQuery('.loaded_img').attr('src', localStorage.getItem('pausedPhoto'));
     console.log(localStorage.getItem('pausedPhoto'));
+    protocolfromMemory = eval(localStorage.getItem('paused'))
     protocolfromMemory();
     localStorage.removeItem('paused');
     localStorage.removeItem('pausedPhoto');
     pausedStatus = false;
+    jQuery('.btn-to_endNow').css('color', '#fff');
   } else {
     protocol = localStorage.getItem('protocol');
     jQuery('.btn-to_endNow').removeClass('hidden');
