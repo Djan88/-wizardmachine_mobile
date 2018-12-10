@@ -17196,6 +17196,7 @@ jQuery('.btn_start').on('click', function(event) {
   if (jQuery(this).attr('disabled')) {
 
   } else if (pausedStatus == true) {
+    jQuery('.status').removeClass('hidden');
     jQuery('.loaded_img').attr('src', localStorage.getItem('pausedPhoto'));
     console.log(localStorage.getItem('pausedPhoto'));
     protocolfromMemory = eval(localStorage.getItem('paused'))
