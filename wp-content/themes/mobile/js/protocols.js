@@ -125,7 +125,7 @@ endNow = function(){
   swal({
     title: "Приостановлено пользователем",   
     text: "Что делать дальше?",   
-    type: "error",   
+    type: "info",   
     showCancelButton: true,   
     confirmButtonColor: "#DD6B55",   
     confirmButtonText: "Продолжить",   
