@@ -4923,6 +4923,8 @@ v2_2 = function(){
 v2 = function(){
   jQuery('.status').removeClass('hidden');
   jQuery('.status_pahaze_all').text('7');
+  localStorage.setItem('pausedPhases', '7');
+  localStorage.setItem('pausedProtName', 'Протокол 2-5');
   jQuery('.status_percent').text('0%');
   jQuery('.status_pahaze_now').text('1');
   jQuery('.zone_x, .zone_l').removeClass('hidden').css('transform', 'scale(1)');
