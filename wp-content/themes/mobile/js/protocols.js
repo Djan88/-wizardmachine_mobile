@@ -64,6 +64,8 @@ if (localStorage.getItem('paused')) {
       jQuery(location).attr('href','/');
       localStorage.removeItem('paused');
       localStorage.removeItem('pausedPhoto');
+      localStorage.removeItem('pausedPhases');
+      localStorage.removeItem('pausedProtName'); 
       pausedStatus = false;
     } 
   });
@@ -139,11 +141,7 @@ endNow = function(){
     endStatus == false;  
     if (isConfirm) {    
       
-    } else {
-      localStorage.removeItem('paused');
-      localStorage.removeItem('pausedPhoto');
-      localStorage.removeItem('pausedPhases');
-      localStorage.removeItem('pausedProtName');  
+    } else { 
       jQuery(location).attr('href','/');
     } 
   });
