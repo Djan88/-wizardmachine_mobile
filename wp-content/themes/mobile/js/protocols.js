@@ -82,6 +82,8 @@ onEnd = function(){
   count_animation = 0;
   localStorage.removeItem('paused');
   localStorage.removeItem('pausedPhoto');
+  localStorage.removeItem('pausedPhases');
+  localStorage.removeItem('pausedProtName');
   pausedStatus = false;
 
   protocolName = localStorage.getItem('protocolName');
@@ -16347,7 +16349,7 @@ drenag = function(){
   jQuery('.status').removeClass('hidden');
   jQuery('.status_pahaze_all').text('12');
   localStorage.setItem('pausedPhases', '12');
-  localStorage.setItem('pausedProtName', 'Протокол Solis');
+  localStorage.setItem('pausedProtName', 'Дренажный протокол');
   jQuery('.zone_x, .zone_l').removeClass('hidden').css('transform', 'scale(1)');
   r_top = jQuery('.draggable_v5').css('top');
   r_bottom = jQuery('.draggable_v-').css('top');
@@ -17211,10 +17213,6 @@ jQuery('.btn_start').on('click', function(event) {
     console.log(localStorage.getItem('pausedPhoto'));
     protocolfromMemory = eval(localStorage.getItem('paused'))
     protocolfromMemory();
-    localStorage.removeItem('paused');
-    localStorage.removeItem('pausedPhoto');
-    localStorage.removeItem('pausedPhases');
-    localStorage.removeItem('pausedProtName');
     pausedStatus = false;
     jQuery('.btn-to_endNow').css('color', '#fff');
   } else {
