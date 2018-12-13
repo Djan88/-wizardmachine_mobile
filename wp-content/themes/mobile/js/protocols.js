@@ -139,7 +139,11 @@ endNow = function(){
     endStatus == false;  
     if (isConfirm) {    
       
-    } else {    
+    } else {
+      localStorage.removeItem('paused');
+      localStorage.removeItem('pausedPhoto');
+      localStorage.removeItem('pausedPhases');
+      localStorage.removeItem('pausedProtName');  
       jQuery(location).attr('href','/');
     } 
   });
