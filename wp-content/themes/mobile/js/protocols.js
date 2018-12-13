@@ -125,7 +125,7 @@ endNow = function(){
   swal({
     title: "Приостановлено пользователем",   
     text: "Что делать дальше?",   
-    type: "info",   
+    type: "info",
     showCancelButton: true,   
     confirmButtonColor: "#DD6B55",   
     confirmButtonText: "Продолжить",   
@@ -12298,4339 +12298,4428 @@ v5 = function(){
 
 drenag = function(){
   chain(function(next) {
-    console.log('Фаза 1');
-    jQuery('.status').removeClass('hidden');
-    jQuery('.status_pahaze_all').text('12');
-    jQuery('.zone_x, .zone_l').removeClass('hidden').css('transform', 'scale(1)');
-    r_top = jQuery('.draggable_v5').css('top');
-    r_bottom = jQuery('.draggable_v-').css('top');
-    l_top = jQuery('.draggable_v0').css('top');
-    l_bottom = jQuery('.draggable_v1').css('top');
-// Фаза 1
-    jQuery('.status_percent').text('0%');
-    jQuery('.status_pahaze_now').text('1');
-    count_animation = 0;
-    phaseOne = setInterval(function(){
-      if (count_animation <= 120){
-        jQuery('.draggable_v3').css({
-          color: 'transparent',
-          transform: 'scale(1.3)',
-          background: '#fff url(/wp-content/themes/mobile/img/edinenie_s_tvorcom.png) 0 0/100% no-repeat',
-          opacity: 0.8
-        });
-        if (count_animation > 0 && count_animation <= 5) {
-          jQuery('.draggable_v1').css({
-            color: 'transparent',
-            transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
-            opacity: 0.8
-          });
-          jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v1').css('top'));
-        } else if (count_animation > 5 && count_animation <= 10) {
-          jQuery('.draggable_v1').css({
-            color: '#FFF0C7',
-            transform: 'scale(1)',
-            background: 'rgba(83, 35, 69, 0.4)',
-            opacity: 1
-          });
-          jQuery('.draggable_d2').css({
-            color: 'transparent',
-            transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
-            opacity: 0.8
-          });
-          jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_d2').css('top'));
-        } else if (count_animation > 10 && count_animation <= 15) {
-          jQuery('.draggable_d2').css({
-            color: '#FFF0C7',
-            transform: 'scale(1)',
-            background: 'rgba(83, 35, 69, 0.4)',
-            opacity: 1
-          });
-          jQuery('.draggable_d3').css({
-            color: 'transparent',
-            transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
-            opacity: 0.8
-          });
-          jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_d3').css('top'));
-        } else if (count_animation > 15 && count_animation <= 20) {
-          jQuery('.draggable_d3').css({
-            color: '#FFF0C7',
-            transform: 'scale(1)',
-            background: 'rgba(83, 35, 69, 0.4)',
-            opacity: 1
-          });
-          jQuery('.draggable_d4').css({
-            color: 'transparent',
-            transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
-            opacity: 0.8
-          });
-          jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_d4').css('top'));
-        } else if (count_animation > 20 && count_animation <= 25) {
-          jQuery('.draggable_d4').css({
-            color: '#FFF0C7',
-            transform: 'scale(1)',
-            background: 'rgba(83, 35, 69, 0.4)',
-            opacity: 1
-          });
-          jQuery('.draggable_d5').css({
-            color: 'transparent',
-            transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
-            opacity: 0.8
-          });
-          jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_d5').css('top'));
-        } else if (count_animation > 25 && count_animation <= 30) {
-          jQuery('.draggable_d5').css({
-            color: '#FFF0C7',
-            transform: 'scale(1)',
-            background: 'rgba(83, 35, 69, 0.4)',
-            opacity: 1
-          });
-          jQuery('.draggable_d6').css({
-            color: 'transparent',
-            transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
-            opacity: 0.8
-          });
-          jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_d6').css('top'));
-        } else if (count_animation > 30 && count_animation <= 35) {
-          jQuery('.draggable_d6').css({
-            color: '#FFF0C7',
-            transform: 'scale(1)',
-            background: 'rgba(83, 35, 69, 0.4)',
-            opacity: 1
-          });
-          jQuery('.status_percent').text('2%');
-          jQuery('.draggable_v1').css({
-            color: 'transparent',
-            transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
-            opacity: 0.8
-          });
-          jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v1').css('top'));
-        } else if (count_animation > 35 && count_animation <= 40) {
-          jQuery('.draggable_v1').css({
-            color: '#FFF0C7',
-            transform: 'scale(1)',
-            background: 'rgba(83, 35, 69, 0.4)',
-            opacity: 1
-          });
-          jQuery('.draggable_d2').css({
-            color: 'transparent',
-            transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
-            opacity: 0.8
-          });
-          jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_d2').css('top'));
-        } else if (count_animation > 40 && count_animation <= 45) {
-          jQuery('.draggable_d2').css({
-            color: '#FFF0C7',
-            transform: 'scale(1)',
-            background: 'rgba(83, 35, 69, 0.4)',
-            opacity: 1
-          });
-          jQuery('.draggable_d3').css({
-            color: 'transparent',
-            transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
-            opacity: 0.8
-          });
-          jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_d3').css('top'));
-        } else if (count_animation > 45 && count_animation <= 50) {
-          jQuery('.draggable_d3').css({
-            color: '#FFF0C7',
-            transform: 'scale(1)',
-            background: 'rgba(83, 35, 69, 0.4)',
-            opacity: 1
-          });
-          jQuery('.draggable_d4').css({
-            color: 'transparent',
-            transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
-            opacity: 0.8
-          });
-          jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_d4').css('top'));
-        } else if (count_animation > 50 && count_animation <= 55) {
-          jQuery('.draggable_d4').css({
-            color: '#FFF0C7',
-            transform: 'scale(1)',
-            background: 'rgba(83, 35, 69, 0.4)',
-            opacity: 1
-          });
-          jQuery('.draggable_d5').css({
-            color: 'transparent',
-            transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
-            opacity: 0.8
-          });
-          jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_d5').css('top'));
-        } else if (count_animation > 55 && count_animation <= 60) {
-          jQuery('.draggable_d5').css({
-            color: '#FFF0C7',
-            transform: 'scale(1)',
-            background: 'rgba(83, 35, 69, 0.4)',
-            opacity: 1
-          });
-          jQuery('.draggable_d6').css({
-            color: 'transparent',
-            transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
-            opacity: 0.8
-          });
-          jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_d6').css('top'));
-        } else if (count_animation > 60 && count_animation <= 65) {
-          jQuery('.draggable_d6').css({
-            color: '#FFF0C7',
-            transform: 'scale(1)',
-            background: 'rgba(83, 35, 69, 0.4)',
-            opacity: 1
-          });
-          jQuery('.status_percent').text('4%');
-          jQuery('.draggable_v1').css({
-            color: 'transparent',
-            transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
-            opacity: 0.8
-          });
-          jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v1').css('top'));
-        } else if (count_animation > 65 && count_animation <= 70) {
-          jQuery('.draggable_v1').css({
-            color: '#FFF0C7',
-            transform: 'scale(1)',
-            background: 'rgba(83, 35, 69, 0.4)',
-            opacity: 1
-          });
-          jQuery('.draggable_d2').css({
-            color: 'transparent',
-            transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
-            opacity: 0.8
-          });
-          jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_d2').css('top'));
-        } else if (count_animation > 70 && count_animation <= 75) {
-          jQuery('.draggable_d2').css({
-            color: '#FFF0C7',
-            transform: 'scale(1)',
-            background: 'rgba(83, 35, 69, 0.4)',
-            opacity: 1
-          });
-          jQuery('.draggable_d3').css({
-            color: 'transparent',
-            transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
-            opacity: 0.8
-          });
-          jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_d3').css('top'));
-        } else if (count_animation > 75 && count_animation <= 80) {
-          jQuery('.draggable_d3').css({
-            color: '#FFF0C7',
-            transform: 'scale(1)',
-            background: 'rgba(83, 35, 69, 0.4)',
-            opacity: 1
-          });
-          jQuery('.draggable_d4').css({
-            color: 'transparent',
-            transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
-            opacity: 0.8
-          });
-          jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_d4').css('top'));
-        } else if (count_animation > 80 && count_animation <= 85) {
-          jQuery('.draggable_d4').css({
-            color: '#FFF0C7',
-            transform: 'scale(1)',
-            background: 'rgba(83, 35, 69, 0.4)',
-            opacity: 1
-          });
-          jQuery('.draggable_d5').css({
-            color: 'transparent',
-            transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
-            opacity: 0.8
-          });
-          jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_d5').css('top'));
-        } else if (count_animation > 85 && count_animation <= 90) {
-          jQuery('.draggable_d5').css({
-            color: '#FFF0C7',
-            transform: 'scale(1)',
-            background: 'rgba(83, 35, 69, 0.4)',
-            opacity: 1
-          });
-          jQuery('.draggable_d6').css({
-            color: 'transparent',
-            transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
-            opacity: 0.8
-          });
-          jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_d6').css('top'));
-        } else if (count_animation > 90 && count_animation <= 95) {
-          jQuery('.draggable_d6').css({
-            color: '#FFF0C7',
-            transform: 'scale(1)',
-            background: 'rgba(83, 35, 69, 0.4)',
-            opacity: 1
-          });
-          jQuery('.status_percent').text('6%');
-          jQuery('.draggable_v1').css({
-            color: 'transparent',
-            transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
-            opacity: 0.8
-          });
-          jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v1').css('top'));
-        } else if (count_animation > 95 && count_animation <= 100) {
-          jQuery('.draggable_v1').css({
-            color: '#FFF0C7',
-            transform: 'scale(1)',
-            background: 'rgba(83, 35, 69, 0.4)',
-            opacity: 1
-          });
-          jQuery('.draggable_d2').css({
-            color: 'transparent',
-            transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
-            opacity: 0.8
-          });
-          jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_d2').css('top'));
-        } else if (count_animation > 100 && count_animation <= 105) {
-          jQuery('.draggable_d2').css({
-            color: '#FFF0C7',
-            transform: 'scale(1)',
-            background: 'rgba(83, 35, 69, 0.4)',
-            opacity: 1
-          });
-          jQuery('.draggable_d3').css({
-            color: 'transparent',
-            transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
-            opacity: 0.8
-          });
-          jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_d3').css('top'));
-        } else if (count_animation > 105 && count_animation <= 110) {
-          jQuery('.draggable_d3').css({
-            color: '#FFF0C7',
-            transform: 'scale(1)',
-            background: 'rgba(83, 35, 69, 0.4)',
-            opacity: 1
-          });
-          jQuery('.draggable_d4').css({
-            color: 'transparent',
-            transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
-            opacity: 0.8
-          });
-          jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_d4').css('top'));
-        } else if (count_animation > 110 && count_animation <= 115) {
-          jQuery('.draggable_d4').css({
-            color: '#FFF0C7',
-            transform: 'scale(1)',
-            background: 'rgba(83, 35, 69, 0.4)',
-            opacity: 1
-          });
-          jQuery('.draggable_d5').css({
-            color: 'transparent',
-            transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
-            opacity: 0.8
-          });
-          jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_d5').css('top'));
-        } else if (count_animation > 115 && count_animation <= 120) {
-          jQuery('.draggable_d5').css({
-            color: '#FFF0C7',
-            transform: 'scale(1)',
-            background: 'rgba(83, 35, 69, 0.4)',
-            opacity: 1
-          });
-          jQuery('.draggable_d6').css({
-            color: 'transparent',
-            transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
-            opacity: 0.8
-          });
-          jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_d6').css('top'));
-        }
-        jQuery('.zone_x').css('transform', 'scale(1.3) rotate('+rotate_one+'deg)');
-        jQuery('.zone_l').css('transform', 'scale(1.3) rotate(-'+rotate_two+'deg)');
-        count_animation += 1;
-        rotate_one += 2;
-        rotate_two += 20;
-      } else {
-        clearInterval(phaseOne);
-        count_animation = 0;
-        next();
-      }
-    }, 1000);
+    
   }).then(function(next) {
 // Фаза 2
-    jQuery('.status_pahaze_now').text('2');
-    phaseOne = setInterval(function(){
-      if (count_animation <= 120){
-        if (count_animation > 0 && count_animation <= 5) {
-          jQuery('.draggable_d6').css({
-            color: '#FFF0C7',
-            transform: 'scale(1)',
-            background: 'rgba(83, 35, 69, 0.4)',
-            opacity: 1
-          });
-          jQuery('.status_percent').text('8%');
-          jQuery('.draggable_v0').css({
-            color: 'transparent',
-            transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
-            opacity: 0.8
-          });
-          jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v1').css('top'));
-        } else if (count_animation > 5 && count_animation <= 10) {
-          jQuery('.draggable_v0').css({
-            color: '#FFF0C7',
-            transform: 'scale(1)',
-            background: 'rgba(83, 35, 69, 0.4)',
-            opacity: 1
-          });
-          jQuery('.draggable_v2').css({
-            color: 'transparent',
-            transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
-            opacity: 0.8
-          });
-          jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v2').css('top'));
-        } else if (count_animation > 10 && count_animation <= 15) {
-          jQuery('.draggable_v2').css({
-            color: '#FFF0C7',
-            transform: 'scale(1)',
-            background: 'rgba(83, 35, 69, 0.4)',
-            opacity: 1
-          });
-          jQuery('.draggable_v4').css({
-            color: 'transparent',
-            transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
-            opacity: 0.8
-          });
-          jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v4').css('top'));
-        } else if (count_animation > 15 && count_animation <= 20) {
-          jQuery('.draggable_v4').css({
-            color: '#FFF0C7',
-            transform: 'scale(1)',
-            background: 'rgba(83, 35, 69, 0.4)',
-            opacity: 1
-          });
-          jQuery('.draggable_v5').css({
-            color: 'transparent',
-            transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
-            opacity: 0.8
-          });
-          jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v5').css('top'));
-        } else if (count_animation > 20 && count_animation <= 25) {
-          jQuery('.draggable_v5').css({
-            color: '#FFF0C7',
-            transform: 'scale(1)',
-            background: 'rgba(83, 35, 69, 0.4)',
-            opacity: 1
-          });
-          jQuery('.draggable_v-').css({
-            color: 'transparent',
-            transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
-            opacity: 0.8
-          });
-          jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v-').css('top'));
-        } else if (count_animation > 25 && count_animation <= 30) {
-          jQuery('.draggable_v-').css({
-            color: '#FFF0C7',
-            transform: 'scale(1)',
-            background: 'rgba(83, 35, 69, 0.4)',
-            opacity: 1
-          });
-          jQuery('.status_percent').text('10%');
-          jQuery('.draggable_v0').css({
-            color: 'transparent',
-            transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
-            opacity: 0.8
-          });
-          jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v0').css('top'));
-        } else if (count_animation > 30 && count_animation <= 35) {
-          jQuery('.draggable_v0').css({
-            color: '#FFF0C7',
-            transform: 'scale(1)',
-            background: 'rgba(83, 35, 69, 0.4)',
-            opacity: 1
-          });
-          jQuery('.draggable_v2').css({
-            color: 'transparent',
-            transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
-            opacity: 0.8
-          });
-          jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v2').css('top'));
-        } else if (count_animation > 35 && count_animation <= 40) {
-          jQuery('.draggable_v2').css({
-            color: '#FFF0C7',
-            transform: 'scale(1)',
-            background: 'rgba(83, 35, 69, 0.4)',
-            opacity: 1
-          });
-          jQuery('.draggable_v4').css({
-            color: 'transparent',
-            transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
-            opacity: 0.8
-          });
-          jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v4').css('top'));
-        } else if (count_animation > 40 && count_animation <= 45) {
-          jQuery('.draggable_v4').css({
-            color: '#FFF0C7',
-            transform: 'scale(1)',
-            background: 'rgba(83, 35, 69, 0.4)',
-            opacity: 1
-          });
-          jQuery('.draggable_v5').css({
-            color: 'transparent',
-            transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
-            opacity: 0.8
-          });
-          jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v5').css('top'));
-        } else if (count_animation > 45 && count_animation <= 50) {
-          jQuery('.draggable_v5').css({
-            color: '#FFF0C7',
-            transform: 'scale(1)',
-            background: 'rgba(83, 35, 69, 0.4)',
-            opacity: 1
-          });
-          jQuery('.draggable_v-').css({
-            color: 'transparent',
-            transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
-            opacity: 0.8
-          });
-          jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v-').css('top'));
-        } else if (count_animation > 50 && count_animation <= 55) {
-          jQuery('.draggable_v-').css({
-            color: '#FFF0C7',
-            transform: 'scale(1)',
-            background: 'rgba(83, 35, 69, 0.4)',
-            opacity: 1
-          });
-          jQuery('.status_percent').text('12%');
-          jQuery('.draggable_v0').css({
-            color: 'transparent',
-            transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
-            opacity: 0.8
-          });
-          jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v0').css('top'));
-        } else if (count_animation > 55 && count_animation <= 60) {
-          jQuery('.draggable_v0').css({
-            color: '#FFF0C7',
-            transform: 'scale(1)',
-            background: 'rgba(83, 35, 69, 0.4)',
-            opacity: 1
-          });
-          jQuery('.draggable_v2').css({
-            color: 'transparent',
-            transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
-            opacity: 0.8
-          });
-          jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v2').css('top'));
-        } else if (count_animation > 60 && count_animation <= 65) {
-          jQuery('.draggable_v2').css({
-            color: '#FFF0C7',
-            transform: 'scale(1)',
-            background: 'rgba(83, 35, 69, 0.4)',
-            opacity: 1
-          });
-          jQuery('.draggable_v4').css({
-            color: 'transparent',
-            transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
-            opacity: 0.8
-          });
-          jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v4').css('top'));
-        } else if (count_animation > 65 && count_animation <= 70) {
-          jQuery('.draggable_v4').css({
-            color: '#FFF0C7',
-            transform: 'scale(1)',
-            background: 'rgba(83, 35, 69, 0.4)',
-            opacity: 1
-          });
-          jQuery('.draggable_v5').css({
-            color: 'transparent',
-            transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
-            opacity: 0.8
-          });
-          jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v5').css('top'));
-        } else if (count_animation > 70 && count_animation <= 75) {
-          jQuery('.draggable_v5').css({
-            color: '#FFF0C7',
-            transform: 'scale(1)',
-            background: 'rgba(83, 35, 69, 0.4)',
-            opacity: 1
-          });
-          jQuery('.draggable_v-').css({
-            color: 'transparent',
-            transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
-            opacity: 0.8
-          });
-          jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v-').css('top'));
-        } else if (count_animation > 75 && count_animation <= 80) {
-          jQuery('.draggable_v-').css({
-            color: '#FFF0C7',
-            transform: 'scale(1)',
-            background: 'rgba(83, 35, 69, 0.4)',
-            opacity: 1
-          });
-          jQuery('.status_percent').text('14%');
-          jQuery('.draggable_v0').css({
-            color: 'transparent',
-            transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
-            opacity: 0.8
-          });
-          jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v0').css('top'));
-        } else if (count_animation > 80 && count_animation <= 85) {
-          jQuery('.draggable_v0').css({
-            color: '#FFF0C7',
-            transform: 'scale(1)',
-            background: 'rgba(83, 35, 69, 0.4)',
-            opacity: 1
-          });
-          jQuery('.draggable_v2').css({
-            color: 'transparent',
-            transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
-            opacity: 0.8
-          });
-          jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v2').css('top'));
-        } else if (count_animation > 85 && count_animation <= 90) {
-          jQuery('.draggable_v2').css({
-            color: '#FFF0C7',
-            transform: 'scale(1)',
-            background: 'rgba(83, 35, 69, 0.4)',
-            opacity: 1
-          });
-          jQuery('.draggable_v4').css({
-            color: 'transparent',
-            transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
-            opacity: 0.8
-          });
-          jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v4').css('top'));
-        } else if (count_animation > 90 && count_animation <= 95) {
-          jQuery('.draggable_v4').css({
-            color: '#FFF0C7',
-            transform: 'scale(1)',
-            background: 'rgba(83, 35, 69, 0.4)',
-            opacity: 1
-          });
-          jQuery('.draggable_v5').css({
-            color: 'transparent',
-            transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
-            opacity: 0.8
-          });
-          jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v5').css('top'));
-        } else if (count_animation > 95 && count_animation <= 100) {
-          jQuery('.draggable_v5').css({
-            color: '#FFF0C7',
-            transform: 'scale(1)',
-            background: 'rgba(83, 35, 69, 0.4)',
-            opacity: 1
-          });
-          jQuery('.draggable_v-').css({
-            color: 'transparent',
-            transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
-            opacity: 0.8
-          });
-          jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v-').css('top'));
-        } else if (count_animation > 100 && count_animation <= 105) {
-          jQuery('.draggable_v-').css({
-            color: '#FFF0C7',
-            transform: 'scale(1)',
-            background: 'rgba(83, 35, 69, 0.4)',
-            opacity: 1
-          });
-          jQuery('.status_percent').text('16%');
-          jQuery('.draggable_v0').css({
-            color: 'transparent',
-            transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
-            opacity: 0.8
-          });
-          jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v0').css('top'));
-        } else if (count_animation > 105 && count_animation <= 110) {
-          jQuery('.draggable_v0').css({
-            color: '#FFF0C7',
-            transform: 'scale(1)',
-            background: 'rgba(83, 35, 69, 0.4)',
-            opacity: 1
-          });
-          jQuery('.draggable_v2').css({
-            color: 'transparent',
-            transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
-            opacity: 0.8
-          });
-          jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v2').css('top'));
-        } else if (count_animation > 110 && count_animation <= 115) {
-          jQuery('.draggable_v2').css({
-            color: '#FFF0C7',
-            transform: 'scale(1)',
-            background: 'rgba(83, 35, 69, 0.4)',
-            opacity: 1
-          });
-          jQuery('.draggable_v4').css({
-            color: 'transparent',
-            transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
-            opacity: 0.8
-          });
-          jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v4').css('top'));
-        } else if (count_animation > 115 && count_animation <= 120) {
-          jQuery('.draggable_v4').css({
-            color: '#FFF0C7',
-            transform: 'scale(1)',
-            background: 'rgba(83, 35, 69, 0.4)',
-            opacity: 1
-          });
-          jQuery('.draggable_v5').css({
-            color: 'transparent',
-            transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
-            opacity: 0.8
-          });
-          jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v5').css('top'));
-        }
-        jQuery('.zone_x').css('transform', 'scale(1.3) rotate('+rotate_one+'deg)');
-        jQuery('.zone_l').css('transform', 'scale(1.3) rotate(-'+rotate_two+'deg)');
-        count_animation += 1;
-        rotate_one += 2;
-        rotate_two += 20;
-      } else {
-        clearInterval(phaseOne);
-        count_animation = 1;
-        next();
-      }
-    }, 1000);
+    
   }).then(function(next) {
 // Фаза 3
-    jQuery('.status_pahaze_now').text('3');
-    count_animation = 0;
-    phaseOne = setInterval(function(){
-      if (count_animation <= 120){
-        if (count_animation > 0 && count_animation <= 5) {
-          jQuery('.draggable_v5').css({
-            color: '#FFF0C7',
-            transform: 'scale(1)',
-            background: 'rgba(83, 35, 69, 0.4)',
-            opacity: 1
-          });
-          jQuery('.status_percent').text('18%');
-          jQuery('.draggable_v1').css({
-            color: 'transparent',
-            transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
-            opacity: 0.8
-          });
-          jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v1').css('top'));
-        } else if (count_animation > 5 && count_animation <= 10) {
-          jQuery('.draggable_v1').css({
-            color: '#FFF0C7',
-            transform: 'scale(1)',
-            background: 'rgba(83, 35, 69, 0.4)',
-            opacity: 1
-          });
-          jQuery('.draggable_s2').css({
-            color: 'transparent',
-            transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
-            opacity: 0.8
-          });
-          jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_s2').css('top'));
-        } else if (count_animation > 10 && count_animation <= 15) {
-          jQuery('.draggable_s2').css({
-            color: '#FFF0C7',
-            transform: 'scale(1)',
-            background: 'rgba(83, 35, 69, 0.4)',
-            opacity: 1
-          });
-          jQuery('.draggable_s3').css({
-            color: 'transparent',
-            transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
-            opacity: 0.8
-          });
-          jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_s3').css('top'));
-        } else if (count_animation > 15 && count_animation <= 20) {
-          jQuery('.draggable_s3').css({
-            color: '#FFF0C7',
-            transform: 'scale(1)',
-            background: 'rgba(83, 35, 69, 0.4)',
-            opacity: 1
-          });
-          jQuery('.draggable_s4').css({
-            color: 'transparent',
-            transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
-            opacity: 0.8
-          });
-          jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_s4').css('top'));
-        } else if (count_animation > 20 && count_animation <= 25) {
-          jQuery('.draggable_s4').css({
-            color: '#FFF0C7',
-            transform: 'scale(1)',
-            background: 'rgba(83, 35, 69, 0.4)',
-            opacity: 1
-          });
-          jQuery('.draggable_s5').css({
-            color: 'transparent',
-            transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
-            opacity: 0.8
-          });
-          jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_s5').css('top'));
-        } else if (count_animation > 25 && count_animation <= 30) {
-          jQuery('.draggable_s5').css({
-            color: '#FFF0C7',
-            transform: 'scale(1)',
-            background: 'rgba(83, 35, 69, 0.4)',
-            opacity: 1
-          });
-          jQuery('.draggable_s6').css({
-            color: 'transparent',
-            transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
-            opacity: 0.8
-          });
-          jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_s6').css('top'));
-        } else if (count_animation > 30 && count_animation <= 35) {
-          jQuery('.draggable_s6').css({
-            color: '#FFF0C7',
-            transform: 'scale(1)',
-            background: 'rgba(83, 35, 69, 0.4)',
-            opacity: 1
-          });
-          jQuery('.status_percent').text('20%');
-          jQuery('.draggable_v1').css({
-            color: 'transparent',
-            transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
-            opacity: 0.8
-          });
-          jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v1').css('top'));
-        } else if (count_animation > 35 && count_animation <= 40) {
-          jQuery('.draggable_v1').css({
-            color: '#FFF0C7',
-            transform: 'scale(1)',
-            background: 'rgba(83, 35, 69, 0.4)',
-            opacity: 1
-          });
-          jQuery('.draggable_s2').css({
-            color: 'transparent',
-            transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
-            opacity: 0.8
-          });
-          jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_s2').css('top'));
-        } else if (count_animation > 40 && count_animation <= 45) {
-          jQuery('.draggable_s2').css({
-            color: '#FFF0C7',
-            transform: 'scale(1)',
-            background: 'rgba(83, 35, 69, 0.4)',
-            opacity: 1
-          });
-          jQuery('.draggable_s3').css({
-            color: 'transparent',
-            transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
-            opacity: 0.8
-          });
-          jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_s3').css('top'));
-        } else if (count_animation > 45 && count_animation <= 50) {
-          jQuery('.draggable_s3').css({
-            color: '#FFF0C7',
-            transform: 'scale(1)',
-            background: 'rgba(83, 35, 69, 0.4)',
-            opacity: 1
-          });
-          jQuery('.draggable_s4').css({
-            color: 'transparent',
-            transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
-            opacity: 0.8
-          });
-          jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_s4').css('top'));
-        } else if (count_animation > 50 && count_animation <= 55) {
-          jQuery('.draggable_s4').css({
-            color: '#FFF0C7',
-            transform: 'scale(1)',
-            background: 'rgba(83, 35, 69, 0.4)',
-            opacity: 1
-          });
-          jQuery('.draggable_s5').css({
-            color: 'transparent',
-            transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
-            opacity: 0.8
-          });
-          jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_s5').css('top'));
-        } else if (count_animation > 55 && count_animation <= 60) {
-          jQuery('.draggable_s5').css({
-            color: '#FFF0C7',
-            transform: 'scale(1)',
-            background: 'rgba(83, 35, 69, 0.4)',
-            opacity: 1
-          });
-          jQuery('.draggable_s6').css({
-            color: 'transparent',
-            transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
-            opacity: 0.8
-          });
-          jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_s6').css('top'));
-        } else if (count_animation > 60 && count_animation <= 65) {
-          jQuery('.draggable_s6').css({
-            color: '#FFF0C7',
-            transform: 'scale(1)',
-            background: 'rgba(83, 35, 69, 0.4)',
-            opacity: 1
-          });
-          jQuery('.status_percent').text('22%');
-          jQuery('.draggable_v1').css({
-            color: 'transparent',
-            transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
-            opacity: 0.8
-          });
-          jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v1').css('top'));
-        } else if (count_animation > 65 && count_animation <= 70) {
-          jQuery('.draggable_v1').css({
-            color: '#FFF0C7',
-            transform: 'scale(1)',
-            background: 'rgba(83, 35, 69, 0.4)',
-            opacity: 1
-          });
-          jQuery('.draggable_s2').css({
-            color: 'transparent',
-            transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
-            opacity: 0.8
-          });
-          jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_s2').css('top'));
-        } else if (count_animation > 70 && count_animation <= 75) {
-          jQuery('.draggable_s2').css({
-            color: '#FFF0C7',
-            transform: 'scale(1)',
-            background: 'rgba(83, 35, 69, 0.4)',
-            opacity: 1
-          });
-          jQuery('.draggable_s3').css({
-            color: 'transparent',
-            transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
-            opacity: 0.8
-          });
-          jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_s3').css('top'));
-        } else if (count_animation > 75 && count_animation <= 80) {
-          jQuery('.draggable_s3').css({
-            color: '#FFF0C7',
-            transform: 'scale(1)',
-            background: 'rgba(83, 35, 69, 0.4)',
-            opacity: 1
-          });
-          jQuery('.draggable_s4').css({
-            color: 'transparent',
-            transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
-            opacity: 0.8
-          });
-          jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_s4').css('top'));
-        } else if (count_animation > 80 && count_animation <= 85) {
-          jQuery('.draggable_s4').css({
-            color: '#FFF0C7',
-            transform: 'scale(1)',
-            background: 'rgba(83, 35, 69, 0.4)',
-            opacity: 1
-          });
-          jQuery('.draggable_s5').css({
-            color: 'transparent',
-            transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
-            opacity: 0.8
-          });
-          jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_s5').css('top'));
-        } else if (count_animation > 85 && count_animation <= 90) {
-          jQuery('.draggable_s5').css({
-            color: '#FFF0C7',
-            transform: 'scale(1)',
-            background: 'rgba(83, 35, 69, 0.4)',
-            opacity: 1
-          });
-          jQuery('.draggable_s6').css({
-            color: 'transparent',
-            transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
-            opacity: 0.8
-          });
-          jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_s6').css('top'));
-        } else if (count_animation > 90 && count_animation <= 95) {
-          jQuery('.draggable_s6').css({
-            color: '#FFF0C7',
-            transform: 'scale(1)',
-            background: 'rgba(83, 35, 69, 0.4)',
-            opacity: 1
-          });
-          jQuery('.status_percent').text('24%');
-          jQuery('.draggable_v1').css({
-            color: 'transparent',
-            transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
-            opacity: 0.8
-          });
-          jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v1').css('top'));
-        } else if (count_animation > 95 && count_animation <= 100) {
-          jQuery('.draggable_v1').css({
-            color: '#FFF0C7',
-            transform: 'scale(1)',
-            background: 'rgba(83, 35, 69, 0.4)',
-            opacity: 1
-          });
-          jQuery('.draggable_s2').css({
-            color: 'transparent',
-            transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
-            opacity: 0.8
-          });
-          jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_s2').css('top'));
-        } else if (count_animation > 100 && count_animation <= 105) {
-          jQuery('.draggable_s2').css({
-            color: '#FFF0C7',
-            transform: 'scale(1)',
-            background: 'rgba(83, 35, 69, 0.4)',
-            opacity: 1
-          });
-          jQuery('.draggable_s3').css({
-            color: 'transparent',
-            transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
-            opacity: 0.8
-          });
-          jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_s3').css('top'));
-        } else if (count_animation > 105 && count_animation <= 110) {
-          jQuery('.draggable_s3').css({
-            color: '#FFF0C7',
-            transform: 'scale(1)',
-            background: 'rgba(83, 35, 69, 0.4)',
-            opacity: 1
-          });
-          jQuery('.draggable_s4').css({
-            color: 'transparent',
-            transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
-            opacity: 0.8
-          });
-          jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_s4').css('top'));
-        } else if (count_animation > 110 && count_animation <= 115) {
-          jQuery('.draggable_s4').css({
-            color: '#FFF0C7',
-            transform: 'scale(1)',
-            background: 'rgba(83, 35, 69, 0.4)',
-            opacity: 1
-          });
-          jQuery('.draggable_s5').css({
-            color: 'transparent',
-            transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
-            opacity: 0.8
-          });
-          jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_s5').css('top'));
-        } else if (count_animation > 115 && count_animation <= 120) {
-          jQuery('.draggable_s5').css({
-            color: '#FFF0C7',
-            transform: 'scale(1)',
-            background: 'rgba(83, 35, 69, 0.4)',
-            opacity: 1
-          });
-          jQuery('.draggable_s6').css({
-            color: 'transparent',
-            transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
-            opacity: 0.8
-          });
-          jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_s6').css('top'));
-        }
-        jQuery('.zone_x').css('transform', 'scale(1.3) rotate('+rotate_one+'deg)');
-        jQuery('.zone_l').css('transform', 'scale(1.3) rotate(-'+rotate_two+'deg)');
-        count_animation += 1;
-        rotate_one += 2;
-        rotate_two += 20;
-      } else {
-        clearInterval(phaseOne);
-        count_animation = 0;
-        next();
-      }
-    }, 1000);
+    
   }).then(function(next) {
 // Фаза 4
-    jQuery('.status_pahaze_now').text('4');
-    count_animation = 0;
-    phaseOne = setInterval(function(){
-      if (count_animation <= 120){
-        if (count_animation > 0 && count_animation <= 5) {
-          jQuery('.draggable_s6').css({
-            color: '#FFF0C7',
-            transform: 'scale(1)',
-            background: 'rgba(83, 35, 69, 0.4)',
-            opacity: 1
-          });
-          jQuery('.status_percent').text('26%');
-          jQuery('.draggable_v1').css({
-            color: 'transparent',
-            transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
-            opacity: 0.8
-          });
-          jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v1').css('top'));
-        } else if (count_animation > 5 && count_animation <= 10) {
-          jQuery('.draggable_v1').css({
-            color: '#FFF0C7',
-            transform: 'scale(1)',
-            background: 'rgba(83, 35, 69, 0.4)',
-            opacity: 1
-          });
-          jQuery('.draggable_d2').css({
-            color: 'transparent',
-            transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
-            opacity: 0.8
-          });
-          jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_d2').css('top'));
-        } else if (count_animation > 10 && count_animation <= 15) {
-          jQuery('.draggable_d2').css({
-            color: '#FFF0C7',
-            transform: 'scale(1)',
-            background: 'rgba(83, 35, 69, 0.4)',
-            opacity: 1
-          });
-          jQuery('.draggable_d3').css({
-            color: 'transparent',
-            transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
-            opacity: 0.8
-          });
-          jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_d3').css('top'));
-        } else if (count_animation > 15 && count_animation <= 20) {
-          jQuery('.draggable_d3').css({
-            color: '#FFF0C7',
-            transform: 'scale(1)',
-            background: 'rgba(83, 35, 69, 0.4)',
-            opacity: 1
-          });
-          jQuery('.draggable_d4').css({
-            color: 'transparent',
-            transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
-            opacity: 0.8
-          });
-          jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_d4').css('top'));
-        } else if (count_animation > 20 && count_animation <= 25) {
-          jQuery('.draggable_d4').css({
-            color: '#FFF0C7',
-            transform: 'scale(1)',
-            background: 'rgba(83, 35, 69, 0.4)',
-            opacity: 1
-          });
-          jQuery('.draggable_d5').css({
-            color: 'transparent',
-            transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
-            opacity: 0.8
-          });
-          jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_d5').css('top'));
-        } else if (count_animation > 25 && count_animation <= 30) {
-          jQuery('.draggable_d5').css({
-            color: '#FFF0C7',
-            transform: 'scale(1)',
-            background: 'rgba(83, 35, 69, 0.4)',
-            opacity: 1
-          });
-          jQuery('.draggable_d6').css({
-            color: 'transparent',
-            transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
-            opacity: 0.8
-          });
-          jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_d6').css('top'));
-        } else if (count_animation > 30 && count_animation <= 35) {
-          jQuery('.draggable_d6').css({
-            color: '#FFF0C7',
-            transform: 'scale(1)',
-            background: 'rgba(83, 35, 69, 0.4)',
-            opacity: 1
-          });
-          jQuery('.status_percent').text('28%');
-          jQuery('.draggable_v1').css({
-            color: 'transparent',
-            transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
-            opacity: 0.8
-          });
-          jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v1').css('top'));
-        } else if (count_animation > 35 && count_animation <= 40) {
-          jQuery('.draggable_v1').css({
-            color: '#FFF0C7',
-            transform: 'scale(1)',
-            background: 'rgba(83, 35, 69, 0.4)',
-            opacity: 1
-          });
-          jQuery('.draggable_d2').css({
-            color: 'transparent',
-            transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
-            opacity: 0.8
-          });
-          jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_d2').css('top'));
-        } else if (count_animation > 40 && count_animation <= 45) {
-          jQuery('.draggable_d2').css({
-            color: '#FFF0C7',
-            transform: 'scale(1)',
-            background: 'rgba(83, 35, 69, 0.4)',
-            opacity: 1
-          });
-          jQuery('.draggable_d3').css({
-            color: 'transparent',
-            transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
-            opacity: 0.8
-          });
-          jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_d3').css('top'));
-        } else if (count_animation > 45 && count_animation <= 50) {
-          jQuery('.draggable_d3').css({
-            color: '#FFF0C7',
-            transform: 'scale(1)',
-            background: 'rgba(83, 35, 69, 0.4)',
-            opacity: 1
-          });
-          jQuery('.draggable_d4').css({
-            color: 'transparent',
-            transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
-            opacity: 0.8
-          });
-          jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_d4').css('top'));
-        } else if (count_animation > 50 && count_animation <= 55) {
-          jQuery('.draggable_d4').css({
-            color: '#FFF0C7',
-            transform: 'scale(1)',
-            background: 'rgba(83, 35, 69, 0.4)',
-            opacity: 1
-          });
-          jQuery('.draggable_d5').css({
-            color: 'transparent',
-            transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
-            opacity: 0.8
-          });
-          jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_d5').css('top'));
-        } else if (count_animation > 55 && count_animation <= 60) {
-          jQuery('.draggable_d5').css({
-            color: '#FFF0C7',
-            transform: 'scale(1)',
-            background: 'rgba(83, 35, 69, 0.4)',
-            opacity: 1
-          });
-          jQuery('.draggable_d6').css({
-            color: 'transparent',
-            transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
-            opacity: 0.8
-          });
-          jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_d6').css('top'));
-        } else if (count_animation > 60 && count_animation <= 65) {
-          jQuery('.draggable_d6').css({
-            color: '#FFF0C7',
-            transform: 'scale(1)',
-            background: 'rgba(83, 35, 69, 0.4)',
-            opacity: 1
-          });
-          jQuery('.status_percent').text('30%');
-          jQuery('.draggable_v1').css({
-            color: 'transparent',
-            transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
-            opacity: 0.8
-          });
-          jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v1').css('top'));
-        } else if (count_animation > 65 && count_animation <= 70) {
-          jQuery('.draggable_v1').css({
-            color: '#FFF0C7',
-            transform: 'scale(1)',
-            background: 'rgba(83, 35, 69, 0.4)',
-            opacity: 1
-          });
-          jQuery('.draggable_d2').css({
-            color: 'transparent',
-            transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
-            opacity: 0.8
-          });
-          jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_d2').css('top'));
-        } else if (count_animation > 70 && count_animation <= 75) {
-          jQuery('.draggable_d2').css({
-            color: '#FFF0C7',
-            transform: 'scale(1)',
-            background: 'rgba(83, 35, 69, 0.4)',
-            opacity: 1
-          });
-          jQuery('.draggable_d3').css({
-            color: 'transparent',
-            transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
-            opacity: 0.8
-          });
-          jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_d3').css('top'));
-        } else if (count_animation > 75 && count_animation <= 80) {
-          jQuery('.draggable_d3').css({
-            color: '#FFF0C7',
-            transform: 'scale(1)',
-            background: 'rgba(83, 35, 69, 0.4)',
-            opacity: 1
-          });
-          jQuery('.draggable_d4').css({
-            color: 'transparent',
-            transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
-            opacity: 0.8
-          });
-          jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_d4').css('top'));
-        } else if (count_animation > 80 && count_animation <= 85) {
-          jQuery('.draggable_d4').css({
-            color: '#FFF0C7',
-            transform: 'scale(1)',
-            background: 'rgba(83, 35, 69, 0.4)',
-            opacity: 1
-          });
-          jQuery('.draggable_d5').css({
-            color: 'transparent',
-            transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
-            opacity: 0.8
-          });
-          jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_d5').css('top'));
-        } else if (count_animation > 85 && count_animation <= 90) {
-          jQuery('.draggable_d5').css({
-            color: '#FFF0C7',
-            transform: 'scale(1)',
-            background: 'rgba(83, 35, 69, 0.4)',
-            opacity: 1
-          });
-          jQuery('.draggable_d6').css({
-            color: 'transparent',
-            transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
-            opacity: 0.8
-          });
-          jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_d6').css('top'));
-        } else if (count_animation > 90 && count_animation <= 95) {
-          jQuery('.draggable_d6').css({
-            color: '#FFF0C7',
-            transform: 'scale(1)',
-            background: 'rgba(83, 35, 69, 0.4)',
-            opacity: 1
-          });
-          jQuery('.status_percent').text('32%');
-          jQuery('.draggable_v1').css({
-            color: 'transparent',
-            transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
-            opacity: 0.8
-          });
-          jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v1').css('top'));
-        } else if (count_animation > 95 && count_animation <= 100) {
-          jQuery('.draggable_v1').css({
-            color: '#FFF0C7',
-            transform: 'scale(1)',
-            background: 'rgba(83, 35, 69, 0.4)',
-            opacity: 1
-          });
-          jQuery('.draggable_d2').css({
-            color: 'transparent',
-            transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
-            opacity: 0.8
-          });
-          jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_d2').css('top'));
-        } else if (count_animation > 100 && count_animation <= 105) {
-          jQuery('.draggable_d2').css({
-            color: '#FFF0C7',
-            transform: 'scale(1)',
-            background: 'rgba(83, 35, 69, 0.4)',
-            opacity: 1
-          });
-          jQuery('.draggable_d3').css({
-            color: 'transparent',
-            transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
-            opacity: 0.8
-          });
-          jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_d3').css('top'));
-        } else if (count_animation > 105 && count_animation <= 110) {
-          jQuery('.draggable_d3').css({
-            color: '#FFF0C7',
-            transform: 'scale(1)',
-            background: 'rgba(83, 35, 69, 0.4)',
-            opacity: 1
-          });
-          jQuery('.draggable_d4').css({
-            color: 'transparent',
-            transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
-            opacity: 0.8
-          });
-          jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_d4').css('top'));
-        } else if (count_animation > 110 && count_animation <= 115) {
-          jQuery('.draggable_d4').css({
-            color: '#FFF0C7',
-            transform: 'scale(1)',
-            background: 'rgba(83, 35, 69, 0.4)',
-            opacity: 1
-          });
-          jQuery('.draggable_d5').css({
-            color: 'transparent',
-            transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
-            opacity: 0.8
-          });
-          jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_d5').css('top'));
-        } else if (count_animation > 115 && count_animation <= 120) {
-          jQuery('.draggable_d5').css({
-            color: '#FFF0C7',
-            transform: 'scale(1)',
-            background: 'rgba(83, 35, 69, 0.4)',
-            opacity: 1
-          });
-          jQuery('.draggable_d6').css({
-            color: 'transparent',
-            transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
-            opacity: 0.8
-          });
-          jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_d6').css('top'));
-        }
-        jQuery('.zone_x').css('transform', 'scale(1.3) rotate('+rotate_one+'deg)');
-        jQuery('.zone_l').css('transform', 'scale(1.3) rotate(-'+rotate_two+'deg)');
-        count_animation += 1;
-        rotate_one += 2;
-        rotate_two += 20;
-      } else {
-        clearInterval(phaseOne);
-        count_animation = 0;
-        next();
-      }
-    }, 1000);
+    
   }).then(function(next) {
 // Фаза 5
-    jQuery('.status_pahaze_now').text('5');
-    phaseOne = setInterval(function(){
-      if (count_animation <= 120){
-        if (count_animation > 0 && count_animation <= 5) {
-          jQuery('.draggable_d6').css({
-            color: '#FFF0C7',
-            transform: 'scale(1)',
-            background: 'rgba(83, 35, 69, 0.4)',
-            opacity: 1
-          });
-          jQuery('.status_percent').text('34%');
-          jQuery('.draggable_v0').css({
-            color: 'transparent',
-            transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
-            opacity: 0.8
-          });
-          jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v1').css('top'));
-        } else if (count_animation > 5 && count_animation <= 10) {
-          jQuery('.draggable_v0').css({
-            color: '#FFF0C7',
-            transform: 'scale(1)',
-            background: 'rgba(83, 35, 69, 0.4)',
-            opacity: 1
-          });
-          jQuery('.draggable_v2').css({
-            color: 'transparent',
-            transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
-            opacity: 0.8
-          });
-          jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v2').css('top'));
-        } else if (count_animation > 10 && count_animation <= 15) {
-          jQuery('.draggable_v2').css({
-            color: '#FFF0C7',
-            transform: 'scale(1)',
-            background: 'rgba(83, 35, 69, 0.4)',
-            opacity: 1
-          });
-          jQuery('.draggable_v4').css({
-            color: 'transparent',
-            transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
-            opacity: 0.8
-          });
-          jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v4').css('top'));
-        } else if (count_animation > 15 && count_animation <= 20) {
-          jQuery('.draggable_v4').css({
-            color: '#FFF0C7',
-            transform: 'scale(1)',
-            background: 'rgba(83, 35, 69, 0.4)',
-            opacity: 1
-          });
-          jQuery('.draggable_v5').css({
-            color: 'transparent',
-            transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
-            opacity: 0.8
-          });
-          jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v5').css('top'));
-        } else if (count_animation > 20 && count_animation <= 25) {
-          jQuery('.draggable_v5').css({
-            color: '#FFF0C7',
-            transform: 'scale(1)',
-            background: 'rgba(83, 35, 69, 0.4)',
-            opacity: 1
-          });
-          jQuery('.draggable_v-').css({
-            color: 'transparent',
-            transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
-            opacity: 0.8
-          });
-          jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v-').css('top'));
-        } else if (count_animation > 25 && count_animation <= 30) {
-          jQuery('.draggable_v-').css({
-            color: '#FFF0C7',
-            transform: 'scale(1)',
-            background: 'rgba(83, 35, 69, 0.4)',
-            opacity: 1
-          });
-          jQuery('.status_percent').text('36%');
-          jQuery('.draggable_v0').css({
-            color: 'transparent',
-            transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
-            opacity: 0.8
-          });
-          jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v0').css('top'));
-        } else if (count_animation > 30 && count_animation <= 35) {
-          jQuery('.draggable_v0').css({
-            color: '#FFF0C7',
-            transform: 'scale(1)',
-            background: 'rgba(83, 35, 69, 0.4)',
-            opacity: 1
-          });
-          jQuery('.draggable_v2').css({
-            color: 'transparent',
-            transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
-            opacity: 0.8
-          });
-          jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v2').css('top'));
-        } else if (count_animation > 35 && count_animation <= 40) {
-          jQuery('.draggable_v2').css({
-            color: '#FFF0C7',
-            transform: 'scale(1)',
-            background: 'rgba(83, 35, 69, 0.4)',
-            opacity: 1
-          });
-          jQuery('.draggable_v4').css({
-            color: 'transparent',
-            transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
-            opacity: 0.8
-          });
-          jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v4').css('top'));
-        } else if (count_animation > 40 && count_animation <= 45) {
-          jQuery('.draggable_v4').css({
-            color: '#FFF0C7',
-            transform: 'scale(1)',
-            background: 'rgba(83, 35, 69, 0.4)',
-            opacity: 1
-          });
-          jQuery('.draggable_v5').css({
-            color: 'transparent',
-            transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
-            opacity: 0.8
-          });
-          jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v5').css('top'));
-        } else if (count_animation > 45 && count_animation <= 50) {
-          jQuery('.draggable_v5').css({
-            color: '#FFF0C7',
-            transform: 'scale(1)',
-            background: 'rgba(83, 35, 69, 0.4)',
-            opacity: 1
-          });
-          jQuery('.draggable_v-').css({
-            color: 'transparent',
-            transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
-            opacity: 0.8
-          });
-          jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v-').css('top'));
-        } else if (count_animation > 50 && count_animation <= 55) {
-          jQuery('.draggable_v-').css({
-            color: '#FFF0C7',
-            transform: 'scale(1)',
-            background: 'rgba(83, 35, 69, 0.4)',
-            opacity: 1
-          });
-          jQuery('.status_percent').text('38%');
-          jQuery('.draggable_v0').css({
-            color: 'transparent',
-            transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
-            opacity: 0.8
-          });
-          jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v0').css('top'));
-        } else if (count_animation > 55 && count_animation <= 60) {
-          jQuery('.draggable_v0').css({
-            color: '#FFF0C7',
-            transform: 'scale(1)',
-            background: 'rgba(83, 35, 69, 0.4)',
-            opacity: 1
-          });
-          jQuery('.draggable_v2').css({
-            color: 'transparent',
-            transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
-            opacity: 0.8
-          });
-          jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v2').css('top'));
-        } else if (count_animation > 60 && count_animation <= 65) {
-          jQuery('.draggable_v2').css({
-            color: '#FFF0C7',
-            transform: 'scale(1)',
-            background: 'rgba(83, 35, 69, 0.4)',
-            opacity: 1
-          });
-          jQuery('.draggable_v4').css({
-            color: 'transparent',
-            transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
-            opacity: 0.8
-          });
-          jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v4').css('top'));
-        } else if (count_animation > 65 && count_animation <= 70) {
-          jQuery('.draggable_v4').css({
-            color: '#FFF0C7',
-            transform: 'scale(1)',
-            background: 'rgba(83, 35, 69, 0.4)',
-            opacity: 1
-          });
-          jQuery('.draggable_v5').css({
-            color: 'transparent',
-            transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
-            opacity: 0.8
-          });
-          jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v5').css('top'));
-        } else if (count_animation > 70 && count_animation <= 75) {
-          jQuery('.draggable_v5').css({
-            color: '#FFF0C7',
-            transform: 'scale(1)',
-            background: 'rgba(83, 35, 69, 0.4)',
-            opacity: 1
-          });
-          jQuery('.draggable_v-').css({
-            color: 'transparent',
-            transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
-            opacity: 0.8
-          });
-          jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v-').css('top'));
-        } else if (count_animation > 75 && count_animation <= 80) {
-          jQuery('.draggable_v-').css({
-            color: '#FFF0C7',
-            transform: 'scale(1)',
-            background: 'rgba(83, 35, 69, 0.4)',
-            opacity: 1
-          });
-          jQuery('.status_percent').text('40%');
-          jQuery('.draggable_v0').css({
-            color: 'transparent',
-            transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
-            opacity: 0.8
-          });
-          jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v0').css('top'));
-        } else if (count_animation > 80 && count_animation <= 85) {
-          jQuery('.draggable_v0').css({
-            color: '#FFF0C7',
-            transform: 'scale(1)',
-            background: 'rgba(83, 35, 69, 0.4)',
-            opacity: 1
-          });
-          jQuery('.draggable_v2').css({
-            color: 'transparent',
-            transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
-            opacity: 0.8
-          });
-          jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v2').css('top'));
-        } else if (count_animation > 85 && count_animation <= 90) {
-          jQuery('.draggable_v2').css({
-            color: '#FFF0C7',
-            transform: 'scale(1)',
-            background: 'rgba(83, 35, 69, 0.4)',
-            opacity: 1
-          });
-          jQuery('.draggable_v4').css({
-            color: 'transparent',
-            transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
-            opacity: 0.8
-          });
-          jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v4').css('top'));
-        } else if (count_animation > 90 && count_animation <= 95) {
-          jQuery('.draggable_v4').css({
-            color: '#FFF0C7',
-            transform: 'scale(1)',
-            background: 'rgba(83, 35, 69, 0.4)',
-            opacity: 1
-          });
-          jQuery('.draggable_v5').css({
-            color: 'transparent',
-            transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
-            opacity: 0.8
-          });
-          jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v5').css('top'));
-        } else if (count_animation > 95 && count_animation <= 100) {
-          jQuery('.draggable_v5').css({
-            color: '#FFF0C7',
-            transform: 'scale(1)',
-            background: 'rgba(83, 35, 69, 0.4)',
-            opacity: 1
-          });
-          jQuery('.draggable_v-').css({
-            color: 'transparent',
-            transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
-            opacity: 0.8
-          });
-          jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v-').css('top'));
-        } else if (count_animation > 100 && count_animation <= 105) {
-          jQuery('.draggable_v-').css({
-            color: '#FFF0C7',
-            transform: 'scale(1)',
-            background: 'rgba(83, 35, 69, 0.4)',
-            opacity: 1
-          });
-          jQuery('.status_percent').text('42%');
-          jQuery('.draggable_v0').css({
-            color: 'transparent',
-            transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
-            opacity: 0.8
-          });
-          jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v0').css('top'));
-        } else if (count_animation > 105 && count_animation <= 110) {
-          jQuery('.draggable_v0').css({
-            color: '#FFF0C7',
-            transform: 'scale(1)',
-            background: 'rgba(83, 35, 69, 0.4)',
-            opacity: 1
-          });
-          jQuery('.draggable_v2').css({
-            color: 'transparent',
-            transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
-            opacity: 0.8
-          });
-          jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v2').css('top'));
-        } else if (count_animation > 110 && count_animation <= 115) {
-          jQuery('.draggable_v2').css({
-            color: '#FFF0C7',
-            transform: 'scale(1)',
-            background: 'rgba(83, 35, 69, 0.4)',
-            opacity: 1
-          });
-          jQuery('.draggable_v4').css({
-            color: 'transparent',
-            transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
-            opacity: 0.8
-          });
-          jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v4').css('top'));
-        } else if (count_animation > 115 && count_animation <= 120) {
-          jQuery('.draggable_v4').css({
-            color: '#FFF0C7',
-            transform: 'scale(1)',
-            background: 'rgba(83, 35, 69, 0.4)',
-            opacity: 1
-          });
-          jQuery('.draggable_v5').css({
-            color: 'transparent',
-            transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
-            opacity: 0.8
-          });
-          jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v5').css('top'));
-        }
-        jQuery('.zone_x').css('transform', 'scale(1.3) rotate('+rotate_one+'deg)');
-        jQuery('.zone_l').css('transform', 'scale(1.3) rotate(-'+rotate_two+'deg)');
-        count_animation += 1;
-        rotate_one += 2;
-        rotate_two += 20;
-      } else {
-        clearInterval(phaseOne);
-        count_animation = 1;
-        next();
-      }
-    }, 1000);
+    
   }).then(function(next) {
 // Фаза 6
-    jQuery('.status_pahaze_now').text('6');
-    count_animation = 0;
-    phaseOne = setInterval(function(){
-      if (count_animation <= 120){
-        if (count_animation > 0 && count_animation <= 5) {
-          jQuery('.draggable_v5').css({
-            color: '#FFF0C7',
-            transform: 'scale(1)',
-            background: 'rgba(83, 35, 69, 0.4)',
-            opacity: 1
-          });
-          jQuery('.status_percent').text('44%');
-          jQuery('.draggable_v1').css({
-            color: 'transparent',
-            transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
-            opacity: 0.8
-          });
-          jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v1').css('top'));
-        } else if (count_animation > 5 && count_animation <= 10) {
-          jQuery('.draggable_v1').css({
-            color: '#FFF0C7',
-            transform: 'scale(1)',
-            background: 'rgba(83, 35, 69, 0.4)',
-            opacity: 1
-          });
-          jQuery('.draggable_s2').css({
-            color: 'transparent',
-            transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
-            opacity: 0.8
-          });
-          jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_s2').css('top'));
-        } else if (count_animation > 10 && count_animation <= 15) {
-          jQuery('.draggable_s2').css({
-            color: '#FFF0C7',
-            transform: 'scale(1)',
-            background: 'rgba(83, 35, 69, 0.4)',
-            opacity: 1
-          });
-          jQuery('.draggable_s3').css({
-            color: 'transparent',
-            transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
-            opacity: 0.8
-          });
-          jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_s3').css('top'));
-        } else if (count_animation > 15 && count_animation <= 20) {
-          jQuery('.draggable_s3').css({
-            color: '#FFF0C7',
-            transform: 'scale(1)',
-            background: 'rgba(83, 35, 69, 0.4)',
-            opacity: 1
-          });
-          jQuery('.draggable_s4').css({
-            color: 'transparent',
-            transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
-            opacity: 0.8
-          });
-          jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_s4').css('top'));
-        } else if (count_animation > 20 && count_animation <= 25) {
-          jQuery('.draggable_s4').css({
-            color: '#FFF0C7',
-            transform: 'scale(1)',
-            background: 'rgba(83, 35, 69, 0.4)',
-            opacity: 1
-          });
-          jQuery('.draggable_s5').css({
-            color: 'transparent',
-            transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
-            opacity: 0.8
-          });
-          jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_s5').css('top'));
-        } else if (count_animation > 25 && count_animation <= 30) {
-          jQuery('.draggable_s5').css({
-            color: '#FFF0C7',
-            transform: 'scale(1)',
-            background: 'rgba(83, 35, 69, 0.4)',
-            opacity: 1
-          });
-          jQuery('.draggable_s6').css({
-            color: 'transparent',
-            transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
-            opacity: 0.8
-          });
-          jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_s6').css('top'));
-        } else if (count_animation > 30 && count_animation <= 35) {
-          jQuery('.draggable_s6').css({
-            color: '#FFF0C7',
-            transform: 'scale(1)',
-            background: 'rgba(83, 35, 69, 0.4)',
-            opacity: 1
-          });
-          jQuery('.status_percent').text('46%');
-          jQuery('.draggable_v1').css({
-            color: 'transparent',
-            transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
-            opacity: 0.8
-          });
-          jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v1').css('top'));
-        } else if (count_animation > 35 && count_animation <= 40) {
-          jQuery('.draggable_v1').css({
-            color: '#FFF0C7',
-            transform: 'scale(1)',
-            background: 'rgba(83, 35, 69, 0.4)',
-            opacity: 1
-          });
-          jQuery('.draggable_s2').css({
-            color: 'transparent',
-            transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
-            opacity: 0.8
-          });
-          jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_s2').css('top'));
-        } else if (count_animation > 40 && count_animation <= 45) {
-          jQuery('.draggable_s2').css({
-            color: '#FFF0C7',
-            transform: 'scale(1)',
-            background: 'rgba(83, 35, 69, 0.4)',
-            opacity: 1
-          });
-          jQuery('.draggable_s3').css({
-            color: 'transparent',
-            transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
-            opacity: 0.8
-          });
-          jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_s3').css('top'));
-        } else if (count_animation > 45 && count_animation <= 50) {
-          jQuery('.draggable_s3').css({
-            color: '#FFF0C7',
-            transform: 'scale(1)',
-            background: 'rgba(83, 35, 69, 0.4)',
-            opacity: 1
-          });
-          jQuery('.draggable_s4').css({
-            color: 'transparent',
-            transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
-            opacity: 0.8
-          });
-          jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_s4').css('top'));
-        } else if (count_animation > 50 && count_animation <= 55) {
-          jQuery('.draggable_s4').css({
-            color: '#FFF0C7',
-            transform: 'scale(1)',
-            background: 'rgba(83, 35, 69, 0.4)',
-            opacity: 1
-          });
-          jQuery('.draggable_s5').css({
-            color: 'transparent',
-            transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
-            opacity: 0.8
-          });
-          jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_s5').css('top'));
-        } else if (count_animation > 55 && count_animation <= 60) {
-          jQuery('.draggable_s5').css({
-            color: '#FFF0C7',
-            transform: 'scale(1)',
-            background: 'rgba(83, 35, 69, 0.4)',
-            opacity: 1
-          });
-          jQuery('.draggable_s6').css({
-            color: 'transparent',
-            transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
-            opacity: 0.8
-          });
-          jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_s6').css('top'));
-        } else if (count_animation > 60 && count_animation <= 65) {
-          jQuery('.draggable_s6').css({
-            color: '#FFF0C7',
-            transform: 'scale(1)',
-            background: 'rgba(83, 35, 69, 0.4)',
-            opacity: 1
-          });
-          jQuery('.status_percent').text('48%');
-          jQuery('.draggable_v1').css({
-            color: 'transparent',
-            transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
-            opacity: 0.8
-          });
-          jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v1').css('top'));
-        } else if (count_animation > 65 && count_animation <= 70) {
-          jQuery('.draggable_v1').css({
-            color: '#FFF0C7',
-            transform: 'scale(1)',
-            background: 'rgba(83, 35, 69, 0.4)',
-            opacity: 1
-          });
-          jQuery('.draggable_s2').css({
-            color: 'transparent',
-            transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
-            opacity: 0.8
-          });
-          jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_s2').css('top'));
-        } else if (count_animation > 70 && count_animation <= 75) {
-          jQuery('.draggable_s2').css({
-            color: '#FFF0C7',
-            transform: 'scale(1)',
-            background: 'rgba(83, 35, 69, 0.4)',
-            opacity: 1
-          });
-          jQuery('.draggable_s3').css({
-            color: 'transparent',
-            transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
-            opacity: 0.8
-          });
-          jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_s3').css('top'));
-        } else if (count_animation > 75 && count_animation <= 80) {
-          jQuery('.draggable_s3').css({
-            color: '#FFF0C7',
-            transform: 'scale(1)',
-            background: 'rgba(83, 35, 69, 0.4)',
-            opacity: 1
-          });
-          jQuery('.draggable_s4').css({
-            color: 'transparent',
-            transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
-            opacity: 0.8
-          });
-          jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_s4').css('top'));
-        } else if (count_animation > 80 && count_animation <= 85) {
-          jQuery('.draggable_s4').css({
-            color: '#FFF0C7',
-            transform: 'scale(1)',
-            background: 'rgba(83, 35, 69, 0.4)',
-            opacity: 1
-          });
-          jQuery('.draggable_s5').css({
-            color: 'transparent',
-            transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
-            opacity: 0.8
-          });
-          jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_s5').css('top'));
-        } else if (count_animation > 85 && count_animation <= 90) {
-          jQuery('.draggable_s5').css({
-            color: '#FFF0C7',
-            transform: 'scale(1)',
-            background: 'rgba(83, 35, 69, 0.4)',
-            opacity: 1
-          });
-          jQuery('.draggable_s6').css({
-            color: 'transparent',
-            transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
-            opacity: 0.8
-          });
-          jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_s6').css('top'));
-        } else if (count_animation > 90 && count_animation <= 95) {
-          jQuery('.draggable_s6').css({
-            color: '#FFF0C7',
-            transform: 'scale(1)',
-            background: 'rgba(83, 35, 69, 0.4)',
-            opacity: 1
-          });
-          jQuery('.status_percent').text('50%');
-          jQuery('.draggable_v1').css({
-            color: 'transparent',
-            transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
-            opacity: 0.8
-          });
-          jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v1').css('top'));
-        } else if (count_animation > 95 && count_animation <= 100) {
-          jQuery('.draggable_v1').css({
-            color: '#FFF0C7',
-            transform: 'scale(1)',
-            background: 'rgba(83, 35, 69, 0.4)',
-            opacity: 1
-          });
-          jQuery('.draggable_s2').css({
-            color: 'transparent',
-            transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
-            opacity: 0.8
-          });
-          jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_s2').css('top'));
-        } else if (count_animation > 100 && count_animation <= 105) {
-          jQuery('.draggable_s2').css({
-            color: '#FFF0C7',
-            transform: 'scale(1)',
-            background: 'rgba(83, 35, 69, 0.4)',
-            opacity: 1
-          });
-          jQuery('.draggable_s3').css({
-            color: 'transparent',
-            transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
-            opacity: 0.8
-          });
-          jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_s3').css('top'));
-        } else if (count_animation > 105 && count_animation <= 110) {
-          jQuery('.draggable_s3').css({
-            color: '#FFF0C7',
-            transform: 'scale(1)',
-            background: 'rgba(83, 35, 69, 0.4)',
-            opacity: 1
-          });
-          jQuery('.draggable_s4').css({
-            color: 'transparent',
-            transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
-            opacity: 0.8
-          });
-          jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_s4').css('top'));
-        } else if (count_animation > 110 && count_animation <= 115) {
-          jQuery('.draggable_s4').css({
-            color: '#FFF0C7',
-            transform: 'scale(1)',
-            background: 'rgba(83, 35, 69, 0.4)',
-            opacity: 1
-          });
-          jQuery('.draggable_s5').css({
-            color: 'transparent',
-            transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
-            opacity: 0.8
-          });
-          jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_s5').css('top'));
-        } else if (count_animation > 115 && count_animation <= 120) {
-          jQuery('.draggable_s5').css({
-            color: '#FFF0C7',
-            transform: 'scale(1)',
-            background: 'rgba(83, 35, 69, 0.4)',
-            opacity: 1
-          });
-          jQuery('.draggable_s6').css({
-            color: 'transparent',
-            transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
-            opacity: 0.8
-          });
-          jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_s6').css('top'));
-        }
-        jQuery('.zone_x').css('transform', 'scale(1.3) rotate('+rotate_one+'deg)');
-        jQuery('.zone_l').css('transform', 'scale(1.3) rotate(-'+rotate_two+'deg)');
-        count_animation += 1;
-        rotate_one += 2;
-        rotate_two += 20;
-      } else {
-        clearInterval(phaseOne);
-        count_animation = 1;
-        next();
-      }
-    }, 1000);
+    
   }).then(function(next) {
 // Фаза 7
-    jQuery('.status_pahaze_now').text('7');
-    count_animation = 0;
-    phaseOne = setInterval(function(){
-      if (count_animation <= 120){
-        if (count_animation > 0 && count_animation <= 5) {
-          jQuery('.draggable_s6').css({
-            color: '#FFF0C7',
-            transform: 'scale(1)',
-            background: 'rgba(83, 35, 69, 0.4)',
-            opacity: 1
-          });
-          jQuery('.status_percent').text('52%');
-          jQuery('.draggable_v1').css({
-            color: 'transparent',
-            transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
-            opacity: 0.8
-          });
-          jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v1').css('top'));
-        } else if (count_animation > 5 && count_animation <= 10) {
-          jQuery('.draggable_v1').css({
-            color: '#FFF0C7',
-            transform: 'scale(1)',
-            background: 'rgba(83, 35, 69, 0.4)',
-            opacity: 1
-          });
-          jQuery('.draggable_d2').css({
-            color: 'transparent',
-            transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
-            opacity: 0.8
-          });
-          jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_d2').css('top'));
-        } else if (count_animation > 10 && count_animation <= 15) {
-          jQuery('.draggable_d2').css({
-            color: '#FFF0C7',
-            transform: 'scale(1)',
-            background: 'rgba(83, 35, 69, 0.4)',
-            opacity: 1
-          });
-          jQuery('.draggable_d3').css({
-            color: 'transparent',
-            transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
-            opacity: 0.8
-          });
-          jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_d3').css('top'));
-        } else if (count_animation > 15 && count_animation <= 20) {
-          jQuery('.draggable_d3').css({
-            color: '#FFF0C7',
-            transform: 'scale(1)',
-            background: 'rgba(83, 35, 69, 0.4)',
-            opacity: 1
-          });
-          jQuery('.draggable_d4').css({
-            color: 'transparent',
-            transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
-            opacity: 0.8
-          });
-          jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_d4').css('top'));
-        } else if (count_animation > 20 && count_animation <= 25) {
-          jQuery('.draggable_d4').css({
-            color: '#FFF0C7',
-            transform: 'scale(1)',
-            background: 'rgba(83, 35, 69, 0.4)',
-            opacity: 1
-          });
-          jQuery('.draggable_d5').css({
-            color: 'transparent',
-            transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
-            opacity: 0.8
-          });
-          jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_d5').css('top'));
-        } else if (count_animation > 25 && count_animation <= 30) {
-          jQuery('.draggable_d5').css({
-            color: '#FFF0C7',
-            transform: 'scale(1)',
-            background: 'rgba(83, 35, 69, 0.4)',
-            opacity: 1
-          });
-          jQuery('.draggable_d6').css({
-            color: 'transparent',
-            transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
-            opacity: 0.8
-          });
-          jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_d6').css('top'));
-        } else if (count_animation > 30 && count_animation <= 35) {
-          jQuery('.draggable_d6').css({
-            color: '#FFF0C7',
-            transform: 'scale(1)',
-            background: 'rgba(83, 35, 69, 0.4)',
-            opacity: 1
-          });
-          jQuery('.status_percent').text('54%');
-          jQuery('.draggable_v1').css({
-            color: 'transparent',
-            transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
-            opacity: 0.8
-          });
-          jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v1').css('top'));
-        } else if (count_animation > 35 && count_animation <= 40) {
-          jQuery('.draggable_v1').css({
-            color: '#FFF0C7',
-            transform: 'scale(1)',
-            background: 'rgba(83, 35, 69, 0.4)',
-            opacity: 1
-          });
-          jQuery('.draggable_d2').css({
-            color: 'transparent',
-            transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
-            opacity: 0.8
-          });
-          jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_d2').css('top'));
-        } else if (count_animation > 40 && count_animation <= 45) {
-          jQuery('.draggable_d2').css({
-            color: '#FFF0C7',
-            transform: 'scale(1)',
-            background: 'rgba(83, 35, 69, 0.4)',
-            opacity: 1
-          });
-          jQuery('.draggable_d3').css({
-            color: 'transparent',
-            transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
-            opacity: 0.8
-          });
-          jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_d3').css('top'));
-        } else if (count_animation > 45 && count_animation <= 50) {
-          jQuery('.draggable_d3').css({
-            color: '#FFF0C7',
-            transform: 'scale(1)',
-            background: 'rgba(83, 35, 69, 0.4)',
-            opacity: 1
-          });
-          jQuery('.draggable_d4').css({
-            color: 'transparent',
-            transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
-            opacity: 0.8
-          });
-          jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_d4').css('top'));
-        } else if (count_animation > 50 && count_animation <= 55) {
-          jQuery('.draggable_d4').css({
-            color: '#FFF0C7',
-            transform: 'scale(1)',
-            background: 'rgba(83, 35, 69, 0.4)',
-            opacity: 1
-          });
-          jQuery('.draggable_d5').css({
-            color: 'transparent',
-            transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
-            opacity: 0.8
-          });
-          jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_d5').css('top'));
-        } else if (count_animation > 55 && count_animation <= 60) {
-          jQuery('.draggable_d5').css({
-            color: '#FFF0C7',
-            transform: 'scale(1)',
-            background: 'rgba(83, 35, 69, 0.4)',
-            opacity: 1
-          });
-          jQuery('.draggable_d6').css({
-            color: 'transparent',
-            transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
-            opacity: 0.8
-          });
-          jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_d6').css('top'));
-        } else if (count_animation > 60 && count_animation <= 65) {
-          jQuery('.draggable_d6').css({
-            color: '#FFF0C7',
-            transform: 'scale(1)',
-            background: 'rgba(83, 35, 69, 0.4)',
-            opacity: 1
-          });
-          jQuery('.status_percent').text('56%');
-          jQuery('.draggable_v1').css({
-            color: 'transparent',
-            transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
-            opacity: 0.8
-          });
-          jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v1').css('top'));
-        } else if (count_animation > 65 && count_animation <= 70) {
-          jQuery('.draggable_v1').css({
-            color: '#FFF0C7',
-            transform: 'scale(1)',
-            background: 'rgba(83, 35, 69, 0.4)',
-            opacity: 1
-          });
-          jQuery('.draggable_d2').css({
-            color: 'transparent',
-            transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
-            opacity: 0.8
-          });
-          jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_d2').css('top'));
-        } else if (count_animation > 70 && count_animation <= 75) {
-          jQuery('.draggable_d2').css({
-            color: '#FFF0C7',
-            transform: 'scale(1)',
-            background: 'rgba(83, 35, 69, 0.4)',
-            opacity: 1
-          });
-          jQuery('.draggable_d3').css({
-            color: 'transparent',
-            transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
-            opacity: 0.8
-          });
-          jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_d3').css('top'));
-        } else if (count_animation > 75 && count_animation <= 80) {
-          jQuery('.draggable_d3').css({
-            color: '#FFF0C7',
-            transform: 'scale(1)',
-            background: 'rgba(83, 35, 69, 0.4)',
-            opacity: 1
-          });
-          jQuery('.draggable_d4').css({
-            color: 'transparent',
-            transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
-            opacity: 0.8
-          });
-          jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_d4').css('top'));
-        } else if (count_animation > 80 && count_animation <= 85) {
-          jQuery('.draggable_d4').css({
-            color: '#FFF0C7',
-            transform: 'scale(1)',
-            background: 'rgba(83, 35, 69, 0.4)',
-            opacity: 1
-          });
-          jQuery('.draggable_d5').css({
-            color: 'transparent',
-            transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
-            opacity: 0.8
-          });
-          jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_d5').css('top'));
-        } else if (count_animation > 85 && count_animation <= 90) {
-          jQuery('.draggable_d5').css({
-            color: '#FFF0C7',
-            transform: 'scale(1)',
-            background: 'rgba(83, 35, 69, 0.4)',
-            opacity: 1
-          });
-          jQuery('.draggable_d6').css({
-            color: 'transparent',
-            transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
-            opacity: 0.8
-          });
-          jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_d6').css('top'));
-        } else if (count_animation > 90 && count_animation <= 95) {
-          jQuery('.draggable_d6').css({
-            color: '#FFF0C7',
-            transform: 'scale(1)',
-            background: 'rgba(83, 35, 69, 0.4)',
-            opacity: 1
-          });
-          jQuery('.status_percent').text('58%');
-          jQuery('.draggable_v1').css({
-            color: 'transparent',
-            transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
-            opacity: 0.8
-          });
-          jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v1').css('top'));
-        } else if (count_animation > 95 && count_animation <= 100) {
-          jQuery('.draggable_v1').css({
-            color: '#FFF0C7',
-            transform: 'scale(1)',
-            background: 'rgba(83, 35, 69, 0.4)',
-            opacity: 1
-          });
-          jQuery('.draggable_d2').css({
-            color: 'transparent',
-            transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
-            opacity: 0.8
-          });
-          jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_d2').css('top'));
-        } else if (count_animation > 100 && count_animation <= 105) {
-          jQuery('.draggable_d2').css({
-            color: '#FFF0C7',
-            transform: 'scale(1)',
-            background: 'rgba(83, 35, 69, 0.4)',
-            opacity: 1
-          });
-          jQuery('.draggable_d3').css({
-            color: 'transparent',
-            transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
-            opacity: 0.8
-          });
-          jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_d3').css('top'));
-        } else if (count_animation > 105 && count_animation <= 110) {
-          jQuery('.draggable_d3').css({
-            color: '#FFF0C7',
-            transform: 'scale(1)',
-            background: 'rgba(83, 35, 69, 0.4)',
-            opacity: 1
-          });
-          jQuery('.draggable_d4').css({
-            color: 'transparent',
-            transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
-            opacity: 0.8
-          });
-          jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_d4').css('top'));
-        } else if (count_animation > 110 && count_animation <= 115) {
-          jQuery('.draggable_d4').css({
-            color: '#FFF0C7',
-            transform: 'scale(1)',
-            background: 'rgba(83, 35, 69, 0.4)',
-            opacity: 1
-          });
-          jQuery('.draggable_d5').css({
-            color: 'transparent',
-            transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
-            opacity: 0.8
-          });
-          jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_d5').css('top'));
-        } else if (count_animation > 115 && count_animation <= 120) {
-          jQuery('.draggable_d5').css({
-            color: '#FFF0C7',
-            transform: 'scale(1)',
-            background: 'rgba(83, 35, 69, 0.4)',
-            opacity: 1
-          });
-          jQuery('.draggable_d6').css({
-            color: 'transparent',
-            transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
-            opacity: 0.8
-          });
-          jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_d6').css('top'));
-        }
-        jQuery('.zone_x').css('transform', 'scale(1.3) rotate('+rotate_one+'deg)');
-        jQuery('.zone_l').css('transform', 'scale(1.3) rotate(-'+rotate_two+'deg)');
-        count_animation += 1;
-        rotate_one += 2;
-        rotate_two += 20;
-      } else {
-        clearInterval(phaseOne);
-        count_animation = 0;
-        next();
-      }
-    }, 1000);
+    
   }).then(function(next) {
 // Фаза 8
-    jQuery('.status_pahaze_now').text('8');
-    phaseOne = setInterval(function(){
-      if (count_animation <= 120){
-        if (count_animation > 0 && count_animation <= 5) {
-          jQuery('.draggable_d6').css({
-            color: '#FFF0C7',
-            transform: 'scale(1)',
-            background: 'rgba(83, 35, 69, 0.4)',
-            opacity: 1
-          });
-          jQuery('.status_percent').text('60%');
-          jQuery('.draggable_v0').css({
-            color: 'transparent',
-            transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
-            opacity: 0.8
-          });
-          jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v1').css('top'));
-        } else if (count_animation > 5 && count_animation <= 10) {
-          jQuery('.draggable_v0').css({
-            color: '#FFF0C7',
-            transform: 'scale(1)',
-            background: 'rgba(83, 35, 69, 0.4)',
-            opacity: 1
-          });
-          jQuery('.draggable_v2').css({
-            color: 'transparent',
-            transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
-            opacity: 0.8
-          });
-          jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v2').css('top'));
-        } else if (count_animation > 10 && count_animation <= 15) {
-          jQuery('.draggable_v2').css({
-            color: '#FFF0C7',
-            transform: 'scale(1)',
-            background: 'rgba(83, 35, 69, 0.4)',
-            opacity: 1
-          });
-          jQuery('.draggable_v4').css({
-            color: 'transparent',
-            transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
-            opacity: 0.8
-          });
-          jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v4').css('top'));
-        } else if (count_animation > 15 && count_animation <= 20) {
-          jQuery('.draggable_v4').css({
-            color: '#FFF0C7',
-            transform: 'scale(1)',
-            background: 'rgba(83, 35, 69, 0.4)',
-            opacity: 1
-          });
-          jQuery('.draggable_v5').css({
-            color: 'transparent',
-            transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
-            opacity: 0.8
-          });
-          jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v5').css('top'));
-        } else if (count_animation > 20 && count_animation <= 25) {
-          jQuery('.draggable_v5').css({
-            color: '#FFF0C7',
-            transform: 'scale(1)',
-            background: 'rgba(83, 35, 69, 0.4)',
-            opacity: 1
-          });
-          jQuery('.draggable_v-').css({
-            color: 'transparent',
-            transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
-            opacity: 0.8
-          });
-          jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v-').css('top'));
-        } else if (count_animation > 25 && count_animation <= 30) {
-          jQuery('.draggable_v-').css({
-            color: '#FFF0C7',
-            transform: 'scale(1)',
-            background: 'rgba(83, 35, 69, 0.4)',
-            opacity: 1
-          });
-          jQuery('.status_percent').text('62%');
-          jQuery('.draggable_v0').css({
-            color: 'transparent',
-            transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
-            opacity: 0.8
-          });
-          jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v0').css('top'));
-        } else if (count_animation > 30 && count_animation <= 35) {
-          jQuery('.draggable_v0').css({
-            color: '#FFF0C7',
-            transform: 'scale(1)',
-            background: 'rgba(83, 35, 69, 0.4)',
-            opacity: 1
-          });
-          jQuery('.draggable_v2').css({
-            color: 'transparent',
-            transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
-            opacity: 0.8
-          });
-          jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v2').css('top'));
-        } else if (count_animation > 35 && count_animation <= 40) {
-          jQuery('.draggable_v2').css({
-            color: '#FFF0C7',
-            transform: 'scale(1)',
-            background: 'rgba(83, 35, 69, 0.4)',
-            opacity: 1
-          });
-          jQuery('.draggable_v4').css({
-            color: 'transparent',
-            transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
-            opacity: 0.8
-          });
-          jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v4').css('top'));
-        } else if (count_animation > 40 && count_animation <= 45) {
-          jQuery('.draggable_v4').css({
-            color: '#FFF0C7',
-            transform: 'scale(1)',
-            background: 'rgba(83, 35, 69, 0.4)',
-            opacity: 1
-          });
-          jQuery('.draggable_v5').css({
-            color: 'transparent',
-            transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
-            opacity: 0.8
-          });
-          jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v5').css('top'));
-        } else if (count_animation > 45 && count_animation <= 50) {
-          jQuery('.draggable_v5').css({
-            color: '#FFF0C7',
-            transform: 'scale(1)',
-            background: 'rgba(83, 35, 69, 0.4)',
-            opacity: 1
-          });
-          jQuery('.draggable_v-').css({
-            color: 'transparent',
-            transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
-            opacity: 0.8
-          });
-          jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v-').css('top'));
-        } else if (count_animation > 50 && count_animation <= 55) {
-          jQuery('.draggable_v-').css({
-            color: '#FFF0C7',
-            transform: 'scale(1)',
-            background: 'rgba(83, 35, 69, 0.4)',
-            opacity: 1
-          });
-          jQuery('.status_percent').text('64%');
-          jQuery('.draggable_v0').css({
-            color: 'transparent',
-            transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
-            opacity: 0.8
-          });
-          jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v0').css('top'));
-        } else if (count_animation > 55 && count_animation <= 60) {
-          jQuery('.draggable_v0').css({
-            color: '#FFF0C7',
-            transform: 'scale(1)',
-            background: 'rgba(83, 35, 69, 0.4)',
-            opacity: 1
-          });
-          jQuery('.draggable_v2').css({
-            color: 'transparent',
-            transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
-            opacity: 0.8
-          });
-          jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v2').css('top'));
-        } else if (count_animation > 60 && count_animation <= 65) {
-          jQuery('.draggable_v2').css({
-            color: '#FFF0C7',
-            transform: 'scale(1)',
-            background: 'rgba(83, 35, 69, 0.4)',
-            opacity: 1
-          });
-          jQuery('.draggable_v4').css({
-            color: 'transparent',
-            transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
-            opacity: 0.8
-          });
-          jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v4').css('top'));
-        } else if (count_animation > 65 && count_animation <= 70) {
-          jQuery('.draggable_v4').css({
-            color: '#FFF0C7',
-            transform: 'scale(1)',
-            background: 'rgba(83, 35, 69, 0.4)',
-            opacity: 1
-          });
-          jQuery('.draggable_v5').css({
-            color: 'transparent',
-            transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
-            opacity: 0.8
-          });
-          jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v5').css('top'));
-        } else if (count_animation > 70 && count_animation <= 75) {
-          jQuery('.draggable_v5').css({
-            color: '#FFF0C7',
-            transform: 'scale(1)',
-            background: 'rgba(83, 35, 69, 0.4)',
-            opacity: 1
-          });
-          jQuery('.draggable_v-').css({
-            color: 'transparent',
-            transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
-            opacity: 0.8
-          });
-          jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v-').css('top'));
-        } else if (count_animation > 75 && count_animation <= 80) {
-          jQuery('.draggable_v-').css({
-            color: '#FFF0C7',
-            transform: 'scale(1)',
-            background: 'rgba(83, 35, 69, 0.4)',
-            opacity: 1
-          });
-          jQuery('.status_percent').text('66%');
-          jQuery('.draggable_v0').css({
-            color: 'transparent',
-            transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
-            opacity: 0.8
-          });
-          jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v0').css('top'));
-        } else if (count_animation > 80 && count_animation <= 85) {
-          jQuery('.draggable_v0').css({
-            color: '#FFF0C7',
-            transform: 'scale(1)',
-            background: 'rgba(83, 35, 69, 0.4)',
-            opacity: 1
-          });
-          jQuery('.draggable_v2').css({
-            color: 'transparent',
-            transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
-            opacity: 0.8
-          });
-          jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v2').css('top'));
-        } else if (count_animation > 85 && count_animation <= 90) {
-          jQuery('.draggable_v2').css({
-            color: '#FFF0C7',
-            transform: 'scale(1)',
-            background: 'rgba(83, 35, 69, 0.4)',
-            opacity: 1
-          });
-          jQuery('.draggable_v4').css({
-            color: 'transparent',
-            transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
-            opacity: 0.8
-          });
-          jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v4').css('top'));
-        } else if (count_animation > 90 && count_animation <= 95) {
-          jQuery('.draggable_v4').css({
-            color: '#FFF0C7',
-            transform: 'scale(1)',
-            background: 'rgba(83, 35, 69, 0.4)',
-            opacity: 1
-          });
-          jQuery('.draggable_v5').css({
-            color: 'transparent',
-            transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
-            opacity: 0.8
-          });
-          jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v5').css('top'));
-        } else if (count_animation > 95 && count_animation <= 100) {
-          jQuery('.draggable_v5').css({
-            color: '#FFF0C7',
-            transform: 'scale(1)',
-            background: 'rgba(83, 35, 69, 0.4)',
-            opacity: 1
-          });
-          jQuery('.draggable_v-').css({
-            color: 'transparent',
-            transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
-            opacity: 0.8
-          });
-          jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v-').css('top'));
-        } else if (count_animation > 100 && count_animation <= 105) {
-          jQuery('.draggable_v-').css({
-            color: '#FFF0C7',
-            transform: 'scale(1)',
-            background: 'rgba(83, 35, 69, 0.4)',
-            opacity: 1
-          });
-          jQuery('.status_percent').text('68%');
-          jQuery('.draggable_v0').css({
-            color: 'transparent',
-            transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
-            opacity: 0.8
-          });
-          jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v0').css('top'));
-        } else if (count_animation > 105 && count_animation <= 110) {
-          jQuery('.draggable_v0').css({
-            color: '#FFF0C7',
-            transform: 'scale(1)',
-            background: 'rgba(83, 35, 69, 0.4)',
-            opacity: 1
-          });
-          jQuery('.draggable_v2').css({
-            color: 'transparent',
-            transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
-            opacity: 0.8
-          });
-          jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v2').css('top'));
-        } else if (count_animation > 110 && count_animation <= 115) {
-          jQuery('.draggable_v2').css({
-            color: '#FFF0C7',
-            transform: 'scale(1)',
-            background: 'rgba(83, 35, 69, 0.4)',
-            opacity: 1
-          });
-          jQuery('.draggable_v4').css({
-            color: 'transparent',
-            transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
-            opacity: 0.8
-          });
-          jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v4').css('top'));
-        } else if (count_animation > 115 && count_animation <= 120) {
-          jQuery('.draggable_v4').css({
-            color: '#FFF0C7',
-            transform: 'scale(1)',
-            background: 'rgba(83, 35, 69, 0.4)',
-            opacity: 1
-          });
-          jQuery('.draggable_v5').css({
-            color: 'transparent',
-            transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
-            opacity: 0.8
-          });
-          jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v5').css('top'));
-        }
-        jQuery('.zone_x').css('transform', 'scale(1.3) rotate('+rotate_one+'deg)');
-        jQuery('.zone_l').css('transform', 'scale(1.3) rotate(-'+rotate_two+'deg)');
-        count_animation += 1;
-        rotate_one += 2;
-        rotate_two += 20;
-      } else {
-        clearInterval(phaseOne);
-        count_animation = 1;
-        next();
-      }
-    }, 1000);
+    
   }).then(function(next) {
 // Фаза 9
-    jQuery('.status_pahaze_now').text('9');
-    count_animation = 0;
-    phaseOne = setInterval(function(){
-      if (count_animation <= 120){
-        if (count_animation > 0 && count_animation <= 5) {
-          jQuery('.draggable_v5').css({
-            color: '#FFF0C7',
-            transform: 'scale(1)',
-            background: 'rgba(83, 35, 69, 0.4)',
-            opacity: 1
-          });
-          jQuery('.status_percent').text('70%');
-          jQuery('.draggable_v1').css({
-            color: 'transparent',
-            transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
-            opacity: 0.8
-          });
-          jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v1').css('top'));
-        } else if (count_animation > 5 && count_animation <= 10) {
-          jQuery('.draggable_v1').css({
-            color: '#FFF0C7',
-            transform: 'scale(1)',
-            background: 'rgba(83, 35, 69, 0.4)',
-            opacity: 1
-          });
-          jQuery('.draggable_s2').css({
-            color: 'transparent',
-            transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
-            opacity: 0.8
-          });
-          jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_s2').css('top'));
-        } else if (count_animation > 10 && count_animation <= 15) {
-          jQuery('.draggable_s2').css({
-            color: '#FFF0C7',
-            transform: 'scale(1)',
-            background: 'rgba(83, 35, 69, 0.4)',
-            opacity: 1
-          });
-          jQuery('.draggable_s3').css({
-            color: 'transparent',
-            transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
-            opacity: 0.8
-          });
-          jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_s3').css('top'));
-        } else if (count_animation > 15 && count_animation <= 20) {
-          jQuery('.draggable_s3').css({
-            color: '#FFF0C7',
-            transform: 'scale(1)',
-            background: 'rgba(83, 35, 69, 0.4)',
-            opacity: 1
-          });
-          jQuery('.draggable_s4').css({
-            color: 'transparent',
-            transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
-            opacity: 0.8
-          });
-          jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_s4').css('top'));
-        } else if (count_animation > 20 && count_animation <= 25) {
-          jQuery('.draggable_s4').css({
-            color: '#FFF0C7',
-            transform: 'scale(1)',
-            background: 'rgba(83, 35, 69, 0.4)',
-            opacity: 1
-          });
-          jQuery('.draggable_s5').css({
-            color: 'transparent',
-            transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
-            opacity: 0.8
-          });
-          jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_s5').css('top'));
-        } else if (count_animation > 25 && count_animation <= 30) {
-          jQuery('.draggable_s5').css({
-            color: '#FFF0C7',
-            transform: 'scale(1)',
-            background: 'rgba(83, 35, 69, 0.4)',
-            opacity: 1
-          });
-          jQuery('.draggable_s6').css({
-            color: 'transparent',
-            transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
-            opacity: 0.8
-          });
-          jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_s6').css('top'));
-        } else if (count_animation > 30 && count_animation <= 35) {
-          jQuery('.draggable_s6').css({
-            color: '#FFF0C7',
-            transform: 'scale(1)',
-            background: 'rgba(83, 35, 69, 0.4)',
-            opacity: 1
-          });
-          jQuery('.status_percent').text('72%');
-          jQuery('.draggable_v1').css({
-            color: 'transparent',
-            transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
-            opacity: 0.8
-          });
-          jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v1').css('top'));
-        } else if (count_animation > 35 && count_animation <= 40) {
-          jQuery('.draggable_v1').css({
-            color: '#FFF0C7',
-            transform: 'scale(1)',
-            background: 'rgba(83, 35, 69, 0.4)',
-            opacity: 1
-          });
-          jQuery('.draggable_s2').css({
-            color: 'transparent',
-            transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
-            opacity: 0.8
-          });
-          jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_s2').css('top'));
-        } else if (count_animation > 40 && count_animation <= 45) {
-          jQuery('.draggable_s2').css({
-            color: '#FFF0C7',
-            transform: 'scale(1)',
-            background: 'rgba(83, 35, 69, 0.4)',
-            opacity: 1
-          });
-          jQuery('.draggable_s3').css({
-            color: 'transparent',
-            transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
-            opacity: 0.8
-          });
-          jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_s3').css('top'));
-        } else if (count_animation > 45 && count_animation <= 50) {
-          jQuery('.draggable_s3').css({
-            color: '#FFF0C7',
-            transform: 'scale(1)',
-            background: 'rgba(83, 35, 69, 0.4)',
-            opacity: 1
-          });
-          jQuery('.draggable_s4').css({
-            color: 'transparent',
-            transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
-            opacity: 0.8
-          });
-          jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_s4').css('top'));
-        } else if (count_animation > 50 && count_animation <= 55) {
-          jQuery('.draggable_s4').css({
-            color: '#FFF0C7',
-            transform: 'scale(1)',
-            background: 'rgba(83, 35, 69, 0.4)',
-            opacity: 1
-          });
-          jQuery('.draggable_s5').css({
-            color: 'transparent',
-            transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
-            opacity: 0.8
-          });
-          jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_s5').css('top'));
-        } else if (count_animation > 55 && count_animation <= 60) {
-          jQuery('.draggable_s5').css({
-            color: '#FFF0C7',
-            transform: 'scale(1)',
-            background: 'rgba(83, 35, 69, 0.4)',
-            opacity: 1
-          });
-          jQuery('.draggable_s6').css({
-            color: 'transparent',
-            transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
-            opacity: 0.8
-          });
-          jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_s6').css('top'));
-        } else if (count_animation > 60 && count_animation <= 65) {
-          jQuery('.draggable_s6').css({
-            color: '#FFF0C7',
-            transform: 'scale(1)',
-            background: 'rgba(83, 35, 69, 0.4)',
-            opacity: 1
-          });
-          jQuery('.status_percent').text('74%');
-          jQuery('.draggable_v1').css({
-            color: 'transparent',
-            transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
-            opacity: 0.8
-          });
-          jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v1').css('top'));
-        } else if (count_animation > 65 && count_animation <= 70) {
-          jQuery('.draggable_v1').css({
-            color: '#FFF0C7',
-            transform: 'scale(1)',
-            background: 'rgba(83, 35, 69, 0.4)',
-            opacity: 1
-          });
-          jQuery('.draggable_s2').css({
-            color: 'transparent',
-            transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
-            opacity: 0.8
-          });
-          jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_s2').css('top'));
-        } else if (count_animation > 70 && count_animation <= 75) {
-          jQuery('.draggable_s2').css({
-            color: '#FFF0C7',
-            transform: 'scale(1)',
-            background: 'rgba(83, 35, 69, 0.4)',
-            opacity: 1
-          });
-          jQuery('.draggable_s3').css({
-            color: 'transparent',
-            transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
-            opacity: 0.8
-          });
-          jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_s3').css('top'));
-        } else if (count_animation > 75 && count_animation <= 80) {
-          jQuery('.draggable_s3').css({
-            color: '#FFF0C7',
-            transform: 'scale(1)',
-            background: 'rgba(83, 35, 69, 0.4)',
-            opacity: 1
-          });
-          jQuery('.draggable_s4').css({
-            color: 'transparent',
-            transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
-            opacity: 0.8
-          });
-          jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_s4').css('top'));
-        } else if (count_animation > 80 && count_animation <= 85) {
-          jQuery('.draggable_s4').css({
-            color: '#FFF0C7',
-            transform: 'scale(1)',
-            background: 'rgba(83, 35, 69, 0.4)',
-            opacity: 1
-          });
-          jQuery('.draggable_s5').css({
-            color: 'transparent',
-            transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
-            opacity: 0.8
-          });
-          jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_s5').css('top'));
-        } else if (count_animation > 85 && count_animation <= 90) {
-          jQuery('.draggable_s5').css({
-            color: '#FFF0C7',
-            transform: 'scale(1)',
-            background: 'rgba(83, 35, 69, 0.4)',
-            opacity: 1
-          });
-          jQuery('.draggable_s6').css({
-            color: 'transparent',
-            transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
-            opacity: 0.8
-          });
-          jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_s6').css('top'));
-        } else if (count_animation > 90 && count_animation <= 95) {
-          jQuery('.draggable_s6').css({
-            color: '#FFF0C7',
-            transform: 'scale(1)',
-            background: 'rgba(83, 35, 69, 0.4)',
-            opacity: 1
-          });
-          jQuery('.status_percent').text('76%');
-          jQuery('.draggable_v1').css({
-            color: 'transparent',
-            transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
-            opacity: 0.8
-          });
-          jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v1').css('top'));
-        } else if (count_animation > 95 && count_animation <= 100) {
-          jQuery('.draggable_v1').css({
-            color: '#FFF0C7',
-            transform: 'scale(1)',
-            background: 'rgba(83, 35, 69, 0.4)',
-            opacity: 1
-          });
-          jQuery('.draggable_s2').css({
-            color: 'transparent',
-            transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
-            opacity: 0.8
-          });
-          jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_s2').css('top'));
-        } else if (count_animation > 100 && count_animation <= 105) {
-          jQuery('.draggable_s2').css({
-            color: '#FFF0C7',
-            transform: 'scale(1)',
-            background: 'rgba(83, 35, 69, 0.4)',
-            opacity: 1
-          });
-          jQuery('.draggable_s3').css({
-            color: 'transparent',
-            transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
-            opacity: 0.8
-          });
-          jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_s3').css('top'));
-        } else if (count_animation > 105 && count_animation <= 110) {
-          jQuery('.draggable_s3').css({
-            color: '#FFF0C7',
-            transform: 'scale(1)',
-            background: 'rgba(83, 35, 69, 0.4)',
-            opacity: 1
-          });
-          jQuery('.draggable_s4').css({
-            color: 'transparent',
-            transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
-            opacity: 0.8
-          });
-          jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_s4').css('top'));
-        } else if (count_animation > 110 && count_animation <= 115) {
-          jQuery('.draggable_s4').css({
-            color: '#FFF0C7',
-            transform: 'scale(1)',
-            background: 'rgba(83, 35, 69, 0.4)',
-            opacity: 1
-          });
-          jQuery('.draggable_s5').css({
-            color: 'transparent',
-            transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
-            opacity: 0.8
-          });
-          jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_s5').css('top'));
-        } else if (count_animation > 115 && count_animation <= 120) {
-          jQuery('.draggable_s5').css({
-            color: '#FFF0C7',
-            transform: 'scale(1)',
-            background: 'rgba(83, 35, 69, 0.4)',
-            opacity: 1
-          });
-          jQuery('.draggable_s6').css({
-            color: 'transparent',
-            transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
-            opacity: 0.8
-          });
-          jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_s6').css('top'));
-        }
-        jQuery('.zone_x').css('transform', 'scale(1.3) rotate('+rotate_one+'deg)');
-        jQuery('.zone_l').css('transform', 'scale(1.3) rotate(-'+rotate_two+'deg)');
-        count_animation += 1;
-        rotate_one += 2;
-        rotate_two += 20;
-      } else {
-        clearInterval(phaseOne);
-        count_animation = 1;
-        next();
-      }
-    }, 1000);
+    
   }).then(function(next) {
 // Фаза 10
-    jQuery('.status_pahaze_now').text('10');
-    count_animation = 0;
-    phaseOne = setInterval(function(){
-      if (count_animation <= 120){
-        if (count_animation > 0 && count_animation <= 5) {
-          jQuery('.draggable_s6').css({
-            color: '#FFF0C7',
-            transform: 'scale(1)',
-            background: 'rgba(83, 35, 69, 0.4)',
-            opacity: 1
-          });
-          jQuery('.status_percent').text('78%');
-          jQuery('.draggable_v1').css({
-            color: 'transparent',
-            transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
-            opacity: 0.8
-          });
-          jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v1').css('top'));
-        } else if (count_animation > 5 && count_animation <= 10) {
-          jQuery('.draggable_v1').css({
-            color: '#FFF0C7',
-            transform: 'scale(1)',
-            background: 'rgba(83, 35, 69, 0.4)',
-            opacity: 1
-          });
-          jQuery('.draggable_d2').css({
-            color: 'transparent',
-            transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
-            opacity: 0.8
-          });
-          jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_d2').css('top'));
-        } else if (count_animation > 10 && count_animation <= 15) {
-          jQuery('.draggable_d2').css({
-            color: '#FFF0C7',
-            transform: 'scale(1)',
-            background: 'rgba(83, 35, 69, 0.4)',
-            opacity: 1
-          });
-          jQuery('.draggable_d3').css({
-            color: 'transparent',
-            transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
-            opacity: 0.8
-          });
-          jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_d3').css('top'));
-        } else if (count_animation > 15 && count_animation <= 20) {
-          jQuery('.draggable_d3').css({
-            color: '#FFF0C7',
-            transform: 'scale(1)',
-            background: 'rgba(83, 35, 69, 0.4)',
-            opacity: 1
-          });
-          jQuery('.draggable_d4').css({
-            color: 'transparent',
-            transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
-            opacity: 0.8
-          });
-          jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_d4').css('top'));
-        } else if (count_animation > 20 && count_animation <= 25) {
-          jQuery('.draggable_d4').css({
-            color: '#FFF0C7',
-            transform: 'scale(1)',
-            background: 'rgba(83, 35, 69, 0.4)',
-            opacity: 1
-          });
-          jQuery('.draggable_d5').css({
-            color: 'transparent',
-            transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
-            opacity: 0.8
-          });
-          jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_d5').css('top'));
-        } else if (count_animation > 25 && count_animation <= 30) {
-          jQuery('.draggable_d5').css({
-            color: '#FFF0C7',
-            transform: 'scale(1)',
-            background: 'rgba(83, 35, 69, 0.4)',
-            opacity: 1
-          });
-          jQuery('.draggable_d6').css({
-            color: 'transparent',
-            transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
-            opacity: 0.8
-          });
-          jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_d6').css('top'));
-        } else if (count_animation > 30 && count_animation <= 35) {
-          jQuery('.draggable_d6').css({
-            color: '#FFF0C7',
-            transform: 'scale(1)',
-            background: 'rgba(83, 35, 69, 0.4)',
-            opacity: 1
-          });
-          jQuery('.status_percent').text('80%');
-          jQuery('.draggable_v1').css({
-            color: 'transparent',
-            transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
-            opacity: 0.8
-          });
-          jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v1').css('top'));
-        } else if (count_animation > 35 && count_animation <= 40) {
-          jQuery('.draggable_v1').css({
-            color: '#FFF0C7',
-            transform: 'scale(1)',
-            background: 'rgba(83, 35, 69, 0.4)',
-            opacity: 1
-          });
-          jQuery('.draggable_d2').css({
-            color: 'transparent',
-            transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
-            opacity: 0.8
-          });
-          jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_d2').css('top'));
-        } else if (count_animation > 40 && count_animation <= 45) {
-          jQuery('.draggable_d2').css({
-            color: '#FFF0C7',
-            transform: 'scale(1)',
-            background: 'rgba(83, 35, 69, 0.4)',
-            opacity: 1
-          });
-          jQuery('.draggable_d3').css({
-            color: 'transparent',
-            transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
-            opacity: 0.8
-          });
-          jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_d3').css('top'));
-        } else if (count_animation > 45 && count_animation <= 50) {
-          jQuery('.draggable_d3').css({
-            color: '#FFF0C7',
-            transform: 'scale(1)',
-            background: 'rgba(83, 35, 69, 0.4)',
-            opacity: 1
-          });
-          jQuery('.draggable_d4').css({
-            color: 'transparent',
-            transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
-            opacity: 0.8
-          });
-          jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_d4').css('top'));
-        } else if (count_animation > 50 && count_animation <= 55) {
-          jQuery('.draggable_d4').css({
-            color: '#FFF0C7',
-            transform: 'scale(1)',
-            background: 'rgba(83, 35, 69, 0.4)',
-            opacity: 1
-          });
-          jQuery('.draggable_d5').css({
-            color: 'transparent',
-            transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
-            opacity: 0.8
-          });
-          jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_d5').css('top'));
-        } else if (count_animation > 55 && count_animation <= 60) {
-          jQuery('.draggable_d5').css({
-            color: '#FFF0C7',
-            transform: 'scale(1)',
-            background: 'rgba(83, 35, 69, 0.4)',
-            opacity: 1
-          });
-          jQuery('.draggable_d6').css({
-            color: 'transparent',
-            transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
-            opacity: 0.8
-          });
-          jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_d6').css('top'));
-        } else if (count_animation > 60 && count_animation <= 65) {
-          jQuery('.draggable_d6').css({
-            color: '#FFF0C7',
-            transform: 'scale(1)',
-            background: 'rgba(83, 35, 69, 0.4)',
-            opacity: 1
-          });
-          jQuery('.status_percent').text('82%');
-          jQuery('.draggable_v1').css({
-            color: 'transparent',
-            transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
-            opacity: 0.8
-          });
-          jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v1').css('top'));
-        } else if (count_animation > 65 && count_animation <= 70) {
-          jQuery('.draggable_v1').css({
-            color: '#FFF0C7',
-            transform: 'scale(1)',
-            background: 'rgba(83, 35, 69, 0.4)',
-            opacity: 1
-          });
-          jQuery('.draggable_d2').css({
-            color: 'transparent',
-            transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
-            opacity: 0.8
-          });
-          jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_d2').css('top'));
-        } else if (count_animation > 70 && count_animation <= 75) {
-          jQuery('.draggable_d2').css({
-            color: '#FFF0C7',
-            transform: 'scale(1)',
-            background: 'rgba(83, 35, 69, 0.4)',
-            opacity: 1
-          });
-          jQuery('.draggable_d3').css({
-            color: 'transparent',
-            transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
-            opacity: 0.8
-          });
-          jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_d3').css('top'));
-        } else if (count_animation > 75 && count_animation <= 80) {
-          jQuery('.draggable_d3').css({
-            color: '#FFF0C7',
-            transform: 'scale(1)',
-            background: 'rgba(83, 35, 69, 0.4)',
-            opacity: 1
-          });
-          jQuery('.draggable_d4').css({
-            color: 'transparent',
-            transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
-            opacity: 0.8
-          });
-          jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_d4').css('top'));
-        } else if (count_animation > 80 && count_animation <= 85) {
-          jQuery('.draggable_d4').css({
-            color: '#FFF0C7',
-            transform: 'scale(1)',
-            background: 'rgba(83, 35, 69, 0.4)',
-            opacity: 1
-          });
-          jQuery('.draggable_d5').css({
-            color: 'transparent',
-            transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
-            opacity: 0.8
-          });
-          jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_d5').css('top'));
-        } else if (count_animation > 85 && count_animation <= 90) {
-          jQuery('.draggable_d5').css({
-            color: '#FFF0C7',
-            transform: 'scale(1)',
-            background: 'rgba(83, 35, 69, 0.4)',
-            opacity: 1
-          });
-          jQuery('.draggable_d6').css({
-            color: 'transparent',
-            transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
-            opacity: 0.8
-          });
-          jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_d6').css('top'));
-        } else if (count_animation > 90 && count_animation <= 95) {
-          jQuery('.draggable_d6').css({
-            color: '#FFF0C7',
-            transform: 'scale(1)',
-            background: 'rgba(83, 35, 69, 0.4)',
-            opacity: 1
-          });
-          jQuery('.status_percent').text('84%');
-          jQuery('.draggable_v1').css({
-            color: 'transparent',
-            transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
-            opacity: 0.8
-          });
-          jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v1').css('top'));
-        } else if (count_animation > 95 && count_animation <= 100) {
-          jQuery('.draggable_v1').css({
-            color: '#FFF0C7',
-            transform: 'scale(1)',
-            background: 'rgba(83, 35, 69, 0.4)',
-            opacity: 1
-          });
-          jQuery('.draggable_d2').css({
-            color: 'transparent',
-            transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
-            opacity: 0.8
-          });
-          jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_d2').css('top'));
-        } else if (count_animation > 100 && count_animation <= 105) {
-          jQuery('.draggable_d2').css({
-            color: '#FFF0C7',
-            transform: 'scale(1)',
-            background: 'rgba(83, 35, 69, 0.4)',
-            opacity: 1
-          });
-          jQuery('.draggable_d3').css({
-            color: 'transparent',
-            transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
-            opacity: 0.8
-          });
-          jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_d3').css('top'));
-        } else if (count_animation > 105 && count_animation <= 110) {
-          jQuery('.draggable_d3').css({
-            color: '#FFF0C7',
-            transform: 'scale(1)',
-            background: 'rgba(83, 35, 69, 0.4)',
-            opacity: 1
-          });
-          jQuery('.draggable_d4').css({
-            color: 'transparent',
-            transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
-            opacity: 0.8
-          });
-          jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_d4').css('top'));
-        } else if (count_animation > 110 && count_animation <= 115) {
-          jQuery('.draggable_d4').css({
-            color: '#FFF0C7',
-            transform: 'scale(1)',
-            background: 'rgba(83, 35, 69, 0.4)',
-            opacity: 1
-          });
-          jQuery('.draggable_d5').css({
-            color: 'transparent',
-            transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
-            opacity: 0.8
-          });
-          jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_d5').css('top'));
-        } else if (count_animation > 115 && count_animation <= 120) {
-          jQuery('.draggable_d5').css({
-            color: '#FFF0C7',
-            transform: 'scale(1)',
-            background: 'rgba(83, 35, 69, 0.4)',
-            opacity: 1
-          });
-          jQuery('.draggable_d6').css({
-            color: 'transparent',
-            transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
-            opacity: 0.8
-          });
-          jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_d6').css('top'));
-        }
-        jQuery('.zone_x').css('transform', 'scale(1.3) rotate('+rotate_one+'deg)');
-        jQuery('.zone_l').css('transform', 'scale(1.3) rotate(-'+rotate_two+'deg)');
-        count_animation += 1;
-        rotate_one += 2;
-        rotate_two += 20;
-      } else {
-        clearInterval(phaseOne);
-        count_animation = 0;
-        next();
-      }
-    }, 1000);
+    
   }).then(function(next) {
 // Фаза 11
-    jQuery('.status_pahaze_now').text('11');
-    phaseOne = setInterval(function(){
-      if (count_animation <= 120){
-        if (count_animation > 0 && count_animation <= 5) {
-          jQuery('.draggable_d6').css({
-            color: '#FFF0C7',
-            transform: 'scale(1)',
-            background: 'rgba(83, 35, 69, 0.4)',
-            opacity: 1
-          });
-          jQuery('.draggable_v0').css({
-            color: 'transparent',
-            transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
-            opacity: 0.8
-          });
-          jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v1').css('top'));
-        } else if (count_animation > 5 && count_animation <= 10) {
-          jQuery('.status_percent').text('86%');
-          jQuery('.draggable_v0').css({
-            color: '#FFF0C7',
-            transform: 'scale(1)',
-            background: 'rgba(83, 35, 69, 0.4)',
-            opacity: 1
-          });
-          jQuery('.draggable_v2').css({
-            color: 'transparent',
-            transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
-            opacity: 0.8
-          });
-          jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v2').css('top'));
-        } else if (count_animation > 10 && count_animation <= 15) {
-          jQuery('.draggable_v2').css({
-            color: '#FFF0C7',
-            transform: 'scale(1)',
-            background: 'rgba(83, 35, 69, 0.4)',
-            opacity: 1
-          });
-          jQuery('.draggable_v4').css({
-            color: 'transparent',
-            transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
-            opacity: 0.8
-          });
-          jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v4').css('top'));
-        } else if (count_animation > 15 && count_animation <= 20) {
-          jQuery('.draggable_v4').css({
-            color: '#FFF0C7',
-            transform: 'scale(1)',
-            background: 'rgba(83, 35, 69, 0.4)',
-            opacity: 1
-          });
-          jQuery('.draggable_v5').css({
-            color: 'transparent',
-            transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
-            opacity: 0.8
-          });
-          jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v5').css('top'));
-        } else if (count_animation > 20 && count_animation <= 25) {
-          jQuery('.draggable_v5').css({
-            color: '#FFF0C7',
-            transform: 'scale(1)',
-            background: 'rgba(83, 35, 69, 0.4)',
-            opacity: 1
-          });
-          jQuery('.draggable_v-').css({
-            color: 'transparent',
-            transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
-            opacity: 0.8
-          });
-          jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v-').css('top'));
-        } else if (count_animation > 25 && count_animation <= 30) {
-          jQuery('.draggable_v-').css({
-            color: '#FFF0C7',
-            transform: 'scale(1)',
-            background: 'rgba(83, 35, 69, 0.4)',
-            opacity: 1
-          });
-          jQuery('.status_percent').text('88%');
-          jQuery('.draggable_v0').css({
-            color: 'transparent',
-            transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
-            opacity: 0.8
-          });
-          jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v0').css('top'));
-        } else if (count_animation > 30 && count_animation <= 35) {
-          jQuery('.draggable_v0').css({
-            color: '#FFF0C7',
-            transform: 'scale(1)',
-            background: 'rgba(83, 35, 69, 0.4)',
-            opacity: 1
-          });
-          jQuery('.draggable_v2').css({
-            color: 'transparent',
-            transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
-            opacity: 0.8
-          });
-          jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v2').css('top'));
-        } else if (count_animation > 35 && count_animation <= 40) {
-          jQuery('.draggable_v2').css({
-            color: '#FFF0C7',
-            transform: 'scale(1)',
-            background: 'rgba(83, 35, 69, 0.4)',
-            opacity: 1
-          });
-          jQuery('.draggable_v4').css({
-            color: 'transparent',
-            transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
-            opacity: 0.8
-          });
-          jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v4').css('top'));
-        } else if (count_animation > 40 && count_animation <= 45) {
-          jQuery('.draggable_v4').css({
-            color: '#FFF0C7',
-            transform: 'scale(1)',
-            background: 'rgba(83, 35, 69, 0.4)',
-            opacity: 1
-          });
-          jQuery('.draggable_v5').css({
-            color: 'transparent',
-            transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
-            opacity: 0.8
-          });
-          jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v5').css('top'));
-        } else if (count_animation > 45 && count_animation <= 50) {
-          jQuery('.draggable_v5').css({
-            color: '#FFF0C7',
-            transform: 'scale(1)',
-            background: 'rgba(83, 35, 69, 0.4)',
-            opacity: 1
-          });
-          jQuery('.draggable_v-').css({
-            color: 'transparent',
-            transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
-            opacity: 0.8
-          });
-          jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v-').css('top'));
-        } else if (count_animation > 50 && count_animation <= 55) {
-          jQuery('.draggable_v-').css({
-            color: '#FFF0C7',
-            transform: 'scale(1)',
-            background: 'rgba(83, 35, 69, 0.4)',
-            opacity: 1
-          });
-          jQuery('.status_percent').text('90%');
-          jQuery('.draggable_v0').css({
-            color: 'transparent',
-            transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
-            opacity: 0.8
-          });
-          jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v0').css('top'));
-        } else if (count_animation > 55 && count_animation <= 60) {
-          jQuery('.draggable_v0').css({
-            color: '#FFF0C7',
-            transform: 'scale(1)',
-            background: 'rgba(83, 35, 69, 0.4)',
-            opacity: 1
-          });
-          jQuery('.draggable_v2').css({
-            color: 'transparent',
-            transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
-            opacity: 0.8
-          });
-          jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v2').css('top'));
-        } else if (count_animation > 60 && count_animation <= 65) {
-          jQuery('.draggable_v2').css({
-            color: '#FFF0C7',
-            transform: 'scale(1)',
-            background: 'rgba(83, 35, 69, 0.4)',
-            opacity: 1
-          });
-          jQuery('.draggable_v4').css({
-            color: 'transparent',
-            transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
-            opacity: 0.8
-          });
-          jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v4').css('top'));
-        } else if (count_animation > 65 && count_animation <= 70) {
-          jQuery('.draggable_v4').css({
-            color: '#FFF0C7',
-            transform: 'scale(1)',
-            background: 'rgba(83, 35, 69, 0.4)',
-            opacity: 1
-          });
-          jQuery('.draggable_v5').css({
-            color: 'transparent',
-            transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
-            opacity: 0.8
-          });
-          jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v5').css('top'));
-        } else if (count_animation > 70 && count_animation <= 75) {
-          jQuery('.draggable_v5').css({
-            color: '#FFF0C7',
-            transform: 'scale(1)',
-            background: 'rgba(83, 35, 69, 0.4)',
-            opacity: 1
-          });
-          jQuery('.draggable_v-').css({
-            color: 'transparent',
-            transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
-            opacity: 0.8
-          });
-          jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v-').css('top'));
-        } else if (count_animation > 75 && count_animation <= 80) {
-          jQuery('.draggable_v-').css({
-            color: '#FFF0C7',
-            transform: 'scale(1)',
-            background: 'rgba(83, 35, 69, 0.4)',
-            opacity: 1
-          });
-          jQuery('.status_percent').text('92%');
-          jQuery('.draggable_v0').css({
-            color: 'transparent',
-            transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
-            opacity: 0.8
-          });
-          jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v0').css('top'));
-        } else if (count_animation > 80 && count_animation <= 85) {
-          jQuery('.draggable_v0').css({
-            color: '#FFF0C7',
-            transform: 'scale(1)',
-            background: 'rgba(83, 35, 69, 0.4)',
-            opacity: 1
-          });
-          jQuery('.draggable_v2').css({
-            color: 'transparent',
-            transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
-            opacity: 0.8
-          });
-          jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v2').css('top'));
-        } else if (count_animation > 85 && count_animation <= 90) {
-          jQuery('.draggable_v2').css({
-            color: '#FFF0C7',
-            transform: 'scale(1)',
-            background: 'rgba(83, 35, 69, 0.4)',
-            opacity: 1
-          });
-          jQuery('.draggable_v4').css({
-            color: 'transparent',
-            transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
-            opacity: 0.8
-          });
-          jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v4').css('top'));
-        } else if (count_animation > 90 && count_animation <= 95) {
-          jQuery('.draggable_v4').css({
-            color: '#FFF0C7',
-            transform: 'scale(1)',
-            background: 'rgba(83, 35, 69, 0.4)',
-            opacity: 1
-          });
-          jQuery('.draggable_v5').css({
-            color: 'transparent',
-            transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
-            opacity: 0.8
-          });
-          jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v5').css('top'));
-        } else if (count_animation > 95 && count_animation <= 100) {
-          jQuery('.draggable_v5').css({
-            color: '#FFF0C7',
-            transform: 'scale(1)',
-            background: 'rgba(83, 35, 69, 0.4)',
-            opacity: 1
-          });
-          jQuery('.draggable_v-').css({
-            color: 'transparent',
-            transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
-            opacity: 0.8
-          });
-          jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v-').css('top'));
-        } else if (count_animation > 100 && count_animation <= 105) {
-          jQuery('.draggable_v-').css({
-            color: '#FFF0C7',
-            transform: 'scale(1)',
-            background: 'rgba(83, 35, 69, 0.4)',
-            opacity: 1
-          });
-          jQuery('.status_percent').text('94%');
-          jQuery('.draggable_v0').css({
-            color: 'transparent',
-            transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
-            opacity: 0.8
-          });
-          jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v0').css('top'));
-        } else if (count_animation > 105 && count_animation <= 110) {
-          jQuery('.draggable_v0').css({
-            color: '#FFF0C7',
-            transform: 'scale(1)',
-            background: 'rgba(83, 35, 69, 0.4)',
-            opacity: 1
-          });
-          jQuery('.draggable_v2').css({
-            color: 'transparent',
-            transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
-            opacity: 0.8
-          });
-          jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v2').css('top'));
-        } else if (count_animation > 110 && count_animation <= 115) {
-          jQuery('.draggable_v2').css({
-            color: '#FFF0C7',
-            transform: 'scale(1)',
-            background: 'rgba(83, 35, 69, 0.4)',
-            opacity: 1
-          });
-          jQuery('.draggable_v4').css({
-            color: 'transparent',
-            transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
-            opacity: 0.8
-          });
-          jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v4').css('top'));
-        } else if (count_animation > 115 && count_animation <= 120) {
-          jQuery('.draggable_v4').css({
-            color: '#FFF0C7',
-            transform: 'scale(1)',
-            background: 'rgba(83, 35, 69, 0.4)',
-            opacity: 1
-          });
-          jQuery('.draggable_v5').css({
-            color: 'transparent',
-            transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
-            opacity: 0.8
-          });
-          jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v5').css('top'));
-        }
-        jQuery('.zone_x').css('transform', 'scale(1.3) rotate('+rotate_one+'deg)');
-        jQuery('.zone_l').css('transform', 'scale(1.3) rotate(-'+rotate_two+'deg)');
-        count_animation += 1;
-        rotate_one += 2;
-        rotate_two += 20;
-      } else {
-        clearInterval(phaseOne);
-        count_animation = 1;
-        next();
-      }
-    }, 1000);
+    
   }).then(function(next) {
 // Фаза 12
-    jQuery('.status_pahaze_now').text('12');
-    count_animation = 0;
-    phaseOne = setInterval(function(){
-      if (count_animation <= 120){
-        if (count_animation > 0 && count_animation <= 5) {
-          jQuery('.draggable_v5').css({
-            color: '#FFF0C7',
-            transform: 'scale(1)',
-            background: 'rgba(83, 35, 69, 0.4)',
-            opacity: 1
-          });
-          jQuery('.status_percent').text('96%');
-          jQuery('.draggable_v1').css({
-            color: 'transparent',
-            transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
-            opacity: 0.8
-          });
-          jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v1').css('top'));
-        } else if (count_animation > 5 && count_animation <= 10) {
-          jQuery('.draggable_v1').css({
-            color: '#FFF0C7',
-            transform: 'scale(1)',
-            background: 'rgba(83, 35, 69, 0.4)',
-            opacity: 1
-          });
-          jQuery('.draggable_s2').css({
-            color: 'transparent',
-            transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
-            opacity: 0.8
-          });
-          jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_s2').css('top'));
-        } else if (count_animation > 10 && count_animation <= 15) {
-          jQuery('.draggable_s2').css({
-            color: '#FFF0C7',
-            transform: 'scale(1)',
-            background: 'rgba(83, 35, 69, 0.4)',
-            opacity: 1
-          });
-          jQuery('.draggable_s3').css({
-            color: 'transparent',
-            transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
-            opacity: 0.8
-          });
-          jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_s3').css('top'));
-        } else if (count_animation > 15 && count_animation <= 20) {
-          jQuery('.draggable_s3').css({
-            color: '#FFF0C7',
-            transform: 'scale(1)',
-            background: 'rgba(83, 35, 69, 0.4)',
-            opacity: 1
-          });
-          jQuery('.draggable_s4').css({
-            color: 'transparent',
-            transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
-            opacity: 0.8
-          });
-          jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_s4').css('top'));
-        } else if (count_animation > 20 && count_animation <= 25) {
-          jQuery('.draggable_s4').css({
-            color: '#FFF0C7',
-            transform: 'scale(1)',
-            background: 'rgba(83, 35, 69, 0.4)',
-            opacity: 1
-          });
-          jQuery('.draggable_s5').css({
-            color: 'transparent',
-            transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
-            opacity: 0.8
-          });
-          jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_s5').css('top'));
-        } else if (count_animation > 25 && count_animation <= 30) {
-          jQuery('.draggable_s5').css({
-            color: '#FFF0C7',
-            transform: 'scale(1)',
-            background: 'rgba(83, 35, 69, 0.4)',
-            opacity: 1
-          });
-          jQuery('.draggable_s6').css({
-            color: 'transparent',
-            transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
-            opacity: 0.8
-          });
-          jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_s6').css('top'));
-        } else if (count_animation > 30 && count_animation <= 35) {
-          jQuery('.draggable_s6').css({
-            color: '#FFF0C7',
-            transform: 'scale(1)',
-            background: 'rgba(83, 35, 69, 0.4)',
-            opacity: 1
-          });
-          jQuery('.status_percent').text('97%');
-          jQuery('.draggable_v1').css({
-            color: 'transparent',
-            transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
-            opacity: 0.8
-          });
-          jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v1').css('top'));
-        } else if (count_animation > 35 && count_animation <= 40) {
-          jQuery('.draggable_v1').css({
-            color: '#FFF0C7',
-            transform: 'scale(1)',
-            background: 'rgba(83, 35, 69, 0.4)',
-            opacity: 1
-          });
-          jQuery('.draggable_s2').css({
-            color: 'transparent',
-            transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
-            opacity: 0.8
-          });
-          jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_s2').css('top'));
-        } else if (count_animation > 40 && count_animation <= 45) {
-          jQuery('.draggable_s2').css({
-            color: '#FFF0C7',
-            transform: 'scale(1)',
-            background: 'rgba(83, 35, 69, 0.4)',
-            opacity: 1
-          });
-          jQuery('.draggable_s3').css({
-            color: 'transparent',
-            transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
-            opacity: 0.8
-          });
-          jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_s3').css('top'));
-        } else if (count_animation > 45 && count_animation <= 50) {
-          jQuery('.draggable_s3').css({
-            color: '#FFF0C7',
-            transform: 'scale(1)',
-            background: 'rgba(83, 35, 69, 0.4)',
-            opacity: 1
-          });
-          jQuery('.draggable_s4').css({
-            color: 'transparent',
-            transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
-            opacity: 0.8
-          });
-          jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_s4').css('top'));
-        } else if (count_animation > 50 && count_animation <= 55) {
-          jQuery('.draggable_s4').css({
-            color: '#FFF0C7',
-            transform: 'scale(1)',
-            background: 'rgba(83, 35, 69, 0.4)',
-            opacity: 1
-          });
-          jQuery('.draggable_s5').css({
-            color: 'transparent',
-            transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
-            opacity: 0.8
-          });
-          jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_s5').css('top'));
-        } else if (count_animation > 55 && count_animation <= 60) {
-          jQuery('.draggable_s5').css({
-            color: '#FFF0C7',
-            transform: 'scale(1)',
-            background: 'rgba(83, 35, 69, 0.4)',
-            opacity: 1
-          });
-          jQuery('.draggable_s6').css({
-            color: 'transparent',
-            transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
-            opacity: 0.8
-          });
-          jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_s6').css('top'));
-        } else if (count_animation > 60 && count_animation <= 65) {
-          jQuery('.draggable_s6').css({
-            color: '#FFF0C7',
-            transform: 'scale(1)',
-            background: 'rgba(83, 35, 69, 0.4)',
-            opacity: 1
-          });
-          jQuery('.draggable_v1').css({
-            color: 'transparent',
-            transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
-            opacity: 0.8
-          });
-          jQuery('.status_percent').text('98%');
-          jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v1').css('top'));
-        } else if (count_animation > 65 && count_animation <= 70) {
-          jQuery('.draggable_v1').css({
-            color: '#FFF0C7',
-            transform: 'scale(1)',
-            background: 'rgba(83, 35, 69, 0.4)',
-            opacity: 1
-          });
-          jQuery('.draggable_s2').css({
-            color: 'transparent',
-            transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
-            opacity: 0.8
-          });
-          jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_s2').css('top'));
-        } else if (count_animation > 70 && count_animation <= 75) {
-          jQuery('.draggable_s2').css({
-            color: '#FFF0C7',
-            transform: 'scale(1)',
-            background: 'rgba(83, 35, 69, 0.4)',
-            opacity: 1
-          });
-          jQuery('.draggable_s3').css({
-            color: 'transparent',
-            transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
-            opacity: 0.8
-          });
-          jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_s3').css('top'));
-        } else if (count_animation > 75 && count_animation <= 80) {
-          jQuery('.draggable_s3').css({
-            color: '#FFF0C7',
-            transform: 'scale(1)',
-            background: 'rgba(83, 35, 69, 0.4)',
-            opacity: 1
-          });
-          jQuery('.draggable_s4').css({
-            color: 'transparent',
-            transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
-            opacity: 0.8
-          });
-          jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_s4').css('top'));
-        } else if (count_animation > 80 && count_animation <= 85) {
-          jQuery('.draggable_s4').css({
-            color: '#FFF0C7',
-            transform: 'scale(1)',
-            background: 'rgba(83, 35, 69, 0.4)',
-            opacity: 1
-          });
-          jQuery('.draggable_s5').css({
-            color: 'transparent',
-            transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
-            opacity: 0.8
-          });
-          jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_s5').css('top'));
-        } else if (count_animation > 85 && count_animation <= 90) {
-          jQuery('.draggable_s5').css({
-            color: '#FFF0C7',
-            transform: 'scale(1)',
-            background: 'rgba(83, 35, 69, 0.4)',
-            opacity: 1
-          });
-          jQuery('.draggable_s6').css({
-            color: 'transparent',
-            transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
-            opacity: 0.8
-          });
-          jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_s6').css('top'));
-        } else if (count_animation > 90 && count_animation <= 95) {
-          jQuery('.draggable_s6').css({
-            color: '#FFF0C7',
-            transform: 'scale(1)',
-            background: 'rgba(83, 35, 69, 0.4)',
-            opacity: 1
-          });
-          jQuery('.status_percent').text('99%');
-          jQuery('.draggable_v1').css({
-            color: 'transparent',
-            transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
-            opacity: 0.8
-          });
-          jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v1').css('top'));
-        } else if (count_animation > 95 && count_animation <= 100) {
-          jQuery('.draggable_v1').css({
-            color: '#FFF0C7',
-            transform: 'scale(1)',
-            background: 'rgba(83, 35, 69, 0.4)',
-            opacity: 1
-          });
-          jQuery('.draggable_s2').css({
-            color: 'transparent',
-            transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
-            opacity: 0.8
-          });
-          jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_s2').css('top'));
-        } else if (count_animation > 100 && count_animation <= 105) {
-          jQuery('.draggable_s2').css({
-            color: '#FFF0C7',
-            transform: 'scale(1)',
-            background: 'rgba(83, 35, 69, 0.4)',
-            opacity: 1
-          });
-          jQuery('.draggable_s3').css({
-            color: 'transparent',
-            transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
-            opacity: 0.8
-          });
-          jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_s3').css('top'));
-        } else if (count_animation > 105 && count_animation <= 110) {
-          jQuery('.draggable_s3').css({
-            color: '#FFF0C7',
-            transform: 'scale(1)',
-            background: 'rgba(83, 35, 69, 0.4)',
-            opacity: 1
-          });
-          jQuery('.draggable_s4').css({
-            color: 'transparent',
-            transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
-            opacity: 0.8
-          });
-          jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_s4').css('top'));
-        } else if (count_animation > 110 && count_animation <= 115) {
-          jQuery('.draggable_s4').css({
-            color: '#FFF0C7',
-            transform: 'scale(1)',
-            background: 'rgba(83, 35, 69, 0.4)',
-            opacity: 1
-          });
-          jQuery('.draggable_s5').css({
-            color: 'transparent',
-            transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
-            opacity: 0.8
-          });
-          jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_s5').css('top'));
-        } else if (count_animation > 115 && count_animation <= 120) {
-          jQuery('.draggable_s5').css({
-            color: '#FFF0C7',
-            transform: 'scale(1)',
-            background: 'rgba(83, 35, 69, 0.4)',
-            opacity: 1
-          });
-          jQuery('.draggable_s6').css({
-            color: 'transparent',
-            transform: 'scale(1.3)',
-            background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
-            opacity: 0.8
-          });
-          jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_s6').css('top'));
-        }
-        jQuery('.zone_x').css('transform', 'scale(1.3) rotate('+rotate_one+'deg)');
-        jQuery('.zone_l').css('transform', 'scale(1.3) rotate(-'+rotate_two+'deg)');
-        count_animation += 1;
-        rotate_one += 2;
-        rotate_two += 20;
-      } else {
-        jQuery('.draggable_s6, .draggable_v3').css({
+    
+  });
+}
+
+drenag12 = function(){
+  jQuery('.status_pahaze_now').text('12');
+  count_animation = 0;
+  phaseOne = setInterval(function(){
+    if (count_animation <= 120){
+      if (count_animation > 0 && count_animation <= 5) {
+        jQuery('.draggable_v5').css({
           color: '#FFF0C7',
           transform: 'scale(1)',
           background: 'rgba(83, 35, 69, 0.4)',
           opacity: 1
         });
-        jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v3').css('top'));
-        clearInterval(phaseOne);
-        count_animation = 0;
-        jQuery('.status_percent').text('100%');
-        onEnd();
+        jQuery('.status_percent').text('96%');
+        jQuery('.draggable_v1').css({
+          color: 'transparent',
+          transform: 'scale(1.3)',
+          background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+          opacity: 0.8
+        });
+        jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v1').css('top'));
+      } else if (count_animation > 5 && count_animation <= 10) {
+        jQuery('.draggable_v1').css({
+          color: '#FFF0C7',
+          transform: 'scale(1)',
+          background: 'rgba(83, 35, 69, 0.4)',
+          opacity: 1
+        });
+        jQuery('.draggable_s2').css({
+          color: 'transparent',
+          transform: 'scale(1.3)',
+          background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+          opacity: 0.8
+        });
+        jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_s2').css('top'));
+      } else if (count_animation > 10 && count_animation <= 15) {
+        jQuery('.draggable_s2').css({
+          color: '#FFF0C7',
+          transform: 'scale(1)',
+          background: 'rgba(83, 35, 69, 0.4)',
+          opacity: 1
+        });
+        jQuery('.draggable_s3').css({
+          color: 'transparent',
+          transform: 'scale(1.3)',
+          background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+          opacity: 0.8
+        });
+        jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_s3').css('top'));
+      } else if (count_animation > 15 && count_animation <= 20) {
+        jQuery('.draggable_s3').css({
+          color: '#FFF0C7',
+          transform: 'scale(1)',
+          background: 'rgba(83, 35, 69, 0.4)',
+          opacity: 1
+        });
+        jQuery('.draggable_s4').css({
+          color: 'transparent',
+          transform: 'scale(1.3)',
+          background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+          opacity: 0.8
+        });
+        jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_s4').css('top'));
+      } else if (count_animation > 20 && count_animation <= 25) {
+        jQuery('.draggable_s4').css({
+          color: '#FFF0C7',
+          transform: 'scale(1)',
+          background: 'rgba(83, 35, 69, 0.4)',
+          opacity: 1
+        });
+        jQuery('.draggable_s5').css({
+          color: 'transparent',
+          transform: 'scale(1.3)',
+          background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+          opacity: 0.8
+        });
+        jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_s5').css('top'));
+      } else if (count_animation > 25 && count_animation <= 30) {
+        jQuery('.draggable_s5').css({
+          color: '#FFF0C7',
+          transform: 'scale(1)',
+          background: 'rgba(83, 35, 69, 0.4)',
+          opacity: 1
+        });
+        jQuery('.draggable_s6').css({
+          color: 'transparent',
+          transform: 'scale(1.3)',
+          background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+          opacity: 0.8
+        });
+        jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_s6').css('top'));
+      } else if (count_animation > 30 && count_animation <= 35) {
+        jQuery('.draggable_s6').css({
+          color: '#FFF0C7',
+          transform: 'scale(1)',
+          background: 'rgba(83, 35, 69, 0.4)',
+          opacity: 1
+        });
+        jQuery('.status_percent').text('97%');
+        jQuery('.draggable_v1').css({
+          color: 'transparent',
+          transform: 'scale(1.3)',
+          background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+          opacity: 0.8
+        });
+        jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v1').css('top'));
+      } else if (count_animation > 35 && count_animation <= 40) {
+        jQuery('.draggable_v1').css({
+          color: '#FFF0C7',
+          transform: 'scale(1)',
+          background: 'rgba(83, 35, 69, 0.4)',
+          opacity: 1
+        });
+        jQuery('.draggable_s2').css({
+          color: 'transparent',
+          transform: 'scale(1.3)',
+          background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+          opacity: 0.8
+        });
+        jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_s2').css('top'));
+      } else if (count_animation > 40 && count_animation <= 45) {
+        jQuery('.draggable_s2').css({
+          color: '#FFF0C7',
+          transform: 'scale(1)',
+          background: 'rgba(83, 35, 69, 0.4)',
+          opacity: 1
+        });
+        jQuery('.draggable_s3').css({
+          color: 'transparent',
+          transform: 'scale(1.3)',
+          background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+          opacity: 0.8
+        });
+        jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_s3').css('top'));
+      } else if (count_animation > 45 && count_animation <= 50) {
+        jQuery('.draggable_s3').css({
+          color: '#FFF0C7',
+          transform: 'scale(1)',
+          background: 'rgba(83, 35, 69, 0.4)',
+          opacity: 1
+        });
+        jQuery('.draggable_s4').css({
+          color: 'transparent',
+          transform: 'scale(1.3)',
+          background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+          opacity: 0.8
+        });
+        jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_s4').css('top'));
+      } else if (count_animation > 50 && count_animation <= 55) {
+        jQuery('.draggable_s4').css({
+          color: '#FFF0C7',
+          transform: 'scale(1)',
+          background: 'rgba(83, 35, 69, 0.4)',
+          opacity: 1
+        });
+        jQuery('.draggable_s5').css({
+          color: 'transparent',
+          transform: 'scale(1.3)',
+          background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+          opacity: 0.8
+        });
+        jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_s5').css('top'));
+      } else if (count_animation > 55 && count_animation <= 60) {
+        jQuery('.draggable_s5').css({
+          color: '#FFF0C7',
+          transform: 'scale(1)',
+          background: 'rgba(83, 35, 69, 0.4)',
+          opacity: 1
+        });
+        jQuery('.draggable_s6').css({
+          color: 'transparent',
+          transform: 'scale(1.3)',
+          background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+          opacity: 0.8
+        });
+        jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_s6').css('top'));
+      } else if (count_animation > 60 && count_animation <= 65) {
+        jQuery('.draggable_s6').css({
+          color: '#FFF0C7',
+          transform: 'scale(1)',
+          background: 'rgba(83, 35, 69, 0.4)',
+          opacity: 1
+        });
+        jQuery('.draggable_v1').css({
+          color: 'transparent',
+          transform: 'scale(1.3)',
+          background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+          opacity: 0.8
+        });
+        jQuery('.status_percent').text('98%');
+        jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v1').css('top'));
+      } else if (count_animation > 65 && count_animation <= 70) {
+        jQuery('.draggable_v1').css({
+          color: '#FFF0C7',
+          transform: 'scale(1)',
+          background: 'rgba(83, 35, 69, 0.4)',
+          opacity: 1
+        });
+        jQuery('.draggable_s2').css({
+          color: 'transparent',
+          transform: 'scale(1.3)',
+          background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+          opacity: 0.8
+        });
+        jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_s2').css('top'));
+      } else if (count_animation > 70 && count_animation <= 75) {
+        jQuery('.draggable_s2').css({
+          color: '#FFF0C7',
+          transform: 'scale(1)',
+          background: 'rgba(83, 35, 69, 0.4)',
+          opacity: 1
+        });
+        jQuery('.draggable_s3').css({
+          color: 'transparent',
+          transform: 'scale(1.3)',
+          background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+          opacity: 0.8
+        });
+        jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_s3').css('top'));
+      } else if (count_animation > 75 && count_animation <= 80) {
+        jQuery('.draggable_s3').css({
+          color: '#FFF0C7',
+          transform: 'scale(1)',
+          background: 'rgba(83, 35, 69, 0.4)',
+          opacity: 1
+        });
+        jQuery('.draggable_s4').css({
+          color: 'transparent',
+          transform: 'scale(1.3)',
+          background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+          opacity: 0.8
+        });
+        jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_s4').css('top'));
+      } else if (count_animation > 80 && count_animation <= 85) {
+        jQuery('.draggable_s4').css({
+          color: '#FFF0C7',
+          transform: 'scale(1)',
+          background: 'rgba(83, 35, 69, 0.4)',
+          opacity: 1
+        });
+        jQuery('.draggable_s5').css({
+          color: 'transparent',
+          transform: 'scale(1.3)',
+          background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+          opacity: 0.8
+        });
+        jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_s5').css('top'));
+      } else if (count_animation > 85 && count_animation <= 90) {
+        jQuery('.draggable_s5').css({
+          color: '#FFF0C7',
+          transform: 'scale(1)',
+          background: 'rgba(83, 35, 69, 0.4)',
+          opacity: 1
+        });
+        jQuery('.draggable_s6').css({
+          color: 'transparent',
+          transform: 'scale(1.3)',
+          background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+          opacity: 0.8
+        });
+        jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_s6').css('top'));
+      } else if (count_animation > 90 && count_animation <= 95) {
+        jQuery('.draggable_s6').css({
+          color: '#FFF0C7',
+          transform: 'scale(1)',
+          background: 'rgba(83, 35, 69, 0.4)',
+          opacity: 1
+        });
+        jQuery('.status_percent').text('99%');
+        jQuery('.draggable_v1').css({
+          color: 'transparent',
+          transform: 'scale(1.3)',
+          background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+          opacity: 0.8
+        });
+        jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v1').css('top'));
+      } else if (count_animation > 95 && count_animation <= 100) {
+        jQuery('.draggable_v1').css({
+          color: '#FFF0C7',
+          transform: 'scale(1)',
+          background: 'rgba(83, 35, 69, 0.4)',
+          opacity: 1
+        });
+        jQuery('.draggable_s2').css({
+          color: 'transparent',
+          transform: 'scale(1.3)',
+          background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+          opacity: 0.8
+        });
+        jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_s2').css('top'));
+      } else if (count_animation > 100 && count_animation <= 105) {
+        jQuery('.draggable_s2').css({
+          color: '#FFF0C7',
+          transform: 'scale(1)',
+          background: 'rgba(83, 35, 69, 0.4)',
+          opacity: 1
+        });
+        jQuery('.draggable_s3').css({
+          color: 'transparent',
+          transform: 'scale(1.3)',
+          background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+          opacity: 0.8
+        });
+        jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_s3').css('top'));
+      } else if (count_animation > 105 && count_animation <= 110) {
+        jQuery('.draggable_s3').css({
+          color: '#FFF0C7',
+          transform: 'scale(1)',
+          background: 'rgba(83, 35, 69, 0.4)',
+          opacity: 1
+        });
+        jQuery('.draggable_s4').css({
+          color: 'transparent',
+          transform: 'scale(1.3)',
+          background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+          opacity: 0.8
+        });
+        jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_s4').css('top'));
+      } else if (count_animation > 110 && count_animation <= 115) {
+        jQuery('.draggable_s4').css({
+          color: '#FFF0C7',
+          transform: 'scale(1)',
+          background: 'rgba(83, 35, 69, 0.4)',
+          opacity: 1
+        });
+        jQuery('.draggable_s5').css({
+          color: 'transparent',
+          transform: 'scale(1.3)',
+          background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+          opacity: 0.8
+        });
+        jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_s5').css('top'));
+      } else if (count_animation > 115 && count_animation <= 120) {
+        jQuery('.draggable_s5').css({
+          color: '#FFF0C7',
+          transform: 'scale(1)',
+          background: 'rgba(83, 35, 69, 0.4)',
+          opacity: 1
+        });
+        jQuery('.draggable_s6').css({
+          color: 'transparent',
+          transform: 'scale(1.3)',
+          background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+          opacity: 0.8
+        });
+        jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_s6').css('top'));
       }
-    }, 1000);
-  });
+      jQuery('.zone_x').css('transform', 'scale(1.3) rotate('+rotate_one+'deg)');
+      jQuery('.zone_l').css('transform', 'scale(1.3) rotate(-'+rotate_two+'deg)');
+      count_animation += 1;
+      rotate_one += 2;
+      rotate_two += 20;
+    } else {
+      jQuery('.draggable_s6, .draggable_v3').css({
+        color: '#FFF0C7',
+        transform: 'scale(1)',
+        background: 'rgba(83, 35, 69, 0.4)',
+        opacity: 1
+      });
+      jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v3').css('top'));
+      clearInterval(phaseOne);
+      count_animation = 0;
+      jQuery('.status_percent').text('100%');
+      onEnd();
+    }
+  }, 1000);
 }
 
-////////////////////////////////////////////////////////////////////////////////////////////////////
-////////////////////////////////////////////////////////////////////////////////////////////////////
-////////////////////////////////////////////////////////////////////////////////////////////////////
-////////////////////////////////////////////////////////////////////////////////////////////////////
-////////////////////////////////////////////////////////////////////////////////////////////////////
+drenag11 = function(){
+  jQuery('.status_pahaze_now').text('11');
+  phaseOne = setInterval(function(){
+    if (count_animation <= 120){
+      if (count_animation > 0 && count_animation <= 5) {
+        jQuery('.draggable_d6').css({
+          color: '#FFF0C7',
+          transform: 'scale(1)',
+          background: 'rgba(83, 35, 69, 0.4)',
+          opacity: 1
+        });
+        jQuery('.draggable_v0').css({
+          color: 'transparent',
+          transform: 'scale(1.3)',
+          background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+          opacity: 0.8
+        });
+        jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v1').css('top'));
+      } else if (count_animation > 5 && count_animation <= 10) {
+        jQuery('.status_percent').text('86%');
+        jQuery('.draggable_v0').css({
+          color: '#FFF0C7',
+          transform: 'scale(1)',
+          background: 'rgba(83, 35, 69, 0.4)',
+          opacity: 1
+        });
+        jQuery('.draggable_v2').css({
+          color: 'transparent',
+          transform: 'scale(1.3)',
+          background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+          opacity: 0.8
+        });
+        jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v2').css('top'));
+      } else if (count_animation > 10 && count_animation <= 15) {
+        jQuery('.draggable_v2').css({
+          color: '#FFF0C7',
+          transform: 'scale(1)',
+          background: 'rgba(83, 35, 69, 0.4)',
+          opacity: 1
+        });
+        jQuery('.draggable_v4').css({
+          color: 'transparent',
+          transform: 'scale(1.3)',
+          background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+          opacity: 0.8
+        });
+        jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v4').css('top'));
+      } else if (count_animation > 15 && count_animation <= 20) {
+        jQuery('.draggable_v4').css({
+          color: '#FFF0C7',
+          transform: 'scale(1)',
+          background: 'rgba(83, 35, 69, 0.4)',
+          opacity: 1
+        });
+        jQuery('.draggable_v5').css({
+          color: 'transparent',
+          transform: 'scale(1.3)',
+          background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+          opacity: 0.8
+        });
+        jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v5').css('top'));
+      } else if (count_animation > 20 && count_animation <= 25) {
+        jQuery('.draggable_v5').css({
+          color: '#FFF0C7',
+          transform: 'scale(1)',
+          background: 'rgba(83, 35, 69, 0.4)',
+          opacity: 1
+        });
+        jQuery('.draggable_v-').css({
+          color: 'transparent',
+          transform: 'scale(1.3)',
+          background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+          opacity: 0.8
+        });
+        jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v-').css('top'));
+      } else if (count_animation > 25 && count_animation <= 30) {
+        jQuery('.draggable_v-').css({
+          color: '#FFF0C7',
+          transform: 'scale(1)',
+          background: 'rgba(83, 35, 69, 0.4)',
+          opacity: 1
+        });
+        jQuery('.status_percent').text('88%');
+        jQuery('.draggable_v0').css({
+          color: 'transparent',
+          transform: 'scale(1.3)',
+          background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+          opacity: 0.8
+        });
+        jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v0').css('top'));
+      } else if (count_animation > 30 && count_animation <= 35) {
+        jQuery('.draggable_v0').css({
+          color: '#FFF0C7',
+          transform: 'scale(1)',
+          background: 'rgba(83, 35, 69, 0.4)',
+          opacity: 1
+        });
+        jQuery('.draggable_v2').css({
+          color: 'transparent',
+          transform: 'scale(1.3)',
+          background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+          opacity: 0.8
+        });
+        jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v2').css('top'));
+      } else if (count_animation > 35 && count_animation <= 40) {
+        jQuery('.draggable_v2').css({
+          color: '#FFF0C7',
+          transform: 'scale(1)',
+          background: 'rgba(83, 35, 69, 0.4)',
+          opacity: 1
+        });
+        jQuery('.draggable_v4').css({
+          color: 'transparent',
+          transform: 'scale(1.3)',
+          background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+          opacity: 0.8
+        });
+        jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v4').css('top'));
+      } else if (count_animation > 40 && count_animation <= 45) {
+        jQuery('.draggable_v4').css({
+          color: '#FFF0C7',
+          transform: 'scale(1)',
+          background: 'rgba(83, 35, 69, 0.4)',
+          opacity: 1
+        });
+        jQuery('.draggable_v5').css({
+          color: 'transparent',
+          transform: 'scale(1.3)',
+          background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+          opacity: 0.8
+        });
+        jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v5').css('top'));
+      } else if (count_animation > 45 && count_animation <= 50) {
+        jQuery('.draggable_v5').css({
+          color: '#FFF0C7',
+          transform: 'scale(1)',
+          background: 'rgba(83, 35, 69, 0.4)',
+          opacity: 1
+        });
+        jQuery('.draggable_v-').css({
+          color: 'transparent',
+          transform: 'scale(1.3)',
+          background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+          opacity: 0.8
+        });
+        jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v-').css('top'));
+      } else if (count_animation > 50 && count_animation <= 55) {
+        jQuery('.draggable_v-').css({
+          color: '#FFF0C7',
+          transform: 'scale(1)',
+          background: 'rgba(83, 35, 69, 0.4)',
+          opacity: 1
+        });
+        jQuery('.status_percent').text('90%');
+        jQuery('.draggable_v0').css({
+          color: 'transparent',
+          transform: 'scale(1.3)',
+          background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+          opacity: 0.8
+        });
+        jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v0').css('top'));
+      } else if (count_animation > 55 && count_animation <= 60) {
+        jQuery('.draggable_v0').css({
+          color: '#FFF0C7',
+          transform: 'scale(1)',
+          background: 'rgba(83, 35, 69, 0.4)',
+          opacity: 1
+        });
+        jQuery('.draggable_v2').css({
+          color: 'transparent',
+          transform: 'scale(1.3)',
+          background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+          opacity: 0.8
+        });
+        jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v2').css('top'));
+      } else if (count_animation > 60 && count_animation <= 65) {
+        jQuery('.draggable_v2').css({
+          color: '#FFF0C7',
+          transform: 'scale(1)',
+          background: 'rgba(83, 35, 69, 0.4)',
+          opacity: 1
+        });
+        jQuery('.draggable_v4').css({
+          color: 'transparent',
+          transform: 'scale(1.3)',
+          background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+          opacity: 0.8
+        });
+        jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v4').css('top'));
+      } else if (count_animation > 65 && count_animation <= 70) {
+        jQuery('.draggable_v4').css({
+          color: '#FFF0C7',
+          transform: 'scale(1)',
+          background: 'rgba(83, 35, 69, 0.4)',
+          opacity: 1
+        });
+        jQuery('.draggable_v5').css({
+          color: 'transparent',
+          transform: 'scale(1.3)',
+          background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+          opacity: 0.8
+        });
+        jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v5').css('top'));
+      } else if (count_animation > 70 && count_animation <= 75) {
+        jQuery('.draggable_v5').css({
+          color: '#FFF0C7',
+          transform: 'scale(1)',
+          background: 'rgba(83, 35, 69, 0.4)',
+          opacity: 1
+        });
+        jQuery('.draggable_v-').css({
+          color: 'transparent',
+          transform: 'scale(1.3)',
+          background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+          opacity: 0.8
+        });
+        jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v-').css('top'));
+      } else if (count_animation > 75 && count_animation <= 80) {
+        jQuery('.draggable_v-').css({
+          color: '#FFF0C7',
+          transform: 'scale(1)',
+          background: 'rgba(83, 35, 69, 0.4)',
+          opacity: 1
+        });
+        jQuery('.status_percent').text('92%');
+        jQuery('.draggable_v0').css({
+          color: 'transparent',
+          transform: 'scale(1.3)',
+          background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+          opacity: 0.8
+        });
+        jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v0').css('top'));
+      } else if (count_animation > 80 && count_animation <= 85) {
+        jQuery('.draggable_v0').css({
+          color: '#FFF0C7',
+          transform: 'scale(1)',
+          background: 'rgba(83, 35, 69, 0.4)',
+          opacity: 1
+        });
+        jQuery('.draggable_v2').css({
+          color: 'transparent',
+          transform: 'scale(1.3)',
+          background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+          opacity: 0.8
+        });
+        jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v2').css('top'));
+      } else if (count_animation > 85 && count_animation <= 90) {
+        jQuery('.draggable_v2').css({
+          color: '#FFF0C7',
+          transform: 'scale(1)',
+          background: 'rgba(83, 35, 69, 0.4)',
+          opacity: 1
+        });
+        jQuery('.draggable_v4').css({
+          color: 'transparent',
+          transform: 'scale(1.3)',
+          background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+          opacity: 0.8
+        });
+        jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v4').css('top'));
+      } else if (count_animation > 90 && count_animation <= 95) {
+        jQuery('.draggable_v4').css({
+          color: '#FFF0C7',
+          transform: 'scale(1)',
+          background: 'rgba(83, 35, 69, 0.4)',
+          opacity: 1
+        });
+        jQuery('.draggable_v5').css({
+          color: 'transparent',
+          transform: 'scale(1.3)',
+          background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+          opacity: 0.8
+        });
+        jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v5').css('top'));
+      } else if (count_animation > 95 && count_animation <= 100) {
+        jQuery('.draggable_v5').css({
+          color: '#FFF0C7',
+          transform: 'scale(1)',
+          background: 'rgba(83, 35, 69, 0.4)',
+          opacity: 1
+        });
+        jQuery('.draggable_v-').css({
+          color: 'transparent',
+          transform: 'scale(1.3)',
+          background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+          opacity: 0.8
+        });
+        jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v-').css('top'));
+      } else if (count_animation > 100 && count_animation <= 105) {
+        jQuery('.draggable_v-').css({
+          color: '#FFF0C7',
+          transform: 'scale(1)',
+          background: 'rgba(83, 35, 69, 0.4)',
+          opacity: 1
+        });
+        jQuery('.status_percent').text('94%');
+        jQuery('.draggable_v0').css({
+          color: 'transparent',
+          transform: 'scale(1.3)',
+          background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+          opacity: 0.8
+        });
+        jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v0').css('top'));
+      } else if (count_animation > 105 && count_animation <= 110) {
+        jQuery('.draggable_v0').css({
+          color: '#FFF0C7',
+          transform: 'scale(1)',
+          background: 'rgba(83, 35, 69, 0.4)',
+          opacity: 1
+        });
+        jQuery('.draggable_v2').css({
+          color: 'transparent',
+          transform: 'scale(1.3)',
+          background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+          opacity: 0.8
+        });
+        jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v2').css('top'));
+      } else if (count_animation > 110 && count_animation <= 115) {
+        jQuery('.draggable_v2').css({
+          color: '#FFF0C7',
+          transform: 'scale(1)',
+          background: 'rgba(83, 35, 69, 0.4)',
+          opacity: 1
+        });
+        jQuery('.draggable_v4').css({
+          color: 'transparent',
+          transform: 'scale(1.3)',
+          background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+          opacity: 0.8
+        });
+        jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v4').css('top'));
+      } else if (count_animation > 115 && count_animation <= 120) {
+        jQuery('.draggable_v4').css({
+          color: '#FFF0C7',
+          transform: 'scale(1)',
+          background: 'rgba(83, 35, 69, 0.4)',
+          opacity: 1
+        });
+        jQuery('.draggable_v5').css({
+          color: 'transparent',
+          transform: 'scale(1.3)',
+          background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+          opacity: 0.8
+        });
+        jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v5').css('top'));
+      }
+      jQuery('.zone_x').css('transform', 'scale(1.3) rotate('+rotate_one+'deg)');
+      jQuery('.zone_l').css('transform', 'scale(1.3) rotate(-'+rotate_two+'deg)');
+      count_animation += 1;
+      rotate_one += 2;
+      rotate_two += 20;
+    } else {
+      clearInterval(phaseOne);
+      count_animation = 1;
+      if (pausedStatus == true) {
+        localStorage.setItem('paused', 'drenag12');
+        endNow()
+      } else {
+        drenag12();
+      }
+    }
+  }, 1000);
+}
 
-// solis = function(){
-//   chain(function(next) {
-    
-//   }).then(function(next) {
-    
-//   }).then(function(next) {
-    
-//   }).then(function(next) {
-    
-//   }).then(function(next) {
-// // Фаза 5
-  
-// }
+drenag10 = function(){
+  jQuery('.status_pahaze_now').text('10');
+  count_animation = 0;
+  phaseOne = setInterval(function(){
+    if (count_animation <= 120){
+      if (count_animation > 0 && count_animation <= 5) {
+        jQuery('.draggable_s6').css({
+          color: '#FFF0C7',
+          transform: 'scale(1)',
+          background: 'rgba(83, 35, 69, 0.4)',
+          opacity: 1
+        });
+        jQuery('.status_percent').text('78%');
+        jQuery('.draggable_v1').css({
+          color: 'transparent',
+          transform: 'scale(1.3)',
+          background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+          opacity: 0.8
+        });
+        jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v1').css('top'));
+      } else if (count_animation > 5 && count_animation <= 10) {
+        jQuery('.draggable_v1').css({
+          color: '#FFF0C7',
+          transform: 'scale(1)',
+          background: 'rgba(83, 35, 69, 0.4)',
+          opacity: 1
+        });
+        jQuery('.draggable_d2').css({
+          color: 'transparent',
+          transform: 'scale(1.3)',
+          background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+          opacity: 0.8
+        });
+        jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_d2').css('top'));
+      } else if (count_animation > 10 && count_animation <= 15) {
+        jQuery('.draggable_d2').css({
+          color: '#FFF0C7',
+          transform: 'scale(1)',
+          background: 'rgba(83, 35, 69, 0.4)',
+          opacity: 1
+        });
+        jQuery('.draggable_d3').css({
+          color: 'transparent',
+          transform: 'scale(1.3)',
+          background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+          opacity: 0.8
+        });
+        jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_d3').css('top'));
+      } else if (count_animation > 15 && count_animation <= 20) {
+        jQuery('.draggable_d3').css({
+          color: '#FFF0C7',
+          transform: 'scale(1)',
+          background: 'rgba(83, 35, 69, 0.4)',
+          opacity: 1
+        });
+        jQuery('.draggable_d4').css({
+          color: 'transparent',
+          transform: 'scale(1.3)',
+          background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+          opacity: 0.8
+        });
+        jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_d4').css('top'));
+      } else if (count_animation > 20 && count_animation <= 25) {
+        jQuery('.draggable_d4').css({
+          color: '#FFF0C7',
+          transform: 'scale(1)',
+          background: 'rgba(83, 35, 69, 0.4)',
+          opacity: 1
+        });
+        jQuery('.draggable_d5').css({
+          color: 'transparent',
+          transform: 'scale(1.3)',
+          background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+          opacity: 0.8
+        });
+        jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_d5').css('top'));
+      } else if (count_animation > 25 && count_animation <= 30) {
+        jQuery('.draggable_d5').css({
+          color: '#FFF0C7',
+          transform: 'scale(1)',
+          background: 'rgba(83, 35, 69, 0.4)',
+          opacity: 1
+        });
+        jQuery('.draggable_d6').css({
+          color: 'transparent',
+          transform: 'scale(1.3)',
+          background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+          opacity: 0.8
+        });
+        jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_d6').css('top'));
+      } else if (count_animation > 30 && count_animation <= 35) {
+        jQuery('.draggable_d6').css({
+          color: '#FFF0C7',
+          transform: 'scale(1)',
+          background: 'rgba(83, 35, 69, 0.4)',
+          opacity: 1
+        });
+        jQuery('.status_percent').text('80%');
+        jQuery('.draggable_v1').css({
+          color: 'transparent',
+          transform: 'scale(1.3)',
+          background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+          opacity: 0.8
+        });
+        jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v1').css('top'));
+      } else if (count_animation > 35 && count_animation <= 40) {
+        jQuery('.draggable_v1').css({
+          color: '#FFF0C7',
+          transform: 'scale(1)',
+          background: 'rgba(83, 35, 69, 0.4)',
+          opacity: 1
+        });
+        jQuery('.draggable_d2').css({
+          color: 'transparent',
+          transform: 'scale(1.3)',
+          background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+          opacity: 0.8
+        });
+        jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_d2').css('top'));
+      } else if (count_animation > 40 && count_animation <= 45) {
+        jQuery('.draggable_d2').css({
+          color: '#FFF0C7',
+          transform: 'scale(1)',
+          background: 'rgba(83, 35, 69, 0.4)',
+          opacity: 1
+        });
+        jQuery('.draggable_d3').css({
+          color: 'transparent',
+          transform: 'scale(1.3)',
+          background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+          opacity: 0.8
+        });
+        jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_d3').css('top'));
+      } else if (count_animation > 45 && count_animation <= 50) {
+        jQuery('.draggable_d3').css({
+          color: '#FFF0C7',
+          transform: 'scale(1)',
+          background: 'rgba(83, 35, 69, 0.4)',
+          opacity: 1
+        });
+        jQuery('.draggable_d4').css({
+          color: 'transparent',
+          transform: 'scale(1.3)',
+          background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+          opacity: 0.8
+        });
+        jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_d4').css('top'));
+      } else if (count_animation > 50 && count_animation <= 55) {
+        jQuery('.draggable_d4').css({
+          color: '#FFF0C7',
+          transform: 'scale(1)',
+          background: 'rgba(83, 35, 69, 0.4)',
+          opacity: 1
+        });
+        jQuery('.draggable_d5').css({
+          color: 'transparent',
+          transform: 'scale(1.3)',
+          background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+          opacity: 0.8
+        });
+        jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_d5').css('top'));
+      } else if (count_animation > 55 && count_animation <= 60) {
+        jQuery('.draggable_d5').css({
+          color: '#FFF0C7',
+          transform: 'scale(1)',
+          background: 'rgba(83, 35, 69, 0.4)',
+          opacity: 1
+        });
+        jQuery('.draggable_d6').css({
+          color: 'transparent',
+          transform: 'scale(1.3)',
+          background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+          opacity: 0.8
+        });
+        jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_d6').css('top'));
+      } else if (count_animation > 60 && count_animation <= 65) {
+        jQuery('.draggable_d6').css({
+          color: '#FFF0C7',
+          transform: 'scale(1)',
+          background: 'rgba(83, 35, 69, 0.4)',
+          opacity: 1
+        });
+        jQuery('.status_percent').text('82%');
+        jQuery('.draggable_v1').css({
+          color: 'transparent',
+          transform: 'scale(1.3)',
+          background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+          opacity: 0.8
+        });
+        jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v1').css('top'));
+      } else if (count_animation > 65 && count_animation <= 70) {
+        jQuery('.draggable_v1').css({
+          color: '#FFF0C7',
+          transform: 'scale(1)',
+          background: 'rgba(83, 35, 69, 0.4)',
+          opacity: 1
+        });
+        jQuery('.draggable_d2').css({
+          color: 'transparent',
+          transform: 'scale(1.3)',
+          background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+          opacity: 0.8
+        });
+        jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_d2').css('top'));
+      } else if (count_animation > 70 && count_animation <= 75) {
+        jQuery('.draggable_d2').css({
+          color: '#FFF0C7',
+          transform: 'scale(1)',
+          background: 'rgba(83, 35, 69, 0.4)',
+          opacity: 1
+        });
+        jQuery('.draggable_d3').css({
+          color: 'transparent',
+          transform: 'scale(1.3)',
+          background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+          opacity: 0.8
+        });
+        jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_d3').css('top'));
+      } else if (count_animation > 75 && count_animation <= 80) {
+        jQuery('.draggable_d3').css({
+          color: '#FFF0C7',
+          transform: 'scale(1)',
+          background: 'rgba(83, 35, 69, 0.4)',
+          opacity: 1
+        });
+        jQuery('.draggable_d4').css({
+          color: 'transparent',
+          transform: 'scale(1.3)',
+          background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+          opacity: 0.8
+        });
+        jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_d4').css('top'));
+      } else if (count_animation > 80 && count_animation <= 85) {
+        jQuery('.draggable_d4').css({
+          color: '#FFF0C7',
+          transform: 'scale(1)',
+          background: 'rgba(83, 35, 69, 0.4)',
+          opacity: 1
+        });
+        jQuery('.draggable_d5').css({
+          color: 'transparent',
+          transform: 'scale(1.3)',
+          background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+          opacity: 0.8
+        });
+        jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_d5').css('top'));
+      } else if (count_animation > 85 && count_animation <= 90) {
+        jQuery('.draggable_d5').css({
+          color: '#FFF0C7',
+          transform: 'scale(1)',
+          background: 'rgba(83, 35, 69, 0.4)',
+          opacity: 1
+        });
+        jQuery('.draggable_d6').css({
+          color: 'transparent',
+          transform: 'scale(1.3)',
+          background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+          opacity: 0.8
+        });
+        jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_d6').css('top'));
+      } else if (count_animation > 90 && count_animation <= 95) {
+        jQuery('.draggable_d6').css({
+          color: '#FFF0C7',
+          transform: 'scale(1)',
+          background: 'rgba(83, 35, 69, 0.4)',
+          opacity: 1
+        });
+        jQuery('.status_percent').text('84%');
+        jQuery('.draggable_v1').css({
+          color: 'transparent',
+          transform: 'scale(1.3)',
+          background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+          opacity: 0.8
+        });
+        jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v1').css('top'));
+      } else if (count_animation > 95 && count_animation <= 100) {
+        jQuery('.draggable_v1').css({
+          color: '#FFF0C7',
+          transform: 'scale(1)',
+          background: 'rgba(83, 35, 69, 0.4)',
+          opacity: 1
+        });
+        jQuery('.draggable_d2').css({
+          color: 'transparent',
+          transform: 'scale(1.3)',
+          background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+          opacity: 0.8
+        });
+        jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_d2').css('top'));
+      } else if (count_animation > 100 && count_animation <= 105) {
+        jQuery('.draggable_d2').css({
+          color: '#FFF0C7',
+          transform: 'scale(1)',
+          background: 'rgba(83, 35, 69, 0.4)',
+          opacity: 1
+        });
+        jQuery('.draggable_d3').css({
+          color: 'transparent',
+          transform: 'scale(1.3)',
+          background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+          opacity: 0.8
+        });
+        jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_d3').css('top'));
+      } else if (count_animation > 105 && count_animation <= 110) {
+        jQuery('.draggable_d3').css({
+          color: '#FFF0C7',
+          transform: 'scale(1)',
+          background: 'rgba(83, 35, 69, 0.4)',
+          opacity: 1
+        });
+        jQuery('.draggable_d4').css({
+          color: 'transparent',
+          transform: 'scale(1.3)',
+          background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+          opacity: 0.8
+        });
+        jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_d4').css('top'));
+      } else if (count_animation > 110 && count_animation <= 115) {
+        jQuery('.draggable_d4').css({
+          color: '#FFF0C7',
+          transform: 'scale(1)',
+          background: 'rgba(83, 35, 69, 0.4)',
+          opacity: 1
+        });
+        jQuery('.draggable_d5').css({
+          color: 'transparent',
+          transform: 'scale(1.3)',
+          background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+          opacity: 0.8
+        });
+        jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_d5').css('top'));
+      } else if (count_animation > 115 && count_animation <= 120) {
+        jQuery('.draggable_d5').css({
+          color: '#FFF0C7',
+          transform: 'scale(1)',
+          background: 'rgba(83, 35, 69, 0.4)',
+          opacity: 1
+        });
+        jQuery('.draggable_d6').css({
+          color: 'transparent',
+          transform: 'scale(1.3)',
+          background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+          opacity: 0.8
+        });
+        jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_d6').css('top'));
+      }
+      jQuery('.zone_x').css('transform', 'scale(1.3) rotate('+rotate_one+'deg)');
+      jQuery('.zone_l').css('transform', 'scale(1.3) rotate(-'+rotate_two+'deg)');
+      count_animation += 1;
+      rotate_one += 2;
+      rotate_two += 20;
+    } else {
+      clearInterval(phaseOne);
+      count_animation = 0;
+      if (pausedStatus == true) {
+        localStorage.setItem('paused', 'drenag11');
+        endNow()
+      } else {
+        drenag11();
+      }
+    }
+  }, 1000); 
+}
+
+drenag9 = function(){
+  jQuery('.status_pahaze_now').text('9');
+  count_animation = 0;
+  phaseOne = setInterval(function(){
+    if (count_animation <= 120){
+      if (count_animation > 0 && count_animation <= 5) {
+        jQuery('.draggable_v5').css({
+          color: '#FFF0C7',
+          transform: 'scale(1)',
+          background: 'rgba(83, 35, 69, 0.4)',
+          opacity: 1
+        });
+        jQuery('.status_percent').text('70%');
+        jQuery('.draggable_v1').css({
+          color: 'transparent',
+          transform: 'scale(1.3)',
+          background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+          opacity: 0.8
+        });
+        jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v1').css('top'));
+      } else if (count_animation > 5 && count_animation <= 10) {
+        jQuery('.draggable_v1').css({
+          color: '#FFF0C7',
+          transform: 'scale(1)',
+          background: 'rgba(83, 35, 69, 0.4)',
+          opacity: 1
+        });
+        jQuery('.draggable_s2').css({
+          color: 'transparent',
+          transform: 'scale(1.3)',
+          background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+          opacity: 0.8
+        });
+        jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_s2').css('top'));
+      } else if (count_animation > 10 && count_animation <= 15) {
+        jQuery('.draggable_s2').css({
+          color: '#FFF0C7',
+          transform: 'scale(1)',
+          background: 'rgba(83, 35, 69, 0.4)',
+          opacity: 1
+        });
+        jQuery('.draggable_s3').css({
+          color: 'transparent',
+          transform: 'scale(1.3)',
+          background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+          opacity: 0.8
+        });
+        jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_s3').css('top'));
+      } else if (count_animation > 15 && count_animation <= 20) {
+        jQuery('.draggable_s3').css({
+          color: '#FFF0C7',
+          transform: 'scale(1)',
+          background: 'rgba(83, 35, 69, 0.4)',
+          opacity: 1
+        });
+        jQuery('.draggable_s4').css({
+          color: 'transparent',
+          transform: 'scale(1.3)',
+          background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+          opacity: 0.8
+        });
+        jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_s4').css('top'));
+      } else if (count_animation > 20 && count_animation <= 25) {
+        jQuery('.draggable_s4').css({
+          color: '#FFF0C7',
+          transform: 'scale(1)',
+          background: 'rgba(83, 35, 69, 0.4)',
+          opacity: 1
+        });
+        jQuery('.draggable_s5').css({
+          color: 'transparent',
+          transform: 'scale(1.3)',
+          background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+          opacity: 0.8
+        });
+        jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_s5').css('top'));
+      } else if (count_animation > 25 && count_animation <= 30) {
+        jQuery('.draggable_s5').css({
+          color: '#FFF0C7',
+          transform: 'scale(1)',
+          background: 'rgba(83, 35, 69, 0.4)',
+          opacity: 1
+        });
+        jQuery('.draggable_s6').css({
+          color: 'transparent',
+          transform: 'scale(1.3)',
+          background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+          opacity: 0.8
+        });
+        jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_s6').css('top'));
+      } else if (count_animation > 30 && count_animation <= 35) {
+        jQuery('.draggable_s6').css({
+          color: '#FFF0C7',
+          transform: 'scale(1)',
+          background: 'rgba(83, 35, 69, 0.4)',
+          opacity: 1
+        });
+        jQuery('.status_percent').text('72%');
+        jQuery('.draggable_v1').css({
+          color: 'transparent',
+          transform: 'scale(1.3)',
+          background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+          opacity: 0.8
+        });
+        jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v1').css('top'));
+      } else if (count_animation > 35 && count_animation <= 40) {
+        jQuery('.draggable_v1').css({
+          color: '#FFF0C7',
+          transform: 'scale(1)',
+          background: 'rgba(83, 35, 69, 0.4)',
+          opacity: 1
+        });
+        jQuery('.draggable_s2').css({
+          color: 'transparent',
+          transform: 'scale(1.3)',
+          background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+          opacity: 0.8
+        });
+        jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_s2').css('top'));
+      } else if (count_animation > 40 && count_animation <= 45) {
+        jQuery('.draggable_s2').css({
+          color: '#FFF0C7',
+          transform: 'scale(1)',
+          background: 'rgba(83, 35, 69, 0.4)',
+          opacity: 1
+        });
+        jQuery('.draggable_s3').css({
+          color: 'transparent',
+          transform: 'scale(1.3)',
+          background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+          opacity: 0.8
+        });
+        jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_s3').css('top'));
+      } else if (count_animation > 45 && count_animation <= 50) {
+        jQuery('.draggable_s3').css({
+          color: '#FFF0C7',
+          transform: 'scale(1)',
+          background: 'rgba(83, 35, 69, 0.4)',
+          opacity: 1
+        });
+        jQuery('.draggable_s4').css({
+          color: 'transparent',
+          transform: 'scale(1.3)',
+          background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+          opacity: 0.8
+        });
+        jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_s4').css('top'));
+      } else if (count_animation > 50 && count_animation <= 55) {
+        jQuery('.draggable_s4').css({
+          color: '#FFF0C7',
+          transform: 'scale(1)',
+          background: 'rgba(83, 35, 69, 0.4)',
+          opacity: 1
+        });
+        jQuery('.draggable_s5').css({
+          color: 'transparent',
+          transform: 'scale(1.3)',
+          background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+          opacity: 0.8
+        });
+        jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_s5').css('top'));
+      } else if (count_animation > 55 && count_animation <= 60) {
+        jQuery('.draggable_s5').css({
+          color: '#FFF0C7',
+          transform: 'scale(1)',
+          background: 'rgba(83, 35, 69, 0.4)',
+          opacity: 1
+        });
+        jQuery('.draggable_s6').css({
+          color: 'transparent',
+          transform: 'scale(1.3)',
+          background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+          opacity: 0.8
+        });
+        jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_s6').css('top'));
+      } else if (count_animation > 60 && count_animation <= 65) {
+        jQuery('.draggable_s6').css({
+          color: '#FFF0C7',
+          transform: 'scale(1)',
+          background: 'rgba(83, 35, 69, 0.4)',
+          opacity: 1
+        });
+        jQuery('.status_percent').text('74%');
+        jQuery('.draggable_v1').css({
+          color: 'transparent',
+          transform: 'scale(1.3)',
+          background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+          opacity: 0.8
+        });
+        jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v1').css('top'));
+      } else if (count_animation > 65 && count_animation <= 70) {
+        jQuery('.draggable_v1').css({
+          color: '#FFF0C7',
+          transform: 'scale(1)',
+          background: 'rgba(83, 35, 69, 0.4)',
+          opacity: 1
+        });
+        jQuery('.draggable_s2').css({
+          color: 'transparent',
+          transform: 'scale(1.3)',
+          background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+          opacity: 0.8
+        });
+        jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_s2').css('top'));
+      } else if (count_animation > 70 && count_animation <= 75) {
+        jQuery('.draggable_s2').css({
+          color: '#FFF0C7',
+          transform: 'scale(1)',
+          background: 'rgba(83, 35, 69, 0.4)',
+          opacity: 1
+        });
+        jQuery('.draggable_s3').css({
+          color: 'transparent',
+          transform: 'scale(1.3)',
+          background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+          opacity: 0.8
+        });
+        jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_s3').css('top'));
+      } else if (count_animation > 75 && count_animation <= 80) {
+        jQuery('.draggable_s3').css({
+          color: '#FFF0C7',
+          transform: 'scale(1)',
+          background: 'rgba(83, 35, 69, 0.4)',
+          opacity: 1
+        });
+        jQuery('.draggable_s4').css({
+          color: 'transparent',
+          transform: 'scale(1.3)',
+          background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+          opacity: 0.8
+        });
+        jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_s4').css('top'));
+      } else if (count_animation > 80 && count_animation <= 85) {
+        jQuery('.draggable_s4').css({
+          color: '#FFF0C7',
+          transform: 'scale(1)',
+          background: 'rgba(83, 35, 69, 0.4)',
+          opacity: 1
+        });
+        jQuery('.draggable_s5').css({
+          color: 'transparent',
+          transform: 'scale(1.3)',
+          background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+          opacity: 0.8
+        });
+        jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_s5').css('top'));
+      } else if (count_animation > 85 && count_animation <= 90) {
+        jQuery('.draggable_s5').css({
+          color: '#FFF0C7',
+          transform: 'scale(1)',
+          background: 'rgba(83, 35, 69, 0.4)',
+          opacity: 1
+        });
+        jQuery('.draggable_s6').css({
+          color: 'transparent',
+          transform: 'scale(1.3)',
+          background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+          opacity: 0.8
+        });
+        jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_s6').css('top'));
+      } else if (count_animation > 90 && count_animation <= 95) {
+        jQuery('.draggable_s6').css({
+          color: '#FFF0C7',
+          transform: 'scale(1)',
+          background: 'rgba(83, 35, 69, 0.4)',
+          opacity: 1
+        });
+        jQuery('.status_percent').text('76%');
+        jQuery('.draggable_v1').css({
+          color: 'transparent',
+          transform: 'scale(1.3)',
+          background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+          opacity: 0.8
+        });
+        jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v1').css('top'));
+      } else if (count_animation > 95 && count_animation <= 100) {
+        jQuery('.draggable_v1').css({
+          color: '#FFF0C7',
+          transform: 'scale(1)',
+          background: 'rgba(83, 35, 69, 0.4)',
+          opacity: 1
+        });
+        jQuery('.draggable_s2').css({
+          color: 'transparent',
+          transform: 'scale(1.3)',
+          background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+          opacity: 0.8
+        });
+        jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_s2').css('top'));
+      } else if (count_animation > 100 && count_animation <= 105) {
+        jQuery('.draggable_s2').css({
+          color: '#FFF0C7',
+          transform: 'scale(1)',
+          background: 'rgba(83, 35, 69, 0.4)',
+          opacity: 1
+        });
+        jQuery('.draggable_s3').css({
+          color: 'transparent',
+          transform: 'scale(1.3)',
+          background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+          opacity: 0.8
+        });
+        jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_s3').css('top'));
+      } else if (count_animation > 105 && count_animation <= 110) {
+        jQuery('.draggable_s3').css({
+          color: '#FFF0C7',
+          transform: 'scale(1)',
+          background: 'rgba(83, 35, 69, 0.4)',
+          opacity: 1
+        });
+        jQuery('.draggable_s4').css({
+          color: 'transparent',
+          transform: 'scale(1.3)',
+          background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+          opacity: 0.8
+        });
+        jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_s4').css('top'));
+      } else if (count_animation > 110 && count_animation <= 115) {
+        jQuery('.draggable_s4').css({
+          color: '#FFF0C7',
+          transform: 'scale(1)',
+          background: 'rgba(83, 35, 69, 0.4)',
+          opacity: 1
+        });
+        jQuery('.draggable_s5').css({
+          color: 'transparent',
+          transform: 'scale(1.3)',
+          background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+          opacity: 0.8
+        });
+        jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_s5').css('top'));
+      } else if (count_animation > 115 && count_animation <= 120) {
+        jQuery('.draggable_s5').css({
+          color: '#FFF0C7',
+          transform: 'scale(1)',
+          background: 'rgba(83, 35, 69, 0.4)',
+          opacity: 1
+        });
+        jQuery('.draggable_s6').css({
+          color: 'transparent',
+          transform: 'scale(1.3)',
+          background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+          opacity: 0.8
+        });
+        jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_s6').css('top'));
+      }
+      jQuery('.zone_x').css('transform', 'scale(1.3) rotate('+rotate_one+'deg)');
+      jQuery('.zone_l').css('transform', 'scale(1.3) rotate(-'+rotate_two+'deg)');
+      count_animation += 1;
+      rotate_one += 2;
+      rotate_two += 20;
+    } else {
+      clearInterval(phaseOne);
+      count_animation = 1;
+      if (pausedStatus == true) {
+        localStorage.setItem('paused', 'drenag10');
+        endNow()
+      } else {
+        drenag10();
+      }
+    }
+  }, 1000);  
+}
+
+drenag8 = function(){
+  jQuery('.status_pahaze_now').text('8');
+  phaseOne = setInterval(function(){
+    if (count_animation <= 120){
+      if (count_animation > 0 && count_animation <= 5) {
+        jQuery('.draggable_d6').css({
+          color: '#FFF0C7',
+          transform: 'scale(1)',
+          background: 'rgba(83, 35, 69, 0.4)',
+          opacity: 1
+        });
+        jQuery('.status_percent').text('60%');
+        jQuery('.draggable_v0').css({
+          color: 'transparent',
+          transform: 'scale(1.3)',
+          background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+          opacity: 0.8
+        });
+        jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v1').css('top'));
+      } else if (count_animation > 5 && count_animation <= 10) {
+        jQuery('.draggable_v0').css({
+          color: '#FFF0C7',
+          transform: 'scale(1)',
+          background: 'rgba(83, 35, 69, 0.4)',
+          opacity: 1
+        });
+        jQuery('.draggable_v2').css({
+          color: 'transparent',
+          transform: 'scale(1.3)',
+          background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+          opacity: 0.8
+        });
+        jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v2').css('top'));
+      } else if (count_animation > 10 && count_animation <= 15) {
+        jQuery('.draggable_v2').css({
+          color: '#FFF0C7',
+          transform: 'scale(1)',
+          background: 'rgba(83, 35, 69, 0.4)',
+          opacity: 1
+        });
+        jQuery('.draggable_v4').css({
+          color: 'transparent',
+          transform: 'scale(1.3)',
+          background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+          opacity: 0.8
+        });
+        jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v4').css('top'));
+      } else if (count_animation > 15 && count_animation <= 20) {
+        jQuery('.draggable_v4').css({
+          color: '#FFF0C7',
+          transform: 'scale(1)',
+          background: 'rgba(83, 35, 69, 0.4)',
+          opacity: 1
+        });
+        jQuery('.draggable_v5').css({
+          color: 'transparent',
+          transform: 'scale(1.3)',
+          background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+          opacity: 0.8
+        });
+        jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v5').css('top'));
+      } else if (count_animation > 20 && count_animation <= 25) {
+        jQuery('.draggable_v5').css({
+          color: '#FFF0C7',
+          transform: 'scale(1)',
+          background: 'rgba(83, 35, 69, 0.4)',
+          opacity: 1
+        });
+        jQuery('.draggable_v-').css({
+          color: 'transparent',
+          transform: 'scale(1.3)',
+          background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+          opacity: 0.8
+        });
+        jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v-').css('top'));
+      } else if (count_animation > 25 && count_animation <= 30) {
+        jQuery('.draggable_v-').css({
+          color: '#FFF0C7',
+          transform: 'scale(1)',
+          background: 'rgba(83, 35, 69, 0.4)',
+          opacity: 1
+        });
+        jQuery('.status_percent').text('62%');
+        jQuery('.draggable_v0').css({
+          color: 'transparent',
+          transform: 'scale(1.3)',
+          background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+          opacity: 0.8
+        });
+        jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v0').css('top'));
+      } else if (count_animation > 30 && count_animation <= 35) {
+        jQuery('.draggable_v0').css({
+          color: '#FFF0C7',
+          transform: 'scale(1)',
+          background: 'rgba(83, 35, 69, 0.4)',
+          opacity: 1
+        });
+        jQuery('.draggable_v2').css({
+          color: 'transparent',
+          transform: 'scale(1.3)',
+          background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+          opacity: 0.8
+        });
+        jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v2').css('top'));
+      } else if (count_animation > 35 && count_animation <= 40) {
+        jQuery('.draggable_v2').css({
+          color: '#FFF0C7',
+          transform: 'scale(1)',
+          background: 'rgba(83, 35, 69, 0.4)',
+          opacity: 1
+        });
+        jQuery('.draggable_v4').css({
+          color: 'transparent',
+          transform: 'scale(1.3)',
+          background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+          opacity: 0.8
+        });
+        jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v4').css('top'));
+      } else if (count_animation > 40 && count_animation <= 45) {
+        jQuery('.draggable_v4').css({
+          color: '#FFF0C7',
+          transform: 'scale(1)',
+          background: 'rgba(83, 35, 69, 0.4)',
+          opacity: 1
+        });
+        jQuery('.draggable_v5').css({
+          color: 'transparent',
+          transform: 'scale(1.3)',
+          background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+          opacity: 0.8
+        });
+        jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v5').css('top'));
+      } else if (count_animation > 45 && count_animation <= 50) {
+        jQuery('.draggable_v5').css({
+          color: '#FFF0C7',
+          transform: 'scale(1)',
+          background: 'rgba(83, 35, 69, 0.4)',
+          opacity: 1
+        });
+        jQuery('.draggable_v-').css({
+          color: 'transparent',
+          transform: 'scale(1.3)',
+          background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+          opacity: 0.8
+        });
+        jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v-').css('top'));
+      } else if (count_animation > 50 && count_animation <= 55) {
+        jQuery('.draggable_v-').css({
+          color: '#FFF0C7',
+          transform: 'scale(1)',
+          background: 'rgba(83, 35, 69, 0.4)',
+          opacity: 1
+        });
+        jQuery('.status_percent').text('64%');
+        jQuery('.draggable_v0').css({
+          color: 'transparent',
+          transform: 'scale(1.3)',
+          background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+          opacity: 0.8
+        });
+        jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v0').css('top'));
+      } else if (count_animation > 55 && count_animation <= 60) {
+        jQuery('.draggable_v0').css({
+          color: '#FFF0C7',
+          transform: 'scale(1)',
+          background: 'rgba(83, 35, 69, 0.4)',
+          opacity: 1
+        });
+        jQuery('.draggable_v2').css({
+          color: 'transparent',
+          transform: 'scale(1.3)',
+          background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+          opacity: 0.8
+        });
+        jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v2').css('top'));
+      } else if (count_animation > 60 && count_animation <= 65) {
+        jQuery('.draggable_v2').css({
+          color: '#FFF0C7',
+          transform: 'scale(1)',
+          background: 'rgba(83, 35, 69, 0.4)',
+          opacity: 1
+        });
+        jQuery('.draggable_v4').css({
+          color: 'transparent',
+          transform: 'scale(1.3)',
+          background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+          opacity: 0.8
+        });
+        jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v4').css('top'));
+      } else if (count_animation > 65 && count_animation <= 70) {
+        jQuery('.draggable_v4').css({
+          color: '#FFF0C7',
+          transform: 'scale(1)',
+          background: 'rgba(83, 35, 69, 0.4)',
+          opacity: 1
+        });
+        jQuery('.draggable_v5').css({
+          color: 'transparent',
+          transform: 'scale(1.3)',
+          background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+          opacity: 0.8
+        });
+        jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v5').css('top'));
+      } else if (count_animation > 70 && count_animation <= 75) {
+        jQuery('.draggable_v5').css({
+          color: '#FFF0C7',
+          transform: 'scale(1)',
+          background: 'rgba(83, 35, 69, 0.4)',
+          opacity: 1
+        });
+        jQuery('.draggable_v-').css({
+          color: 'transparent',
+          transform: 'scale(1.3)',
+          background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+          opacity: 0.8
+        });
+        jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v-').css('top'));
+      } else if (count_animation > 75 && count_animation <= 80) {
+        jQuery('.draggable_v-').css({
+          color: '#FFF0C7',
+          transform: 'scale(1)',
+          background: 'rgba(83, 35, 69, 0.4)',
+          opacity: 1
+        });
+        jQuery('.status_percent').text('66%');
+        jQuery('.draggable_v0').css({
+          color: 'transparent',
+          transform: 'scale(1.3)',
+          background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+          opacity: 0.8
+        });
+        jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v0').css('top'));
+      } else if (count_animation > 80 && count_animation <= 85) {
+        jQuery('.draggable_v0').css({
+          color: '#FFF0C7',
+          transform: 'scale(1)',
+          background: 'rgba(83, 35, 69, 0.4)',
+          opacity: 1
+        });
+        jQuery('.draggable_v2').css({
+          color: 'transparent',
+          transform: 'scale(1.3)',
+          background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+          opacity: 0.8
+        });
+        jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v2').css('top'));
+      } else if (count_animation > 85 && count_animation <= 90) {
+        jQuery('.draggable_v2').css({
+          color: '#FFF0C7',
+          transform: 'scale(1)',
+          background: 'rgba(83, 35, 69, 0.4)',
+          opacity: 1
+        });
+        jQuery('.draggable_v4').css({
+          color: 'transparent',
+          transform: 'scale(1.3)',
+          background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+          opacity: 0.8
+        });
+        jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v4').css('top'));
+      } else if (count_animation > 90 && count_animation <= 95) {
+        jQuery('.draggable_v4').css({
+          color: '#FFF0C7',
+          transform: 'scale(1)',
+          background: 'rgba(83, 35, 69, 0.4)',
+          opacity: 1
+        });
+        jQuery('.draggable_v5').css({
+          color: 'transparent',
+          transform: 'scale(1.3)',
+          background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+          opacity: 0.8
+        });
+        jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v5').css('top'));
+      } else if (count_animation > 95 && count_animation <= 100) {
+        jQuery('.draggable_v5').css({
+          color: '#FFF0C7',
+          transform: 'scale(1)',
+          background: 'rgba(83, 35, 69, 0.4)',
+          opacity: 1
+        });
+        jQuery('.draggable_v-').css({
+          color: 'transparent',
+          transform: 'scale(1.3)',
+          background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+          opacity: 0.8
+        });
+        jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v-').css('top'));
+      } else if (count_animation > 100 && count_animation <= 105) {
+        jQuery('.draggable_v-').css({
+          color: '#FFF0C7',
+          transform: 'scale(1)',
+          background: 'rgba(83, 35, 69, 0.4)',
+          opacity: 1
+        });
+        jQuery('.status_percent').text('68%');
+        jQuery('.draggable_v0').css({
+          color: 'transparent',
+          transform: 'scale(1.3)',
+          background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+          opacity: 0.8
+        });
+        jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v0').css('top'));
+      } else if (count_animation > 105 && count_animation <= 110) {
+        jQuery('.draggable_v0').css({
+          color: '#FFF0C7',
+          transform: 'scale(1)',
+          background: 'rgba(83, 35, 69, 0.4)',
+          opacity: 1
+        });
+        jQuery('.draggable_v2').css({
+          color: 'transparent',
+          transform: 'scale(1.3)',
+          background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+          opacity: 0.8
+        });
+        jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v2').css('top'));
+      } else if (count_animation > 110 && count_animation <= 115) {
+        jQuery('.draggable_v2').css({
+          color: '#FFF0C7',
+          transform: 'scale(1)',
+          background: 'rgba(83, 35, 69, 0.4)',
+          opacity: 1
+        });
+        jQuery('.draggable_v4').css({
+          color: 'transparent',
+          transform: 'scale(1.3)',
+          background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+          opacity: 0.8
+        });
+        jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v4').css('top'));
+      } else if (count_animation > 115 && count_animation <= 120) {
+        jQuery('.draggable_v4').css({
+          color: '#FFF0C7',
+          transform: 'scale(1)',
+          background: 'rgba(83, 35, 69, 0.4)',
+          opacity: 1
+        });
+        jQuery('.draggable_v5').css({
+          color: 'transparent',
+          transform: 'scale(1.3)',
+          background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+          opacity: 0.8
+        });
+        jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v5').css('top'));
+      }
+      jQuery('.zone_x').css('transform', 'scale(1.3) rotate('+rotate_one+'deg)');
+      jQuery('.zone_l').css('transform', 'scale(1.3) rotate(-'+rotate_two+'deg)');
+      count_animation += 1;
+      rotate_one += 2;
+      rotate_two += 20;
+    } else {
+      clearInterval(phaseOne);
+      count_animation = 1;
+      if (pausedStatus == true) {
+        localStorage.setItem('paused', 'drenag9');
+        endNow()
+      } else {
+        drenag9();
+      } 
+    }
+  }, 1000); 
+}
+
+drenag7 = function(){
+  jQuery('.status_pahaze_now').text('7');
+  count_animation = 0;
+  phaseOne = setInterval(function(){
+    if (count_animation <= 120){
+      if (count_animation > 0 && count_animation <= 5) {
+        jQuery('.draggable_s6').css({
+          color: '#FFF0C7',
+          transform: 'scale(1)',
+          background: 'rgba(83, 35, 69, 0.4)',
+          opacity: 1
+        });
+        jQuery('.status_percent').text('52%');
+        jQuery('.draggable_v1').css({
+          color: 'transparent',
+          transform: 'scale(1.3)',
+          background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+          opacity: 0.8
+        });
+        jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v1').css('top'));
+      } else if (count_animation > 5 && count_animation <= 10) {
+        jQuery('.draggable_v1').css({
+          color: '#FFF0C7',
+          transform: 'scale(1)',
+          background: 'rgba(83, 35, 69, 0.4)',
+          opacity: 1
+        });
+        jQuery('.draggable_d2').css({
+          color: 'transparent',
+          transform: 'scale(1.3)',
+          background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+          opacity: 0.8
+        });
+        jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_d2').css('top'));
+      } else if (count_animation > 10 && count_animation <= 15) {
+        jQuery('.draggable_d2').css({
+          color: '#FFF0C7',
+          transform: 'scale(1)',
+          background: 'rgba(83, 35, 69, 0.4)',
+          opacity: 1
+        });
+        jQuery('.draggable_d3').css({
+          color: 'transparent',
+          transform: 'scale(1.3)',
+          background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+          opacity: 0.8
+        });
+        jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_d3').css('top'));
+      } else if (count_animation > 15 && count_animation <= 20) {
+        jQuery('.draggable_d3').css({
+          color: '#FFF0C7',
+          transform: 'scale(1)',
+          background: 'rgba(83, 35, 69, 0.4)',
+          opacity: 1
+        });
+        jQuery('.draggable_d4').css({
+          color: 'transparent',
+          transform: 'scale(1.3)',
+          background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+          opacity: 0.8
+        });
+        jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_d4').css('top'));
+      } else if (count_animation > 20 && count_animation <= 25) {
+        jQuery('.draggable_d4').css({
+          color: '#FFF0C7',
+          transform: 'scale(1)',
+          background: 'rgba(83, 35, 69, 0.4)',
+          opacity: 1
+        });
+        jQuery('.draggable_d5').css({
+          color: 'transparent',
+          transform: 'scale(1.3)',
+          background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+          opacity: 0.8
+        });
+        jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_d5').css('top'));
+      } else if (count_animation > 25 && count_animation <= 30) {
+        jQuery('.draggable_d5').css({
+          color: '#FFF0C7',
+          transform: 'scale(1)',
+          background: 'rgba(83, 35, 69, 0.4)',
+          opacity: 1
+        });
+        jQuery('.draggable_d6').css({
+          color: 'transparent',
+          transform: 'scale(1.3)',
+          background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+          opacity: 0.8
+        });
+        jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_d6').css('top'));
+      } else if (count_animation > 30 && count_animation <= 35) {
+        jQuery('.draggable_d6').css({
+          color: '#FFF0C7',
+          transform: 'scale(1)',
+          background: 'rgba(83, 35, 69, 0.4)',
+          opacity: 1
+        });
+        jQuery('.status_percent').text('54%');
+        jQuery('.draggable_v1').css({
+          color: 'transparent',
+          transform: 'scale(1.3)',
+          background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+          opacity: 0.8
+        });
+        jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v1').css('top'));
+      } else if (count_animation > 35 && count_animation <= 40) {
+        jQuery('.draggable_v1').css({
+          color: '#FFF0C7',
+          transform: 'scale(1)',
+          background: 'rgba(83, 35, 69, 0.4)',
+          opacity: 1
+        });
+        jQuery('.draggable_d2').css({
+          color: 'transparent',
+          transform: 'scale(1.3)',
+          background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+          opacity: 0.8
+        });
+        jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_d2').css('top'));
+      } else if (count_animation > 40 && count_animation <= 45) {
+        jQuery('.draggable_d2').css({
+          color: '#FFF0C7',
+          transform: 'scale(1)',
+          background: 'rgba(83, 35, 69, 0.4)',
+          opacity: 1
+        });
+        jQuery('.draggable_d3').css({
+          color: 'transparent',
+          transform: 'scale(1.3)',
+          background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+          opacity: 0.8
+        });
+        jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_d3').css('top'));
+      } else if (count_animation > 45 && count_animation <= 50) {
+        jQuery('.draggable_d3').css({
+          color: '#FFF0C7',
+          transform: 'scale(1)',
+          background: 'rgba(83, 35, 69, 0.4)',
+          opacity: 1
+        });
+        jQuery('.draggable_d4').css({
+          color: 'transparent',
+          transform: 'scale(1.3)',
+          background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+          opacity: 0.8
+        });
+        jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_d4').css('top'));
+      } else if (count_animation > 50 && count_animation <= 55) {
+        jQuery('.draggable_d4').css({
+          color: '#FFF0C7',
+          transform: 'scale(1)',
+          background: 'rgba(83, 35, 69, 0.4)',
+          opacity: 1
+        });
+        jQuery('.draggable_d5').css({
+          color: 'transparent',
+          transform: 'scale(1.3)',
+          background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+          opacity: 0.8
+        });
+        jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_d5').css('top'));
+      } else if (count_animation > 55 && count_animation <= 60) {
+        jQuery('.draggable_d5').css({
+          color: '#FFF0C7',
+          transform: 'scale(1)',
+          background: 'rgba(83, 35, 69, 0.4)',
+          opacity: 1
+        });
+        jQuery('.draggable_d6').css({
+          color: 'transparent',
+          transform: 'scale(1.3)',
+          background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+          opacity: 0.8
+        });
+        jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_d6').css('top'));
+      } else if (count_animation > 60 && count_animation <= 65) {
+        jQuery('.draggable_d6').css({
+          color: '#FFF0C7',
+          transform: 'scale(1)',
+          background: 'rgba(83, 35, 69, 0.4)',
+          opacity: 1
+        });
+        jQuery('.status_percent').text('56%');
+        jQuery('.draggable_v1').css({
+          color: 'transparent',
+          transform: 'scale(1.3)',
+          background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+          opacity: 0.8
+        });
+        jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v1').css('top'));
+      } else if (count_animation > 65 && count_animation <= 70) {
+        jQuery('.draggable_v1').css({
+          color: '#FFF0C7',
+          transform: 'scale(1)',
+          background: 'rgba(83, 35, 69, 0.4)',
+          opacity: 1
+        });
+        jQuery('.draggable_d2').css({
+          color: 'transparent',
+          transform: 'scale(1.3)',
+          background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+          opacity: 0.8
+        });
+        jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_d2').css('top'));
+      } else if (count_animation > 70 && count_animation <= 75) {
+        jQuery('.draggable_d2').css({
+          color: '#FFF0C7',
+          transform: 'scale(1)',
+          background: 'rgba(83, 35, 69, 0.4)',
+          opacity: 1
+        });
+        jQuery('.draggable_d3').css({
+          color: 'transparent',
+          transform: 'scale(1.3)',
+          background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+          opacity: 0.8
+        });
+        jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_d3').css('top'));
+      } else if (count_animation > 75 && count_animation <= 80) {
+        jQuery('.draggable_d3').css({
+          color: '#FFF0C7',
+          transform: 'scale(1)',
+          background: 'rgba(83, 35, 69, 0.4)',
+          opacity: 1
+        });
+        jQuery('.draggable_d4').css({
+          color: 'transparent',
+          transform: 'scale(1.3)',
+          background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+          opacity: 0.8
+        });
+        jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_d4').css('top'));
+      } else if (count_animation > 80 && count_animation <= 85) {
+        jQuery('.draggable_d4').css({
+          color: '#FFF0C7',
+          transform: 'scale(1)',
+          background: 'rgba(83, 35, 69, 0.4)',
+          opacity: 1
+        });
+        jQuery('.draggable_d5').css({
+          color: 'transparent',
+          transform: 'scale(1.3)',
+          background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+          opacity: 0.8
+        });
+        jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_d5').css('top'));
+      } else if (count_animation > 85 && count_animation <= 90) {
+        jQuery('.draggable_d5').css({
+          color: '#FFF0C7',
+          transform: 'scale(1)',
+          background: 'rgba(83, 35, 69, 0.4)',
+          opacity: 1
+        });
+        jQuery('.draggable_d6').css({
+          color: 'transparent',
+          transform: 'scale(1.3)',
+          background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+          opacity: 0.8
+        });
+        jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_d6').css('top'));
+      } else if (count_animation > 90 && count_animation <= 95) {
+        jQuery('.draggable_d6').css({
+          color: '#FFF0C7',
+          transform: 'scale(1)',
+          background: 'rgba(83, 35, 69, 0.4)',
+          opacity: 1
+        });
+        jQuery('.status_percent').text('58%');
+        jQuery('.draggable_v1').css({
+          color: 'transparent',
+          transform: 'scale(1.3)',
+          background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+          opacity: 0.8
+        });
+        jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v1').css('top'));
+      } else if (count_animation > 95 && count_animation <= 100) {
+        jQuery('.draggable_v1').css({
+          color: '#FFF0C7',
+          transform: 'scale(1)',
+          background: 'rgba(83, 35, 69, 0.4)',
+          opacity: 1
+        });
+        jQuery('.draggable_d2').css({
+          color: 'transparent',
+          transform: 'scale(1.3)',
+          background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+          opacity: 0.8
+        });
+        jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_d2').css('top'));
+      } else if (count_animation > 100 && count_animation <= 105) {
+        jQuery('.draggable_d2').css({
+          color: '#FFF0C7',
+          transform: 'scale(1)',
+          background: 'rgba(83, 35, 69, 0.4)',
+          opacity: 1
+        });
+        jQuery('.draggable_d3').css({
+          color: 'transparent',
+          transform: 'scale(1.3)',
+          background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+          opacity: 0.8
+        });
+        jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_d3').css('top'));
+      } else if (count_animation > 105 && count_animation <= 110) {
+        jQuery('.draggable_d3').css({
+          color: '#FFF0C7',
+          transform: 'scale(1)',
+          background: 'rgba(83, 35, 69, 0.4)',
+          opacity: 1
+        });
+        jQuery('.draggable_d4').css({
+          color: 'transparent',
+          transform: 'scale(1.3)',
+          background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+          opacity: 0.8
+        });
+        jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_d4').css('top'));
+      } else if (count_animation > 110 && count_animation <= 115) {
+        jQuery('.draggable_d4').css({
+          color: '#FFF0C7',
+          transform: 'scale(1)',
+          background: 'rgba(83, 35, 69, 0.4)',
+          opacity: 1
+        });
+        jQuery('.draggable_d5').css({
+          color: 'transparent',
+          transform: 'scale(1.3)',
+          background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+          opacity: 0.8
+        });
+        jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_d5').css('top'));
+      } else if (count_animation > 115 && count_animation <= 120) {
+        jQuery('.draggable_d5').css({
+          color: '#FFF0C7',
+          transform: 'scale(1)',
+          background: 'rgba(83, 35, 69, 0.4)',
+          opacity: 1
+        });
+        jQuery('.draggable_d6').css({
+          color: 'transparent',
+          transform: 'scale(1.3)',
+          background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+          opacity: 0.8
+        });
+        jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_d6').css('top'));
+      }
+      jQuery('.zone_x').css('transform', 'scale(1.3) rotate('+rotate_one+'deg)');
+      jQuery('.zone_l').css('transform', 'scale(1.3) rotate(-'+rotate_two+'deg)');
+      count_animation += 1;
+      rotate_one += 2;
+      rotate_two += 20;
+    } else {
+      clearInterval(phaseOne);
+      count_animation = 0;
+      if (pausedStatus == true) {
+        localStorage.setItem('paused', 'drenag8');
+        endNow()
+      } else {
+        drenag8();
+      }
+    }
+  }, 1000);  
+}
+
+drenag6 = function(){
+  jQuery('.status_pahaze_now').text('6');
+  count_animation = 0;
+  phaseOne = setInterval(function(){
+    if (count_animation <= 120){
+      if (count_animation > 0 && count_animation <= 5) {
+        jQuery('.draggable_v5').css({
+          color: '#FFF0C7',
+          transform: 'scale(1)',
+          background: 'rgba(83, 35, 69, 0.4)',
+          opacity: 1
+        });
+        jQuery('.status_percent').text('44%');
+        jQuery('.draggable_v1').css({
+          color: 'transparent',
+          transform: 'scale(1.3)',
+          background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+          opacity: 0.8
+        });
+        jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v1').css('top'));
+      } else if (count_animation > 5 && count_animation <= 10) {
+        jQuery('.draggable_v1').css({
+          color: '#FFF0C7',
+          transform: 'scale(1)',
+          background: 'rgba(83, 35, 69, 0.4)',
+          opacity: 1
+        });
+        jQuery('.draggable_s2').css({
+          color: 'transparent',
+          transform: 'scale(1.3)',
+          background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+          opacity: 0.8
+        });
+        jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_s2').css('top'));
+      } else if (count_animation > 10 && count_animation <= 15) {
+        jQuery('.draggable_s2').css({
+          color: '#FFF0C7',
+          transform: 'scale(1)',
+          background: 'rgba(83, 35, 69, 0.4)',
+          opacity: 1
+        });
+        jQuery('.draggable_s3').css({
+          color: 'transparent',
+          transform: 'scale(1.3)',
+          background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+          opacity: 0.8
+        });
+        jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_s3').css('top'));
+      } else if (count_animation > 15 && count_animation <= 20) {
+        jQuery('.draggable_s3').css({
+          color: '#FFF0C7',
+          transform: 'scale(1)',
+          background: 'rgba(83, 35, 69, 0.4)',
+          opacity: 1
+        });
+        jQuery('.draggable_s4').css({
+          color: 'transparent',
+          transform: 'scale(1.3)',
+          background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+          opacity: 0.8
+        });
+        jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_s4').css('top'));
+      } else if (count_animation > 20 && count_animation <= 25) {
+        jQuery('.draggable_s4').css({
+          color: '#FFF0C7',
+          transform: 'scale(1)',
+          background: 'rgba(83, 35, 69, 0.4)',
+          opacity: 1
+        });
+        jQuery('.draggable_s5').css({
+          color: 'transparent',
+          transform: 'scale(1.3)',
+          background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+          opacity: 0.8
+        });
+        jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_s5').css('top'));
+      } else if (count_animation > 25 && count_animation <= 30) {
+        jQuery('.draggable_s5').css({
+          color: '#FFF0C7',
+          transform: 'scale(1)',
+          background: 'rgba(83, 35, 69, 0.4)',
+          opacity: 1
+        });
+        jQuery('.draggable_s6').css({
+          color: 'transparent',
+          transform: 'scale(1.3)',
+          background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+          opacity: 0.8
+        });
+        jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_s6').css('top'));
+      } else if (count_animation > 30 && count_animation <= 35) {
+        jQuery('.draggable_s6').css({
+          color: '#FFF0C7',
+          transform: 'scale(1)',
+          background: 'rgba(83, 35, 69, 0.4)',
+          opacity: 1
+        });
+        jQuery('.status_percent').text('46%');
+        jQuery('.draggable_v1').css({
+          color: 'transparent',
+          transform: 'scale(1.3)',
+          background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+          opacity: 0.8
+        });
+        jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v1').css('top'));
+      } else if (count_animation > 35 && count_animation <= 40) {
+        jQuery('.draggable_v1').css({
+          color: '#FFF0C7',
+          transform: 'scale(1)',
+          background: 'rgba(83, 35, 69, 0.4)',
+          opacity: 1
+        });
+        jQuery('.draggable_s2').css({
+          color: 'transparent',
+          transform: 'scale(1.3)',
+          background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+          opacity: 0.8
+        });
+        jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_s2').css('top'));
+      } else if (count_animation > 40 && count_animation <= 45) {
+        jQuery('.draggable_s2').css({
+          color: '#FFF0C7',
+          transform: 'scale(1)',
+          background: 'rgba(83, 35, 69, 0.4)',
+          opacity: 1
+        });
+        jQuery('.draggable_s3').css({
+          color: 'transparent',
+          transform: 'scale(1.3)',
+          background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+          opacity: 0.8
+        });
+        jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_s3').css('top'));
+      } else if (count_animation > 45 && count_animation <= 50) {
+        jQuery('.draggable_s3').css({
+          color: '#FFF0C7',
+          transform: 'scale(1)',
+          background: 'rgba(83, 35, 69, 0.4)',
+          opacity: 1
+        });
+        jQuery('.draggable_s4').css({
+          color: 'transparent',
+          transform: 'scale(1.3)',
+          background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+          opacity: 0.8
+        });
+        jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_s4').css('top'));
+      } else if (count_animation > 50 && count_animation <= 55) {
+        jQuery('.draggable_s4').css({
+          color: '#FFF0C7',
+          transform: 'scale(1)',
+          background: 'rgba(83, 35, 69, 0.4)',
+          opacity: 1
+        });
+        jQuery('.draggable_s5').css({
+          color: 'transparent',
+          transform: 'scale(1.3)',
+          background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+          opacity: 0.8
+        });
+        jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_s5').css('top'));
+      } else if (count_animation > 55 && count_animation <= 60) {
+        jQuery('.draggable_s5').css({
+          color: '#FFF0C7',
+          transform: 'scale(1)',
+          background: 'rgba(83, 35, 69, 0.4)',
+          opacity: 1
+        });
+        jQuery('.draggable_s6').css({
+          color: 'transparent',
+          transform: 'scale(1.3)',
+          background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+          opacity: 0.8
+        });
+        jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_s6').css('top'));
+      } else if (count_animation > 60 && count_animation <= 65) {
+        jQuery('.draggable_s6').css({
+          color: '#FFF0C7',
+          transform: 'scale(1)',
+          background: 'rgba(83, 35, 69, 0.4)',
+          opacity: 1
+        });
+        jQuery('.status_percent').text('48%');
+        jQuery('.draggable_v1').css({
+          color: 'transparent',
+          transform: 'scale(1.3)',
+          background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+          opacity: 0.8
+        });
+        jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v1').css('top'));
+      } else if (count_animation > 65 && count_animation <= 70) {
+        jQuery('.draggable_v1').css({
+          color: '#FFF0C7',
+          transform: 'scale(1)',
+          background: 'rgba(83, 35, 69, 0.4)',
+          opacity: 1
+        });
+        jQuery('.draggable_s2').css({
+          color: 'transparent',
+          transform: 'scale(1.3)',
+          background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+          opacity: 0.8
+        });
+        jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_s2').css('top'));
+      } else if (count_animation > 70 && count_animation <= 75) {
+        jQuery('.draggable_s2').css({
+          color: '#FFF0C7',
+          transform: 'scale(1)',
+          background: 'rgba(83, 35, 69, 0.4)',
+          opacity: 1
+        });
+        jQuery('.draggable_s3').css({
+          color: 'transparent',
+          transform: 'scale(1.3)',
+          background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+          opacity: 0.8
+        });
+        jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_s3').css('top'));
+      } else if (count_animation > 75 && count_animation <= 80) {
+        jQuery('.draggable_s3').css({
+          color: '#FFF0C7',
+          transform: 'scale(1)',
+          background: 'rgba(83, 35, 69, 0.4)',
+          opacity: 1
+        });
+        jQuery('.draggable_s4').css({
+          color: 'transparent',
+          transform: 'scale(1.3)',
+          background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+          opacity: 0.8
+        });
+        jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_s4').css('top'));
+      } else if (count_animation > 80 && count_animation <= 85) {
+        jQuery('.draggable_s4').css({
+          color: '#FFF0C7',
+          transform: 'scale(1)',
+          background: 'rgba(83, 35, 69, 0.4)',
+          opacity: 1
+        });
+        jQuery('.draggable_s5').css({
+          color: 'transparent',
+          transform: 'scale(1.3)',
+          background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+          opacity: 0.8
+        });
+        jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_s5').css('top'));
+      } else if (count_animation > 85 && count_animation <= 90) {
+        jQuery('.draggable_s5').css({
+          color: '#FFF0C7',
+          transform: 'scale(1)',
+          background: 'rgba(83, 35, 69, 0.4)',
+          opacity: 1
+        });
+        jQuery('.draggable_s6').css({
+          color: 'transparent',
+          transform: 'scale(1.3)',
+          background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+          opacity: 0.8
+        });
+        jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_s6').css('top'));
+      } else if (count_animation > 90 && count_animation <= 95) {
+        jQuery('.draggable_s6').css({
+          color: '#FFF0C7',
+          transform: 'scale(1)',
+          background: 'rgba(83, 35, 69, 0.4)',
+          opacity: 1
+        });
+        jQuery('.status_percent').text('50%');
+        jQuery('.draggable_v1').css({
+          color: 'transparent',
+          transform: 'scale(1.3)',
+          background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+          opacity: 0.8
+        });
+        jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v1').css('top'));
+      } else if (count_animation > 95 && count_animation <= 100) {
+        jQuery('.draggable_v1').css({
+          color: '#FFF0C7',
+          transform: 'scale(1)',
+          background: 'rgba(83, 35, 69, 0.4)',
+          opacity: 1
+        });
+        jQuery('.draggable_s2').css({
+          color: 'transparent',
+          transform: 'scale(1.3)',
+          background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+          opacity: 0.8
+        });
+        jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_s2').css('top'));
+      } else if (count_animation > 100 && count_animation <= 105) {
+        jQuery('.draggable_s2').css({
+          color: '#FFF0C7',
+          transform: 'scale(1)',
+          background: 'rgba(83, 35, 69, 0.4)',
+          opacity: 1
+        });
+        jQuery('.draggable_s3').css({
+          color: 'transparent',
+          transform: 'scale(1.3)',
+          background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+          opacity: 0.8
+        });
+        jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_s3').css('top'));
+      } else if (count_animation > 105 && count_animation <= 110) {
+        jQuery('.draggable_s3').css({
+          color: '#FFF0C7',
+          transform: 'scale(1)',
+          background: 'rgba(83, 35, 69, 0.4)',
+          opacity: 1
+        });
+        jQuery('.draggable_s4').css({
+          color: 'transparent',
+          transform: 'scale(1.3)',
+          background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+          opacity: 0.8
+        });
+        jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_s4').css('top'));
+      } else if (count_animation > 110 && count_animation <= 115) {
+        jQuery('.draggable_s4').css({
+          color: '#FFF0C7',
+          transform: 'scale(1)',
+          background: 'rgba(83, 35, 69, 0.4)',
+          opacity: 1
+        });
+        jQuery('.draggable_s5').css({
+          color: 'transparent',
+          transform: 'scale(1.3)',
+          background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+          opacity: 0.8
+        });
+        jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_s5').css('top'));
+      } else if (count_animation > 115 && count_animation <= 120) {
+        jQuery('.draggable_s5').css({
+          color: '#FFF0C7',
+          transform: 'scale(1)',
+          background: 'rgba(83, 35, 69, 0.4)',
+          opacity: 1
+        });
+        jQuery('.draggable_s6').css({
+          color: 'transparent',
+          transform: 'scale(1.3)',
+          background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+          opacity: 0.8
+        });
+        jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_s6').css('top'));
+      }
+      jQuery('.zone_x').css('transform', 'scale(1.3) rotate('+rotate_one+'deg)');
+      jQuery('.zone_l').css('transform', 'scale(1.3) rotate(-'+rotate_two+'deg)');
+      count_animation += 1;
+      rotate_one += 2;
+      rotate_two += 20;
+    } else {
+      clearInterval(phaseOne);
+      count_animation = 1;
+      if (pausedStatus == true) {
+        localStorage.setItem('paused', 'drenag7');
+        endNow()
+      } else {
+        drenag7();
+      } 
+    }
+  }, 1000); 
+}
+
+drenag5 = function(){
+  jQuery('.status_pahaze_now').text('5');
+  phaseOne = setInterval(function(){
+    if (count_animation <= 120){
+      if (count_animation > 0 && count_animation <= 5) {
+        jQuery('.draggable_d6').css({
+          color: '#FFF0C7',
+          transform: 'scale(1)',
+          background: 'rgba(83, 35, 69, 0.4)',
+          opacity: 1
+        });
+        jQuery('.status_percent').text('34%');
+        jQuery('.draggable_v0').css({
+          color: 'transparent',
+          transform: 'scale(1.3)',
+          background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+          opacity: 0.8
+        });
+        jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v1').css('top'));
+      } else if (count_animation > 5 && count_animation <= 10) {
+        jQuery('.draggable_v0').css({
+          color: '#FFF0C7',
+          transform: 'scale(1)',
+          background: 'rgba(83, 35, 69, 0.4)',
+          opacity: 1
+        });
+        jQuery('.draggable_v2').css({
+          color: 'transparent',
+          transform: 'scale(1.3)',
+          background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+          opacity: 0.8
+        });
+        jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v2').css('top'));
+      } else if (count_animation > 10 && count_animation <= 15) {
+        jQuery('.draggable_v2').css({
+          color: '#FFF0C7',
+          transform: 'scale(1)',
+          background: 'rgba(83, 35, 69, 0.4)',
+          opacity: 1
+        });
+        jQuery('.draggable_v4').css({
+          color: 'transparent',
+          transform: 'scale(1.3)',
+          background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+          opacity: 0.8
+        });
+        jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v4').css('top'));
+      } else if (count_animation > 15 && count_animation <= 20) {
+        jQuery('.draggable_v4').css({
+          color: '#FFF0C7',
+          transform: 'scale(1)',
+          background: 'rgba(83, 35, 69, 0.4)',
+          opacity: 1
+        });
+        jQuery('.draggable_v5').css({
+          color: 'transparent',
+          transform: 'scale(1.3)',
+          background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+          opacity: 0.8
+        });
+        jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v5').css('top'));
+      } else if (count_animation > 20 && count_animation <= 25) {
+        jQuery('.draggable_v5').css({
+          color: '#FFF0C7',
+          transform: 'scale(1)',
+          background: 'rgba(83, 35, 69, 0.4)',
+          opacity: 1
+        });
+        jQuery('.draggable_v-').css({
+          color: 'transparent',
+          transform: 'scale(1.3)',
+          background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+          opacity: 0.8
+        });
+        jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v-').css('top'));
+      } else if (count_animation > 25 && count_animation <= 30) {
+        jQuery('.draggable_v-').css({
+          color: '#FFF0C7',
+          transform: 'scale(1)',
+          background: 'rgba(83, 35, 69, 0.4)',
+          opacity: 1
+        });
+        jQuery('.status_percent').text('36%');
+        jQuery('.draggable_v0').css({
+          color: 'transparent',
+          transform: 'scale(1.3)',
+          background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+          opacity: 0.8
+        });
+        jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v0').css('top'));
+      } else if (count_animation > 30 && count_animation <= 35) {
+        jQuery('.draggable_v0').css({
+          color: '#FFF0C7',
+          transform: 'scale(1)',
+          background: 'rgba(83, 35, 69, 0.4)',
+          opacity: 1
+        });
+        jQuery('.draggable_v2').css({
+          color: 'transparent',
+          transform: 'scale(1.3)',
+          background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+          opacity: 0.8
+        });
+        jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v2').css('top'));
+      } else if (count_animation > 35 && count_animation <= 40) {
+        jQuery('.draggable_v2').css({
+          color: '#FFF0C7',
+          transform: 'scale(1)',
+          background: 'rgba(83, 35, 69, 0.4)',
+          opacity: 1
+        });
+        jQuery('.draggable_v4').css({
+          color: 'transparent',
+          transform: 'scale(1.3)',
+          background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+          opacity: 0.8
+        });
+        jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v4').css('top'));
+      } else if (count_animation > 40 && count_animation <= 45) {
+        jQuery('.draggable_v4').css({
+          color: '#FFF0C7',
+          transform: 'scale(1)',
+          background: 'rgba(83, 35, 69, 0.4)',
+          opacity: 1
+        });
+        jQuery('.draggable_v5').css({
+          color: 'transparent',
+          transform: 'scale(1.3)',
+          background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+          opacity: 0.8
+        });
+        jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v5').css('top'));
+      } else if (count_animation > 45 && count_animation <= 50) {
+        jQuery('.draggable_v5').css({
+          color: '#FFF0C7',
+          transform: 'scale(1)',
+          background: 'rgba(83, 35, 69, 0.4)',
+          opacity: 1
+        });
+        jQuery('.draggable_v-').css({
+          color: 'transparent',
+          transform: 'scale(1.3)',
+          background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+          opacity: 0.8
+        });
+        jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v-').css('top'));
+      } else if (count_animation > 50 && count_animation <= 55) {
+        jQuery('.draggable_v-').css({
+          color: '#FFF0C7',
+          transform: 'scale(1)',
+          background: 'rgba(83, 35, 69, 0.4)',
+          opacity: 1
+        });
+        jQuery('.status_percent').text('38%');
+        jQuery('.draggable_v0').css({
+          color: 'transparent',
+          transform: 'scale(1.3)',
+          background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+          opacity: 0.8
+        });
+        jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v0').css('top'));
+      } else if (count_animation > 55 && count_animation <= 60) {
+        jQuery('.draggable_v0').css({
+          color: '#FFF0C7',
+          transform: 'scale(1)',
+          background: 'rgba(83, 35, 69, 0.4)',
+          opacity: 1
+        });
+        jQuery('.draggable_v2').css({
+          color: 'transparent',
+          transform: 'scale(1.3)',
+          background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+          opacity: 0.8
+        });
+        jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v2').css('top'));
+      } else if (count_animation > 60 && count_animation <= 65) {
+        jQuery('.draggable_v2').css({
+          color: '#FFF0C7',
+          transform: 'scale(1)',
+          background: 'rgba(83, 35, 69, 0.4)',
+          opacity: 1
+        });
+        jQuery('.draggable_v4').css({
+          color: 'transparent',
+          transform: 'scale(1.3)',
+          background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+          opacity: 0.8
+        });
+        jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v4').css('top'));
+      } else if (count_animation > 65 && count_animation <= 70) {
+        jQuery('.draggable_v4').css({
+          color: '#FFF0C7',
+          transform: 'scale(1)',
+          background: 'rgba(83, 35, 69, 0.4)',
+          opacity: 1
+        });
+        jQuery('.draggable_v5').css({
+          color: 'transparent',
+          transform: 'scale(1.3)',
+          background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+          opacity: 0.8
+        });
+        jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v5').css('top'));
+      } else if (count_animation > 70 && count_animation <= 75) {
+        jQuery('.draggable_v5').css({
+          color: '#FFF0C7',
+          transform: 'scale(1)',
+          background: 'rgba(83, 35, 69, 0.4)',
+          opacity: 1
+        });
+        jQuery('.draggable_v-').css({
+          color: 'transparent',
+          transform: 'scale(1.3)',
+          background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+          opacity: 0.8
+        });
+        jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v-').css('top'));
+      } else if (count_animation > 75 && count_animation <= 80) {
+        jQuery('.draggable_v-').css({
+          color: '#FFF0C7',
+          transform: 'scale(1)',
+          background: 'rgba(83, 35, 69, 0.4)',
+          opacity: 1
+        });
+        jQuery('.status_percent').text('40%');
+        jQuery('.draggable_v0').css({
+          color: 'transparent',
+          transform: 'scale(1.3)',
+          background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+          opacity: 0.8
+        });
+        jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v0').css('top'));
+      } else if (count_animation > 80 && count_animation <= 85) {
+        jQuery('.draggable_v0').css({
+          color: '#FFF0C7',
+          transform: 'scale(1)',
+          background: 'rgba(83, 35, 69, 0.4)',
+          opacity: 1
+        });
+        jQuery('.draggable_v2').css({
+          color: 'transparent',
+          transform: 'scale(1.3)',
+          background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+          opacity: 0.8
+        });
+        jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v2').css('top'));
+      } else if (count_animation > 85 && count_animation <= 90) {
+        jQuery('.draggable_v2').css({
+          color: '#FFF0C7',
+          transform: 'scale(1)',
+          background: 'rgba(83, 35, 69, 0.4)',
+          opacity: 1
+        });
+        jQuery('.draggable_v4').css({
+          color: 'transparent',
+          transform: 'scale(1.3)',
+          background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+          opacity: 0.8
+        });
+        jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v4').css('top'));
+      } else if (count_animation > 90 && count_animation <= 95) {
+        jQuery('.draggable_v4').css({
+          color: '#FFF0C7',
+          transform: 'scale(1)',
+          background: 'rgba(83, 35, 69, 0.4)',
+          opacity: 1
+        });
+        jQuery('.draggable_v5').css({
+          color: 'transparent',
+          transform: 'scale(1.3)',
+          background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+          opacity: 0.8
+        });
+        jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v5').css('top'));
+      } else if (count_animation > 95 && count_animation <= 100) {
+        jQuery('.draggable_v5').css({
+          color: '#FFF0C7',
+          transform: 'scale(1)',
+          background: 'rgba(83, 35, 69, 0.4)',
+          opacity: 1
+        });
+        jQuery('.draggable_v-').css({
+          color: 'transparent',
+          transform: 'scale(1.3)',
+          background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+          opacity: 0.8
+        });
+        jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v-').css('top'));
+      } else if (count_animation > 100 && count_animation <= 105) {
+        jQuery('.draggable_v-').css({
+          color: '#FFF0C7',
+          transform: 'scale(1)',
+          background: 'rgba(83, 35, 69, 0.4)',
+          opacity: 1
+        });
+        jQuery('.status_percent').text('42%');
+        jQuery('.draggable_v0').css({
+          color: 'transparent',
+          transform: 'scale(1.3)',
+          background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+          opacity: 0.8
+        });
+        jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v0').css('top'));
+      } else if (count_animation > 105 && count_animation <= 110) {
+        jQuery('.draggable_v0').css({
+          color: '#FFF0C7',
+          transform: 'scale(1)',
+          background: 'rgba(83, 35, 69, 0.4)',
+          opacity: 1
+        });
+        jQuery('.draggable_v2').css({
+          color: 'transparent',
+          transform: 'scale(1.3)',
+          background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+          opacity: 0.8
+        });
+        jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v2').css('top'));
+      } else if (count_animation > 110 && count_animation <= 115) {
+        jQuery('.draggable_v2').css({
+          color: '#FFF0C7',
+          transform: 'scale(1)',
+          background: 'rgba(83, 35, 69, 0.4)',
+          opacity: 1
+        });
+        jQuery('.draggable_v4').css({
+          color: 'transparent',
+          transform: 'scale(1.3)',
+          background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+          opacity: 0.8
+        });
+        jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v4').css('top'));
+      } else if (count_animation > 115 && count_animation <= 120) {
+        jQuery('.draggable_v4').css({
+          color: '#FFF0C7',
+          transform: 'scale(1)',
+          background: 'rgba(83, 35, 69, 0.4)',
+          opacity: 1
+        });
+        jQuery('.draggable_v5').css({
+          color: 'transparent',
+          transform: 'scale(1.3)',
+          background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+          opacity: 0.8
+        });
+        jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v5').css('top'));
+      }
+      jQuery('.zone_x').css('transform', 'scale(1.3) rotate('+rotate_one+'deg)');
+      jQuery('.zone_l').css('transform', 'scale(1.3) rotate(-'+rotate_two+'deg)');
+      count_animation += 1;
+      rotate_one += 2;
+      rotate_two += 20;
+    } else {
+      clearInterval(phaseOne);
+      count_animation = 1;
+      if (pausedStatus == true) {
+        localStorage.setItem('paused', 'drenag6');
+        endNow()
+      } else {
+        drenag6();
+      }
+    }
+  }, 1000);  
+}
+
+drenag4 = function(){
+  jQuery('.status_pahaze_now').text('4');
+  count_animation = 0;
+  phaseOne = setInterval(function(){
+    if (count_animation <= 120){
+      if (count_animation > 0 && count_animation <= 5) {
+        jQuery('.draggable_s6').css({
+          color: '#FFF0C7',
+          transform: 'scale(1)',
+          background: 'rgba(83, 35, 69, 0.4)',
+          opacity: 1
+        });
+        jQuery('.status_percent').text('26%');
+        jQuery('.draggable_v1').css({
+          color: 'transparent',
+          transform: 'scale(1.3)',
+          background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+          opacity: 0.8
+        });
+        jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v1').css('top'));
+      } else if (count_animation > 5 && count_animation <= 10) {
+        jQuery('.draggable_v1').css({
+          color: '#FFF0C7',
+          transform: 'scale(1)',
+          background: 'rgba(83, 35, 69, 0.4)',
+          opacity: 1
+        });
+        jQuery('.draggable_d2').css({
+          color: 'transparent',
+          transform: 'scale(1.3)',
+          background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+          opacity: 0.8
+        });
+        jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_d2').css('top'));
+      } else if (count_animation > 10 && count_animation <= 15) {
+        jQuery('.draggable_d2').css({
+          color: '#FFF0C7',
+          transform: 'scale(1)',
+          background: 'rgba(83, 35, 69, 0.4)',
+          opacity: 1
+        });
+        jQuery('.draggable_d3').css({
+          color: 'transparent',
+          transform: 'scale(1.3)',
+          background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+          opacity: 0.8
+        });
+        jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_d3').css('top'));
+      } else if (count_animation > 15 && count_animation <= 20) {
+        jQuery('.draggable_d3').css({
+          color: '#FFF0C7',
+          transform: 'scale(1)',
+          background: 'rgba(83, 35, 69, 0.4)',
+          opacity: 1
+        });
+        jQuery('.draggable_d4').css({
+          color: 'transparent',
+          transform: 'scale(1.3)',
+          background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+          opacity: 0.8
+        });
+        jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_d4').css('top'));
+      } else if (count_animation > 20 && count_animation <= 25) {
+        jQuery('.draggable_d4').css({
+          color: '#FFF0C7',
+          transform: 'scale(1)',
+          background: 'rgba(83, 35, 69, 0.4)',
+          opacity: 1
+        });
+        jQuery('.draggable_d5').css({
+          color: 'transparent',
+          transform: 'scale(1.3)',
+          background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+          opacity: 0.8
+        });
+        jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_d5').css('top'));
+      } else if (count_animation > 25 && count_animation <= 30) {
+        jQuery('.draggable_d5').css({
+          color: '#FFF0C7',
+          transform: 'scale(1)',
+          background: 'rgba(83, 35, 69, 0.4)',
+          opacity: 1
+        });
+        jQuery('.draggable_d6').css({
+          color: 'transparent',
+          transform: 'scale(1.3)',
+          background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+          opacity: 0.8
+        });
+        jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_d6').css('top'));
+      } else if (count_animation > 30 && count_animation <= 35) {
+        jQuery('.draggable_d6').css({
+          color: '#FFF0C7',
+          transform: 'scale(1)',
+          background: 'rgba(83, 35, 69, 0.4)',
+          opacity: 1
+        });
+        jQuery('.status_percent').text('28%');
+        jQuery('.draggable_v1').css({
+          color: 'transparent',
+          transform: 'scale(1.3)',
+          background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+          opacity: 0.8
+        });
+        jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v1').css('top'));
+      } else if (count_animation > 35 && count_animation <= 40) {
+        jQuery('.draggable_v1').css({
+          color: '#FFF0C7',
+          transform: 'scale(1)',
+          background: 'rgba(83, 35, 69, 0.4)',
+          opacity: 1
+        });
+        jQuery('.draggable_d2').css({
+          color: 'transparent',
+          transform: 'scale(1.3)',
+          background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+          opacity: 0.8
+        });
+        jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_d2').css('top'));
+      } else if (count_animation > 40 && count_animation <= 45) {
+        jQuery('.draggable_d2').css({
+          color: '#FFF0C7',
+          transform: 'scale(1)',
+          background: 'rgba(83, 35, 69, 0.4)',
+          opacity: 1
+        });
+        jQuery('.draggable_d3').css({
+          color: 'transparent',
+          transform: 'scale(1.3)',
+          background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+          opacity: 0.8
+        });
+        jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_d3').css('top'));
+      } else if (count_animation > 45 && count_animation <= 50) {
+        jQuery('.draggable_d3').css({
+          color: '#FFF0C7',
+          transform: 'scale(1)',
+          background: 'rgba(83, 35, 69, 0.4)',
+          opacity: 1
+        });
+        jQuery('.draggable_d4').css({
+          color: 'transparent',
+          transform: 'scale(1.3)',
+          background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+          opacity: 0.8
+        });
+        jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_d4').css('top'));
+      } else if (count_animation > 50 && count_animation <= 55) {
+        jQuery('.draggable_d4').css({
+          color: '#FFF0C7',
+          transform: 'scale(1)',
+          background: 'rgba(83, 35, 69, 0.4)',
+          opacity: 1
+        });
+        jQuery('.draggable_d5').css({
+          color: 'transparent',
+          transform: 'scale(1.3)',
+          background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+          opacity: 0.8
+        });
+        jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_d5').css('top'));
+      } else if (count_animation > 55 && count_animation <= 60) {
+        jQuery('.draggable_d5').css({
+          color: '#FFF0C7',
+          transform: 'scale(1)',
+          background: 'rgba(83, 35, 69, 0.4)',
+          opacity: 1
+        });
+        jQuery('.draggable_d6').css({
+          color: 'transparent',
+          transform: 'scale(1.3)',
+          background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+          opacity: 0.8
+        });
+        jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_d6').css('top'));
+      } else if (count_animation > 60 && count_animation <= 65) {
+        jQuery('.draggable_d6').css({
+          color: '#FFF0C7',
+          transform: 'scale(1)',
+          background: 'rgba(83, 35, 69, 0.4)',
+          opacity: 1
+        });
+        jQuery('.status_percent').text('30%');
+        jQuery('.draggable_v1').css({
+          color: 'transparent',
+          transform: 'scale(1.3)',
+          background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+          opacity: 0.8
+        });
+        jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v1').css('top'));
+      } else if (count_animation > 65 && count_animation <= 70) {
+        jQuery('.draggable_v1').css({
+          color: '#FFF0C7',
+          transform: 'scale(1)',
+          background: 'rgba(83, 35, 69, 0.4)',
+          opacity: 1
+        });
+        jQuery('.draggable_d2').css({
+          color: 'transparent',
+          transform: 'scale(1.3)',
+          background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+          opacity: 0.8
+        });
+        jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_d2').css('top'));
+      } else if (count_animation > 70 && count_animation <= 75) {
+        jQuery('.draggable_d2').css({
+          color: '#FFF0C7',
+          transform: 'scale(1)',
+          background: 'rgba(83, 35, 69, 0.4)',
+          opacity: 1
+        });
+        jQuery('.draggable_d3').css({
+          color: 'transparent',
+          transform: 'scale(1.3)',
+          background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+          opacity: 0.8
+        });
+        jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_d3').css('top'));
+      } else if (count_animation > 75 && count_animation <= 80) {
+        jQuery('.draggable_d3').css({
+          color: '#FFF0C7',
+          transform: 'scale(1)',
+          background: 'rgba(83, 35, 69, 0.4)',
+          opacity: 1
+        });
+        jQuery('.draggable_d4').css({
+          color: 'transparent',
+          transform: 'scale(1.3)',
+          background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+          opacity: 0.8
+        });
+        jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_d4').css('top'));
+      } else if (count_animation > 80 && count_animation <= 85) {
+        jQuery('.draggable_d4').css({
+          color: '#FFF0C7',
+          transform: 'scale(1)',
+          background: 'rgba(83, 35, 69, 0.4)',
+          opacity: 1
+        });
+        jQuery('.draggable_d5').css({
+          color: 'transparent',
+          transform: 'scale(1.3)',
+          background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+          opacity: 0.8
+        });
+        jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_d5').css('top'));
+      } else if (count_animation > 85 && count_animation <= 90) {
+        jQuery('.draggable_d5').css({
+          color: '#FFF0C7',
+          transform: 'scale(1)',
+          background: 'rgba(83, 35, 69, 0.4)',
+          opacity: 1
+        });
+        jQuery('.draggable_d6').css({
+          color: 'transparent',
+          transform: 'scale(1.3)',
+          background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+          opacity: 0.8
+        });
+        jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_d6').css('top'));
+      } else if (count_animation > 90 && count_animation <= 95) {
+        jQuery('.draggable_d6').css({
+          color: '#FFF0C7',
+          transform: 'scale(1)',
+          background: 'rgba(83, 35, 69, 0.4)',
+          opacity: 1
+        });
+        jQuery('.status_percent').text('32%');
+        jQuery('.draggable_v1').css({
+          color: 'transparent',
+          transform: 'scale(1.3)',
+          background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+          opacity: 0.8
+        });
+        jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v1').css('top'));
+      } else if (count_animation > 95 && count_animation <= 100) {
+        jQuery('.draggable_v1').css({
+          color: '#FFF0C7',
+          transform: 'scale(1)',
+          background: 'rgba(83, 35, 69, 0.4)',
+          opacity: 1
+        });
+        jQuery('.draggable_d2').css({
+          color: 'transparent',
+          transform: 'scale(1.3)',
+          background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+          opacity: 0.8
+        });
+        jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_d2').css('top'));
+      } else if (count_animation > 100 && count_animation <= 105) {
+        jQuery('.draggable_d2').css({
+          color: '#FFF0C7',
+          transform: 'scale(1)',
+          background: 'rgba(83, 35, 69, 0.4)',
+          opacity: 1
+        });
+        jQuery('.draggable_d3').css({
+          color: 'transparent',
+          transform: 'scale(1.3)',
+          background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+          opacity: 0.8
+        });
+        jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_d3').css('top'));
+      } else if (count_animation > 105 && count_animation <= 110) {
+        jQuery('.draggable_d3').css({
+          color: '#FFF0C7',
+          transform: 'scale(1)',
+          background: 'rgba(83, 35, 69, 0.4)',
+          opacity: 1
+        });
+        jQuery('.draggable_d4').css({
+          color: 'transparent',
+          transform: 'scale(1.3)',
+          background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+          opacity: 0.8
+        });
+        jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_d4').css('top'));
+      } else if (count_animation > 110 && count_animation <= 115) {
+        jQuery('.draggable_d4').css({
+          color: '#FFF0C7',
+          transform: 'scale(1)',
+          background: 'rgba(83, 35, 69, 0.4)',
+          opacity: 1
+        });
+        jQuery('.draggable_d5').css({
+          color: 'transparent',
+          transform: 'scale(1.3)',
+          background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+          opacity: 0.8
+        });
+        jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_d5').css('top'));
+      } else if (count_animation > 115 && count_animation <= 120) {
+        jQuery('.draggable_d5').css({
+          color: '#FFF0C7',
+          transform: 'scale(1)',
+          background: 'rgba(83, 35, 69, 0.4)',
+          opacity: 1
+        });
+        jQuery('.draggable_d6').css({
+          color: 'transparent',
+          transform: 'scale(1.3)',
+          background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+          opacity: 0.8
+        });
+        jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_d6').css('top'));
+      }
+      jQuery('.zone_x').css('transform', 'scale(1.3) rotate('+rotate_one+'deg)');
+      jQuery('.zone_l').css('transform', 'scale(1.3) rotate(-'+rotate_two+'deg)');
+      count_animation += 1;
+      rotate_one += 2;
+      rotate_two += 20;
+    } else {
+      clearInterval(phaseOne);
+      count_animation = 0;
+      if (pausedStatus == true) {
+        localStorage.setItem('paused', 'drenag5');
+        endNow()
+      } else {
+        drenag5();
+      } 
+    }
+  }, 1000); 
+}
+
+drenag3 = function(){
+  jQuery('.status_pahaze_now').text('3');
+  count_animation = 0;
+  phaseOne = setInterval(function(){
+    if (count_animation <= 120){
+      if (count_animation > 0 && count_animation <= 5) {
+        jQuery('.draggable_v5').css({
+          color: '#FFF0C7',
+          transform: 'scale(1)',
+          background: 'rgba(83, 35, 69, 0.4)',
+          opacity: 1
+        });
+        jQuery('.status_percent').text('18%');
+        jQuery('.draggable_v1').css({
+          color: 'transparent',
+          transform: 'scale(1.3)',
+          background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+          opacity: 0.8
+        });
+        jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v1').css('top'));
+      } else if (count_animation > 5 && count_animation <= 10) {
+        jQuery('.draggable_v1').css({
+          color: '#FFF0C7',
+          transform: 'scale(1)',
+          background: 'rgba(83, 35, 69, 0.4)',
+          opacity: 1
+        });
+        jQuery('.draggable_s2').css({
+          color: 'transparent',
+          transform: 'scale(1.3)',
+          background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+          opacity: 0.8
+        });
+        jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_s2').css('top'));
+      } else if (count_animation > 10 && count_animation <= 15) {
+        jQuery('.draggable_s2').css({
+          color: '#FFF0C7',
+          transform: 'scale(1)',
+          background: 'rgba(83, 35, 69, 0.4)',
+          opacity: 1
+        });
+        jQuery('.draggable_s3').css({
+          color: 'transparent',
+          transform: 'scale(1.3)',
+          background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+          opacity: 0.8
+        });
+        jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_s3').css('top'));
+      } else if (count_animation > 15 && count_animation <= 20) {
+        jQuery('.draggable_s3').css({
+          color: '#FFF0C7',
+          transform: 'scale(1)',
+          background: 'rgba(83, 35, 69, 0.4)',
+          opacity: 1
+        });
+        jQuery('.draggable_s4').css({
+          color: 'transparent',
+          transform: 'scale(1.3)',
+          background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+          opacity: 0.8
+        });
+        jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_s4').css('top'));
+      } else if (count_animation > 20 && count_animation <= 25) {
+        jQuery('.draggable_s4').css({
+          color: '#FFF0C7',
+          transform: 'scale(1)',
+          background: 'rgba(83, 35, 69, 0.4)',
+          opacity: 1
+        });
+        jQuery('.draggable_s5').css({
+          color: 'transparent',
+          transform: 'scale(1.3)',
+          background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+          opacity: 0.8
+        });
+        jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_s5').css('top'));
+      } else if (count_animation > 25 && count_animation <= 30) {
+        jQuery('.draggable_s5').css({
+          color: '#FFF0C7',
+          transform: 'scale(1)',
+          background: 'rgba(83, 35, 69, 0.4)',
+          opacity: 1
+        });
+        jQuery('.draggable_s6').css({
+          color: 'transparent',
+          transform: 'scale(1.3)',
+          background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+          opacity: 0.8
+        });
+        jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_s6').css('top'));
+      } else if (count_animation > 30 && count_animation <= 35) {
+        jQuery('.draggable_s6').css({
+          color: '#FFF0C7',
+          transform: 'scale(1)',
+          background: 'rgba(83, 35, 69, 0.4)',
+          opacity: 1
+        });
+        jQuery('.status_percent').text('20%');
+        jQuery('.draggable_v1').css({
+          color: 'transparent',
+          transform: 'scale(1.3)',
+          background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+          opacity: 0.8
+        });
+        jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v1').css('top'));
+      } else if (count_animation > 35 && count_animation <= 40) {
+        jQuery('.draggable_v1').css({
+          color: '#FFF0C7',
+          transform: 'scale(1)',
+          background: 'rgba(83, 35, 69, 0.4)',
+          opacity: 1
+        });
+        jQuery('.draggable_s2').css({
+          color: 'transparent',
+          transform: 'scale(1.3)',
+          background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+          opacity: 0.8
+        });
+        jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_s2').css('top'));
+      } else if (count_animation > 40 && count_animation <= 45) {
+        jQuery('.draggable_s2').css({
+          color: '#FFF0C7',
+          transform: 'scale(1)',
+          background: 'rgba(83, 35, 69, 0.4)',
+          opacity: 1
+        });
+        jQuery('.draggable_s3').css({
+          color: 'transparent',
+          transform: 'scale(1.3)',
+          background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+          opacity: 0.8
+        });
+        jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_s3').css('top'));
+      } else if (count_animation > 45 && count_animation <= 50) {
+        jQuery('.draggable_s3').css({
+          color: '#FFF0C7',
+          transform: 'scale(1)',
+          background: 'rgba(83, 35, 69, 0.4)',
+          opacity: 1
+        });
+        jQuery('.draggable_s4').css({
+          color: 'transparent',
+          transform: 'scale(1.3)',
+          background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+          opacity: 0.8
+        });
+        jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_s4').css('top'));
+      } else if (count_animation > 50 && count_animation <= 55) {
+        jQuery('.draggable_s4').css({
+          color: '#FFF0C7',
+          transform: 'scale(1)',
+          background: 'rgba(83, 35, 69, 0.4)',
+          opacity: 1
+        });
+        jQuery('.draggable_s5').css({
+          color: 'transparent',
+          transform: 'scale(1.3)',
+          background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+          opacity: 0.8
+        });
+        jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_s5').css('top'));
+      } else if (count_animation > 55 && count_animation <= 60) {
+        jQuery('.draggable_s5').css({
+          color: '#FFF0C7',
+          transform: 'scale(1)',
+          background: 'rgba(83, 35, 69, 0.4)',
+          opacity: 1
+        });
+        jQuery('.draggable_s6').css({
+          color: 'transparent',
+          transform: 'scale(1.3)',
+          background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+          opacity: 0.8
+        });
+        jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_s6').css('top'));
+      } else if (count_animation > 60 && count_animation <= 65) {
+        jQuery('.draggable_s6').css({
+          color: '#FFF0C7',
+          transform: 'scale(1)',
+          background: 'rgba(83, 35, 69, 0.4)',
+          opacity: 1
+        });
+        jQuery('.status_percent').text('22%');
+        jQuery('.draggable_v1').css({
+          color: 'transparent',
+          transform: 'scale(1.3)',
+          background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+          opacity: 0.8
+        });
+        jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v1').css('top'));
+      } else if (count_animation > 65 && count_animation <= 70) {
+        jQuery('.draggable_v1').css({
+          color: '#FFF0C7',
+          transform: 'scale(1)',
+          background: 'rgba(83, 35, 69, 0.4)',
+          opacity: 1
+        });
+        jQuery('.draggable_s2').css({
+          color: 'transparent',
+          transform: 'scale(1.3)',
+          background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+          opacity: 0.8
+        });
+        jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_s2').css('top'));
+      } else if (count_animation > 70 && count_animation <= 75) {
+        jQuery('.draggable_s2').css({
+          color: '#FFF0C7',
+          transform: 'scale(1)',
+          background: 'rgba(83, 35, 69, 0.4)',
+          opacity: 1
+        });
+        jQuery('.draggable_s3').css({
+          color: 'transparent',
+          transform: 'scale(1.3)',
+          background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+          opacity: 0.8
+        });
+        jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_s3').css('top'));
+      } else if (count_animation > 75 && count_animation <= 80) {
+        jQuery('.draggable_s3').css({
+          color: '#FFF0C7',
+          transform: 'scale(1)',
+          background: 'rgba(83, 35, 69, 0.4)',
+          opacity: 1
+        });
+        jQuery('.draggable_s4').css({
+          color: 'transparent',
+          transform: 'scale(1.3)',
+          background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+          opacity: 0.8
+        });
+        jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_s4').css('top'));
+      } else if (count_animation > 80 && count_animation <= 85) {
+        jQuery('.draggable_s4').css({
+          color: '#FFF0C7',
+          transform: 'scale(1)',
+          background: 'rgba(83, 35, 69, 0.4)',
+          opacity: 1
+        });
+        jQuery('.draggable_s5').css({
+          color: 'transparent',
+          transform: 'scale(1.3)',
+          background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+          opacity: 0.8
+        });
+        jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_s5').css('top'));
+      } else if (count_animation > 85 && count_animation <= 90) {
+        jQuery('.draggable_s5').css({
+          color: '#FFF0C7',
+          transform: 'scale(1)',
+          background: 'rgba(83, 35, 69, 0.4)',
+          opacity: 1
+        });
+        jQuery('.draggable_s6').css({
+          color: 'transparent',
+          transform: 'scale(1.3)',
+          background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+          opacity: 0.8
+        });
+        jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_s6').css('top'));
+      } else if (count_animation > 90 && count_animation <= 95) {
+        jQuery('.draggable_s6').css({
+          color: '#FFF0C7',
+          transform: 'scale(1)',
+          background: 'rgba(83, 35, 69, 0.4)',
+          opacity: 1
+        });
+        jQuery('.status_percent').text('24%');
+        jQuery('.draggable_v1').css({
+          color: 'transparent',
+          transform: 'scale(1.3)',
+          background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+          opacity: 0.8
+        });
+        jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v1').css('top'));
+      } else if (count_animation > 95 && count_animation <= 100) {
+        jQuery('.draggable_v1').css({
+          color: '#FFF0C7',
+          transform: 'scale(1)',
+          background: 'rgba(83, 35, 69, 0.4)',
+          opacity: 1
+        });
+        jQuery('.draggable_s2').css({
+          color: 'transparent',
+          transform: 'scale(1.3)',
+          background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+          opacity: 0.8
+        });
+        jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_s2').css('top'));
+      } else if (count_animation > 100 && count_animation <= 105) {
+        jQuery('.draggable_s2').css({
+          color: '#FFF0C7',
+          transform: 'scale(1)',
+          background: 'rgba(83, 35, 69, 0.4)',
+          opacity: 1
+        });
+        jQuery('.draggable_s3').css({
+          color: 'transparent',
+          transform: 'scale(1.3)',
+          background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+          opacity: 0.8
+        });
+        jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_s3').css('top'));
+      } else if (count_animation > 105 && count_animation <= 110) {
+        jQuery('.draggable_s3').css({
+          color: '#FFF0C7',
+          transform: 'scale(1)',
+          background: 'rgba(83, 35, 69, 0.4)',
+          opacity: 1
+        });
+        jQuery('.draggable_s4').css({
+          color: 'transparent',
+          transform: 'scale(1.3)',
+          background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+          opacity: 0.8
+        });
+        jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_s4').css('top'));
+      } else if (count_animation > 110 && count_animation <= 115) {
+        jQuery('.draggable_s4').css({
+          color: '#FFF0C7',
+          transform: 'scale(1)',
+          background: 'rgba(83, 35, 69, 0.4)',
+          opacity: 1
+        });
+        jQuery('.draggable_s5').css({
+          color: 'transparent',
+          transform: 'scale(1.3)',
+          background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+          opacity: 0.8
+        });
+        jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_s5').css('top'));
+      } else if (count_animation > 115 && count_animation <= 120) {
+        jQuery('.draggable_s5').css({
+          color: '#FFF0C7',
+          transform: 'scale(1)',
+          background: 'rgba(83, 35, 69, 0.4)',
+          opacity: 1
+        });
+        jQuery('.draggable_s6').css({
+          color: 'transparent',
+          transform: 'scale(1.3)',
+          background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+          opacity: 0.8
+        });
+        jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_s6').css('top'));
+      }
+      jQuery('.zone_x').css('transform', 'scale(1.3) rotate('+rotate_one+'deg)');
+      jQuery('.zone_l').css('transform', 'scale(1.3) rotate(-'+rotate_two+'deg)');
+      count_animation += 1;
+      rotate_one += 2;
+      rotate_two += 20;
+    } else {
+      clearInterval(phaseOne);
+      count_animation = 0;
+      if (pausedStatus == true) {
+        localStorage.setItem('paused', 'drenag4');
+        endNow()
+      } else {
+        drenag4();
+      } 
+    }
+  }, 1000); 
+}
+
+drenag2 = function(){
+  jQuery('.status_pahaze_now').text('2');
+  phaseOne = setInterval(function(){
+    if (count_animation <= 120){
+      if (count_animation > 0 && count_animation <= 5) {
+        jQuery('.draggable_d6').css({
+          color: '#FFF0C7',
+          transform: 'scale(1)',
+          background: 'rgba(83, 35, 69, 0.4)',
+          opacity: 1
+        });
+        jQuery('.status_percent').text('8%');
+        jQuery('.draggable_v0').css({
+          color: 'transparent',
+          transform: 'scale(1.3)',
+          background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+          opacity: 0.8
+        });
+        jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v1').css('top'));
+      } else if (count_animation > 5 && count_animation <= 10) {
+        jQuery('.draggable_v0').css({
+          color: '#FFF0C7',
+          transform: 'scale(1)',
+          background: 'rgba(83, 35, 69, 0.4)',
+          opacity: 1
+        });
+        jQuery('.draggable_v2').css({
+          color: 'transparent',
+          transform: 'scale(1.3)',
+          background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+          opacity: 0.8
+        });
+        jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v2').css('top'));
+      } else if (count_animation > 10 && count_animation <= 15) {
+        jQuery('.draggable_v2').css({
+          color: '#FFF0C7',
+          transform: 'scale(1)',
+          background: 'rgba(83, 35, 69, 0.4)',
+          opacity: 1
+        });
+        jQuery('.draggable_v4').css({
+          color: 'transparent',
+          transform: 'scale(1.3)',
+          background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+          opacity: 0.8
+        });
+        jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v4').css('top'));
+      } else if (count_animation > 15 && count_animation <= 20) {
+        jQuery('.draggable_v4').css({
+          color: '#FFF0C7',
+          transform: 'scale(1)',
+          background: 'rgba(83, 35, 69, 0.4)',
+          opacity: 1
+        });
+        jQuery('.draggable_v5').css({
+          color: 'transparent',
+          transform: 'scale(1.3)',
+          background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+          opacity: 0.8
+        });
+        jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v5').css('top'));
+      } else if (count_animation > 20 && count_animation <= 25) {
+        jQuery('.draggable_v5').css({
+          color: '#FFF0C7',
+          transform: 'scale(1)',
+          background: 'rgba(83, 35, 69, 0.4)',
+          opacity: 1
+        });
+        jQuery('.draggable_v-').css({
+          color: 'transparent',
+          transform: 'scale(1.3)',
+          background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+          opacity: 0.8
+        });
+        jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v-').css('top'));
+      } else if (count_animation > 25 && count_animation <= 30) {
+        jQuery('.draggable_v-').css({
+          color: '#FFF0C7',
+          transform: 'scale(1)',
+          background: 'rgba(83, 35, 69, 0.4)',
+          opacity: 1
+        });
+        jQuery('.status_percent').text('10%');
+        jQuery('.draggable_v0').css({
+          color: 'transparent',
+          transform: 'scale(1.3)',
+          background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+          opacity: 0.8
+        });
+        jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v0').css('top'));
+      } else if (count_animation > 30 && count_animation <= 35) {
+        jQuery('.draggable_v0').css({
+          color: '#FFF0C7',
+          transform: 'scale(1)',
+          background: 'rgba(83, 35, 69, 0.4)',
+          opacity: 1
+        });
+        jQuery('.draggable_v2').css({
+          color: 'transparent',
+          transform: 'scale(1.3)',
+          background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+          opacity: 0.8
+        });
+        jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v2').css('top'));
+      } else if (count_animation > 35 && count_animation <= 40) {
+        jQuery('.draggable_v2').css({
+          color: '#FFF0C7',
+          transform: 'scale(1)',
+          background: 'rgba(83, 35, 69, 0.4)',
+          opacity: 1
+        });
+        jQuery('.draggable_v4').css({
+          color: 'transparent',
+          transform: 'scale(1.3)',
+          background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+          opacity: 0.8
+        });
+        jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v4').css('top'));
+      } else if (count_animation > 40 && count_animation <= 45) {
+        jQuery('.draggable_v4').css({
+          color: '#FFF0C7',
+          transform: 'scale(1)',
+          background: 'rgba(83, 35, 69, 0.4)',
+          opacity: 1
+        });
+        jQuery('.draggable_v5').css({
+          color: 'transparent',
+          transform: 'scale(1.3)',
+          background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+          opacity: 0.8
+        });
+        jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v5').css('top'));
+      } else if (count_animation > 45 && count_animation <= 50) {
+        jQuery('.draggable_v5').css({
+          color: '#FFF0C7',
+          transform: 'scale(1)',
+          background: 'rgba(83, 35, 69, 0.4)',
+          opacity: 1
+        });
+        jQuery('.draggable_v-').css({
+          color: 'transparent',
+          transform: 'scale(1.3)',
+          background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+          opacity: 0.8
+        });
+        jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v-').css('top'));
+      } else if (count_animation > 50 && count_animation <= 55) {
+        jQuery('.draggable_v-').css({
+          color: '#FFF0C7',
+          transform: 'scale(1)',
+          background: 'rgba(83, 35, 69, 0.4)',
+          opacity: 1
+        });
+        jQuery('.status_percent').text('12%');
+        jQuery('.draggable_v0').css({
+          color: 'transparent',
+          transform: 'scale(1.3)',
+          background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+          opacity: 0.8
+        });
+        jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v0').css('top'));
+      } else if (count_animation > 55 && count_animation <= 60) {
+        jQuery('.draggable_v0').css({
+          color: '#FFF0C7',
+          transform: 'scale(1)',
+          background: 'rgba(83, 35, 69, 0.4)',
+          opacity: 1
+        });
+        jQuery('.draggable_v2').css({
+          color: 'transparent',
+          transform: 'scale(1.3)',
+          background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+          opacity: 0.8
+        });
+        jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v2').css('top'));
+      } else if (count_animation > 60 && count_animation <= 65) {
+        jQuery('.draggable_v2').css({
+          color: '#FFF0C7',
+          transform: 'scale(1)',
+          background: 'rgba(83, 35, 69, 0.4)',
+          opacity: 1
+        });
+        jQuery('.draggable_v4').css({
+          color: 'transparent',
+          transform: 'scale(1.3)',
+          background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+          opacity: 0.8
+        });
+        jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v4').css('top'));
+      } else if (count_animation > 65 && count_animation <= 70) {
+        jQuery('.draggable_v4').css({
+          color: '#FFF0C7',
+          transform: 'scale(1)',
+          background: 'rgba(83, 35, 69, 0.4)',
+          opacity: 1
+        });
+        jQuery('.draggable_v5').css({
+          color: 'transparent',
+          transform: 'scale(1.3)',
+          background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+          opacity: 0.8
+        });
+        jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v5').css('top'));
+      } else if (count_animation > 70 && count_animation <= 75) {
+        jQuery('.draggable_v5').css({
+          color: '#FFF0C7',
+          transform: 'scale(1)',
+          background: 'rgba(83, 35, 69, 0.4)',
+          opacity: 1
+        });
+        jQuery('.draggable_v-').css({
+          color: 'transparent',
+          transform: 'scale(1.3)',
+          background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+          opacity: 0.8
+        });
+        jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v-').css('top'));
+      } else if (count_animation > 75 && count_animation <= 80) {
+        jQuery('.draggable_v-').css({
+          color: '#FFF0C7',
+          transform: 'scale(1)',
+          background: 'rgba(83, 35, 69, 0.4)',
+          opacity: 1
+        });
+        jQuery('.status_percent').text('14%');
+        jQuery('.draggable_v0').css({
+          color: 'transparent',
+          transform: 'scale(1.3)',
+          background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+          opacity: 0.8
+        });
+        jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v0').css('top'));
+      } else if (count_animation > 80 && count_animation <= 85) {
+        jQuery('.draggable_v0').css({
+          color: '#FFF0C7',
+          transform: 'scale(1)',
+          background: 'rgba(83, 35, 69, 0.4)',
+          opacity: 1
+        });
+        jQuery('.draggable_v2').css({
+          color: 'transparent',
+          transform: 'scale(1.3)',
+          background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+          opacity: 0.8
+        });
+        jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v2').css('top'));
+      } else if (count_animation > 85 && count_animation <= 90) {
+        jQuery('.draggable_v2').css({
+          color: '#FFF0C7',
+          transform: 'scale(1)',
+          background: 'rgba(83, 35, 69, 0.4)',
+          opacity: 1
+        });
+        jQuery('.draggable_v4').css({
+          color: 'transparent',
+          transform: 'scale(1.3)',
+          background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+          opacity: 0.8
+        });
+        jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v4').css('top'));
+      } else if (count_animation > 90 && count_animation <= 95) {
+        jQuery('.draggable_v4').css({
+          color: '#FFF0C7',
+          transform: 'scale(1)',
+          background: 'rgba(83, 35, 69, 0.4)',
+          opacity: 1
+        });
+        jQuery('.draggable_v5').css({
+          color: 'transparent',
+          transform: 'scale(1.3)',
+          background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+          opacity: 0.8
+        });
+        jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v5').css('top'));
+      } else if (count_animation > 95 && count_animation <= 100) {
+        jQuery('.draggable_v5').css({
+          color: '#FFF0C7',
+          transform: 'scale(1)',
+          background: 'rgba(83, 35, 69, 0.4)',
+          opacity: 1
+        });
+        jQuery('.draggable_v-').css({
+          color: 'transparent',
+          transform: 'scale(1.3)',
+          background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+          opacity: 0.8
+        });
+        jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v-').css('top'));
+      } else if (count_animation > 100 && count_animation <= 105) {
+        jQuery('.draggable_v-').css({
+          color: '#FFF0C7',
+          transform: 'scale(1)',
+          background: 'rgba(83, 35, 69, 0.4)',
+          opacity: 1
+        });
+        jQuery('.status_percent').text('16%');
+        jQuery('.draggable_v0').css({
+          color: 'transparent',
+          transform: 'scale(1.3)',
+          background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+          opacity: 0.8
+        });
+        jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v0').css('top'));
+      } else if (count_animation > 105 && count_animation <= 110) {
+        jQuery('.draggable_v0').css({
+          color: '#FFF0C7',
+          transform: 'scale(1)',
+          background: 'rgba(83, 35, 69, 0.4)',
+          opacity: 1
+        });
+        jQuery('.draggable_v2').css({
+          color: 'transparent',
+          transform: 'scale(1.3)',
+          background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+          opacity: 0.8
+        });
+        jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v2').css('top'));
+      } else if (count_animation > 110 && count_animation <= 115) {
+        jQuery('.draggable_v2').css({
+          color: '#FFF0C7',
+          transform: 'scale(1)',
+          background: 'rgba(83, 35, 69, 0.4)',
+          opacity: 1
+        });
+        jQuery('.draggable_v4').css({
+          color: 'transparent',
+          transform: 'scale(1.3)',
+          background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+          opacity: 0.8
+        });
+        jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v4').css('top'));
+      } else if (count_animation > 115 && count_animation <= 120) {
+        jQuery('.draggable_v4').css({
+          color: '#FFF0C7',
+          transform: 'scale(1)',
+          background: 'rgba(83, 35, 69, 0.4)',
+          opacity: 1
+        });
+        jQuery('.draggable_v5').css({
+          color: 'transparent',
+          transform: 'scale(1.3)',
+          background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+          opacity: 0.8
+        });
+        jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v5').css('top'));
+      }
+      jQuery('.zone_x').css('transform', 'scale(1.3) rotate('+rotate_one+'deg)');
+      jQuery('.zone_l').css('transform', 'scale(1.3) rotate(-'+rotate_two+'deg)');
+      count_animation += 1;
+      rotate_one += 2;
+      rotate_two += 20;
+    } else {
+      clearInterval(phaseOne);
+      count_animation = 1;
+      if (pausedStatus == true) {
+        localStorage.setItem('paused', 'drenag3');
+        endNow()
+      } else {
+        drenag3();
+      }
+    }
+  }, 1000);  
+}
+
+drenag = function(){
+  console.log('Фаза 1');
+  jQuery('.status').removeClass('hidden');
+  jQuery('.status_pahaze_all').text('12');
+  localStorage.setItem('pausedPhases', '12');
+  localStorage.setItem('pausedProtName', 'Протокол Solis');
+  jQuery('.zone_x, .zone_l').removeClass('hidden').css('transform', 'scale(1)');
+  r_top = jQuery('.draggable_v5').css('top');
+  r_bottom = jQuery('.draggable_v-').css('top');
+  l_top = jQuery('.draggable_v0').css('top');
+  l_bottom = jQuery('.draggable_v1').css('top');
+  jQuery('.status_percent').text('0%');
+  jQuery('.status_pahaze_now').text('1');
+  count_animation = 0;
+  phaseOne = setInterval(function(){
+    if (count_animation <= 120){
+      jQuery('.draggable_v3').css({
+        color: 'transparent',
+        transform: 'scale(1.3)',
+        background: '#fff url(/wp-content/themes/mobile/img/edinenie_s_tvorcom.png) 0 0/100% no-repeat',
+        opacity: 0.8
+      });
+      if (count_animation > 0 && count_animation <= 5) {
+        jQuery('.draggable_v1').css({
+          color: 'transparent',
+          transform: 'scale(1.3)',
+          background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+          opacity: 0.8
+        });
+        jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v1').css('top'));
+      } else if (count_animation > 5 && count_animation <= 10) {
+        jQuery('.draggable_v1').css({
+          color: '#FFF0C7',
+          transform: 'scale(1)',
+          background: 'rgba(83, 35, 69, 0.4)',
+          opacity: 1
+        });
+        jQuery('.draggable_d2').css({
+          color: 'transparent',
+          transform: 'scale(1.3)',
+          background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+          opacity: 0.8
+        });
+        jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_d2').css('top'));
+      } else if (count_animation > 10 && count_animation <= 15) {
+        jQuery('.draggable_d2').css({
+          color: '#FFF0C7',
+          transform: 'scale(1)',
+          background: 'rgba(83, 35, 69, 0.4)',
+          opacity: 1
+        });
+        jQuery('.draggable_d3').css({
+          color: 'transparent',
+          transform: 'scale(1.3)',
+          background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+          opacity: 0.8
+        });
+        jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_d3').css('top'));
+      } else if (count_animation > 15 && count_animation <= 20) {
+        jQuery('.draggable_d3').css({
+          color: '#FFF0C7',
+          transform: 'scale(1)',
+          background: 'rgba(83, 35, 69, 0.4)',
+          opacity: 1
+        });
+        jQuery('.draggable_d4').css({
+          color: 'transparent',
+          transform: 'scale(1.3)',
+          background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+          opacity: 0.8
+        });
+        jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_d4').css('top'));
+      } else if (count_animation > 20 && count_animation <= 25) {
+        jQuery('.draggable_d4').css({
+          color: '#FFF0C7',
+          transform: 'scale(1)',
+          background: 'rgba(83, 35, 69, 0.4)',
+          opacity: 1
+        });
+        jQuery('.draggable_d5').css({
+          color: 'transparent',
+          transform: 'scale(1.3)',
+          background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+          opacity: 0.8
+        });
+        jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_d5').css('top'));
+      } else if (count_animation > 25 && count_animation <= 30) {
+        jQuery('.draggable_d5').css({
+          color: '#FFF0C7',
+          transform: 'scale(1)',
+          background: 'rgba(83, 35, 69, 0.4)',
+          opacity: 1
+        });
+        jQuery('.draggable_d6').css({
+          color: 'transparent',
+          transform: 'scale(1.3)',
+          background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+          opacity: 0.8
+        });
+        jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_d6').css('top'));
+      } else if (count_animation > 30 && count_animation <= 35) {
+        jQuery('.draggable_d6').css({
+          color: '#FFF0C7',
+          transform: 'scale(1)',
+          background: 'rgba(83, 35, 69, 0.4)',
+          opacity: 1
+        });
+        jQuery('.status_percent').text('2%');
+        jQuery('.draggable_v1').css({
+          color: 'transparent',
+          transform: 'scale(1.3)',
+          background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+          opacity: 0.8
+        });
+        jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v1').css('top'));
+      } else if (count_animation > 35 && count_animation <= 40) {
+        jQuery('.draggable_v1').css({
+          color: '#FFF0C7',
+          transform: 'scale(1)',
+          background: 'rgba(83, 35, 69, 0.4)',
+          opacity: 1
+        });
+        jQuery('.draggable_d2').css({
+          color: 'transparent',
+          transform: 'scale(1.3)',
+          background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+          opacity: 0.8
+        });
+        jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_d2').css('top'));
+      } else if (count_animation > 40 && count_animation <= 45) {
+        jQuery('.draggable_d2').css({
+          color: '#FFF0C7',
+          transform: 'scale(1)',
+          background: 'rgba(83, 35, 69, 0.4)',
+          opacity: 1
+        });
+        jQuery('.draggable_d3').css({
+          color: 'transparent',
+          transform: 'scale(1.3)',
+          background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+          opacity: 0.8
+        });
+        jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_d3').css('top'));
+      } else if (count_animation > 45 && count_animation <= 50) {
+        jQuery('.draggable_d3').css({
+          color: '#FFF0C7',
+          transform: 'scale(1)',
+          background: 'rgba(83, 35, 69, 0.4)',
+          opacity: 1
+        });
+        jQuery('.draggable_d4').css({
+          color: 'transparent',
+          transform: 'scale(1.3)',
+          background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+          opacity: 0.8
+        });
+        jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_d4').css('top'));
+      } else if (count_animation > 50 && count_animation <= 55) {
+        jQuery('.draggable_d4').css({
+          color: '#FFF0C7',
+          transform: 'scale(1)',
+          background: 'rgba(83, 35, 69, 0.4)',
+          opacity: 1
+        });
+        jQuery('.draggable_d5').css({
+          color: 'transparent',
+          transform: 'scale(1.3)',
+          background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+          opacity: 0.8
+        });
+        jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_d5').css('top'));
+      } else if (count_animation > 55 && count_animation <= 60) {
+        jQuery('.draggable_d5').css({
+          color: '#FFF0C7',
+          transform: 'scale(1)',
+          background: 'rgba(83, 35, 69, 0.4)',
+          opacity: 1
+        });
+        jQuery('.draggable_d6').css({
+          color: 'transparent',
+          transform: 'scale(1.3)',
+          background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+          opacity: 0.8
+        });
+        jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_d6').css('top'));
+      } else if (count_animation > 60 && count_animation <= 65) {
+        jQuery('.draggable_d6').css({
+          color: '#FFF0C7',
+          transform: 'scale(1)',
+          background: 'rgba(83, 35, 69, 0.4)',
+          opacity: 1
+        });
+        jQuery('.status_percent').text('4%');
+        jQuery('.draggable_v1').css({
+          color: 'transparent',
+          transform: 'scale(1.3)',
+          background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+          opacity: 0.8
+        });
+        jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v1').css('top'));
+      } else if (count_animation > 65 && count_animation <= 70) {
+        jQuery('.draggable_v1').css({
+          color: '#FFF0C7',
+          transform: 'scale(1)',
+          background: 'rgba(83, 35, 69, 0.4)',
+          opacity: 1
+        });
+        jQuery('.draggable_d2').css({
+          color: 'transparent',
+          transform: 'scale(1.3)',
+          background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+          opacity: 0.8
+        });
+        jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_d2').css('top'));
+      } else if (count_animation > 70 && count_animation <= 75) {
+        jQuery('.draggable_d2').css({
+          color: '#FFF0C7',
+          transform: 'scale(1)',
+          background: 'rgba(83, 35, 69, 0.4)',
+          opacity: 1
+        });
+        jQuery('.draggable_d3').css({
+          color: 'transparent',
+          transform: 'scale(1.3)',
+          background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+          opacity: 0.8
+        });
+        jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_d3').css('top'));
+      } else if (count_animation > 75 && count_animation <= 80) {
+        jQuery('.draggable_d3').css({
+          color: '#FFF0C7',
+          transform: 'scale(1)',
+          background: 'rgba(83, 35, 69, 0.4)',
+          opacity: 1
+        });
+        jQuery('.draggable_d4').css({
+          color: 'transparent',
+          transform: 'scale(1.3)',
+          background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+          opacity: 0.8
+        });
+        jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_d4').css('top'));
+      } else if (count_animation > 80 && count_animation <= 85) {
+        jQuery('.draggable_d4').css({
+          color: '#FFF0C7',
+          transform: 'scale(1)',
+          background: 'rgba(83, 35, 69, 0.4)',
+          opacity: 1
+        });
+        jQuery('.draggable_d5').css({
+          color: 'transparent',
+          transform: 'scale(1.3)',
+          background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+          opacity: 0.8
+        });
+        jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_d5').css('top'));
+      } else if (count_animation > 85 && count_animation <= 90) {
+        jQuery('.draggable_d5').css({
+          color: '#FFF0C7',
+          transform: 'scale(1)',
+          background: 'rgba(83, 35, 69, 0.4)',
+          opacity: 1
+        });
+        jQuery('.draggable_d6').css({
+          color: 'transparent',
+          transform: 'scale(1.3)',
+          background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+          opacity: 0.8
+        });
+        jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_d6').css('top'));
+      } else if (count_animation > 90 && count_animation <= 95) {
+        jQuery('.draggable_d6').css({
+          color: '#FFF0C7',
+          transform: 'scale(1)',
+          background: 'rgba(83, 35, 69, 0.4)',
+          opacity: 1
+        });
+        jQuery('.status_percent').text('6%');
+        jQuery('.draggable_v1').css({
+          color: 'transparent',
+          transform: 'scale(1.3)',
+          background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+          opacity: 0.8
+        });
+        jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v1').css('top'));
+      } else if (count_animation > 95 && count_animation <= 100) {
+        jQuery('.draggable_v1').css({
+          color: '#FFF0C7',
+          transform: 'scale(1)',
+          background: 'rgba(83, 35, 69, 0.4)',
+          opacity: 1
+        });
+        jQuery('.draggable_d2').css({
+          color: 'transparent',
+          transform: 'scale(1.3)',
+          background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+          opacity: 0.8
+        });
+        jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_d2').css('top'));
+      } else if (count_animation > 100 && count_animation <= 105) {
+        jQuery('.draggable_d2').css({
+          color: '#FFF0C7',
+          transform: 'scale(1)',
+          background: 'rgba(83, 35, 69, 0.4)',
+          opacity: 1
+        });
+        jQuery('.draggable_d3').css({
+          color: 'transparent',
+          transform: 'scale(1.3)',
+          background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+          opacity: 0.8
+        });
+        jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_d3').css('top'));
+      } else if (count_animation > 105 && count_animation <= 110) {
+        jQuery('.draggable_d3').css({
+          color: '#FFF0C7',
+          transform: 'scale(1)',
+          background: 'rgba(83, 35, 69, 0.4)',
+          opacity: 1
+        });
+        jQuery('.draggable_d4').css({
+          color: 'transparent',
+          transform: 'scale(1.3)',
+          background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+          opacity: 0.8
+        });
+        jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_d4').css('top'));
+      } else if (count_animation > 110 && count_animation <= 115) {
+        jQuery('.draggable_d4').css({
+          color: '#FFF0C7',
+          transform: 'scale(1)',
+          background: 'rgba(83, 35, 69, 0.4)',
+          opacity: 1
+        });
+        jQuery('.draggable_d5').css({
+          color: 'transparent',
+          transform: 'scale(1.3)',
+          background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+          opacity: 0.8
+        });
+        jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_d5').css('top'));
+      } else if (count_animation > 115 && count_animation <= 120) {
+        jQuery('.draggable_d5').css({
+          color: '#FFF0C7',
+          transform: 'scale(1)',
+          background: 'rgba(83, 35, 69, 0.4)',
+          opacity: 1
+        });
+        jQuery('.draggable_d6').css({
+          color: 'transparent',
+          transform: 'scale(1.3)',
+          background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
+          opacity: 0.8
+        });
+        jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_d6').css('top'));
+      }
+      jQuery('.zone_x').css('transform', 'scale(1.3) rotate('+rotate_one+'deg)');
+      jQuery('.zone_l').css('transform', 'scale(1.3) rotate(-'+rotate_two+'deg)');
+      count_animation += 1;
+      rotate_one += 2;
+      rotate_two += 20;
+    } else {
+      clearInterval(phaseOne);
+      count_animation = 0;
+      if (pausedStatus == true) {
+        localStorage.setItem('paused', 'drenag2');
+        endNow()
+      } else {
+        drenag11();
+      } 
+    }
+  }, 1000); 
+}
+////////////////////////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////////////////////////
 
 solis5 = function(){
   jQuery('.status_percent').text('84%');
@@ -17105,91 +17194,6 @@ mmt = function(){
   }).then(function(next) {
     next();
   });
-}
-
-
-mmt2 = function(){
-  jQuery('.status_percent').text('84%');
-  jQuery('.status_pahaze_now').text('5');
-  count_animation = 0;
-  phaseOne = setInterval(function(){
-    if (count_animation <= 60){
-      if (count_animation <= 30) {
-        jQuery('.draggable_v3').css({
-          color: 'transparent',
-          transform: 'scale(1.3)',
-          background: '#fff url(/wp-content/themes/mobile/img/veter.png) 0 0/100% no-repeat',
-          opacity: 0.8
-        });
-        jQuery('.draggable_v0').css({
-          color: 'transparent',
-          transform: 'scale(1.3)',
-          background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat',
-          opacity: 0.8
-        });
-        jQuery('.draggable_v-').css({
-          color: 'transparent',
-          transform: 'scale(1.3)',
-          background: '#fff url(/wp-content/themes/mobile/img/x.png) 0 0/100% no-repeat',
-          opacity: 0.8
-        });
-      } else if (count_animation > 30 && count_animation < 60) {
-        jQuery('.draggable_v3').css({
-          color: 'transparent',
-          transform: 'scale(1.3)',
-          background: '#fff url(/wp-content/themes/mobile/img/power.png) 0 0/100% no-repeat',
-          opacity: 0.8
-        });
-      }
-      count_animation += 1;
-    } else {
-      clearInterval(phaseOne);
-      jQuery('.draggable_v0, .draggable_v3, .draggable_v-').css({
-        color: '#FFF0C7',
-        transform: 'scale(1)',
-        background: 'rgba(83, 35, 69, 0.4)',
-        opacity: 1
-      });
-      count_animation = 0;
-      jQuery('.status_percent').text('100%');
-      onEnd();
-    }
-  }, 1000);
-}
-
-mmt1 = function(){
-  jQuery('.status_percent').text('1%');
-  jQuery('.status_pahaze_now').text('1');
-  count_animation = 0;
-  phaseOne = setInterval(function(){
-    if (count_animation <= 60){
-      if (count_animation <= 30) {
-        jQuery('.draggable_v3').css({
-          color: 'transparent',
-          transform: 'scale(1.3)',
-          background: '#fff url(/wp-content/themes/mobile/img/veter.png) 0 0/100% no-repeat',
-          opacity: 0.8
-        });
-      } else if (count_animation > 30 && count_animation < 60) {
-        jQuery('.draggable_v3').css({
-          color: 'transparent',
-          transform: 'scale(1.3)',
-          background: '#fff url(/wp-content/themes/mobile/img/power.png) 0 0/100% no-repeat',
-          opacity: 0.8
-        });
-      }
-      count_animation += 1;
-    } else {
-      clearInterval(phaseOne);
-      jQuery('.draggable_v3').css({
-        color: '#FFF0C7',
-        transform: 'scale(1)',
-        background: 'rgba(83, 35, 69, 0.4)',
-        opacity: 1
-      });
-      count_animation = 0;
-    }
-  }, 1000);
 }
 
 
