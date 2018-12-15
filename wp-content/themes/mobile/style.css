@@ -283,10 +283,12 @@ span.menu_item_img
 .zone.zone_final.zone_x
 {
   left: 20px;
+  transform: rotate(-90deg);
 }
 .zone.zone_final.zone_l
 {
   right: 20px;
+  transform: rotate(-90deg);
   left: auto;
 }
 .header .btn.btn_start 
