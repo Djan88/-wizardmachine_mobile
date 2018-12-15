@@ -219,7 +219,7 @@
 									<div class="zone draggable draggable_d4 ui-draggable ui-draggable-handle" style="width: 30px; right: auto; height: 30px; bottom: auto; left: 278.328px; top: 272px; background: rgba(83, 35, 69, 0.4); transform: rotate(0deg);">D4</div>
 									<div class="zone draggable draggable_d5 ui-draggable ui-draggable-handle" style="width: 30px; right: auto; height: 30px; bottom: auto; left: 279.328px; top: 336px; background: rgba(83, 35, 69, 0.4); color: rgb(255, 240, 199); transform: rotate(0deg); opacity: 1;">D5</div>
 									<div class="zone draggable draggable_d6 ui-draggable ui-draggable-handle" style="width: 30px; right: auto; height: 30px; bottom: auto; left: 289.328px; top: 458px; background: rgba(83, 35, 69, 0.4); color: rgb(255, 240, 199); transform: rotate(0deg); opacity: 1;">D6</div>
-									<div class="zone zone_final zone_x hidden" style="height: 30px; background: url(&quot;/wp-content/themes/mobile/img/plod.png&quot;) 0px 0px / 100% no-repeat rgb(255, 255, 255); transform: rotate(0deg); top: 58px;"></div>
+									<div class="zone zone_final zone_x hidden" style="height: 30px; background: url(&quot;/wp-content/themes/mobile/img/plod.png&quot;) 0px 0px / 100% no-repeat rgb(255, 255, 255); top: 58px;"></div>
 								</div>
 								<div class="col zone_holder">
 									<div class="status status_title hidden"></div>
@@ -243,7 +243,7 @@
 									<div class="zone draggable draggable_s4 ui-draggable ui-draggable-handle" style="width: 30px; right: auto; height: 30px; bottom: auto; left: -88.6719px; top: 273px; background: rgba(83, 35, 69, 0.4); transform: rotate(0deg);">S4</div>
 									<div class="zone draggable draggable_s5 ui-draggable ui-draggable-handle" style="width: 30px; right: auto; height: 30px; bottom: auto; left: -88.6719px; top: 337px; background: rgba(83, 35, 69, 0.4); color: rgb(255, 240, 199); transform: rotate(0deg); opacity: 1;">S5</div>
 									<div class="zone draggable draggable_s6 ui-draggable ui-draggable-handle" style="width: 30px; right: auto; height: 30px; bottom: auto; left: -96.6719px; top: 459px; background: rgba(83, 35, 69, 0.4); color: rgb(255, 240, 199); transform: rotate(0deg); opacity: 1;">S6</div>
-									<div class="zone zone_final zone_l hidden" style="height: 30px; background: url(&quot;/wp-content/themes/mobile/img/x.png&quot;) 0px 0px / 100% no-repeat rgb(255, 255, 255); transform: rotate(0deg); top: 58px;"></div>
+									<div class="zone zone_final zone_l hidden" style="height: 30px; background: url(&quot;/wp-content/themes/mobile/img/x.png&quot;) 0px 0px / 100% no-repeat rgb(255, 255, 255); top: 58px;"></div>
 								</div>
 							</div>
 						</div>
