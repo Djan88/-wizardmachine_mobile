@@ -1823,10 +1823,10 @@ v1 = function(){
   count_animation = 0;
   phaseOne = setInterval(function(){
     if (count_animation <= 12){
-      if (count_animation <= 2) {
+      if (count_animation <= 1) {
         jQuery('.zone_x').css('top', jQuery('.draggable_v0').css('top'));
         jQuery('.zone_l').css('top', jQuery('.draggable_v-').css('top'));
-      } else if (count_animation > 2 && count_animation <= 4) {
+      } else if (count_animation > 1 && count_animation <= 2) {
         jQuery('.zone_x').css('top', jQuery('.draggable_v-').css('top'));
         jQuery('.zone_l').css('top', jQuery('.draggable_v0').css('top'));
       } else {
@@ -1872,10 +1872,10 @@ v1 = function(){
       count_animation = 0;
       phaseOne = setInterval(function(){
         if (count_animation <= 12){
-          if (count_animation <= 2) {
+          if (count_animation <= 1) {
             jQuery('.zone_x').css('top', jQuery('.draggable_v0').css('top'));
             jQuery('.zone_l').css('top', jQuery('.draggable_v-').css('top'));
-          } else if (count_animation > 2 && count_animation <= 4) {
+          } else if (count_animation > 1 && count_animation <= 2) {
             jQuery('.zone_x').css('top', jQuery('.draggable_v-').css('top'));
             jQuery('.zone_l').css('top', jQuery('.draggable_v0').css('top'));
           } else {
@@ -1921,10 +1921,10 @@ v1 = function(){
           jQuery('.status_percent').text('4%');
           phaseOne = setInterval(function(){
             if (count_animation <= 12){
-              if (count_animation <= 2) {
+              if (count_animation <= 1) {
                 jQuery('.zone_x').css('top', jQuery('.draggable_v0').css('top'));
                 jQuery('.zone_l').css('top', jQuery('.draggable_v-').css('top'));
-              } else if (count_animation > 2 && count_animation <= 4) {
+              } else if (count_animation > 1 && count_animation <= 2) {
                 jQuery('.zone_x').css('top', jQuery('.draggable_v-').css('top'));
                 jQuery('.zone_l').css('top', jQuery('.draggable_v0').css('top'));
               } else {
@@ -1970,10 +1970,10 @@ v1 = function(){
               count_animation = 0;
               phaseOne = setInterval(function(){
                 if (count_animation <= 12){
-                  if (count_animation <= 2) {
+                  if (count_animation <= 1) {
                     jQuery('.zone_x').css('top', jQuery('.draggable_v0').css('top'));
                     jQuery('.zone_l').css('top', jQuery('.draggable_v-').css('top'));
-                  } else if (count_animation > 2 && count_animation <= 4) {
+                  } else if (count_animation > 1 && count_animation <= 2) {
                     jQuery('.zone_x').css('top', jQuery('.draggable_v-').css('top'));
                     jQuery('.zone_l').css('top', jQuery('.draggable_v0').css('top'));
                   } else {
@@ -2019,10 +2019,10 @@ v1 = function(){
                   count_animation = 0;
                   phaseOne = setInterval(function(){
                     if (count_animation <= 12){
-                      if (count_animation <= 2) {
+                      if (count_animation <= 1) {
                         jQuery('.zone_x').css('top', jQuery('.draggable_v0').css('top'));
                         jQuery('.zone_l').css('top', jQuery('.draggable_v-').css('top'));
-                      } else if (count_animation > 2 && count_animation <= 4) {
+                      } else if (count_animation > 1 && count_animation <= 2) {
                         jQuery('.zone_x').css('top', jQuery('.draggable_v-').css('top'));
                         jQuery('.zone_l').css('top', jQuery('.draggable_v0').css('top'));
                       } else {
@@ -2068,10 +2068,10 @@ v1 = function(){
                       jQuery('.status_percent').text('10%');
                       phaseOne = setInterval(function(){
                         if (count_animation <= 12){
-                          if (count_animation <= 2) {
+                          if (count_animation <= 1) {
                             jQuery('.zone_x').css('top', jQuery('.draggable_v0').css('top'));
                             jQuery('.zone_l').css('top', jQuery('.draggable_v-').css('top'));
-                          } else if (count_animation > 2 && count_animation <= 4) {
+                          } else if (count_animation > 1 && count_animation <= 2) {
                             jQuery('.zone_x').css('top', jQuery('.draggable_v-').css('top'));
                             jQuery('.zone_l').css('top', jQuery('.draggable_v0').css('top'));
                           } else {
@@ -2117,10 +2117,10 @@ v1 = function(){
                           count_animation = 0;
                           phaseOne = setInterval(function(){
                             if (count_animation <= 12){
-                              if (count_animation <= 2) {
+                              if (count_animation <= 1) {
                                 jQuery('.zone_x').css('top', jQuery('.draggable_v0').css('top'));
                                 jQuery('.zone_l').css('top', jQuery('.draggable_v-').css('top'));
-                              } else if (count_animation > 2 && count_animation <= 4) {
+                              } else if (count_animation > 1 && count_animation <= 2) {
                                 jQuery('.zone_x').css('top', jQuery('.draggable_v-').css('top'));
                                 jQuery('.zone_l').css('top', jQuery('.draggable_v0').css('top'));
                               } else {
@@ -2166,10 +2166,10 @@ v1 = function(){
                               count_animation = 0;
                               phaseOne = setInterval(function(){
                                 if (count_animation <= 12){
-                                  if (count_animation <= 2) {
+                                  if (count_animation <= 1) {
                                     jQuery('.zone_x').css('top', jQuery('.draggable_v0').css('top'));
                                     jQuery('.zone_l').css('top', jQuery('.draggable_v-').css('top'));
-                                  } else if (count_animation > 2 && count_animation <= 4) {
+                                  } else if (count_animation > 1 && count_animation <= 2) {
                                     jQuery('.zone_x').css('top', jQuery('.draggable_v-').css('top'));
                                     jQuery('.zone_l').css('top', jQuery('.draggable_v0').css('top'));
                                   } else {
@@ -2215,10 +2215,10 @@ v1 = function(){
                                   jQuery('.status_percent').text('16%');
                                   phaseOne = setInterval(function(){
                                     if (count_animation <= 12){
-                                      if (count_animation <= 2) {
+                                      if (count_animation <= 1) {
                                         jQuery('.zone_x').css('top', jQuery('.draggable_v0').css('top'));
                                         jQuery('.zone_l').css('top', jQuery('.draggable_v-').css('top'));
-                                      } else if (count_animation > 2 && count_animation <= 4) {
+                                      } else if (count_animation > 1 && count_animation <= 2) {
                                         jQuery('.zone_x').css('top', jQuery('.draggable_v-').css('top'));
                                         jQuery('.zone_l').css('top', jQuery('.draggable_v0').css('top'));
                                       } else {
@@ -2264,10 +2264,10 @@ v1 = function(){
                                       count_animation = 0;
                                       phaseOne = setInterval(function(){
                                         if (count_animation <= 12){
-                                          if (count_animation <= 2) {
+                                          if (count_animation <= 1) {
                                             jQuery('.zone_x').css('top', jQuery('.draggable_v0').css('top'));
                                             jQuery('.zone_l').css('top', jQuery('.draggable_v-').css('top'));
-                                          } else if (count_animation > 2 && count_animation <= 4) {
+                                          } else if (count_animation > 1 && count_animation <= 2) {
                                             jQuery('.zone_x').css('top', jQuery('.draggable_v-').css('top'));
                                             jQuery('.zone_l').css('top', jQuery('.draggable_v0').css('top'));
                                           } else {
@@ -2313,10 +2313,10 @@ v1 = function(){
                                           count_animation = 0;
                                           phaseOne = setInterval(function(){
                                             if (count_animation <= 12){
-                                              if (count_animation <= 2) {
+                                              if (count_animation <= 1) {
                                                 jQuery('.zone_x').css('top', jQuery('.draggable_v0').css('top'));
                                                 jQuery('.zone_l').css('top', jQuery('.draggable_v-').css('top'));
-                                              } else if (count_animation > 2 && count_animation <= 4) {
+                                              } else if (count_animation > 1 && count_animation <= 2) {
                                                 jQuery('.zone_x').css('top', jQuery('.draggable_v-').css('top'));
                                                 jQuery('.zone_l').css('top', jQuery('.draggable_v0').css('top'));
                                               } else {
@@ -2362,10 +2362,10 @@ v1 = function(){
                                               jQuery('.status_percent').text('22%');
                                               phaseOne = setInterval(function(){
                                                 if (count_animation <= 12){
-                                                  if (count_animation <= 2) {
+                                                  if (count_animation <= 1) {
                                                     jQuery('.zone_x').css('top', jQuery('.draggable_v0').css('top'));
                                                     jQuery('.zone_l').css('top', jQuery('.draggable_v-').css('top'));
-                                                  } else if (count_animation > 2 && count_animation <= 4) {
+                                                  } else if (count_animation > 1 && count_animation <= 2) {
                                                     jQuery('.zone_x').css('top', jQuery('.draggable_v-').css('top'));
                                                     jQuery('.zone_l').css('top', jQuery('.draggable_v0').css('top'));
                                                   } else {
