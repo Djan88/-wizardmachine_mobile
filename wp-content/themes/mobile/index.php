@@ -170,7 +170,7 @@
 				<div class="col text_center">
 					<div class="row justify-content-center">
 						<div class="col-12 text_center zones">
-							<!-- <div class="row">
+							<div class="row">
 								<div class="col zone_holder">
 									<div class="status status_percent_wrap hidden">
 										Выполнено: <span class="status_percent">0%</span>
@@ -207,8 +207,8 @@
 									<div class="zone draggable draggable_s6">S6</div>
 									<div class="zone zone_final zone_l hidden"></div>
 								</div>
-							</div> -->
-							<div class="row">
+							</div>
+							<!-- <div class="row">
 								<div class="col zone_holder">
 									<div class="status status_percent_wrap hidden">
 										Выполнено: <span class="status_percent">0%</span>
@@ -245,7 +245,7 @@
 									<div class="zone draggable draggable_s6 ui-draggable ui-draggable-handle" style="width: 30px; right: auto; height: 30px; bottom: auto; left: -96.6719px; top: 459px; background: rgba(83, 35, 69, 0.4); color: rgb(255, 240, 199); transform: rotate(0deg); opacity: 1;">S6</div>
 									<div class="zone zone_final zone_l hidden" style="height: 30px; background: url(&quot;/wp-content/themes/mobile/img/x.png&quot;) 0px 0px / 100% no-repeat rgb(255, 255, 255); top: 58px;"></div>
 								</div>
-							</div>
+							</div> -->
 						</div>
 						<div class="col-12 text_center zone_diag">
 							<img class="loaded_img" src="" alt="">
