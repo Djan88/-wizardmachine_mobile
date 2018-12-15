@@ -1541,7 +1541,7 @@ v1_2 = function(){
                         jQuery('.zone_x').css('top', jQuery('.draggable_v-').css('top'));
                         jQuery('.zone_l').css('top', jQuery('.draggable_d2').css('top'));
                       } else {
-                        jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v-').css('top'));
+                        jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_d2').css('top'));
                       }
                       if (count_animation <= 4) {
                         jQuery('.draggable_d2').css({
