@@ -2029,7 +2029,7 @@ v1 = function(){
   jQuery('.status_pahaze_all').text('5');
   localStorage.setItem('pausedPhases', '5');
   localStorage.setItem('pausedProtName', 'Краниальный протокол');
-  jQuery('.zone_x, .zone_l').removeClass('hidden').css('transform', 'scale(1)');
+  jQuery('.zone_x, .zone_l').removeClass('hidden').css('transform', 'rotate(-90deg) scale(1)');
   // r_top = jQuery('.draggable_v5').css('top');
   // r_bottom = jQuery('.draggable_v-').css('top');
   // l_top = jQuery('.draggable_v0').css('top');
