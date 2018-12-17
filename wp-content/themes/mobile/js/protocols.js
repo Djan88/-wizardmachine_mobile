@@ -3756,6 +3756,7 @@ v2 = function(){
           background: '#fff url(/wp-content/themes/mobile/img/povregdenie_demona.png) 0 0/100% no-repeat'
         });
       }
+      count_animation += 1;
     } else {
       clearInterval(phaseOne);
       jQuery('.draggable_d2').css({
