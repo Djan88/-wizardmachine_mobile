@@ -3792,6 +3792,7 @@ v2 = function(){
               background: '#fff url(/wp-content/themes/mobile/img/povregdenie_demona.png) 0 0/100% no-repeat'
             });
           }
+          count_animation += 1;
         } else {
           clearInterval(phaseOne);
           jQuery('.draggable_v2').css({
@@ -3827,6 +3828,7 @@ v2 = function(){
                   background: '#fff url(/wp-content/themes/mobile/img/povregdenie_demona.png) 0 0/100% no-repeat'
                 });
               }
+              count_animation += 1;
             } else {
               clearInterval(phaseOne);
               jQuery('.draggable_s2').css({
@@ -3862,6 +3864,7 @@ v2 = function(){
                       background: '#fff url(/wp-content/themes/mobile/img/povregdenie_demona.png) 0 0/100% no-repeat'
                     });
                   }
+                  count_animation += 1;
                 } else {
                   clearInterval(phaseOne);
                   jQuery('.draggable_d2').css({
@@ -3897,6 +3900,7 @@ v2 = function(){
                           background: '#fff url(/wp-content/themes/mobile/img/povregdenie_demona.png) 0 0/100% no-repeat'
                         });
                       }
+                      count_animation += 1;
                     } else {
                       clearInterval(phaseOne);
                       jQuery('.draggable_v2').css({
@@ -3932,6 +3936,7 @@ v2 = function(){
                               background: '#fff url(/wp-content/themes/mobile/img/povregdenie_demona.png) 0 0/100% no-repeat'
                             });
                           }
+                          count_animation += 1;
                         } else {
                           clearInterval(phaseOne);
                           jQuery('.draggable_s2').css({
@@ -3968,6 +3973,7 @@ v2 = function(){
                                   background: '#fff url(/wp-content/themes/mobile/img/povregdenie_demona.png) 0 0/100% no-repeat'
                                 });
                               }
+                              count_animation += 1;
                             } else {
                               clearInterval(phaseOne);
                               jQuery('.draggable_d2').css({
@@ -4003,6 +4009,7 @@ v2 = function(){
                                       background: '#fff url(/wp-content/themes/mobile/img/povregdenie_demona.png) 0 0/100% no-repeat'
                                     });
                                   }
+                                  count_animation += 1;
                                 } else {
                                   clearInterval(phaseOne);
                                   jQuery('.draggable_v2').css({
@@ -4038,6 +4045,7 @@ v2 = function(){
                                           background: '#fff url(/wp-content/themes/mobile/img/povregdenie_demona.png) 0 0/100% no-repeat'
                                         });
                                       }
+                                      count_animation += 1;
                                     } else {
                                       clearInterval(phaseOne);
                                       count_animation = 1;
@@ -4076,6 +4084,7 @@ v2 = function(){
                                               background: '#fff url(/wp-content/themes/mobile/img/povregdenie_demona.png) 0 0/100% no-repeat'
                                             });
                                           }
+                                          count_animation += 1;
                                         } else {
                                           clearInterval(phaseOne);
                                           jQuery('.draggable_d2').css({
@@ -4111,6 +4120,7 @@ v2 = function(){
                                                   background: '#fff url(/wp-content/themes/mobile/img/povregdenie_demona.png) 0 0/100% no-repeat'
                                                 });
                                               }
+                                              count_animation += 1;
                                             } else {
                                               clearInterval(phaseOne);
                                               jQuery('.draggable_v2').css({
@@ -4146,6 +4156,7 @@ v2 = function(){
                                                       background: '#fff url(/wp-content/themes/mobile/img/povregdenie_demona.png) 0 0/100% no-repeat'
                                                     });
                                                   }
+                                                  count_animation += 1;
                                                 } else {
                                                   clearInterval(phaseOne);
                                                   count_animation = 1;
@@ -5440,6 +5451,7 @@ v3 = function(){
                           background: '#fff url(/wp-content/themes/mobile/img/povregdenie_demona.png) 0 0/100% no-repeat'
                         });
                       }
+                      count_animation += 1;
                     } else {
                       clearInterval(phaseOne);
                       jQuery('.draggable_s3').css({
@@ -5475,6 +5487,7 @@ v3 = function(){
                               background: '#fff url(/wp-content/themes/mobile/img/povregdenie_demona.png) 0 0/100% no-repeat'
                             });
                           }
+                          count_animation += 1;
                         } else {
                           clearInterval(phaseOne);
                           jQuery('.draggable_s2').css({
@@ -5510,6 +5523,7 @@ v3 = function(){
                                   background: '#fff url(/wp-content/themes/mobile/img/povregdenie_demona.png) 0 0/100% no-repeat'
                                 });
                               }
+                              count_animation += 1;
                             } else {
                               clearInterval(phaseOne);
                               jQuery('.draggable_s4').css({
@@ -5545,6 +5559,7 @@ v3 = function(){
                                       background: '#fff url(/wp-content/themes/mobile/img/povregdenie_demona.png) 0 0/100% no-repeat'
                                     });
                                   }
+                                  count_animation += 1;
                                 } else {
                                   clearInterval(phaseOne);
                                   jQuery('.draggable_v3').css({
@@ -5581,6 +5596,7 @@ v3 = function(){
                                           background: '#fff url(/wp-content/themes/mobile/img/povregdenie_demona.png) 0 0/100% no-repeat'
                                         });
                                       }
+                                      count_animation += 1;
                                     } else {
                                       clearInterval(phaseOne);
                                       jQuery('.draggable_s3').css({
@@ -5616,6 +5632,7 @@ v3 = function(){
                                               background: '#fff url(/wp-content/themes/mobile/img/povregdenie_demona.png) 0 0/100% no-repeat'
                                             });
                                           }
+                                          count_animation += 1;
                                         } else {
                                           clearInterval(phaseOne);
                                           jQuery('.draggable_s2').css({
@@ -5651,6 +5668,7 @@ v3 = function(){
                                                   background: '#fff url(/wp-content/themes/mobile/img/povregdenie_demona.png) 0 0/100% no-repeat'
                                                 });
                                               }
+                                              count_animation += 1;
                                             } else {
                                               clearInterval(phaseOne);
                                               jQuery('.draggable_s4').css({
@@ -5686,6 +5704,7 @@ v3 = function(){
                                                       background: '#fff url(/wp-content/themes/mobile/img/povregdenie_demona.png) 0 0/100% no-repeat'
                                                     });
                                                   }
+                                                  count_animation += 1;
                                                 } else {
                                                   clearInterval(phaseOne);
                                                   jQuery('.draggable_v3').css({
@@ -5721,6 +5740,7 @@ v3 = function(){
                                                           background: '#fff url(/wp-content/themes/mobile/img/povregdenie_demona.png) 0 0/100% no-repeat'
                                                         });
                                                       }
+                                                      count_animation += 1;
                                                     } else {
                                                       clearInterval(phaseOne);
                                                       jQuery('.draggable_s3').css({
@@ -5756,6 +5776,7 @@ v3 = function(){
                                                               background: '#fff url(/wp-content/themes/mobile/img/povregdenie_demona.png) 0 0/100% no-repeat'
                                                             });
                                                           }
+                                                          count_animation += 1;
                                                         } else {
                                                           clearInterval(phaseOne);
                                                           jQuery('.draggable_s2').css({
@@ -5791,6 +5812,7 @@ v3 = function(){
                                                                   background: '#fff url(/wp-content/themes/mobile/img/povregdenie_demona.png) 0 0/100% no-repeat'
                                                                 });
                                                               }
+                                                              count_animation += 1;
                                                             } else {
                                                               clearInterval(phaseOne);
                                                               jQuery('.draggable_s4').css({
@@ -5826,6 +5848,7 @@ v3 = function(){
                                                                       background: '#fff url(/wp-content/themes/mobile/img/povregdenie_demona.png) 0 0/100% no-repeat'
                                                                     });
                                                                   }
+                                                                  count_animation += 1;
                                                                 } else {
                                                                   clearInterval(phaseOne);
                                                                   jQuery('.draggable_v3, .draggable_lovushka').css({
