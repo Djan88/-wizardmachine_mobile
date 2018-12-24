@@ -3728,7 +3728,7 @@ v2 = function(){
   localStorage.setItem('pausedProtName', 'Протокол 2-5');
   jQuery('.status_percent').text('0%');
   jQuery('.status_pahaze_now').text('1');
-  jQuery('.zone_x, .zone_l').removeClass('hidden').css('transform', 'rotate(-90deg) scale(1)');css('transform', 'rotate(-90deg) scale(1)');
+  jQuery('.zone_x, .zone_l').removeClass('hidden').css('transform', 'rotate(-90deg) scale(1)');
   console.log('Фаза 1/1');
   count_animation = 0;
   phaseOne = setInterval(function(){
