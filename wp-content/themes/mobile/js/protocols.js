@@ -8875,7 +8875,7 @@ v5 = function(){
             });
           }
           count_animation += 1;
-          rotate_lovushka += 2;\
+          rotate_lovushka += 2;
         } else {
           clearInterval(phaseOne);
           jQuery('.draggable_v-').css({
