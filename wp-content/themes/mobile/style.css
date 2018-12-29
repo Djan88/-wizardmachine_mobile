@@ -413,7 +413,7 @@ input.crop_photo
 @media (max-width: 540px) {
     .mode-item .mode-item_title
     {
-      font-size: 20px;
+      font-size: 16px;
     }
     .mode-item .mode-item_img
     {
