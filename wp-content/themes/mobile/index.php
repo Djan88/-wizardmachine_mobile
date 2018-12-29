@@ -133,10 +133,17 @@
 		      </div>
 		      <div class="protocols_item_content hidden">«Протокол "Solis" предназначен для "гиперресурсных" состояний, которые закономерно возникают после удачных проработок клиента на "wizardmachine", терапевтической дефрагментации, а также после проработки кармических и родовых проблем либо после длительной "отжимки" негативного флюида из физического тела. При калибровке ставьте зону v3 на нижнюю границу сердца! Показания к применению - напряжения в теле и поведенческие дисфункции на полнолуние. Нормализация метафункционала вентральной оси. рекомендован ежедневно с 10-го по 15-й дни Луны!</div>
 		    </div>
+		    <div data-protocol="universal" class="col protocols_item protocols_item_8 text_center">
+		      <span class="protocols_item_title">Универсальный</span>
+		      <div class="protocols_item_img">
+		      	<i class="fas fa-hands"></i>
+		      </div>
+		      <div class="protocols_item_content hidden">Универсальный протокол предназначен для самостоятельного применения</div>
+		    </div>
 		    <div data-protocol="visceral" class="col protocols_item protocols_item_8 text_center">
 		      <span class="protocols_item_title">Висцеральный</span>
 		      <div class="protocols_item_img">
-		      	<i class="fas fa-star-of-life"></i>
+		      	<i class="fab fa-confluence"></i>
 		      </div>
 		      <div class="protocols_item_content hidden">«Печеночное продвижение. Для коррекции вегетативно/сосудистых, висцеральных, психосоматических проблем, а также состояний, связанных с нарушением иммунитета и обмена веществ»</div>
 		    </div>
