@@ -138,7 +138,7 @@
 		      <div class="protocols_item_img">
 		      	<i class="fas fa-hands"></i>
 		      </div>
-		      <div class="protocols_item_content hidden">Универсальный протокол предназначен для самостоятельного применения</div>
+		      <div class="protocols_item_content hidden">Универсальный протокол подходит для большинства типичных дисфункций. Если вы затрудняетесь с выбором типа протокола - смело выбирайте универсальный!</div>
 		    </div>
 		    <div data-protocol="visceral" class="col protocols_item protocols_item_8 text_center">
 		      <span class="protocols_item_title">Висцеральный</span>
