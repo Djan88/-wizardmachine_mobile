@@ -16731,7 +16731,8 @@ universal3 = function(){
 
 
 universal2 = function(){
-  jQuery('.status_percent').text('17%');
+  jQuery('.zone_x, .zone_l').css('transform', 'rotate(-90deg) scale(0.01)');
+  jQuery('.status_percent').text('14%');
   jQuery('.status_pahaze_now').text('2');
   rotate_one = 0;
   phaseOne = setInterval(function(){
@@ -16755,7 +16756,7 @@ universal2 = function(){
         opacity: 1
       });
       count_animation = 0;
-      jQuery('.status_percent').text('21%');
+      jQuery('.status_percent').text('18%');
       rotate_one = 10;
       phaseOne = setInterval(function(){
         if (count_animation <= 53){
@@ -16778,7 +16779,7 @@ universal2 = function(){
             opacity: 1
           });
           count_animation = 0;
-          jQuery('.status_percent').text('25%');
+          jQuery('.status_percent').text('21%');
           rotate_one = 270;
           phaseOne = setInterval(function(){
             if (count_animation <= 60){
@@ -16801,7 +16802,7 @@ universal2 = function(){
                 opacity: 1
               });
               count_animation = 0;
-              jQuery('.status_percent').text('29%');
+              jQuery('.status_percent').text('25%');
               rotate_one = 300;
               phaseOne = setInterval(function(){
                 if (count_animation <= 40){
@@ -16825,7 +16826,7 @@ universal2 = function(){
                     opacity: 1
                   });
                   count_animation = 0;
-                  jQuery('.status_percent').text('33%');
+                  jQuery('.status_percent').text('29%');
                   rotate_one = 0;
                   phaseOne = setInterval(function(){
                     if (count_animation <= 22){
@@ -16848,7 +16849,7 @@ universal2 = function(){
                         opacity: 1
                       });
                       count_animation = 0;
-                      jQuery('.status_percent').text('37%');
+                      jQuery('.status_percent').text('34%');
                       rotate_one = 10;
                       phaseOne = setInterval(function(){
                         if (count_animation <= 53){
@@ -16871,7 +16872,7 @@ universal2 = function(){
                             opacity: 1
                           });
                           count_animation = 0;
-                          jQuery('.status_percent').text('40%');
+                          jQuery('.status_percent').text('38%');
                           rotate_one = 270;
                           phaseOne = setInterval(function(){
                             if (count_animation <= 60){
@@ -16894,7 +16895,7 @@ universal2 = function(){
                                 opacity: 1
                               });
                               count_animation = 0;
-                              jQuery('.status_percent').text('44%');
+                              jQuery('.status_percent').text('42%');
                               rotate_one = 300;
                               phaseOne = setInterval(function(){
                                 if (count_animation <= 40){
@@ -16918,7 +16919,7 @@ universal2 = function(){
                                     opacity: 1
                                   });
                                   count_animation = 0;
-                                  jQuery('.status_percent').text('48%');
+                                  jQuery('.status_percent').text('46%');
                                   rotate_one = 0;
                                   phaseOne = setInterval(function(){
                                     if (count_animation <= 22){
@@ -16941,7 +16942,7 @@ universal2 = function(){
                                         opacity: 1
                                       });
                                       count_animation = 0;
-                                      jQuery('.status_percent').text('52%');
+                                      jQuery('.status_percent').text('50%');
                                       rotate_one = 10;
                                       phaseOne = setInterval(function(){
                                         if (count_animation <= 53){
@@ -16964,7 +16965,7 @@ universal2 = function(){
                                             opacity: 1
                                           });
                                           count_animation = 0;
-                                          jQuery('.status_percent').text('55%');
+                                          jQuery('.status_percent').text('54%');
                                           rotate_one = 270;
                                           phaseOne = setInterval(function(){
                                             if (count_animation <= 60){
@@ -16987,7 +16988,7 @@ universal2 = function(){
                                                 opacity: 1
                                               });
                                               count_animation = 0;
-                                              jQuery('.status_percent').text('59%');
+                                              jQuery('.status_percent').text('58%');
                                               rotate_one = 300;
                                               phaseOne = setInterval(function(){
                                                 if (count_animation <= 40){
@@ -17251,7 +17252,7 @@ universal = function(){
   jQuery('.status_pahaze_all').text('3');
   localStorage.setItem('pausedPhases', '3');
   localStorage.setItem('pausedProtName', 'Универсальный протокол');
-  jQuery('.status_percent').text('3%');
+  jQuery('.status_percent').text('0%');
   jQuery('.status_pahaze_now').text('1');
   jQuery('.zone_x, .zone_l').removeClass('hidden').css('transform', 'rotate(-90deg) scale(1.5)');
   console.log('Фаза 1/1');
@@ -17282,7 +17283,7 @@ universal = function(){
         opacity: 1
       });
       count_animation = 0;
-      jQuery('.status_percent').text('6%');
+      jQuery('.status_percent').text('3%');
       phaseOne = setInterval(function(){
         if (count_animation <= 11){
           sideFormuls(count_animation, jQuery('.draggable_v2'));
@@ -17309,7 +17310,7 @@ universal = function(){
             opacity: 1
           });
           count_animation = 0;
-          jQuery('.status_percent').text('9%');
+          jQuery('.status_percent').text('6%');
           phaseOne = setInterval(function(){
             if (count_animation <= 11){
               sideFormuls(count_animation, jQuery('.draggable_v3'));
@@ -17336,7 +17337,7 @@ universal = function(){
                 opacity: 1
               });
               count_animation = 0;
-              jQuery('.status_percent').text('12%');
+              jQuery('.status_percent').text('9%');
               phaseOne = setInterval(function(){
                 if (count_animation <= 11){
                   sideFormuls(count_animation, jQuery('.draggable_v4'));
@@ -17363,7 +17364,7 @@ universal = function(){
                     opacity: 1
                   });
                   count_animation = 0;
-                  jQuery('.status_percent').text('14%');
+                  jQuery('.status_percent').text('12%');
                   phaseOne = setInterval(function(){
                     if (count_animation <= 11){
                       sideFormuls(count_animation, jQuery('.draggable_v5'));
