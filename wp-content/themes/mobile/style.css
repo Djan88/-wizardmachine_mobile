@@ -411,30 +411,34 @@ input.crop_photo
   }
 }
 @media (max-width: 540px) {
-    .mode-item .mode-item_title
-    {
-      font-size: 20px;
-    }
-    .protocols_item .mode-item_title
-    {
-      font-size: 16px;
-    }
-    .mode-item .mode-item_img
-    {
-      font-size: 80px;
-    }
-    .mode-item
-    {
-      margin: 0;
-      margin-bottom: 20px;
-    }
-    #myChart
-    {
-      left: -145px;
-      top: 150px;
-    }
-    .status
-    {
-      font-size: 14px;
-    }
+  .mode-item_title
+  {
+    font-size: 16px;
+  }
+  .mode-item .mode-item_title
+  {
+    font-size: 20px;
+  }
+  .protocols_item .mode-item_title
+  {
+    font-size: 16px;
+  }
+  .mode-item .mode-item_img
+  {
+    font-size: 80px;
+  }
+  .mode-item
+  {
+    margin: 0;
+    margin-bottom: 20px;
+  }
+  #myChart
+  {
+    left: -145px;
+    top: 150px;
+  }
+  .status
+  {
+    font-size: 14px;
+  }
 }
