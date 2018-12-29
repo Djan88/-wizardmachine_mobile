@@ -1415,7 +1415,7 @@ v1 = function(){
   jQuery('.status_pahaze_all').text('5');
   localStorage.setItem('pausedPhases', '5');
   localStorage.setItem('pausedProtName', 'Краниальный протокол');
-  jQuery('.zone_x, .zone_l').removeClass('hidden').css('transform', 'rotate(-90deg) scale(1)');
+  jQuery('.zone_x, .zone_l').removeClass('hidden').css('transform', 'rotate(-90deg) scale(1.5)');
   jQuery('.status_percent').text('0%');
   jQuery('.status_pahaze_now').text('1');
   count_animation = 0;
@@ -3740,7 +3740,7 @@ v2 = function(){
   localStorage.setItem('pausedProtName', 'Протокол 2-5');
   jQuery('.status_percent').text('0%');
   jQuery('.status_pahaze_now').text('1');
-  jQuery('.zone_x, .zone_l').removeClass('hidden').css('transform', 'rotate(-90deg) scale(1)');
+  jQuery('.zone_x, .zone_l').removeClass('hidden').css('transform', 'rotate(-90deg) scale(1.5)');
   console.log('Фаза 1/1');
   count_animation = 0;
   phaseOne = setInterval(function(){
@@ -5291,7 +5291,7 @@ v3 = function(){
   jQuery('.status_percent').text('0%');
   jQuery('.status_pahaze_now').text('1');
   console.log('Фаза 1/1');
-  jQuery('.zone_x, .zone_l').removeClass('hidden').css('transform', 'rotate(-90deg) scale(1)');
+  jQuery('.zone_x, .zone_l').removeClass('hidden').css('transform', 'rotate(-90deg) scale(1.5)');
   count_animation = 0;
   phaseOne = setInterval(function(){
     if (count_animation <= 12){
@@ -6866,7 +6866,7 @@ v4_2 = function(){
   jQuery('.status_percent').text('10%');
   console.log('Фаза 2/1');
   jQuery('.status_pahaze_now').text('2');
-  jQuery('.zone_x, .zone_l').removeClass('hidden').css('transform', 'rotate(-90deg) scale(1)');
+  jQuery('.zone_x, .zone_l').removeClass('hidden').css('transform', 'rotate(-90deg) scale(1.5)');
   count_animation = 0;
   phaseOne = setInterval(function(){
     if (count_animation <= 12){
@@ -8821,7 +8821,7 @@ v5 = function(){
   localStorage.setItem('pausedProtName', 'Протокол 5-2');
   jQuery('.status_percent').text('0%');
   jQuery('.status_pahaze_now').text('1');
-  jQuery('.zone_x, .zone_l').removeClass('hidden').css('transform', 'rotate(-90deg) scale(1)');
+  jQuery('.zone_x, .zone_l').removeClass('hidden').css('transform', 'rotate(-90deg) scale(1.5)');
   console.log('Фаза 1/1');
   count_animation = 0;
   phaseOne = setInterval(function(){
@@ -13118,7 +13118,7 @@ drenag = function(){
   jQuery('.status_pahaze_all').text('12');
   localStorage.setItem('pausedPhases', '12');
   localStorage.setItem('pausedProtName', 'Дренажный протокол');
-  jQuery('.zone_x, .zone_l').removeClass('hidden').css('transform', 'rotate(-90deg) scale(1)');
+  jQuery('.zone_x, .zone_l').removeClass('hidden').css('transform', 'rotate(-90deg) scale(1.5)');
   jQuery('.status_percent').text('0%');
   jQuery('.status_pahaze_now').text('1');
   count_animation = 0;
@@ -14816,7 +14816,7 @@ mmt = function(){
   localStorage.setItem('pausedProtName', 'Висцеральный протокол');
   jQuery('.status_percent').text('0%');
   jQuery('.status_pahaze_now').text('1');
-  jQuery('.zone_x, .zone_l').removeClass('hidden').css('transform', 'rotate(-90deg) scale(1)');
+  jQuery('.zone_x, .zone_l').removeClass('hidden').css('transform', 'rotate(-90deg) scale(1.5)');
   console.log('Фаза 1/1');
   count_animation = 0;
   phaseOne = setInterval(function(){
@@ -15069,6 +15069,179 @@ mmt = function(){
 ////////////////////////////////////////////////////////////////////////////////////////////////////
 
 
+
+
+
+
+
+
+universal = function(){
+  jQuery('.status').removeClass('hidden');
+  jQuery('.status_pahaze_all').text('3');
+  localStorage.setItem('pausedPhases', '3');
+  localStorage.setItem('pausedProtName', 'Универсальный протокол');
+  jQuery('.status_percent').text('0%');
+  jQuery('.status_pahaze_now').text('1');
+  jQuery('.zone_x, .zone_l').removeClass('hidden').css('transform', 'rotate(-90deg) scale(1.5)');
+  console.log('Фаза 1/1');
+  count_animation = 0;
+  phaseOne = setInterval(function(){
+    if (count_animation <= 11){
+      sideFormuls(count_animation, jQuery('.draggable_v1'));
+      if (count_animation > 3 && count_animation <= 7) {
+        jQuery('.draggable_v1').css({
+          color: 'transparent',
+          transform: 'scale(1.3)',
+          background: '#fff url(/wp-content/themes/mobile/img/veter.png) 0 0/100% no-repeat',
+          opacity: 0.8
+        });
+      } else if (count_animation > 7 && count_animation <= 11) {
+        jQuery('.draggable_v1').css({
+          background: '#fff url(/wp-content/themes/mobile/img/life_vater.png) 0 0/100% no-repeat'
+        });
+      }
+      count_animation += 1;
+      rotate_lovushka += 2;
+    } else {
+      clearInterval(phaseOne);
+      jQuery('.draggable_v1').css({
+        color: '#FFF0C7',
+        transform: 'scale(1)',
+        background: 'rgba(83, 35, 69, 0.4)',
+        opacity: 1
+      });
+      count_animation = 0;
+      phaseOne = setInterval(function(){
+        if (count_animation <= 11){
+          sideFormuls(count_animation, jQuery('.draggable_v2'));
+          if (count_animation > 3 && count_animation <= 7) {
+            jQuery('.draggable_v2').css({
+              color: 'transparent',
+              transform: 'scale(1.3)',
+              background: '#fff url(/wp-content/themes/mobile/img/veter.png) 0 0/100% no-repeat',
+              opacity: 0.8
+            });
+          } else if (count_animation > 7 && count_animation <= 11) {
+            jQuery('.draggable_v2').css({
+              background: '#fff url(/wp-content/themes/mobile/img/life_vater.png) 0 0/100% no-repeat'
+            });
+          }
+          count_animation += 1;
+          rotate_lovushka += 2;
+        } else {
+          clearInterval(phaseOne);
+          jQuery('.draggable_v2').css({
+            color: '#FFF0C7',
+            transform: 'scale(1)',
+            background: 'rgba(83, 35, 69, 0.4)',
+            opacity: 1
+          });
+          count_animation = 0;
+          phaseOne = setInterval(function(){
+            if (count_animation <= 11){
+              sideFormuls(count_animation, jQuery('.draggable_v3'));
+              if (count_animation > 3 && count_animation <= 7) {
+                jQuery('.draggable_v3').css({
+                  color: 'transparent',
+                  transform: 'scale(1.3)',
+                  background: '#fff url(/wp-content/themes/mobile/img/veter.png) 0 0/100% no-repeat',
+                  opacity: 0.8
+                });
+              } else if (count_animation > 7 && count_animation <= 11) {
+                jQuery('.draggable_v3').css({
+                  background: '#fff url(/wp-content/themes/mobile/img/life_vater.png) 0 0/100% no-repeat'
+                });
+              }
+              count_animation += 1;
+              rotate_lovushka += 2;
+            } else {
+              clearInterval(phaseOne);
+              jQuery('.draggable_v3').css({
+                color: '#FFF0C7',
+                transform: 'scale(1)',
+                background: 'rgba(83, 35, 69, 0.4)',
+                opacity: 1
+              });
+              count_animation = 0;
+              phaseOne = setInterval(function(){
+                if (count_animation <= 11){
+                  sideFormuls(count_animation, jQuery('.draggable_v4'));
+                  if (count_animation > 3 && count_animation <= 7) {
+                    jQuery('.draggable_v4').css({
+                      color: 'transparent',
+                      transform: 'scale(1.3)',
+                      background: '#fff url(/wp-content/themes/mobile/img/veter.png) 0 0/100% no-repeat',
+                      opacity: 0.8
+                    });
+                  } else if (count_animation > 7 && count_animation <= 11) {
+                    jQuery('.draggable_v4').css({
+                      background: '#fff url(/wp-content/themes/mobile/img/life_vater.png) 0 0/100% no-repeat'
+                    });
+                  }
+                  count_animation += 1;
+                  rotate_lovushka += 2;
+                } else {
+                  clearInterval(phaseOne);
+                  jQuery('.draggable_v4').css({
+                    color: '#FFF0C7',
+                    transform: 'scale(1)',
+                    background: 'rgba(83, 35, 69, 0.4)',
+                    opacity: 1
+                  });
+                  count_animation = 0;
+                  phaseOne = setInterval(function(){
+                    if (count_animation <= 11){
+                      sideFormuls(count_animation, jQuery('.draggable_v5'));
+                      if (count_animation > 3 && count_animation <= 7) {
+                        jQuery('.draggable_v5').css({
+                          color: 'transparent',
+                          transform: 'scale(1.3)',
+                          background: '#fff url(/wp-content/themes/mobile/img/veter.png) 0 0/100% no-repeat',
+                          opacity: 0.8
+                        });
+                      } else if (count_animation > 7 && count_animation <= 11) {
+                        jQuery('.draggable_v5').css({
+                          background: '#fff url(/wp-content/themes/mobile/img/life_vater.png) 0 0/100% no-repeat'
+                        });
+                      }
+                      count_animation += 1;
+                      rotate_lovushka += 2;
+                    } else {
+                      clearInterval(phaseOne);
+                      jQuery('.draggable_v5').css({
+                        color: '#FFF0C7',
+                        transform: 'scale(1)',
+                        background: 'rgba(83, 35, 69, 0.4)',
+                        opacity: 1
+                      });
+                      count_animation = 0;
+                      if (pausedStatus == true) {
+                        localStorage.setItem('paused', 'universal2');
+                        endNow()
+                      } else {
+                        onEnd();
+                      }
+                    }
+                  }, 1000);
+                }
+              }, 1000);
+            }
+          }, 1000);
+        }
+      }, 1000);
+    }
+  }, 1000);
+}
+
+
+
+////////////////////////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
 // START
 jQuery('.btn_start').on('click', function(event) {
   jQuery('.btn-to_endNow').removeClass('hidden');
@@ -15108,6 +15281,9 @@ jQuery('.btn_start').on('click', function(event) {
     } else if (protocol == 'drenag') {
       drenag();
       jQuery('.status_title').text('Дренажный протокол');
+    } else if (protocol == 'universal') {
+      universal();
+      jQuery('.status_title').text('Универсальный протокол');
     } else if (protocol == 'visceral') {
       mmt();
       jQuery('.status_title').text('Висцеральный протокол');
