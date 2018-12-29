@@ -14087,12 +14087,7 @@ mmt2 = function(){
                       });
                       count_animation = 0;
                     }
-                    if (pausedStatus == true) {
-                      localStorage.setItem('paused', 'mmt3');
-                      endNow()
-                    } else {
-                      mmt3();
-                    }
+                    onEnd();
                   }, 1000);
                 }
               }, 1000);
@@ -14236,6 +14231,7 @@ mmt = function(){
                   });
                   count_animation = 0;
                   rotate_one = 0;
+                  jQuery('.zone_x, .zone_l').css('transform', 'rotate(-90deg) scale(0.01)');
                   phaseOne = setInterval(function(){
                     if (count_animation <= 22){
                       jQuery('.draggable_v4').css({
