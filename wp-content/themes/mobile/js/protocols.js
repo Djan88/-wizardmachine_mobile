@@ -14070,7 +14070,7 @@ mmt2 = function(){
                           background: '#fff url(/wp-content/themes/mobile/img/veter.png) 0 0/100% no-repeat',
                           opacity: 0.8
                         });
-                      } else if (count_animation <= 8) {
+                      } else if (count_animation > 4 && count_animation <= 8) {
                         jQuery('.draggable_v4, .draggable_d3').css({
                           background: '#fff url(/wp-content/themes/mobile/img/life_vater.png) 0 0/100% no-repeat'
                         });
@@ -14086,8 +14086,8 @@ mmt2 = function(){
                         opacity: 1
                       });
                       count_animation = 0;
+                      onEnd();
                     }
-                    onEnd();
                   }, 1000);
                 }
               }, 1000);
@@ -14325,12 +14325,12 @@ mmt = function(){
                                   count_animation = 0;
                                   jQuery('.status_percent').text('78%');
                                   rotate_one = 0;
-                                }
-                                if (pausedStatus == true) {
-                                  localStorage.setItem('paused', 'mmt2');
-                                  endNow()
-                                } else {
-                                  mmt2();
+                                  if (pausedStatus == true) {
+                                    localStorage.setItem('paused', 'mmt2');
+                                    endNow()
+                                  } else {
+                                    mmt2();
+                                  }
                                 }
                               }, 1000);
                             }
