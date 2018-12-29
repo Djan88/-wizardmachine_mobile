@@ -411,7 +411,7 @@ input.crop_photo
   }
 }
 @media (max-width: 540px) {
-  .mode-item_title
+  .mobile_screen_protocols .protocols_item .mode-item_title
   {
     font-size: 16px;
   }
