@@ -143,7 +143,7 @@
 		    <div data-protocol="visceral" class="col protocols_item protocols_item_8 text_center">
 		      <span class="protocols_item_title">Висцеральный</span>
 		      <div class="protocols_item_img">
-		      	<i class="fab fa-confluence"></i>
+		      	<i class="fab fa-stumbleupon"></i>
 		      </div>
 		      <div class="protocols_item_content hidden">«Печеночное продвижение. Для коррекции вегетативно/сосудистых, висцеральных, психосоматических проблем, а также состояний, связанных с нарушением иммунитета и обмена веществ»</div>
 		    </div>
