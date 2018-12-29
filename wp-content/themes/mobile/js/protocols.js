@@ -175,45 +175,253 @@ sideFormulsTwo = function(time, mainZone1, mainZone2){
 
 v1_6 = function(){
   count_animation = 0;
-  jQuery('.status_percent').text('99%');
+  jQuery('.status_percent').text('86%');
   console.log('Фаза 5');
   phaseOne = setInterval(function(){
-    if (count_animation <= 80){
-      jQuery('.draggable_v5, .draggable_v3, .draggable_v0').css({
-        color: 'transparent',
-        transform: 'scale(1.3)',
-        borderColor: 'transparent',
-        opacity: 0.8
-      });
-      jQuery('.draggable_v5').css({
-        background: '#fff url(/wp-content/themes/mobile/img/gold.png) 0 0/100% no-repeat'
-      });
-      jQuery('.draggable_v3').css({
-        background: '#fff url(/wp-content/themes/mobile/img/chisty_vnutri.jpg) 0 0/100% no-repeat'
-      });
-      jQuery('.draggable_v0').css({
-        background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat'
-      });
+    if (count_animation <= 8){
+      sideFormulsTwo(count_animation, jQuery('.draggable_v0'), jQuery('.draggable_v-'));
+      if (count_animation <= 4) {
+        jQuery('.draggable_v1').css({
+          color: 'transparent',
+          transform: 'scale(1.3)',
+          background: '#fff url(/wp-content/themes/mobile/img/veter.png) 0 0/100% no-repeat',
+          opacity: 0.8
+        });
+      } else if (count_animation > 4 && count_animation <= 8) {
+        jQuery('.draggable_v1').css({
+          background: '#fff url(/wp-content/themes/mobile/img/life_vater.png) 0 0/100% no-repeat'
+        });
+      }
       count_animation += 1;
+      rotate_lovushka += 2;
     } else {
       clearInterval(phaseOne);
-      jQuery('.draggable_v5, .draggable_v3, .draggable_v0').css({
+      count_animation = 0;
+      jQuery('.status_percent').text('88%');
+      clearInterval(phaseOne);
+      jQuery('.draggable_v1').css({
         color: '#FFF0C7',
         transform: 'scale(1)',
-        borderColor: '#FFF0C7',
         background: 'rgba(83, 35, 69, 0.4)',
         opacity: 1
       });
-      count_animation = 0;
-      jQuery('.status_percent').text('100%');
-      jQuery('.zone_x, .zone_l').css('top', jQuery('.draggable_v0').css('top'));
-      onEnd();
+      phaseOne = setInterval(function(){
+        if (count_animation <= 8){
+          sideFormulsTwo(count_animation, jQuery('.draggable_v0'), jQuery('.draggable_v-'));
+          if (count_animation <= 4) {
+            jQuery('.draggable_v5').css({
+              color: 'transparent',
+              transform: 'scale(1.3)',
+              background: '#fff url(/wp-content/themes/mobile/img/veter.png) 0 0/100% no-repeat',
+              opacity: 0.8
+            });
+          } else if (count_animation > 4 && count_animation <= 8) {
+            jQuery('.draggable_v5').css({
+              background: '#fff url(/wp-content/themes/mobile/img/life_vater.png) 0 0/100% no-repeat'
+            });
+          }
+          count_animation += 1;
+          rotate_lovushka += 2;
+        } else {
+          clearInterval(phaseOne);
+          count_animation = 0;
+          jQuery('.status_percent').text('90%');
+          clearInterval(phaseOne);
+          jQuery('.draggable_v5').css({
+            color: '#FFF0C7',
+            transform: 'scale(1)',
+            background: 'rgba(83, 35, 69, 0.4)',
+            opacity: 1
+          });
+          phaseOne = setInterval(function(){
+            if (count_animation <= 8){
+              sideFormulsTwo(count_animation, jQuery('.draggable_v0'), jQuery('.draggable_v-'));
+              if (count_animation <= 4) {
+                jQuery('.draggable_v1').css({
+                  color: 'transparent',
+                  transform: 'scale(1.3)',
+                  background: '#fff url(/wp-content/themes/mobile/img/veter.png) 0 0/100% no-repeat',
+                  opacity: 0.8
+                });
+              } else if (count_animation > 4 && count_animation <= 8) {
+                jQuery('.draggable_v1').css({
+                  background: '#fff url(/wp-content/themes/mobile/img/life_vater.png) 0 0/100% no-repeat'
+                });
+              }
+              count_animation += 1;
+              rotate_lovushka += 2;
+            } else {
+              clearInterval(phaseOne);
+              count_animation = 0;
+              jQuery('.status_percent').text('92%');
+              clearInterval(phaseOne);
+              jQuery('.draggable_v1').css({
+                color: '#FFF0C7',
+                transform: 'scale(1)',
+                background: 'rgba(83, 35, 69, 0.4)',
+                opacity: 1
+              });
+              phaseOne = setInterval(function(){
+                if (count_animation <= 8){
+                  sideFormulsTwo(count_animation, jQuery('.draggable_v0'), jQuery('.draggable_v-'));
+                  if (count_animation <= 4) {
+                    jQuery('.draggable_v5').css({
+                      color: 'transparent',
+                      transform: 'scale(1.3)',
+                      background: '#fff url(/wp-content/themes/mobile/img/veter.png) 0 0/100% no-repeat',
+                      opacity: 0.8
+                    });
+                  } else if (count_animation > 4 && count_animation <= 8) {
+                    jQuery('.draggable_v5').css({
+                      background: '#fff url(/wp-content/themes/mobile/img/life_vater.png) 0 0/100% no-repeat'
+                    });
+                  }
+                  count_animation += 1;
+                  rotate_lovushka += 2;
+                } else {
+                  clearInterval(phaseOne);
+                  count_animation = 0;
+                  jQuery('.status_percent').text('94%');
+                  clearInterval(phaseOne);
+                  jQuery('.draggable_v5').css({
+                    color: '#FFF0C7',
+                    transform: 'scale(1)',
+                    background: 'rgba(83, 35, 69, 0.4)',
+                    opacity: 1
+                  });
+                  phaseOne = setInterval(function(){
+                    if (count_animation <= 8){
+                      sideFormulsTwo(count_animation, jQuery('.draggable_v0'), jQuery('.draggable_v-'));
+                      if (count_animation <= 4) {
+                        jQuery('.draggable_v1').css({
+                          color: 'transparent',
+                          transform: 'scale(1.3)',
+                          background: '#fff url(/wp-content/themes/mobile/img/veter.png) 0 0/100% no-repeat',
+                          opacity: 0.8
+                        });
+                      } else if (count_animation > 4 && count_animation <= 8) {
+                        jQuery('.draggable_v1').css({
+                          background: '#fff url(/wp-content/themes/mobile/img/life_vater.png) 0 0/100% no-repeat'
+                        });
+                      }
+                      count_animation += 1;
+                      rotate_lovushka += 2;
+                    } else {
+                      clearInterval(phaseOne);
+                      count_animation = 0;
+                      jQuery('.status_percent').text('96%');
+                      clearInterval(phaseOne);
+                      jQuery('.draggable_v1').css({
+                        color: '#FFF0C7',
+                        transform: 'scale(1)',
+                        background: 'rgba(83, 35, 69, 0.4)',
+                        opacity: 1
+                      });
+                      phaseOne = setInterval(function(){
+                        if (count_animation <= 8){
+                          sideFormulsTwo(count_animation, jQuery('.draggable_v0'), jQuery('.draggable_v-'));
+                          if (count_animation <= 4) {
+                            jQuery('.draggable_v5').css({
+                              color: 'transparent',
+                              transform: 'scale(1.3)',
+                              background: '#fff url(/wp-content/themes/mobile/img/veter.png) 0 0/100% no-repeat',
+                              opacity: 0.8
+                            });
+                          } else if (count_animation > 4 && count_animation <= 8) {
+                            jQuery('.draggable_v5').css({
+                              background: '#fff url(/wp-content/themes/mobile/img/life_vater.png) 0 0/100% no-repeat'
+                            });
+                          }
+                          count_animation += 1;
+                          rotate_lovushka += 2;
+                        } else {
+                          clearInterval(phaseOne);
+                          count_animation = 0;
+                          jQuery('.status_percent').text('98%');
+                          clearInterval(phaseOne);
+                          jQuery('.draggable_v5').css({
+                            color: '#FFF0C7',
+                            transform: 'scale(1)',
+                            background: 'rgba(83, 35, 69, 0.4)',
+                            opacity: 1
+                          });
+                          phaseOne = setInterval(function(){
+                            if (count_animation <= 8){
+                              sideFormulsTwo(count_animation, jQuery('.draggable_v0'), jQuery('.draggable_v-'));
+                              if (count_animation <= 4) {
+                                jQuery('.draggable_v1').css({
+                                  color: 'transparent',
+                                  transform: 'scale(1.3)',
+                                  background: '#fff url(/wp-content/themes/mobile/img/veter.png) 0 0/100% no-repeat',
+                                  opacity: 0.8
+                                });
+                              } else if (count_animation > 4 && count_animation <= 8) {
+                                jQuery('.draggable_v1').css({
+                                  background: '#fff url(/wp-content/themes/mobile/img/life_vater.png) 0 0/100% no-repeat'
+                                });
+                              }
+                              count_animation += 1;
+                              rotate_lovushka += 2;
+                            } else {
+                              clearInterval(phaseOne);
+                              count_animation = 0;
+                              jQuery('.status_percent').text('99%');
+                              clearInterval(phaseOne);
+                              jQuery('.draggable_v1').css({
+                                color: '#FFF0C7',
+                                transform: 'scale(1)',
+                                background: 'rgba(83, 35, 69, 0.4)',
+                                opacity: 1
+                              });
+                              phaseOne = setInterval(function(){
+                                if (count_animation <= 8){
+                                  sideFormulsTwo(count_animation, jQuery('.draggable_v0'), jQuery('.draggable_v-'));
+                                  if (count_animation <= 4) {
+                                    jQuery('.draggable_v5').css({
+                                      color: 'transparent',
+                                      transform: 'scale(1.3)',
+                                      background: '#fff url(/wp-content/themes/mobile/img/veter.png) 0 0/100% no-repeat',
+                                      opacity: 0.8
+                                    });
+                                  } else if (count_animation > 4 && count_animation <= 8) {
+                                    jQuery('.draggable_v5').css({
+                                      background: '#fff url(/wp-content/themes/mobile/img/life_vater.png) 0 0/100% no-repeat'
+                                    });
+                                  }
+                                  count_animation += 1;
+                                  rotate_lovushka += 2;
+                                } else {
+                                  clearInterval(phaseOne);
+                                  count_animation = 0;
+                                  jQuery('.status_percent').text('100%');
+                                  clearInterval(phaseOne);
+                                  jQuery('.draggable_v5').css({
+                                    color: '#FFF0C7',
+                                    transform: 'scale(1)',
+                                    background: 'rgba(83, 35, 69, 0.4)',
+                                    opacity: 1
+                                  });
+                                  onEnd();
+                                }
+                              }, 1000);
+                            }
+                          }, 1000);
+                        }
+                      }, 1000);
+                    }
+                  }, 1000);
+                }
+              }, 1000);
+            }
+          }, 1000);
+        }
+      }, 1000);
     }
   }, 1000);  
 }
 
 v1_5 = function(){
-  jQuery('.status_percent').text('96%');
+  jQuery('.status_percent').text('84%');
   jQuery('.status_pahaze_now').text('5');
   count_animation = 0;
   console.log('Фаза 4.1');
@@ -243,7 +451,7 @@ v1_5 = function(){
         opacity: 1
       });
       count_animation = 0;
-      jQuery('.status_percent').text('98%');
+      jQuery('.status_percent').text('85%');
       console.log('Фаза 4.2');
       phaseOne = setInterval(function(){
         if (count_animation <= 34){
@@ -309,7 +517,7 @@ v1_4 = function(){
         opacity: 1
       });
       count_animation = 0;
-      jQuery('.status_percent').text('74%');
+      jQuery('.status_percent').text('73%');
       rotate_one = 10;
       phaseOne = setInterval(function(){
         if (count_animation <= 53){
@@ -331,7 +539,7 @@ v1_4 = function(){
             opacity: 1
           });
           count_animation = 0;
-          jQuery('.status_percent').text('76%');
+          jQuery('.status_percent').text('74%');
           rotate_one = 270;
           phaseOne = setInterval(function(){
             if (count_animation <= 60){
@@ -353,7 +561,7 @@ v1_4 = function(){
                 opacity: 1
               });
               count_animation = 0;
-              jQuery('.status_percent').text('78%');
+              jQuery('.status_percent').text('75%');
               rotate_one = 300;
               phaseOne = setInterval(function(){
                 if (count_animation <= 40){
@@ -377,7 +585,7 @@ v1_4 = function(){
                     opacity: 1
                   });
                   count_animation = 0;
-                  jQuery('.status_percent').text('80%');
+                  jQuery('.status_percent').text('76%');
                   rotate_one = 0;
                   phaseOne = setInterval(function(){
                     if (count_animation <= 22){
@@ -399,7 +607,7 @@ v1_4 = function(){
                         opacity: 1
                       });
                       count_animation = 0;
-                      jQuery('.status_percent').text('82%');
+                      jQuery('.status_percent').text('77%');
                       rotate_one = 10;
                       phaseOne = setInterval(function(){
                         if (count_animation <= 53){
@@ -421,7 +629,7 @@ v1_4 = function(){
                             opacity: 1
                           });
                           count_animation = 0;
-                          jQuery('.status_percent').text('84%');
+                          jQuery('.status_percent').text('78%');
                           rotate_one = 270;
                           phaseOne = setInterval(function(){
                             if (count_animation <= 60){
@@ -443,7 +651,7 @@ v1_4 = function(){
                                 opacity: 1
                               });
                               count_animation = 0;
-                              jQuery('.status_percent').text('86%');
+                              jQuery('.status_percent').text('79%');
                               rotate_one = 300;
                               phaseOne = setInterval(function(){
                                 if (count_animation <= 40){
@@ -467,7 +675,7 @@ v1_4 = function(){
                                     opacity: 1
                                   });
                                   count_animation = 0;
-                                  jQuery('.status_percent').text('88%');
+                                  jQuery('.status_percent').text('80%');
                                   rotate_one = 0;
                                   phaseOne = setInterval(function(){
                                     if (count_animation <= 22){
@@ -489,7 +697,7 @@ v1_4 = function(){
                                         opacity: 1
                                       });
                                       count_animation = 0;
-                                      jQuery('.status_percent').text('90%');
+                                      jQuery('.status_percent').text('81%');
                                       rotate_one = 10;
                                       phaseOne = setInterval(function(){
                                         if (count_animation <= 53){
@@ -511,7 +719,7 @@ v1_4 = function(){
                                             opacity: 1
                                           });
                                           count_animation = 0;
-                                          jQuery('.status_percent').text('92%');
+                                          jQuery('.status_percent').text('82%');
                                           rotate_one = 270;
                                           phaseOne = setInterval(function(){
                                             if (count_animation <= 60){
@@ -533,7 +741,7 @@ v1_4 = function(){
                                                 opacity: 1
                                               });
                                               count_animation = 0;
-                                              jQuery('.status_percent').text('94%');
+                                              jQuery('.status_percent').text('83%');
                                               rotate_one = 300;
                                               phaseOne = setInterval(function(){
                                                 if (count_animation <= 40){
@@ -1855,45 +2063,374 @@ v1 = function(){
 
 
 v2_8 = function(){
-  jQuery('.status_percent').text('98%');
+  jQuery('.status_percent').text('88%');
   console.log('Фаза 6');
   phaseOne = setInterval(function(){
-    if (count_animation <= 80){
-      jQuery('.draggable_v5, .draggable_v-, .draggable_v3, .draggable_v0').css({
-        color: 'transparent',
-        transform: 'scale(1.3)',
-        borderColor: 'transparent',
-        opacity: 0.8
-      });
-      jQuery('.draggable_v5, .draggable_v-').css({
-        background: '#fff url(/wp-content/themes/mobile/img/gold.png) 0 0/100% no-repeat'
-      });
-      jQuery('.draggable_v3').css({
-        background: '#fff url(/wp-content/themes/mobile/img/chisty_vnutri.jpg) 0 0/100% no-repeat'
-      });
-      jQuery('.draggable_v0').css({
-        background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat'
-      });
+    if (count_animation <= 8){
+      sideFormulsTwo(count_animation, jQuery('.draggable_v0'), jQuery('.draggable_v-'));
+      if (count_animation <= 4) {
+        jQuery('.draggable_v1').css({
+          color: 'transparent',
+          transform: 'scale(1.3)',
+          background: '#fff url(/wp-content/themes/mobile/img/veter.png) 0 0/100% no-repeat',
+          opacity: 0.8
+        });
+      } else if (count_animation > 4 && count_animation <= 8) {
+        jQuery('.draggable_v1').css({
+          background: '#fff url(/wp-content/themes/mobile/img/life_vater.png) 0 0/100% no-repeat'
+        });
+      }
       count_animation += 1;
+      rotate_lovushka += 2;
     } else {
       clearInterval(phaseOne);
-      jQuery('.draggable_v5, .draggable_v-, .draggable_v3, .draggable_v0').css({
+      count_animation = 0;
+      jQuery('.status_percent').text('89%');
+      clearInterval(phaseOne);
+      jQuery('.draggable_v1').css({
         color: '#FFF0C7',
         transform: 'scale(1)',
-        borderColor: '#FFF0C7',
         background: 'rgba(83, 35, 69, 0.4)',
         opacity: 1
       });
-      count_animation = 0;
-      jQuery('.status_percent').text('100%');
-      onEnd();
+      phaseOne = setInterval(function(){
+        if (count_animation <= 8){
+          sideFormulsTwo(count_animation, jQuery('.draggable_v0'), jQuery('.draggable_v-'));
+          if (count_animation <= 4) {
+            jQuery('.draggable_v2').css({
+              color: 'transparent',
+              transform: 'scale(1.3)',
+              background: '#fff url(/wp-content/themes/mobile/img/veter.png) 0 0/100% no-repeat',
+              opacity: 0.8
+            });
+          } else if (count_animation > 4 && count_animation <= 8) {
+            jQuery('.draggable_v2').css({
+              background: '#fff url(/wp-content/themes/mobile/img/life_vater.png) 0 0/100% no-repeat'
+            });
+          }
+          count_animation += 1;
+          rotate_lovushka += 2;
+        } else {
+          clearInterval(phaseOne);
+          count_animation = 0;
+          jQuery('.status_percent').text('90%');
+          clearInterval(phaseOne);
+          jQuery('.draggable_v2').css({
+            color: '#FFF0C7',
+            transform: 'scale(1)',
+            background: 'rgba(83, 35, 69, 0.4)',
+            opacity: 1
+          });
+          phaseOne = setInterval(function(){
+            if (count_animation <= 8){
+              sideFormulsTwo(count_animation, jQuery('.draggable_v0'), jQuery('.draggable_v-'));
+              if (count_animation <= 4) {
+                jQuery('.draggable_v5').css({
+                  color: 'transparent',
+                  transform: 'scale(1.3)',
+                  background: '#fff url(/wp-content/themes/mobile/img/veter.png) 0 0/100% no-repeat',
+                  opacity: 0.8
+                });
+              } else if (count_animation > 4 && count_animation <= 8) {
+                jQuery('.draggable_v5').css({
+                  background: '#fff url(/wp-content/themes/mobile/img/life_vater.png) 0 0/100% no-repeat'
+                });
+              }
+              count_animation += 1;
+              rotate_lovushka += 2;
+            } else {
+              clearInterval(phaseOne);
+              count_animation = 0;
+              jQuery('.status_percent').text('91%');
+              clearInterval(phaseOne);
+              jQuery('.draggable_v5').css({
+                color: '#FFF0C7',
+                transform: 'scale(1)',
+                background: 'rgba(83, 35, 69, 0.4)',
+                opacity: 1
+              });
+              phaseOne = setInterval(function(){
+                if (count_animation <= 8){
+                  sideFormulsTwo(count_animation, jQuery('.draggable_v0'), jQuery('.draggable_v-'));
+                  if (count_animation <= 4) {
+                    jQuery('.draggable_v1').css({
+                      color: 'transparent',
+                      transform: 'scale(1.3)',
+                      background: '#fff url(/wp-content/themes/mobile/img/veter.png) 0 0/100% no-repeat',
+                      opacity: 0.8
+                    });
+                  } else if (count_animation > 4 && count_animation <= 8) {
+                    jQuery('.draggable_v1').css({
+                      background: '#fff url(/wp-content/themes/mobile/img/life_vater.png) 0 0/100% no-repeat'
+                    });
+                  }
+                  count_animation += 1;
+                  rotate_lovushka += 2;
+                } else {
+                  clearInterval(phaseOne);
+                  count_animation = 0;
+                  jQuery('.status_percent').text('92%');
+                  clearInterval(phaseOne);
+                  jQuery('.draggable_v1').css({
+                    color: '#FFF0C7',
+                    transform: 'scale(1)',
+                    background: 'rgba(83, 35, 69, 0.4)',
+                    opacity: 1
+                  });
+                  phaseOne = setInterval(function(){
+                    if (count_animation <= 8){
+                      sideFormulsTwo(count_animation, jQuery('.draggable_v0'), jQuery('.draggable_v-'));
+                      if (count_animation <= 4) {
+                        jQuery('.draggable_v2').css({
+                          color: 'transparent',
+                          transform: 'scale(1.3)',
+                          background: '#fff url(/wp-content/themes/mobile/img/veter.png) 0 0/100% no-repeat',
+                          opacity: 0.8
+                        });
+                      } else if (count_animation > 4 && count_animation <= 8) {
+                        jQuery('.draggable_v2').css({
+                          background: '#fff url(/wp-content/themes/mobile/img/life_vater.png) 0 0/100% no-repeat'
+                        });
+                      }
+                      count_animation += 1;
+                      rotate_lovushka += 2;
+                    } else {
+                      clearInterval(phaseOne);
+                      count_animation = 0;
+                      jQuery('.status_percent').text('93%');
+                      clearInterval(phaseOne);
+                      jQuery('.draggable_v2').css({
+                        color: '#FFF0C7',
+                        transform: 'scale(1)',
+                        background: 'rgba(83, 35, 69, 0.4)',
+                        opacity: 1
+                      });
+                      phaseOne = setInterval(function(){
+                        if (count_animation <= 8){
+                          sideFormulsTwo(count_animation, jQuery('.draggable_v0'), jQuery('.draggable_v-'));
+                          if (count_animation <= 4) {
+                            jQuery('.draggable_v5').css({
+                              color: 'transparent',
+                              transform: 'scale(1.3)',
+                              background: '#fff url(/wp-content/themes/mobile/img/veter.png) 0 0/100% no-repeat',
+                              opacity: 0.8
+                            });
+                          } else if (count_animation > 4 && count_animation <= 8) {
+                            jQuery('.draggable_v5').css({
+                              background: '#fff url(/wp-content/themes/mobile/img/life_vater.png) 0 0/100% no-repeat'
+                            });
+                          }
+                          count_animation += 1;
+                          rotate_lovushka += 2;
+                        } else {
+                          clearInterval(phaseOne);
+                          count_animation = 0;
+                          jQuery('.status_percent').text('94%');
+                          clearInterval(phaseOne);
+                          jQuery('.draggable_v5').css({
+                            color: '#FFF0C7',
+                            transform: 'scale(1)',
+                            background: 'rgba(83, 35, 69, 0.4)',
+                            opacity: 1
+                          });
+                          phaseOne = setInterval(function(){
+                            if (count_animation <= 8){
+                              sideFormulsTwo(count_animation, jQuery('.draggable_v0'), jQuery('.draggable_v-'));
+                              if (count_animation <= 4) {
+                                jQuery('.draggable_v1').css({
+                                  color: 'transparent',
+                                  transform: 'scale(1.3)',
+                                  background: '#fff url(/wp-content/themes/mobile/img/veter.png) 0 0/100% no-repeat',
+                                  opacity: 0.8
+                                });
+                              } else if (count_animation > 4 && count_animation <= 8) {
+                                jQuery('.draggable_v1').css({
+                                  background: '#fff url(/wp-content/themes/mobile/img/life_vater.png) 0 0/100% no-repeat'
+                                });
+                              }
+                              count_animation += 1;
+                              rotate_lovushka += 2;
+                            } else {
+                              clearInterval(phaseOne);
+                              count_animation = 0;
+                              jQuery('.status_percent').text('95%');
+                              clearInterval(phaseOne);
+                              jQuery('.draggable_v1').css({
+                                color: '#FFF0C7',
+                                transform: 'scale(1)',
+                                background: 'rgba(83, 35, 69, 0.4)',
+                                opacity: 1
+                              });
+                              phaseOne = setInterval(function(){
+                                if (count_animation <= 8){
+                                  sideFormulsTwo(count_animation, jQuery('.draggable_v0'), jQuery('.draggable_v-'));
+                                  if (count_animation <= 4) {
+                                    jQuery('.draggable_v2').css({
+                                      color: 'transparent',
+                                      transform: 'scale(1.3)',
+                                      background: '#fff url(/wp-content/themes/mobile/img/veter.png) 0 0/100% no-repeat',
+                                      opacity: 0.8
+                                    });
+                                  } else if (count_animation > 4 && count_animation <= 8) {
+                                    jQuery('.draggable_v2').css({
+                                      background: '#fff url(/wp-content/themes/mobile/img/life_vater.png) 0 0/100% no-repeat'
+                                    });
+                                  }
+                                  count_animation += 1;
+                                  rotate_lovushka += 2;
+                                } else {
+                                  clearInterval(phaseOne);
+                                  count_animation = 0;
+                                  jQuery('.status_percent').text('96%');
+                                  clearInterval(phaseOne);
+                                  jQuery('.draggable_v2').css({
+                                    color: '#FFF0C7',
+                                    transform: 'scale(1)',
+                                    background: 'rgba(83, 35, 69, 0.4)',
+                                    opacity: 1
+                                  });
+                                  phaseOne = setInterval(function(){
+                                    if (count_animation <= 8){
+                                      sideFormulsTwo(count_animation, jQuery('.draggable_v0'), jQuery('.draggable_v-'));
+                                      if (count_animation <= 4) {
+                                        jQuery('.draggable_v5').css({
+                                          color: 'transparent',
+                                          transform: 'scale(1.3)',
+                                          background: '#fff url(/wp-content/themes/mobile/img/veter.png) 0 0/100% no-repeat',
+                                          opacity: 0.8
+                                        });
+                                      } else if (count_animation > 4 && count_animation <= 8) {
+                                        jQuery('.draggable_v5').css({
+                                          background: '#fff url(/wp-content/themes/mobile/img/life_vater.png) 0 0/100% no-repeat'
+                                        });
+                                      }
+                                      count_animation += 1;
+                                      rotate_lovushka += 2;
+                                    } else {
+                                      clearInterval(phaseOne);
+                                      count_animation = 0;
+                                      jQuery('.status_percent').text('97%');
+                                      clearInterval(phaseOne);
+                                      jQuery('.draggable_v5').css({
+                                        color: '#FFF0C7',
+                                        transform: 'scale(1)',
+                                        background: 'rgba(83, 35, 69, 0.4)',
+                                        opacity: 1
+                                      });
+                                      phaseOne = setInterval(function(){
+                                        if (count_animation <= 8){
+                                          sideFormulsTwo(count_animation, jQuery('.draggable_v0'), jQuery('.draggable_v-'));
+                                          if (count_animation <= 4) {
+                                            jQuery('.draggable_v1').css({
+                                              color: 'transparent',
+                                              transform: 'scale(1.3)',
+                                              background: '#fff url(/wp-content/themes/mobile/img/veter.png) 0 0/100% no-repeat',
+                                              opacity: 0.8
+                                            });
+                                          } else if (count_animation > 4 && count_animation <= 8) {
+                                            jQuery('.draggable_v1').css({
+                                              background: '#fff url(/wp-content/themes/mobile/img/life_vater.png) 0 0/100% no-repeat'
+                                            });
+                                          }
+                                          count_animation += 1;
+                                          rotate_lovushka += 2;
+                                        } else {
+                                          clearInterval(phaseOne);
+                                          count_animation = 0;
+                                          jQuery('.status_percent').text('98%');
+                                          clearInterval(phaseOne);
+                                          jQuery('.draggable_v1').css({
+                                            color: '#FFF0C7',
+                                            transform: 'scale(1)',
+                                            background: 'rgba(83, 35, 69, 0.4)',
+                                            opacity: 1
+                                          });
+                                          phaseOne = setInterval(function(){
+                                            if (count_animation <= 8){
+                                              sideFormulsTwo(count_animation, jQuery('.draggable_v0'), jQuery('.draggable_v-'));
+                                              if (count_animation <= 4) {
+                                                jQuery('.draggable_v2').css({
+                                                  color: 'transparent',
+                                                  transform: 'scale(1.3)',
+                                                  background: '#fff url(/wp-content/themes/mobile/img/veter.png) 0 0/100% no-repeat',
+                                                  opacity: 0.8
+                                                });
+                                              } else if (count_animation > 4 && count_animation <= 8) {
+                                                jQuery('.draggable_v2').css({
+                                                  background: '#fff url(/wp-content/themes/mobile/img/life_vater.png) 0 0/100% no-repeat'
+                                                });
+                                              }
+                                              count_animation += 1;
+                                              rotate_lovushka += 2;
+                                            } else {
+                                              clearInterval(phaseOne);
+                                              count_animation = 0;
+                                              jQuery('.status_percent').text('99%');
+                                              clearInterval(phaseOne);
+                                              jQuery('.draggable_v2').css({
+                                                color: '#FFF0C7',
+                                                transform: 'scale(1)',
+                                                background: 'rgba(83, 35, 69, 0.4)',
+                                                opacity: 1
+                                              });
+                                              phaseOne = setInterval(function(){
+                                                if (count_animation <= 8){
+                                                  sideFormulsTwo(count_animation, jQuery('.draggable_v0'), jQuery('.draggable_v-'));
+                                                  if (count_animation <= 4) {
+                                                    jQuery('.draggable_v5').css({
+                                                      color: 'transparent',
+                                                      transform: 'scale(1.3)',
+                                                      background: '#fff url(/wp-content/themes/mobile/img/veter.png) 0 0/100% no-repeat',
+                                                      opacity: 0.8
+                                                    });
+                                                  } else if (count_animation > 4 && count_animation <= 8) {
+                                                    jQuery('.draggable_v5').css({
+                                                      background: '#fff url(/wp-content/themes/mobile/img/life_vater.png) 0 0/100% no-repeat'
+                                                    });
+                                                  }
+                                                  count_animation += 1;
+                                                  rotate_lovushka += 2;
+                                                } else {
+                                                  clearInterval(phaseOne);
+                                                  count_animation = 0;
+                                                  jQuery('.status_percent').text('100%');
+                                                  clearInterval(phaseOne);
+                                                  jQuery('.draggable_v5').css({
+                                                    color: '#FFF0C7',
+                                                    transform: 'scale(1)',
+                                                    background: 'rgba(83, 35, 69, 0.4)',
+                                                    opacity: 1
+                                                  });
+                                                  onEnd();
+                                                }
+                                              }, 1000);
+                                            }
+                                          }, 1000);
+                                        }
+                                      }, 1000);
+                                    }
+                                  }, 1000);
+                                }
+                              }, 1000);
+                            }
+                          }, 1000);
+                        }
+                      }, 1000);
+                    }
+                  }, 1000);
+                }
+              }, 1000);
+            }
+          }, 1000);
+        }
+      }, 1000);
     }
   }, 1000);
 }
 
 v2_7 = function(){
   jQuery('.status_pahaze_now').text('7');
-  jQuery('.status_percent').text('92%');
+  jQuery('.status_percent').text('85%');
   jQuery('.zone_x, .zone_l').addClass('hidden').css('transform', 'scale(1)');
   count_animation = 0;
   console.log('Фаза 5.1');
@@ -1923,7 +2460,7 @@ v2_7 = function(){
         opacity: 1
       });
       count_animation = 0;
-      jQuery('.status_percent').text('94%');
+      jQuery('.status_percent').text('86%');
       console.log('Фаза 5.2');
       phaseOne = setInterval(function(){
         if (count_animation <= 34){
@@ -1951,7 +2488,7 @@ v2_7 = function(){
             opacity: 1
           });
           count_animation = 0;
-          jQuery('.status_percent').text('96%');
+          jQuery('.status_percent').text('87%');
           console.log('Фаза 5.3');
           phaseOne = setInterval(function(){
             if (count_animation <= 36){
@@ -2039,7 +2576,7 @@ v2_6 = function(){
             opacity: 1
           });
           count_animation = 0;
-          jQuery('.status_percent').text('72%');
+          jQuery('.status_percent').text('71%');
           rotate_one = 270;
           phaseOne = setInterval(function(){
             if (count_animation <= 60){
@@ -2061,7 +2598,7 @@ v2_6 = function(){
                 opacity: 1
               });
               count_animation = 0;
-              jQuery('.status_percent').text('73%');
+              jQuery('.status_percent').text('72%');
               rotate_one = 300;
               phaseOne = setInterval(function(){
                 if (count_animation <= 40){
@@ -2085,7 +2622,7 @@ v2_6 = function(){
                     opacity: 1
                   });
                   count_animation = 0;
-                  jQuery('.status_percent').text('74%');
+                  jQuery('.status_percent').text('73%');
                   rotate_one = 0;
                   phaseOne = setInterval(function(){
                     if (count_animation <= 22){
@@ -2107,7 +2644,7 @@ v2_6 = function(){
                         opacity: 1
                       });
                       count_animation = 0;
-                      jQuery('.status_percent').text('76%');
+                      jQuery('.status_percent').text('74%');
                       rotate_one = 10;
                       phaseOne = setInterval(function(){
                         if (count_animation <= 53){
@@ -2129,7 +2666,7 @@ v2_6 = function(){
                             opacity: 1
                           });
                           count_animation = 0;
-                          jQuery('.status_percent').text('77%');
+                          jQuery('.status_percent').text('75%');
                           rotate_one = 270;
                           phaseOne = setInterval(function(){
                             if (count_animation <= 60){
@@ -2151,7 +2688,7 @@ v2_6 = function(){
                                 opacity: 1
                               });
                               count_animation = 0;
-                              jQuery('.status_percent').text('78%');
+                              jQuery('.status_percent').text('76%');
                               rotate_one = 300;
                               phaseOne = setInterval(function(){
                                 if (count_animation <= 40){
@@ -2175,7 +2712,7 @@ v2_6 = function(){
                                     opacity: 1
                                   });
                                   count_animation = 0;
-                                  jQuery('.status_percent').text('80%');
+                                  jQuery('.status_percent').text('77%');
                                   rotate_one = 0;
                                   phaseOne = setInterval(function(){
                                     if (count_animation <= 22){
@@ -2197,7 +2734,7 @@ v2_6 = function(){
                                         opacity: 1
                                       });
                                       count_animation = 0;
-                                      jQuery('.status_percent').text('81%');
+                                      jQuery('.status_percent').text('78%');
                                       rotate_one = 10;
                                       phaseOne = setInterval(function(){
                                         if (count_animation <= 53){
@@ -2219,7 +2756,7 @@ v2_6 = function(){
                                             opacity: 1
                                           });
                                           count_animation = 0;
-                                          jQuery('.status_percent').text('82%');
+                                          jQuery('.status_percent').text('79%');
                                           rotate_one = 270;
                                           phaseOne = setInterval(function(){
                                             if (count_animation <= 60){
@@ -2241,7 +2778,7 @@ v2_6 = function(){
                                                 opacity: 1
                                               });
                                               count_animation = 0;
-                                              jQuery('.status_percent').text('84%');
+                                              jQuery('.status_percent').text('80%');
                                               rotate_one = 300;
                                               phaseOne = setInterval(function(){
                                                 if (count_animation <= 40){
@@ -2265,7 +2802,7 @@ v2_6 = function(){
                                                     opacity: 1
                                                   });
                                                   count_animation = 0;
-                                                  jQuery('.status_percent').text('85%');
+                                                  jQuery('.status_percent').text('81%');
                                                   rotate_one = 0;
                                                   phaseOne = setInterval(function(){
                                                     if (count_animation <= 22){
@@ -2287,7 +2824,7 @@ v2_6 = function(){
                                                         opacity: 1
                                                       });
                                                       count_animation = 0;
-                                                      jQuery('.status_percent').text('86%');
+                                                      jQuery('.status_percent').text('82%');
                                                       rotate_one = 10;
                                                       phaseOne = setInterval(function(){
                                                         if (count_animation <= 53){
@@ -2309,7 +2846,7 @@ v2_6 = function(){
                                                             opacity: 1
                                                           });
                                                           count_animation = 0;
-                                                          jQuery('.status_percent').text('88%');
+                                                          jQuery('.status_percent').text('83%');
                                                           rotate_one = 270;
                                                           phaseOne = setInterval(function(){
                                                             if (count_animation <= 60){
@@ -2331,7 +2868,7 @@ v2_6 = function(){
                                                                 opacity: 1
                                                               });
                                                               count_animation = 0;
-                                                              jQuery('.status_percent').text('90%');
+                                                              jQuery('.status_percent').text('84%');
                                                               rotate_one = 300;
                                                               phaseOne = setInterval(function(){
                                                                 if (count_animation <= 40){
@@ -4221,42 +4758,373 @@ v2 = function(){
 v3_6 = function(){
   count_animation = 0;
   console.log('Фаза 6');
-  jQuery('.status_percent').text('98%');
+  jQuery('.status_percent').text('84%');
   phaseOne = setInterval(function(){
-    if (count_animation <= 80){
-      jQuery('.draggable_v5, .draggable_v-, .draggable_v3, .draggable_v0').css({
-        color: 'transparent',
-        transform: 'scale(1.3)',
-        opacity: 0.8
-      });
-      jQuery('.draggable_v5, .draggable_v-').css({
-        background: '#fff url(/wp-content/themes/mobile/img/gold.png) 0 0/100% no-repeat'
-      });
-      jQuery('.draggable_v3').css({
-        background: '#fff url(/wp-content/themes/mobile/img/chisty_vnutri.jpg) 0 0/100% no-repeat'
-      });
-      jQuery('.draggable_v0').css({
-        background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat'
-      });
+    if (count_animation <= 8){
+      sideFormulsTwo(count_animation, jQuery('.draggable_v0'), jQuery('.draggable_v-'));
+      if (count_animation <= 4) {
+        jQuery('.draggable_v1').css({
+          color: 'transparent',
+          transform: 'scale(1.3)',
+          background: '#fff url(/wp-content/themes/mobile/img/veter.png) 0 0/100% no-repeat',
+          opacity: 0.8
+        });
+      } else if (count_animation > 4 && count_animation <= 8) {
+        jQuery('.draggable_v1').css({
+          background: '#fff url(/wp-content/themes/mobile/img/life_vater.png) 0 0/100% no-repeat'
+        });
+      }
       count_animation += 1;
+      rotate_lovushka += 2;
     } else {
       clearInterval(phaseOne);
-      jQuery('.draggable_v5, .draggable_v-, .draggable_v3, .draggable_v0').css({
+      count_animation = 0;
+      jQuery('.status_percent').text('85%');
+      clearInterval(phaseOne);
+      jQuery('.draggable_v1').css({
         color: '#FFF0C7',
         transform: 'scale(1)',
         background: 'rgba(83, 35, 69, 0.4)',
         opacity: 1
       });
-      count_animation = 0;
-      jQuery('.status_percent').text('100%');
-      onEnd();
+      phaseOne = setInterval(function(){
+        if (count_animation <= 8){
+          sideFormulsTwo(count_animation, jQuery('.draggable_v0'), jQuery('.draggable_v-'));
+          if (count_animation <= 4) {
+            jQuery('.draggable_v3').css({
+              color: 'transparent',
+              transform: 'scale(1.3)',
+              background: '#fff url(/wp-content/themes/mobile/img/veter.png) 0 0/100% no-repeat',
+              opacity: 0.8
+            });
+          } else if (count_animation > 4 && count_animation <= 8) {
+            jQuery('.draggable_v3').css({
+              background: '#fff url(/wp-content/themes/mobile/img/life_vater.png) 0 0/100% no-repeat'
+            });
+          }
+          count_animation += 1;
+          rotate_lovushka += 2;
+        } else {
+          clearInterval(phaseOne);
+          count_animation = 0;
+          jQuery('.status_percent').text('86%');
+          clearInterval(phaseOne);
+          jQuery('.draggable_v3').css({
+            color: '#FFF0C7',
+            transform: 'scale(1)',
+            background: 'rgba(83, 35, 69, 0.4)',
+            opacity: 1
+          });
+          phaseOne = setInterval(function(){
+            if (count_animation <= 8){
+              sideFormulsTwo(count_animation, jQuery('.draggable_v0'), jQuery('.draggable_v-'));
+              if (count_animation <= 4) {
+                jQuery('.draggable_v4').css({
+                  color: 'transparent',
+                  transform: 'scale(1.3)',
+                  background: '#fff url(/wp-content/themes/mobile/img/veter.png) 0 0/100% no-repeat',
+                  opacity: 0.8
+                });
+              } else if (count_animation > 4 && count_animation <= 8) {
+                jQuery('.draggable_v4').css({
+                  background: '#fff url(/wp-content/themes/mobile/img/life_vater.png) 0 0/100% no-repeat'
+                });
+              }
+              count_animation += 1;
+              rotate_lovushka += 2;
+            } else {
+              clearInterval(phaseOne);
+              count_animation = 0;
+              jQuery('.status_percent').text('88%');
+              clearInterval(phaseOne);
+              jQuery('.draggable_v4').css({
+                color: '#FFF0C7',
+                transform: 'scale(1)',
+                background: 'rgba(83, 35, 69, 0.4)',
+                opacity: 1
+              });
+              phaseOne = setInterval(function(){
+                if (count_animation <= 8){
+                  sideFormulsTwo(count_animation, jQuery('.draggable_v0'), jQuery('.draggable_v-'));
+                  if (count_animation <= 4) {
+                    jQuery('.draggable_v1').css({
+                      color: 'transparent',
+                      transform: 'scale(1.3)',
+                      background: '#fff url(/wp-content/themes/mobile/img/veter.png) 0 0/100% no-repeat',
+                      opacity: 0.8
+                    });
+                  } else if (count_animation > 4 && count_animation <= 8) {
+                    jQuery('.draggable_v1').css({
+                      background: '#fff url(/wp-content/themes/mobile/img/life_vater.png) 0 0/100% no-repeat'
+                    });
+                  }
+                  count_animation += 1;
+                  rotate_lovushka += 2;
+                } else {
+                  clearInterval(phaseOne);
+                  count_animation = 0;
+                  jQuery('.status_percent').text('90%');
+                  clearInterval(phaseOne);
+                  jQuery('.draggable_v1').css({
+                    color: '#FFF0C7',
+                    transform: 'scale(1)',
+                    background: 'rgba(83, 35, 69, 0.4)',
+                    opacity: 1
+                  });
+                  phaseOne = setInterval(function(){
+                    if (count_animation <= 8){
+                      sideFormulsTwo(count_animation, jQuery('.draggable_v0'), jQuery('.draggable_v-'));
+                      if (count_animation <= 4) {
+                        jQuery('.draggable_v3').css({
+                          color: 'transparent',
+                          transform: 'scale(1.3)',
+                          background: '#fff url(/wp-content/themes/mobile/img/veter.png) 0 0/100% no-repeat',
+                          opacity: 0.8
+                        });
+                      } else if (count_animation > 4 && count_animation <= 8) {
+                        jQuery('.draggable_v3').css({
+                          background: '#fff url(/wp-content/themes/mobile/img/life_vater.png) 0 0/100% no-repeat'
+                        });
+                      }
+                      count_animation += 1;
+                      rotate_lovushka += 2;
+                    } else {
+                      clearInterval(phaseOne);
+                      count_animation = 0;
+                      jQuery('.status_percent').text('91%');
+                      clearInterval(phaseOne);
+                      jQuery('.draggable_v3').css({
+                        color: '#FFF0C7',
+                        transform: 'scale(1)',
+                        background: 'rgba(83, 35, 69, 0.4)',
+                        opacity: 1
+                      });
+                      phaseOne = setInterval(function(){
+                        if (count_animation <= 8){
+                          sideFormulsTwo(count_animation, jQuery('.draggable_v0'), jQuery('.draggable_v-'));
+                          if (count_animation <= 4) {
+                            jQuery('.draggable_v4').css({
+                              color: 'transparent',
+                              transform: 'scale(1.3)',
+                              background: '#fff url(/wp-content/themes/mobile/img/veter.png) 0 0/100% no-repeat',
+                              opacity: 0.8
+                            });
+                          } else if (count_animation > 4 && count_animation <= 8) {
+                            jQuery('.draggable_v4').css({
+                              background: '#fff url(/wp-content/themes/mobile/img/life_vater.png) 0 0/100% no-repeat'
+                            });
+                          }
+                          count_animation += 1;
+                          rotate_lovushka += 2;
+                        } else {
+                          clearInterval(phaseOne);
+                          count_animation = 0;
+                          jQuery('.status_percent').text('92%');
+                          clearInterval(phaseOne);
+                          jQuery('.draggable_v4').css({
+                            color: '#FFF0C7',
+                            transform: 'scale(1)',
+                            background: 'rgba(83, 35, 69, 0.4)',
+                            opacity: 1
+                          });
+                          phaseOne = setInterval(function(){
+                            if (count_animation <= 8){
+                              sideFormulsTwo(count_animation, jQuery('.draggable_v0'), jQuery('.draggable_v-'));
+                              if (count_animation <= 4) {
+                                jQuery('.draggable_v1').css({
+                                  color: 'transparent',
+                                  transform: 'scale(1.3)',
+                                  background: '#fff url(/wp-content/themes/mobile/img/veter.png) 0 0/100% no-repeat',
+                                  opacity: 0.8
+                                });
+                              } else if (count_animation > 4 && count_animation <= 8) {
+                                jQuery('.draggable_v1').css({
+                                  background: '#fff url(/wp-content/themes/mobile/img/life_vater.png) 0 0/100% no-repeat'
+                                });
+                              }
+                              count_animation += 1;
+                              rotate_lovushka += 2;
+                            } else {
+                              clearInterval(phaseOne);
+                              count_animation = 0;
+                              jQuery('.status_percent').text('93%');
+                              clearInterval(phaseOne);
+                              jQuery('.draggable_v1').css({
+                                color: '#FFF0C7',
+                                transform: 'scale(1)',
+                                background: 'rgba(83, 35, 69, 0.4)',
+                                opacity: 1
+                              });
+                              phaseOne = setInterval(function(){
+                                if (count_animation <= 8){
+                                  sideFormulsTwo(count_animation, jQuery('.draggable_v0'), jQuery('.draggable_v-'));
+                                  if (count_animation <= 4) {
+                                    jQuery('.draggable_v3').css({
+                                      color: 'transparent',
+                                      transform: 'scale(1.3)',
+                                      background: '#fff url(/wp-content/themes/mobile/img/veter.png) 0 0/100% no-repeat',
+                                      opacity: 0.8
+                                    });
+                                  } else if (count_animation > 4 && count_animation <= 8) {
+                                    jQuery('.draggable_v3').css({
+                                      background: '#fff url(/wp-content/themes/mobile/img/life_vater.png) 0 0/100% no-repeat'
+                                    });
+                                  }
+                                  count_animation += 1;
+                                  rotate_lovushka += 2;
+                                } else {
+                                  clearInterval(phaseOne);
+                                  count_animation = 0;
+                                  jQuery('.status_percent').text('94%');
+                                  clearInterval(phaseOne);
+                                  jQuery('.draggable_v3').css({
+                                    color: '#FFF0C7',
+                                    transform: 'scale(1)',
+                                    background: 'rgba(83, 35, 69, 0.4)',
+                                    opacity: 1
+                                  });
+                                  phaseOne = setInterval(function(){
+                                    if (count_animation <= 8){
+                                      sideFormulsTwo(count_animation, jQuery('.draggable_v0'), jQuery('.draggable_v-'));
+                                      if (count_animation <= 4) {
+                                        jQuery('.draggable_v4').css({
+                                          color: 'transparent',
+                                          transform: 'scale(1.3)',
+                                          background: '#fff url(/wp-content/themes/mobile/img/veter.png) 0 0/100% no-repeat',
+                                          opacity: 0.8
+                                        });
+                                      } else if (count_animation > 4 && count_animation <= 8) {
+                                        jQuery('.draggable_v4').css({
+                                          background: '#fff url(/wp-content/themes/mobile/img/life_vater.png) 0 0/100% no-repeat'
+                                        });
+                                      }
+                                      count_animation += 1;
+                                      rotate_lovushka += 2;
+                                    } else {
+                                      clearInterval(phaseOne);
+                                      count_animation = 0;
+                                      jQuery('.status_percent').text('95%');
+                                      clearInterval(phaseOne);
+                                      jQuery('.draggable_v4').css({
+                                        color: '#FFF0C7',
+                                        transform: 'scale(1)',
+                                        background: 'rgba(83, 35, 69, 0.4)',
+                                        opacity: 1
+                                      });
+                                      phaseOne = setInterval(function(){
+                                        if (count_animation <= 8){
+                                          sideFormulsTwo(count_animation, jQuery('.draggable_v0'), jQuery('.draggable_v-'));
+                                          if (count_animation <= 4) {
+                                            jQuery('.draggable_v1').css({
+                                              color: 'transparent',
+                                              transform: 'scale(1.3)',
+                                              background: '#fff url(/wp-content/themes/mobile/img/veter.png) 0 0/100% no-repeat',
+                                              opacity: 0.8
+                                            });
+                                          } else if (count_animation > 4 && count_animation <= 8) {
+                                            jQuery('.draggable_v1').css({
+                                              background: '#fff url(/wp-content/themes/mobile/img/life_vater.png) 0 0/100% no-repeat'
+                                            });
+                                          }
+                                          count_animation += 1;
+                                          rotate_lovushka += 2;
+                                        } else {
+                                          clearInterval(phaseOne);
+                                          count_animation = 0;
+                                          jQuery('.status_percent').text('96%');
+                                          clearInterval(phaseOne);
+                                          jQuery('.draggable_v1').css({
+                                            color: '#FFF0C7',
+                                            transform: 'scale(1)',
+                                            background: 'rgba(83, 35, 69, 0.4)',
+                                            opacity: 1
+                                          });
+                                          phaseOne = setInterval(function(){
+                                            if (count_animation <= 8){
+                                              sideFormulsTwo(count_animation, jQuery('.draggable_v0'), jQuery('.draggable_v-'));
+                                              if (count_animation <= 4) {
+                                                jQuery('.draggable_v3').css({
+                                                  color: 'transparent',
+                                                  transform: 'scale(1.3)',
+                                                  background: '#fff url(/wp-content/themes/mobile/img/veter.png) 0 0/100% no-repeat',
+                                                  opacity: 0.8
+                                                });
+                                              } else if (count_animation > 4 && count_animation <= 8) {
+                                                jQuery('.draggable_v3').css({
+                                                  background: '#fff url(/wp-content/themes/mobile/img/life_vater.png) 0 0/100% no-repeat'
+                                                });
+                                              }
+                                              count_animation += 1;
+                                              rotate_lovushka += 2;
+                                            } else {
+                                              clearInterval(phaseOne);
+                                              count_animation = 0;
+                                              jQuery('.status_percent').text('98%');
+                                              clearInterval(phaseOne);
+                                              jQuery('.draggable_v3').css({
+                                                color: '#FFF0C7',
+                                                transform: 'scale(1)',
+                                                background: 'rgba(83, 35, 69, 0.4)',
+                                                opacity: 1
+                                              });
+                                              phaseOne = setInterval(function(){
+                                                if (count_animation <= 8){
+                                                  sideFormulsTwo(count_animation, jQuery('.draggable_v0'), jQuery('.draggable_v-'));
+                                                  if (count_animation <= 4) {
+                                                    jQuery('.draggable_v4').css({
+                                                      color: 'transparent',
+                                                      transform: 'scale(1.3)',
+                                                      background: '#fff url(/wp-content/themes/mobile/img/veter.png) 0 0/100% no-repeat',
+                                                      opacity: 0.8
+                                                    });
+                                                  } else if (count_animation > 4 && count_animation <= 8) {
+                                                    jQuery('.draggable_v4').css({
+                                                      background: '#fff url(/wp-content/themes/mobile/img/life_vater.png) 0 0/100% no-repeat'
+                                                    });
+                                                  }
+                                                  count_animation += 1;
+                                                  rotate_lovushka += 2;
+                                                } else {
+                                                  clearInterval(phaseOne);
+                                                  count_animation = 0;
+                                                  jQuery('.status_percent').text('100%');
+                                                  clearInterval(phaseOne);
+                                                  jQuery('.draggable_v4').css({
+                                                    color: '#FFF0C7',
+                                                    transform: 'scale(1)',
+                                                    background: 'rgba(83, 35, 69, 0.4)',
+                                                    opacity: 1
+                                                  });
+                                                  onEnd();
+                                                }
+                                              }, 1000);
+                                            }
+                                          }, 1000);
+                                        }
+                                      }, 1000);
+                                    }
+                                  }, 1000);
+                                }
+                              }, 1000);
+                            }
+                          }, 1000);
+                        }
+                      }, 1000);
+                    }
+                  }, 1000);
+                }
+              }, 1000);
+            }
+          }, 1000);
+        }
+      }, 1000);
     }
   }, 1000);
 }
 
 v3_5 = function(){
   jQuery('.status_pahaze_now').text('5');
-  jQuery('.status_percent').text('94%');
+  jQuery('.status_percent').text('82%');
   jQuery('.zone_x, .zone_l').addClass('hidden').css('transform', 'scale(1)');
   count_animation = 0;
   console.log('Фаза 5.1');
@@ -4285,7 +5153,7 @@ v3_5 = function(){
       });
       count_animation = 0;
       console.log('Фаза 5.2');
-      jQuery('.status_percent').text('96%');
+      jQuery('.status_percent').text('83%');
       phaseOne = setInterval(function(){
         if (count_animation <= 34){
           if (count_animation <= 17) {
@@ -4348,7 +5216,7 @@ v3_4 = function(){
         opacity: 1
       });
       count_animation = 0;
-      jQuery('.status_percent').text('72%');
+      jQuery('.status_percent').text('71%');
       rotate_one = 10;
       phaseOne = setInterval(function(){
         if (count_animation <= 53){
@@ -4371,7 +5239,7 @@ v3_4 = function(){
             opacity: 1
           });
           count_animation = 0;
-          jQuery('.status_percent').text('74%');
+          jQuery('.status_percent').text('72%');
           rotate_one = 270;
           phaseOne = setInterval(function(){
             if (count_animation <= 60){
@@ -4394,7 +5262,7 @@ v3_4 = function(){
                 opacity: 1
               });
               count_animation = 0;
-              jQuery('.status_percent').text('76%');
+              jQuery('.status_percent').text('73%');
               rotate_one = 300;
               phaseOne = setInterval(function(){
                 if (count_animation <= 40){
@@ -4418,7 +5286,7 @@ v3_4 = function(){
                     opacity: 1
                   });
                   count_animation = 0;
-                  jQuery('.status_percent').text('78%');
+                  jQuery('.status_percent').text('74%');
                   rotate_one = 0;
                   phaseOne = setInterval(function(){
                     if (count_animation <= 22){
@@ -4441,7 +5309,7 @@ v3_4 = function(){
                         opacity: 1
                       });
                       count_animation = 0;
-                      jQuery('.status_percent').text('80%');
+                      jQuery('.status_percent').text('75%');
                       rotate_one = 10;
                       phaseOne = setInterval(function(){
                         if (count_animation <= 53){
@@ -4464,7 +5332,7 @@ v3_4 = function(){
                             opacity: 1
                           });
                           count_animation = 0;
-                          jQuery('.status_percent').text('82%');
+                          jQuery('.status_percent').text('76%');
                           rotate_one = 270;
                           phaseOne = setInterval(function(){
                             if (count_animation <= 60){
@@ -4487,7 +5355,7 @@ v3_4 = function(){
                                 opacity: 1
                               });
                               count_animation = 0;
-                              jQuery('.status_percent').text('84%');
+                              jQuery('.status_percent').text('77%');
                               rotate_one = 300;
                               phaseOne = setInterval(function(){
                                 if (count_animation <= 40){
@@ -4511,7 +5379,7 @@ v3_4 = function(){
                                     opacity: 1
                                   });
                                   count_animation = 0;
-                                  jQuery('.status_percent').text('86%');
+                                  jQuery('.status_percent').text('78%');
                                   rotate_one = 0;
                                   phaseOne = setInterval(function(){
                                     if (count_animation <= 22){
@@ -4534,7 +5402,7 @@ v3_4 = function(){
                                         opacity: 1
                                       });
                                       count_animation = 0;
-                                      jQuery('.status_percent').text('88%');
+                                      jQuery('.status_percent').text('79%');
                                       rotate_one = 10;
                                       phaseOne = setInterval(function(){
                                         if (count_animation <= 53){
@@ -4557,7 +5425,7 @@ v3_4 = function(){
                                             opacity: 1
                                           });
                                           count_animation = 0;
-                                          jQuery('.status_percent').text('90%');
+                                          jQuery('.status_percent').text('80%');
                                           rotate_one = 270;
                                           phaseOne = setInterval(function(){
                                             if (count_animation <= 60){
@@ -4581,7 +5449,7 @@ v3_4 = function(){
                                                 opacity: 1
                                               });
                                               count_animation = 0;
-                                              jQuery('.status_percent').text('92%');
+                                              jQuery('.status_percent').text('81%');
                                               rotate_one = 300;
                                               phaseOne = setInterval(function(){
                                                 if (count_animation <= 40){
@@ -5919,42 +6787,373 @@ v3 = function(){
 
 v4_6 = function(){
   count_animation = 0;
-  jQuery('.status_percent').text('98%');
+  jQuery('.status_percent').text('84%');
   console.log('Фаза 6');
   phaseOne = setInterval(function(){
-    if (count_animation <= 80){
-      jQuery('.draggable_v5, .draggable_v-, .draggable_v3, .draggable_v0').css({
-        color: 'transparent',
-        transform: 'scale(1.3)',
-        opacity: 0.8
-      });
-      jQuery('.draggable_v5, .draggable_v-').css({
-        background: '#fff url(/wp-content/themes/mobile/img/gold.png) 0 0/100% no-repeat'
-      });
-      jQuery('.draggable_v3').css({
-        background: '#fff url(/wp-content/themes/mobile/img/chisty_vnutri.jpg) 0 0/100% no-repeat'
-      });
-      jQuery('.draggable_v0').css({
-        background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat'
-      });
+    if (count_animation <= 8){
+      sideFormulsTwo(count_animation, jQuery('.draggable_v0'), jQuery('.draggable_v-'));
+      if (count_animation <= 4) {
+        jQuery('.draggable_v1').css({
+          color: 'transparent',
+          transform: 'scale(1.3)',
+          background: '#fff url(/wp-content/themes/mobile/img/veter.png) 0 0/100% no-repeat',
+          opacity: 0.8
+        });
+      } else if (count_animation > 4 && count_animation <= 8) {
+        jQuery('.draggable_v1').css({
+          background: '#fff url(/wp-content/themes/mobile/img/life_vater.png) 0 0/100% no-repeat'
+        });
+      }
       count_animation += 1;
+      rotate_lovushka += 2;
     } else {
       clearInterval(phaseOne);
-      jQuery('.draggable_v5, .draggable_v-, .draggable_v3, .draggable_v0').css({
+      count_animation = 0;
+      jQuery('.status_percent').text('85%');
+      clearInterval(phaseOne);
+      jQuery('.draggable_v1').css({
         color: '#FFF0C7',
         transform: 'scale(1)',
         background: 'rgba(83, 35, 69, 0.4)',
         opacity: 1
       });
-      count_animation = 0;
-      jQuery('.status_percent').text('100%');
-      onEnd();
+      phaseOne = setInterval(function(){
+        if (count_animation <= 8){
+          sideFormulsTwo(count_animation, jQuery('.draggable_v0'), jQuery('.draggable_v-'));
+          if (count_animation <= 4) {
+            jQuery('.draggable_v3').css({
+              color: 'transparent',
+              transform: 'scale(1.3)',
+              background: '#fff url(/wp-content/themes/mobile/img/veter.png) 0 0/100% no-repeat',
+              opacity: 0.8
+            });
+          } else if (count_animation > 4 && count_animation <= 8) {
+            jQuery('.draggable_v3').css({
+              background: '#fff url(/wp-content/themes/mobile/img/life_vater.png) 0 0/100% no-repeat'
+            });
+          }
+          count_animation += 1;
+          rotate_lovushka += 2;
+        } else {
+          clearInterval(phaseOne);
+          count_animation = 0;
+          jQuery('.status_percent').text('86%');
+          clearInterval(phaseOne);
+          jQuery('.draggable_v3').css({
+            color: '#FFF0C7',
+            transform: 'scale(1)',
+            background: 'rgba(83, 35, 69, 0.4)',
+            opacity: 1
+          });
+          phaseOne = setInterval(function(){
+            if (count_animation <= 8){
+              sideFormulsTwo(count_animation, jQuery('.draggable_v0'), jQuery('.draggable_v-'));
+              if (count_animation <= 4) {
+                jQuery('.draggable_v4').css({
+                  color: 'transparent',
+                  transform: 'scale(1.3)',
+                  background: '#fff url(/wp-content/themes/mobile/img/veter.png) 0 0/100% no-repeat',
+                  opacity: 0.8
+                });
+              } else if (count_animation > 4 && count_animation <= 8) {
+                jQuery('.draggable_v4').css({
+                  background: '#fff url(/wp-content/themes/mobile/img/life_vater.png) 0 0/100% no-repeat'
+                });
+              }
+              count_animation += 1;
+              rotate_lovushka += 2;
+            } else {
+              clearInterval(phaseOne);
+              count_animation = 0;
+              jQuery('.status_percent').text('88%');
+              clearInterval(phaseOne);
+              jQuery('.draggable_v4').css({
+                color: '#FFF0C7',
+                transform: 'scale(1)',
+                background: 'rgba(83, 35, 69, 0.4)',
+                opacity: 1
+              });
+              phaseOne = setInterval(function(){
+                if (count_animation <= 8){
+                  sideFormulsTwo(count_animation, jQuery('.draggable_v0'), jQuery('.draggable_v-'));
+                  if (count_animation <= 4) {
+                    jQuery('.draggable_v1').css({
+                      color: 'transparent',
+                      transform: 'scale(1.3)',
+                      background: '#fff url(/wp-content/themes/mobile/img/veter.png) 0 0/100% no-repeat',
+                      opacity: 0.8
+                    });
+                  } else if (count_animation > 4 && count_animation <= 8) {
+                    jQuery('.draggable_v1').css({
+                      background: '#fff url(/wp-content/themes/mobile/img/life_vater.png) 0 0/100% no-repeat'
+                    });
+                  }
+                  count_animation += 1;
+                  rotate_lovushka += 2;
+                } else {
+                  clearInterval(phaseOne);
+                  count_animation = 0;
+                  jQuery('.status_percent').text('90%');
+                  clearInterval(phaseOne);
+                  jQuery('.draggable_v1').css({
+                    color: '#FFF0C7',
+                    transform: 'scale(1)',
+                    background: 'rgba(83, 35, 69, 0.4)',
+                    opacity: 1
+                  });
+                  phaseOne = setInterval(function(){
+                    if (count_animation <= 8){
+                      sideFormulsTwo(count_animation, jQuery('.draggable_v0'), jQuery('.draggable_v-'));
+                      if (count_animation <= 4) {
+                        jQuery('.draggable_v3').css({
+                          color: 'transparent',
+                          transform: 'scale(1.3)',
+                          background: '#fff url(/wp-content/themes/mobile/img/veter.png) 0 0/100% no-repeat',
+                          opacity: 0.8
+                        });
+                      } else if (count_animation > 4 && count_animation <= 8) {
+                        jQuery('.draggable_v3').css({
+                          background: '#fff url(/wp-content/themes/mobile/img/life_vater.png) 0 0/100% no-repeat'
+                        });
+                      }
+                      count_animation += 1;
+                      rotate_lovushka += 2;
+                    } else {
+                      clearInterval(phaseOne);
+                      count_animation = 0;
+                      jQuery('.status_percent').text('91%');
+                      clearInterval(phaseOne);
+                      jQuery('.draggable_v3').css({
+                        color: '#FFF0C7',
+                        transform: 'scale(1)',
+                        background: 'rgba(83, 35, 69, 0.4)',
+                        opacity: 1
+                      });
+                      phaseOne = setInterval(function(){
+                        if (count_animation <= 8){
+                          sideFormulsTwo(count_animation, jQuery('.draggable_v0'), jQuery('.draggable_v-'));
+                          if (count_animation <= 4) {
+                            jQuery('.draggable_v4').css({
+                              color: 'transparent',
+                              transform: 'scale(1.3)',
+                              background: '#fff url(/wp-content/themes/mobile/img/veter.png) 0 0/100% no-repeat',
+                              opacity: 0.8
+                            });
+                          } else if (count_animation > 4 && count_animation <= 8) {
+                            jQuery('.draggable_v4').css({
+                              background: '#fff url(/wp-content/themes/mobile/img/life_vater.png) 0 0/100% no-repeat'
+                            });
+                          }
+                          count_animation += 1;
+                          rotate_lovushka += 2;
+                        } else {
+                          clearInterval(phaseOne);
+                          count_animation = 0;
+                          jQuery('.status_percent').text('92%');
+                          clearInterval(phaseOne);
+                          jQuery('.draggable_v4').css({
+                            color: '#FFF0C7',
+                            transform: 'scale(1)',
+                            background: 'rgba(83, 35, 69, 0.4)',
+                            opacity: 1
+                          });
+                          phaseOne = setInterval(function(){
+                            if (count_animation <= 8){
+                              sideFormulsTwo(count_animation, jQuery('.draggable_v0'), jQuery('.draggable_v-'));
+                              if (count_animation <= 4) {
+                                jQuery('.draggable_v1').css({
+                                  color: 'transparent',
+                                  transform: 'scale(1.3)',
+                                  background: '#fff url(/wp-content/themes/mobile/img/veter.png) 0 0/100% no-repeat',
+                                  opacity: 0.8
+                                });
+                              } else if (count_animation > 4 && count_animation <= 8) {
+                                jQuery('.draggable_v1').css({
+                                  background: '#fff url(/wp-content/themes/mobile/img/life_vater.png) 0 0/100% no-repeat'
+                                });
+                              }
+                              count_animation += 1;
+                              rotate_lovushka += 2;
+                            } else {
+                              clearInterval(phaseOne);
+                              count_animation = 0;
+                              jQuery('.status_percent').text('93%');
+                              clearInterval(phaseOne);
+                              jQuery('.draggable_v1').css({
+                                color: '#FFF0C7',
+                                transform: 'scale(1)',
+                                background: 'rgba(83, 35, 69, 0.4)',
+                                opacity: 1
+                              });
+                              phaseOne = setInterval(function(){
+                                if (count_animation <= 8){
+                                  sideFormulsTwo(count_animation, jQuery('.draggable_v0'), jQuery('.draggable_v-'));
+                                  if (count_animation <= 4) {
+                                    jQuery('.draggable_v3').css({
+                                      color: 'transparent',
+                                      transform: 'scale(1.3)',
+                                      background: '#fff url(/wp-content/themes/mobile/img/veter.png) 0 0/100% no-repeat',
+                                      opacity: 0.8
+                                    });
+                                  } else if (count_animation > 4 && count_animation <= 8) {
+                                    jQuery('.draggable_v3').css({
+                                      background: '#fff url(/wp-content/themes/mobile/img/life_vater.png) 0 0/100% no-repeat'
+                                    });
+                                  }
+                                  count_animation += 1;
+                                  rotate_lovushka += 2;
+                                } else {
+                                  clearInterval(phaseOne);
+                                  count_animation = 0;
+                                  jQuery('.status_percent').text('94%');
+                                  clearInterval(phaseOne);
+                                  jQuery('.draggable_v3').css({
+                                    color: '#FFF0C7',
+                                    transform: 'scale(1)',
+                                    background: 'rgba(83, 35, 69, 0.4)',
+                                    opacity: 1
+                                  });
+                                  phaseOne = setInterval(function(){
+                                    if (count_animation <= 8){
+                                      sideFormulsTwo(count_animation, jQuery('.draggable_v0'), jQuery('.draggable_v-'));
+                                      if (count_animation <= 4) {
+                                        jQuery('.draggable_v4').css({
+                                          color: 'transparent',
+                                          transform: 'scale(1.3)',
+                                          background: '#fff url(/wp-content/themes/mobile/img/veter.png) 0 0/100% no-repeat',
+                                          opacity: 0.8
+                                        });
+                                      } else if (count_animation > 4 && count_animation <= 8) {
+                                        jQuery('.draggable_v4').css({
+                                          background: '#fff url(/wp-content/themes/mobile/img/life_vater.png) 0 0/100% no-repeat'
+                                        });
+                                      }
+                                      count_animation += 1;
+                                      rotate_lovushka += 2;
+                                    } else {
+                                      clearInterval(phaseOne);
+                                      count_animation = 0;
+                                      jQuery('.status_percent').text('95%');
+                                      clearInterval(phaseOne);
+                                      jQuery('.draggable_v4').css({
+                                        color: '#FFF0C7',
+                                        transform: 'scale(1)',
+                                        background: 'rgba(83, 35, 69, 0.4)',
+                                        opacity: 1
+                                      });
+                                      phaseOne = setInterval(function(){
+                                        if (count_animation <= 8){
+                                          sideFormulsTwo(count_animation, jQuery('.draggable_v0'), jQuery('.draggable_v-'));
+                                          if (count_animation <= 4) {
+                                            jQuery('.draggable_v1').css({
+                                              color: 'transparent',
+                                              transform: 'scale(1.3)',
+                                              background: '#fff url(/wp-content/themes/mobile/img/veter.png) 0 0/100% no-repeat',
+                                              opacity: 0.8
+                                            });
+                                          } else if (count_animation > 4 && count_animation <= 8) {
+                                            jQuery('.draggable_v1').css({
+                                              background: '#fff url(/wp-content/themes/mobile/img/life_vater.png) 0 0/100% no-repeat'
+                                            });
+                                          }
+                                          count_animation += 1;
+                                          rotate_lovushka += 2;
+                                        } else {
+                                          clearInterval(phaseOne);
+                                          count_animation = 0;
+                                          jQuery('.status_percent').text('96%');
+                                          clearInterval(phaseOne);
+                                          jQuery('.draggable_v1').css({
+                                            color: '#FFF0C7',
+                                            transform: 'scale(1)',
+                                            background: 'rgba(83, 35, 69, 0.4)',
+                                            opacity: 1
+                                          });
+                                          phaseOne = setInterval(function(){
+                                            if (count_animation <= 8){
+                                              sideFormulsTwo(count_animation, jQuery('.draggable_v0'), jQuery('.draggable_v-'));
+                                              if (count_animation <= 4) {
+                                                jQuery('.draggable_v3').css({
+                                                  color: 'transparent',
+                                                  transform: 'scale(1.3)',
+                                                  background: '#fff url(/wp-content/themes/mobile/img/veter.png) 0 0/100% no-repeat',
+                                                  opacity: 0.8
+                                                });
+                                              } else if (count_animation > 4 && count_animation <= 8) {
+                                                jQuery('.draggable_v3').css({
+                                                  background: '#fff url(/wp-content/themes/mobile/img/life_vater.png) 0 0/100% no-repeat'
+                                                });
+                                              }
+                                              count_animation += 1;
+                                              rotate_lovushka += 2;
+                                            } else {
+                                              clearInterval(phaseOne);
+                                              count_animation = 0;
+                                              jQuery('.status_percent').text('98%');
+                                              clearInterval(phaseOne);
+                                              jQuery('.draggable_v3').css({
+                                                color: '#FFF0C7',
+                                                transform: 'scale(1)',
+                                                background: 'rgba(83, 35, 69, 0.4)',
+                                                opacity: 1
+                                              });
+                                              phaseOne = setInterval(function(){
+                                                if (count_animation <= 8){
+                                                  sideFormulsTwo(count_animation, jQuery('.draggable_v0'), jQuery('.draggable_v-'));
+                                                  if (count_animation <= 4) {
+                                                    jQuery('.draggable_v4').css({
+                                                      color: 'transparent',
+                                                      transform: 'scale(1.3)',
+                                                      background: '#fff url(/wp-content/themes/mobile/img/veter.png) 0 0/100% no-repeat',
+                                                      opacity: 0.8
+                                                    });
+                                                  } else if (count_animation > 4 && count_animation <= 8) {
+                                                    jQuery('.draggable_v4').css({
+                                                      background: '#fff url(/wp-content/themes/mobile/img/life_vater.png) 0 0/100% no-repeat'
+                                                    });
+                                                  }
+                                                  count_animation += 1;
+                                                  rotate_lovushka += 2;
+                                                } else {
+                                                  clearInterval(phaseOne);
+                                                  count_animation = 0;
+                                                  jQuery('.status_percent').text('100%');
+                                                  clearInterval(phaseOne);
+                                                  jQuery('.draggable_v4').css({
+                                                    color: '#FFF0C7',
+                                                    transform: 'scale(1)',
+                                                    background: 'rgba(83, 35, 69, 0.4)',
+                                                    opacity: 1
+                                                  });
+                                                  onEnd();
+                                                }
+                                              }, 1000);
+                                            }
+                                          }, 1000);
+                                        }
+                                      }, 1000);
+                                    }
+                                  }, 1000);
+                                }
+                              }, 1000);
+                            }
+                          }, 1000);
+                        }
+                      }, 1000);
+                    }
+                  }, 1000);
+                }
+              }, 1000);
+            }
+          }, 1000);
+        }
+      }, 1000);
     }
   }, 1000);
 }
 
 v4_5 = function(){
-  jQuery('.status_percent').text('94%');
+  jQuery('.status_percent').text('82%');
   jQuery('.zone_x, .zone_l').addClass('hidden').css('transform', 'scale(1)');
   count_animation = 0;
   console.log('Фаза 5.1');
@@ -5983,7 +7182,7 @@ v4_5 = function(){
         opacity: 1
       });
       count_animation = 0;
-      jQuery('.status_percent').text('96%');
+      jQuery('.status_percent').text('83%');
       console.log('Фаза 5.2');
       phaseOne = setInterval(function(){
         if (count_animation <= 34){
@@ -6047,7 +7246,7 @@ v4_4 = function(){
         opacity: 1
       });
       count_animation = 0;
-      jQuery('.status_percent').text('72%');
+      jQuery('.status_percent').text('71%');
       rotate_one = 10;
       phaseOne = setInterval(function(){
         if (count_animation <= 53){
@@ -6070,7 +7269,7 @@ v4_4 = function(){
             opacity: 1
           });
           count_animation = 0;
-          jQuery('.status_percent').text('74%');
+          jQuery('.status_percent').text('72%');
           rotate_one = 270;
           phaseOne = setInterval(function(){
             if (count_animation <= 60){
@@ -6093,7 +7292,7 @@ v4_4 = function(){
                 opacity: 1
               });
               count_animation = 0;
-              jQuery('.status_percent').text('76%');
+              jQuery('.status_percent').text('73%');
               rotate_one = 300;
               phaseOne = setInterval(function(){
                 if (count_animation <= 40){
@@ -6117,7 +7316,7 @@ v4_4 = function(){
                     opacity: 1
                   });
                   count_animation = 0;
-                  jQuery('.status_percent').text('78%');
+                  jQuery('.status_percent').text('74%');
                   rotate_one = 0;
                   phaseOne = setInterval(function(){
                     if (count_animation <= 22){
@@ -6140,7 +7339,7 @@ v4_4 = function(){
                         opacity: 1
                       });
                       count_animation = 0;
-                      jQuery('.status_percent').text('80%');
+                      jQuery('.status_percent').text('75%');
                       rotate_one = 10;
                       phaseOne = setInterval(function(){
                         if (count_animation <= 53){
@@ -6163,7 +7362,7 @@ v4_4 = function(){
                             opacity: 1
                           });
                           count_animation = 0;
-                          jQuery('.status_percent').text('82%');
+                          jQuery('.status_percent').text('76%');
                           rotate_one = 270;
                           phaseOne = setInterval(function(){
                             if (count_animation <= 60){
@@ -6186,7 +7385,7 @@ v4_4 = function(){
                                 opacity: 1
                               });
                               count_animation = 0;
-                              jQuery('.status_percent').text('84%');
+                              jQuery('.status_percent').text('77%');
                               rotate_one = 300;
                               phaseOne = setInterval(function(){
                                 if (count_animation <= 40){
@@ -6210,7 +7409,7 @@ v4_4 = function(){
                                     opacity: 1
                                   });
                                   count_animation = 0;
-                                  jQuery('.status_percent').text('86%');
+                                  jQuery('.status_percent').text('78%');
                                   rotate_one = 0;
                                   phaseOne = setInterval(function(){
                                     if (count_animation <= 22){
@@ -6233,7 +7432,7 @@ v4_4 = function(){
                                         opacity: 1
                                       });
                                       count_animation = 0;
-                                      jQuery('.status_percent').text('88%');
+                                      jQuery('.status_percent').text('79%');
                                       rotate_one = 10;
                                       phaseOne = setInterval(function(){
                                         if (count_animation <= 53){
@@ -6256,7 +7455,7 @@ v4_4 = function(){
                                             opacity: 1
                                           });
                                           count_animation = 0;
-                                          jQuery('.status_percent').text('90%');
+                                          jQuery('.status_percent').text('80%');
                                           rotate_one = 270;
                                           phaseOne = setInterval(function(){
                                             if (count_animation <= 60){
@@ -6279,7 +7478,7 @@ v4_4 = function(){
                                                 opacity: 1
                                               });
                                               count_animation = 0;
-                                              jQuery('.status_percent').text('92%');
+                                              jQuery('.status_percent').text('81%');
                                               rotate_one = 300;
                                               phaseOne = setInterval(function(){
                                                 if (count_animation <= 40){
@@ -7478,41 +8677,372 @@ v4 = function(){
 
 v5_6 = function(){
   count_animation = 0;
-  jQuery('.status_percent').text('98%');
+  jQuery('.status_percent').text('86%');
   console.log('Фаза 6');
   phaseOne = setInterval(function(){
-    if (count_animation <= 80){
-      jQuery('.draggable_v5, .draggable_v-, .draggable_v3, .draggable_v0').css({
-        color: 'transparent',
-        transform: 'scale(1.3)',
-        opacity: 0.8
-      });
-      jQuery('.draggable_v5, .draggable_v-').css({
-        background: '#fff url(/wp-content/themes/mobile/img/gold.png) 0 0/100% no-repeat'
-      });
-      jQuery('.draggable_v3').css({
-        background: '#fff url(/wp-content/themes/mobile/img/chisty_vnutri.jpg) 0 0/100% no-repeat'
-      });
-      jQuery('.draggable_v0').css({
-        background: '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat'
-      });
+    if (count_animation <= 8){
+      sideFormulsTwo(count_animation, jQuery('.draggable_v0'), jQuery('.draggable_v-'));
+      if (count_animation <= 4) {
+        jQuery('.draggable_v1').css({
+          color: 'transparent',
+          transform: 'scale(1.3)',
+          background: '#fff url(/wp-content/themes/mobile/img/veter.png) 0 0/100% no-repeat',
+          opacity: 0.8
+        });
+      } else if (count_animation > 4 && count_animation <= 8) {
+        jQuery('.draggable_v1').css({
+          background: '#fff url(/wp-content/themes/mobile/img/life_vater.png) 0 0/100% no-repeat'
+        });
+      }
       count_animation += 1;
+      rotate_lovushka += 2;
     } else {
       clearInterval(phaseOne);
-      jQuery('.draggable_v5, .draggable_v-, .draggable_v3, .draggable_v0').css({
+      count_animation = 0;
+      jQuery('.status_percent').text('87%');
+      clearInterval(phaseOne);
+      jQuery('.draggable_v1').css({
         color: '#FFF0C7',
         transform: 'scale(1)',
         background: 'rgba(83, 35, 69, 0.4)',
         opacity: 1
       });
-      count_animation = 0;
-      jQuery('.status_percent').text('100%');
-      onEnd();
+      phaseOne = setInterval(function(){
+        if (count_animation <= 8){
+          sideFormulsTwo(count_animation, jQuery('.draggable_v0'), jQuery('.draggable_v-'));
+          if (count_animation <= 4) {
+            jQuery('.draggable_v2').css({
+              color: 'transparent',
+              transform: 'scale(1.3)',
+              background: '#fff url(/wp-content/themes/mobile/img/veter.png) 0 0/100% no-repeat',
+              opacity: 0.8
+            });
+          } else if (count_animation > 4 && count_animation <= 8) {
+            jQuery('.draggable_v2').css({
+              background: '#fff url(/wp-content/themes/mobile/img/life_vater.png) 0 0/100% no-repeat'
+            });
+          }
+          count_animation += 1;
+          rotate_lovushka += 2;
+        } else {
+          clearInterval(phaseOne);
+          count_animation = 0;
+          jQuery('.status_percent').text('88%');
+          clearInterval(phaseOne);
+          jQuery('.draggable_v2').css({
+            color: '#FFF0C7',
+            transform: 'scale(1)',
+            background: 'rgba(83, 35, 69, 0.4)',
+            opacity: 1
+          });
+          phaseOne = setInterval(function(){
+            if (count_animation <= 8){
+              sideFormulsTwo(count_animation, jQuery('.draggable_v0'), jQuery('.draggable_v-'));
+              if (count_animation <= 4) {
+                jQuery('.draggable_v5').css({
+                  color: 'transparent',
+                  transform: 'scale(1.3)',
+                  background: '#fff url(/wp-content/themes/mobile/img/veter.png) 0 0/100% no-repeat',
+                  opacity: 0.8
+                });
+              } else if (count_animation > 4 && count_animation <= 8) {
+                jQuery('.draggable_v5').css({
+                  background: '#fff url(/wp-content/themes/mobile/img/life_vater.png) 0 0/100% no-repeat'
+                });
+              }
+              count_animation += 1;
+              rotate_lovushka += 2;
+            } else {
+              clearInterval(phaseOne);
+              count_animation = 0;
+              jQuery('.status_percent').text('89%');
+              clearInterval(phaseOne);
+              jQuery('.draggable_v5').css({
+                color: '#FFF0C7',
+                transform: 'scale(1)',
+                background: 'rgba(83, 35, 69, 0.4)',
+                opacity: 1
+              });
+              phaseOne = setInterval(function(){
+                if (count_animation <= 8){
+                  sideFormulsTwo(count_animation, jQuery('.draggable_v0'), jQuery('.draggable_v-'));
+                  if (count_animation <= 4) {
+                    jQuery('.draggable_v1').css({
+                      color: 'transparent',
+                      transform: 'scale(1.3)',
+                      background: '#fff url(/wp-content/themes/mobile/img/veter.png) 0 0/100% no-repeat',
+                      opacity: 0.8
+                    });
+                  } else if (count_animation > 4 && count_animation <= 8) {
+                    jQuery('.draggable_v1').css({
+                      background: '#fff url(/wp-content/themes/mobile/img/life_vater.png) 0 0/100% no-repeat'
+                    });
+                  }
+                  count_animation += 1;
+                  rotate_lovushka += 2;
+                } else {
+                  clearInterval(phaseOne);
+                  count_animation = 0;
+                  jQuery('.status_percent').text('90%');
+                  clearInterval(phaseOne);
+                  jQuery('.draggable_v1').css({
+                    color: '#FFF0C7',
+                    transform: 'scale(1)',
+                    background: 'rgba(83, 35, 69, 0.4)',
+                    opacity: 1
+                  });
+                  phaseOne = setInterval(function(){
+                    if (count_animation <= 8){
+                      sideFormulsTwo(count_animation, jQuery('.draggable_v0'), jQuery('.draggable_v-'));
+                      if (count_animation <= 4) {
+                        jQuery('.draggable_v2').css({
+                          color: 'transparent',
+                          transform: 'scale(1.3)',
+                          background: '#fff url(/wp-content/themes/mobile/img/veter.png) 0 0/100% no-repeat',
+                          opacity: 0.8
+                        });
+                      } else if (count_animation > 4 && count_animation <= 8) {
+                        jQuery('.draggable_v2').css({
+                          background: '#fff url(/wp-content/themes/mobile/img/life_vater.png) 0 0/100% no-repeat'
+                        });
+                      }
+                      count_animation += 1;
+                      rotate_lovushka += 2;
+                    } else {
+                      clearInterval(phaseOne);
+                      count_animation = 0;
+                      jQuery('.status_percent').text('91%');
+                      clearInterval(phaseOne);
+                      jQuery('.draggable_v2').css({
+                        color: '#FFF0C7',
+                        transform: 'scale(1)',
+                        background: 'rgba(83, 35, 69, 0.4)',
+                        opacity: 1
+                      });
+                      phaseOne = setInterval(function(){
+                        if (count_animation <= 8){
+                          sideFormulsTwo(count_animation, jQuery('.draggable_v0'), jQuery('.draggable_v-'));
+                          if (count_animation <= 4) {
+                            jQuery('.draggable_v5').css({
+                              color: 'transparent',
+                              transform: 'scale(1.3)',
+                              background: '#fff url(/wp-content/themes/mobile/img/veter.png) 0 0/100% no-repeat',
+                              opacity: 0.8
+                            });
+                          } else if (count_animation > 4 && count_animation <= 8) {
+                            jQuery('.draggable_v5').css({
+                              background: '#fff url(/wp-content/themes/mobile/img/life_vater.png) 0 0/100% no-repeat'
+                            });
+                          }
+                          count_animation += 1;
+                          rotate_lovushka += 2;
+                        } else {
+                          clearInterval(phaseOne);
+                          count_animation = 0;
+                          jQuery('.status_percent').text('92%');
+                          clearInterval(phaseOne);
+                          jQuery('.draggable_v5').css({
+                            color: '#FFF0C7',
+                            transform: 'scale(1)',
+                            background: 'rgba(83, 35, 69, 0.4)',
+                            opacity: 1
+                          });
+                          phaseOne = setInterval(function(){
+                            if (count_animation <= 8){
+                              sideFormulsTwo(count_animation, jQuery('.draggable_v0'), jQuery('.draggable_v-'));
+                              if (count_animation <= 4) {
+                                jQuery('.draggable_v1').css({
+                                  color: 'transparent',
+                                  transform: 'scale(1.3)',
+                                  background: '#fff url(/wp-content/themes/mobile/img/veter.png) 0 0/100% no-repeat',
+                                  opacity: 0.8
+                                });
+                              } else if (count_animation > 4 && count_animation <= 8) {
+                                jQuery('.draggable_v1').css({
+                                  background: '#fff url(/wp-content/themes/mobile/img/life_vater.png) 0 0/100% no-repeat'
+                                });
+                              }
+                              count_animation += 1;
+                              rotate_lovushka += 2;
+                            } else {
+                              clearInterval(phaseOne);
+                              count_animation = 0;
+                              jQuery('.status_percent').text('93%');
+                              clearInterval(phaseOne);
+                              jQuery('.draggable_v1').css({
+                                color: '#FFF0C7',
+                                transform: 'scale(1)',
+                                background: 'rgba(83, 35, 69, 0.4)',
+                                opacity: 1
+                              });
+                              phaseOne = setInterval(function(){
+                                if (count_animation <= 8){
+                                  sideFormulsTwo(count_animation, jQuery('.draggable_v0'), jQuery('.draggable_v-'));
+                                  if (count_animation <= 4) {
+                                    jQuery('.draggable_v2').css({
+                                      color: 'transparent',
+                                      transform: 'scale(1.3)',
+                                      background: '#fff url(/wp-content/themes/mobile/img/veter.png) 0 0/100% no-repeat',
+                                      opacity: 0.8
+                                    });
+                                  } else if (count_animation > 4 && count_animation <= 8) {
+                                    jQuery('.draggable_v2').css({
+                                      background: '#fff url(/wp-content/themes/mobile/img/life_vater.png) 0 0/100% no-repeat'
+                                    });
+                                  }
+                                  count_animation += 1;
+                                  rotate_lovushka += 2;
+                                } else {
+                                  clearInterval(phaseOne);
+                                  count_animation = 0;
+                                  jQuery('.status_percent').text('94%');
+                                  clearInterval(phaseOne);
+                                  jQuery('.draggable_v2').css({
+                                    color: '#FFF0C7',
+                                    transform: 'scale(1)',
+                                    background: 'rgba(83, 35, 69, 0.4)',
+                                    opacity: 1
+                                  });
+                                  phaseOne = setInterval(function(){
+                                    if (count_animation <= 8){
+                                      sideFormulsTwo(count_animation, jQuery('.draggable_v0'), jQuery('.draggable_v-'));
+                                      if (count_animation <= 4) {
+                                        jQuery('.draggable_v5').css({
+                                          color: 'transparent',
+                                          transform: 'scale(1.3)',
+                                          background: '#fff url(/wp-content/themes/mobile/img/veter.png) 0 0/100% no-repeat',
+                                          opacity: 0.8
+                                        });
+                                      } else if (count_animation > 4 && count_animation <= 8) {
+                                        jQuery('.draggable_v5').css({
+                                          background: '#fff url(/wp-content/themes/mobile/img/life_vater.png) 0 0/100% no-repeat'
+                                        });
+                                      }
+                                      count_animation += 1;
+                                      rotate_lovushka += 2;
+                                    } else {
+                                      clearInterval(phaseOne);
+                                      count_animation = 0;
+                                      jQuery('.status_percent').text('95%');
+                                      clearInterval(phaseOne);
+                                      jQuery('.draggable_v5').css({
+                                        color: '#FFF0C7',
+                                        transform: 'scale(1)',
+                                        background: 'rgba(83, 35, 69, 0.4)',
+                                        opacity: 1
+                                      });
+                                      phaseOne = setInterval(function(){
+                                        if (count_animation <= 8){
+                                          sideFormulsTwo(count_animation, jQuery('.draggable_v0'), jQuery('.draggable_v-'));
+                                          if (count_animation <= 4) {
+                                            jQuery('.draggable_v1').css({
+                                              color: 'transparent',
+                                              transform: 'scale(1.3)',
+                                              background: '#fff url(/wp-content/themes/mobile/img/veter.png) 0 0/100% no-repeat',
+                                              opacity: 0.8
+                                            });
+                                          } else if (count_animation > 4 && count_animation <= 8) {
+                                            jQuery('.draggable_v1').css({
+                                              background: '#fff url(/wp-content/themes/mobile/img/life_vater.png) 0 0/100% no-repeat'
+                                            });
+                                          }
+                                          count_animation += 1;
+                                          rotate_lovushka += 2;
+                                        } else {
+                                          clearInterval(phaseOne);
+                                          count_animation = 0;
+                                          jQuery('.status_percent').text('96%');
+                                          clearInterval(phaseOne);
+                                          jQuery('.draggable_v1').css({
+                                            color: '#FFF0C7',
+                                            transform: 'scale(1)',
+                                            background: 'rgba(83, 35, 69, 0.4)',
+                                            opacity: 1
+                                          });
+                                          phaseOne = setInterval(function(){
+                                            if (count_animation <= 8){
+                                              sideFormulsTwo(count_animation, jQuery('.draggable_v0'), jQuery('.draggable_v-'));
+                                              if (count_animation <= 4) {
+                                                jQuery('.draggable_v2').css({
+                                                  color: 'transparent',
+                                                  transform: 'scale(1.3)',
+                                                  background: '#fff url(/wp-content/themes/mobile/img/veter.png) 0 0/100% no-repeat',
+                                                  opacity: 0.8
+                                                });
+                                              } else if (count_animation > 4 && count_animation <= 8) {
+                                                jQuery('.draggable_v2').css({
+                                                  background: '#fff url(/wp-content/themes/mobile/img/life_vater.png) 0 0/100% no-repeat'
+                                                });
+                                              }
+                                              count_animation += 1;
+                                              rotate_lovushka += 2;
+                                            } else {
+                                              clearInterval(phaseOne);
+                                              count_animation = 0;
+                                              jQuery('.status_percent').text('98%');
+                                              clearInterval(phaseOne);
+                                              jQuery('.draggable_v2').css({
+                                                color: '#FFF0C7',
+                                                transform: 'scale(1)',
+                                                background: 'rgba(83, 35, 69, 0.4)',
+                                                opacity: 1
+                                              });
+                                              phaseOne = setInterval(function(){
+                                                if (count_animation <= 8){
+                                                  sideFormulsTwo(count_animation, jQuery('.draggable_v0'), jQuery('.draggable_v-'));
+                                                  if (count_animation <= 4) {
+                                                    jQuery('.draggable_v5').css({
+                                                      color: 'transparent',
+                                                      transform: 'scale(1.3)',
+                                                      background: '#fff url(/wp-content/themes/mobile/img/veter.png) 0 0/100% no-repeat',
+                                                      opacity: 0.8
+                                                    });
+                                                  } else if (count_animation > 4 && count_animation <= 8) {
+                                                    jQuery('.draggable_v5').css({
+                                                      background: '#fff url(/wp-content/themes/mobile/img/life_vater.png) 0 0/100% no-repeat'
+                                                    });
+                                                  }
+                                                  count_animation += 1;
+                                                  rotate_lovushka += 2;
+                                                } else {
+                                                  clearInterval(phaseOne);
+                                                  count_animation = 0;
+                                                  jQuery('.status_percent').text('100%');
+                                                  clearInterval(phaseOne);
+                                                  jQuery('.draggable_v5').css({
+                                                    color: '#FFF0C7',
+                                                    transform: 'scale(1)',
+                                                    background: 'rgba(83, 35, 69, 0.4)',
+                                                    opacity: 1
+                                                  });
+                                                  onEnd();
+                                                }
+                                              }, 1000);
+                                            }
+                                          }, 1000);
+                                        }
+                                      }, 1000);
+                                    }
+                                  }, 1000);
+                                }
+                              }, 1000);
+                            }
+                          }, 1000);
+                        }
+                      }, 1000);
+                    }
+                  }, 1000);
+                }
+              }, 1000);
+            }
+          }, 1000);
+        }
+      }, 1000);
     }
   }, 1000);
 }
 v5_5 = function(){
-  jQuery('.status_percent').text('95%');
+  jQuery('.status_percent').text('84%');
   jQuery('.status_pahaze_now').text('5');
   jQuery('.zone_x, .zone_l').addClass('hidden').css('transform', 'scale(1)');
   count_animation = 0;
@@ -7541,7 +9071,7 @@ v5_5 = function(){
         opacity: 1
       });
       count_animation = 0;
-      jQuery('.status_percent').text('96%');
+      jQuery('.status_percent').text('85%');
       console.log('Фаза 5.2');
       phaseOne = setInterval(function(){
         if (count_animation <= 34){
@@ -7604,7 +9134,7 @@ v5_4 = function(){
         opacity: 1
       });
       count_animation = 0;
-      jQuery('.status_percent').text('74%');
+      jQuery('.status_percent').text('73%');
       rotate_one = 10;
       phaseOne = setInterval(function(){
         if (count_animation <= 53){
@@ -7627,7 +9157,7 @@ v5_4 = function(){
             opacity: 1
           });
           count_animation = 0;
-          jQuery('.status_percent').text('76%');
+          jQuery('.status_percent').text('74%');
           rotate_one = 270;
           phaseOne = setInterval(function(){
             if (count_animation <= 60){
@@ -7650,7 +9180,7 @@ v5_4 = function(){
                 opacity: 1
               });
               count_animation = 0;
-              jQuery('.status_percent').text('78%');
+              jQuery('.status_percent').text('75%');
               rotate_one = 300;
               phaseOne = setInterval(function(){
                 if (count_animation <= 40){
@@ -7674,7 +9204,7 @@ v5_4 = function(){
                     opacity: 1
                   });
                   count_animation = 0;
-                  jQuery('.status_percent').text('80%');
+                  jQuery('.status_percent').text('76%');
                   rotate_one = 0;
                   phaseOne = setInterval(function(){
                     if (count_animation <= 22){
@@ -7697,7 +9227,7 @@ v5_4 = function(){
                         opacity: 1
                       });
                       count_animation = 0;
-                      jQuery('.status_percent').text('82%');
+                      jQuery('.status_percent').text('77%');
                       rotate_one = 10;
                       phaseOne = setInterval(function(){
                         if (count_animation <= 53){
@@ -7720,7 +9250,7 @@ v5_4 = function(){
                             opacity: 1
                           });
                           count_animation = 0;
-                          jQuery('.status_percent').text('84%');
+                          jQuery('.status_percent').text('78%');
                           rotate_one = 270;
                           phaseOne = setInterval(function(){
                             if (count_animation <= 60){
@@ -7743,7 +9273,7 @@ v5_4 = function(){
                                 opacity: 1
                               });
                               count_animation = 0;
-                              jQuery('.status_percent').text('86%');
+                              jQuery('.status_percent').text('79%');
                               rotate_one = 300;
                               phaseOne = setInterval(function(){
                                 if (count_animation <= 40){
@@ -7767,7 +9297,7 @@ v5_4 = function(){
                                     opacity: 1
                                   });
                                   count_animation = 0;
-                                  jQuery('.status_percent').text('88%');
+                                  jQuery('.status_percent').text('80%');
                                   rotate_one = 0;
                                   phaseOne = setInterval(function(){
                                     if (count_animation <= 22){
@@ -7790,7 +9320,7 @@ v5_4 = function(){
                                         opacity: 1
                                       });
                                       count_animation = 0;
-                                      jQuery('.status_percent').text('90%');
+                                      jQuery('.status_percent').text('81%');
                                       rotate_one = 10;
                                       phaseOne = setInterval(function(){
                                         if (count_animation <= 53){
@@ -7813,7 +9343,7 @@ v5_4 = function(){
                                             opacity: 1
                                           });
                                           count_animation = 0;
-                                          jQuery('.status_percent').text('92%');
+                                          jQuery('.status_percent').text('82%');
                                           rotate_one = 270;
                                           phaseOne = setInterval(function(){
                                             if (count_animation <= 60){
@@ -7836,7 +9366,7 @@ v5_4 = function(){
                                                 opacity: 1
                                               });
                                               count_animation = 0;
-                                              jQuery('.status_percent').text('94%');
+                                              jQuery('.status_percent').text('83%');
                                               rotate_one = 300;
                                               phaseOne = setInterval(function(){
                                                 if (count_animation <= 40){
@@ -13951,7 +15481,7 @@ solis = function(){
 
 
 mmt7 = function(){
-  jQuery('.status_pahaze_now').text('7');
+  jQuery('.status_pahaze_now').text('3');
   jQuery('.status_percent').text('94%');
   console.log('Фаза 1/1');
   count_animation = 0;
@@ -15069,10 +16599,651 @@ mmt = function(){
 ////////////////////////////////////////////////////////////////////////////////////////////////////
 
 
+universal3 = function(){
+  jQuery('.status_pahaze_now').text('3');
+  jQuery('.status_percent').text('92%');
+  jQuery('.zone_x, .zone_l').removeClass('hidden').css('transform', 'rotate(-90deg) scale(1.5)');
+  console.log('Фаза 1/1');
+  count_animation = 0;
+  phaseOne = setInterval(function(){
+    if (count_animation <= 8){
+      sideFormulsTwo(count_animation, jQuery('.draggable_v0'), jQuery('.draggable_v-'));
+      if (count_animation <= 4) {
+        jQuery('.draggable_v1, .draggable_v2, .draggable_v3, .draggable_v4, .draggable_v5').css({
+          color: 'transparent',
+          transform: 'scale(1.3)',
+          background: '#fff url(/wp-content/themes/mobile/img/veter.png) 0 0/100% no-repeat',
+          opacity: 0.8
+        });
+      } else if (count_animation > 4 && count_animation <= 8) {
+        jQuery('.draggable_v1, .draggable_v2, .draggable_v3, .draggable_v4, .draggable_v5').css({
+          background: '#fff url(/wp-content/themes/mobile/img/life_vater.png) 0 0/100% no-repeat'
+        });
+      }
+      count_animation += 1;
+      rotate_lovushka += 2;
+    } else {
+      clearInterval(phaseOne);
+      count_animation = 0;
+      jQuery('.status_percent').text('94%');
+      phaseOne = setInterval(function(){
+        if (count_animation <= 8){
+          sideFormulsTwo(count_animation, jQuery('.draggable_v0'), jQuery('.draggable_v-'));
+          if (count_animation <= 4) {
+            jQuery('.draggable_v1, .draggable_v2, .draggable_v3, .draggable_v4, .draggable_v5').css({
+              color: 'transparent',
+              transform: 'scale(1.3)',
+              background: '#fff url(/wp-content/themes/mobile/img/veter.png) 0 0/100% no-repeat',
+              opacity: 0.8
+            });
+          } else if (count_animation > 4 && count_animation <= 8) {
+            jQuery('.draggable_v1, .draggable_v2, .draggable_v3, .draggable_v4, .draggable_v5').css({
+              background: '#fff url(/wp-content/themes/mobile/img/life_vater.png) 0 0/100% no-repeat'
+            });
+          }
+          count_animation += 1;
+          rotate_lovushka += 2;
+        } else {
+          clearInterval(phaseOne);
+          count_animation = 0;
+          jQuery('.status_percent').text('96%');
+          phaseOne = setInterval(function(){
+            if (count_animation <= 8){
+              sideFormulsTwo(count_animation, jQuery('.draggable_v0'), jQuery('.draggable_v-'));
+              if (count_animation <= 4) {
+                jQuery('.draggable_v1, .draggable_v2, .draggable_v3, .draggable_v4, .draggable_v5').css({
+                  color: 'transparent',
+                  transform: 'scale(1.3)',
+                  background: '#fff url(/wp-content/themes/mobile/img/veter.png) 0 0/100% no-repeat',
+                  opacity: 0.8
+                });
+              } else if (count_animation > 4 && count_animation <= 8) {
+                jQuery('.draggable_v1, .draggable_v2, .draggable_v3, .draggable_v4, .draggable_v5').css({
+                  background: '#fff url(/wp-content/themes/mobile/img/life_vater.png) 0 0/100% no-repeat'
+                });
+              }
+              count_animation += 1;
+              rotate_lovushka += 2;
+            } else {
+              clearInterval(phaseOne);
+              count_animation = 0;
+              jQuery('.status_percent').text('98%');
+              phaseOne = setInterval(function(){
+                if (count_animation <= 8){
+                  sideFormulsTwo(count_animation, jQuery('.draggable_v0'), jQuery('.draggable_v-'));
+                  if (count_animation <= 4) {
+                    jQuery('.draggable_v1, .draggable_v2, .draggable_v3, .draggable_v4, .draggable_v5').css({
+                      color: 'transparent',
+                      transform: 'scale(1.3)',
+                      background: '#fff url(/wp-content/themes/mobile/img/veter.png) 0 0/100% no-repeat',
+                      opacity: 0.8
+                    });
+                  } else if (count_animation > 4 && count_animation <= 8) {
+                    jQuery('.draggable_v1, .draggable_v2, .draggable_v3, .draggable_v4, .draggable_v5').css({
+                      background: '#fff url(/wp-content/themes/mobile/img/life_vater.png) 0 0/100% no-repeat'
+                    });
+                  }
+                  count_animation += 1;
+                  rotate_lovushka += 2;
+                } else {
+                  count_animation = 0;
+                  clearInterval(phaseOne);
+                  jQuery('.status_percent').text('99%');
+                  phaseOne = setInterval(function(){
+                    if (count_animation <= 8){
+                      sideFormulsTwo(count_animation, jQuery('.draggable_v0'), jQuery('.draggable_v-'));
+                      if (count_animation <= 4) {
+                        jQuery('.draggable_v1, .draggable_v2, .draggable_v3, .draggable_v4, .draggable_v5').css({
+                          color: 'transparent',
+                          transform: 'scale(1.3)',
+                          background: '#fff url(/wp-content/themes/mobile/img/veter.png) 0 0/100% no-repeat',
+                          opacity: 0.8
+                        });
+                      } else if (count_animation > 4 && count_animation <= 8) {
+                        jQuery('.draggable_v1, .draggable_v2, .draggable_v3, .draggable_v4, .draggable_v5').css({
+                          background: '#fff url(/wp-content/themes/mobile/img/life_vater.png) 0 0/100% no-repeat'
+                        });
+                      }
+                      count_animation += 1;
+                      rotate_lovushka += 2;
+                    } else {
+                      clearInterval(phaseOne);
+                      jQuery('.draggable_v1, .draggable_v2, .draggable_v3, .draggable_v4, .draggable_v5').css({
+                        color: '#FFF0C7',
+                        transform: 'scale(1)',
+                        background: 'rgba(83, 35, 69, 0.4)',
+                        opacity: 1
+                      });
+                      count_animation = 0;
+                      jQuery('.status_percent').text('100%');
+                      onEnd();
+                    }
+                  }, 1000);
+                }
+              }, 1000);
+            }
+          }, 1000);
+        }
+      }, 1000);
+    }
+  }, 1000);
+}
 
 
-
-
+universal2 = function(){
+  jQuery('.status_percent').text('17%');
+  jQuery('.status_pahaze_now').text('2');
+  rotate_one = 0;
+  phaseOne = setInterval(function(){
+    if (count_animation <= 22){
+      jQuery('.draggable_v1').css({
+        color: 'transparent',
+        transform: 'scale(1.3) rotate(-'+rotate_one+'deg)',
+        background: '#fff url(/wp-content/themes/mobile/img/mo_right.png) 0 0/100% no-repeat',
+        opacity: 0.8
+      });
+      rotate_one += 1.5;
+      count_animation += 1;
+    } else if (count_animation <= 39) {
+      count_animation += 1;
+    } else {
+      clearInterval(phaseOne);
+      count_animation = 1;
+      jQuery('.draggable_v1').css({
+        color: '#FFF0C7',
+        background: 'rgba(83, 35, 69, 0.4)',
+        opacity: 1
+      });
+      count_animation = 0;
+      jQuery('.status_percent').text('21%');
+      rotate_one = 10;
+      phaseOne = setInterval(function(){
+        if (count_animation <= 53){
+          jQuery('.draggable_v1').css({
+            color: 'transparent',
+            transform: 'scale(1.3) rotate('+rotate_one+'deg)',
+            background: '#fff url(/wp-content/themes/mobile/img/mo_left.png) 0 0/100% no-repeat',
+            opacity: 0.8
+          });
+          rotate_one += 1.5;
+          count_animation += 1;
+        } else if (count_animation <= 70) {
+          count_animation += 1;
+        } else {
+          clearInterval(phaseOne);
+          count_animation = 1;
+          jQuery('.draggable_v1').css({
+            color: '#FFF0C7',
+            background: 'rgba(83, 35, 69, 0.4)',
+            opacity: 1
+          });
+          count_animation = 0;
+          jQuery('.status_percent').text('25%');
+          rotate_one = 270;
+          phaseOne = setInterval(function(){
+            if (count_animation <= 60){
+              jQuery('.draggable_v1').css({
+                color: 'transparent',
+                transform: 'scale(1.3) rotate('+rotate_one+'deg)',
+                background: '#fff url(/wp-content/themes/mobile/img/mo_left.png) 0 0/100% no-repeat',
+                opacity: 0.8
+              });
+              rotate_one += 1.5;
+              count_animation += 1;
+            } else if (count_animation <= 77) {
+              count_animation += 1;
+            } else {
+              clearInterval(phaseOne);
+              count_animation = 1;
+              jQuery('.draggable_v1').css({
+                color: '#FFF0C7',
+                background: 'rgba(83, 35, 69, 0.4)',
+                opacity: 1
+              });
+              count_animation = 0;
+              jQuery('.status_percent').text('29%');
+              rotate_one = 300;
+              phaseOne = setInterval(function(){
+                if (count_animation <= 40){
+                  jQuery('.draggable_v1').css({
+                    color: 'transparent',
+                    transform: 'scale(1.3) rotate(-'+rotate_one+'deg)',
+                    background: '#fff url(/wp-content/themes/mobile/img/mo_right.png) 0 0/100% no-repeat',
+                    opacity: 0.8
+                  });
+                  rotate_one += 1.5;
+                  count_animation += 1;
+                } else if (count_animation <= 57) {
+                  count_animation += 1;
+                } else {
+                  clearInterval(phaseOne);
+                  count_animation = 1;
+                  jQuery('.draggable_v1').css({
+                    color: '#FFF0C7',
+                    transform: 'scale(1)',
+                    background: 'rgba(83, 35, 69, 0.4)',
+                    opacity: 1
+                  });
+                  count_animation = 0;
+                  jQuery('.status_percent').text('33%');
+                  rotate_one = 0;
+                  phaseOne = setInterval(function(){
+                    if (count_animation <= 22){
+                      jQuery('.draggable_v2').css({
+                        color: 'transparent',
+                        transform: 'scale(1.3) rotate(-'+rotate_one+'deg)',
+                        background: '#fff url(/wp-content/themes/mobile/img/mo_right.png) 0 0/100% no-repeat',
+                        opacity: 0.8
+                      });
+                      rotate_one += 1.5;
+                      count_animation += 1;
+                    } else if (count_animation <= 39) {
+                      count_animation += 1;
+                    } else {
+                      clearInterval(phaseOne);
+                      count_animation = 1;
+                      jQuery('.draggable_v2').css({
+                        color: '#FFF0C7',
+                        background: 'rgba(83, 35, 69, 0.4)',
+                        opacity: 1
+                      });
+                      count_animation = 0;
+                      jQuery('.status_percent').text('37%');
+                      rotate_one = 10;
+                      phaseOne = setInterval(function(){
+                        if (count_animation <= 53){
+                          jQuery('.draggable_v2').css({
+                            color: 'transparent',
+                            transform: 'scale(1.3) rotate('+rotate_one+'deg)',
+                            background: '#fff url(/wp-content/themes/mobile/img/mo_left.png) 0 0/100% no-repeat',
+                            opacity: 0.8
+                          });
+                          rotate_one += 1.5;
+                          count_animation += 1;
+                        } else if (count_animation <= 70) {
+                          count_animation += 1;
+                        } else {
+                          clearInterval(phaseOne);
+                          count_animation = 1;
+                          jQuery('.draggable_v2').css({
+                            color: '#FFF0C7',
+                            background: 'rgba(83, 35, 69, 0.4)',
+                            opacity: 1
+                          });
+                          count_animation = 0;
+                          jQuery('.status_percent').text('40%');
+                          rotate_one = 270;
+                          phaseOne = setInterval(function(){
+                            if (count_animation <= 60){
+                              jQuery('.draggable_v2').css({
+                                color: 'transparent',
+                                transform: 'scale(1.3) rotate('+rotate_one+'deg)',
+                                background: '#fff url(/wp-content/themes/mobile/img/mo_left.png) 0 0/100% no-repeat',
+                                opacity: 0.8
+                              });
+                              rotate_one += 1.5;
+                              count_animation += 1;
+                            } else if (count_animation <= 77) {
+                              count_animation += 1;
+                            } else {
+                              clearInterval(phaseOne);
+                              count_animation = 1;
+                              jQuery('.draggable_v2').css({
+                                color: '#FFF0C7',
+                                background: 'rgba(83, 35, 69, 0.4)',
+                                opacity: 1
+                              });
+                              count_animation = 0;
+                              jQuery('.status_percent').text('44%');
+                              rotate_one = 300;
+                              phaseOne = setInterval(function(){
+                                if (count_animation <= 40){
+                                  jQuery('.draggable_v2').css({
+                                    color: 'transparent',
+                                    transform: 'scale(1.3) rotate(-'+rotate_one+'deg)',
+                                    background: '#fff url(/wp-content/themes/mobile/img/mo_right.png) 0 0/100% no-repeat',
+                                    opacity: 0.8
+                                  });
+                                  rotate_one += 1.5;
+                                  count_animation += 1;
+                                } else if (count_animation <= 57) {
+                                  count_animation += 1;
+                                } else {
+                                  clearInterval(phaseOne);
+                                  count_animation = 1;
+                                  jQuery('.draggable_v2').css({
+                                    color: '#FFF0C7',
+                                    transform: 'scale(1)',
+                                    background: 'rgba(83, 35, 69, 0.4)',
+                                    opacity: 1
+                                  });
+                                  count_animation = 0;
+                                  jQuery('.status_percent').text('48%');
+                                  rotate_one = 0;
+                                  phaseOne = setInterval(function(){
+                                    if (count_animation <= 22){
+                                      jQuery('.draggable_v3').css({
+                                        color: 'transparent',
+                                        transform: 'scale(1.3) rotate(-'+rotate_one+'deg)',
+                                        background: '#fff url(/wp-content/themes/mobile/img/mo_right.png) 0 0/100% no-repeat',
+                                        opacity: 0.8
+                                      });
+                                      rotate_one += 1.5;
+                                      count_animation += 1;
+                                    } else if (count_animation <= 39) {
+                                      count_animation += 1;
+                                    } else {
+                                      clearInterval(phaseOne);
+                                      count_animation = 1;
+                                      jQuery('.draggable_v3').css({
+                                        color: '#FFF0C7',
+                                        background: 'rgba(83, 35, 69, 0.4)',
+                                        opacity: 1
+                                      });
+                                      count_animation = 0;
+                                      jQuery('.status_percent').text('52%');
+                                      rotate_one = 10;
+                                      phaseOne = setInterval(function(){
+                                        if (count_animation <= 53){
+                                          jQuery('.draggable_v3').css({
+                                            color: 'transparent',
+                                            transform: 'scale(1.3) rotate('+rotate_one+'deg)',
+                                            background: '#fff url(/wp-content/themes/mobile/img/mo_left.png) 0 0/100% no-repeat',
+                                            opacity: 0.8
+                                          });
+                                          rotate_one += 1.5;
+                                          count_animation += 1;
+                                        } else if (count_animation <= 70) {
+                                          count_animation += 1;
+                                        } else {
+                                          clearInterval(phaseOne);
+                                          count_animation = 1;
+                                          jQuery('.draggable_v3').css({
+                                            color: '#FFF0C7',
+                                            background: 'rgba(83, 35, 69, 0.4)',
+                                            opacity: 1
+                                          });
+                                          count_animation = 0;
+                                          jQuery('.status_percent').text('55%');
+                                          rotate_one = 270;
+                                          phaseOne = setInterval(function(){
+                                            if (count_animation <= 60){
+                                              jQuery('.draggable_v3').css({
+                                                color: 'transparent',
+                                                transform: 'scale(1.3) rotate('+rotate_one+'deg)',
+                                                background: '#fff url(/wp-content/themes/mobile/img/mo_left.png) 0 0/100% no-repeat',
+                                                opacity: 0.8
+                                              });
+                                              rotate_one += 1.5;
+                                              count_animation += 1;
+                                            } else if (count_animation <= 77) {
+                                              count_animation += 1;
+                                            } else {
+                                              clearInterval(phaseOne);
+                                              count_animation = 1;
+                                              jQuery('.draggable_v3').css({
+                                                color: '#FFF0C7',
+                                                background: 'rgba(83, 35, 69, 0.4)',
+                                                opacity: 1
+                                              });
+                                              count_animation = 0;
+                                              jQuery('.status_percent').text('59%');
+                                              rotate_one = 300;
+                                              phaseOne = setInterval(function(){
+                                                if (count_animation <= 40){
+                                                  jQuery('.draggable_v3').css({
+                                                    color: 'transparent',
+                                                    transform: 'scale(1.3) rotate(-'+rotate_one+'deg)',
+                                                    background: '#fff url(/wp-content/themes/mobile/img/mo_right.png) 0 0/100% no-repeat',
+                                                    opacity: 0.8
+                                                  });
+                                                  rotate_one += 1.5;
+                                                  count_animation += 1;
+                                                } else if (count_animation <= 57) {
+                                                  count_animation += 1;
+                                                } else {
+                                                  clearInterval(phaseOne);
+                                                  count_animation = 1;
+                                                  jQuery('.draggable_v3').css({
+                                                    color: '#FFF0C7',
+                                                    transform: 'scale(1)',
+                                                    background: 'rgba(83, 35, 69, 0.4)',
+                                                    opacity: 1
+                                                  });
+                                                  count_animation = 0;
+                                                  rotate_one = 0;
+                                                  jQuery('.status_percent').text('63%');
+                                                  phaseOne = setInterval(function(){
+                                                    if (count_animation <= 22){
+                                                      jQuery('.draggable_v4').css({
+                                                        color: 'transparent',
+                                                        transform: 'scale(1.3) rotate(-'+rotate_one+'deg)',
+                                                        background: '#fff url(/wp-content/themes/mobile/img/mo_right.png) 0 0/100% no-repeat',
+                                                        opacity: 0.8
+                                                      });
+                                                      rotate_one += 1.5;
+                                                      count_animation += 1;
+                                                    } else if (count_animation <= 39) {
+                                                      count_animation += 1;
+                                                    } else {
+                                                      clearInterval(phaseOne);
+                                                      count_animation = 1;
+                                                      jQuery('.draggable_v4').css({
+                                                        color: '#FFF0C7',
+                                                        background: 'rgba(83, 35, 69, 0.4)',
+                                                        opacity: 1
+                                                      });
+                                                      count_animation = 0;
+                                                      jQuery('.status_percent').text('67%');
+                                                      rotate_one = 10;
+                                                      phaseOne = setInterval(function(){
+                                                        if (count_animation <= 53){
+                                                          jQuery('.draggable_v4').css({
+                                                            color: 'transparent',
+                                                            transform: 'scale(1.3) rotate('+rotate_one+'deg)',
+                                                            background: '#fff url(/wp-content/themes/mobile/img/mo_left.png) 0 0/100% no-repeat',
+                                                            opacity: 0.8
+                                                          });
+                                                          rotate_one += 1.5;
+                                                          count_animation += 1;
+                                                        } else if (count_animation <= 70) {
+                                                          count_animation += 1;
+                                                        } else {
+                                                          clearInterval(phaseOne);
+                                                          count_animation = 1;
+                                                          jQuery('.draggable_v4').css({
+                                                            color: '#FFF0C7',
+                                                            background: 'rgba(83, 35, 69, 0.4)',
+                                                            opacity: 1
+                                                          });
+                                                          count_animation = 0;
+                                                          jQuery('.status_percent').text('71%');
+                                                          rotate_one = 270;
+                                                          phaseOne = setInterval(function(){
+                                                            if (count_animation <= 60){
+                                                              jQuery('.draggable_v4').css({
+                                                                color: 'transparent',
+                                                                transform: 'scale(1.3) rotate('+rotate_one+'deg)',
+                                                                background: '#fff url(/wp-content/themes/mobile/img/mo_left.png) 0 0/100% no-repeat',
+                                                                opacity: 0.8
+                                                              });
+                                                              rotate_one += 1.5;
+                                                              count_animation += 1;
+                                                            } else if (count_animation <= 77) {
+                                                              count_animation += 1;
+                                                            } else {
+                                                              clearInterval(phaseOne);
+                                                              count_animation = 1;
+                                                              jQuery('.draggable_v4').css({
+                                                                color: '#FFF0C7',
+                                                                background: 'rgba(83, 35, 69, 0.4)',
+                                                                opacity: 1
+                                                              });
+                                                              count_animation = 0;
+                                                              jQuery('.status_percent').text('75%');
+                                                              rotate_one = 300;
+                                                              phaseOne = setInterval(function(){
+                                                                if (count_animation <= 40){
+                                                                  jQuery('.draggable_v4').css({
+                                                                    color: 'transparent',
+                                                                    transform: 'scale(1.3) rotate(-'+rotate_one+'deg)',
+                                                                    background: '#fff url(/wp-content/themes/mobile/img/mo_right.png) 0 0/100% no-repeat',
+                                                                    opacity: 0.8
+                                                                  });
+                                                                  rotate_one += 1.5;
+                                                                  count_animation += 1;
+                                                                } else if (count_animation <= 57) {
+                                                                  count_animation += 1;
+                                                                } else {
+                                                                  clearInterval(phaseOne);
+                                                                  count_animation = 1;
+                                                                  jQuery('.draggable_v4').css({
+                                                                    color: '#FFF0C7',
+                                                                    transform: 'scale(1)',
+                                                                    background: 'rgba(83, 35, 69, 0.4)',
+                                                                    opacity: 1
+                                                                  });
+                                                                  count_animation = 0;
+                                                                  rotate_one = 0;
+                                                                  jQuery('.status_percent').text('79%');
+                                                                  phaseOne = setInterval(function(){
+                                                                    if (count_animation <= 22){
+                                                                      jQuery('.draggable_v5').css({
+                                                                        color: 'transparent',
+                                                                        transform: 'scale(1.3) rotate(-'+rotate_one+'deg)',
+                                                                        background: '#fff url(/wp-content/themes/mobile/img/mo_right.png) 0 0/100% no-repeat',
+                                                                        opacity: 0.8
+                                                                      });
+                                                                      rotate_one += 1.5;
+                                                                      count_animation += 1;
+                                                                    } else if (count_animation <= 39) {
+                                                                      count_animation += 1;
+                                                                    } else {
+                                                                      clearInterval(phaseOne);
+                                                                      count_animation = 1;
+                                                                      jQuery('.draggable_v5').css({
+                                                                        color: '#FFF0C7',
+                                                                        background: 'rgba(83, 35, 69, 0.4)',
+                                                                        opacity: 1
+                                                                      });
+                                                                      count_animation = 0;
+                                                                      jQuery('.status_percent').text('83%');
+                                                                      rotate_one = 10;
+                                                                      phaseOne = setInterval(function(){
+                                                                        if (count_animation <= 53){
+                                                                          jQuery('.draggable_v5').css({
+                                                                            color: 'transparent',
+                                                                            transform: 'scale(1.3) rotate('+rotate_one+'deg)',
+                                                                            background: '#fff url(/wp-content/themes/mobile/img/mo_left.png) 0 0/100% no-repeat',
+                                                                            opacity: 0.8
+                                                                          });
+                                                                          rotate_one += 1.5;
+                                                                          count_animation += 1;
+                                                                        } else if (count_animation <= 70) {
+                                                                          count_animation += 1;
+                                                                        } else {
+                                                                          clearInterval(phaseOne);
+                                                                          count_animation = 1;
+                                                                          jQuery('.draggable_v5').css({
+                                                                            color: '#FFF0C7',
+                                                                            background: 'rgba(83, 35, 69, 0.4)',
+                                                                            opacity: 1
+                                                                          });
+                                                                          count_animation = 0;
+                                                                          jQuery('.status_percent').text('86%');
+                                                                          rotate_one = 270;
+                                                                          phaseOne = setInterval(function(){
+                                                                            if (count_animation <= 60){
+                                                                              jQuery('.draggable_v5').css({
+                                                                                color: 'transparent',
+                                                                                transform: 'scale(1.3) rotate('+rotate_one+'deg)',
+                                                                                background: '#fff url(/wp-content/themes/mobile/img/mo_left.png) 0 0/100% no-repeat',
+                                                                                opacity: 0.8
+                                                                              });
+                                                                              rotate_one += 1.5;
+                                                                              count_animation += 1;
+                                                                            } else if (count_animation <= 77) {
+                                                                              count_animation += 1;
+                                                                            } else {
+                                                                              clearInterval(phaseOne);
+                                                                              count_animation = 1;
+                                                                              jQuery('.draggable_v5').css({
+                                                                                color: '#FFF0C7',
+                                                                                background: 'rgba(83, 35, 69, 0.4)',
+                                                                                opacity: 1
+                                                                              });
+                                                                              count_animation = 0;
+                                                                              jQuery('.status_percent').text('89%');
+                                                                              rotate_one = 300;
+                                                                              phaseOne = setInterval(function(){
+                                                                                if (count_animation <= 40){
+                                                                                  jQuery('.draggable_v5').css({
+                                                                                    color: 'transparent',
+                                                                                    transform: 'scale(1.3) rotate(-'+rotate_one+'deg)',
+                                                                                    background: '#fff url(/wp-content/themes/mobile/img/mo_right.png) 0 0/100% no-repeat',
+                                                                                    opacity: 0.8
+                                                                                  });
+                                                                                  rotate_one += 1.5;
+                                                                                  count_animation += 1;
+                                                                                } else if (count_animation <= 57) {
+                                                                                  count_animation += 1;
+                                                                                } else {
+                                                                                  clearInterval(phaseOne);
+                                                                                  count_animation = 1;
+                                                                                  jQuery('.draggable_v5').css({
+                                                                                    color: '#FFF0C7',
+                                                                                    transform: 'scale(1)',
+                                                                                    background: 'rgba(83, 35, 69, 0.4)',
+                                                                                    opacity: 1
+                                                                                  });
+                                                                                  count_animation = 0;
+                                                                                  if (pausedStatus == true) {
+                                                                                    localStorage.setItem('paused', 'universal3');
+                                                                                    endNow()
+                                                                                  } else {
+                                                                                    universal3();
+                                                                                  } 
+                                                                                }
+                                                                              }, 1000);
+                                                                            }
+                                                                          }, 1000);
+                                                                        }
+                                                                      }, 1000);
+                                                                    }
+                                                                  }, 1000);
+                                                                }
+                                                              }, 1000);
+                                                            }
+                                                          }, 1000);
+                                                        }
+                                                      }, 1000);
+                                                    }
+                                                  }, 1000); 
+                                                }
+                                              }, 1000);
+                                            }
+                                          }, 1000);
+                                        }
+                                      }, 1000);
+                                    }
+                                  }, 1000);
+                                }
+                              }, 1000);
+                            }
+                          }, 1000);
+                        }
+                      }, 1000);
+                    }
+                  }, 1000);
+                }
+              }, 1000);
+            }
+          }, 1000);
+        }
+      }, 1000);
+    }
+  }, 1000); 
+}
 
 
 universal = function(){
@@ -15080,7 +17251,7 @@ universal = function(){
   jQuery('.status_pahaze_all').text('3');
   localStorage.setItem('pausedPhases', '3');
   localStorage.setItem('pausedProtName', 'Универсальный протокол');
-  jQuery('.status_percent').text('0%');
+  jQuery('.status_percent').text('3%');
   jQuery('.status_pahaze_now').text('1');
   jQuery('.zone_x, .zone_l').removeClass('hidden').css('transform', 'rotate(-90deg) scale(1.5)');
   console.log('Фаза 1/1');
@@ -15111,6 +17282,7 @@ universal = function(){
         opacity: 1
       });
       count_animation = 0;
+      jQuery('.status_percent').text('6%');
       phaseOne = setInterval(function(){
         if (count_animation <= 11){
           sideFormuls(count_animation, jQuery('.draggable_v2'));
@@ -15137,6 +17309,7 @@ universal = function(){
             opacity: 1
           });
           count_animation = 0;
+          jQuery('.status_percent').text('9%');
           phaseOne = setInterval(function(){
             if (count_animation <= 11){
               sideFormuls(count_animation, jQuery('.draggable_v3'));
@@ -15163,6 +17336,7 @@ universal = function(){
                 opacity: 1
               });
               count_animation = 0;
+              jQuery('.status_percent').text('12%');
               phaseOne = setInterval(function(){
                 if (count_animation <= 11){
                   sideFormuls(count_animation, jQuery('.draggable_v4'));
@@ -15189,6 +17363,7 @@ universal = function(){
                     opacity: 1
                   });
                   count_animation = 0;
+                  jQuery('.status_percent').text('14%');
                   phaseOne = setInterval(function(){
                     if (count_animation <= 11){
                       sideFormuls(count_animation, jQuery('.draggable_v5'));
@@ -15219,7 +17394,7 @@ universal = function(){
                         localStorage.setItem('paused', 'universal2');
                         endNow()
                       } else {
-                        onEnd();
+                        universal2();
                       }
                     }
                   }, 1000);
