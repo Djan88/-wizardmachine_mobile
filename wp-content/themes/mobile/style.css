@@ -132,7 +132,7 @@ div#recallbar, div#wpadminbar
   top: 5px;
   color: #fff;
   font-weight: 700;
-  font-size: 16px;
+  font-size: 18px;
   text-transform: uppercase;
 }
 .mode-item_title
@@ -411,9 +411,9 @@ input.crop_photo
   }
 }
 @media (max-width: 540px) {
-  .mobile_screen_protocols .protocols_item .mode-item_title
+  .protocols_item_8 span.protocols_item_title 
   {
-    font-size: 16px;
+    font-size: 10px;
   }
   .mode-item .mode-item_title
   {
