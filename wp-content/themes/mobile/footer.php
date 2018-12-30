@@ -9,7 +9,7 @@
                 </a>
               </li>
               <li>
-                <a href="#" class="row align-items-center user_avatar">
+                <a href="/kabinet" class="row align-items-center user_avatar">
                   <span class="menu_item_img"><?php echo get_avatar( $user_ID, 40 ); ?></span>Личный кабинет
                 </a>
               </li>
@@ -20,13 +20,13 @@
                 </a>
               </li>
               <?php } ?>
+              <li style="padding-left: 16px; text-align: center;">
+                <?php echo do_shortcode( '[theme_switcha_select text="Выберите версию"]' ); ?>
+              </li>
               <li>
                 <a href="<?php echo home_url(); ?>/wp-login.php?action=logout&amp;_wpnonce=a6cad512ba" class=" row align-items-center">
                   <span class="menu_item_img"><i class="fas fa-sign-out-alt"></i></span>Выход
                 </a>
-              </li>
-              <li style="padding-left: 16px;">
-                <?php echo do_shortcode( '[theme_switcha_select text="Выберите версию"]' ); ?>
               </li>
             </ul>
             <div class="credits">
