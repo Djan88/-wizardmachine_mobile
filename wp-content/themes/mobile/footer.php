@@ -25,6 +25,9 @@
                   <span class="menu_item_img"><i class="fas fa-sign-out-alt"></i></span>Выход
                 </a>
               </li>
+              <li>
+                <?php echo do_shortcode( '[theme_switcha_list display="list"]' ); ?>
+              </li>
             </ul>
             <div class="credits">
               <div class="credits_heading">Юрий Чикуров</div>
