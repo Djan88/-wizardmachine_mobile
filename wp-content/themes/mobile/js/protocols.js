@@ -17258,18 +17258,22 @@ universal = function(){
   console.log('Фаза 1/1');
   count_animation = 0;
   phaseOne = setInterval(function(){
-    if (count_animation <= 11){
+    if (count_animation <= 15){
       sideFormuls(count_animation, jQuery('.draggable_v1'));
       if (count_animation > 3 && count_animation <= 7) {
         jQuery('.draggable_v1').css({
           color: 'transparent',
           transform: 'scale(1.3)',
-          background: '#fff url(/wp-content/themes/mobile/img/veter.png) 0 0/100% no-repeat',
+          background: '#fff url(/wp-content/themes/mobile/img/disfunction.png) 0 0/100% no-repeat',
           opacity: 0.8
         });
       } else if (count_animation > 7 && count_animation <= 11) {
         jQuery('.draggable_v1').css({
-          background: '#fff url(/wp-content/themes/mobile/img/life_vater.png) 0 0/100% no-repeat'
+          background: '#fff url(/wp-content/themes/mobile/img/travma.png) 0 0/100% no-repeat'
+        });
+      } else if (count_animation > 11 && count_animation <= 15) {
+        jQuery('.draggable_v1').css({
+          background: '#fff url(/wp-content/themes/mobile/img/povregdenie_demona.png) 0 0/100% no-repeat'
         });
       }
       count_animation += 1;
@@ -17285,18 +17289,22 @@ universal = function(){
       count_animation = 0;
       jQuery('.status_percent').text('3%');
       phaseOne = setInterval(function(){
-        if (count_animation <= 11){
+        if (count_animation <= 15){
           sideFormuls(count_animation, jQuery('.draggable_v2'));
           if (count_animation > 3 && count_animation <= 7) {
             jQuery('.draggable_v2').css({
               color: 'transparent',
               transform: 'scale(1.3)',
-              background: '#fff url(/wp-content/themes/mobile/img/veter.png) 0 0/100% no-repeat',
+              background: '#fff url(/wp-content/themes/mobile/img/disfunction.png) 0 0/100% no-repeat',
               opacity: 0.8
             });
           } else if (count_animation > 7 && count_animation <= 11) {
             jQuery('.draggable_v2').css({
-              background: '#fff url(/wp-content/themes/mobile/img/life_vater.png) 0 0/100% no-repeat'
+              background: '#fff url(/wp-content/themes/mobile/img/travma.png) 0 0/100% no-repeat'
+            });
+          } else if (count_animation > 11 && count_animation <= 15) {
+            jQuery('.draggable_v2').css({
+              background: '#fff url(/wp-content/themes/mobile/img/povregdenie_demona.png) 0 0/100% no-repeat'
             });
           }
           count_animation += 1;
@@ -17312,18 +17320,22 @@ universal = function(){
           count_animation = 0;
           jQuery('.status_percent').text('6%');
           phaseOne = setInterval(function(){
-            if (count_animation <= 11){
+            if (count_animation <= 15){
               sideFormuls(count_animation, jQuery('.draggable_v3'));
               if (count_animation > 3 && count_animation <= 7) {
                 jQuery('.draggable_v3').css({
                   color: 'transparent',
                   transform: 'scale(1.3)',
-                  background: '#fff url(/wp-content/themes/mobile/img/veter.png) 0 0/100% no-repeat',
+                  background: '#fff url(/wp-content/themes/mobile/img/disfunction.png) 0 0/100% no-repeat',
                   opacity: 0.8
                 });
               } else if (count_animation > 7 && count_animation <= 11) {
                 jQuery('.draggable_v3').css({
-                  background: '#fff url(/wp-content/themes/mobile/img/life_vater.png) 0 0/100% no-repeat'
+                  background: '#fff url(/wp-content/themes/mobile/img/travma.png) 0 0/100% no-repeat'
+                });
+              } else if (count_animation > 11 && count_animation <= 15) {
+                jQuery('.draggable_v3').css({
+                  background: '#fff url(/wp-content/themes/mobile/img/povregdenie_demona.png) 0 0/100% no-repeat'
                 });
               }
               count_animation += 1;
@@ -17339,18 +17351,22 @@ universal = function(){
               count_animation = 0;
               jQuery('.status_percent').text('9%');
               phaseOne = setInterval(function(){
-                if (count_animation <= 11){
+                if (count_animation <= 15){
                   sideFormuls(count_animation, jQuery('.draggable_v4'));
                   if (count_animation > 3 && count_animation <= 7) {
                     jQuery('.draggable_v4').css({
                       color: 'transparent',
                       transform: 'scale(1.3)',
-                      background: '#fff url(/wp-content/themes/mobile/img/veter.png) 0 0/100% no-repeat',
+                      background: '#fff url(/wp-content/themes/mobile/img/disfunction.png) 0 0/100% no-repeat',
                       opacity: 0.8
                     });
                   } else if (count_animation > 7 && count_animation <= 11) {
                     jQuery('.draggable_v4').css({
-                      background: '#fff url(/wp-content/themes/mobile/img/life_vater.png) 0 0/100% no-repeat'
+                      background: '#fff url(/wp-content/themes/mobile/img/travma.png) 0 0/100% no-repeat'
+                    });
+                  } else if (count_animation > 11 && count_animation <= 15) {
+                    jQuery('.draggable_v4').css({
+                      background: '#fff url(/wp-content/themes/mobile/img/povregdenie_demona.png) 0 0/100% no-repeat'
                     });
                   }
                   count_animation += 1;
@@ -17366,18 +17382,22 @@ universal = function(){
                   count_animation = 0;
                   jQuery('.status_percent').text('12%');
                   phaseOne = setInterval(function(){
-                    if (count_animation <= 11){
+                    if (count_animation <= 15){
                       sideFormuls(count_animation, jQuery('.draggable_v5'));
                       if (count_animation > 3 && count_animation <= 7) {
                         jQuery('.draggable_v5').css({
                           color: 'transparent',
                           transform: 'scale(1.3)',
-                          background: '#fff url(/wp-content/themes/mobile/img/veter.png) 0 0/100% no-repeat',
+                          background: '#fff url(/wp-content/themes/mobile/img/disfunction.png) 0 0/100% no-repeat',
                           opacity: 0.8
                         });
                       } else if (count_animation > 7 && count_animation <= 11) {
                         jQuery('.draggable_v5').css({
-                          background: '#fff url(/wp-content/themes/mobile/img/life_vater.png) 0 0/100% no-repeat'
+                          background: '#fff url(/wp-content/themes/mobile/img/travma.png) 0 0/100% no-repeat'
+                        });
+                      } else if (count_animation > 11 && count_animation <= 15) {
+                        jQuery('.draggable_v5').css({
+                          background: '#fff url(/wp-content/themes/mobile/img/povregdenie_demona.png) 0 0/100% no-repeat'
                         });
                       }
                       count_animation += 1;
@@ -17391,12 +17411,13 @@ universal = function(){
                         opacity: 1
                       });
                       count_animation = 0;
+                      count_animation = 0;
                       if (pausedStatus == true) {
                         localStorage.setItem('paused', 'universal2');
                         endNow()
                       } else {
                         universal2();
-                      }
+                      } 
                     }
                   }, 1000);
                 }
