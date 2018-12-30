@@ -26,7 +26,7 @@
                 </a>
               </li>
               <li>
-                <a href="<?php echo home_url(); ?>/?theme=twentynineteen" class=" row align-items-center">
+                <a href="<?php echo home_url(); ?>/?theme=twentysixteen" class=" row align-items-center">
                   <span class="menu_item_img"><i class="fas fa-sign-out-alt"></i></span>Старая версия
                 </a>
               </li>
