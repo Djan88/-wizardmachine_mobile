@@ -26,7 +26,7 @@
                 </a>
               </li>
               <li>
-                <?php echo do_shortcode( '[theme_switcha_list display="list"]' ); ?>
+                <?php echo do_shortcode( '[theme_switcha_select text="Выберите версию"]' ); ?>
               </li>
             </ul>
             <div class="credits">
