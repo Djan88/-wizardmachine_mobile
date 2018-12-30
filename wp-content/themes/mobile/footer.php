@@ -25,10 +25,8 @@
                   <span class="menu_item_img"><i class="fas fa-sign-out-alt"></i></span>Выход
                 </a>
               </li>
-              <li>
-                <a href="<?php echo home_url(); ?>/?theme=twentysixteen" class=" row align-items-center">
-                  <span class="menu_item_img"><i class="fas fa-sign-out-alt"></i></span>Старая версия
-                </a>
+              <li style="padding-left: 16px;">
+                <?php echo do_shortcode( '[theme_switcha_select text="Выберите версию"]' ); ?>
               </li>
             </ul>
             <div class="credits">
