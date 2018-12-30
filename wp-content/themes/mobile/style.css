@@ -166,7 +166,7 @@ div#recallbar, div#wpadminbar
 {
   margin: 2px 0;
 }
-.main_menu li a
+.main_menu li a, .main_menu li select
 {
   font-size: 12px;
   text-transform: uppercase;
@@ -182,6 +182,10 @@ div#recallbar, div#wpadminbar
   text-decoration: none;
   color: #FDCD6D;
   background: #673158;
+}
+.main_menu li select
+{
+  
 }
 span.menu_item_img 
 {

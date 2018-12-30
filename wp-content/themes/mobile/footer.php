@@ -26,7 +26,9 @@
                 </a>
               </li>
               <li>
-                <?php echo do_shortcode( '[theme_switcha_select text="Выберите версию"]' ); ?>
+                <a href="<?php echo home_url(); ?>/?theme=twentynineteen" class=" row align-items-center">
+                  <span class="menu_item_img"><i class="fas fa-sign-out-alt"></i></span>Старая версия
+                </a>
               </li>
             </ul>
             <div class="credits">
