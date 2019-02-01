@@ -99,6 +99,7 @@ jQuery(document).ready(function () {
     jQuery('.header-title').text('Перенесите зоны на фото');
     jQuery('.mobile_screen_protocols').addClass('hidden').css('display', 'none');
     jQuery('.mobile_screen_final').fadeIn(500);
+
     jQuery('.btn-to_mode, .btn-to_manual').addClass('hidden');
     jQuery('.btn-to_protocols, .btn_man_with_zones, .btn_start').removeClass('hidden');
     jQuery('.zone_final').css('height', jQuery('.zone_final').css('width'));
@@ -162,12 +163,22 @@ jQuery(document).ready(function () {
   // --------
 
   // Protocol mode
+
+  // jQuery('.mode-item_protocol').on('click', function(event) {
+  //   jQuery('.header-title').text('Выберите протокол');
+  //   jQuery('.mobile_screen_what_way').addClass('hidden').css('display', 'none');
+  //   jQuery('.mobile_screen_protocols').fadeIn(500);
+  //   jQuery('.btn-to_img').addClass('hidden');
+  //   jQuery('.btn-to_mode').removeClass('hidden');
+  // });
   jQuery('.mode-item_protocol').on('click', function(event) {
-    jQuery('.header-title').text('Выберите протокол');
-    jQuery('.mobile_screen_what_way').addClass('hidden').css('display', 'none');
-    jQuery('.mobile_screen_protocols').fadeIn(500);
+    jQuery('.header-title').text('Перенесите зоны на фото');
     jQuery('.btn-to_img').addClass('hidden');
-    jQuery('.btn-to_mode').removeClass('hidden');
+    jQuery('.mobile_screen_what_way').addClass('hidden').css('display', 'none');
+    jQuery('.mobile_screen_final').fadeIn(500);
+    jQuery('.btn-to_protocols, .btn_man_with_zones, .btn_start').removeClass('hidden');
+    jQuery('.zone_final').css('height', jQuery('.zone_final').css('width'));
+
   });
   jQuery('.btn_protocols').on('click', function(event) {
     jQuery('.header-title').text('Выберите протокол');
