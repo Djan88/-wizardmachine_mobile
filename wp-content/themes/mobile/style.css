@@ -249,7 +249,7 @@ span.menu_item_img
   width: 80%;
   display: inline-block;
   margin: auto;
-  max-width: 600px;
+  max-width: 400px;
   padding: 0;
   padding-right: 5px;
   padding-bottom: 10px;
@@ -407,6 +407,22 @@ input.crop_photo
     -webkit-transition: width 0.5s linear;
     -moz-transition: width 0.5s linear;
     transition: width 0.5s linear;
+}
+.subscriber_info 
+{
+  padding-top: 75px;
+  color: #eee;
+  text-align: center;
+  font-size: 18px;
+}
+.cab_sidebar
+{
+  display: none!important;
+}
+.toRegistration, .toLogin 
+{
+  color: #007bff;
+  font-weight: bold;
 }
 @media (min-width: 600px) {
   .sweet-alert

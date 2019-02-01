@@ -33,7 +33,11 @@
             </div>
             <div class="col-4 header-title">
               <?php if(is_user_logged_in()) { ?>
-                Загрузите фото
+                <?php if(current_user_can('contributor') || current_user_can('administrator')) { ?>
+                  Загрузите фото
+                <?php } else { ?>
+                  Приветствуем в "WizardMachine"
+                <?php } ?>
               <?php } else { ?>
                 Вход
               <?php } ?>
@@ -50,7 +54,7 @@
                 <i class="fab fa-react"></i>
               </button>
               <button type="button" class="btn btn-lg btn-link clear_graph hidden justify-content-end">
-                <i class="far fa-trash-alt"></i>
+                <i class="fas fa-broom"></i>
               </button>
               <button type="button" class="btn btn-lg btn-link btn_protocols hidden justify-content-end">
                 <i class="far fa-check-square"></i>
