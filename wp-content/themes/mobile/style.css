@@ -322,7 +322,9 @@ span.menu_item_img
 }
 .zones
 {
-  background: #673158;
+  background-color: #450915;
+  background-image: url(img/bg.jpg);
+  border: 1px solid #ac4550;
   box-shadow: 0 .5rem 1rem rgba(0,0,0,.15)!important;
   padding: 5px 0 10px;
   border-radius: 6px;
@@ -338,7 +340,7 @@ span.menu_item_img
 {
   z-index: 500;
   cursor: pointer;
-  background: #522345;
+  background: #450915;
   border: 1px solid #FFF0C7;
   border-radius: 50%;
   display: inline-block;
