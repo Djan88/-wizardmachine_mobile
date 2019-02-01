@@ -119,8 +119,8 @@ div#recallbar, div#wpadminbar
   border: 1px solid #f7cb52;
   border-radius: 6px;
   cursor: pointer;
-  background: #795371;
-  background: linear-gradient(#6c586f, #4d2449);
+  background-image: url(img/bg.jpg);
+  background-size: 250%;
   box-shadow: 0 .5rem 1rem rgba(0,0,0,.15)!important;
 }
 .protocols_item.active, .mode-item.active
