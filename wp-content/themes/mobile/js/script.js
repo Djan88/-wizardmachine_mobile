@@ -173,7 +173,7 @@ jQuery(document).ready(function () {
   // });
   jQuery('.mode-item_protocol').on('click', function(event) {
     jQuery('.header-title').text('Перенесите зоны на фото');
-    jQuery('.btn-to_img').addClass('hidden');
+    jQuery('.btn-to_img, .btn-to_protocols').addClass('hidden');
     jQuery('.btn-to_mode').removeClass('hidden');
     jQuery('.mobile_screen_what_way').addClass('hidden').css('display', 'none');
     jQuery('.mobile_screen_final').fadeIn(500);
