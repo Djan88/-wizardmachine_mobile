@@ -12,8 +12,6 @@ html
 #content
 {
   color: #ceb6b8;
-  background-color: #450915;
-  background-image: url(../img/bg.jpg);
   min-height: 100vh;
 }
 div#recallbar, div#wpadminbar
@@ -22,16 +20,18 @@ div#recallbar, div#wpadminbar
 }
 .wrapper
 {
-  background: #EDEDED;
+  background-color: #450915;
+  background-image: url(img/bg.jpg);
   position: relative;
   font-family: "Roboto",helvetica,arial,sans-serif;
   font-weight: 300;
 }
 .header
 {
-  background: #673158;
   height: 70px;
-  background: linear-gradient(#391E3D, #4d2449);
+  color: #ceb6b8;
+  background-color: #450915;
+  background-image: url(img/bg.jpg);
 }
 .header-title
 {
