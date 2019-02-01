@@ -79,7 +79,7 @@
 						<div class="row">
 							<div class="col-1 col-md-3 col-lg-1 text_center"></div>
 							<div class="col-10 col-md-6 col-lg-4 text_center mode-item mode-item_protocol">
-								<span class="mode-item_title">Выбор протокола</span>
+								<span class="mode-item_title">Лечебное "Tarot"</span>
 								<div class="mode-item_img">
 									<i class="far fa-check-square"></i>
 								</div>
@@ -87,7 +87,7 @@
 							<div class="col-1 text_center"></div>
 							<div class="col-1 col-md-3 col-lg-1 text_center"></div>
 							<div class="col-10 col-md-6 col-lg-4 text_center mode-item mode-item_manual">
-								<span class="mode-item_title">Ручная диагностика</span>
+								<span class="mode-item_title">Альтернативный режим</span>
 								<div class="mode-item_img">
 									<i class="fas fa-fingerprint"></i>
 								</div>
