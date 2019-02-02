@@ -206,45 +206,49 @@
 				<div class="row protocols_info">
 					<div class="col text_center">
 						<div class="row justify-content-center">
-							<div class="col-6 text_center zones">
+							<div class="col-12">
 								<div class="row">
-									<div class="col zone_holder">
-										<div class="status status_percent_wrap hidden">
-											Выполнено: <span class="status_percent">0%</span>
+									<div class="col-6 text_center zones">
+										<div class="row">
+											<div class="col zone_holder">
+												<div class="status status_percent_wrap hidden">
+													Выполнено: <span class="status_percent">0%</span>
+												</div>
+												<div class="zone zone_movable draggable draggable_lovushka"></div>
+												<div class="zone zone_movable draggable draggable_d2">D2</div>
+												<div class="zone zone_movable draggable draggable_d2_1">D2 <span>н</span></div>
+												<div class="zone zone_movable draggable draggable_d3">D3</div>
+												<div class="zone zone_movable draggable draggable_d4">D4</div>
+												<div class="zone zone_movable draggable draggable_d5">D5</div>
+												<!-- <div class="zone zone_movable draggable draggable_d6">D6</div> -->
+												<div class="zone zone_final zone_x hidden"></div>
+											</div>
+											<div class="col zone_holder">
+												<div class="status status_title hidden"></div>
+												<div class="zone zone_movable draggable draggable_v0">V0</div>
+												<div class="zone zone_movable draggable draggable_v1">V1</div>
+												<div class="zone zone_movable draggable draggable_v2">V2</div>
+												<div class="zone zone_movable draggable draggable_v3">V3</div>
+												<div class="zone zone_movable draggable draggable_v4">V4</div>
+												<div class="zone zone_movable draggable draggable_v5">V5</div>
+												<div class="zone zone_movable draggable draggable_v-">V-</div>
+											</div>
+											<div class="col zone_holder">
+												<div class="status status_pahaze hidden">
+													Фаза: 
+													<span class="status_pahaze_now">0</span>
+													<span class="status_pahaze_to"> из </span>
+													<span class="status_pahaze_all">0</span>
+												</div>
+												<div class="zone zone_movable draggable draggable_s2">S2</div>
+												<div class="zone zone_movable draggable draggable_s2_1">S2 <span>н</span></div>
+												<div class="zone zone_movable draggable draggable_s3">S3</div>
+												<div class="zone zone_movable draggable draggable_s4">S4</div>
+												<div class="zone zone_movable draggable draggable_s5">S5</div>
+												<!-- <div class="zone zone_movable draggable draggable_s6">S6</div> -->
+												<div class="zone zone_movable zone_final zone_l hidden"></div>
+											</div>
 										</div>
-										<div class="zone zone_movable draggable draggable_lovushka"></div>
-										<div class="zone zone_movable draggable draggable_d2">D2</div>
-										<div class="zone zone_movable draggable draggable_d2_1">D2 <span>н</span></div>
-										<div class="zone zone_movable draggable draggable_d3">D3</div>
-										<div class="zone zone_movable draggable draggable_d4">D4</div>
-										<div class="zone zone_movable draggable draggable_d5">D5</div>
-										<!-- <div class="zone zone_movable draggable draggable_d6">D6</div> -->
-										<div class="zone zone_final zone_x hidden"></div>
-									</div>
-									<div class="col zone_holder">
-										<div class="status status_title hidden"></div>
-										<div class="zone zone_movable draggable draggable_v0">V0</div>
-										<div class="zone zone_movable draggable draggable_v1">V1</div>
-										<div class="zone zone_movable draggable draggable_v2">V2</div>
-										<div class="zone zone_movable draggable draggable_v3">V3</div>
-										<div class="zone zone_movable draggable draggable_v4">V4</div>
-										<div class="zone zone_movable draggable draggable_v5">V5</div>
-										<div class="zone zone_movable draggable draggable_v-">V-</div>
-									</div>
-									<div class="col zone_holder">
-										<div class="status status_pahaze hidden">
-											Фаза: 
-											<span class="status_pahaze_now">0</span>
-											<span class="status_pahaze_to"> из </span>
-											<span class="status_pahaze_all">0</span>
-										</div>
-										<div class="zone zone_movable draggable draggable_s2">S2</div>
-										<div class="zone zone_movable draggable draggable_s2_1">S2 <span>н</span></div>
-										<div class="zone zone_movable draggable draggable_s3">S3</div>
-										<div class="zone zone_movable draggable draggable_s4">S4</div>
-										<div class="zone zone_movable draggable draggable_s5">S5</div>
-										<!-- <div class="zone zone_movable draggable draggable_s6">S6</div> -->
-										<div class="zone zone_movable zone_final zone_l hidden"></div>
 									</div>
 								</div>
 							</div>
