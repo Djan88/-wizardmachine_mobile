@@ -252,13 +252,15 @@
 									</div>
 								</div>
 							</div>
-							<div class="row justify-content-center">
-								<div class="col-3"></div>
-								<div class="col-6 text_center zone_diag">
-									<img class="loaded_img" src="" alt="">
-									<div class="paranja"></div>
+							<div class="col-12">
+								<div class="row justify-content-center">
+									<div class="col-3"></div>
+									<div class="col-6 text_center zone_diag">
+										<img class="loaded_img" src="" alt="">
+										<div class="paranja"></div>
+									</div>
+									<div class="col-3"></div>
 								</div>
-								<div class="col-3"></div>
 							</div>
 							<div class="col-12 text_center">
 								<button class="btn btn-primary btn_start"><i class="fab fa-react"></i> Выполнить</button>
