@@ -207,7 +207,7 @@
 					<div class="col text_center">
 						<div class="row justify-content-center">
 							<div class="col-12">
-								<div class="row">
+								<div class="row justify-content-center">
 									<div class="col-6 text_center zones">
 										<div class="row">
 											<div class="col zone_holder">
