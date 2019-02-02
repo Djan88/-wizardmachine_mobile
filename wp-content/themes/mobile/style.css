@@ -324,6 +324,7 @@ span.menu_item_img
 {
   background-color: #450915;
   background-image: url(img/bg.jpg);
+  background-size: 100%;
   border: 1px solid #ac4550;
   box-shadow: 0 .5rem 1rem rgba(0,0,0,.15)!important;
   padding: 5px 0 10px;

@@ -65,4 +65,4 @@
             </div>
           </div>
           <div id="content" class="content row">
-            <div class="col col-md-2 col-lg-3 col-xl-3"></div>
+            <div class="col col-md-1 col-lg-1 col-xl-1"></div>

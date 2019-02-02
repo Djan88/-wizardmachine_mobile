@@ -1,7 +1,7 @@
 <?php get_header(); ?>
 <?php if(is_page(183)) { ?>
 	<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
-	<div class="col col-12 col-sm-12 col-md-8 col-lg-6 col-xl-6 protocols">
+	<div class="col col-12 col-sm-12 col-md-10 col-lg-6 col-xl-10 protocols">
 		<article id="post-<?php the_ID(); ?>" <?php post_class( 'cf' ); ?> role="article">
 
 			<section class="entry-content cf">
@@ -29,7 +29,7 @@
 
 	<?php endif; ?>
 <?php } else { ?>
-	<div class="col col-12 col-sm-12 col-md-8 col-lg-6 col-xl-6 protocols">
+	<div class="col col-12 col-sm-12 col-md-10 col-lg-6 col-xl-10 protocols">
 		<?php if(is_user_logged_in()){ ?>
 
 			<?php
@@ -206,7 +206,7 @@
 				<div class="row protocols_info">
 					<div class="col text_center">
 						<div class="row justify-content-center">
-							<div class="col-12 text_center zones">
+							<div class="col-6 text_center zones">
 								<div class="row">
 									<div class="col zone_holder">
 										<div class="status status_percent_wrap hidden">
@@ -214,10 +214,11 @@
 										</div>
 										<div class="zone zone_movable draggable draggable_lovushka"></div>
 										<div class="zone zone_movable draggable draggable_d2">D2</div>
+										<div class="zone zone_movable draggable draggable_d2_1">D2 <span>н</span></div>
 										<div class="zone zone_movable draggable draggable_d3">D3</div>
 										<div class="zone zone_movable draggable draggable_d4">D4</div>
 										<div class="zone zone_movable draggable draggable_d5">D5</div>
-										<div class="zone zone_movable draggable draggable_d6">D6</div>
+										<!-- <div class="zone zone_movable draggable draggable_d6">D6</div> -->
 										<div class="zone zone_final zone_x hidden"></div>
 									</div>
 									<div class="col zone_holder">
@@ -238,10 +239,11 @@
 											<span class="status_pahaze_all">0</span>
 										</div>
 										<div class="zone zone_movable draggable draggable_s2">S2</div>
+										<div class="zone zone_movable draggable draggable_s2_1">S2 <span>н</span></div>
 										<div class="zone zone_movable draggable draggable_s3">S3</div>
 										<div class="zone zone_movable draggable draggable_s4">S4</div>
 										<div class="zone zone_movable draggable draggable_s5">S5</div>
-										<div class="zone zone_movable draggable draggable_s6">S6</div>
+										<!-- <div class="zone zone_movable draggable draggable_s6">S6</div> -->
 										<div class="zone zone_movable zone_final zone_l hidden"></div>
 									</div>
 								</div>
