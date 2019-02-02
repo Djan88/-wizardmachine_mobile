@@ -216,7 +216,7 @@
 												</div>
 												<div class="zone zone_movable draggable draggable_lovushka"></div>
 												<div class="zone zone_movable draggable draggable_d2">D2</div>
-												<div class="zone zone_movable draggable draggable_d2_1">D2 <span>н</span></div>
+												<div class="zone zone_movable zone_down draggable draggable_d2_1">D2 <span>н</span></div>
 												<div class="zone zone_movable draggable draggable_d3">D3</div>
 												<div class="zone zone_movable draggable draggable_d4">D4</div>
 												<div class="zone zone_movable draggable draggable_d5">D5</div>
@@ -241,7 +241,7 @@
 													<span class="status_pahaze_all">0</span>
 												</div>
 												<div class="zone zone_movable draggable draggable_s2">S2</div>
-												<div class="zone zone_movable draggable draggable_s2_1">S2 <span>н</span></div>
+												<div class="zone zone_movable zone_down draggable draggable_s2_1">S2 <span>н</span></div>
 												<div class="zone zone_movable draggable draggable_s3">S3</div>
 												<div class="zone zone_movable draggable draggable_s4">S4</div>
 												<div class="zone zone_movable draggable draggable_s5">S5</div>
