@@ -30,7 +30,7 @@ jQuery(document).ready(function () {
   });
   jQuery( ".draggable_y" ).draggable({
       snap: false,
-      containment: '.diagnostic_container',
+      containment: '.drag_container',
       axis: "y",
       drag: function() {
         dragger = jQuery('.draggable_y').css('top');
