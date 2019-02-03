@@ -214,24 +214,26 @@
 												<div class="status status_percent_wrap hidden">
 													Выполнено: <span class="status_percent">0%</span>
 												</div>
-												<div class="zone zone_movable draggable draggable_lovushka"></div>
-												<div class="zone zone_movable draggable draggable_d2">D2</div>
-												<div class="zone zone_movable zone_down draggable draggable_d2_1">D2 <span>н</span></div>
-												<div class="zone zone_movable draggable draggable_d3">D3</div>
-												<div class="zone zone_movable draggable draggable_d4">D4</div>
-												<div class="zone zone_movable draggable draggable_d5">D5</div>
+												<!-- <div class="zone zone_movable draggable draggable_lovushka"></div> -->
+												<div class="zone zone_movable draggable draggable_d2">XXI</div>
+												<div class="zone zone_movable zone_down draggable draggable_d2_1">XIII</div>
+												<div class="zone zone_movable draggable draggable_d3">XI</div>
+												<div class="zone zone_movable draggable draggable_d4">IV</div>
+												<div class="zone zone_movable draggable draggable_d5">XII</div>
 												<!-- <div class="zone zone_movable draggable draggable_d6">D6</div> -->
-												<div class="zone zone_final zone_x hidden"></div>
+												<!-- <div class="zone zone_final zone_x hidden"></div> -->
 											</div>
 											<div class="col zone_holder">
 												<div class="status status_title hidden"></div>
-												<div class="zone zone_movable draggable draggable_v0">V0</div>
-												<div class="zone zone_movable draggable draggable_v1">V1</div>
-												<div class="zone zone_movable draggable draggable_v2">V2</div>
-												<div class="zone zone_movable draggable draggable_v3">V3</div>
-												<div class="zone zone_movable draggable draggable_v4">V4</div>
-												<div class="zone zone_movable draggable draggable_v5">V5</div>
-												<div class="zone zone_movable draggable draggable_v-">V-</div>
+												<div class="zone zone_movable draggable draggable_v0">XVII</div>
+												<div class="zone zone_movable draggable draggable_v1">I</div>
+												<div class="zone zone_movable draggable draggable_v2">II</div>
+												<div class="zone zone_movable draggable draggable_v3">VIII</div>
+												<div class="zone zone_movable draggable draggable_v3-4">IX</div>
+												<div class="zone zone_movable draggable draggable_v4">X</div>
+												<div class="zone zone_movable draggable draggable_v4-5">XIV</div>
+												<div class="zone zone_movable draggable draggable_v5">0</div>
+												<div class="zone zone_movable draggable draggable_v-">XVIII</div>
 											</div>
 											<div class="col zone_holder">
 												<div class="status status_pahaze hidden">
@@ -240,13 +242,13 @@
 													<span class="status_pahaze_to"> из </span>
 													<span class="status_pahaze_all">0</span>
 												</div>
-												<div class="zone zone_movable draggable draggable_s2">S2</div>
-												<div class="zone zone_movable zone_down draggable draggable_s2_1">S2 <span>н</span></div>
-												<div class="zone zone_movable draggable draggable_s3">S3</div>
-												<div class="zone zone_movable draggable draggable_s4">S4</div>
-												<div class="zone zone_movable draggable draggable_s5">S5</div>
+												<div class="zone zone_movable draggable draggable_s2">VII</div>
+												<div class="zone zone_movable zone_down draggable draggable_s2_1">XX</div>
+												<div class="zone zone_movable draggable draggable_s3">III</div>
+												<div class="zone zone_movable draggable draggable_s4">V</div>
+												<div class="zone zone_movable draggable draggable_s5">VI</div>
 												<!-- <div class="zone zone_movable draggable draggable_s6">S6</div> -->
-												<div class="zone zone_movable zone_final zone_l hidden"></div>
+												<!-- <div class="zone zone_movable zone_final zone_l hidden"></div> -->
 											</div>
 										</div>
 									</div>
