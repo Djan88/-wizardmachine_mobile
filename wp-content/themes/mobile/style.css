@@ -383,6 +383,11 @@ span.menu_item_img
 {
   padding: 0!important;
 }
+.card_solis
+{
+  bottom: 0;
+  position: absolute;
+}
 .status
 {
   position: absolute;
