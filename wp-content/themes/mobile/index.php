@@ -257,14 +257,14 @@
 							<div class="col-12">
 								<div class="row justify-content-center">
 									<div class="col-3 no-padding drag_container">
-										<img src="img/cards/solis.png" alt="" class="card">
+										<img src="<?php echo get_template_directory_uri(); ?>/img/cards/solis.png" alt="" class="card">
 									</div>
 									<div class="col-6 text_center zone_diag">
 										<img class="loaded_img" src="" alt="">
 										<div class="paranja"></div>
 									</div>
 									<div class="col-3 no-padding drag_container">
-										<img src="img/cards/devil.png" alt="" class="card draggable draggable_y">
+										<img src="<?php echo get_template_directory_uri(); ?>/img/cards/devil.png" alt="" class="card draggable draggable_y">
 									</div>
 								</div>
 							</div>
