@@ -267,7 +267,7 @@ span.menu_item_img
   max-width: 400px;
   padding: 0;
   padding-right: 5px;
-  padding-bottom: 10px;
+  /*padding-bottom: 10px;*/
   -webkit-user-select: none;
   -moz-user-select: none;
   -ms-user-select: none;
@@ -386,6 +386,7 @@ span.menu_item_img
 .card_solis
 {
   bottom: 0;
+  right: 0;
   position: absolute;
 }
 .status

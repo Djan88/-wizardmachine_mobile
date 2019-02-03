@@ -9,6 +9,7 @@ jQuery(document).ready(function () {
       dragger_rate_class_dotted,
       draggerDateOld = null,
       number_of_points,
+      img_heigth,
       supportsStorage = function(){
           try {
               return 'localStorage' in window && window['localStorage'] !== null;
@@ -33,19 +34,20 @@ jQuery(document).ready(function () {
       containment: '.drag_container',
       axis: "y",
       drag: function() {
-        dragger = jQuery('.draggable_y').css('top');
-        dragger = dragger.substr(0, dragger.length - 2);
-        draggerDate = new Date();
-        draggerDateDiff = draggerDate - draggerDateOld;
-        console.log(draggerDateDiff);
-        dragger_rate_class = 'dragger_rate-'+dragger;
-        dragger_rate_class_dotted = '.dragger_rate-'+dragger;
-        jQuery('.diagnostic_rezult').append('<div class='+dragger_rate_class+'></div>');
-        jQuery(dragger_rate_class_dotted).addClass('dragger_rate').css({
-            top: +dragger+15+'px',
-            width: draggerDateDiff*2+'px'
-        });
-        draggerDateOld = draggerDate;
+          jQuery('.card_solis').css('bottom', jQuery('.card_devil').css('top'));
+        // dragger = jQuery('.draggable_y').css('top');
+        // dragger = dragger.substr(0, dragger.length - 2);
+        // draggerDate = new Date();
+        // draggerDateDiff = draggerDate - draggerDateOld;
+        // console.log(draggerDateDiff);
+        // dragger_rate_class = 'dragger_rate-'+dragger;
+        // dragger_rate_class_dotted = '.dragger_rate-'+dragger;
+        // jQuery('.diagnostic_rezult').append('<div class='+dragger_rate_class+'></div>');
+        // jQuery(dragger_rate_class_dotted).addClass('dragger_rate').css({
+        //     top: +dragger+15+'px',
+        //     width: draggerDateDiff*2+'px'
+        // });
+        // draggerDateOld = draggerDate;
       }
   });
 
@@ -172,6 +174,7 @@ jQuery(document).ready(function () {
   //   jQuery('.btn-to_mode').removeClass('hidden');
   // });
   jQuery('.mode-item_protocol').on('click', function(event) {
+    // img_heigth = jQuery('.loaded_img').css('height');
     jQuery('.header-title').text('Перенесите зоны на фото');
     jQuery('.btn-to_img, .btn-to_protocols').addClass('hidden');
     jQuery('.btn-to_mode, .btn_man_with_zones, .btn_start').removeClass('hidden');
