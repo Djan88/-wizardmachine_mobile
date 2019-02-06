@@ -20,8 +20,8 @@ div#recallbar, div#wpadminbar
 }
 .wrapper
 {
-  background-color: #450915;
-  background-image: url(img/bg.jpg);
+  background-color: #E4E4E8;
+  /*background-image: url(img/bg.jpg);*/
   position: relative;
   font-family: "Roboto",helvetica,arial,sans-serif;
   font-weight: 300;
@@ -30,9 +30,9 @@ div#recallbar, div#wpadminbar
 {
   height: 70px;
   color: #ceb6b8;
-  background-color: #450915;
-  background-image: url(img/bg.jpg);
-  text-shadow: 0 -1px 0 rgba(0,0,0,.15);
+  background-color: #2b303b;
+  /*background-image: url(img/bg.jpg);*/
+  /*text-shadow: 0 -1px 0 rgba(0,0,0,.15);*/
   box-shadow: 0 1px 0 rgba(255,255,255,.1);
   border-bottom: 1px solid #080808;
 }
@@ -63,7 +63,11 @@ div#recallbar, div#wpadminbar
 }
 .header .btn
 {
-  color:#fff;
+  color: #606777;
+}
+.header .btn:hover
+{
+  color: #ffffff;
 }
 .hidden
 {
