@@ -186,12 +186,14 @@ jQuery(document).ready(function () {
 
     card_heigth = parseInt(jQuery('.card_solis').css('height'))/2;
     card_width = parseInt(jQuery('.card_solis').css('width'))/2;
+    drag_zone_w = parseInt(jQuery('.drag_container').css('width'));
+    diag_zone_w = parseInt(jQuery('.zone_diag').css('width'));
 
     jQuery('.line_area').attr('height', parseInt(jQuery('.work-area').css('height')));
     jQuery('.line_area').attr('width', parseInt(jQuery('.work-area').css('width')));
     solis_x = jQuery('.card_solis').position().left + card_width;
     solis_y = jQuery('.card_solis').position().top + card_heigth;
-    devil_x = jQuery('.card_devil').position().left + card_width + jQuery('.drag_container').css('width') + jQuery('.zone_diag').css('width');
+    devil_x = jQuery('.card_devil').position().left + card_width + drag_zone_w + diag_zone_w;
     devil_y = jQuery('.card_devil').position().top + card_heigth;
 
     jQuery('.line').attr('x1', solis_x);
