@@ -99,6 +99,7 @@ div#recallbar, div#wpadminbar
   position: fixed;
   width: 100%;
   z-index: 598;
+  box-shadow: 0 .5rem 1rem rgba(0,0,0,.15)!important;
 }
 .content
 {
@@ -338,10 +339,10 @@ span.menu_item_img
 }
 .zones
 {
-  background-color: #450915;
-  background-image: url(img/bg.jpg);
+  background-color: #606777;
+  /*background-image: url(img/bg.jpg);*/
   background-size: 100%;
-  border: 1px solid #ac4550;
+  /*border: 1px solid #ac4550;*/
   box-shadow: 0 .5rem 1rem rgba(0,0,0,.15)!important;
   padding: 5px 0 10px;
   border-radius: 6px;
