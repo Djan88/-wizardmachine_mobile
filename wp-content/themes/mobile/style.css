@@ -279,6 +279,7 @@ span.menu_item_img
 .line_area
 {
   position: absolute;
+  z-index: 450;
   left: 0;
   top: 0;
 }
@@ -398,6 +399,7 @@ span.menu_item_img
   bottom: 0;
   right: 0;
   position: absolute;
+  z-index: 500;
 }
 .status
 {
