@@ -194,7 +194,10 @@ jQuery(document).ready(function () {
     devil_x = jQuery('.card_devil').position().left + card_width;
     devil_y = jQuery('.card_devil').position().top + card_heigth;
 
-    jQuery('.line').attr('x1', solis_x).attr('y1', solis_y).attr('x2', devil_x).attr('y2', devil_y);
+    jQuery('.line').attr('x1', solis_x);
+    jQuery('.line').attr('y1', solis_y);
+    jQuery('.line').attr('x2', devil_x);
+    jQuery('.line').attr('y2', devil_y);
     
 
   });
