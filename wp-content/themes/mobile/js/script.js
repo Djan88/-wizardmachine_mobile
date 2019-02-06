@@ -10,6 +10,15 @@ jQuery(document).ready(function () {
       draggerDateOld = null,
       number_of_points,
       img_heigth,
+      card_heigth,
+      card_width,
+      drag_zone_w,
+      diag_zone_w,
+      solis_x,
+      solis_y,
+      devil_x,
+      devil_y,
+      line_drawing,
       supportsStorage = function(){
           try {
               return 'localStorage' in window && window['localStorage'] !== null;
@@ -23,7 +32,23 @@ jQuery(document).ready(function () {
   croppedImg = jQuery('.protocols').children()[0];
 
   //Enable popovers;
-  jQuery('[data-toggle="popover"]').popover()
+  jQuery('[data-toggle="popover"]').popover();
+
+  //line_drawing
+
+  line_drawing = function(){
+    jQuery('.line_area').attr('height', parseInt(jQuery('.work-area').css('height')));
+    jQuery('.line_area').attr('width', parseInt(jQuery('.work-area').css('width')));
+    solis_x = jQuery('.card_solis').position().left + card_width;
+    solis_y = jQuery('.card_solis').position().top + card_heigth;
+    devil_x = jQuery('.card_devil').position().left + card_width + drag_zone_w + diag_zone_w;
+    devil_y = jQuery('.card_devil').position().top + card_heigth;
+
+    jQuery('.line').attr('x1', solis_x);
+    jQuery('.line').attr('y1', solis_y);
+    jQuery('.line').attr('x2', devil_x);
+    jQuery('.line').attr('y2', devil_y);
+  }
 
   //Dragging elems
   jQuery( ".draggable" ).draggable({
@@ -189,17 +214,7 @@ jQuery(document).ready(function () {
     drag_zone_w = parseInt(jQuery('.drag_container').css('width'));
     diag_zone_w = parseInt(jQuery('.work-area_inner').css('width'));
 
-    jQuery('.line_area').attr('height', parseInt(jQuery('.work-area').css('height')));
-    jQuery('.line_area').attr('width', parseInt(jQuery('.work-area').css('width')));
-    solis_x = jQuery('.card_solis').position().left + card_width;
-    solis_y = jQuery('.card_solis').position().top + card_heigth;
-    devil_x = jQuery('.card_devil').position().left + card_width + drag_zone_w + diag_zone_w;
-    devil_y = jQuery('.card_devil').position().top + card_heigth;
-
-    jQuery('.line').attr('x1', solis_x);
-    jQuery('.line').attr('y1', solis_y);
-    jQuery('.line').attr('x2', devil_x);
-    jQuery('.line').attr('y2', devil_y);
+    line_drawing();
     
 
   });
