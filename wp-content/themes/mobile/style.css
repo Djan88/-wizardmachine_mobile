@@ -276,6 +276,12 @@ span.menu_item_img
 {
   position: relative;
 }
+.line_area
+{
+  position: absolute;
+  left: 0;
+  top: 0;
+}
 .col-12.text_center.zone_diag
 {
   position: relative;
