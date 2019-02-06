@@ -272,6 +272,10 @@ span.menu_item_img
   -moz-user-select: none;
   -ms-user-select: none;
 }
+.work-area
+{
+  position: relative;
+}
 .col-12.text_center.zone_diag
 {
   position: relative;
