@@ -102,12 +102,6 @@ jQuery(document).ready(function () {
     jQuery('.mobile_screen_protocols').addClass('hidden').css('display', 'none');
     jQuery('.mobile_screen_final').fadeIn(500);
 
-    // default position svg
-
-    card_heigth = parseInt(jQuery('.card_solis').css('height'))/2;
-    jQuery('.line_area').attr('height', parseInt(jQuery('.work-area').css('height')));
-    jQuery('.line_area').attr('width', parseInt(jQuery('.work-area').css('width')));
-
     jQuery('.btn-to_mode, .btn-to_manual').addClass('hidden');
     jQuery('.btn-to_protocols, .btn_man_with_zones, .btn_start').removeClass('hidden');
     jQuery('.zone_final').css('height', jQuery('.zone_final').css('width'));
@@ -186,6 +180,13 @@ jQuery(document).ready(function () {
     jQuery('.btn-to_mode, .btn_man_with_zones, .btn_start').removeClass('hidden');
     jQuery('.mobile_screen_what_way').addClass('hidden').css('display', 'none');
     jQuery('.mobile_screen_final').fadeIn(500);
+
+
+    // default position svg
+
+    card_heigth = parseInt(jQuery('.card_solis').css('height'))/2;
+    jQuery('.line_area').attr('height', parseInt(jQuery('.work-area').css('height')));
+    jQuery('.line_area').attr('width', parseInt(jQuery('.work-area').css('width')));
     
     jQuery('.zone_final').css('height', jQuery('.zone_final').css('width'));
 
