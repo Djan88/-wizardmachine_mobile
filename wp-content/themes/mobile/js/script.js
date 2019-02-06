@@ -180,20 +180,22 @@ jQuery(document).ready(function () {
     jQuery('.btn-to_mode, .btn_man_with_zones, .btn_start').removeClass('hidden');
     jQuery('.mobile_screen_what_way').addClass('hidden').css('display', 'none');
     jQuery('.mobile_screen_final').fadeIn(500);
-
+    jQuery('.zone_final').css('height', jQuery('.zone_final').css('width'));
 
     // default position svg
 
     card_heigth = parseInt(jQuery('.card_solis').css('height'))/2;
     card_width = parseInt(jQuery('.card_solis').css('width'))/2;
-    solis_x = jQuery('.card_solis').position().left;
-    solis_y = jQuery('.card_solis').position().top;
-    devil_x = jQuery('.card_devil').position().left;
-    devil_y = jQuery('.card_devil').position().top;
+
     jQuery('.line_area').attr('height', parseInt(jQuery('.work-area').css('height')));
     jQuery('.line_area').attr('width', parseInt(jQuery('.work-area').css('width')));
+    solis_x = jQuery('.card_solis').position().left + card_width;
+    solis_y = jQuery('.card_solis').position().top + card_heigth;
+    devil_x = jQuery('.card_devil').position().left + card_width;
+    devil_y = jQuery('.card_devil').position().top + card_heigth;
+
+    jQuery('.line').attr('x1', solis_x).attr('y1', solis_y).attr('x2', devil_x).attr('y2', devil_y);
     
-    jQuery('.zone_final').css('height', jQuery('.zone_final').css('width'));
 
   });
   jQuery('.btn_protocols').on('click', function(event) {

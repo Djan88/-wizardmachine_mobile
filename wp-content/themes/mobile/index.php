@@ -255,7 +255,10 @@
 								</div>
 							</div>
 							<div class="col-12 work-area" style="margin-bottom: 10px;">
-								<div class="row justify-content-center">
+								<svg height="1080" width="960" class="line_area">
+								  <line class="line" x1="34" y1="56" x2="789" y2="678" style="stroke:rgb(255,0,0);stroke-width:2"></line>
+								</svg>
+								<div class="row justify-content-center" style="position: relative; z-index: 500;">
 									<div class="col-3 no-padding drag_container">
 										<img src="<?php echo get_template_directory_uri(); ?>/img/cards/solis.png" alt="" class="card card_solis">
 									</div>
@@ -267,9 +270,6 @@
 										<img src="<?php echo get_template_directory_uri(); ?>/img/cards/devil.png" alt="" class="card draggable draggable_y card_devil">
 									</div>
 								</div>
-								<svg height="1080" width="960" class="line_area">
-								  <line x1="34" y1="56" x2="789" y2="678" style="stroke:rgb(255,0,0);stroke-width:2"></line>
-								</svg>
 							</div>
 							<div class="col-12 text_center">
 								<button class="btn btn-primary btn_start"><i class="fab fa-react"></i> Выполнить</button>
