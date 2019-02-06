@@ -262,7 +262,7 @@
 									<div class="col-3 no-padding drag_container">
 										<img src="<?php echo get_template_directory_uri(); ?>/img/cards/solis.png" alt="" class="card card_solis">
 									</div>
-									<div class="col-6 text_center zone_diag">
+									<div class="col-6 text_center zone_diag work-area_inner">
 										<img class="loaded_img" src="" alt="">
 										<div class="paranja"></div>
 									</div>

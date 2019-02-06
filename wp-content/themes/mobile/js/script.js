@@ -187,7 +187,7 @@ jQuery(document).ready(function () {
     card_heigth = parseInt(jQuery('.card_solis').css('height'))/2;
     card_width = parseInt(jQuery('.card_solis').css('width'))/2;
     drag_zone_w = parseInt(jQuery('.drag_container').css('width'));
-    diag_zone_w = parseInt(jQuery('.zone_diag').css('width'));
+    diag_zone_w = parseInt(jQuery('.work-area_inner').css('width'));
 
     jQuery('.line_area').attr('height', parseInt(jQuery('.work-area').css('height')));
     jQuery('.line_area').attr('width', parseInt(jQuery('.work-area').css('width')));
