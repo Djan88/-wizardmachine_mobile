@@ -371,8 +371,9 @@ span.menu_item_img
 {
   z-index: 500;
   cursor: pointer;
-  background: #450915;
+  background: #2b303b;
   border: 1px solid #FFF0C7;
+  color: #fff;
   border-radius: 50%;
   display: inline-block;
   width: 30px;
