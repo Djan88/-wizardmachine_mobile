@@ -125,7 +125,7 @@ div#recallbar, div#wpadminbar
 {
   /*border: 1px solid #fff;*/
   margin-top: 80px;
-  color: #FFF0C7;
+  color: #6ea000;
   transition: all 0.5s linear;
 }
 .mobile_screen.mobile_screen_load 
@@ -153,14 +153,12 @@ div#recallbar, div#wpadminbar
 {
   /*box-shadow: 0 .5rem 1rem rgba(0,0,0,.15)!important;*/
   color: #fff;
-  border-color: #cdbfe3;
+  border-color: #6ea000;
+  background: #81B71A;
 }
 .photo_upload:hover
 {
-  color: #563d7c;
-  text-shadow: none;
-  background-color: #fff;
-  border-color: #fff;
+  background-color: #6ea000;
 }
 .protocols_item_title, .mode-item_title
 {
