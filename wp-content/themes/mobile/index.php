@@ -233,13 +233,13 @@
 												<div 
 													data-toggle="modal" 
 													data-target="#card_modal" 
-													data-card="<?php echo get_template_directory_uri(); ?>/img/cards/moon.png"
-													class="zone zone_movable draggable draggable_v-">XVIII</div>
+													data-card="<?php echo get_template_directory_uri(); ?>/img/cards/hanged_man.png"
+													class="zone zone_movable draggable draggable_d5">XII</div>
 												<div 
 													data-toggle="modal" 
 													data-target="#card_modal" 
-													data-card="<?php echo get_template_directory_uri(); ?>/img/cards/hanged_man.png"
-													class="zone zone_movable draggable draggable_d5">XII</div>
+													data-card="<?php echo get_template_directory_uri(); ?>/img/cards/death.png"
+													class="zone zone_movable draggable draggable_d2_1">XIII</div>
 												<!-- <div class="zone zone_movable draggable draggable_d6">D6</div> -->
 												<!-- <div class="zone zone_final zone_x hidden"></div> -->
 											</div>
@@ -293,8 +293,8 @@
 												<div 
 													data-toggle="modal" 
 													data-target="#card_modal" 
-													data-card="<?php echo get_template_directory_uri(); ?>/img/cards/death.png"
-													class="zone zone_movable draggable draggable_d2_1">XIII</div>
+													data-card="<?php echo get_template_directory_uri(); ?>/img/cards/moon.png"
+													class="zone zone_movable draggable draggable_v-">XVIII</div>
 											</div>
 											<div class="col zone_holder">
 												<div class="status status_pahaze hidden">
