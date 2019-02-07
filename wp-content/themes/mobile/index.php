@@ -288,6 +288,11 @@
 												<div 
 													data-toggle="modal" 
 													data-target="#card_modal" 
+													data-card="<?php echo get_template_directory_uri(); ?>/img/cards/tower.png"
+													class="zone zone_movable draggable draggable_v5_1">XVI</div>
+												<div 
+													data-toggle="modal" 
+													data-target="#card_modal" 
 													data-card="<?php echo get_template_directory_uri(); ?>/img/cards/death.png"
 													class="zone zone_movable draggable draggable_d2_1">XIII</div>
 											</div>
