@@ -215,25 +215,81 @@
 													Выполнено: <span class="status_percent">0%</span>
 												</div>
 												<!-- <div class="zone zone_movable draggable draggable_lovushka"></div> -->
-												<div class="zone zone_movable draggable draggable_d2">XXI</div>
-												<div class="zone zone_movable draggable draggable_d3">XI</div>
-												<div class="zone zone_movable draggable draggable_d4">IV</div>
-												<div class="zone zone_movable draggable draggable_v-">XVIII</div>
-												<div class="zone zone_movable draggable draggable_d5">XII</div>
+												<div 
+													data-toggle="modal" 
+													data-target="#card_modal" 
+													data-card="<?php echo get_template_directory_uri(); ?>/img/cards/world.png"
+													class="zone zone_movable draggable draggable_d2">XXI</div>
+												<div 
+													data-toggle="modal" 
+													data-target="#card_modal" 
+													data-card="<?php echo get_template_directory_uri(); ?>/img/cards/justice.png"
+													class="zone zone_movable draggable draggable_d3">XI</div>
+												<div
+													data-toggle="modal" 
+													data-target="#card_modal" 
+													data-card="<?php echo get_template_directory_uri(); ?>/img/cards/emperor.png"  
+													class="zone zone_movable draggable draggable_d4">IV</div>
+												<div 
+													data-toggle="modal" 
+													data-target="#card_modal" 
+													data-card="<?php echo get_template_directory_uri(); ?>/img/cards/moon.png"
+													class="zone zone_movable draggable draggable_v-">XVIII</div>
+												<div 
+													data-toggle="modal" 
+													data-target="#card_modal" 
+													data-card="<?php echo get_template_directory_uri(); ?>/img/cards/hanged_man.png"
+													class="zone zone_movable draggable draggable_d5">XII</div>
 												<!-- <div class="zone zone_movable draggable draggable_d6">D6</div> -->
 												<!-- <div class="zone zone_final zone_x hidden"></div> -->
 											</div>
 											<div class="col zone_holder">
 												<div class="status status_title hidden"></div>
-												<div class="zone zone_movable draggable draggable_v0">XVII</div>
-												<div class="zone zone_movable draggable draggable_v1">I</div>
-												<div class="zone zone_movable draggable draggable_v2">II</div>
-												<div class="zone zone_movable draggable draggable_v3">VIII</div>
-												<div class="zone zone_movable draggable draggable_v3-4">IX</div>
-												<div class="zone zone_movable draggable draggable_v4">X</div>
-												<div class="zone zone_movable draggable draggable_v4-5">XIV</div>
-												<div class="zone zone_movable draggable draggable_v5">0</div>
-												<div class="zone zone_movable draggable draggable_d2_1">XIII</div>
+												<div 
+													data-toggle="modal" 
+													data-target="#card_modal" 
+													data-card="<?php echo get_template_directory_uri(); ?>/img/cards/star.png"
+													class="zone zone_movable draggable draggable_v0">XVII</div>
+												<div 
+													data-toggle="modal" 
+													data-target="#card_modal" 
+													data-card="<?php echo get_template_directory_uri(); ?>/img/cards/magician.png"
+													class="zone zone_movable draggable draggable_v1">I</div>
+												<div 
+													data-toggle="modal" 
+													data-target="#card_modal" 
+													data-card="<?php echo get_template_directory_uri(); ?>/img/cards/high_priestess.png"
+													class="zone zone_movable draggable draggable_v2">II</div>
+												<div 
+													data-toggle="modal" 
+													data-target="#card_modal" 
+													data-card="<?php echo get_template_directory_uri(); ?>/img/cards/strength.png"
+													class="zone zone_movable draggable draggable_v3">VIII</div>
+												<div 
+													data-toggle="modal" 
+													data-target="#card_modal" 
+													data-card="<?php echo get_template_directory_uri(); ?>/img/cards/hermit.png"
+													class="zone zone_movable draggable draggable_v3-4">IX</div>
+												<div 
+													data-toggle="modal" 
+													data-target="#card_modal" 
+													data-card="<?php echo get_template_directory_uri(); ?>/img/cards/fortune.png"
+													class="zone zone_movable draggable draggable_v4">X</div>
+												<div 
+													data-toggle="modal" 
+													data-target="#card_modal" 
+													data-card="<?php echo get_template_directory_uri(); ?>/img/cards/temperance.png"
+													class="zone zone_movable draggable draggable_v4-5">XIV</div>
+												<div 
+													data-toggle="modal" 
+													data-target="#card_modal" 
+													data-card="<?php echo get_template_directory_uri(); ?>/img/cards/fool.png"
+													class="zone zone_movable draggable draggable_v5">0</div>
+												<div 
+													data-toggle="modal" 
+													data-target="#card_modal" 
+													data-card="<?php echo get_template_directory_uri(); ?>/img/cards/death.png"
+													class="zone zone_movable draggable draggable_d2_1">XIII</div>
 											</div>
 											<div class="col zone_holder">
 												<div class="status status_pahaze hidden">
@@ -242,11 +298,31 @@
 													<span class="status_pahaze_to"> из </span>
 													<span class="status_pahaze_all">0</span>
 												</div>
-												<div class="zone zone_movable draggable draggable_s2">VII</div>
-												<div class="zone zone_movable draggable draggable_s2_1">XX</div>
-												<div class="zone zone_movable draggable draggable_s3">III</div>
-												<div class="zone zone_movable draggable draggable_s4">V</div>
-												<div data-toggle="modal" data-target="#zones_template" class="zone zone_movable draggable draggable_s5">VI</div>
+												<div 
+													data-toggle="modal" 
+													data-target="#card_modal" 
+													data-card="<?php echo get_template_directory_uri(); ?>/img/cards/chariot.png"
+													class="zone zone_movable draggable draggable_s2">VII</div>
+												<div 
+													data-toggle="modal" 
+													data-target="#card_modal" 
+													data-card="<?php echo get_template_directory_uri(); ?>/img/cards/judgement.png"
+													class="zone zone_movable draggable draggable_s2_1">XX</div>
+												<div 
+													data-toggle="modal" 
+													data-target="#card_modal" 
+													data-card="<?php echo get_template_directory_uri(); ?>/img/cards/empress.png"
+													class="zone zone_movable draggable draggable_s3">III</div>
+												<div
+													data-toggle="modal" 
+													data-target="#card_modal" 
+													data-card="<?php echo get_template_directory_uri(); ?>/img/cards/hierophant.png" 
+													class="zone zone_movable draggable draggable_s4">V</div>
+												<div 
+													data-toggle="modal" 
+													data-target="#card_modal" 
+													data-card="<?php echo get_template_directory_uri(); ?>/img/cards/lovers.png" 
+													class="zone zone_movable draggable draggable_s5">VI</div>
 												<!-- <div class="zone zone_movable draggable draggable_s6">S6</div> -->
 												<!-- <div class="zone zone_movable zone_final zone_l hidden"></div> -->
 											</div>
@@ -257,14 +333,14 @@
 							<div class="col-12 work-area" style="margin-bottom: 10px;">
 								<div class="row justify-content-center" style="position: relative;">
 									<div class="col-3 no-padding drag_container">
-										<img src="<?php echo get_template_directory_uri(); ?>/img/cards/solis.png" alt="" class="card card_solis">
+										<img src="<?php echo get_template_directory_uri(); ?>/img/cards/solis_alt.png" alt="" class="card card_solis">
 									</div>
 									<div class="col-6 text_center zone_diag work-area_inner">
 										<img class="loaded_img" src="" alt="">
 										<div class="paranja"></div>
 									</div>
 									<div class="col-3 no-padding drag_container">
-										<img src="<?php echo get_template_directory_uri(); ?>/img/cards/devil.png" alt="" class="card draggable draggable_y card_devil">
+										<img src="<?php echo get_template_directory_uri(); ?>/img/cards/devil_alt.png" alt="" class="card draggable draggable_y card_devil">
 									</div>
 								</div>
 								<svg height="1080" width="960" class="line_area">

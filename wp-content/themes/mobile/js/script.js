@@ -77,6 +77,11 @@ jQuery(document).ready(function () {
       }
   });
 
+  // show card in modal
+  jQuery('.zone').on('click', function(event) {
+    jQuery('.card_modal_img').attr('src', jQuery(this).data('card'));
+  });
+
 
   // Register / Login
   jQuery('.toRegistration').on('click', function(event) {
