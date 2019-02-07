@@ -246,7 +246,7 @@
 												<div class="zone zone_movable draggable draggable_s2_1">XX</div>
 												<div class="zone zone_movable draggable draggable_s3">III</div>
 												<div class="zone zone_movable draggable draggable_s4">V</div>
-												<div class="zone zone_movable draggable draggable_s5">VI</div>
+												<div data-toggle="modal" data-target="#zones_template" class="zone zone_movable draggable draggable_s5">VI</div>
 												<!-- <div class="zone zone_movable draggable draggable_s6">S6</div> -->
 												<!-- <div class="zone zone_movable zone_final zone_l hidden"></div> -->
 											</div>
