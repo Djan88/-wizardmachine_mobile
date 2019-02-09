@@ -59,7 +59,7 @@ jQuery(document).ready(function () {
       containment: '.drag_container',
       axis: "y",
       drag: function() {
-          jQuery('.card_solis').css('bottom', jQuery('.card_devil').css('top'));
+          // jQuery('.card_solis').css('bottom', jQuery('.card_devil').css('top'));
           line_drawing();
         // dragger = jQuery('.draggable_y').css('top');
         // dragger = dragger.substr(0, dragger.length - 2);
