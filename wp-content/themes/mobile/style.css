@@ -20,7 +20,7 @@ div#recallbar, div#wpadminbar
 }
 .wrapper
 {
-  background-color: #E4E4E8;
+  background-color: #f0f3fa;
   /*background-image: url(img/bg.jpg);*/
   position: relative;
   font-family: "Roboto",helvetica,arial,sans-serif;
@@ -30,18 +30,18 @@ div#recallbar, div#wpadminbar
 {
   height: 70px;
   color: #ceb6b8;
-  background-color: #2b303b;
+  background-color: #fff;
   /*background-image: url(img/bg.jpg);*/
   /*text-shadow: 0 -1px 0 rgba(0,0,0,.15);*/
   box-shadow: 0 1px 0 rgba(255,255,255,.1);
-  border-bottom: 1px solid #080808;
+  border-bottom: 1px solid #eee;
 }
 .header-title
 {
   padding: 20px 0;
   text-align: center;
   font-size: 18px;
-  color: #FFF0C7;
+  color: #4c5a68;
   font-weight: 500;
 }
 #image_file
@@ -63,11 +63,11 @@ div#recallbar, div#wpadminbar
 }
 .header .btn
 {
-  color: #fff;
+  color: #d25351;
 }
 .header .btn:hover
 {
-  color: #fff;
+  background: #eee;
 }
 .hidden
 {
@@ -83,8 +83,8 @@ div#recallbar, div#wpadminbar
 }
 #menu
 {
-  background: #2b303b;
-  box-shadow: 1px 0 0 rgba(255,255,255,.1);
+  background: #4c5a68;
+  box-shadow: 0.5rem 0 1rem rgba(0,0,0,.15);
   border-right: 1px solid #080808;
   padding-right: 5px;
 }
@@ -125,8 +125,17 @@ div#recallbar, div#wpadminbar
 {
   /*border: 1px solid #fff;*/
   margin-top: 80px;
-  color: #6ea000;
+  color: #32323a;
   transition: all 0.5s linear;
+}
+.btn-primary
+{
+  background: #d76461;
+  border-color: #d15352;
+}
+.btn-primary:hover
+{
+  background: #d15352;
 }
 .mobile_screen.mobile_screen_load 
 {
@@ -141,7 +150,7 @@ div#recallbar, div#wpadminbar
   border: 1px solid #2b303b;
   border-radius: 6px;
   cursor: pointer;
-  background: #606777;
+  background: #32648e;
   box-shadow: 0 .5rem 1rem rgba(0,0,0,.15)!important;
 }
 .protocols_item.active, .mode-item.active
@@ -348,14 +357,14 @@ span.menu_item_img
 }
 .header .btn.btn_start 
 {
-  color: #FFF0C7;
+  color: #4785ba;
 }
 .zones
 {
-  background-color: #606777;
+  background-color: #fff;
   /*background-image: url(img/bg.jpg);*/
   background-size: 100%;
-  border: 1px solid #2b303b;
+  border: 1px solid #ddd;
   box-shadow: 0 .5rem 1rem rgba(0,0,0,.15)!important;
   padding: 5px 0 10px;
   border-radius: 6px;
