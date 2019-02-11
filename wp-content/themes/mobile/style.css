@@ -299,7 +299,8 @@ span.menu_item_img
   max-width: 400px;
   padding: 0;
   padding-right: 5px;
-  /*padding-bottom: 10px;*/
+  padding-bottom: 50px;
+  padding-top: 50px;
   -webkit-user-select: none;
   -moz-user-select: none;
   -ms-user-select: none;
