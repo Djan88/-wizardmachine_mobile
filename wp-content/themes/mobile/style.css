@@ -179,6 +179,10 @@ div#recallbar, div#wpadminbar
   font-size: 18px;
   text-transform: uppercase;
 }
+#card_modal .modal-body
+{
+  padding: 2px;
+}
 .mode-item_title
 {
   font-size: 14px;
