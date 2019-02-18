@@ -338,6 +338,7 @@
 							<div class="col-12 work-area" style="margin-bottom: 10px;">
 								<div class="row justify-content-center" style="position: relative;">
 									<div class="col-3 no-padding drag_container">
+										<img src="<?php echo get_template_directory_uri(); ?>/img/cards/solis_alt.png" alt="" class="card card_ghost">
 										<img src="<?php echo get_template_directory_uri(); ?>/img/cards/solis_alt.png" alt="" class="card draggable draggable_y card_solis">
 									</div>
 									<div class="col-6 text_center zone_diag work-area_inner">
@@ -345,6 +346,7 @@
 										<div class="paranja"></div>
 									</div>
 									<div class="col-3 no-padding drag_container">
+										<img src="<?php echo get_template_directory_uri(); ?>/img/cards/devil_alt.png" alt="" class="card card_ghost">
 										<img src="<?php echo get_template_directory_uri(); ?>/img/cards/devil_alt.png" alt="" class="card draggable draggable_y card_devil">
 									</div>
 								</div>
