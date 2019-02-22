@@ -1,6 +1,6 @@
 jQuery(document).ready(function () {
     var zone_top,
-        card_semi_height = parseInt(jQuery('.card_solis').css('height')) / 2;
+        card_semi_height;
     var THarviMoon = new Object();
     THarviMoon=function(){
     this.Day=0;
@@ -44,6 +44,7 @@ jQuery(document).ready(function () {
 
     
     jQuery('.btn_moon_day').on('click', function(event) {
+        card_semi_height = parseInt(jQuery('.card_solis').css('height')) / 2;
         if (moon_day == 1 || moon_day == 2 || moon_day == 29) {
             zone_top = parseInt(jQuery('.draggable_v5_1').css('top') + 50);
             jQuery('.card_ghost_devil').css('top', (zone_top - card_semi_height) +'px');
@@ -64,7 +65,7 @@ jQuery(document).ready(function () {
         } else if (moon_day == 11 || moon_day == 18) {
             zone_top = parseInt(jQuery('.draggable_v5').css('top')) - 30;
             jQuery('.card_ghost_devil').css('top', (zone_top - card_semi_height) +'px');
-            console.log(zone_top - card_semi_height);
+            console.log(zone_top +' '+ card_semi_height +' '+ zone_top - card_semi_height);
         } else if (moon_day == 12 || moon_day == 17) {
 
         } else if (moon_day == 13 || moon_day == 16) {
