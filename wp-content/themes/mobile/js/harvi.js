@@ -63,7 +63,7 @@ jQuery(document).ready(function () {
         } else if (moon_day == 10 || moon_day == 19) {
 
         } else if (moon_day == 11 || moon_day == 18) {
-            zone_top = parseInt(jQuery('.draggable_v5').css('top')) - 30;
+            zone_top = parseInt(jQuery('.draggable_v5').css('top')) - 38;
             jQuery('.card_ghost_devil').css('top', (zone_top - card_semi_height) +'px');
             console.log(zone_top +' '+ card_semi_height +' '+ zone_top - card_semi_height);
         } else if (moon_day == 12 || moon_day == 17) {
