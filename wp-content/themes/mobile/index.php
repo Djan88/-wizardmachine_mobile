@@ -356,6 +356,7 @@
 							</div>
 							<div class="col-12 text_center">
 								<button class="btn btn-primary btn_start"><i class="fab fa-react"></i> Выполнить</button>
+								<button class="btn btn-primary btn_moon_day"><i class="fab fa-react"></i> Лунный день</button>
 							</div>
 						</div>
 					</div>
