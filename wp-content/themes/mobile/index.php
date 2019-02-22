@@ -343,7 +343,7 @@
 									</div>
 									<div class="col-6 text_center zone_diag work-area_inner">
 										<img class="loaded_img" src="" alt="">
-											<img src="<?php echo get_template_directory_uri(); ?>/img/cards/devil.png" alt="" class="card card_ghost card_ghost_devil_vertical">
+											<img src="<?php echo get_template_directory_uri(); ?>/img/cards/devil.png" alt="" class="card card_ghost card_ghost_devil_vertical hidden">
 										<div class="paranja"></div>
 									</div>
 									<div class="col-3 no-padding drag_container">

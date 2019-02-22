@@ -1,5 +1,6 @@
 jQuery(document).ready(function () {
     var zone_top,
+        zone_left,
         card_semi_height;
     var THarviMoon = new Object();
     THarviMoon=function(){
@@ -70,9 +71,13 @@ jQuery(document).ready(function () {
             zone_top = parseInt(jQuery('.draggable_s4').css('top')) - 38;
             jQuery('.card_ghost_devil').css('top', (zone_top - card_semi_height) +'px');
         } else if (moon_day == 11 || moon_day == 18) {
-            zone_top = parseInt(jQuery('.draggable_v5').css('top')) - 38;
-            jQuery('.card_ghost_devil').css('top', (zone_top - card_semi_height) +'px');
-            console.log(zone_top +' '+ card_semi_height +' '+ zone_top - card_semi_height);
+            jQuery('.card_ghost_devil_vertical').removeClass('hidden');
+            jQuery('.card_ghost_devil').addClass('hidden');
+            card_semi_height = parseInt(jQuery('.card_solis').css('height')) / 2;
+            zone_top = parseInt(jQuery('.draggable_v-').css('top')) + 100;
+            zone_left = parseInt(jQuery('.draggable_v-').css('left')) + 42;
+            jQuery('.card_ghost_devil_vertical').css('top', (zone_top - card_semi_height) +'px');
+            jQuery('.card_ghost_devil_vertical').css('left', (zone_left + card_semi_height) +'px');
         } else if (moon_day == 12 || moon_day == 17) {
             zone_top = parseInt(jQuery('.draggable_s5').css('top')) - 38;
             jQuery('.card_ghost_devil').css('top', (zone_top - card_semi_height) +'px');
@@ -80,7 +85,13 @@ jQuery(document).ready(function () {
             zone_top = parseInt(jQuery('.draggable_v-').css('top')) - 38;
             jQuery('.card_ghost_devil').css('top', (zone_top - card_semi_height) +'px');
         } else if (moon_day == 14 || moon_day == 15) {
-
+            jQuery('.card_ghost_devil_vertical').removeClass('hidden');
+            jQuery('.card_ghost_devil').addClass('hidden');
+            card_semi_height = parseInt(jQuery('.card_solis').css('height')) / 2;
+            zone_top = parseInt(jQuery('.draggable_v-').css('top')) + 100;
+            zone_left = parseInt(jQuery('.draggable_v-').css('left')) + 42;
+            jQuery('.card_ghost_devil_vertical').css('top', (zone_top - card_semi_height) +'px');
+            jQuery('.card_ghost_devil_vertical').css('left', (zone_left + card_semi_height) +'px');
         }    
     });
 
