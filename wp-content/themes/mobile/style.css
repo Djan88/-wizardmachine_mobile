@@ -299,8 +299,8 @@ span.menu_item_img
   max-width: 400px;
   padding: 0;
   padding-right: 5px;
-  padding-bottom: 50px;
-  padding-top: 50px;
+  padding-bottom: 100px;
+  padding-top: 100px;
   -webkit-user-select: none;
   -moz-user-select: none;
   -ms-user-select: none;
@@ -512,6 +512,10 @@ input.crop_photo
 {
   color: #007bff;
   font-weight: bold;
+}
+.card.card_ghost 
+{
+  opacity: 0.1;
 }
 @media (min-width: 600px) {
   .sweet-alert
