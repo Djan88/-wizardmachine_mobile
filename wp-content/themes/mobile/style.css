@@ -309,6 +309,15 @@ span.menu_item_img
 {
   position: relative;
 }
+.work-area_inner
+{
+  position: relative;
+}
+.card_ghost_devil_vertical
+{
+  position: absolute;
+  bottom: 0;
+}
 .line_area
 {
   position: absolute;
