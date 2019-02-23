@@ -95,6 +95,7 @@ jQuery(document).ready(function () {
             jQuery('.card_ghost_solis_vertical').css('left', (zone_left_alt + card_semi_height) +'px');
         }
         jQuery('.card_ghost_devil').css('top', (zone_top - card_semi_height) +'px');
+        jQuery('.card_ghost_solis').css('top', (zone_top_alt - card_semi_height) +'px');
         jQuery('.card_devil').css('top', (zone_top - card_semi_height) +'px');
         jQuery('.card_solis').css('top', (zone_top_alt - card_semi_height) +'px');
     });
