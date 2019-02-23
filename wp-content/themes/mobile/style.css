@@ -313,6 +313,11 @@ span.menu_item_img
 {
   position: relative;
 }
+.card_ghost_solis_vertical
+{
+  position: absolute;
+  top: 0;
+}
 .card_ghost_devil_vertical
 {
   position: absolute;
