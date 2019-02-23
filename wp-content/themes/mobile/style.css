@@ -101,6 +101,10 @@ div#recallbar, div#wpadminbar
   z-index: 598;
   box-shadow: 0 .5rem 1rem rgba(0,0,0,.15)!important;
 }
+.card
+{
+  position: absolute;
+}
 #card_modal .modal-dialog
 {
   max-width: 200px;

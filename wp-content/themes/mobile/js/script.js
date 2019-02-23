@@ -77,6 +77,10 @@ jQuery(document).ready(function () {
       }
   });
 
+  jQuery('.btn_moon_day').on('click', function(event) {
+    line_drawing();
+  });
+
   // show card in modal
   jQuery('.zone').on('click', function(event) {
     jQuery('.card_modal_img').attr('src', jQuery(this).data('card'));
