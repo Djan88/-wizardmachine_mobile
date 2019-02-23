@@ -70,8 +70,17 @@ jQuery(document).ready(function () {
             zone_top = parseInt(jQuery('.draggable_s3').css('top')) - 38;
             zone_top_alt = parseInt(jQuery('.draggable_s2_1').css('top')) - 38;
         } else if (moon_day == 10 || moon_day == 19) {
-            zone_top = parseInt(jQuery('.draggable_s4').css('top')) - 38;
-            zone_top_alt = parseInt(jQuery('.draggable_s2').css('top')) - 38;
+            jQuery('.card_ghost_devil_vertical, .card_ghost_solis_vertical').removeClass('hidden');
+            jQuery('.card_ghost_devil, .card_ghost_solis').addClass('hidden');
+            card_semi_height = parseInt(jQuery('.card_solis').css('height')) / 2;
+            zone_top = parseInt(jQuery('.draggable_v-').css('top')) + 100;
+            zone_top_alt = parseInt(jQuery('.draggable_v0').css('top')) - 100;
+            zone_left = parseInt(jQuery('.draggable_v-').css('left')) + 42;
+            zone_left_alt = parseInt(jQuery('.draggable_v0').css('left')) + 42;
+            jQuery('.card_ghost_devil_vertical').css('top', (zone_top - card_semi_height) +'px');
+            jQuery('.card_ghost_devil_vertical').css('left', (zone_left + card_semi_height) +'px');
+            jQuery('.card_ghost_solis_vertical').css('top', (zone_top_alt - card_semi_height) +'px');
+            jQuery('.card_ghost_solis_vertical').css('left', (zone_left_alt + card_semi_height) +'px');
         } else if (moon_day == 11 || moon_day == 18) {
             zone_top = parseInt(jQuery('.draggable_v5').css('top')) - 38;
             zone_top_alt = parseInt(jQuery('.draggable_v2').css('top')) - 38;
