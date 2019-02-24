@@ -138,7 +138,7 @@ jQuery(document).ready(function () {
     jQuery('.mobile_screen_final').fadeIn(500);
 
     jQuery('.btn-to_mode, .btn-to_manual').addClass('hidden');
-    jQuery('.btn-to_protocols, .btn_man_with_zones, .btn_start').removeClass('hidden');
+    jQuery('.btn-to_protocols, .btn_man_with_zones, .btn_start, .btn_moon_day').removeClass('hidden');
     jQuery('.zone_final').css('height', jQuery('.zone_final').css('width'));
   });
 
@@ -174,7 +174,7 @@ jQuery(document).ready(function () {
     // to mode
   jQuery('.btn-to_mode').on('click', function(event) {
     jQuery('.mobile_screen').addClass('hidden').css('display', 'none');
-    jQuery('.btn-to_mode, .btn_protocol, .btn_protocols, .clear_graph, .btn_man_with_zones, .btn_start').addClass('hidden');
+    jQuery('.btn-to_mode, .btn_protocol, .btn_protocols, .clear_graph, .btn_man_with_zones, .btn_start, .btn_moon_day').addClass('hidden');
     jQuery('.mobile_screen_what_way').fadeIn(500);
     jQuery('.btn-to_img').removeClass('hidden');
     jQuery('.header-title').text('Выберите режим');
@@ -183,7 +183,7 @@ jQuery(document).ready(function () {
     // to protocols
   jQuery('.btn-to_protocols').on('click', function(event) {
     jQuery('.mobile_screen').addClass('hidden').css('display', 'none');
-    jQuery('.btn-to_protocols, .btn_man_with_zones, .btn_start').addClass('hidden');
+    jQuery('.btn-to_protocols, .btn_man_with_zones, .btn_start, .btn_moon_day').addClass('hidden');
     jQuery('.mobile_screen_protocols').fadeIn(500);
     jQuery('.btn-to_mode').removeClass('hidden');
     jQuery('.header-title').text('Выберите протокол');
@@ -192,7 +192,7 @@ jQuery(document).ready(function () {
     // to manual
   jQuery('.btn-to_manual').on('click', function(event) {
     jQuery('.mobile_screen').addClass('hidden').css('display', 'none');
-    jQuery('.btn-to_protocols, .btn_start, .btn-to_manual, .btn_man_with_zones').addClass('hidden');
+    jQuery('.btn-to_protocols, .btn_start, .btn_moon_day, .btn-to_manual, .btn_man_with_zones').addClass('hidden');
     jQuery('.mobile_screen_manual').fadeIn(500);
     jQuery('.btn-to_mode, .btn_protocols, .clear_graph').removeClass('hidden');
     jQuery('.header-title').text('Диагностика');
@@ -212,7 +212,7 @@ jQuery(document).ready(function () {
     // img_heigth = jQuery('.loaded_img').css('height');
     jQuery('.header-title').text('Перенесите зоны на фото');
     jQuery('.btn-to_img, .btn-to_protocols').addClass('hidden');
-    jQuery('.btn-to_mode, .btn_man_with_zones, .btn_start').removeClass('hidden');
+    jQuery('.btn-to_mode, .btn_man_with_zones, .btn_start, .btn_moon_day').removeClass('hidden');
     jQuery('.mobile_screen_what_way').addClass('hidden').css('display', 'none');
     jQuery('.mobile_screen_final').fadeIn(500);
     jQuery('.zone_final').css('height', jQuery('.zone_final').css('width'));
