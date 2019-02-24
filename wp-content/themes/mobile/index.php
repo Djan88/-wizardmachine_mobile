@@ -218,6 +218,16 @@
 												<div
 													data-toggle="modal" 
 													data-target="#card_modal" 
+													data-card="<?php echo get_template_directory_uri(); ?>/img/cards/world.png"
+													class="zone zone_movable draggable draggable_d2">XXI</div>
+												<div
+													data-toggle="modal" 
+													data-target="#card_modal" 
+													data-card="<?php echo get_template_directory_uri(); ?>/img/cards/death.png"
+													class="zone zone_movable draggable draggable_d2_1">XIII</div>
+												<div
+													data-toggle="modal" 
+													data-target="#card_modal" 
 													data-card="<?php echo get_template_directory_uri(); ?>/img/cards/justice.png"
 													class="zone zone_movable draggable draggable_d3">XI</div>
 												<div
@@ -230,16 +240,6 @@
 													data-target="#card_modal" 
 													data-card="<?php echo get_template_directory_uri(); ?>/img/cards/hanged_man.png"
 													class="zone zone_movable draggable draggable_d5">XII</div>
-												<div
-													data-toggle="modal" 
-													data-target="#card_modal" 
-													data-card="<?php echo get_template_directory_uri(); ?>/img/cards/world.png"
-													class="zone zone_movable draggable draggable_d2">XXI</div>
-												<div
-													data-toggle="modal" 
-													data-target="#card_modal" 
-													data-card="<?php echo get_template_directory_uri(); ?>/img/cards/death.png"
-													class="zone zone_movable draggable draggable_d2_1">XIII</div>
 												<!-- <div class="zone zone_movable draggable draggable_d6">D6</div> -->
 												<!-- <div class="zone zone_final zone_x hidden"></div> -->
 											</div>
@@ -278,13 +278,13 @@
 												<div 
 													data-toggle="modal" 
 													data-target="#card_modal" 
-													data-card="<?php echo get_template_directory_uri(); ?>/img/cards/temperance.png"
-													class="zone zone_movable draggable draggable_v4-5">XIV</div>
+													data-card="<?php echo get_template_directory_uri(); ?>/img/cards/fool.png"
+													class="zone zone_movable draggable draggable_v5">0</div>
 												<div 
 													data-toggle="modal" 
 													data-target="#card_modal" 
-													data-card="<?php echo get_template_directory_uri(); ?>/img/cards/fool.png"
-													class="zone zone_movable draggable draggable_v5">0</div>
+													data-card="<?php echo get_template_directory_uri(); ?>/img/cards/temperance.png"
+													class="zone zone_movable draggable draggable_v4-5">XIV</div>
 												<div 
 													data-toggle="modal" 
 													data-target="#card_modal" 
