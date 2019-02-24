@@ -215,12 +215,7 @@
 													Выполнено: <span class="status_percent">0%</span>
 												</div>
 												<!-- <div class="zone zone_movable draggable draggable_lovushka"></div> -->
-												<div 
-													data-toggle="modal" 
-													data-target="#card_modal" 
-													data-card="<?php echo get_template_directory_uri(); ?>/img/cards/world.png"
-													class="zone zone_movable draggable draggable_d2">XXI</div>
-												<div 
+												<div
 													data-toggle="modal" 
 													data-target="#card_modal" 
 													data-card="<?php echo get_template_directory_uri(); ?>/img/cards/justice.png"
@@ -230,12 +225,17 @@
 													data-target="#card_modal" 
 													data-card="<?php echo get_template_directory_uri(); ?>/img/cards/emperor.png"  
 													class="zone zone_movable draggable draggable_d4">IV</div>
-												<div 
+												<div
 													data-toggle="modal" 
 													data-target="#card_modal" 
 													data-card="<?php echo get_template_directory_uri(); ?>/img/cards/hanged_man.png"
 													class="zone zone_movable draggable draggable_d5">XII</div>
-												<div 
+												<div
+													data-toggle="modal" 
+													data-target="#card_modal" 
+													data-card="<?php echo get_template_directory_uri(); ?>/img/cards/world.png"
+													class="zone zone_movable draggable draggable_d2">XXI</div>
+												<div
 													data-toggle="modal" 
 													data-target="#card_modal" 
 													data-card="<?php echo get_template_directory_uri(); ?>/img/cards/death.png"

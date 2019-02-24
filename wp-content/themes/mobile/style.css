@@ -105,6 +105,10 @@ div#recallbar, div#wpadminbar
 {
   position: absolute;
 }
+.card.card_ghost.card_ghost_solis
+{
+  right: 0;
+}
 #card_modal .modal-dialog
 {
   max-width: 200px;
