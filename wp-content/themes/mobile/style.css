@@ -315,7 +315,7 @@ span.menu_item_img
 }
 .card_protocol
 {
-  height: 120px;
+  height: 50px;
   position: relative;
   transition: top linear 1s, left linear 1s;
 }
