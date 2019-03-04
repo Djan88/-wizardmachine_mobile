@@ -423,7 +423,7 @@ span.menu_item_img
 }
 .zone_holder 
 {
-  position: relative;
+  position: static;
   height: 25px;
 }
 .zone 
