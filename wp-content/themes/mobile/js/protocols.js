@@ -213,11 +213,13 @@ tarot = function(){
   card_id.show({
     effect: 'slide',
     direction: 'down',
-    duration: '1000'
-  });
-  card_id.css({
-    left: card_zone_left+'px',
-    bottom: card_zone_top+'px'
+    duration: '1000',
+    complete: function(){
+      card_id.css({
+        left: card_zone_left+'px',
+        bottom: card_zone_top+'px'
+      });
+    }
   });
 
   phaseOne = setInterval(function(){
