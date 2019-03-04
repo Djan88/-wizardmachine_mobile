@@ -208,7 +208,7 @@ tarot = function(){
   // card_id.fadeIn(500);
   card_id.show({
     effect: 'slide',
-    direction: 'up',
+    direction: 'down',
     duration: '500'
     });
 
