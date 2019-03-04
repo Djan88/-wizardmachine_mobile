@@ -233,7 +233,7 @@ tarot = function(){
     } else {
       clearInterval(phaseOne);
       count_animation = 0;
-      card_id.css('bottom', parseInt(card_id.css('bottom'))+200;
+      card_id.css('bottom', parseInt(card_id.css('bottom')) + 200 + 'px');
       card_id.fadeOut(500);
     }
   }, 1000);
