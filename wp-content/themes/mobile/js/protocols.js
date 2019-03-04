@@ -235,7 +235,7 @@ tarot = function(){
     } else {
       clearInterval(phaseOne);
       count_animation = 0;
-      card_id.css('bottom', parseInt(card_id.css('bottom')) + 200 + 'px');
+      card_id.css('bottom', parseInt(card_id.css('top')) - 200 + 'px');
       jQuery('.card_devil, .card_solis').removeClass('card_move').addClass('card_move_fast');
       jQuery('.card_devil').css('top', jQuery('.card_ghost_devil').css('top'));
       jQuery('.card_solis').css('top', jQuery('.card_ghost_solis').css('top'));
