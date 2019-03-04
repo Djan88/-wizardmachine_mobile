@@ -219,10 +219,10 @@ tarot = function(){
   jQuery('.card_codes_bottom').find(jQuery('[data-number =' + cur_card + ']')).fadeOut(500);
   phaseOne = setInterval(function(){
     if (count_animation <= 4){
-      jQuery('.card_devil').css('top', card_zone_top - 67 + 'px');
+      jQuery('.card_devil').css('top', card_zone_top - 47 + 'px');
       count_animation += 1;
     } else if (count_animation > 4 && count_animation <= 8) {
-      jQuery('.card_solis').css('top', card_zone_top - 67 + 'px');
+      jQuery('.card_solis').css('top', card_zone_top - 47 + 'px');
       card_id.css('transform', 'rotate(270deg)');
       count_animation += 1;
     } else if (count_animation > 8 && count_animation <= 12) {
