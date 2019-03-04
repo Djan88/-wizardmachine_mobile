@@ -57,6 +57,8 @@ var chain,
       '21' : '.draggable_d2'
     },
     card_zone,
+    card_zone_top,
+    card_zone_left,
     card_ids = {
       '0' : '#draggable_v5',
       '1' : '#draggable_v1',
@@ -204,13 +206,21 @@ endNow = function(){
 tarot = function(){
   count_animation = 0;
   cur_card = cur_cards[0];
+  card_zone_left = parseInt(jQuery(cur_cards[0]).css('left'));
+  card_zone_top = parseInt(jQuery(cur_cards[0]).css('top'));
   card_id = jQuery(card_ids[cur_card]);
   // card_id.fadeIn(500);
   card_id.show({
     effect: 'slide',
     direction: 'down',
-    duration: '1000'
-    });
+    duration: '1000',
+    complete: function(){
+      card_id.css({
+        left: card_zone_left+'px',
+        bottom: card_zone_top+'px'
+      });
+    }
+  });
 
   phaseOne = setInterval(function(){
     if (count_animation <= 4){
