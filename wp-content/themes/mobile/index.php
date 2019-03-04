@@ -378,7 +378,7 @@
 										<img src="<?php echo get_template_directory_uri(); ?>/img/cards/solis_alt.png" alt="" class="card draggable draggable_y card_solis">
 									</div>
 									<div class="col-6 text_center zone_diag work-area_inner">
-										<div class="col-12">
+										<div class="col-12" style="position: absolute; top: 0; left: 0; right: 0;">
 											<img src="<?php echo get_template_directory_uri(); ?>/img/cards/fool.png" alt="" class="card_protocol card_protocol_top hidden" data-number="0">
 											<img src="<?php echo get_template_directory_uri(); ?>/img/cards/magician.png" alt="" class="card_protocol card_protocol_top hidden" data-number="1">
 											<img src="<?php echo get_template_directory_uri(); ?>/img/cards/high_priestess.png" alt="" class="card_protocol card_protocol_top hidden" data-number="2">
@@ -404,26 +404,26 @@
 										<img src="<?php echo get_template_directory_uri(); ?>/img/cards/devil.png" alt="" class="card card_ghost card_ghost_devil_vertical hidden">
 										<img src="<?php echo get_template_directory_uri(); ?>/img/cards/solis.png" alt="" class="card card_ghost card_ghost_solis_vertical hidden">
 										
-										<img src="<?php echo get_template_directory_uri(); ?>/img/cards/fool.png" alt="" class="card_in_action hidden" data-number="0">
-										<img src="<?php echo get_template_directory_uri(); ?>/img/cards/magician.png" alt="" class="card_in_action hidden" data-number="1">
-										<img src="<?php echo get_template_directory_uri(); ?>/img/cards/high_priestess.png" alt="" class="card_in_action hidden" data-number="2">
-										<img src="<?php echo get_template_directory_uri(); ?>/img/cards/empress.png" alt="" class="card_in_action hidden" data-number="3">
-										<img src="<?php echo get_template_directory_uri(); ?>/img/cards/emperor.png" alt="" class="card_in_action hidden" data-number="4">
-										<img src="<?php echo get_template_directory_uri(); ?>/img/cards/hierophant.png" alt="" class="card_in_action hidden" data-number="5">
-										<img src="<?php echo get_template_directory_uri(); ?>/img/cards/lovers.png" alt="" class="card_in_action hidden" data-number="6">
-										<img src="<?php echo get_template_directory_uri(); ?>/img/cards/chariot.png" alt="" class="card_in_action hidden" data-number="7">
-										<img src="<?php echo get_template_directory_uri(); ?>/img/cards/strength.png" alt="" class="card_in_action hidden" data-number="8">
-										<img src="<?php echo get_template_directory_uri(); ?>/img/cards/hermit.png" alt="" class="card_in_action hidden" data-number="9">
-										<img src="<?php echo get_template_directory_uri(); ?>/img/cards/fortune.png" alt="" class="card_in_action hidden" data-number="10">
-										<img src="<?php echo get_template_directory_uri(); ?>/img/cards/justice.png" alt="" class="card_in_action hidden" data-number="11">
-										<img src="<?php echo get_template_directory_uri(); ?>/img/cards/hanged_man.png" alt="" class="card_in_action hidden" data-number="12">
-										<img src="<?php echo get_template_directory_uri(); ?>/img/cards/devil.png" alt="" class="card_in_action hidden" data-number="13">
-										<img src="<?php echo get_template_directory_uri(); ?>/img/cards/temperance.png" alt="" class="card_in_action hidden" data-number="14">
-										<img src="<?php echo get_template_directory_uri(); ?>/img/cards/tower.png" alt="" class="card_in_action hidden" data-number="16">
-										<img src="<?php echo get_template_directory_uri(); ?>/img/cards/star.png" alt="" class="card_in_action hidden" data-number="17">
-										<img src="<?php echo get_template_directory_uri(); ?>/img/cards/moon.png" alt="" class="card_in_action hidden" data-number="18">
-										<img src="<?php echo get_template_directory_uri(); ?>/img/cards/judgement.png" alt="" class="card_in_action hidden" data-number="20">
-										<img src="<?php echo get_template_directory_uri(); ?>/img/cards/world.png" alt="" class="card_in_action hidden" data-number="21">
+										<img src="<?php echo get_template_directory_uri(); ?>/img/cards/fool.png" alt="" class="card_in_action hidden" id="draggable_v5">
+										<img src="<?php echo get_template_directory_uri(); ?>/img/cards/magician.png" alt="" class="card_in_action hidden" id="draggable_v1">
+										<img src="<?php echo get_template_directory_uri(); ?>/img/cards/high_priestess.png" alt="" class="card_in_action hidden" id="draggable_v2">
+										<img src="<?php echo get_template_directory_uri(); ?>/img/cards/empress.png" alt="" class="card_in_action hidden" id="draggable_s3">
+										<img src="<?php echo get_template_directory_uri(); ?>/img/cards/emperor.png" alt="" class="card_in_action hidden" id="draggable_d4">
+										<img src="<?php echo get_template_directory_uri(); ?>/img/cards/hierophant.png" alt="" class="card_in_action hidden" id="draggable_s4">
+										<img src="<?php echo get_template_directory_uri(); ?>/img/cards/lovers.png" alt="" class="card_in_action hidden" id="draggable_s5">
+										<img src="<?php echo get_template_directory_uri(); ?>/img/cards/chariot.png" alt="" class="card_in_action hidden" id="draggable_s2">
+										<img src="<?php echo get_template_directory_uri(); ?>/img/cards/strength.png" alt="" class="card_in_action hidden" id="draggable_v3">
+										<img src="<?php echo get_template_directory_uri(); ?>/img/cards/hermit.png" alt="" class="card_in_action hidden" id="draggable_v3-4">
+										<img src="<?php echo get_template_directory_uri(); ?>/img/cards/fortune.png" alt="" class="card_in_action hidden" id="draggable_v4">
+										<img src="<?php echo get_template_directory_uri(); ?>/img/cards/justice.png" alt="" class="card_in_action hidden" id="draggable_d3">
+										<img src="<?php echo get_template_directory_uri(); ?>/img/cards/hanged_man.png" alt="" class="card_in_action hidden" id="draggable_d5">
+										<img src="<?php echo get_template_directory_uri(); ?>/img/cards/devil.png" alt="" class="card_in_action hidden" id="draggable_d2_1">
+										<img src="<?php echo get_template_directory_uri(); ?>/img/cards/temperance.png" alt="" class="card_in_action hidden" id="draggable_v4-5">
+										<img src="<?php echo get_template_directory_uri(); ?>/img/cards/tower.png" alt="" class="card_in_action hidden" id="draggable_v5_1">
+										<img src="<?php echo get_template_directory_uri(); ?>/img/cards/star.png" alt="" class="card_in_action hidden" id="draggable_v0">
+										<img src="<?php echo get_template_directory_uri(); ?>/img/cards/moon.png" alt="" class="card_in_action hidden" id="draggable_v-">
+										<img src="<?php echo get_template_directory_uri(); ?>/img/cards/judgement.png" alt="" class="card_in_action hidden" id="draggable_s2_1">
+										<img src="<?php echo get_template_directory_uri(); ?>/img/cards/world.png" alt="" class="card_in_action hidden" id="draggable_d2">
 
 										<div class="paranja"></div>
 									</div>

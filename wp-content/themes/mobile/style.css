@@ -323,6 +323,15 @@ span.menu_item_img
 {
   transform: scale(1.6); 
 }
+.card_in_action 
+{
+  position: absolute;
+  left: 0;
+  right: 0;
+  z-index: 800;
+  transition: all linear 1s;
+  transform: rotate(180deg);
+}
 .loaded_img_alt
 {
   padding-bottom: 100px;
