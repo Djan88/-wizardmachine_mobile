@@ -332,6 +332,18 @@ span.menu_item_img
   transition: left linear 1s,  bottom linear 1s,  transform linear 1s;
   transform: rotate(180deg);
 }
+.card_codes_top
+{
+  position: absolute;
+  top: 65px;
+  left: 0;
+  right: 0;
+}
+.card_codes_bottom
+{
+  position: absolute;
+  bottom: 30px;
+}
 .loaded_img_alt
 {
   padding-bottom: 100px;
