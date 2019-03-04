@@ -207,8 +207,8 @@ tarot = function(){
   count_animation = 0;
   cur_card = cur_cards[0];
   card_id = jQuery(card_ids[cur_card]);
-  card_zone_left = parseInt(jQuery(card_zones[cur_card]).css('left'));
-  card_zone_top = parseInt(jQuery(card_zones[cur_card]).css('top'));
+  card_zone_left = parseInt(jQuery(card_zones[cur_card]).css('left'))-40;
+  card_zone_top = parseInt(jQuery(card_zones[cur_card]).css('top'))+20;
   card_id.fadeIn(500);
   // card_id.show({
   //   effect: 'fade',
