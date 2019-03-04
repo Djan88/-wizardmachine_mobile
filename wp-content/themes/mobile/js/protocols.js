@@ -209,7 +209,7 @@ tarot = function(){
   card_id.show({
     effect: 'slide',
     direction: 'down',
-    duration: '500'
+    duration: '1000'
     });
 
   phaseOne = setInterval(function(){
