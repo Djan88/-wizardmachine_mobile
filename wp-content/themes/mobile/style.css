@@ -442,6 +442,10 @@ span.menu_item_img
 {
   transition: top linear 4s;
 }
+.card_move_fast
+{
+  transition: top linear 1s;
+}
 .zone 
 {
   z-index: 500;

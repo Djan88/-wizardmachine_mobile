@@ -83,7 +83,7 @@ var chain,
     },
     card_id,
     cur_cards = ['3', '10', '11', '12'],
-    cur_cards_length = cur_cards.length-1,
+    cur_cards_length = cur_cards.length - 1,
     cur_card;
     cur_card_in_stack = 0;
 
@@ -206,7 +206,7 @@ endNow = function(){
 
 tarot = function(){
   jQuery('.line_area').addClass('hidden');
-  jQuery('.card_devil, .card_solis').addClass('card_move');
+  jQuery('.card_devil, .card_solis').removeClass('card_move_fast').addClass('card_move');
   count_animation = 0;
   cur_card = cur_cards[cur_card_in_stack];
   console.log(cur_card);
@@ -236,11 +236,12 @@ tarot = function(){
       clearInterval(phaseOne);
       count_animation = 0;
       card_id.css('bottom', parseInt(card_id.css('bottom')) + 200 + 'px');
+      jQuery('.card_devil, .card_solis').removeClass('card_move').addClass('card_move_fast');
       jQuery('.card_devil').css('top', jQuery('.card_ghost_devil').css('top'));
       jQuery('.card_solis').css('top', jQuery('.card_ghost_solis').css('top'));
       card_id.fadeOut(1000);
       jQuery('.card_codes_top').find(jQuery('[data-number =' + cur_card + ']')).fadeIn(500);
-      if (cur_card_in_stack <= cur_cards_length) {
+      if (cur_card_in_stack < cur_cards_length) {
         cur_card_in_stack += 1;
         tarot();
       } else {
