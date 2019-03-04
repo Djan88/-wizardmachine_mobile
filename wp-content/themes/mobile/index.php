@@ -427,7 +427,7 @@
 										<img src="<?php echo get_template_directory_uri(); ?>/img/cards/devil_alt.png" alt="" class="card card_ghost card_ghost_devil">
 										<img src="<?php echo get_template_directory_uri(); ?>/img/cards/devil_alt.png" alt="" class="card draggable draggable_y card_devil">
 									</div>
-									<div class="col-12">
+									<div class="col-12" style="position: absolute; bottom: 30px;">
 										<img src="<?php echo get_template_directory_uri(); ?>/img/cards/fool.png" alt="" class="card_protocol card_protocol_bottom hidden" data-number="0">
 										<img src="<?php echo get_template_directory_uri(); ?>/img/cards/magician.png" alt="" class="card_protocol card_protocol_bottom hidden" data-number="1">
 										<img src="<?php echo get_template_directory_uri(); ?>/img/cards/high_priestess.png" alt="" class="card_protocol card_protocol_bottom hidden" data-number="2">
