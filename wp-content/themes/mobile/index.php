@@ -206,171 +206,6 @@
 				<div class="row protocols_info">
 					<div class="col text_center">
 						<div class="row justify-content-center">
-							<div class="col-12">
-								<div class="row justify-content-center">
-									<div class="col-6 text_center zones">
-										<div class="row">
-											<!-- <div class="col zone_holder">
-												<div class="status status_percent_wrap hidden">
-													Выполнено: <span class="status_percent">0%</span>
-												</div>
-												<div
-													data-toggle="modal" 
-													data-target="#card_modal" 
-													data-card="<?php //echo get_template_directory_uri(); ?>/img/cards/world.png"
-													class="zone zone_movable draggable draggable_d2">XXI</div>
-												<div
-													data-toggle="modal" 
-													data-target="#card_modal" 
-													data-card="<?php //echo get_template_directory_uri(); ?>/img/cards/death.png"
-													class="zone zone_movable draggable draggable_d2_1">XIII</div>
-												<div
-													data-toggle="modal" 
-													data-target="#card_modal" 
-													data-card="<?php //echo get_template_directory_uri(); ?>/img/cards/justice.png"
-													class="zone zone_movable draggable draggable_d3">XI</div>
-												<div
-													data-toggle="modal" 
-													data-target="#card_modal" 
-													data-card="<?php //echo get_template_directory_uri(); ?>/img/cards/emperor.png"  
-													class="zone zone_movable draggable draggable_d4">IV</div>
-												<div
-													data-toggle="modal" 
-													data-target="#card_modal" 
-													data-card="<?php //echo get_template_directory_uri(); ?>/img/cards/hanged_man.png"
-													class="zone zone_movable draggable draggable_d5">XII</div>
-											</div>
-											<div class="col zone_holder">
-												<div class="status status_title hidden"></div>
-												<div 
-													data-toggle="modal" 
-													data-target="#card_modal" 
-													data-card="<?php //echo get_template_directory_uri(); ?>/img/cards/star.png"
-													class="zone zone_movable draggable draggable_v0">XVII</div>
-												<div 
-													data-toggle="modal" 
-													data-target="#card_modal" 
-													data-card="<?php //echo get_template_directory_uri(); ?>/img/cards/magician.png"
-													class="zone zone_movable draggable draggable_v1">I</div>
-												<div 
-													data-toggle="modal" 
-													data-target="#card_modal" 
-													data-card="<?php //echo get_template_directory_uri(); ?>/img/cards/high_priestess.png"
-													class="zone zone_movable draggable draggable_v2">II</div>
-												<div 
-													data-toggle="modal" 
-													data-target="#card_modal" 
-													data-card="<?php //echo get_template_directory_uri(); ?>/img/cards/strength.png"
-													class="zone zone_movable draggable draggable_v3">VIII</div>
-												<div 
-													data-toggle="modal" 
-													data-target="#card_modal" 
-													data-card="<?php //echo get_template_directory_uri(); ?>/img/cards/hermit.png"
-													class="zone zone_movable draggable draggable_v3-4">IX</div>
-												<div 
-													data-toggle="modal" 
-													data-target="#card_modal" 
-													data-card="<?php //echo get_template_directory_uri(); ?>/img/cards/fortune.png"
-													class="zone zone_movable draggable draggable_v4">X</div>
-												<div 
-													data-toggle="modal" 
-													data-target="#card_modal" 
-													data-card="<?php //echo get_template_directory_uri(); ?>/img/cards/temperance.png"
-													class="zone zone_movable draggable draggable_v4-5">XIV</div>
-												<div 
-													data-toggle="modal" 
-													data-target="#card_modal" 
-													data-card="<?php //echo get_template_directory_uri(); ?>/img/cards/tower.png"
-													class="zone zone_movable draggable draggable_v5_1">XVI</div>
-												<div 
-													data-toggle="modal" 
-													data-target="#card_modal" 
-													data-card="<?php //echo get_template_directory_uri(); ?>/img/cards/fool.png"
-													class="zone zone_movable draggable draggable_v5">0</div>
-												<div 
-													data-toggle="modal" 
-													data-target="#card_modal" 
-													data-card="<?php //echo get_template_directory_uri(); ?>/img/cards/moon.png"
-													class="zone zone_movable draggable draggable_v-">XVIII</div>
-											</div>
-											<div class="col zone_holder">
-												<div class="status status_pahaze hidden">
-													Фаза: 
-													<span class="status_pahaze_now">0</span>
-													<span class="status_pahaze_to"> из </span>
-													<span class="status_pahaze_all">0</span>
-												</div>
-												<div 
-													data-toggle="modal" 
-													data-target="#card_modal" 
-													data-card="<?php //echo get_template_directory_uri(); ?>/img/cards/chariot.png"
-													class="zone zone_movable draggable draggable_s2">VII</div>
-												<div 
-													data-toggle="modal" 
-													data-target="#card_modal" 
-													data-card="<?php //echo get_template_directory_uri(); ?>/img/cards/judgement.png"
-													class="zone zone_movable draggable draggable_s2_1">XX</div>
-												<div 
-													data-toggle="modal" 
-													data-target="#card_modal" 
-													data-card="<?php //echo get_template_directory_uri(); ?>/img/cards/empress.png"
-													class="zone zone_movable draggable draggable_s3">III</div>
-												<div
-													data-toggle="modal" 
-													data-target="#card_modal" 
-													data-card="<?php //echo get_template_directory_uri(); ?>/img/cards/hierophant.png" 
-													class="zone zone_movable draggable draggable_s4">V</div>
-												<div 
-													data-toggle="modal" 
-													data-target="#card_modal" 
-													data-card="<?php //echo get_template_directory_uri(); ?>/img/cards/lovers.png" 
-													class="zone zone_movable draggable draggable_s5">VI</div>
-											</div> -->
-											<div class="col zone_holder">
-												<div class="status status_percent_wrap hidden">
-													Выполнено: <span class="status_percent">0%</span>
-												</div>
-												<!-- <div class="zone zone_movable draggable draggable_lovushka"></div> -->
-												<div data-toggle="modal" data-target="#card_modal" data-card="http://yuchikurov.ru/wp-content/themes/mobile/img/cards/world.png" class="zone zone_movable draggable draggable_d2 ui-draggable ui-draggable-handle" style="width: 25px; right: auto; height: 25px; bottom: auto; left: 234.844px; top: 244px;">XXI</div>
-												<div data-toggle="modal" data-target="#card_modal" data-card="http://yuchikurov.ru/wp-content/themes/mobile/img/cards/death.png" class="zone zone_movable draggable draggable_d2_1 ui-draggable ui-draggable-handle" style="width: 25px; right: auto; height: 25px; bottom: auto; left: 238.844px; top: 270px;">XIII</div>
-												<div data-toggle="modal" data-target="#card_modal" data-card="http://yuchikurov.ru/wp-content/themes/mobile/img/cards/justice.png" class="zone zone_movable draggable draggable_d3 ui-draggable ui-draggable-handle" style="width: 25px; right: auto; height: 25px; bottom: auto; left: 236.844px; top: 338px;">XI</div>
-												<div data-toggle="modal" data-target="#card_modal" data-card="http://yuchikurov.ru/wp-content/themes/mobile/img/cards/emperor.png" class="zone zone_movable draggable draggable_d4 ui-draggable ui-draggable-handle" style="width: 25px; right: auto; height: 25px; bottom: auto; left: 234.844px; top: 376px;">IV</div>
-												<div data-toggle="modal" data-target="#card_modal" data-card="http://yuchikurov.ru/wp-content/themes/mobile/img/cards/hanged_man.png" class="zone zone_movable draggable draggable_d5 ui-draggable ui-draggable-handle" style="width: 25px; right: auto; height: 25px; bottom: auto; left: 237.844px; top: 500px;">XII</div>
-												<!-- <div class="zone zone_movable draggable draggable_d6">D6</div> -->
-												<!-- <div class="zone zone_final zone_x hidden"></div> -->
-											</div>
-											<div class="col zone_holder">
-												<div class="status status_title hidden"></div>
-												<div data-toggle="modal" data-target="#card_modal" data-card="http://yuchikurov.ru/wp-content/themes/mobile/img/cards/star.png" class="zone zone_movable draggable draggable_v0 ui-draggable ui-draggable-handle" style="width: 25px; right: auto; height: 25px; bottom: auto; left: 77.8438px; top: 131px;">XVII</div>
-												<div data-toggle="modal" data-target="#card_modal" data-card="http://yuchikurov.ru/wp-content/themes/mobile/img/cards/magician.png" class="zone zone_movable draggable draggable_v1 ui-draggable ui-draggable-handle" style="width: 25px; right: auto; height: 25px; bottom: auto; left: 76.8438px; top: 164px;">I</div>
-												<div data-toggle="modal" data-target="#card_modal" data-card="http://yuchikurov.ru/wp-content/themes/mobile/img/cards/high_priestess.png" class="zone zone_movable draggable draggable_v2 ui-draggable ui-draggable-handle" style="width: 25px; right: auto; height: 25px; bottom: auto; left: 77.8438px; top: 241px;">II</div>
-												<div data-toggle="modal" data-target="#card_modal" data-card="http://yuchikurov.ru/wp-content/themes/mobile/img/cards/strength.png" class="zone zone_movable draggable draggable_v3 ui-draggable ui-draggable-handle" style="width: 25px; right: auto; height: 25px; bottom: auto; left: 77.8438px; top: 283px;">VIII</div>
-												<div data-toggle="modal" data-target="#card_modal" data-card="http://yuchikurov.ru/wp-content/themes/mobile/img/cards/hermit.png" class="zone zone_movable draggable draggable_v3-4 ui-draggable ui-draggable-handle" style="width: 25px; right: auto; height: 25px; bottom: auto; left: 76.8438px; top: 328px;">IX</div>
-												<div data-toggle="modal" data-target="#card_modal" data-card="http://yuchikurov.ru/wp-content/themes/mobile/img/cards/fortune.png" class="zone zone_movable draggable draggable_v4 ui-draggable ui-draggable-handle" style="width: 25px; right: auto; height: 25px; bottom: auto; left: 76.8438px; top: 354px;">X</div>
-												
-												<div data-toggle="modal" data-target="#card_modal" data-card="http://yuchikurov.ru/wp-content/themes/mobile/img/cards/temperance.png" class="zone zone_movable draggable draggable_v4-5 ui-draggable ui-draggable-handle" style="width: 25px; right: auto; height: 25px; bottom: auto; left: 77.8438px; top: 381px;">XIV</div>
-												<div data-toggle="modal" data-target="#card_modal" data-card="http://yuchikurov.ru/wp-content/themes/mobile/img/cards/tower.png" class="zone zone_movable draggable draggable_v5_1 ui-draggable ui-draggable-handle" style="width: 25px; right: auto; height: 25px; bottom: auto; left: 77.8438px; top: 406px;">XVI</div>
-												<div data-toggle="modal" data-target="#card_modal" data-card="http://yuchikurov.ru/wp-content/themes/mobile/img/cards/fool.png" class="zone zone_movable draggable draggable_v5 ui-draggable ui-draggable-handle" style="width: 25px; right: auto; height: 25px; bottom: auto; left: 78.8438px; top: 425px;">0</div><div data-toggle="modal" data-target="#card_modal" data-card="http://yuchikurov.ru/wp-content/themes/mobile/img/cards/moon.png" class="zone zone_movable draggable draggable_v- ui-draggable ui-draggable-handle" style="width: 25px; right: auto; height: 25px; bottom: auto; left: 76.8438px; top: 631px;">XVIII</div>
-											</div>
-											<div class="col zone_holder">
-												<div class="status status_pahaze hidden">
-													Фаза: 
-													<span class="status_pahaze_now">0</span>
-													<span class="status_pahaze_to"> из </span>
-													<span class="status_pahaze_all">0</span>
-												</div>
-												<div data-toggle="modal" data-target="#card_modal" data-card="http://yuchikurov.ru/wp-content/themes/mobile/img/cards/chariot.png" class="zone zone_movable draggable draggable_s2 ui-draggable ui-draggable-handle" style="width: 25px; right: auto; height: 25px; bottom: auto; left: -80.1562px; top: 243px;">VII</div>
-												<div data-toggle="modal" data-target="#card_modal" data-card="http://yuchikurov.ru/wp-content/themes/mobile/img/cards/judgement.png" class="zone zone_movable draggable draggable_s2_1 ui-draggable ui-draggable-handle" style="width: 25px; right: auto; height: 25px; bottom: auto; left: -84.1562px; top: 270px;">XX</div>
-												<div data-toggle="modal" data-target="#card_modal" data-card="http://yuchikurov.ru/wp-content/themes/mobile/img/cards/empress.png" class="zone zone_movable draggable draggable_s3 ui-draggable ui-draggable-handle" style="width: 25px; right: auto; height: 25px; bottom: auto; left: -84.1562px; top: 336px;">III</div>
-												<div data-toggle="modal" data-target="#card_modal" data-card="http://yuchikurov.ru/wp-content/themes/mobile/img/cards/hierophant.png" class="zone zone_movable draggable draggable_s4 ui-draggable ui-draggable-handle" style="width: 25px; right: auto; height: 25px; bottom: auto; left: -82.1562px; top: 373px;">V</div>
-												<div data-toggle="modal" data-target="#card_modal" data-card="http://yuchikurov.ru/wp-content/themes/mobile/img/cards/lovers.png" class="zone zone_movable draggable draggable_s5 ui-draggable ui-draggable-handle" style="width: 25px; right: auto; height: 25px; bottom: auto; left: -84.1562px; top: 498px;">VI</div>
-												<!-- <div class="zone zone_movable draggable draggable_s6">S6</div> -->
-												<!-- <div class="zone zone_movable zone_final zone_l hidden"></div> -->
-											</div>
-										</div>
-									</div>
-								</div>
-							</div>
 							<div class="col-12 work-area" style="margin-bottom: 10px;">
 								<div class="row justify-content-center" style="position: relative;">
 									<div class="col-3 no-padding drag_container">
@@ -378,6 +213,167 @@
 										<img src="<?php echo get_template_directory_uri(); ?>/img/cards/solis_alt.png" alt="" class="card draggable draggable_y card_solis">
 									</div>
 									<div class="col-6 text_center zone_diag work-area_inner">
+										<div class="col-12 text_center zones">
+											<div class="row">
+												<!-- <div class="col zone_holder">
+													<div class="status status_percent_wrap hidden">
+														Выполнено: <span class="status_percent">0%</span>
+													</div>
+													<div
+														data-toggle="modal" 
+														data-target="#card_modal" 
+														data-card="<?php //echo get_template_directory_uri(); ?>/img/cards/world.png"
+														class="zone zone_movable draggable draggable_d2">XXI</div>
+													<div
+														data-toggle="modal" 
+														data-target="#card_modal" 
+														data-card="<?php //echo get_template_directory_uri(); ?>/img/cards/death.png"
+														class="zone zone_movable draggable draggable_d2_1">XIII</div>
+													<div
+														data-toggle="modal" 
+														data-target="#card_modal" 
+														data-card="<?php //echo get_template_directory_uri(); ?>/img/cards/justice.png"
+														class="zone zone_movable draggable draggable_d3">XI</div>
+													<div
+														data-toggle="modal" 
+														data-target="#card_modal" 
+														data-card="<?php //echo get_template_directory_uri(); ?>/img/cards/emperor.png"  
+														class="zone zone_movable draggable draggable_d4">IV</div>
+													<div
+														data-toggle="modal" 
+														data-target="#card_modal" 
+														data-card="<?php //echo get_template_directory_uri(); ?>/img/cards/hanged_man.png"
+														class="zone zone_movable draggable draggable_d5">XII</div>
+												</div>
+												<div class="col zone_holder">
+													<div class="status status_title hidden"></div>
+													<div 
+														data-toggle="modal" 
+														data-target="#card_modal" 
+														data-card="<?php //echo get_template_directory_uri(); ?>/img/cards/star.png"
+														class="zone zone_movable draggable draggable_v0">XVII</div>
+													<div 
+														data-toggle="modal" 
+														data-target="#card_modal" 
+														data-card="<?php //echo get_template_directory_uri(); ?>/img/cards/magician.png"
+														class="zone zone_movable draggable draggable_v1">I</div>
+													<div 
+														data-toggle="modal" 
+														data-target="#card_modal" 
+														data-card="<?php //echo get_template_directory_uri(); ?>/img/cards/high_priestess.png"
+														class="zone zone_movable draggable draggable_v2">II</div>
+													<div 
+														data-toggle="modal" 
+														data-target="#card_modal" 
+														data-card="<?php //echo get_template_directory_uri(); ?>/img/cards/strength.png"
+														class="zone zone_movable draggable draggable_v3">VIII</div>
+													<div 
+														data-toggle="modal" 
+														data-target="#card_modal" 
+														data-card="<?php //echo get_template_directory_uri(); ?>/img/cards/hermit.png"
+														class="zone zone_movable draggable draggable_v3-4">IX</div>
+													<div 
+														data-toggle="modal" 
+														data-target="#card_modal" 
+														data-card="<?php //echo get_template_directory_uri(); ?>/img/cards/fortune.png"
+														class="zone zone_movable draggable draggable_v4">X</div>
+													<div 
+														data-toggle="modal" 
+														data-target="#card_modal" 
+														data-card="<?php //echo get_template_directory_uri(); ?>/img/cards/temperance.png"
+														class="zone zone_movable draggable draggable_v4-5">XIV</div>
+													<div 
+														data-toggle="modal" 
+														data-target="#card_modal" 
+														data-card="<?php //echo get_template_directory_uri(); ?>/img/cards/tower.png"
+														class="zone zone_movable draggable draggable_v5_1">XVI</div>
+													<div 
+														data-toggle="modal" 
+														data-target="#card_modal" 
+														data-card="<?php //echo get_template_directory_uri(); ?>/img/cards/fool.png"
+														class="zone zone_movable draggable draggable_v5">0</div>
+													<div 
+														data-toggle="modal" 
+														data-target="#card_modal" 
+														data-card="<?php //echo get_template_directory_uri(); ?>/img/cards/moon.png"
+														class="zone zone_movable draggable draggable_v-">XVIII</div>
+												</div>
+												<div class="col zone_holder">
+													<div class="status status_pahaze hidden">
+														Фаза: 
+														<span class="status_pahaze_now">0</span>
+														<span class="status_pahaze_to"> из </span>
+														<span class="status_pahaze_all">0</span>
+													</div>
+													<div 
+														data-toggle="modal" 
+														data-target="#card_modal" 
+														data-card="<?php //echo get_template_directory_uri(); ?>/img/cards/chariot.png"
+														class="zone zone_movable draggable draggable_s2">VII</div>
+													<div 
+														data-toggle="modal" 
+														data-target="#card_modal" 
+														data-card="<?php //echo get_template_directory_uri(); ?>/img/cards/judgement.png"
+														class="zone zone_movable draggable draggable_s2_1">XX</div>
+													<div 
+														data-toggle="modal" 
+														data-target="#card_modal" 
+														data-card="<?php //echo get_template_directory_uri(); ?>/img/cards/empress.png"
+														class="zone zone_movable draggable draggable_s3">III</div>
+													<div
+														data-toggle="modal" 
+														data-target="#card_modal" 
+														data-card="<?php //echo get_template_directory_uri(); ?>/img/cards/hierophant.png" 
+														class="zone zone_movable draggable draggable_s4">V</div>
+													<div 
+														data-toggle="modal" 
+														data-target="#card_modal" 
+														data-card="<?php //echo get_template_directory_uri(); ?>/img/cards/lovers.png" 
+														class="zone zone_movable draggable draggable_s5">VI</div>
+												</div> -->
+												<div class="col zone_holder">
+													<div class="status status_percent_wrap hidden">
+														Выполнено: <span class="status_percent">0%</span>
+													</div>
+													<!-- <div class="zone zone_movable draggable draggable_lovushka"></div> -->
+													<div data-toggle="modal" data-target="#card_modal" data-card="http://yuchikurov.ru/wp-content/themes/mobile/img/cards/world.png" class="zone zone_movable draggable draggable_d2 ui-draggable ui-draggable-handle" style="width: 25px; right: auto; height: 25px; bottom: auto; left: 234.844px; top: 244px;">XXI</div>
+													<div data-toggle="modal" data-target="#card_modal" data-card="http://yuchikurov.ru/wp-content/themes/mobile/img/cards/death.png" class="zone zone_movable draggable draggable_d2_1 ui-draggable ui-draggable-handle" style="width: 25px; right: auto; height: 25px; bottom: auto; left: 238.844px; top: 270px;">XIII</div>
+													<div data-toggle="modal" data-target="#card_modal" data-card="http://yuchikurov.ru/wp-content/themes/mobile/img/cards/justice.png" class="zone zone_movable draggable draggable_d3 ui-draggable ui-draggable-handle" style="width: 25px; right: auto; height: 25px; bottom: auto; left: 236.844px; top: 338px;">XI</div>
+													<div data-toggle="modal" data-target="#card_modal" data-card="http://yuchikurov.ru/wp-content/themes/mobile/img/cards/emperor.png" class="zone zone_movable draggable draggable_d4 ui-draggable ui-draggable-handle" style="width: 25px; right: auto; height: 25px; bottom: auto; left: 234.844px; top: 376px;">IV</div>
+													<div data-toggle="modal" data-target="#card_modal" data-card="http://yuchikurov.ru/wp-content/themes/mobile/img/cards/hanged_man.png" class="zone zone_movable draggable draggable_d5 ui-draggable ui-draggable-handle" style="width: 25px; right: auto; height: 25px; bottom: auto; left: 237.844px; top: 500px;">XII</div>
+													<!-- <div class="zone zone_movable draggable draggable_d6">D6</div> -->
+													<!-- <div class="zone zone_final zone_x hidden"></div> -->
+												</div>
+												<div class="col zone_holder">
+													<div class="status status_title hidden"></div>
+													<div data-toggle="modal" data-target="#card_modal" data-card="http://yuchikurov.ru/wp-content/themes/mobile/img/cards/star.png" class="zone zone_movable draggable draggable_v0 ui-draggable ui-draggable-handle" style="width: 25px; right: auto; height: 25px; bottom: auto; left: 77.8438px; top: 131px;">XVII</div>
+													<div data-toggle="modal" data-target="#card_modal" data-card="http://yuchikurov.ru/wp-content/themes/mobile/img/cards/magician.png" class="zone zone_movable draggable draggable_v1 ui-draggable ui-draggable-handle" style="width: 25px; right: auto; height: 25px; bottom: auto; left: 76.8438px; top: 164px;">I</div>
+													<div data-toggle="modal" data-target="#card_modal" data-card="http://yuchikurov.ru/wp-content/themes/mobile/img/cards/high_priestess.png" class="zone zone_movable draggable draggable_v2 ui-draggable ui-draggable-handle" style="width: 25px; right: auto; height: 25px; bottom: auto; left: 77.8438px; top: 241px;">II</div>
+													<div data-toggle="modal" data-target="#card_modal" data-card="http://yuchikurov.ru/wp-content/themes/mobile/img/cards/strength.png" class="zone zone_movable draggable draggable_v3 ui-draggable ui-draggable-handle" style="width: 25px; right: auto; height: 25px; bottom: auto; left: 77.8438px; top: 283px;">VIII</div>
+													<div data-toggle="modal" data-target="#card_modal" data-card="http://yuchikurov.ru/wp-content/themes/mobile/img/cards/hermit.png" class="zone zone_movable draggable draggable_v3-4 ui-draggable ui-draggable-handle" style="width: 25px; right: auto; height: 25px; bottom: auto; left: 76.8438px; top: 328px;">IX</div>
+													<div data-toggle="modal" data-target="#card_modal" data-card="http://yuchikurov.ru/wp-content/themes/mobile/img/cards/fortune.png" class="zone zone_movable draggable draggable_v4 ui-draggable ui-draggable-handle" style="width: 25px; right: auto; height: 25px; bottom: auto; left: 76.8438px; top: 354px;">X</div>
+													
+													<div data-toggle="modal" data-target="#card_modal" data-card="http://yuchikurov.ru/wp-content/themes/mobile/img/cards/temperance.png" class="zone zone_movable draggable draggable_v4-5 ui-draggable ui-draggable-handle" style="width: 25px; right: auto; height: 25px; bottom: auto; left: 77.8438px; top: 381px;">XIV</div>
+													<div data-toggle="modal" data-target="#card_modal" data-card="http://yuchikurov.ru/wp-content/themes/mobile/img/cards/tower.png" class="zone zone_movable draggable draggable_v5_1 ui-draggable ui-draggable-handle" style="width: 25px; right: auto; height: 25px; bottom: auto; left: 77.8438px; top: 406px;">XVI</div>
+													<div data-toggle="modal" data-target="#card_modal" data-card="http://yuchikurov.ru/wp-content/themes/mobile/img/cards/fool.png" class="zone zone_movable draggable draggable_v5 ui-draggable ui-draggable-handle" style="width: 25px; right: auto; height: 25px; bottom: auto; left: 78.8438px; top: 425px;">0</div><div data-toggle="modal" data-target="#card_modal" data-card="http://yuchikurov.ru/wp-content/themes/mobile/img/cards/moon.png" class="zone zone_movable draggable draggable_v- ui-draggable ui-draggable-handle" style="width: 25px; right: auto; height: 25px; bottom: auto; left: 76.8438px; top: 631px;">XVIII</div>
+												</div>
+												<div class="col zone_holder">
+													<div class="status status_pahaze hidden">
+														Фаза: 
+														<span class="status_pahaze_now">0</span>
+														<span class="status_pahaze_to"> из </span>
+														<span class="status_pahaze_all">0</span>
+													</div>
+													<div data-toggle="modal" data-target="#card_modal" data-card="http://yuchikurov.ru/wp-content/themes/mobile/img/cards/chariot.png" class="zone zone_movable draggable draggable_s2 ui-draggable ui-draggable-handle" style="width: 25px; right: auto; height: 25px; bottom: auto; left: -80.1562px; top: 243px;">VII</div>
+													<div data-toggle="modal" data-target="#card_modal" data-card="http://yuchikurov.ru/wp-content/themes/mobile/img/cards/judgement.png" class="zone zone_movable draggable draggable_s2_1 ui-draggable ui-draggable-handle" style="width: 25px; right: auto; height: 25px; bottom: auto; left: -84.1562px; top: 270px;">XX</div>
+													<div data-toggle="modal" data-target="#card_modal" data-card="http://yuchikurov.ru/wp-content/themes/mobile/img/cards/empress.png" class="zone zone_movable draggable draggable_s3 ui-draggable ui-draggable-handle" style="width: 25px; right: auto; height: 25px; bottom: auto; left: -84.1562px; top: 336px;">III</div>
+													<div data-toggle="modal" data-target="#card_modal" data-card="http://yuchikurov.ru/wp-content/themes/mobile/img/cards/hierophant.png" class="zone zone_movable draggable draggable_s4 ui-draggable ui-draggable-handle" style="width: 25px; right: auto; height: 25px; bottom: auto; left: -82.1562px; top: 373px;">V</div>
+													<div data-toggle="modal" data-target="#card_modal" data-card="http://yuchikurov.ru/wp-content/themes/mobile/img/cards/lovers.png" class="zone zone_movable draggable draggable_s5 ui-draggable ui-draggable-handle" style="width: 25px; right: auto; height: 25px; bottom: auto; left: -84.1562px; top: 498px;">VI</div>
+													<!-- <div class="zone zone_movable draggable draggable_s6">S6</div> -->
+													<!-- <div class="zone zone_movable zone_final zone_l hidden"></div> -->
+												</div>
+											</div>
+										</div>
 										<div class="col-12" style="position: absolute; top: 0; left: 0; right: 0;">
 											<img src="<?php echo get_template_directory_uri(); ?>/img/cards/fool.png" alt="" class="card_protocol card_protocol_top hidden" data-number="0">
 											<img src="<?php echo get_template_directory_uri(); ?>/img/cards/magician.png" alt="" class="card_protocol card_protocol_top hidden" data-number="1">
