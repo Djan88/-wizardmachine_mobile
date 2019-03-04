@@ -212,17 +212,6 @@ tarot = function(){
   card_zone_left = parseInt(jQuery(card_zones[cur_card]).css('left'));
   card_zone_top = parseInt(jQuery(card_zones[cur_card]).css('top'));
   card_id.fadeIn(500);
-  // card_id.show({
-  //   effect: 'fade',
-  //   direction: 'down',
-  //   duration: '1000',
-  //   complete: function(){
-  //     card_id.css({
-  //       left: card_zone_left+'px',
-  //       bottom: card_zone_top+'px'
-  //     });
-  //   }
-  // });
   card_id.css({
     left: card_zone_left - 40 +'px',
     bottom: card_zone_top + 20 +'px'
@@ -231,10 +220,10 @@ tarot = function(){
   phaseOne = setInterval(function(){
     if (count_animation <= 4){
       jQuery('.card_devil').css('top', card_zone_top - 57 + 'px');
-      
       count_animation += 1;
     } else if (count_animation > 4 && count_animation <= 8) {
-      
+      jQuery('.card_solis').css('top', card_zone_top - 57 + 'px');
+      card_id.css('transform', 'rotate(260deg)');
     } else {
       clearInterval(phaseOne);
       count_animation = 0;
