@@ -58,29 +58,32 @@ var chain,
     },
     card_zone,
     card_ids = {
-      '0' : '.draggable_v5',
-      '1' : '.draggable_v1',
-      '2' : '.draggable_v2',
-      '3' : '.draggable_s3',
-      '4' : '.draggable_d4',
-      '5' : '.draggable_s4',
-      '6' : '.draggable_s5',
-      '7' : '.draggable_s2',
-      '8' : '.draggable_v3',
-      '9' : '.draggable_v3-4',
-      '10' : '.draggable_v4',
-      '11' : '.draggable_d3',
-      '12' : '.draggable_d5',
-      '13' : '.draggable_d2_1',
-      '14' : '.draggable_v4-5',
-      '16' : '.draggable_v5_1',
-      '17' : '.draggable_v0',
-      '18' : '.draggable_v-',
-      '20' : '.draggable_s2_1',
-      '21' : '.draggable_d2'
+      '0' : '#draggable_v5',
+      '1' : '#draggable_v1',
+      '2' : '#draggable_v2',
+      '3' : '#draggable_s3',
+      '4' : '#draggable_d4',
+      '5' : '#draggable_s4',
+      '6' : '#draggable_s5',
+      '7' : '#draggable_s2',
+      '8' : '#draggable_v3',
+      '9' : '#draggable_v3-4',
+      '10' : '#draggable_v4',
+      '11' : '#draggable_d3',
+      '12' : '#draggable_d5',
+      '13' : '#draggable_d2_1',
+      '14' : '#draggable_v4-5',
+      '16' : '#draggable_v5_1',
+      '17' : '#draggable_v0',
+      '18' : '#draggable_v-',
+      '20' : '#draggable_s2_1',
+      '21' : '#draggable_d2'
     },
     card_id,
-    cur_cards = ['3', '10', '11', '12'];
+    cur_cards = ['3', '10', '11', '12'],
+    cur_cards_length,
+    cur_card;
+
 
 
 // if paused procedure is exist
@@ -197,33 +200,13 @@ endNow = function(){
   });
 }
 
-sideFormuls = function(time, mainZone){
-  if (time <= 1) {
-    jQuery('.zone_x').css('top', jQuery('.draggable_v0').css('top'));
-    jQuery('.zone_l').css('top', jQuery('.draggable_v-').css('top'));
-  } else if (time > 1 && time <= 2) {
-    jQuery('.zone_x').css('top', jQuery('.draggable_v-').css('top'));
-    jQuery('.zone_l').css('top', jQuery('.draggable_v0').css('top'));
-  } else {
-    jQuery('.zone_x, .zone_l').css('top', mainZone.css('top'));
-  }
-}
-sideFormulsTwo = function(time, mainZone1, mainZone2){
-  if (time <= 1) {
-    jQuery('.zone_x').css('top', jQuery('.draggable_v0').css('top'));
-    jQuery('.zone_l').css('top', jQuery('.draggable_v-').css('top'));
-  } else if (time > 1 && time <= 2) {
-    jQuery('.zone_x').css('top', jQuery('.draggable_v-').css('top'));
-    jQuery('.zone_l').css('top', jQuery('.draggable_v0').css('top'));
-  } else {
-    jQuery('.zone_x').css('top', mainZone1.css('top'));
-    jQuery('.zone_l').css('top', mainZone2.css('top'));
-  }
-}
-
 
 tarot = function(){
   count_animation = 0;
+  cur_card = cur_cards[0];
+  card_id = jQuery(card_ids[cur_card]);
+  card_id.fadeIn(500);
+  
   phaseOne = setInterval(function(){
     if (count_animation <= 4){
       

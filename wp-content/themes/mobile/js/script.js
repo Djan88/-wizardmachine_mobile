@@ -37,7 +37,6 @@ jQuery(document).ready(function () {
   //line_drawing
 
   line_drawing = function(){
-    console.log('draw');
     jQuery('.line_area').attr('height', parseInt(jQuery('.work-area').css('height')));
     jQuery('.line_area').attr('width', parseInt(jQuery('.work-area').css('width')));
     solis_x = jQuery('.card_solis').position().left + card_width;
