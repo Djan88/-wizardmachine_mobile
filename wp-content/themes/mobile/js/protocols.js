@@ -216,7 +216,7 @@ tarot = function(){
     left: card_zone_left - 40 +'px',
     bottom: card_zone_top + 20 +'px'
   });
-
+  jQuery('.card_codes_bottom').find('.card_protocol').data('number', cur_card).addClass('hidden');
   phaseOne = setInterval(function(){
     if (count_animation <= 4){
       jQuery('.card_devil').css('top', card_zone_top - 67 + 'px');
