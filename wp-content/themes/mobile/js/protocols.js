@@ -204,11 +204,13 @@ endNow = function(){
 
 
 tarot = function(){
+  jQuery('.line_area').addClass('hidden');
+  jQuery('.card_devil, .card_solis').addClass('card_move');
   count_animation = 0;
   cur_card = cur_cards[0];
   card_id = jQuery(card_ids[cur_card]);
-  card_zone_left = parseInt(jQuery(card_zones[cur_card]).css('left'))-40;
-  card_zone_top = parseInt(jQuery(card_zones[cur_card]).css('top'))+20;
+  card_zone_left = parseInt(jQuery(card_zones[cur_card]).css('left'));
+  card_zone_top = parseInt(jQuery(card_zones[cur_card]).css('top'));
   card_id.fadeIn(500);
   // card_id.show({
   //   effect: 'fade',
@@ -222,13 +224,13 @@ tarot = function(){
   //   }
   // });
   card_id.css({
-    left: card_zone_left+'px',
-    bottom: card_zone_top+'px'
+    left: card_zone_left - 40 +'px',
+    bottom: card_zone_top + 20 +'px'
   });
 
   phaseOne = setInterval(function(){
     if (count_animation <= 4){
-      
+      jQuery('.card_devil').css('top', card_zone_left - 57 + 'px');
       
       count_animation += 1;
     } else if (count_animation > 4 && count_animation <= 8) {

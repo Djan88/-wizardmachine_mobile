@@ -426,6 +426,10 @@ span.menu_item_img
   position: static;
   height: 25px;
 }
+.card_move
+{
+  transition: top linear 4s;
+}
 .zone 
 {
   z-index: 500;
