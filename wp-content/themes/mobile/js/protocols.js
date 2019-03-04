@@ -206,7 +206,7 @@ tarot = function(){
   cur_card = cur_cards[0];
   card_id = jQuery(card_ids[cur_card]);
   card_id.fadeIn(500);
-  
+
   phaseOne = setInterval(function(){
     if (count_animation <= 4){
       
@@ -1927,9 +1927,6 @@ jQuery('.btn_start').on('click', function(event) {
     jQuery('.header-title').text('Программа выполняется');
     jQuery('.zone').css('background', 'rgba(83,35,69, 0.4)');
     jQuery('.btn-to_protocols').addClass('hidden');
-    jQuery('.zone_x').css('background', '#fff url(/wp-content/themes/mobile/img/plod.png) 0 0/100% no-repeat');
-    jQuery('.zone_l').css('background', '#fff url(/wp-content/themes/mobile/img/x.png) 0 0/100% no-repeat');
-    jQuery('.zone_x, .zone_l').css('transform', 'rotate(-90deg) scale(1.3)').removeClass('hidden');
     jQuery('.btn-to_endNow').removeClass('hidden');
     if (jQuery(this).attr('disabled')) {
 
