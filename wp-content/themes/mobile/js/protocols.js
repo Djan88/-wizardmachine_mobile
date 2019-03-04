@@ -205,7 +205,13 @@ tarot = function(){
   count_animation = 0;
   cur_card = cur_cards[0];
   card_id = jQuery(card_ids[cur_card]);
-  card_id.show('slide','500');
+  card_id.show({
+    effect: 'slide',
+    options: {
+      direction: 'up'
+    },
+    duration: '500'
+    });
 
   phaseOne = setInterval(function(){
     if (count_animation <= 4){
@@ -213,9 +219,7 @@ tarot = function(){
       
       count_animation += 1;
     } else if (count_animation > 4 && count_animation <= 8) {
-      jQuery('.draggable_v1, .draggable_v5').css({
-        background: '#fff url(/wp-content/themes/mobile/img/life_vater.png) 0 0/100% no-repeat'
-      });
+      
     } else {
       clearInterval(phaseOne);
       count_animation = 0;
