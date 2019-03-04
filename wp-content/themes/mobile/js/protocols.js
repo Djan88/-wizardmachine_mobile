@@ -230,7 +230,7 @@ tarot = function(){
 
   phaseOne = setInterval(function(){
     if (count_animation <= 4){
-      jQuery('.card_devil').css('top', card_zone_left - 57 + 'px');
+      jQuery('.card_devil').css('top', card_zone_top - 57 + 'px');
       
       count_animation += 1;
     } else if (count_animation > 4 && count_animation <= 8) {
