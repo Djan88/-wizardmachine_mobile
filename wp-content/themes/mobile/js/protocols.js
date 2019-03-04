@@ -216,7 +216,7 @@ tarot = function(){
     left: card_zone_left - 40 +'px',
     bottom: card_zone_top + 20 +'px'
   });
-  jQuery('.card_codes_bottom').find('.card_protocol').data('number', cur_card).addClass('hidden');
+  jQuery('.card_codes_bottom').find(jQuery('[data-number =' + cur_card + ']')).fadeOut(500);
   phaseOne = setInterval(function(){
     if (count_animation <= 4){
       jQuery('.card_devil').css('top', card_zone_top - 67 + 'px');
@@ -235,6 +235,7 @@ tarot = function(){
       count_animation = 0;
       card_id.css('bottom', parseInt(card_id.css('bottom')) + 200 + 'px');
       card_id.fadeOut(500);
+      jQuery('.card_codes_top').find(jQuery('[data-number =' + cur_card + ']')).fadeIn(500);
     }
   }, 1000);
 }
