@@ -209,17 +209,21 @@ tarot = function(){
   card_id = jQuery(card_ids[cur_card]);
   card_zone_left = parseInt(jQuery(card_zones[cur_card]).css('left'));
   card_zone_top = parseInt(jQuery(card_zones[cur_card]).css('top'));
-  // card_id.fadeIn(500);
-  card_id.show({
-    effect: 'slide',
-    direction: 'down',
-    duration: '1000',
-    complete: function(){
-      card_id.css({
-        left: card_zone_left+'px',
-        bottom: card_zone_top+'px'
-      });
-    }
+  card_id.fadeIn(500);
+  // card_id.show({
+  //   effect: 'fade',
+  //   direction: 'down',
+  //   duration: '1000',
+  //   complete: function(){
+  //     card_id.css({
+  //       left: card_zone_left+'px',
+  //       bottom: card_zone_top+'px'
+  //     });
+  //   }
+  // });
+  card_id.css({
+    left: card_zone_left+'px',
+    bottom: card_zone_top+'px'
   });
 
   phaseOne = setInterval(function(){
