@@ -82,7 +82,7 @@ var chain,
       '21' : '#draggable_d2'
     },
     card_id,
-    cur_cards = ['3', '10', '11', '12'],
+    cur_cards = ['10', '3', '11', '12'],
     cur_cards_length = cur_cards.length - 1,
     cur_card;
     cur_card_in_stack = 0;
@@ -220,7 +220,7 @@ tarot = function(){
   });
   jQuery('.card_codes_bottom').find(jQuery('[data-number =' + cur_card + ']')).fadeOut(500);
   phaseOne = setInterval(function(){
-    if (count_animation <= 4){
+    if (count_animation <= 40){
       jQuery('.card_devil').css('top', card_zone_top - 47 + 'px');
       count_animation += 1;
     } else if (count_animation > 4 && count_animation <= 8) {
