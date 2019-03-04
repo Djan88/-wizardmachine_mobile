@@ -216,7 +216,7 @@ tarot = function(){
   card_id.fadeIn(500);
   card_id.css({
     left: card_zone_left - 40 +'px',
-    bottom: card_zone_top + 20 +'px'
+    top: card_zone_top + 20 +'px'
   });
   jQuery('.card_codes_bottom').find(jQuery('[data-number =' + cur_card + ']')).fadeOut(500);
   phaseOne = setInterval(function(){
