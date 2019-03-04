@@ -205,7 +205,7 @@ tarot = function(){
   count_animation = 0;
   cur_card = cur_cards[0];
   card_id = jQuery(card_ids[cur_card]);
-  card_id.slideUp(400);
+  card_id.show('slide',['direction': 'up'],'500');
 
   phaseOne = setInterval(function(){
     if (count_animation <= 4){
