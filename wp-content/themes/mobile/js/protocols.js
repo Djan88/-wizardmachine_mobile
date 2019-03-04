@@ -219,20 +219,22 @@ tarot = function(){
 
   phaseOne = setInterval(function(){
     if (count_animation <= 4){
-      jQuery('.card_devil').css('top', card_zone_top - 57 + 'px');
+      jQuery('.card_devil').css('top', card_zone_top - 67 + 'px');
       count_animation += 1;
     } else if (count_animation > 4 && count_animation <= 8) {
-      jQuery('.card_solis').css('top', card_zone_top - 57 + 'px');
-      card_id.css('transform', 'rotate(260deg)');
+      jQuery('.card_solis').css('top', card_zone_top - 67 + 'px');
+      card_id.css('transform', 'rotate(270deg)');
+      count_animation += 1;
+    } else if (count_animation > 8 && count_animation <= 12) {
+      count_animation += 1;
+    } else if (count_animation > 12 && count_animation <= 16) {
+      card_id.css('transform', 'rotate(360deg)');
+      count_animation += 1;
     } else {
       clearInterval(phaseOne);
       count_animation = 0;
-      jQuery('.draggable_v1, .draggable_v5').css({
-        color: '#FFF0C7',
-        transform: 'scale(1)',
-        background: 'rgba(83, 35, 69, 0.4)',
-        opacity: 1
-      });
+      card_id.css('bottom', parseInt(card_id.css('bottom'))+200;
+      card_id.fadeOut(500);
     }
   }, 1000);
 }
