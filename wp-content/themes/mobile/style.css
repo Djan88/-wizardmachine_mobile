@@ -327,9 +327,9 @@ span.menu_item_img
 {
   position: absolute;
   left: 0;
-  right: 0;
+  bottom: -200px;
   z-index: 800;
-  transition: all linear 1s;
+  transition: top linear 1s,  bottom linear 1s;
   transform: rotate(180deg);
 }
 .loaded_img_alt
