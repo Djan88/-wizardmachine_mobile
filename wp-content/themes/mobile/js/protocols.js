@@ -206,18 +206,21 @@ endNow = function(){
 tarot = function(){
   count_animation = 0;
   cur_card = cur_cards[0];
-  card_zone_left = parseInt(jQuery(cur_cards[0]).css('left'));
-  card_zone_top = parseInt(jQuery(cur_cards[0]).css('top'));
   card_id = jQuery(card_ids[cur_card]);
+  card_zone_left = parseInt(jQuery(card_zones[cur_card]).css('left'));
+  card_zone_top = parseInt(jQuery(card_zones[cur_card]).css('top'));
   // card_id.fadeIn(500);
   card_id.show({
     effect: 'slide',
     direction: 'down',
-    duration: '1000'
-  }).css({
+    duration: '1000',
+    complete: function(){
+      card_id.css({
         left: card_zone_left+'px',
         bottom: card_zone_top+'px'
       });
+    }
+  });
 
   phaseOne = setInterval(function(){
     if (count_animation <= 4){
