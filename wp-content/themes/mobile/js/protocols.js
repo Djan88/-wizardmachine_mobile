@@ -235,11 +235,11 @@ tarot = function(){
     } else {
       clearInterval(phaseOne);
       count_animation = 0;
-      card_id.css('top', parseInt(card_id.css('top')) - 2000 + 'px');
+      card_id.css('top', parseInt(card_id.css('top')) - 200 + 'px');
+      card_id.fadeOut(1000);
       jQuery('.card_devil, .card_solis').removeClass('card_move').addClass('card_move_fast');
       jQuery('.card_devil').css('top', jQuery('.card_ghost_devil').css('top'));
       jQuery('.card_solis').css('top', jQuery('.card_ghost_solis').css('top'));
-      card_id.fadeOut(1000);
       jQuery('.card_codes_top').find(jQuery('[data-number =' + cur_card + ']')).fadeIn(500);
       if (cur_card_in_stack < cur_cards_length) {
         cur_card_in_stack += 1;

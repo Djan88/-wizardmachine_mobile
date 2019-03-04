@@ -326,8 +326,8 @@ span.menu_item_img
 .card_in_action 
 {
   position: absolute;
-  left: 500;
-  top: 800px;
+  left: 0;
+  top: 500px;
   z-index: 800;
   transition: left linear 1s,  bottom linear 1s,  transform linear 1s;
   transform: rotate(180deg);
