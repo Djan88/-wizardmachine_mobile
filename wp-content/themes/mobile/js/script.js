@@ -44,10 +44,10 @@ jQuery(document).ready(function () {
     devil_x = jQuery('.card_devil').position().left + drag_zone_w + diag_zone_w;
     devil_y = jQuery('.card_devil').position().top + card_heigth;
 
-    jQuery('.line').attr('x1', solis_x);
-    jQuery('.line').attr('y1', solis_y-30);
-    jQuery('.line').attr('x2', devil_x);
-    jQuery('.line').attr('y2', devil_y+30);
+    jQuery('.line').attr('x1', solis_x - 30);
+    jQuery('.line').attr('y1', solis_y);
+    jQuery('.line').attr('x2', devil_x + 30);
+    jQuery('.line').attr('y2', devil_y);
   }
 
   //Dragging elems
