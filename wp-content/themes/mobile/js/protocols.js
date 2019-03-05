@@ -150,7 +150,7 @@ onEnd = function(){
     type: "success",
     showCancelButton: true,
     confirmButtonColor: "#DD6B55",
-    confirmButtonText: "Другой протокол",
+    confirmButtonText: "В начало",
     cancelButtonText: "Новый клиент"
   },
   function(isConfirm){

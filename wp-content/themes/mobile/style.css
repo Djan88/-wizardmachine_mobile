@@ -444,7 +444,7 @@ span.menu_item_img
 }
 .card_move_fast
 {
-  transition: top linear 1s;
+  transition: top linear 0.5s;
 }
 .zone 
 {
