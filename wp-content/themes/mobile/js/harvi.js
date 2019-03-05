@@ -45,7 +45,7 @@ jQuery(document).ready(function () {
     var moon_day = hm.NowMoonDay();
     //var moon_day=hm.GetMoonDay(22,1,2011);
 
-    // moon_day = 28;
+    moon_day = 28;
     jQuery('.btn_moon_day').on('click', function(event) {
         card_semi_height = parseInt(jQuery('.card_solis').css('height')) / 2;
         if (moon_day == 1 || moon_day == 2 || moon_day == 29) {
