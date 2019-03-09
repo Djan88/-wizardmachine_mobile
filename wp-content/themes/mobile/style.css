@@ -329,7 +329,7 @@ span.menu_item_img
   left: 800px;
   top: -80px;
   z-index: 800;
-  transition: left cubic-bezier(0,.03,.32,1.54) 1s,  top cubic-bezier(0,.03,.32,1.54) 1s, right cubic-bezier(0,.03,.32,1.54) 1s,  transform linear 1s;
+  transition: left cubic-bezier(0,.03,.32,1.54) 1s,  top cubic-bezier(0,.03,.32,1.54) 1s, right cubic-bezier(0,.03,.32,1.54) 1s,  transform cubic-bezier(0,.03,.32,1.54) 1s;
   transform: scale(0.5) rotate(180deg);
 }
 .card_codes 
