@@ -317,7 +317,7 @@ span.menu_item_img
 {
   height: 100px;
   position: relative;
-  transition: top linear 1s, left linear 1s, right linear 1s;
+  transition: top linear 1s, left linear 1s, right linear 1s,  transform linear 1s;
 }
 .card_protocol.card_protocol_on
 {
@@ -335,6 +335,7 @@ span.menu_item_img
 .card_codes 
 {
   position: absolute;
+  z-index: 500;
 }
 .card_codes_top
 {
@@ -351,10 +352,12 @@ span.menu_item_img
 .card_codes_top img:hover
 {
   transform: scale(2);
+  z-index: 999;
 }
 .card_codes_bottom img:hover
 {
   transform: scale(2) rotate(180deg);
+  z-index: 999;
 }
 .loaded_img_alt
 {
