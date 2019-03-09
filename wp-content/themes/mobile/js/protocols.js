@@ -215,6 +215,7 @@ tarot = function(){
   card_zone_top = parseInt(jQuery(card_zones[cur_card]).css('top'));
   card_id.fadeIn(500);
   card_id.css({
+    transform: 'scale(1) rotate(180deg)',
     left: card_zone_left - 40 +'px',
     top: card_zone_top - 60 +'px'
   });
@@ -236,6 +237,11 @@ tarot = function(){
       clearInterval(phaseOne);
       count_animation = 0;
       card_id.css('top', parseInt(card_id.css('top')) - 200 + 'px');
+      card_id.css({
+        transform: 'scale(0.5) rotate(360deg)',
+        left: '-400px',
+        top: '-80px'
+      });
       card_id.fadeOut(1000);
       jQuery('.card_devil, .card_solis').removeClass('card_move').addClass('card_move_fast');
       jQuery('.card_devil').css('top', jQuery('.card_ghost_devil').css('top'));

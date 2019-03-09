@@ -330,7 +330,7 @@ span.menu_item_img
   top: -80px;
   z-index: 800;
   transition: left linear 1s,  top linear 1s, right linear 1s,  transform linear 1s;
-  transform: rotate(180deg);
+  transform: scale(0.5) rotate(180deg);
 }
 .card_codes 
 {
@@ -347,6 +347,14 @@ span.menu_item_img
 .card_codes_bottom img
 {
   transform: rotate(180deg);
+}
+.card_codes_top img:hover
+{
+  transform: scale(2);
+}
+.card_codes_bottom img:hover
+{
+  transform: scale(2) rotate(180deg);
 }
 .loaded_img_alt
 {
