@@ -315,9 +315,9 @@ span.menu_item_img
 }
 .card_protocol
 {
-  height: 50px;
+  height: 100px;
   position: relative;
-  transition: top linear 1s, left linear 1s;
+  transition: top linear 1s, left linear 1s, right linear 1s;
 }
 .card_protocol.card_protocol_on
 {
@@ -329,7 +329,7 @@ span.menu_item_img
   left: 0;
   top: 800px;
   z-index: 800;
-  transition: left linear 1s,  top linear 1s,  transform linear 1s;
+  transition: left linear 1s,  top linear 1s, right linear 1s,  transform linear 1s;
   transform: rotate(180deg);
 }
 .card_codes 
@@ -343,11 +343,10 @@ span.menu_item_img
 .card_codes_bottom
 {
   text-align: right;
-  transform: scale(0.5);
 }
 .card_codes_bottom img
 {
-  transform: scale(0.5) rotate(180deg);
+  transform: rotate(180deg);
 }
 .loaded_img_alt
 {

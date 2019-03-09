@@ -261,7 +261,8 @@
 										<img src="<?php echo get_template_directory_uri(); ?>/img/cards/solis_alt.png" alt="" class="card draggable draggable_y card_solis">
 									</div>
 									<div class="col-6 text_center zone_diag work-area_inner">
-										<div class="col-12 text_center zones">
+										<div class="col-1"></div>
+										<div class="col-8 text_center zones">
 											<div class="row">
 												<!-- <div class="col zone_holder">
 													<div class="status status_percent_wrap hidden">
@@ -422,6 +423,7 @@
 												</div>
 											</div>
 										</div>
+										<div class="col-1"></div>
 										<img class="loaded_img" src="" alt="">
 										<img src="<?php echo get_template_directory_uri(); ?>/img/cards/devil.png" alt="" class="card card_ghost card_ghost_devil_vertical hidden">
 										<img src="<?php echo get_template_directory_uri(); ?>/img/cards/solis.png" alt="" class="card card_ghost card_ghost_solis_vertical hidden">
