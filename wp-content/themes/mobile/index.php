@@ -208,6 +208,54 @@
 						<div class="row justify-content-center">
 							<div class="col-12 work-area" style="margin-bottom: 10px;">
 								<div class="row justify-content-center" style="position: relative;">
+									<div class="col-12 card_codes">
+										<div class="row">
+											<div class="col-6 card_codes_top">
+												<img src="<?php echo get_template_directory_uri(); ?>/img/cards/fool.png" alt="" class="card_protocol card_protocol_top hidden" data-number="0">
+												<img src="<?php echo get_template_directory_uri(); ?>/img/cards/magician.png" alt="" class="card_protocol card_protocol_top hidden" data-number="1">
+												<img src="<?php echo get_template_directory_uri(); ?>/img/cards/high_priestess.png" alt="" class="card_protocol card_protocol_top hidden" data-number="2">
+												<img src="<?php echo get_template_directory_uri(); ?>/img/cards/ring_3.png" alt="" class="card_protocol card_protocol_top hidden" data-number="3">
+												<img src="<?php echo get_template_directory_uri(); ?>/img/cards/emperor.png" alt="" class="card_protocol card_protocol_top hidden" data-number="4">
+												<img src="<?php echo get_template_directory_uri(); ?>/img/cards/hierophant.png" alt="" class="card_protocol card_protocol_top hidden" data-number="5">
+												<img src="<?php echo get_template_directory_uri(); ?>/img/cards/lovers.png" alt="" class="card_protocol card_protocol_top hidden" data-number="6">
+												<img src="<?php echo get_template_directory_uri(); ?>/img/cards/chariot.png" alt="" class="card_protocol card_protocol_top hidden" data-number="7">
+												<img src="<?php echo get_template_directory_uri(); ?>/img/cards/strength.png" alt="" class="card_protocol card_protocol_top hidden" data-number="8">
+												<img src="<?php echo get_template_directory_uri(); ?>/img/cards/hermit.png" alt="" class="card_protocol card_protocol_top hidden" data-number="9">
+												<img src="<?php echo get_template_directory_uri(); ?>/img/cards/ring_10.png" alt="" class="card_protocol card_protocol_top hidden" data-number="10">
+												<img src="<?php echo get_template_directory_uri(); ?>/img/cards/ring_11.png" alt="" class="card_protocol card_protocol_top hidden" data-number="11">
+												<img src="<?php echo get_template_directory_uri(); ?>/img/cards/ring_12.png" alt="" class="card_protocol card_protocol_top hidden" data-number="12">
+												<img src="<?php echo get_template_directory_uri(); ?>/img/cards/devil.png" alt="" class="card_protocol card_protocol_top hidden" data-number="13">
+												<img src="<?php echo get_template_directory_uri(); ?>/img/cards/temperance.png" alt="" class="card_protocol card_protocol_top hidden" data-number="14">
+												<img src="<?php echo get_template_directory_uri(); ?>/img/cards/tower.png" alt="" class="card_protocol card_protocol_top hidden" data-number="16">
+												<img src="<?php echo get_template_directory_uri(); ?>/img/cards/star.png" alt="" class="card_protocol card_protocol_top hidden" data-number="17">
+												<img src="<?php echo get_template_directory_uri(); ?>/img/cards/moon.png" alt="" class="card_protocol card_protocol_top hidden" data-number="18">
+												<img src="<?php echo get_template_directory_uri(); ?>/img/cards/judgement.png" alt="" class="card_protocol card_protocol_top hidden" data-number="20">
+												<img src="<?php echo get_template_directory_uri(); ?>/img/cards/world.png" alt="" class="card_protocol card_protocol_top hidden" data-number="21">
+											</div>
+											<div class="col-6 card_codes_bottom">
+												<img src="<?php echo get_template_directory_uri(); ?>/img/cards/fool.png" alt="" class="card_protocol card_protocol_bottom hidden" data-number="0">
+												<img src="<?php echo get_template_directory_uri(); ?>/img/cards/magician.png" alt="" class="card_protocol card_protocol_bottom hidden" data-number="1">
+												<img src="<?php echo get_template_directory_uri(); ?>/img/cards/high_priestess.png" alt="" class="card_protocol card_protocol_bottom hidden" data-number="2">
+												<img src="<?php echo get_template_directory_uri(); ?>/img/cards/ring_3.png" alt="" class="card_protocol card_protocol_bottom" data-number="3">
+												<img src="<?php echo get_template_directory_uri(); ?>/img/cards/emperor.png" alt="" class="card_protocol card_protocol_bottom hidden" data-number="4">
+												<img src="<?php echo get_template_directory_uri(); ?>/img/cards/hierophant.png" alt="" class="card_protocol card_protocol_bottom hidden" data-number="5">
+												<img src="<?php echo get_template_directory_uri(); ?>/img/cards/lovers.png" alt="" class="card_protocol card_protocol_bottom hidden" data-number="6">
+												<img src="<?php echo get_template_directory_uri(); ?>/img/cards/chariot.png" alt="" class="card_protocol card_protocol_bottom hidden" data-number="7">
+												<img src="<?php echo get_template_directory_uri(); ?>/img/cards/strength.png" alt="" class="card_protocol card_protocol_bottom hidden" data-number="8">
+												<img src="<?php echo get_template_directory_uri(); ?>/img/cards/hermit.png" alt="" class="card_protocol card_protocol_bottom hidden" data-number="9">
+												<img src="<?php echo get_template_directory_uri(); ?>/img/cards/ring_10.png" alt="" class="card_protocol card_protocol_bottom" data-number="10">
+												<img src="<?php echo get_template_directory_uri(); ?>/img/cards/ring_11.png" alt="" class="card_protocol card_protocol_bottom" data-number="11">
+												<img src="<?php echo get_template_directory_uri(); ?>/img/cards/ring_12.png" alt="" class="card_protocol card_protocol_bottom" data-number="12">
+												<img src="<?php echo get_template_directory_uri(); ?>/img/cards/devil.png" alt="" class="card_protocol card_protocol_bottom hidden" data-number="13">
+												<img src="<?php echo get_template_directory_uri(); ?>/img/cards/temperance.png" alt="" class="card_protocol card_protocol_bottom hidden" data-number="14">
+												<img src="<?php echo get_template_directory_uri(); ?>/img/cards/tower.png" alt="" class="card_protocol card_protocol_bottom hidden" data-number="16">
+												<img src="<?php echo get_template_directory_uri(); ?>/img/cards/star.png" alt="" class="card_protocol card_protocol_bottom hidden" data-number="17">
+												<img src="<?php echo get_template_directory_uri(); ?>/img/cards/moon.png" alt="" class="card_protocol card_protocol_bottom hidden" data-number="18">
+												<img src="<?php echo get_template_directory_uri(); ?>/img/cards/judgement.png" alt="" class="card_protocol card_protocol_bottom hidden" data-number="20">
+												<img src="<?php echo get_template_directory_uri(); ?>/img/cards/world.png" alt="" class="card_protocol card_protocol_bottom hidden" data-number="21">
+											</div>
+										</div>
+									</div>
 									<div class="col-3 no-padding drag_container">
 										<img src="<?php echo get_template_directory_uri(); ?>/img/cards/solis_alt.png" alt="" class="card card_ghost card_ghost_solis">
 										<img src="<?php echo get_template_directory_uri(); ?>/img/cards/solis_alt.png" alt="" class="card draggable draggable_y card_solis">
@@ -374,28 +422,6 @@
 												</div>
 											</div>
 										</div>
-										<div class="col-12 card_codes_top">
-											<img src="<?php echo get_template_directory_uri(); ?>/img/cards/fool.png" alt="" class="card_protocol card_protocol_top hidden" data-number="0">
-											<img src="<?php echo get_template_directory_uri(); ?>/img/cards/magician.png" alt="" class="card_protocol card_protocol_top hidden" data-number="1">
-											<img src="<?php echo get_template_directory_uri(); ?>/img/cards/high_priestess.png" alt="" class="card_protocol card_protocol_top hidden" data-number="2">
-											<img src="<?php echo get_template_directory_uri(); ?>/img/cards/ring_3.png" alt="" class="card_protocol card_protocol_top hidden" data-number="3">
-											<img src="<?php echo get_template_directory_uri(); ?>/img/cards/emperor.png" alt="" class="card_protocol card_protocol_top hidden" data-number="4">
-											<img src="<?php echo get_template_directory_uri(); ?>/img/cards/hierophant.png" alt="" class="card_protocol card_protocol_top hidden" data-number="5">
-											<img src="<?php echo get_template_directory_uri(); ?>/img/cards/lovers.png" alt="" class="card_protocol card_protocol_top hidden" data-number="6">
-											<img src="<?php echo get_template_directory_uri(); ?>/img/cards/chariot.png" alt="" class="card_protocol card_protocol_top hidden" data-number="7">
-											<img src="<?php echo get_template_directory_uri(); ?>/img/cards/strength.png" alt="" class="card_protocol card_protocol_top hidden" data-number="8">
-											<img src="<?php echo get_template_directory_uri(); ?>/img/cards/hermit.png" alt="" class="card_protocol card_protocol_top hidden" data-number="9">
-											<img src="<?php echo get_template_directory_uri(); ?>/img/cards/ring_10.png" alt="" class="card_protocol card_protocol_top hidden" data-number="10">
-											<img src="<?php echo get_template_directory_uri(); ?>/img/cards/ring_11.png" alt="" class="card_protocol card_protocol_top hidden" data-number="11">
-											<img src="<?php echo get_template_directory_uri(); ?>/img/cards/ring_12.png" alt="" class="card_protocol card_protocol_top hidden" data-number="12">
-											<img src="<?php echo get_template_directory_uri(); ?>/img/cards/devil.png" alt="" class="card_protocol card_protocol_top hidden" data-number="13">
-											<img src="<?php echo get_template_directory_uri(); ?>/img/cards/temperance.png" alt="" class="card_protocol card_protocol_top hidden" data-number="14">
-											<img src="<?php echo get_template_directory_uri(); ?>/img/cards/tower.png" alt="" class="card_protocol card_protocol_top hidden" data-number="16">
-											<img src="<?php echo get_template_directory_uri(); ?>/img/cards/star.png" alt="" class="card_protocol card_protocol_top hidden" data-number="17">
-											<img src="<?php echo get_template_directory_uri(); ?>/img/cards/moon.png" alt="" class="card_protocol card_protocol_top hidden" data-number="18">
-											<img src="<?php echo get_template_directory_uri(); ?>/img/cards/judgement.png" alt="" class="card_protocol card_protocol_top hidden" data-number="20">
-											<img src="<?php echo get_template_directory_uri(); ?>/img/cards/world.png" alt="" class="card_protocol card_protocol_top hidden" data-number="21">
-										</div>
 										<img class="loaded_img" src="" alt="">
 										<img src="<?php echo get_template_directory_uri(); ?>/img/cards/devil.png" alt="" class="card card_ghost card_ghost_devil_vertical hidden">
 										<img src="<?php echo get_template_directory_uri(); ?>/img/cards/solis.png" alt="" class="card card_ghost card_ghost_solis_vertical hidden">
@@ -426,28 +452,6 @@
 									<div class="col-3 no-padding drag_container">
 										<img src="<?php echo get_template_directory_uri(); ?>/img/cards/devil_alt.png" alt="" class="card card_ghost card_ghost_devil">
 										<img src="<?php echo get_template_directory_uri(); ?>/img/cards/devil_alt.png" alt="" class="card draggable draggable_y card_devil">
-									</div>
-									<div class="col-12 card_codes_bottom">
-										<img src="<?php echo get_template_directory_uri(); ?>/img/cards/fool.png" alt="" class="card_protocol card_protocol_bottom hidden" data-number="0">
-										<img src="<?php echo get_template_directory_uri(); ?>/img/cards/magician.png" alt="" class="card_protocol card_protocol_bottom hidden" data-number="1">
-										<img src="<?php echo get_template_directory_uri(); ?>/img/cards/high_priestess.png" alt="" class="card_protocol card_protocol_bottom hidden" data-number="2">
-										<img src="<?php echo get_template_directory_uri(); ?>/img/cards/ring_3.png" alt="" class="card_protocol card_protocol_bottom" data-number="3">
-										<img src="<?php echo get_template_directory_uri(); ?>/img/cards/emperor.png" alt="" class="card_protocol card_protocol_bottom hidden" data-number="4">
-										<img src="<?php echo get_template_directory_uri(); ?>/img/cards/hierophant.png" alt="" class="card_protocol card_protocol_bottom hidden" data-number="5">
-										<img src="<?php echo get_template_directory_uri(); ?>/img/cards/lovers.png" alt="" class="card_protocol card_protocol_bottom hidden" data-number="6">
-										<img src="<?php echo get_template_directory_uri(); ?>/img/cards/chariot.png" alt="" class="card_protocol card_protocol_bottom hidden" data-number="7">
-										<img src="<?php echo get_template_directory_uri(); ?>/img/cards/strength.png" alt="" class="card_protocol card_protocol_bottom hidden" data-number="8">
-										<img src="<?php echo get_template_directory_uri(); ?>/img/cards/hermit.png" alt="" class="card_protocol card_protocol_bottom hidden" data-number="9">
-										<img src="<?php echo get_template_directory_uri(); ?>/img/cards/ring_10.png" alt="" class="card_protocol card_protocol_bottom" data-number="10">
-										<img src="<?php echo get_template_directory_uri(); ?>/img/cards/ring_11.png" alt="" class="card_protocol card_protocol_bottom" data-number="11">
-										<img src="<?php echo get_template_directory_uri(); ?>/img/cards/ring_12.png" alt="" class="card_protocol card_protocol_bottom" data-number="12">
-										<img src="<?php echo get_template_directory_uri(); ?>/img/cards/devil.png" alt="" class="card_protocol card_protocol_bottom hidden" data-number="13">
-										<img src="<?php echo get_template_directory_uri(); ?>/img/cards/temperance.png" alt="" class="card_protocol card_protocol_bottom hidden" data-number="14">
-										<img src="<?php echo get_template_directory_uri(); ?>/img/cards/tower.png" alt="" class="card_protocol card_protocol_bottom hidden" data-number="16">
-										<img src="<?php echo get_template_directory_uri(); ?>/img/cards/star.png" alt="" class="card_protocol card_protocol_bottom hidden" data-number="17">
-										<img src="<?php echo get_template_directory_uri(); ?>/img/cards/moon.png" alt="" class="card_protocol card_protocol_bottom hidden" data-number="18">
-										<img src="<?php echo get_template_directory_uri(); ?>/img/cards/judgement.png" alt="" class="card_protocol card_protocol_bottom hidden" data-number="20">
-										<img src="<?php echo get_template_directory_uri(); ?>/img/cards/world.png" alt="" class="card_protocol card_protocol_bottom hidden" data-number="21">
 									</div>
 								</div>
 								<svg height="1080" width="960" class="line_area">
