@@ -447,6 +447,8 @@ span.menu_item_img
   border-radius: 6px;
   margin-bottom: 20px;
   margin-top: 5px;
+  z-index: 601;
+  height: 42px;
 }
 .zone_holder 
 {
