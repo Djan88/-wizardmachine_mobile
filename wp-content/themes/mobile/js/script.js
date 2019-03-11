@@ -1,32 +1,32 @@
 jQuery(document).ready(function () {
   var cur_protocol,
-      croppedImg,
-      cur_protocol_name,
-      dragger,
-      draggerDate,
-      draggerDateDiff,
-      dragger_rate_class,
-      dragger_rate_class_dotted,
-      draggerDateOld = null,
-      number_of_points,
-      img_heigth,
-      card_heigth,
-      card_width,
-      drag_zone_w,
-      diag_zone_w,
-      solis_x,
-      solis_y,
-      devil_x,
-      devil_y,
-      line_drawing,
-      choiced_cards = [],
-      supportsStorage = function(){
-          try {
-              return 'localStorage' in window && window['localStorage'] !== null;
-          } catch (e) {
-              return false;
-          }
-      };
+    croppedImg,
+    cur_protocol_name,
+    dragger,
+    draggerDate,
+    draggerDateDiff,
+    dragger_rate_class,
+    dragger_rate_class_dotted,
+    draggerDateOld = null,
+    number_of_points,
+    img_heigth,
+    card_heigth,
+    card_width,
+    drag_zone_w,
+    diag_zone_w,
+    solis_x,
+    solis_y,
+    devil_x,
+    devil_y,
+    line_drawing,
+    choiced_cards = [],
+    supportsStorage = function(){
+        try {
+            return 'localStorage' in window && window['localStorage'] !== null;
+        } catch (e) {
+            return false;
+        }
+    };
   // Unhide menu after load
   jQuery('#menu').removeClass('hidden');
 
@@ -66,22 +66,6 @@ jQuery(document).ready(function () {
 
   jQuery('.btn_moon_day').on('click', function(event) {
     line_drawing();
-  });
-
-  // show card in modal
-  jQuery('.zone').on('click', function(event) {
-    jQuery('.card_modal_img').attr('src', jQuery(this).data('card'));
-    choiced_card = String(jQuery(this).data('number'));
-    zone_operated = jQuery(this);
-  });
-
-  // choice card
-  jQuery('.zone_choice').on('click', function(event) {
-    choiced_cards.push(choiced_card);
-    jQuery('.card_codes_bottom').find(jQuery('[data-number =' + choiced_card + ']')).removeClass('hidden');
-    console.log(choiced_cards);
-    zone_operated.addClass('zone_choiced');
-    jQuery('#card_modal').modal('hide');
   });
 
   // Register / Login
