@@ -82,7 +82,7 @@ var chain,
       '21' : '#draggable_d2'
     },
     card_id,
-    cur_cards,
+    cur_cards = [],
     cur_cards_length = cur_cards.length - 1,
     cur_card;
     cur_card_in_stack = 0;
