@@ -206,6 +206,7 @@ endNow = function(){
 
 tarot = function(){
   cur_cards = localStorage.getItem('cur_cards');
+  console.log(cur_cards);
   jQuery('.line_area').addClass('hidden');
   jQuery('.card_devil, .card_solis').removeClass('card_move_fast').addClass('card_move');
   count_animation = 0;
