@@ -86,6 +86,7 @@ jQuery(document).ready(function () {
       cur_cards = [],
       cur_cards_length,
       cur_card,
+      remove_card_num,
       cur_card_in_stack = 0;
 
 
@@ -218,6 +219,30 @@ jQuery(document).ready(function () {
     console.log(cur_cards);
     zone_operated.addClass('zone_choiced');
     jQuery('#card_modal').modal('hide');
+  });
+
+  // unchoice card
+  jQuery('.card_protocol_bottom').on('click', function(event) {
+    remove_card_num = jQuery(this).data('number');
+    swal({
+      title: "Хотите отменить выбор этой карты?",   
+      // text: "Хотите отменить выбор этой карты?",   
+      type: "info",   
+      showCancelButton: true,   
+      confirmButtonColor: "#DD6B55",   
+      confirmButtonText: "Да",   
+      cancelButtonText: "Нет"
+    },
+    function(isConfirm){
+      var protocol = undefined;
+      if (isConfirm) {    
+        cur_cards.splice(1, cur_cards.indexOf(remove_card_num));
+        console.log(cur_cards);
+        jQuery('.zones').find(jQuery('[data-number =' + remove_card_num + ']')).removeClass('zone_choiced');
+      } else {    
+        
+      } 
+    });
   });
 
 

@@ -317,6 +317,7 @@ span.menu_item_img
 {
   height: 100px;
   position: relative;
+  cursor: pointer;
   transition: top linear 1s, left linear 1s, right linear 1s,  transform linear 0.5s;
 }
 .card_protocol.card_protocol_on
@@ -500,6 +501,7 @@ span.menu_item_img
   position: absolute;
   margin: auto;
   left: 40%;
+  cursor: pointer;
   transition: transform linear 1s;
 }
 .zone.zone_choiced
