@@ -267,14 +267,6 @@ tarot = function(){
 ////////////////////////////////////////////////////////////////////////////////////////////////////
 ////////////////////////////////////////////////////////////////////////////////////////////////////
 
-
-// show card in modal
-jQuery('.zone').on('click', function(event) {
-  jQuery('.card_modal_img').attr('src', jQuery(this).data('card'));
-  choiced_card = String(jQuery(this).data('number'));
-  zone_operated = jQuery(this);
-});
-
 // choice card
 jQuery('.zone_choice').on('click', function(event) {
   choiced_cards.push(choiced_card);
@@ -283,6 +275,15 @@ jQuery('.zone_choice').on('click', function(event) {
   zone_operated.addClass('zone_choiced');
   jQuery('#card_modal').modal('hide');
 });
+
+// show card in modal
+jQuery('.zone').on('click', function(event) {
+  jQuery('.card_modal_img').attr('src', jQuery(this).data('card'));
+  choiced_card = String(jQuery(this).data('number'));
+  zone_operated = jQuery(this);
+});
+
+
 
 // START
 jQuery('.btn_start').on('click', function(event) {
