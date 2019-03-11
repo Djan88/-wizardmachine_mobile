@@ -67,6 +67,16 @@ jQuery(document).ready(function () {
     line_drawing();
   });
 
+
+  // choice card
+  jQuery('.zone_choice').on('click', function(event) {
+    choiced_cards.push(choiced_card);
+    jQuery('.card_codes_bottom').find(jQuery('[data-number =' + choiced_card + ']')).removeClass('hidden');
+    console.log(choiced_cards);
+    zone_operated.addClass('zone_choiced');
+    jQuery('#card_modal').modal('hide');
+  });
+
   // Register / Login
   jQuery('.toRegistration').on('click', function(event) {
     jQuery('.form-group_login').addClass('hidden');

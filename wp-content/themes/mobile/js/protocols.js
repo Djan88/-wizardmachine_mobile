@@ -213,7 +213,6 @@ jQuery('.zone').on('click', function(event) {
 
 // choice card
 jQuery('.zone_choice').on('click', function(event) {
-  console.log('test');
   choiced_cards.push(choiced_card);
   jQuery('.card_codes_bottom').find(jQuery('[data-number =' + choiced_card + ']')).removeClass('hidden');
   console.log(choiced_cards);
