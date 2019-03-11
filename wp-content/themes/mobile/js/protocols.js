@@ -236,8 +236,9 @@ jQuery(document).ready(function () {
     function(isConfirm){
       var protocol = undefined;
       if (isConfirm) {    
-        cur_cards.splice(1, cur_cards.indexOf(remove_card_num));
+        cur_cards.splice(cur_cards.indexOf(remove_card_num), 1);
         console.log(cur_cards);
+        jQuery('.card_codes_bottom').find(jQuery('[data-number =' + remove_card_num + ']')).addClass('hidden');
         jQuery('.zones').find(jQuery('[data-number =' + remove_card_num + ']')).removeClass('zone_choiced');
       } else {    
         
