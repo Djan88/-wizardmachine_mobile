@@ -19,6 +19,7 @@ jQuery(document).ready(function () {
       devil_x,
       devil_y,
       line_drawing,
+      choiced_cards = [],
       supportsStorage = function(){
           try {
               return 'localStorage' in window && window['localStorage'] !== null;
