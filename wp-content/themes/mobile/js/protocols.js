@@ -216,7 +216,7 @@ tarot = function(){
   card_id.fadeIn(500);
   card_id.css({
     transform: 'scale(1) rotate(180deg)',
-    left: card_zone_left - 40 +'px',
+    left: card_zone_left + 40 +'px',
     top: card_zone_top - 60 +'px'
   });
   jQuery('.card_codes_bottom').find(jQuery('[data-number =' + cur_card + ']')).fadeOut(500);
