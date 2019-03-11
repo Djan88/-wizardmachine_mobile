@@ -214,37 +214,11 @@ jQuery(document).ready(function () {
 
   // choice card
   jQuery('.zone_choice').on('click', function(event) {
-    jQuery('#card_modal').modal('hide');
-  });
-
-  jQuery('#card_modal').on('hide.bs.modal', function(event) {
-    for (var i = 0; i < cur_cards.length; i++) {
-      if (cur_cards[i] == choiced_card) {
-        swal({
-          title: "Эта зона уже выбрана",   
-          text: "Хотите удалить зону из набора?",   
-          type: "info",   
-          showCancelButton: true,   
-          confirmButtonColor: "#DD6B55",   
-          confirmButtonText: "Да",   
-          cancelButtonText: "Нет"
-        },
-        function(isConfirm){
-          var protocol = undefined;
-          if (isConfirm) {    
-            cur_cards.splice(cur_cards.indexOf(remove_card_num), 1);
-            console.log(cur_cards);
-            jQuery('.card_codes_bottom').find(jQuery('[data-number =' + remove_card_num + ']')).addClass('hidden');
-            jQuery('.zones').find(jQuery('[data-number =' + remove_card_num + ']')).removeClass('zone_choiced');
-          }
-        });
-      } else {
-        cur_cards.push(choiced_card);
-        jQuery('.card_codes_bottom').find(jQuery('[data-number =' + choiced_card + ']')).removeClass('hidden');
-        zone_operated.addClass('zone_choiced');
-      }
-    }
+    cur_cards.push(choiced_card);
+    jQuery('.card_codes_bottom').find(jQuery('[data-number =' + choiced_card + ']')).removeClass('hidden');
     console.log(cur_cards);
+    zone_operated.addClass('zone_choiced');
+    jQuery('#card_modal').modal('hide');
   });
 
   // unchoice card
@@ -266,7 +240,9 @@ jQuery(document).ready(function () {
         console.log(cur_cards);
         jQuery('.card_codes_bottom').find(jQuery('[data-number =' + remove_card_num + ']')).addClass('hidden');
         jQuery('.zones').find(jQuery('[data-number =' + remove_card_num + ']')).removeClass('zone_choiced');
-      }
+      } else {    
+        
+      } 
     });
   });
 
