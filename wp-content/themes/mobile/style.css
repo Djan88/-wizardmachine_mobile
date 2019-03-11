@@ -349,6 +349,10 @@ span.menu_item_img
 {
   transform: rotate(180deg);
 }
+.card_codes_bottom img.hidden
+{
+  transform: scale(2) rotate(180deg);
+}
 .card_codes_top img:hover
 {
   transform: scale(2);
@@ -497,6 +501,10 @@ span.menu_item_img
   margin: auto;
   left: 40%;
   transition: transform linear 1s;
+}
+.zone.zone_choiced
+{
+  background: #d25351;
 }
 #zones_template img 
 {

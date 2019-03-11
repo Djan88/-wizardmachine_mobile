@@ -20,6 +20,7 @@ jQuery(document).ready(function () {
       devil_y,
       line_drawing,
       choiced_cards = [],
+      zone_operated,
       supportsStorage = function(){
           try {
               return 'localStorage' in window && window['localStorage'] !== null;
@@ -60,21 +61,7 @@ jQuery(document).ready(function () {
       containment: '.drag_container',
       axis: "y",
       drag: function() {
-          // jQuery('.card_solis').css('bottom', jQuery('.card_devil').css('top'));
           line_drawing();
-        // dragger = jQuery('.draggable_y').css('top');
-        // dragger = dragger.substr(0, dragger.length - 2);
-        // draggerDate = new Date();
-        // draggerDateDiff = draggerDate - draggerDateOld;
-        // console.log(draggerDateDiff);
-        // dragger_rate_class = 'dragger_rate-'+dragger;
-        // dragger_rate_class_dotted = '.dragger_rate-'+dragger;
-        // jQuery('.diagnostic_rezult').append('<div class='+dragger_rate_class+'></div>');
-        // jQuery(dragger_rate_class_dotted).addClass('dragger_rate').css({
-        //     top: +dragger+15+'px',
-        //     width: draggerDateDiff*2+'px'
-        // });
-        // draggerDateOld = draggerDate;
       }
   });
 
@@ -86,12 +73,15 @@ jQuery(document).ready(function () {
   jQuery('.zone').on('click', function(event) {
     jQuery('.card_modal_img').attr('src', jQuery(this).data('card'));
     choiced_card = String(jQuery(this).data('number'));
+    zone_operated = jQuery(this);
   });
 
   // choice card
   jQuery('.zone_choice').on('click', function(event) {
     choiced_cards.push(choiced_card);
+    jQuery('.card_codes_bottom').find(jQuery('[data-number =' + choiced_card + ']')).removeClass('hidden');
     console.log(choiced_cards);
+    zone_operated.addClass('zone_choiced');
   });
 
   // Register / Login
