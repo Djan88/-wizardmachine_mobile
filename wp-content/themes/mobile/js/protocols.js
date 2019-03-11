@@ -206,7 +206,7 @@ endNow = function(){
 
 tarot = function(){
   cur_cards = localStorage.getItem('cur_cards');
-  for(var i=0; i<cur_cards.length;i++) cur_cards[i] = String(count_array[i]);
+  for(var i=0; i<cur_cards.length;i++) cur_cards[i] = String(cur_cards[i]);
   cur_cards_length = cur_cards.length - 1;
   console.log(cur_cards);
   jQuery('.line_area').addClass('hidden');
