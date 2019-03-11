@@ -1943,7 +1943,7 @@ jQuery('.btn_start').on('click', function(event) {
     jQuery('.header-title').text('Программа выполняется');
     jQuery('.zone').css('background', 'rgba(83,35,69, 0.4)');
     jQuery('.btn-to_protocols').addClass('hidden');
-    jQuery('.btn-to_endNow').removeClass('hidden');
+    // jQuery('.btn-to_endNow').removeClass('hidden');
     if (jQuery(this).attr('disabled')) {
 
     } else if (pausedStatus == true) {

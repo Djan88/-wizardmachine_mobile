@@ -90,6 +90,8 @@ jQuery(document).ready(function () {
     console.log(choiced_cards);
   });
 
+  // choice card
+
 
   // Register / Login
   jQuery('.toRegistration').on('click', function(event) {

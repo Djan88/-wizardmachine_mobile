@@ -62,7 +62,7 @@ jQuery(document).ready(function () {
           swal("Не все зоны перенесены", "Перед продолжением необходимо перенести все зоны на фото", "info");
           pointsStatus = true;
         } else {
-            jQuery('.card_modal_foter').removeClass('hidden');
+            jQuery('.card_modal_footer').removeClass('hidden');
             card_semi_height = parseInt(jQuery('.card_solis').css('height')) / 2;
             if (moon_day == 1 || moon_day == 2 || moon_day == 29) {
                 zone_top = parseInt(jQuery('.draggable_v1').css('top') + 50);
