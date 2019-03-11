@@ -239,9 +239,9 @@ jQuery(document).ready(function () {
         jQuery('.card_codes_bottom').find(jQuery('[data-number =' + choiced_card + ']')).removeClass('hidden');
         zone_operated.addClass('zone_choiced');
       }
-      jQuery('#card_modal').modal('hide');
-      console.log(cur_cards);
     }
+    jQuery('#card_modal').modal('hide');
+    console.log(cur_cards);
   });
 
   // unchoice card
