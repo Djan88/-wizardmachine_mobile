@@ -26,7 +26,6 @@ jQuery(document).ready(function () {
       protocolName,
       phaseOne,
       checkPoints,
-      pointsStatus = true,
       count_animation = 0,
       rotate_one = 0,
       rotate_two = 0,

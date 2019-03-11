@@ -4,6 +4,7 @@ jQuery(document).ready(function () {
         zone_left,
         zone_left_alt,
         checkPoints,
+        pointsStatus = true,
         card_semi_height;
     var THarviMoon = new Object();
     THarviMoon=function(){
