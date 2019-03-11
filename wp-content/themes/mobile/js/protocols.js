@@ -213,6 +213,7 @@ jQuery('.zone').on('click', function(event) {
 
 // choice card
 jQuery('.zone_choice').on('click', function(event) {
+  console.log('test');
   choiced_cards.push(choiced_card);
   jQuery('.card_codes_bottom').find(jQuery('[data-number =' + choiced_card + ']')).removeClass('hidden');
   console.log(choiced_cards);
@@ -288,7 +289,6 @@ tarot = function(){
 
 // START
 jQuery('.btn_start').on('click', function(event) {
-  console.log(cur_cards);
   jQuery('.header-title').text('Программа выполняется');
   jQuery('.zone').css('background', 'rgba(83,35,69, 0.4)');
   jQuery('.btn-to_protocols').addClass('hidden');
