@@ -263,7 +263,7 @@
 									<div class="col-6 text_center zone_diag work-area_inner">
 										<div class="col-md-8 offset-md-2 text_center zones">
 											<div class="row">
-												<div class="col zone_holder">
+												<div class="col zone_holder zone_holder_1">
 													<div class="status status_percent_wrap hidden">
 														Выполнено: <span class="status_percent">0%</span>
 													</div>
@@ -298,7 +298,7 @@
 														data-number="12" 
 														class="zone zone_movable draggable draggable_d5">XII</div>
 												</div>
-												<div class="col zone_holder">
+												<div class="col zone_holder zone_holder_2">
 													<div class="status status_title hidden"></div>
 													<div 
 														data-toggle="modal" 
@@ -361,7 +361,7 @@
 														data-number="18" 
 														class="zone zone_movable draggable draggable_v-">XVIII</div>
 												</div>
-												<div class="col zone_holder">
+												<div class="col zone_holder zone_holder_3">
 													<div class="status status_pahaze hidden">
 														Фаза: 
 														<span class="status_pahaze_now">0</span>

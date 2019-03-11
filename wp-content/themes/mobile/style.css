@@ -450,10 +450,22 @@ span.menu_item_img
   z-index: 601;
   height: 42px;
 }
-.zone_holder 
+.zone_holder
 {
   position: static;
   height: 25px;
+}
+.zone_holder_1 .zone
+{
+  left: 10%;
+}
+.zone_holder_2 .zone
+{
+  left: 45%;
+}
+.zone_holder_3 .zone
+{
+  left: 85%;
 }
 .card_move
 {
