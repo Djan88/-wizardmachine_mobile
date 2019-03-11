@@ -335,7 +335,7 @@ span.menu_item_img
 .card_codes 
 {
   position: absolute;
-  z-index: 600;
+  z-index: 700;
 }
 .card_codes_top
 {
