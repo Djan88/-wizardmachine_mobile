@@ -205,6 +205,7 @@ endNow = function(){
 
 
 tarot = function(){
+  cur_cards = localStorage.getItem('cur_cards');
   jQuery('.line_area').addClass('hidden');
   jQuery('.card_devil, .card_solis').removeClass('card_move_fast').addClass('card_move');
   count_animation = 0;
@@ -1957,7 +1958,6 @@ jQuery('.btn_start').on('click', function(event) {
       pausedStatus = false;
       jQuery('.btn-to_endNow').css('color', '#fff');
     } else {
-      cur_cards = localStorage.getItem('cur_cards');
       tarot();
       // protocol = localStorage.getItem('protocol');
       // jQuery('.btn-to_endNow').removeClass('hidden');
