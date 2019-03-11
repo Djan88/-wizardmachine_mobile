@@ -225,8 +225,8 @@ jQuery(document).ready(function () {
   jQuery('.card_protocol_bottom').on('click', function(event) {
     remove_card_num = jQuery(this).data('number');
     swal({
-      title: "Хотите отменить выбор этой карты?",   
-      // text: "Хотите отменить выбор этой карты?",   
+      title: "Отменить выбор этой карты?",   
+      text: "Это действие удалит карту из набора.",   
       type: "info",   
       showCancelButton: true,   
       confirmButtonColor: "#DD6B55",   
