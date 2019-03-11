@@ -214,6 +214,7 @@ jQuery(document).ready(function () {
 
   // choice card
   jQuery('.zone_choice').on('click', function(event) {
+    cur_cards.splice(cur_cards.indexOf(choiced_card), 1);
     cur_cards.push(choiced_card);
     jQuery('.card_codes_bottom').find(jQuery('[data-number =' + choiced_card + ']')).removeClass('hidden');
     console.log(cur_cards);
