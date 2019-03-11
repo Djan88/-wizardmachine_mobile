@@ -214,6 +214,10 @@ jQuery(document).ready(function () {
 
   // choice card
   jQuery('.zone_choice').on('click', function(event) {
+    jQuery('#card_modal').modal('hide');
+  });
+
+  jQuery('#card_modal').on('hide.bs.modal', function(event) {
     for (var i = 0; i < cur_cards.length; i++) {
       if (cur_cards[i] == choiced_card) {
         swal({
@@ -240,7 +244,6 @@ jQuery(document).ready(function () {
         zone_operated.addClass('zone_choiced');
       }
     }
-    jQuery('#card_modal').modal('hide');
     console.log(cur_cards);
   });
 
