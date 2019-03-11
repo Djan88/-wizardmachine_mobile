@@ -83,6 +83,7 @@ var chain,
     },
     card_id,
     cur_cards = [],
+    cur_cards_uploaded,
     cur_cards_length,
     cur_card;
     cur_card_in_stack = 0;
@@ -205,8 +206,10 @@ endNow = function(){
 
 
 tarot = function(){
-  cur_cards = localStorage.getItem('cur_cards');
-  for(var i=0; i<cur_cards.length;i++) cur_cards[i] = String(cur_cards[i]);
+  cur_cards_uploaded = localStorage.getItem('cur_cards');
+  var cur_cards = cur_cards_uploaded.map(function (x) { 
+      return String(x); 
+  });
   cur_cards_length = cur_cards.length - 1;
   console.log(cur_cards);
   jQuery('.line_area').addClass('hidden');
