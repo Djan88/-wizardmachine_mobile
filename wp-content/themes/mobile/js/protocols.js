@@ -204,22 +204,6 @@ endNow = function(){
   });
 }
 
-// show card in modal
-jQuery('.zone').on('click', function(event) {
-  jQuery('.card_modal_img').attr('src', jQuery(this).data('card'));
-  choiced_card = String(jQuery(this).data('number'));
-  zone_operated = jQuery(this);
-});
-
-// choice card
-jQuery('.zone_choice').on('click', function(event) {
-  choiced_cards.push(choiced_card);
-  jQuery('.card_codes_bottom').find(jQuery('[data-number =' + choiced_card + ']')).removeClass('hidden');
-  console.log(choiced_cards);
-  zone_operated.addClass('zone_choiced');
-  jQuery('#card_modal').modal('hide');
-});
-
 
 tarot = function(){
   cur_cards_length = cur_cards.length - 1;
