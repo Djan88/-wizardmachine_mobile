@@ -82,6 +82,7 @@ jQuery(document).ready(function () {
     jQuery('.card_codes_bottom').find(jQuery('[data-number =' + choiced_card + ']')).removeClass('hidden');
     console.log(choiced_cards);
     zone_operated.addClass('zone_choiced');
+    $('#card_modal').modal('hide');
   });
 
   // Register / Login
