@@ -85,7 +85,7 @@ jQuery(document).ready(function () {
   // show card in modal
   jQuery('.zone').on('click', function(event) {
     jQuery('.card_modal_img').attr('src', jQuery(this).data('card'));
-    choiced_card = toString(jQuery(this).data('number'));
+    choiced_card = String(jQuery(this).data('number'));
   });
 
   // choice card
