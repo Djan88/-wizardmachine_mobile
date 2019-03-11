@@ -467,6 +467,10 @@ span.menu_item_img
 {
   left: 83%;
 }
+.zone_choice
+{
+  margin: auto;
+}
 .card_move
 {
   transition: top linear 4s;

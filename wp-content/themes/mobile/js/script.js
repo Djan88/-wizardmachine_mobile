@@ -19,6 +19,7 @@ jQuery(document).ready(function () {
       devil_x,
       devil_y,
       line_drawing,
+      choiced_cards = [],
       supportsStorage = function(){
           try {
               return 'localStorage' in window && window['localStorage'] !== null;
@@ -84,6 +85,9 @@ jQuery(document).ready(function () {
   // show card in modal
   jQuery('.zone').on('click', function(event) {
     jQuery('.card_modal_img').attr('src', jQuery(this).data('card'));
+    choiced_card = jQuery(this).data('number');
+    choiced_cards.push(choiced_card);
+    console.log(choiced_cards);
   });
 
 

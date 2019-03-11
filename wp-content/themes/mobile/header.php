@@ -36,7 +36,7 @@
                 <?php if(current_user_can('contributor') || current_user_can('administrator')) { ?>
                   Загрузите фото
                 <?php } else { ?>
-                  Приветствуем в "WizardMachine"
+                  Приветствуем в "WizardTarot"
                 <?php } ?>
               <?php } else { ?>
                 Вход
