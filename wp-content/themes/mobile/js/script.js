@@ -1,32 +1,33 @@
 jQuery(document).ready(function () {
   var cur_protocol,
-    croppedImg,
-    cur_protocol_name,
-    dragger,
-    draggerDate,
-    draggerDateDiff,
-    dragger_rate_class,
-    dragger_rate_class_dotted,
-    draggerDateOld = null,
-    number_of_points,
-    img_heigth,
-    card_heigth,
-    card_width,
-    drag_zone_w,
-    diag_zone_w,
-    solis_x,
-    solis_y,
-    devil_x,
-    devil_y,
-    line_drawing,
-    choiced_cards = [],
-    supportsStorage = function(){
-        try {
-            return 'localStorage' in window && window['localStorage'] !== null;
-        } catch (e) {
-            return false;
-        }
-    };
+      croppedImg,
+      cur_protocol_name,
+      dragger,
+      draggerDate,
+      draggerDateDiff,
+      dragger_rate_class,
+      dragger_rate_class_dotted,
+      draggerDateOld = null,
+      number_of_points,
+      img_heigth,
+      card_heigth,
+      card_width,
+      drag_zone_w,
+      diag_zone_w,
+      solis_x,
+      solis_y,
+      devil_x,
+      devil_y,
+      line_drawing,
+      choiced_cards = [],
+      zone_operated,
+      supportsStorage = function(){
+          try {
+              return 'localStorage' in window && window['localStorage'] !== null;
+          } catch (e) {
+              return false;
+          }
+      };
   // Unhide menu after load
   jQuery('#menu').removeClass('hidden');
 
@@ -67,6 +68,8 @@ jQuery(document).ready(function () {
   jQuery('.btn_moon_day').on('click', function(event) {
     line_drawing();
   });
+
+  
 
   // Register / Login
   jQuery('.toRegistration').on('click', function(event) {
