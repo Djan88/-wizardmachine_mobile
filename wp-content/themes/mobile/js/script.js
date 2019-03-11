@@ -86,12 +86,13 @@ jQuery(document).ready(function () {
   jQuery('.zone').on('click', function(event) {
     jQuery('.card_modal_img').attr('src', jQuery(this).data('card'));
     choiced_card = jQuery(this).data('number');
-    choiced_cards.push(choiced_card);
-    console.log(choiced_cards);
   });
 
   // choice card
-
+  jQuery('.zone_choice').on('click', function(event) {
+    choiced_cards.push(choiced_card);
+    console.log(choiced_cards);
+  });
 
   // Register / Login
   jQuery('.toRegistration').on('click', function(event) {
