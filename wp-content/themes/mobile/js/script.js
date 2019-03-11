@@ -69,8 +69,6 @@ jQuery(document).ready(function () {
     line_drawing();
   });
 
-  
-
   // Register / Login
   jQuery('.toRegistration').on('click', function(event) {
     jQuery('.form-group_login').addClass('hidden');
