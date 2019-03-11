@@ -81,6 +81,9 @@
           <div class="modal-body">
             <img class="card_modal_img" src="" alt="zones">
           </div>
+          <div class="modal-footer card_modal_foter hidden">
+            <button type="button" class="btn btn-primary zone_choice" data-zone="">Выбрать зону</button>
+          </div>
         </div>
       </div>
     </div>
