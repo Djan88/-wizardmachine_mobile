@@ -267,13 +267,8 @@ tarot = function(){
 ////////////////////////////////////////////////////////////////////////////////////////////////////
 ////////////////////////////////////////////////////////////////////////////////////////////////////
 
-// choice card
 jQuery('.zone_choice').on('click', function(event) {
-  choiced_cards.push(choiced_card);
-  jQuery('.card_codes_bottom').find(jQuery('[data-number =' + choiced_card + ']')).removeClass('hidden');
-  console.log(choiced_cards);
-  zone_operated.addClass('zone_choiced');
-  jQuery('#card_modal').modal('hide');
+  alert('test');
 });
 
 // show card in modal
@@ -283,7 +278,14 @@ jQuery('.zone').on('click', function(event) {
   zone_operated = jQuery(this);
 });
 
-
+// choice card
+// jQuery('.zone_choice').on('click', function(event) {
+//   choiced_cards.push(choiced_card);
+//   jQuery('.card_codes_bottom').find(jQuery('[data-number =' + choiced_card + ']')).removeClass('hidden');
+//   console.log(choiced_cards);
+//   zone_operated.addClass('zone_choiced');
+//   jQuery('#card_modal').modal('hide');
+// });
 
 // START
 jQuery('.btn_start').on('click', function(event) {
