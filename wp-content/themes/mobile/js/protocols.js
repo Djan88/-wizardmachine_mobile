@@ -83,7 +83,7 @@ var chain,
     },
     card_id,
     cur_cards = [],
-    cur_cards_length = cur_cards.length - 1,
+    cur_cards_length,
     cur_card;
     cur_card_in_stack = 0;
 
@@ -206,6 +206,7 @@ endNow = function(){
 
 tarot = function(){
   cur_cards = localStorage.getItem('cur_cards');
+  cur_cards_length = cur_cards.length - 1;
   console.log(cur_cards);
   jQuery('.line_area').addClass('hidden');
   jQuery('.card_devil, .card_solis').removeClass('card_move_fast').addClass('card_move');
