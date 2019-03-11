@@ -273,31 +273,29 @@ tarot = function(){
 
 // START
 jQuery('.btn_start').on('click', function(event) {
-    cur_cards_uploaded = localStorage.getItem('cur_cards');
-    var cur_cards = cur_cards_uploaded.map(function (x) { 
-        return String(x); 
-    });
-    cur_cards_length = cur_cards.length - 1;
-    console.log(cur_cards);
-    jQuery('.header-title').text('Программа выполняется');
-    jQuery('.zone').css('background', 'rgba(83,35,69, 0.4)');
-    jQuery('.btn-to_protocols').addClass('hidden');
-    // jQuery('.btn-to_endNow').removeClass('hidden');
-    if (jQuery(this).attr('disabled')) {
+  cur_cards = localStorage.getItem('cur_cards');
+  for(var i=0; i<cur_cards.length;i++) cur_cards[i] = String(cur_cards[i]);
+  cur_cards_length = cur_cards.length - 1;
+  console.log(cur_cards);
+  jQuery('.header-title').text('Программа выполняется');
+  jQuery('.zone').css('background', 'rgba(83,35,69, 0.4)');
+  jQuery('.btn-to_protocols').addClass('hidden');
+  // jQuery('.btn-to_endNow').removeClass('hidden');
+  if (jQuery(this).attr('disabled')) {
 
-    } else if (pausedStatus == true) {
-      jQuery('.status').removeClass('hidden');
-      jQuery('.status_pahaze_all').text(localStorage.getItem('pausedPhases'));
-      jQuery('.status_title').text(localStorage.getItem('pausedProtName'));
-      jQuery('.loaded_img').attr('src', localStorage.getItem('pausedPhoto'));
-      console.log(localStorage.getItem('pausedPhoto'));
-      protocolfromMemory = eval(localStorage.getItem('paused'))
-      protocolfromMemory();
-      pausedStatus = false;
-      jQuery('.btn-to_endNow').css('color', '#fff');
-    } else {
-      tarot();
-    }
+  } else if (pausedStatus == true) {
+    jQuery('.status').removeClass('hidden');
+    jQuery('.status_pahaze_all').text(localStorage.getItem('pausedPhases'));
+    jQuery('.status_title').text(localStorage.getItem('pausedProtName'));
+    jQuery('.loaded_img').attr('src', localStorage.getItem('pausedPhoto'));
+    console.log(localStorage.getItem('pausedPhoto'));
+    protocolfromMemory = eval(localStorage.getItem('paused'))
+    protocolfromMemory();
+    pausedStatus = false;
+    jQuery('.btn-to_endNow').css('color', '#fff');
+  } else {
+    tarot();
+  }
 });
 // STOP
 function hideNote() {
