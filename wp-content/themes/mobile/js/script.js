@@ -83,6 +83,7 @@ jQuery(document).ready(function () {
     console.log(choiced_cards);
     zone_operated.addClass('zone_choiced');
     jQuery('#card_modal').modal('hide');
+    localStorage.setItem('cur_cards', cur_cards);
   });
 
   // Register / Login

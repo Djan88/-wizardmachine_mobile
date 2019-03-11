@@ -82,7 +82,7 @@ var chain,
       '21' : '#draggable_d2'
     },
     card_id,
-    cur_cards = ['3', '10', '11', '12'],
+    cur_cards,
     cur_cards_length = cur_cards.length - 1,
     cur_card;
     cur_card_in_stack = 0;
@@ -1957,7 +1957,7 @@ jQuery('.btn_start').on('click', function(event) {
       pausedStatus = false;
       jQuery('.btn-to_endNow').css('color', '#fff');
     } else {
-
+      cur_cards = localStorage.getItem('cur_cards');
       tarot();
       // protocol = localStorage.getItem('protocol');
       // jQuery('.btn-to_endNow').removeClass('hidden');
