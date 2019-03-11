@@ -83,7 +83,7 @@ var chain,
     },
     card_id,
     cur_cards = [],
-    cur_cards_uploaded,
+    zone_operated,
     cur_cards_length,
     cur_card;
     cur_card_in_stack = 0;
@@ -204,11 +204,26 @@ endNow = function(){
   });
 }
 
+// show card in modal
+jQuery('.zone').on('click', function(event) {
+  jQuery('.card_modal_img').attr('src', jQuery(this).data('card'));
+  choiced_card = String(jQuery(this).data('number'));
+  zone_operated = jQuery(this);
+});
+
+// choice card
+jQuery('.zone_choice').on('click', function(event) {
+  choiced_cards.push(choiced_card);
+  jQuery('.card_codes_bottom').find(jQuery('[data-number =' + choiced_card + ']')).removeClass('hidden');
+  console.log(choiced_cards);
+  zone_operated.addClass('zone_choiced');
+  jQuery('#card_modal').modal('hide');
+});
+
 
 tarot = function(){
-  // cur_cards = localStorage.getItem('cur_cards');
-  // cur_cards_length = cur_cards.length - 1;
-  // console.log(cur_cards);
+  cur_cards_length = cur_cards.length - 1;
+  console.log(cur_cards);
   jQuery('.line_area').addClass('hidden');
   jQuery('.card_devil, .card_solis').removeClass('card_move_fast').addClass('card_move');
   count_animation = 0;
@@ -273,9 +288,6 @@ tarot = function(){
 
 // START
 jQuery('.btn_start').on('click', function(event) {
-  cur_cards = localStorage.getItem('cur_cards');
-  for(var i=0; i<cur_cards.length;i++) cur_cards[i] = String(cur_cards[i]);
-  cur_cards_length = cur_cards.length - 1;
   console.log(cur_cards);
   jQuery('.header-title').text('Программа выполняется');
   jQuery('.zone').css('background', 'rgba(83,35,69, 0.4)');
