@@ -85,7 +85,7 @@ var chain,
     cur_cards = [],
     zone_operated,
     cur_cards_length,
-    cur_card;
+    cur_card,
     cur_card_in_stack = 0;
 
 
