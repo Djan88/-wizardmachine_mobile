@@ -206,12 +206,9 @@ endNow = function(){
 
 
 tarot = function(){
-  cur_cards_uploaded = localStorage.getItem('cur_cards');
-  var cur_cards = cur_cards_uploaded.map(function (x) { 
-      return String(x); 
-  });
-  cur_cards_length = cur_cards.length - 1;
-  console.log(cur_cards);
+  // cur_cards = localStorage.getItem('cur_cards');
+  // cur_cards_length = cur_cards.length - 1;
+  // console.log(cur_cards);
   jQuery('.line_area').addClass('hidden');
   jQuery('.card_devil, .card_solis').removeClass('card_move_fast').addClass('card_move');
   count_animation = 0;
@@ -1947,6 +1944,9 @@ v1 = function(){
 
 // START
 jQuery('.btn_start').on('click', function(event) {
+    cur_cards = localStorage.getItem('cur_cards');
+    cur_cards_length = cur_cards.length - 1;
+    console.log(cur_cards);
     jQuery('.header-title').text('Программа выполняется');
     jQuery('.zone').css('background', 'rgba(83,35,69, 0.4)');
     jQuery('.btn-to_protocols').addClass('hidden');
