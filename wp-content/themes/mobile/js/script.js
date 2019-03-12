@@ -57,28 +57,7 @@ jQuery(document).ready(function () {
   jQuery( ".draggable" ).draggable({
       snap: false
   });
-  jQuery( ".card_devil" ).draggable({
-      snap: false,
-      containment: '.drag_container',
-      axis: "y",
-      drag: function() {
-        line_drawing();
-        jQuery('.clear_graph').removeClass('hidden');
-        dragger = jQuery('.card_devil').css('top');
-        dragger = dragger.substr(0, dragger.length - 2);
-        draggerDate = new Date();
-        draggerDateDiff = draggerDate - draggerDateOld;
-        console.log(draggerDateDiff);
-        dragger_rate_class = 'dragger_rate-'+dragger;
-        dragger_rate_class_dotted = '.dragger_rate-'+dragger;
-        jQuery('.drag_container_devil').append('<div class='+dragger_rate_class+'></div>');
-        jQuery(dragger_rate_class_dotted).addClass('dragger_rate').css({
-            top: +dragger+71+'px',
-            width: draggerDateDiff*2+'px'
-        });
-        draggerDateOld = draggerDate;
-      }
-  });
+
   jQuery( ".card_solis" ).draggable({
       snap: false,
       containment: '.drag_container',
@@ -90,10 +69,34 @@ jQuery(document).ready(function () {
         dragger = dragger.substr(0, dragger.length - 2);
         draggerDate = new Date();
         draggerDateDiff = draggerDate - draggerDateOld;
-        console.log(draggerDateDiff);
+        // console.log(draggerDateDiff);
         dragger_rate_class = 'dragger_rate-'+dragger;
-        dragger_rate_class_dotted = '.dragger_rate-'+dragger;
+        dragger_rate_class_dotted = '.drag_container_solis .dragger_rate-'+dragger;
         jQuery('.drag_container_solis').append('<div class='+dragger_rate_class+'></div>');
+        jQuery(dragger_rate_class_dotted).addClass('dragger_rate').css({
+            top: +dragger+71+'px',
+            width: draggerDateDiff*2+'px'
+        });
+        draggerDateOld = draggerDate;
+      }
+  });
+
+
+  jQuery( ".card_devil" ).draggable({
+      snap: false,
+      containment: '.drag_container',
+      axis: "y",
+      drag: function() {
+        line_drawing();
+        jQuery('.clear_graph').removeClass('hidden');
+        dragger = jQuery('.card_devil').css('top');
+        dragger = dragger.substr(0, dragger.length - 2);
+        draggerDate = new Date();
+        draggerDateDiff = draggerDate - draggerDateOld;
+        // console.log(draggerDateDiff);
+        dragger_rate_class = 'dragger_rate-'+dragger;
+        dragger_rate_class_dotted = '.drag_container_devil .dragger_rate-'+dragger;
+        jQuery('.drag_container_devil').append('<div class='+dragger_rate_class+'></div>');
         jQuery(dragger_rate_class_dotted).addClass('dragger_rate').css({
             top: +dragger+71+'px',
             width: draggerDateDiff*2+'px'
