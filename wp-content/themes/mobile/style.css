@@ -605,10 +605,10 @@ input.crop_photo
     -moz-transition: width 0.5s linear;
     transition: width 0.5s linear;
 }
-.drag_container_devil .dragger_rate
+/*.drag_container_devil .dragger_rate
 {
   transform: rotate(180deg);
-}
+}*/
 .subscriber_info 
 {
   padding-top: 75px;

@@ -464,10 +464,11 @@
 
 										<div class="paranja"></div>
 									</div>
-									<div class="col-3 no-padding drag_container drag_container_devil">
+									<div class="col-3 no-padding drag_container">
 										<img src="<?php echo get_template_directory_uri(); ?>/img/cards/devil_alt.png" alt="" class="card card_ghost card_ghost_devil">
 										<img src="<?php echo get_template_directory_uri(); ?>/img/cards/devil_alt.png" alt="" class="card draggable draggable_y card_devil">
 									</div>
+									<div class="drag_container_devil"></div>
 								</div>
 								<svg height="1080" width="960" class="line_area">
 								  <line class="line" x1="34" y1="56" x2="789" y2="678" style="stroke:hsl(222, 50%, 96%);stroke-width:20"></line>

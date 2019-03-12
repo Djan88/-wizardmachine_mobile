@@ -71,9 +71,8 @@ jQuery(document).ready(function () {
         dragger_rate_class_dotted = '.dragger_rate-'+dragger;
         jQuery('.drag_container_devil').append('<div class='+dragger_rate_class+'></div>');
         jQuery(dragger_rate_class_dotted).addClass('dragger_rate').css({
-            top: +dragger+15+'px',
-            width: draggerDateDiff*2+'px',
-            left: draggerDateDiff*2+'px'
+            top: +dragger+71+'px',
+            width: draggerDateDiff*2+'px'
         });
         draggerDateOld = draggerDate;
       }
