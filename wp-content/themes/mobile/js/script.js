@@ -70,9 +70,9 @@ jQuery(document).ready(function () {
         draggerDateDiff = draggerDate - draggerDateOld;
         console.log(draggerDateDiff);
         dragger_rate_class = 'dragger_rate-'+dragger;
-        dragger_rate_class_dotted = '.dragger_rate-'+dragger;
+        dragger_rate_class_dotted = '.dragger_rate_devil-'+dragger;
         jQuery('.drag_container_devil').append('<div class='+dragger_rate_class+'></div>');
-        jQuery(dragger_rate_class_dotted).addClass('dragger_rate').css({
+        jQuery(dragger_rate_class_dotted).addClass('dragger_rate_devil').css({
             top: +dragger+71+'px',
             width: draggerDateDiff*2+'px'
         });
@@ -91,10 +91,10 @@ jQuery(document).ready(function () {
         draggerDate = new Date();
         draggerDateDiff = draggerDate - draggerDateOld;
         console.log(draggerDateDiff);
-        dragger_rate_class = 'dragger_rate-1'+dragger;
-        dragger_rate_class_dotted = '.dragger_rate-'+dragger;
+        dragger_rate_class = 'dragger_rate-'+dragger;
+        dragger_rate_class_dotted = '.dragger_rate_solis-'+dragger;
         jQuery('.drag_container_solis').append('<div class='+dragger_rate_class+'></div>');
-        jQuery(dragger_rate_class_dotted).addClass('dragger_rate').css({
+        jQuery(dragger_rate_class_dotted).addClass('dragger_rate_solis').css({
             top: +dragger+71+'px',
             width: draggerDateDiff*2+'px'
         });

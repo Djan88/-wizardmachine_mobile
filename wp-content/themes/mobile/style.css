@@ -593,7 +593,7 @@ input.crop_photo
   padding: 0;
   background: transparent;
 }
-.dragger_rate
+.dragger_rate_devil, .dragger_rate_solis
 {
   height: 3px;
   width: 0;
@@ -623,7 +623,7 @@ input.crop_photo
   left: 100%;
   z-index: 100;
 }
-.drag_container_devil .dragger_rate
+.drag_container_devil .dragger_rate_devil
 {
   transform: rotate(180deg);
 }
