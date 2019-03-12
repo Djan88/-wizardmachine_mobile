@@ -593,17 +593,18 @@ input.crop_photo
   padding: 0;
   background: transparent;
 }
-.dragger_rate {
-    height: 3px;
-    width: 0;
-    border-top-right-radius: 50%;
-    border-bottom-right-radius: 50%;
-    max-width: 30%;
-    background: #673158;
-    position: absolute;
-    -webkit-transition: width 0.5s linear;
-    -moz-transition: width 0.5s linear;
-    transition: width 0.5s linear;
+.dragger_rate
+{
+  height: 3px;
+  width: 0;
+  border-top-right-radius: 50%;
+  border-bottom-right-radius: 50%;
+  max-width: 30%;
+  background: #673158;
+  position: absolute;
+  -webkit-transition: width 0.5s linear;
+  -moz-transition: width 0.5s linear;
+  transition: width 0.5s linear;
 }
 .drag_container_devil 
 {
@@ -611,7 +612,15 @@ input.crop_photo
   position: absolute;
   left: -100%;
   top: 0;
-  width: 100%;
+  width: 150%;
+}
+.drag_container_solis 
+{
+  position: absolute;
+  top: 0;
+  width: 150%;
+  left: 100%;
+  z-index: 100;
 }
 .drag_container_devil .dragger_rate
 {
