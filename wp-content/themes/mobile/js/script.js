@@ -101,10 +101,6 @@ jQuery(document).ready(function () {
   });
 
   jQuery('.btn_moon_day').on('click', function(event) {
-    timed_animation = setTimeout(function() { 
-      jQuery('.card_ghost_solis, .card_ghost_devil').removeClass('card_animated_ghost');
-      jQuery('.card_solis, .card_devil').removeClass('card_animated');
-    }, 2000)
     line_drawing();
   });
 

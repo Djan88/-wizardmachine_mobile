@@ -536,17 +536,16 @@ span.menu_item_img
 {
   padding: 0!important;
 }
-.card_solis, .card_ghost_solis
+.card_solis
 {
-  top: 70%;
+  bottom: 0;
   right: 0;
   position: absolute;
   z-index: 500;
 }
-.card_devil, .card_ghost_devil
+.card_devil
 {
   z-index: 500;
-  top: 20%;
 }
 .status
 {
@@ -615,14 +614,6 @@ input.crop_photo
   top: 0;
   width: 150%;
   z-index: 100;
-}
-.card_animated
-{
-  transition: top linear 1s;
-}
-.card_animated_ghost
-{
-  transition: top linear 1.5s;
 }
 .drag_container_solis 
 {
