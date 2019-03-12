@@ -610,7 +610,7 @@ input.crop_photo
 {
   writing-mode: tb;
   position: absolute;
-  left: -100%;
+  left: -150%;
   top: 0;
   width: 150%;
   z-index: 100;
