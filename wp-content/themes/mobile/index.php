@@ -464,7 +464,7 @@
 
 										<div class="paranja"></div>
 									</div>
-									<div class="col-3 no-padding drag_container">
+									<div class="col-3 no-padding drag_container drag_container_devil">
 										<img src="<?php echo get_template_directory_uri(); ?>/img/cards/devil_alt.png" alt="" class="card card_ghost card_ghost_devil">
 										<img src="<?php echo get_template_directory_uri(); ?>/img/cards/devil_alt.png" alt="" class="card draggable draggable_y card_devil">
 									</div>

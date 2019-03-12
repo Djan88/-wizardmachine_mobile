@@ -56,12 +56,25 @@ jQuery(document).ready(function () {
   jQuery( ".draggable" ).draggable({
       snap: false
   });
-  jQuery( ".draggable_y" ).draggable({
+  jQuery( ".card_devil" ).draggable({
       snap: false,
       containment: '.drag_container',
       axis: "y",
       drag: function() {
-          line_drawing();
+        line_drawing();
+        dragger = jQuery('.card_devil').css('top');
+        dragger = dragger.substr(0, dragger.length - 2);
+        draggerDate = new Date();
+        draggerDateDiff = draggerDate - draggerDateOld;
+        console.log(draggerDateDiff);
+        dragger_rate_class = 'dragger_rate-'+dragger;
+        dragger_rate_class_dotted = '.dragger_rate-'+dragger;
+        jQuery('.drag_container_devil').append('<div class='+dragger_rate_class+'></div>');
+        jQuery(dragger_rate_class_dotted).addClass('dragger_rate').css({
+            top: +dragger+15+'px',
+            width: draggerDateDiff*2+'px'
+        });
+        draggerDateOld = draggerDate;
       }
   });
 
@@ -408,14 +421,8 @@ jQuery(document).ready(function () {
                             jcrop_api = this;
                         });
                     },3000);
-
                 };
-
-
-
-
             });
-
         };
 
         // read selected file as DataURL
