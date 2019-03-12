@@ -536,14 +536,14 @@ span.menu_item_img
 {
   padding: 0!important;
 }
-.card_solis
+.card_solis, .card_ghost_solis
 {
   top: 100%;
   right: 0;
   position: absolute;
   z-index: 500;
 }
-.card_devil
+.card_devil, .card_ghost_devil
 {
   z-index: 500;
   top: 0;
