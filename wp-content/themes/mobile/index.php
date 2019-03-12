@@ -259,6 +259,7 @@
 									<div class="col-3 no-padding drag_container">
 										<img src="<?php echo get_template_directory_uri(); ?>/img/cards/solis_alt.png" alt="" class="card card_ghost card_ghost_solis">
 										<img src="<?php echo get_template_directory_uri(); ?>/img/cards/solis_alt.png" alt="" class="card draggable draggable_y card_solis">
+										<div class="drag_container_solis"></div>
 									</div>
 									<div class="col-6 text_center zone_diag work-area_inner">
 										<div class="col-md-8 offset-md-2 text_center zones">

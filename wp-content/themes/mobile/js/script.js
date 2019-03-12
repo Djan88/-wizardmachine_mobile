@@ -77,6 +77,27 @@ jQuery(document).ready(function () {
         draggerDateOld = draggerDate;
       }
   });
+  jQuery( ".card_solis" ).draggable({
+      snap: false,
+      containment: '.drag_container',
+      axis: "y",
+      drag: function() {
+        line_drawing();
+        dragger = jQuery('.card_solis').css('top');
+        dragger = dragger.substr(0, dragger.length - 2);
+        draggerDate = new Date();
+        draggerDateDiff = draggerDate - draggerDateOld;
+        console.log(draggerDateDiff);
+        dragger_rate_class = 'dragger_rate-'+dragger;
+        dragger_rate_class_dotted = '.dragger_rate-'+dragger;
+        jQuery('.drag_container_solis').append('<div class='+dragger_rate_class+'></div>');
+        jQuery(dragger_rate_class_dotted).addClass('dragger_rate').css({
+            top: +dragger+71+'px',
+            width: draggerDateDiff*2+'px'
+        });
+        draggerDateOld = draggerDate;
+      }
+  });
 
   jQuery('.btn_moon_day').on('click', function(event) {
     line_drawing();

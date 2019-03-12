@@ -605,9 +605,13 @@ input.crop_photo
     -moz-transition: width 0.5s linear;
     transition: width 0.5s linear;
 }
-.drag_container_devil
+.drag_container_devil 
 {
   writing-mode: tb;
+  position: absolute;
+  left: -100%;
+  top: 0;
+  width: 100%;
 }
 .drag_container_devil .dragger_rate
 {
