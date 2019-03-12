@@ -613,6 +613,7 @@ input.crop_photo
   left: -100%;
   top: 0;
   width: 150%;
+  z-index: 100;
 }
 .drag_container_solis 
 {
