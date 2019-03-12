@@ -63,6 +63,7 @@ jQuery(document).ready(function () {
       axis: "y",
       drag: function() {
         line_drawing();
+        jQuery('.clear_graph').removeClass('hidden');
         dragger = jQuery('.card_devil').css('top');
         dragger = dragger.substr(0, dragger.length - 2);
         draggerDate = new Date();
@@ -84,6 +85,7 @@ jQuery(document).ready(function () {
       axis: "y",
       drag: function() {
         line_drawing();
+        jQuery('.clear_graph').removeClass('hidden');
         dragger = jQuery('.card_solis').css('top');
         dragger = dragger.substr(0, dragger.length - 2);
         draggerDate = new Date();
@@ -141,6 +143,7 @@ jQuery(document).ready(function () {
   // clear graph
   jQuery('.clear_graph').on('click', function(event) {
     jQuery('.dragger_rate').detach();
+    jQuery('.clear_graph').addClass('hidden');
   });
 
   // final screen show
