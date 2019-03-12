@@ -538,7 +538,7 @@ span.menu_item_img
 }
 .card_solis
 {
-  bottom: 0;
+  top: 100%;
   right: 0;
   position: absolute;
   z-index: 500;
@@ -546,6 +546,7 @@ span.menu_item_img
 .card_devil
 {
   z-index: 500;
+  top: 0;
 }
 .status
 {

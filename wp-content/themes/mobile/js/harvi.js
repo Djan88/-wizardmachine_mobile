@@ -5,7 +5,6 @@ jQuery(document).ready(function () {
         zone_left_alt,
         checkPoints,
         pointsStatus = true,
-        timed_animation,
         card_semi_height;
     var THarviMoon = new Object();
     THarviMoon=function(){
@@ -65,10 +64,6 @@ jQuery(document).ready(function () {
           pointsStatus = true;
         } else {
             jQuery('.card_modal_footer, .line_area').removeClass('hidden');
-            timed_animation = setTimeout(function() { 
-                jQuery('.card_ghost_solis, card_ghost_devil').removeClass('card_animated_ghost');
-                jQuery('.card_solis, card_devil').removeClass('card_animated');
-            }, 2000)
             card_semi_height = parseInt(jQuery('.card_solis').css('height')) / 2;
             if (moon_day == 1 || moon_day == 2 || moon_day == 29) {
                 zone_top = parseInt(jQuery('.draggable_v1').css('top') + 50);
