@@ -257,8 +257,8 @@
 										</div>
 									</div>
 									<div class="col-3 no-padding drag_container">
-										<img src="<?php echo get_template_directory_uri(); ?>/img/cards/solis_alt.png" alt="" class="card card_ghost card_ghost_solis">
-										<img src="<?php echo get_template_directory_uri(); ?>/img/cards/solis_alt.png" alt="" class="card draggable draggable_y card_solis">
+										<img src="<?php echo get_template_directory_uri(); ?>/img/cards/solis_alt.png" alt="" class="card card_ghost card_ghost_solis card_animated_ghost">
+										<img src="<?php echo get_template_directory_uri(); ?>/img/cards/solis_alt.png" alt="" class="card draggable draggable_y card_solis card_animated">
 										<div class="drag_container_solis"></div>
 									</div>
 									<div class="col-6 text_center zone_diag work-area_inner">
@@ -466,8 +466,8 @@
 										<div class="paranja"></div>
 									</div>
 									<div class="col-3 no-padding drag_container">
-										<img src="<?php echo get_template_directory_uri(); ?>/img/cards/devil_alt.png" alt="" class="card card_ghost card_ghost_devil">
-										<img src="<?php echo get_template_directory_uri(); ?>/img/cards/devil_alt.png" alt="" class="card draggable draggable_y card_devil">
+										<img src="<?php echo get_template_directory_uri(); ?>/img/cards/devil_alt.png" alt="" class="card card_ghost card_ghost_devil card_animated_ghost">
+										<img src="<?php echo get_template_directory_uri(); ?>/img/cards/devil_alt.png" alt="" class="card draggable draggable_y card_devil card_animated">
 										<div class="drag_container_devil"></div>
 									</div>
 								</div>
