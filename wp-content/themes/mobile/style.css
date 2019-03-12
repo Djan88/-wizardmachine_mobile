@@ -538,7 +538,7 @@ span.menu_item_img
 }
 .card_solis, .card_ghost_solis
 {
-  top: 100%;
+  top: 70%;
   right: 0;
   position: absolute;
   z-index: 500;
@@ -546,7 +546,7 @@ span.menu_item_img
 .card_devil, .card_ghost_devil
 {
   z-index: 500;
-  top: 0;
+  top: 20%;
 }
 .status
 {
