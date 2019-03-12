@@ -471,7 +471,7 @@
 										<div class="drag_container_devil"></div>
 									</div>
 								</div>
-								<svg height="1080" width="960" class="line_area">
+								<svg height="1080" width="960" class="line_area hidden">
 								  <line class="line" x1="34" y1="56" x2="789" y2="678" style="stroke:hsl(222, 50%, 96%);stroke-width:20"></line>
 								</svg>
 							</div>
