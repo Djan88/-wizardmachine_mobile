@@ -333,7 +333,7 @@ jQuery(document).ready(function () {
         pausedStatus = false;
         jQuery('.btn-to_endNow').css('color', '#fff');
       } else if (cur_cards.length == 0) {
-        swal("Зоны не выбраны", "Выберите актуальные зоны для продолжения работы", "info");
+        swal("Диагностика не продведена", "Проведите диагностику по лунному дню и выберите актульные зоны", "info");
       } else {
         tarot();
       }
