@@ -152,7 +152,7 @@ jQuery(document).ready(function () {
       type: "success",
       showCancelButton: true,
       confirmButtonColor: "#DD6B55",
-      confirmButtonText: "Повторить",
+      confirmButtonText: "Начать сначала",
       cancelButtonText: "Новый клиент"
     },
     function(isConfirm){
@@ -165,6 +165,7 @@ jQuery(document).ready(function () {
         // jQuery('.header-title').text('Выберите протокол');
         cur_cards = [];
         jQuery('.card_protocol').addClass('hidden').css('display', 'none');
+        jQuery('.zone').removeClass('zone_choiced');
       } else {    
         jQuery(location).attr('href','/');
       } 
