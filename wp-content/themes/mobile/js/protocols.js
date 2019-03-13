@@ -332,8 +332,9 @@ jQuery(document).ready(function () {
         protocolfromMemory();
         pausedStatus = false;
         jQuery('.btn-to_endNow').css('color', '#fff');
+      } else if (cur_cards.length == 0) {
+        swal("Зоны не выбраны", "Выберите актуальные зоны для продолжения работы", "info");
       } else {
-
         tarot();
       }
   });

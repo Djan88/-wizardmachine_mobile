@@ -19,7 +19,6 @@ jQuery(document).ready(function () {
       devil_x,
       devil_y,
       line_drawing,
-      choiced_cards = [],
       timed_animation,
       zone_operated,
       supportsStorage = function(){
