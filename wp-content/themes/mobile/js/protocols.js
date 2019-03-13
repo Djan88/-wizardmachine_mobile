@@ -227,6 +227,7 @@ jQuery(document).ready(function () {
   // unchoice card
   jQuery('.card_protocol_bottom').on('click', function(event) {
     remove_card_num = jQuery(this).data('number');
+    console.log(remove_card_num);
     swal({
       title: "Отменить выбор этой карты?",   
       text: "Это действие удалит карту из набора.",   
@@ -238,7 +239,8 @@ jQuery(document).ready(function () {
     },
     function(isConfirm){
       var protocol = undefined;
-      if (isConfirm) {    
+      if (isConfirm) {
+        console.log(cur_cards.splice(cur_cards.indexOf(remove_card_num), 1));
         cur_cards.splice(cur_cards.indexOf(remove_card_num), 1);
         console.log(cur_cards);
         jQuery('.card_codes_bottom').find(jQuery('[data-number =' + remove_card_num + ']')).addClass('hidden');
