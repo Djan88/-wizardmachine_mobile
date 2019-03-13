@@ -166,6 +166,7 @@ jQuery(document).ready(function () {
         cur_cards = [];
         jQuery('.card_protocol').addClass('hidden').removeAttr("style");
         jQuery('.card_in_action').removeAttr("style");
+        jQuery('.card').removeClass('card_move_fast');
         jQuery('.zone').removeClass('zone_choiced');
       } else {    
         jQuery(location).attr('href','/');
