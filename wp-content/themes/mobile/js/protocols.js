@@ -316,12 +316,8 @@ jQuery(document).ready(function () {
 
   // START
   jQuery('.btn_start').on('click', function(event) {
-      jQuery('.header-title').text('Программа выполняется');
-      jQuery('.zone').css('background', 'rgba(83,35,69, 0.4)');
-      jQuery('.btn-to_protocols').addClass('hidden');
       // jQuery('.btn-to_endNow').removeClass('hidden');
       if (jQuery(this).attr('disabled')) {
-
       } else if (pausedStatus == true) {
         jQuery('.status').removeClass('hidden');
         jQuery('.status_pahaze_all').text(localStorage.getItem('pausedPhases'));
@@ -335,6 +331,9 @@ jQuery(document).ready(function () {
       } else if (cur_cards.length == 0) {
         swal("Диагностика не продведена", "Проведите диагностику по лунному дню и выберите актульные зоны", "info");
       } else {
+        jQuery('.header-title').text('Программа выполняется');
+        jQuery('.zone').css('background', 'rgba(83,35,69, 0.4)');
+        jQuery('.btn-to_protocols').addClass('hidden');
         tarot();
       }
   });
