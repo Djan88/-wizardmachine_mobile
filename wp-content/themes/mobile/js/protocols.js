@@ -152,17 +152,19 @@ jQuery(document).ready(function () {
       type: "success",
       showCancelButton: true,
       confirmButtonColor: "#DD6B55",
-      confirmButtonText: "В начало",
+      confirmButtonText: "Повторить",
       cancelButtonText: "Новый клиент"
     },
     function(isConfirm){
       var protocol = undefined;
       if (isConfirm) {    
-        jQuery('.mobile_screen').addClass('hidden').css('display', 'none');
-        jQuery('.btn-to_protocols, .btn_man_with_zones, .btn_start').addClass('hidden');
-        jQuery('.mobile_screen_protocols').fadeIn(500);
-        jQuery('.btn-to_mode').removeClass('hidden');
-        jQuery('.header-title').text('Выберите протокол');
+        // jQuery('.mobile_screen').addClass('hidden').css('display', 'none');
+        // jQuery('.btn-to_protocols, .btn_man_with_zones, .btn_start').addClass('hidden');
+        // jQuery('.mobile_screen_protocols').fadeIn(500);
+        // jQuery('.btn-to_mode').removeClass('hidden');
+        // jQuery('.header-title').text('Выберите протокол');
+        cur_cards = [];
+        jQuery('.card_protocol').addClass('hidden').css('display', 'none');
       } else {    
         jQuery(location).attr('href','/');
       } 
@@ -334,7 +336,6 @@ jQuery(document).ready(function () {
         swal("Диагностика не продведена", "Проведите диагностику по лунному дню и выберите актульные зоны", "info");
       } else {
         jQuery('.header-title').text('Программа выполняется');
-        jQuery('.zone').css('background', 'rgba(83,35,69, 0.4)');
         jQuery('.btn-to_protocols').addClass('hidden');
         tarot();
       }
