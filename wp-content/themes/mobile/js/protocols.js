@@ -304,6 +304,8 @@ jQuery(document).ready(function () {
           cur_card_in_stack += 1;
           tarot();
         } else {
+          cur_card = 0;
+          cur_card_in_stack = 0;
           onEnd();
         }
       }
