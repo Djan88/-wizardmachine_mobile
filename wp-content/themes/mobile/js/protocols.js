@@ -226,7 +226,7 @@ jQuery(document).ready(function () {
 
   // unchoice card
   jQuery('.card_protocol_bottom').on('click', function(event) {
-    remove_card_num = jQuery(this).data('number');
+    remove_card_num = String(jQuery(this).data('number'));
     console.log(remove_card_num);
     swal({
       title: "Отменить выбор этой карты?",   
