@@ -165,6 +165,7 @@ jQuery(document).ready(function () {
         // jQuery('.header-title').text('Выберите протокол');
         cur_cards = [];
         jQuery('.card_protocol').addClass('hidden').removeAttr("style");
+        jQuery('.card_in_action').removeAttr("style");
         jQuery('.zone').removeClass('zone_choiced');
       } else {    
         jQuery(location).attr('href','/');
