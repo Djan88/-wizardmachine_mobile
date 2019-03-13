@@ -257,7 +257,7 @@ jQuery(document).ready(function () {
 
 
   tarot = function(){
-    cur_cards_length = cur_cards.length - 1,
+    cur_cards_length = cur_cards.length - 1;
     jQuery('.line_area').addClass('hidden');
     jQuery('.card_devil, .card_solis').removeClass('card_move_fast').addClass('card_move');
     count_animation = 0;
