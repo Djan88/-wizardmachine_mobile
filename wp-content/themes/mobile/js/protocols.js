@@ -342,6 +342,7 @@ jQuery(document).ready(function () {
       } else {
         jQuery('.header-title').text('Программа выполняется');
         jQuery('.btn-to_protocols').addClass('hidden');
+        jQuery('.zones_template').removeAttr('style');
         tarot();
       }
   });

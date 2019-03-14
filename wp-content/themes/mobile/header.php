@@ -71,7 +71,7 @@
             </div>
           </div>
           <div id="content" class="content row">
-            <div class="zones_template hidden">
+            <div class="zones_template">
               <img src="<?php echo get_template_directory_uri(); ?>/img/zones.png" alt="zones">
             </div>
             <div class="col col-md-1 col-lg-1 col-xl-1"></div>

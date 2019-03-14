@@ -106,6 +106,7 @@ jQuery(document).ready(function () {
 
   jQuery('.btn_moon_day').on('click', function(event) {
     line_drawing();
+    jQuery('.zones_template').removeAttr('style');
   });
 
   // Register / Login
