@@ -191,6 +191,18 @@ div#recallbar, div#wpadminbar
 {
   padding: 2px;
 }
+.zones_template
+{
+  position: absolute;
+  right: 0;
+  top: -570px;
+  z-index: 600;
+  transition: top linear 1s;
+}
+.zones_template.hidden
+{
+
+}
 .mode-item_title
 {
   font-size: 14px;

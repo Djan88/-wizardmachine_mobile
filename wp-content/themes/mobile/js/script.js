@@ -222,7 +222,11 @@ jQuery(document).ready(function () {
 
   // man with zones
   jQuery('.btn_man_with_zones').on('click', function(event) {
-    
+    if (jQuery('.zones_template').css('top') != '70px') {
+      jQuery('.zones_template').css('top', '70px');
+    } else {
+      jQuery('.zones_template').removeAttr('style');
+    }
   });
   // --------
 
