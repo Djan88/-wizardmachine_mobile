@@ -197,7 +197,12 @@ div#recallbar, div#wpadminbar
   right: 0;
   top: -570px;
   z-index: 600;
+  box-shadow: 0 .5rem 1rem rgba(0,0,0,.15)!important;
   transition: top ease-in 1s;
+}
+.zones_template img 
+{
+  max-width: 300px;
 }
 .zones_template.hidden
 {
