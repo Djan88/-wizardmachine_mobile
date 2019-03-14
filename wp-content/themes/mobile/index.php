@@ -99,97 +99,32 @@
 			</div>
 			<!-- protocols -->
 			<div class="mobile_screen mobile_screen_what_way hidden">
-				<div class="row">
-					<div class="col protocols_info text_center">
-					</div>
+				<div class="col-md-8 offset-md-2">
+						<div class="row">
+							<div class="col protocols_info text_center">
+							</div>
+						</div>
+						<div class="row">
+							<div class="col mode-item mode-item_protocol text_center">
+					      <span class="protocols_item_title">Лечебное "Tarot"</span>
+					      <div class="protocols_item_img">
+					      	<i class="fas fa-moon"></i>
+					      </div>
+					    </div>
+							<div class="col mode-item mode-item_manual text_center">
+					      <span class="protocols_item_title">Альтернативный режим</span>
+					      <div class="protocols_item_img">
+					      	<i class="fas fa-brain"></i>
+					      </div>
+					    </div>
+							<div class="col mode-item mode-item_cards text_center">
+					      <span class="protocols_item_title">Описание карт</span>
+					      <div class="protocols_item_img">
+					      	<i class="fas fa-brain"></i>
+					      </div>
+					    </div>
+					  </div>
 				</div>
-				<div class="row">
-					<div class="col mode-item mode-item_protocol text_center">
-			      <span class="protocols_item_title">Лечебное "Tarot"</span>
-			      <div class="protocols_item_img">
-			      	<i class="fas fa-moon"></i>
-			      </div>
-			    </div>
-					<div class="col mode-item mode-item_manual text_center">
-			      <span class="protocols_item_title">Альтернативный режим</span>
-			      <div class="protocols_item_img">
-			      	<i class="fas fa-brain"></i>
-			      </div>
-			    </div>
-					<div class="col mode-item mode-item_cards text_center">
-			      <span class="protocols_item_title">Описание карт</span>
-			      <div class="protocols_item_img">
-			      	<i class="fas fa-brain"></i>
-			      </div>
-			    </div>
-			    <!-- <div data-protocol="v1" class="col protocols_item protocols_item_1 text_center">
-			      <span class="protocols_item_title">V1</span>
-			      <div class="protocols_item_img">
-			      	<i class="fas fa-brain"></i>
-			      </div>
-			      <div class="protocols_item_content hidden">«Краниальный протокол» - «используется при актуальности зоны головы, а также для терапевтической дефрагментации ума»</div>
-			    </div>
-			    <div data-protocol="v2" class="col protocols_item protocols_item_2 text_center">
-			      <span class="protocols_item_title">V2—V5</span>
-			      <div class="protocols_item_img">
-			      	<i class="fas fa-users"></i>
-			      </div>
-			      <div class="protocols_item_content hidden">«Показания для коррекции - застрявшие мысли/дилеммы категорий люди и отношения, а также предметы/вещи/деньги. Рационализации (самообман), неотпущенные переживания обиды и вины, клинические проявления V2 заболеваний.»</div>
-			    </div>
-			    <div data-protocol="v3" class="col protocols_item protocols_item_3 text_center">
-			      <span class="protocols_item_title">V3—V4</span>
-			      <div class="protocols_item_img">
-			      	<i class="fas fa-tired"></i>
-			      </div>
-			      <div class="protocols_item_content hidden">«Показания к применению - чувство непереносимости ситуации либо отношений, невозможности принять для себя это переживания, раздражение от всех и вся, попытки заставить вас принять чужое мнение, или ваши попытки заставить кого-либо принять вашу точку зрения, клинические проявления V3 заболеваний.»</div>
-			    </div> -->
-			  </div>
-				<div class="row">
-			    <!-- <div data-protocol="v4" class="col protocols_item protocols_item_4 text_center">
-			      <span class="protocols_item_title">V4—V3</span>
-			      <div class="protocols_item_img">
-			      	<i class="fas fa-theater-masks"></i>
-			      </div>
-			      <div class="protocols_item_content hidden">«Показания к применению - переживание беспокойства, тревожности, суеты и торопливости, злости и заниженной самооценки. Клинические проявления V4 заболеваний.»</div>
-			    </div>
-			    <div data-protocol="v5" class="col protocols_item protocols_item_5 text_center">
-			      <span class="protocols_item_title">V5—V2</span>
-			      <div class="protocols_item_img">
-			      	<i class="fab fa-medapps"></i>
-			      </div>
-			      <div class="protocols_item_content hidden">«Показания к применению - невротические переживания нехватки воздуха, страхов закрытого пространства, высоты. Синдром хронической усталости, последствия физических травм, насилия, утопления, кровопотери, общего наркоза и прочих ситуаций, связанных с угрозой жизни. Клинические проявления V5 заболеваний.»</div>
-			    </div>
-			    <div data-protocol="drenag" class="col protocols_item protocols_item_6 text_center">
-			      <span class="protocols_item_title">Дренаж</span>
-			      <div class="protocols_item_img">
-			      	<i class="fas fa-recycle"></i>
-			      </div>
-			      <div class="protocols_item_content hidden">«Дренажный протокол предназначен для флюидической очистки зон DSV тела ума. Рекомендован при хронических либо кармически отягощенных, а также гипоресурсных состояниях. Можно применять сразу дополнительно после основного протокола (кроме V5) либо самостоятельно»</div>
-			    </div> -->
-			  </div>
-				<div class="row">
-			    <!-- <div data-protocol="solis" class="col protocols_item protocols_item_7 text_center">
-			      <span class="protocols_item_title">Solis</span>
-			      <div class="protocols_item_img">
-			      	<i class="fas fa-sun"></i>
-			      </div>
-			      <div class="protocols_item_content hidden">«Протокол "Solis" предназначен для "гиперресурсных" состояний, которые закономерно возникают после удачных проработок клиента на "wizardmachine", терапевтической дефрагментации, а также после проработки кармических и родовых проблем либо после длительной "отжимки" негативного флюида из физического тела. При калибровке ставьте зону v3 на нижнюю границу сердца! Показания к применению - напряжения в теле и поведенческие дисфункции на полнолуние. Нормализация метафункционала вентральной оси. рекомендован ежедневно с 10-го по 15-й дни Луны!</div>
-			    </div>
-			    <div data-protocol="universal" class="col protocols_item protocols_item_8 text_center">
-			      <span class="protocols_item_title">Универсальный</span>
-			      <div class="protocols_item_img">
-			      	<i class="fas fa-hands"></i>
-			      </div>
-			      <div class="protocols_item_content hidden">Универсальный протокол подходит для большинства типичных дисфункций. Если вы затрудняетесь с выбором типа протокола - смело выбирайте универсальный!</div>
-			    </div>
-			    <div data-protocol="visceral" class="col protocols_item protocols_item_8 text_center">
-			      <span class="protocols_item_title">Висцеральный</span>
-			      <div class="protocols_item_img">
-			      	<i class="fab fa-stumbleupon"></i>
-			      </div>
-			      <div class="protocols_item_content hidden">«Печеночное продвижение. Для коррекции вегетативно/сосудистых, висцеральных, психосоматических проблем, а также состояний, связанных с нарушением иммунитета и обмена веществ»</div>
-			    </div> -->
-			  </div>
 			</div>
 			<!-- manual diagnostic -->
 			<div class="mobile_screen mobile_screen_manual hidden">
