@@ -73,7 +73,7 @@
 				</div>
 			</div>
 			<!-- what way -->
-			<div class="mobile_screen mobile_screen_what_way hidden">
+			<div class="mobile_screen mobile_screen_protocols hidden">
 				<div class="row justify-content-center protocols_info">
 					<div class="col-8 text_center">
 						<div class="row">
@@ -98,7 +98,7 @@
 				</div>
 			</div>
 			<!-- protocols -->
-			<div class="mobile_screen mobile_screen_protocols hidden">
+			<div class="mobile_screen mobile_screen_what_way hidden">
 				<div class="row">
 					<div class="col protocols_info text_center">
 						<div class="current_protocol_img">
