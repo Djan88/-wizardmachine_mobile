@@ -100,6 +100,10 @@
 			<!-- protocols -->
 			<div class="mobile_screen mobile_screen_what_way hidden">
 				<div class="row">
+					<div class="col protocols_info text_center">
+					</div>
+				</div>
+				<div class="row">
 					<div class="col mode-item mode-item_protocol text_center">
 			      <span class="protocols_item_title">Лечебное "Tarot"</span>
 			      <div class="protocols_item_img">
