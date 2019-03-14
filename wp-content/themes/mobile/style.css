@@ -197,7 +197,7 @@ div#recallbar, div#wpadminbar
   right: 0;
   top: -570px;
   z-index: 600;
-  transition: top linear 1s;
+  transition: top ease-in 1s;
 }
 .zones_template.hidden
 {
