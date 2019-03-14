@@ -110,7 +110,13 @@
 					</div>
 				</div>
 				<div class="row">
-			    <div data-protocol="v1" class="col protocols_item protocols_item_1 text_center">
+					<div class="col mode-item mode-item_protocol text_center">
+			      <span class="protocols_item_title">Лечебное "Tarot"</span>
+			      <div class="protocols_item_img">
+			      	<i class="fas fa-brain"></i>
+			      </div>
+			    </div>
+			    <!-- <div data-protocol="v1" class="col protocols_item protocols_item_1 text_center">
 			      <span class="protocols_item_title">V1</span>
 			      <div class="protocols_item_img">
 			      	<i class="fas fa-brain"></i>
@@ -130,10 +136,10 @@
 			      	<i class="fas fa-tired"></i>
 			      </div>
 			      <div class="protocols_item_content hidden">«Показания к применению - чувство непереносимости ситуации либо отношений, невозможности принять для себя это переживания, раздражение от всех и вся, попытки заставить вас принять чужое мнение, или ваши попытки заставить кого-либо принять вашу точку зрения, клинические проявления V3 заболеваний.»</div>
-			    </div>
+			    </div> -->
 			  </div>
 				<div class="row">
-			    <div data-protocol="v4" class="col protocols_item protocols_item_4 text_center">
+			    <!-- <div data-protocol="v4" class="col protocols_item protocols_item_4 text_center">
 			      <span class="protocols_item_title">V4—V3</span>
 			      <div class="protocols_item_img">
 			      	<i class="fas fa-theater-masks"></i>
@@ -153,10 +159,10 @@
 			      	<i class="fas fa-recycle"></i>
 			      </div>
 			      <div class="protocols_item_content hidden">«Дренажный протокол предназначен для флюидической очистки зон DSV тела ума. Рекомендован при хронических либо кармически отягощенных, а также гипоресурсных состояниях. Можно применять сразу дополнительно после основного протокола (кроме V5) либо самостоятельно»</div>
-			    </div>
+			    </div> -->
 			  </div>
 				<div class="row">
-			    <div data-protocol="solis" class="col protocols_item protocols_item_7 text_center">
+			    <!-- <div data-protocol="solis" class="col protocols_item protocols_item_7 text_center">
 			      <span class="protocols_item_title">Solis</span>
 			      <div class="protocols_item_img">
 			      	<i class="fas fa-sun"></i>
@@ -176,7 +182,7 @@
 			      	<i class="fab fa-stumbleupon"></i>
 			      </div>
 			      <div class="protocols_item_content hidden">«Печеночное продвижение. Для коррекции вегетативно/сосудистых, висцеральных, психосоматических проблем, а также состояний, связанных с нарушением иммунитета и обмена веществ»</div>
-			    </div>
+			    </div> -->
 			  </div>
 			</div>
 			<!-- manual diagnostic -->
@@ -400,42 +406,6 @@
 														data-number="6" 
 														class="zone zone_movable draggable draggable_s5">VI</div>
 												</div>
-												<!-- <div class="col zone_holder zone_holder_1">
-													<div class="status status_percent_wrap hidden">
-														Выполнено: <span class="status_percent">0%</span>
-													</div>
-													<div data-toggle="modal" data-target="#card_modal" data-card="http://yuchikurov.ru/wp-content/themes/mobile/img/cards/world.png" data-number="21" class="zone zone_movable draggable draggable_d2 ui-draggable ui-draggable-handle" style="width: 25px; right: auto; height: 25px; bottom: auto; left: 118.344px; top: 249px;">XXI</div>
-													<div data-toggle="modal" data-target="#card_modal" data-card="http://yuchikurov.ru/wp-content/themes/mobile/img/cards/death.png" data-number="13" class="zone zone_movable draggable draggable_d2_1 ui-draggable ui-draggable-handle" style="width: 25px; right: auto; height: 25px; bottom: auto; left: 123.344px; top: 278px;">XIII</div>
-													<div data-toggle="modal" data-target="#card_modal" data-card="http://yuchikurov.ru/wp-content/themes/mobile/img/cards/justice.png" data-number="11" class="zone zone_movable draggable draggable_d3 ui-draggable ui-draggable-handle" style="width: 25px; right: auto; height: 25px; bottom: auto; left: 118.344px; top: 322px;">XI</div>
-													<div data-toggle="modal" data-target="#card_modal" data-card="http://yuchikurov.ru/wp-content/themes/mobile/img/cards/emperor.png" data-number="4" class="zone zone_movable draggable draggable_d4 ui-draggable ui-draggable-handle" style="width: 25px; right: auto; height: 25px; bottom: auto; left: 115.344px; top: 378px;">IV</div>
-													<div data-toggle="modal" data-target="#card_modal" data-card="http://yuchikurov.ru/wp-content/themes/mobile/img/cards/hanged_man.png" data-number="12" class="zone zone_movable draggable draggable_d5 ui-draggable ui-draggable-handle" style="width: 25px; right: auto; height: 25px; bottom: auto; left: 121.344px; top: 510px;">XII</div>
-												</div>
-												<div class="col zone_holder zone_holder_2">
-													<div class="status status_title hidden"></div>
-													<div data-toggle="modal" data-target="#card_modal" data-card="http://yuchikurov.ru/wp-content/themes/mobile/img/cards/star.png" data-number="17" class="zone zone_movable draggable draggable_v0 ui-draggable ui-draggable-handle" style="width: 25px; right: auto; height: 25px; bottom: auto; left: 155.094px; top: 140px;">XVII</div>
-													<div data-toggle="modal" data-target="#card_modal" data-card="http://yuchikurov.ru/wp-content/themes/mobile/img/cards/magician.png" data-number="1" class="zone zone_movable draggable draggable_v1 ui-draggable ui-draggable-handle" style="width: 25px; right: auto; height: 25px; bottom: auto; left: 155.094px; top: 172px;">I</div>
-													<div data-toggle="modal" data-target="#card_modal" data-card="http://yuchikurov.ru/wp-content/themes/mobile/img/cards/high_priestess.png" data-number="2" class="zone zone_movable draggable draggable_v2 ui-draggable ui-draggable-handle" style="width: 25px; right: auto; height: 25px; bottom: auto; left: 153.094px; top: 232px;">II</div>
-													<div data-toggle="modal" data-target="#card_modal" data-card="http://yuchikurov.ru/wp-content/themes/mobile/img/cards/strength.png" data-number="8" class="zone zone_movable draggable draggable_v3 ui-draggable ui-draggable-handle" style="width: 25px; right: auto; height: 25px; bottom: auto; left: 153.094px; top: 285px;">VIII</div>
-													<div data-toggle="modal" data-target="#card_modal" data-card="http://yuchikurov.ru/wp-content/themes/mobile/img/cards/hermit.png" data-number="9" class="zone zone_movable draggable draggable_v3-4 ui-draggable ui-draggable-handle" style="width: 25px; right: auto; height: 25px; bottom: auto; left: 153.094px; top: 324px;">IX</div>
-													<div data-toggle="modal" data-target="#card_modal" data-card="http://yuchikurov.ru/wp-content/themes/mobile/img/cards/fortune.png" data-number="10" class="zone zone_movable draggable draggable_v4 ui-draggable ui-draggable-handle" style="width: 25px; right: auto; height: 25px; bottom: auto; left: 153.094px; top: 354px;">X</div>
-													<div data-toggle="modal" data-target="#card_modal" data-card="http://yuchikurov.ru/wp-content/themes/mobile/img/cards/temperance.png" data-number="14" class="zone zone_movable draggable draggable_v4-5 ui-draggable ui-draggable-handle" style="width: 25px; right: auto; height: 25px; bottom: auto; left: 153.094px; top: 383px;">XIV</div>
-													<div data-toggle="modal" data-target="#card_modal" data-card="http://yuchikurov.ru/wp-content/themes/mobile/img/cards/tower.png" data-number="16" class="zone zone_movable draggable draggable_v5_1 ui-draggable ui-draggable-handle" style="width: 25px; right: auto; height: 25px; bottom: auto; left: 153.094px; top: 409px;">XVI</div>
-													<div data-toggle="modal" data-target="#card_modal" data-card="http://yuchikurov.ru/wp-content/themes/mobile/img/cards/fool.png" data-number="0" class="zone zone_movable draggable draggable_v5 ui-draggable ui-draggable-handle" style="width: 25px; right: auto; height: 25px; bottom: auto; left: 153.094px; top: 423px;">0</div>
-													<div data-toggle="modal" data-target="#card_modal" data-card="http://yuchikurov.ru/wp-content/themes/mobile/img/cards/moon.png" data-number="18" class="zone zone_movable draggable draggable_v- ui-draggable ui-draggable-handle" style="width: 25px; right: auto; height: 25px; bottom: auto; left: 152.094px; top: 647px;">XVIII</div>
-												</div>
-												<div class="col zone_holder zone_holder_3">
-													<div class="status status_pahaze hidden">
-														Фаза: 
-														<span class="status_pahaze_now">0</span>
-														<span class="status_pahaze_to"> из </span>
-														<span class="status_pahaze_all">0</span>
-													</div>
-													<div data-toggle="modal" data-target="#card_modal" data-card="http://yuchikurov.ru/wp-content/themes/mobile/img/cards/chariot.png" data-number="7" class="zone zone_movable draggable draggable_s2 ui-draggable ui-draggable-handle" style="width: 25px; right: auto; height: 25px; bottom: auto; left: 182.844px; top: 248px;">VII</div>
-													<div data-toggle="modal" data-target="#card_modal" data-card="http://yuchikurov.ru/wp-content/themes/mobile/img/cards/judgement.png" data-number="20" class="zone zone_movable draggable draggable_s2_1 ui-draggable ui-draggable-handle" style="width: 25px; right: auto; height: 25px; bottom: auto; left: 182.844px; top: 278px;">XX</div>
-													<div data-toggle="modal" data-target="#card_modal" data-card="http://yuchikurov.ru/wp-content/themes/mobile/img/cards/empress.png" data-number="3" class="zone zone_movable draggable draggable_s3 ui-draggable ui-draggable-handle" style="width: 25px; right: auto; height: 25px; bottom: auto; left: 184.844px; top: 323px;">III</div>
-													<div data-toggle="modal" data-target="#card_modal" data-card="http://yuchikurov.ru/wp-content/themes/mobile/img/cards/hierophant.png" data-number="5" class="zone zone_movable draggable draggable_s4 ui-draggable ui-draggable-handle" style="width: 25px; right: auto; height: 25px; bottom: auto; left: 184.844px; top: 378px;">V</div>
-													<div data-toggle="modal" data-target="#card_modal" data-card="http://yuchikurov.ru/wp-content/themes/mobile/img/cards/lovers.png" data-number="6" class="zone zone_movable draggable draggable_s5 ui-draggable ui-draggable-handle" style="width: 25px; right: auto; height: 25px; bottom: auto; left: 184.844px; top: 510px;">VI</div>
-												</div> -->
 											</div>
 										</div>
 										<img class="loaded_img" src="" alt="">
