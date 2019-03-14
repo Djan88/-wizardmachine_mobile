@@ -100,18 +100,20 @@
 			<!-- protocols -->
 			<div class="mobile_screen mobile_screen_what_way hidden">
 				<div class="row">
-					<div class="col protocols_info text_center">
-						<div class="current_protocol_img">
-							<i class="fas fa-user-md"></i>
-						</div>
-						<h3 class="current_protocol_title">Выберите протокол</h3>
-						<p class="current_protocol_content">Здесь появится его описание</p>
-						<button class="btn hidden btn-success choice_protocol">Активировать <span class="current_protocol_title_2"></span></button>
-					</div>
-				</div>
-				<div class="row">
 					<div class="col mode-item mode-item_protocol text_center">
 			      <span class="protocols_item_title">Лечебное "Tarot"</span>
+			      <div class="protocols_item_img">
+			      	<i class="fas fa-moon"></i>
+			      </div>
+			    </div>
+					<div class="col mode-item mode-item_manual text_center">
+			      <span class="protocols_item_title">Альтернативный режим</span>
+			      <div class="protocols_item_img">
+			      	<i class="fas fa-brain"></i>
+			      </div>
+			    </div>
+					<div class="col mode-item mode-item_cards text_center">
+			      <span class="protocols_item_title">Описание карт</span>
 			      <div class="protocols_item_img">
 			      	<i class="fas fa-brain"></i>
 			      </div>
