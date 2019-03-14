@@ -282,9 +282,9 @@ jQuery(document).ready(function () {
         jQuery('.card_solis').css('top', card_zone_top - 32 + 'px');
         card_id.css('transform', 'rotate(270deg)');
         count_animation += 1;
-      } else if (count_animation > 8 && count_animation <= 12) {
+      } else if (count_animation > 8 && count_animation <= 16) {
         count_animation += 1;
-      } else if (count_animation > 12 && count_animation <= 16) {
+      } else if (count_animation > 16 && count_animation <= 22) {
         card_id.css('transform', 'rotate(360deg)');
         count_animation += 1;
       } else {

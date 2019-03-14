@@ -219,6 +219,11 @@ jQuery(document).ready(function () {
     jQuery('.btn-to_mode, .btn_protocols, .clear_graph').removeClass('hidden');
     jQuery('.header-title').text('Диагностика');
   });
+
+  // man with zones
+  jQuery('.btn_man_with_zones').on('click', function(event) {
+    
+  });
   // --------
 
   // Protocol mode
