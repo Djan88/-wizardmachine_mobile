@@ -362,9 +362,11 @@ span.menu_item_img
 .card_codes_top:before
 {
   content: 'Карты восстановленные';
-  position: absolute;
-  left: 0;
-  top: 0;
+  color: #b1b1b1;
+  text-transform: uppercase;
+  font-weight: 700;
+  left: 15px;
+  top: 85%;
 }
 .card_codes_bottom
 {
@@ -373,9 +375,11 @@ span.menu_item_img
 .card_codes_bottom:before
 {
   content: 'Карты в грехопадении';
-  position: absolute;
-  right: 0;
-  top: 0;
+  color: #b1b1b1;
+  text-transform: uppercase;
+  font-weight: 700;
+  right: 15px;
+  top: 85%;
 }
 .card_codes_bottom img
 {
