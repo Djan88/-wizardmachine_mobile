@@ -370,7 +370,7 @@ span.menu_item_img
 {
   text-align: right;
 }
-.card_codes_top:after
+.card_codes_bottom:after
 {
   content: 'Карты в грехопадении';
   position: absolute;
