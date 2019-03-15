@@ -353,11 +353,12 @@ span.menu_item_img
 .card_codes 
 {
   position: absolute;
-  z-index: 700;
+  z-index: 500;
 }
 .card_codes_top
 {
   text-align: left;
+  height: 100px;
 }
 .card_codes_top:before
 {
@@ -371,6 +372,7 @@ span.menu_item_img
 .card_codes_bottom
 {
   text-align: right;
+  height: 100px;
 }
 .card_codes_bottom:before
 {
