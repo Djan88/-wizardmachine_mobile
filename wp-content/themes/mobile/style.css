@@ -359,9 +359,23 @@ span.menu_item_img
 {
   text-align: left;
 }
+.card_codes_top:after
+{
+  content: 'Карты восстановленные';
+  position: absolute;
+  left: 0;
+  top: 0;
+}
 .card_codes_bottom
 {
   text-align: right;
+}
+.card_codes_top:after
+{
+  content: 'Карты в грехопадении';
+  position: absolute;
+  right: 0;
+  top: 0;
 }
 .card_codes_bottom img
 {

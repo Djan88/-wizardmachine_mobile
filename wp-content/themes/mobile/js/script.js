@@ -201,6 +201,7 @@ jQuery(document).ready(function () {
     jQuery('.mobile_screen_what_way').fadeIn(500);
     jQuery('.btn-to_img').removeClass('hidden');
     jQuery('.header-title').text('Выберите режим');
+    jQuery('.zones_template').removeAttr('style');
   });
 
     // to protocols
