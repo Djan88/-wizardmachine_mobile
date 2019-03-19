@@ -88,7 +88,7 @@ function uploadImageFile() { // Note: GD library is required for this function
 
                         //exif only supports jpg in our supported file types
                         if ($sExt == ".jpg") {
-                            $exif = exif_read_data($sTempFileName);
+                            print_r ($exif);
 
                             //get the orientation
                             if(isset($exif['Orientation'])) $orientation = $exif['Orientation'];
