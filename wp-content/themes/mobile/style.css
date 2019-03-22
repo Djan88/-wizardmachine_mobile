@@ -63,7 +63,7 @@ div#recallbar, div#wpadminbar
 }
 .header .btn
 {
-  color: #d25351;
+  color: #f96b47;
 }
 .header .btn:hover
 {
@@ -482,7 +482,7 @@ span.menu_item_img
 }
 .zones
 {
-  background-color: #fff;
+  background-color: #505050;
   /*background-image: url(img/bg.jpg);*/
   background-size: 100%;
   border: 1px solid #ddd;
@@ -527,8 +527,8 @@ span.menu_item_img
 {
   z-index: 500;
   cursor: pointer;
-  background: #2b303b;
-  border: 1px solid #FFF0C7;
+  background: #414141;
+  border: 1px solid #f96b47;
   color: #fff;
   border-radius: 50%;
   display: inline-block;

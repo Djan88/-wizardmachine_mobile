@@ -157,7 +157,7 @@
 								<div class="row justify-content-center" style="position: relative;">
 									<div class="col-12 card_codes">
 										<div class="row">
-											<div class="col-6 card_codes_top">
+											<div class="col-6 card_codes_top hidden">
 												<img src="<?php echo get_template_directory_uri(); ?>/img/cards/fool.png" alt="" class="card_protocol card_protocol_top hidden" data-number="0">
 												<img src="<?php echo get_template_directory_uri(); ?>/img/cards/magician.png" alt="" class="card_protocol card_protocol_top hidden" data-number="1">
 												<img src="<?php echo get_template_directory_uri(); ?>/img/cards/high_priestess.png" alt="" class="card_protocol card_protocol_top hidden" data-number="2">
@@ -179,7 +179,7 @@
 												<img src="<?php echo get_template_directory_uri(); ?>/img/cards/judgement.png" alt="" class="card_protocol card_protocol_top hidden" data-number="20">
 												<img src="<?php echo get_template_directory_uri(); ?>/img/cards/world.png" alt="" class="card_protocol card_protocol_top hidden" data-number="21">
 											</div>
-											<div class="col-6 card_codes_bottom">
+											<div class="col-6 card_codes_bottom hidden">
 												<img src="<?php echo get_template_directory_uri(); ?>/img/cards/fool.png" alt="" class="card_protocol card_protocol_bottom hidden" data-number="0">
 												<img src="<?php echo get_template_directory_uri(); ?>/img/cards/magician.png" alt="" class="card_protocol card_protocol_bottom hidden" data-number="1">
 												<img src="<?php echo get_template_directory_uri(); ?>/img/cards/high_priestess.png" alt="" class="card_protocol card_protocol_bottom hidden" data-number="2">

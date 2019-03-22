@@ -157,14 +157,10 @@ jQuery(document).ready(function () {
     },
     function(isConfirm){
       var protocol = undefined;
-      if (isConfirm) {    
-        // jQuery('.mobile_screen').addClass('hidden').css('display', 'none');
-        // jQuery('.btn-to_protocols, .btn_man_with_zones, .btn_start').addClass('hidden');
-        // jQuery('.mobile_screen_protocols').fadeIn(500);
-        // jQuery('.btn-to_mode').removeClass('hidden');
-        // jQuery('.header-title').text('Выберите протокол');
+      if (isConfirm) {
         cur_cards = [];
         jQuery('.card_protocol').addClass('hidden').removeAttr("style");
+        jQuery('.card_codes_top, .card_codes_bottom').addClass('hidden');
         jQuery('.card_in_action').removeAttr("style");
         jQuery('.card').removeClass('card_move_fast');
         jQuery('.line_area').removeClass('hidden');
@@ -220,6 +216,7 @@ jQuery(document).ready(function () {
 
   // choice card
   jQuery('.zone_choice').on('click', function(event) {
+    jQuery('.card_codes_top, .card_codes_bottom').removeClass('hidden');
     if (cur_cards.indexOf(choiced_card) != -1) {
       cur_cards.splice(cur_cards.indexOf(choiced_card), 1);
     }
