@@ -165,7 +165,19 @@ jQuery(document).ready(function () {
         jQuery('.card').removeClass('card_move_fast');
         jQuery('.line_area').removeClass('hidden');
         jQuery('.zone').removeClass('zone_choiced');
-        line_drawing();
+        
+        jQuery('.line_area').attr('height', parseInt(jQuery('.work-area').css('height')));
+        jQuery('.line_area').attr('width', parseInt(jQuery('.work-area').css('width')));
+        solis_x = jQuery('.card_solis').position().left + card_width;
+        solis_y = jQuery('.card_solis').position().top + card_heigth;
+        devil_x = jQuery('.card_devil').position().left + drag_zone_w + diag_zone_w;
+        devil_y = jQuery('.card_devil').position().top + card_heigth;
+
+        jQuery('.line').attr('x1', solis_x - 10);
+        jQuery('.line').attr('y1', solis_y);
+        jQuery('.line').attr('x2', devil_x + 10);
+        jQuery('.line').attr('y2', devil_y);
+
         jQuery('.zones_template').removeAttr('style');
       } else {    
         jQuery(location).attr('href','/');
@@ -270,7 +282,7 @@ jQuery(document).ready(function () {
     card_id.fadeIn(500);
     card_id.css({
       transform: 'scale(1) rotate(180deg)',
-      left: card_zone_left + 50 +'px',
+      left: card_zone_left + 65 +'px',
       top: card_zone_top - 60 +'px'
     });
     jQuery('.card_codes_bottom').find(jQuery('[data-number =' + cur_card + ']')).fadeOut(500);
