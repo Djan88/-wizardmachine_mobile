@@ -165,6 +165,8 @@ jQuery(document).ready(function () {
         jQuery('.card').removeClass('card_move_fast');
         jQuery('.line_area').removeClass('hidden');
         jQuery('.zone').removeClass('zone_choiced');
+        line_drawing();
+        jQuery('.zones_template').removeAttr('style');
       } else {    
         jQuery(location).attr('href','/');
       } 
@@ -268,7 +270,7 @@ jQuery(document).ready(function () {
     card_id.fadeIn(500);
     card_id.css({
       transform: 'scale(1) rotate(180deg)',
-      left: card_zone_left + 40 +'px',
+      left: card_zone_left + 50 +'px',
       top: card_zone_top - 60 +'px'
     });
     jQuery('.card_codes_bottom').find(jQuery('[data-number =' + cur_card + ']')).fadeOut(500);
