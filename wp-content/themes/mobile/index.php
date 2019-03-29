@@ -193,7 +193,7 @@
 												<img src="<?php echo get_template_directory_uri(); ?>/img/cards/fortune.png" alt="" class="card_protocol card_protocol_bottom hidden" data-number="10">
 												<img src="<?php echo get_template_directory_uri(); ?>/img/cards/justice.png" alt="" class="card_protocol card_protocol_bottom hidden" data-number="11">
 												<img src="<?php echo get_template_directory_uri(); ?>/img/cards/hanged_man.png" alt="" class="card_protocol card_protocol_bottom hidden" data-number="12">
-												<img src="<?php echo get_template_directory_uri(); ?>/img/cards/devil.png" alt="" class="card_protocol card_protocol_bottom hidden" data-number="13">
+												<img src="<?php echo get_template_directory_uri(); ?>/img/cards/death.png" alt="" class="card_protocol card_protocol_bottom hidden" data-number="13">
 												<img src="<?php echo get_template_directory_uri(); ?>/img/cards/temperance.png" alt="" class="card_protocol card_protocol_bottom hidden" data-number="14">
 												<img src="<?php echo get_template_directory_uri(); ?>/img/cards/tower.png" alt="" class="card_protocol card_protocol_bottom hidden" data-number="16">
 												<img src="<?php echo get_template_directory_uri(); ?>/img/cards/star.png" alt="" class="card_protocol card_protocol_bottom hidden" data-number="17">
