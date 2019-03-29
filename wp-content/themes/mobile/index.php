@@ -29,7 +29,7 @@
 
 	<?php endif; ?>
 <?php } else { ?>
-	<div class="col col-12 col-sm-12 col-md-10 col-lg-6 col-xl-10 protocols">
+	<div class="col col-12 protocols">
 		<?php if(is_user_logged_in()){ ?>
 
 			<?php
