@@ -478,7 +478,8 @@ span.menu_item_img
 }
 .header .btn.btn_start 
 {
-  color: #4785ba;
+  color: #505050;
+  transform: scale(1.3);
 }
 .zones
 {

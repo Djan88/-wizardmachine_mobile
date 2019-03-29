@@ -60,7 +60,7 @@
                 <i class="fas fa-moon"></i>
               </button>
               <button type="button" class="btn btn-lg btn-link btn_start hidden justify-content-end">
-                <i class="fab fa-react"></i>
+                <i class="fab fa-centos"></i>
               </button>
               <button type="button" class="btn btn-lg btn-link btn_protocols hidden justify-content-end">
                 <i class="far fa-check-square"></i>
