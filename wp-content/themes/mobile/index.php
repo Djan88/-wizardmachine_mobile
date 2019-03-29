@@ -1,7 +1,7 @@
 <?php get_header(); ?>
 <?php if(is_page(183)) { ?>
 	<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
-	<div class="col col-12 col-sm-12 col-md-10 col-lg-6 col-xl-10 protocols">
+	<div class="col col-12 protocols">
 		<article id="post-<?php the_ID(); ?>" <?php post_class( 'cf' ); ?> role="article">
 
 			<section class="entry-content cf">
