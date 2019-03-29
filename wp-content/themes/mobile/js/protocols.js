@@ -171,7 +171,7 @@ jQuery(document).ready(function () {
         card_width = parseInt(jQuery('.card_solis').css('width'));
         drag_zone_w = parseInt(jQuery('.drag_container').css('width'));
         diag_zone_w = parseInt(jQuery('.work-area_inner').css('width'));
-        
+
         jQuery('.line_area').attr('height', parseInt(jQuery('.work-area').css('height')));
         jQuery('.line_area').attr('width', parseInt(jQuery('.work-area').css('width')));
         solis_x = jQuery('.card_solis').position().left + card_width;
@@ -183,6 +183,9 @@ jQuery(document).ready(function () {
         jQuery('.line').attr('y1', solis_y);
         jQuery('.line').attr('x2', devil_x + 10);
         jQuery('.line').attr('y2', devil_y);
+
+        jQuery('.dragger_rate').detach();
+        jQuery('.clear_graph').addClass('hidden');
 
         jQuery('.zones_template').removeAttr('style');
       } else {    
