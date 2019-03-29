@@ -166,6 +166,12 @@ jQuery(document).ready(function () {
         jQuery('.line_area').removeClass('hidden');
         jQuery('.zone').removeClass('zone_choiced');
         
+
+        card_heigth = parseInt(jQuery('.card_solis').css('height'))/2;
+        card_width = parseInt(jQuery('.card_solis').css('width'));
+        drag_zone_w = parseInt(jQuery('.drag_container').css('width'));
+        diag_zone_w = parseInt(jQuery('.work-area_inner').css('width'));
+        
         jQuery('.line_area').attr('height', parseInt(jQuery('.work-area').css('height')));
         jQuery('.line_area').attr('width', parseInt(jQuery('.work-area').css('width')));
         solis_x = jQuery('.card_solis').position().left + card_width;
