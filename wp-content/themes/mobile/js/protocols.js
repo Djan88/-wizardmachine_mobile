@@ -198,6 +198,7 @@ jQuery(document).ready(function () {
         jQuery('.zones_template').removeAttr('style');
       } else {    
         jQuery(location).attr('href','/');
+        session = 0;
       } 
     });
     jQuery('.status').addClass('hidden');
