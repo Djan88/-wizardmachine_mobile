@@ -112,7 +112,7 @@
 					      </div>
 					    </div>
 							<div class="col mode-item mode-item_manual_ text_center">
-					      <span class="protocols_item_title">Альтернативный режим</span>
+					      <span class="protocols_item_title">Tarot—Мастер реальности</span>
 					      <div class="protocols_item_img">
 					      	<i class="fas fa-hand-pointer"></i>
 					      </div>
