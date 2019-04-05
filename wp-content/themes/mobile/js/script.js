@@ -68,6 +68,9 @@ jQuery(document).ready(function () {
       devil_ratio = devil_2 - devil_1;
     }
 
+    console.log("sol_ratio = "+sol_ratio);
+    console.log("devil_ratio = "+devil_ratio);
+
     if (sol_ratio <= 50 && devil_ratio <= 50) {
       jQuery('.line_area').addClass('line_area_red');
     } else {
