@@ -70,7 +70,6 @@ jQuery(document).ready(function () {
                  confirmButtonText: "Ок"
                },
                function(isConfirm){
-                 endStatus == false;  
                  if (isConfirm) {    
                    jQuery('.mobile_screen').addClass('hidden').css('display', 'none');
                    jQuery('.btn-to_mode, .btn_protocol, .btn_protocols, .clear_graph, .btn_man_with_zones, .btn_start, .btn_moon_day').addClass('hidden');
