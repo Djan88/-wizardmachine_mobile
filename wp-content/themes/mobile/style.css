@@ -436,12 +436,10 @@ span.menu_item_img
 {
   stroke:hsl(222, 50%, 96%);
   stroke-width:20;
-  transition: color linear 0.5s;
 }
 .line_area.line_area_red .line
 {
   stroke:hsl(354, 100%, 67%);
-  stroke-width:20;
 }
 .col-12.text_center.zone_diag
 {
