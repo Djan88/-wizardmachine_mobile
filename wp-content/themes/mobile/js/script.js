@@ -57,15 +57,15 @@ jQuery(document).ready(function () {
     devil_1 = parseInt(jQuery('.card_devil').css('top'));
     devil_2 = parseInt(jQuery('.card_ghost_devil').css('top'));
 
-    if (sol_1 >= sol2) {
-      sol_ratio = sol_1 - sol2;
+    if (sol_1 >= sol_2) {
+      sol_ratio = sol_1 - sol_2;
     } else {
-      sol_ratio = sol_2 - sol1;
+      sol_ratio = sol_2 - sol_1;
     }
-    if (devil_1 >= devil2) {
-      devil_ratio = devil_1 - devil2;
+    if (devil_1 >= devil_2) {
+      devil_ratio = devil_1 - devil_2;
     } else {
-      devil_ratio = devil_2 - devil1;
+      devil_ratio = devil_2 - devil_1;
     }
 
     if (sol_ratio <= 50 && devil_ratio <= 50) {
