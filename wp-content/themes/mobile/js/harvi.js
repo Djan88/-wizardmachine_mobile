@@ -47,7 +47,7 @@ jQuery(document).ready(function () {
     var moon_day = hm.NowMoonDay();
     //var moon_day=hm.GetMoonDay(22,1,2011);
 
-    // moon_day = 28;
+    moon_day = 13;
 
     checkPoints = function(){
       jQuery('.zone_movable').each(function() {
@@ -57,6 +57,34 @@ jQuery(document).ready(function () {
         }
       });
     }
+
+    jQuery('.').on('click', function(event) {
+        if (moon_day == 13 || moon_day == 14 || moon_day == 15) {
+            setTimeout(function(){
+               swal("Лунный день близкий к полнолунию", "В эти дни терапия Tarot не доступна", "error")
+               swal({
+                 title: "Лунный день близкий к полнолунию!",   
+                 text: "В эти дни терапия Tarot не доступна.",   
+                 type: "info",
+                 confirmButtonColor: "#DD6B55",   
+                 confirmButtonText: "Ок"
+               },
+               function(isConfirm){
+                 endStatus == false;  
+                 if (isConfirm) {    
+                   jQuery('.mobile_screen').addClass('hidden').css('display', 'none');
+                   jQuery('.btn-to_mode, .btn_protocol, .btn_protocols, .clear_graph, .btn_man_with_zones, .btn_start, .btn_moon_day').addClass('hidden');
+                   jQuery('.mobile_screen_what_way').fadeIn(500);
+                   jQuery('.btn-to_img').removeClass('hidden');
+                   jQuery('.header-title').text('Выберите режим');
+                   jQuery('.zones_template').removeAttr('style');
+                 }
+               });
+            },1000);
+        }
+    });
+
+
     jQuery('.btn_moon_day').on('click', function(event) {
         checkPoints();
         if(pointsStatus == false){

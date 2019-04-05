@@ -114,13 +114,13 @@
 							<div class="col mode-item mode-item_manual text_center">
 					      <span class="protocols_item_title">Альтернативный режим</span>
 					      <div class="protocols_item_img">
-					      	<i class="fas fa-brain"></i>
+					      	<i class="fas fa-hand-pointer"></i>
 					      </div>
 					    </div>
 							<div class="col mode-item mode-item_cards text_center">
-					      <span class="protocols_item_title">Описание карт</span>
+					      <span class="protocols_item_title">Свойства карт</span>
 					      <div class="protocols_item_img">
-					      	<i class="fas fa-brain"></i>
+					      	<i class="fas fa-book-reader"></i>
 					      </div>
 					    </div>
 					  </div>

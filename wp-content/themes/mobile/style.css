@@ -184,7 +184,7 @@ div#recallbar, div#wpadminbar
   top: 5px;
   color: #fff;
   font-weight: 700;
-  font-size: 10px;
+  font-size: 13px;
   text-transform: uppercase;
 }
 #card_modal .modal-body
@@ -691,6 +691,12 @@ input.crop_photo
   .sweet-alert
   {
     left: 51.1%;
+  }
+}
+@media (max-width: 960px) {
+  .protocols_item_title, .mode-item_title
+  {
+    font-size: 10px;
   }
 }
 @media (max-width: 840px) {
