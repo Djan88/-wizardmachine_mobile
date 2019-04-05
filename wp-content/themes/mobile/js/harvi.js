@@ -47,7 +47,7 @@ jQuery(document).ready(function () {
     var moon_day = hm.NowMoonDay();
     //var moon_day=hm.GetMoonDay(22,1,2011);
 
-    moon_day = 13;
+    // moon_day = 13;
 
     checkPoints = function(){
       jQuery('.zone_movable').each(function() {
@@ -79,7 +79,7 @@ jQuery(document).ready(function () {
                    jQuery('.zones_template').removeAttr('style');
                  }
                });
-            },1000);
+            },500);
         }
     });
 

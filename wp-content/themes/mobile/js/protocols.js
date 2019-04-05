@@ -152,8 +152,8 @@ jQuery(document).ready(function () {
       type: "success",
       showCancelButton: true,
       confirmButtonColor: "#DD6B55",
-      confirmButtonText: "Начать сначала",
-      cancelButtonText: "Новый клиент"
+      confirmButtonText: "Продолжить работу",
+      cancelButtonText: "Завершить"
     },
     function(isConfirm){
       var protocol = undefined;
