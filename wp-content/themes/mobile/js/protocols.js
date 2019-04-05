@@ -155,7 +155,7 @@ jQuery(document).ready(function () {
 
     protocolName = localStorage.getItem('protocolName');
     swal({
-      titleая"Сессия #"+session+" завершена",
+      title:"Сессия #"+session+" завершена",
       text: session_text,
       type: "success",
       showCancelButton: true,
