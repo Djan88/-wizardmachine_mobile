@@ -18,6 +18,12 @@ jQuery(document).ready(function () {
       solis_y,
       devil_x,
       devil_y,
+      sol_1,
+      sol_2,
+      sol_ratio,
+      devil_1,
+      devil_2,
+      devil_ratio,
       line_drawing,
       timed_animation,
       zone_operated,
@@ -45,6 +51,28 @@ jQuery(document).ready(function () {
     solis_y = jQuery('.card_solis').position().top + card_heigth;
     devil_x = jQuery('.card_devil').position().left + drag_zone_w + diag_zone_w;
     devil_y = jQuery('.card_devil').position().top + card_heigth;
+
+    sol_1 = parseInt(jQuery('.card_solis').css('top'));
+    sol_2 = parseInt(jQuery('.card_ghost_solis').css('top'));
+    devil_1 = parseInt(jQuery('.card_devil').css('top'));
+    devil_2 = parseInt(jQuery('.card_ghost_devil').css('top'));
+
+    if (sol_1 >= sol2) {
+      sol_ratio = sol_1 - sol2;
+    } else {
+      sol_ratio = sol_2 - sol1;
+    }
+    if (devil_1 >= devil2) {
+      devil_ratio = devil_1 - devil2;
+    } else {
+      devil_ratio = devil_2 - devil1;
+    }
+
+    if (sol_ratio <= 50 && devil_ratio <= 50) {
+      jQuery('.line_area').addClass('line_area_red');
+    } else {
+      jQuery('.line_area').removeClass('line_area_red');
+    }
 
     jQuery('.line').attr('x1', solis_x - 10);
     jQuery('.line').attr('y1', solis_y);
