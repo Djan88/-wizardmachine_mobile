@@ -33,6 +33,8 @@ jQuery(document).ready(function () {
       rotate_four = 0,
       rotate_lovushka = 0,
       v1,
+      session = 0,
+      session_text,
       endStatus = false,
       card_zones = {
         '0' : '.draggable_v5',
@@ -95,7 +97,7 @@ jQuery(document).ready(function () {
   if (localStorage.getItem('paused')) {
     pausedStatus = true;
     swal({
-      title: "У Вас есть незавершенный протокол",   
+      title: "У Вас есть незавершенная сессия",   
       text: "Хотите продолжить его выполнение?",   
       type: "info",   
       showCancelButton: true,   
@@ -139,16 +141,22 @@ jQuery(document).ready(function () {
     rotate_four = 0;
     rotate_lovushka = 0;
     count_animation = 0;
+    session += 1;
     localStorage.removeItem('paused');
     localStorage.removeItem('pausedPhoto');
     localStorage.removeItem('pausedPhases');
     localStorage.removeItem('pausedProtName');
     pausedStatus = false;
+    if (session >= 4) {
+      session_text = "Проведено 4+ сессий. Рекомендуем завершить терапию";
+    } else {
+      session_text = "Что делать дальше?"
+    }
 
     protocolName = localStorage.getItem('protocolName');
     swal({
-      title: "Протокол завершен",
-      text: "Что делать дальше?",
+      titleая"Сессия #"+session+" завершена",
+      text: session_text,
       type: "success",
       showCancelButton: true,
       confirmButtonColor: "#DD6B55",
