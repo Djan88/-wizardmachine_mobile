@@ -86,7 +86,7 @@
 							</div>
 							<div class="col-1 text_center"></div>
 							<div class="col-1 col-md-3 col-lg-1 text_center"></div>
-							<div class="col-10 col-md-6 col-lg-4 text_center mode-item mode-item_manual_">
+							<div class="col-10 col-md-6 col-lg-4 text_center mode-item mode-item_manual__">
 								<span class="mode-item_title">Альтернативный режим</span>
 								<div class="mode-item_img">
 									<i class="fas fa-fingerprint"></i>
@@ -111,7 +111,7 @@
 					      	<i class="fas fa-moon"></i>
 					      </div>
 					    </div>
-							<div class="col mode-item mode-item_manual text_center">
+							<div class="col mode-item mode-item_manual_ text_center">
 					      <span class="protocols_item_title">Альтернативный режим</span>
 					      <div class="protocols_item_img">
 					      	<i class="fas fa-hand-pointer"></i>
