@@ -71,11 +71,11 @@ jQuery(document).ready(function () {
     console.log("sol_ratio = "+sol_ratio);
     console.log("devil_ratio = "+devil_ratio);
 
-    if (sol_ratio <= 50 && devil_ratio <= 50) {
-      jQuery('.line_area').addClass('line_area_red');
-    } else {
-      jQuery('.line_area').removeClass('line_area_red');
-    }
+    // if (sol_ratio <= 50 && devil_ratio <= 50) {
+    //   jQuery('.line_area').addClass('line_area_red');
+    // } else {
+    //   jQuery('.line_area').removeClass('line_area_red');
+    // }
 
     jQuery('.line').attr('x1', solis_x - 10);
     jQuery('.line').attr('y1', solis_y);
