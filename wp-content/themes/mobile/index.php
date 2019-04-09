@@ -440,7 +440,7 @@
 				      <input type="hidden" name="testcookie" value="1" />
 				    </p>
 				    <p>
-				    	<p class="note_small">У Вас еще нет учетной записи? <span class="toRegistration">Зарегистрируйтесь</span> в "WizardMachine" и узнайте как получить доступ</p>
+				    	<p class="note_small hidden">У Вас еще нет учетной записи? <span class="toRegistration">Зарегистрируйтесь</span> в "WizardMachine" и узнайте как получить доступ</p>
 				    </p>
 				  </form>
 				</div>
