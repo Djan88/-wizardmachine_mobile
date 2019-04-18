@@ -108,19 +108,19 @@
 							<div class="col mode-item mode-item_protocol text_center">
 					      <span class="protocols_item_title">Лечебное Tarot</span>
 					      <div class="protocols_item_img">
-					      	<i class="fal fa-moon"></i>
+					      	<i class="far fa-moon"></i>
 					      </div>
 					    </div>
 							<div class="col mode-item mode-item_manual text_center">
 					      <span class="protocols_item_title">Tarot—Мастер реальности</span>
 					      <div class="protocols_item_img">
-					      	<i class="fas fa-hand-pointer"></i>
+					      	<i class="far fa-hand-pointer"></i>
 					      </div>
 					    </div>
 							<div class="col mode-item mode-item_cards text_center">
 					      <span class="protocols_item_title">Свойства карт</span>
 					      <div class="protocols_item_img">
-					      	<i class="fas fa-book-reader"></i>
+					      	<i class="far fa-book-reader"></i>
 					      </div>
 					    </div>
 					  </div>
