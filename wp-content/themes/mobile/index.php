@@ -111,7 +111,7 @@
 					      	<i class="fas fa-moon"></i>
 					      </div>
 					    </div>
-							<div class="col mode-item mode-item_manual_ text_center">
+							<div class="col mode-item mode-item_manual text_center">
 					      <span class="protocols_item_title">Tarot—Мастер реальности</span>
 					      <div class="protocols_item_img">
 					      	<i class="fas fa-hand-pointer"></i>
@@ -440,7 +440,7 @@
 				      <input type="hidden" name="testcookie" value="1" />
 				    </p>
 				    <p>
-				    	<p class="note_small hidden">У Вас еще нет учетной записи? <span class="toRegistration">Зарегистрируйтесь</span> в "WizardMachine" и узнайте как получить доступ</p>
+				    	<p class="note_small hidden">У Вас еще нет учетной записи? <span class="toRegistration">Зарегистрируйтесь</span> в "WizardTarot" и узнайте как получить доступ</p>
 				    </p>
 				  </form>
 				</div>
