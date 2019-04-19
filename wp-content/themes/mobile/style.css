@@ -696,6 +696,54 @@ input.crop_photo
 {
   opacity: 0.1;
 }
+
+.marakata_sim-wrap 
+{
+  overflow: hidden;
+  height: 180px;
+}
+.marakata_sim-inner 
+{
+  background: #fff;
+  height: 1800px;
+}
+.marakata_sim_pents
+{
+  background: url(img/cards/tarot_numbers/pents.png) top left/100% repeat-y;
+}
+.marakata_sim_wands
+{
+  background: url(img/cards/tarot_numbers/wands.png) top left/100% repeat-y;
+}
+.marakata_sim_cups
+{
+  background: url(img/cards/tarot_numbers/cups.png) top left/100% repeat-y;
+}
+.marakata_sim_swords
+{
+  background: url(img/cards/tarot_numbers/swords.png) top left/100% repeat-y;
+}
+.marakata_sim
+{
+  color: transparent;
+  background-position-y: 0px;
+  -webkit-transition: margin-top 3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  -moz-transition: margin-top 3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  transition: margin-top 3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+.marakata_sim, .marakata_dot 
+{
+  text-align: center;
+  border-left: 2px solid rgba(99,99,99,0.3);
+  border-right: 2px solid rgba(99,99,99,0.3);
+  box-sizing: border-box;
+  height: 1715px;
+  width: 100%;
+  font-size: 110px;
+  position: relative;
+  color: #000;
+  margin-top: 0;
+}
 @media (min-width: 600px) {
   .sweet-alert
   {

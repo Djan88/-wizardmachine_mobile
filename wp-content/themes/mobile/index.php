@@ -132,17 +132,50 @@
 					<div class="col text_center">
 						<div class="row">
 							<div class="col">
-								
+								<button type="button" class="btn btn-light btn_tarot_type btn_tarot_type_pents">Пентакли</button>
+							</div>
+							<div class="col">
+								<button type="button" class="btn btn-light btn_tarot_type btn_tarot_type_cup">Кубки</button>
+							</div>
+							<div class="col">
+								<button type="button" class="btn btn-light btn_tarot_type btn_tarot_type_sword">Мечи</button>
+							</div>
+							<div class="col">
+								<button type="button" class="btn btn-light btn_tarot_type btn_tarot_type_wands">Жезлы</button>
 							</div>
 						</div>
 						<div class="row">
-							<div class="col-2 text_center diagnostic_container">
-								<div class="zone zone_diag draggable_y">
-									<i class="fas fa-arrows-alt-v"></i>
+							<div class="row section-description text-center no_padding_wrap">
+								<div class="col-md-2 col-xs-2 marakata_sim-wrap">
+									<div class="marakata_sim-inner">
+										<div class="marakata_sim marakata_sim_prot marakata_sim_m marakata_sim_pents marakata_sim-6"></div>
+									</div>
 								</div>
-							</div>
-							<div class="col-10 text_center zone_diag diagnostic_rezult">
-								<img class="loaded_img" src="" alt="">
+								<div class="col-md-2 col-xs-2 marakata_sim-wrap">
+									<div class="marakata_sim-inner">
+										<div class="marakata_sim marakata_sim_prot marakata_sim_m marakata_sim_pents marakata_sim-7"></div>
+									</div>
+								</div>
+								<div class="col-md-2 col-xs-2 marakata_sim-wrap">
+									<div class="marakata_sim-inner">
+										<div class="marakata_sim marakata_sim_prot marakata_sim_m marakata_sim_pents marakata_sim-8"></div>
+									</div>
+								</div>
+								<div class="col-md-2 col-xs-2 marakata_sim-wrap">
+									<div class="marakata_sim-inner">
+										<div class="marakata_sim marakata_sim_prot marakata_sim_m marakata_sim_pents marakata_sim-9"></div>
+									</div>
+								</div>
+								<div class="col-md-2 col-xs-2 marakata_sim-wrap">
+									<div class="marakata_sim-inner">
+										<div class="marakata_dot">.</div>
+									</div>
+								</div>
+								<div class="col-md-2 col-xs-2 marakata_sim-wrap">
+									<div class="marakata_sim-inner">
+										<div class="marakata_sim marakata_sim_prot marakata_sim_m marakata_sim-10"></div>
+									</div>
+								</div>
 							</div>
 						</div>
 					</div>
