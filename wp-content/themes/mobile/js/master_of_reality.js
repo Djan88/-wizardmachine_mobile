@@ -27,7 +27,7 @@ jQuery(document).ready(function () {
     block_w = parseFloat(jQuery(".marakata_sim.marakata_sim_prot").css('width'));
     page_h = jQuery("html").width();
     console.log(block_w);
-    jQuery('.marakata_sim-wrap').height(block_w * 1.8+'px');
+    jQuery('.marakata_sim-wrap, .marakata_dot').height(block_w * 1.8+'px');
     jQuery('.marakata_sim_prot').height(block_w * 1.8 * 10 +'px');
     if (page_h < 1150) {
       scroll_val = block_w * 1.79;
