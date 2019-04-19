@@ -145,36 +145,34 @@
 							</div>
 						</div>
 						<div class="row">
-							<div class="row section-description text-center no_padding_wrap">
-								<div class="col marakata_sim-wrap">
-									<div class="marakata_sim-inner">
-										<div class="marakata_sim marakata_sim_prot marakata_sim_m marakata_sim_pents marakata_sim-6"></div>
-									</div>
+							<div class="col marakata_sim-wrap">
+								<div class="marakata_sim-inner">
+									<div class="marakata_sim marakata_sim_prot marakata_sim_m marakata_sim_pents marakata_sim-6"></div>
 								</div>
-								<div class="col marakata_sim-wrap">
-									<div class="marakata_sim-inner">
-										<div class="marakata_sim marakata_sim_prot marakata_sim_m marakata_sim_pents marakata_sim-7"></div>
-									</div>
+							</div>
+							<div class="col marakata_sim-wrap">
+								<div class="marakata_sim-inner">
+									<div class="marakata_sim marakata_sim_prot marakata_sim_m marakata_sim_pents marakata_sim-7"></div>
 								</div>
-								<div class="col marakata_sim-wrap">
-									<div class="marakata_sim-inner">
-										<div class="marakata_sim marakata_sim_prot marakata_sim_m marakata_sim_pents marakata_sim-8"></div>
-									</div>
+							</div>
+							<div class="col marakata_sim-wrap">
+								<div class="marakata_sim-inner">
+									<div class="marakata_sim marakata_sim_prot marakata_sim_m marakata_sim_pents marakata_sim-8"></div>
 								</div>
-								<div class="col marakata_sim-wrap">
-									<div class="marakata_sim-inner">
-										<div class="marakata_sim marakata_sim_prot marakata_sim_m marakata_sim_pents marakata_sim-9"></div>
-									</div>
+							</div>
+							<div class="col marakata_sim-wrap">
+								<div class="marakata_sim-inner">
+									<div class="marakata_sim marakata_sim_prot marakata_sim_m marakata_sim_pents marakata_sim-9"></div>
 								</div>
-								<div class="col marakata_sim-wrap">
-									<div class="marakata_sim-inner">
-										<div class="marakata_dot">.</div>
-									</div>
+							</div>
+							<div class="col marakata_sim-wrap">
+								<div class="marakata_sim-inner">
+									<div class="marakata_dot">.</div>
 								</div>
-								<div class="col marakata_sim-wrap">
-									<div class="marakata_sim-inner">
-										<div class="marakata_sim marakata_sim_prot marakata_sim_m marakata_sim_pents  marakata_sim-10"></div>
-									</div>
+							</div>
+							<div class="col marakata_sim-wrap">
+								<div class="marakata_sim-inner">
+									<div class="marakata_sim marakata_sim_prot marakata_sim_m marakata_sim_pents  marakata_sim-10"></div>
 								</div>
 							</div>
 						</div>
