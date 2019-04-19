@@ -30,6 +30,11 @@ jQuery(document).ready(function () {
     jQuery('.marakata_sim-wrap').height(block_w * 1.8+'px');
     jQuery('.marakata_sim_prot').height(block_w * 1.8 * 10 +'px');
     scroll_val = block_w * 1.79;
+    if (page_h > 1150) {
+      scroll_val = block_w * 1.8;
+    } else {
+      scroll_val = block_w * 1.79;
+    }
     console.log("Высота карты — " + block_w * 1.8 + " Ширина карты — " + block_w);
     console.log("Прокрутка — " + scroll_val);
     // if (page_h > 1200) {
