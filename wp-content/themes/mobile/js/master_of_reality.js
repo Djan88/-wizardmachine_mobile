@@ -22,7 +22,7 @@ jQuery(document).ready(function () {
         9: 0,
       };
 
-
+// width of block
   cur_window_width = function(){
     block_w = parseFloat(jQuery(".marakata_sim.marakata_sim_prot").css('width'));
     page_h = jQuery("html").width();
@@ -30,6 +30,8 @@ jQuery(document).ready(function () {
     jQuery('.marakata_sim-wrap').height(block_w * 1.8+'px');
     jQuery('.marakata_sim_prot').height(block_w * 1.8 * 10 +'px');
     scroll_val = block_w * 1.76;
+    console.log("Высота карты — " + block_w * 1.8 + " Ширина карты — " + block_w);
+    console.log("Прокрутка — " + scroll_val);
     // if (page_h > 1200) {
     //     scroll_val = 171;
     // } else if (page_h <= 1200 && page_h > 1001) {
@@ -55,7 +57,7 @@ jQuery(document).ready(function () {
     cur_window_width();
   });
 
-
+// click on block
   jQuery('.marakata_sim_prot').on('click', function(event) {
     if (jQuery(this).hasClass('marakata_sim_from')) {
       jQuery(this).addClass('marakata_sim-active');
@@ -103,18 +105,13 @@ jQuery(document).ready(function () {
             };
         global_counter += 1;
         if (global_counter >= 5) {
-          setTimeout(result_1, 2500);
-          setTimeout(result_2, 3000);
-          setTimeout(result_3, 3500);
-          setTimeout(result_4, 4000);
-          setTimeout(result_5, 4500);
-          global_counter = 0;
+          // if all cards open
         }
       }
     }
   });
 
-
+// reset
   jQuery('.btn_reset').on('click', function(event) {
     jQuery('.marakata_sim').css('marginTop', '0px');
     jQuery('.marakata_sim_prot').addClass('marakata_sim_from')
@@ -124,18 +121,18 @@ jQuery(document).ready(function () {
     jQuery('.personal_history').removeAttr('disabled');
     jQuery('.marakata_sim_g').addClass('marakata_sim_game');
     elems_obj = {
-    0: 0,
-    1: 0,
-    2: 0,
-    3: 0,
-    4: 0,
-    5: 0,
-    6: 0,
-    7: 0,
-    8: 0,
-    9: 0,
-  };
-});
+      0: 0,
+      1: 0,
+      2: 0,
+      3: 0,
+      4: 0,
+      5: 0,
+      6: 0,
+      7: 0,
+      8: 0,
+      9: 0,
+    };
+  });
 
 
 });
