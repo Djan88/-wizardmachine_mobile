@@ -734,8 +734,8 @@ input.crop_photo
 .marakata_sim, .marakata_dot 
 {
   text-align: center;
-  border-left: 2px solid rgba(99,99,99,0.3);
-  border-right: 2px solid rgba(99,99,99,0.3);
+  /*border-left: 2px solid rgba(99,99,99,0.3);*/
+  /*border-right: 2px solid rgba(99,99,99,0.3);*/
   box-sizing: border-box;
   width: 100%;
   font-size: 110px;
