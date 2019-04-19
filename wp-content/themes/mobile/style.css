@@ -743,7 +743,7 @@ input.crop_photo
   color: #000;
   margin-top: 0;
 }
-.marakata_sim-active
+.marakata_sim-active.marakata_sim_from
 {
   opacity: 1;
 }
