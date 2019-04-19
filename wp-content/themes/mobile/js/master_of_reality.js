@@ -68,7 +68,6 @@ jQuery(document).ready(function () {
           }
           console.log(elems_obj);
           console.log('Лучшее: '+ max_time+', Текущее: '+(end_time - start_time));
-          console.log(cur_item);
         }
         counter += 1;
       } else {
