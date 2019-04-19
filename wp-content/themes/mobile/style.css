@@ -725,6 +725,7 @@ input.crop_photo
 }
 .marakata_sim
 {
+  opacity: 0.6;
   color: transparent;
   background-position-y: 0px;
   -webkit-transition: margin-top 3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
@@ -742,6 +743,10 @@ input.crop_photo
   position: relative;
   color: #000;
   margin-top: 0;
+}
+.marakata_sim-active, .marakata_sim_from
+{
+  opacity: 1;
 }
 @media (min-width: 600px) {
   .sweet-alert
