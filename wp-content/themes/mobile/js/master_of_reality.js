@@ -134,6 +134,7 @@ jQuery(document).ready(function () {
     8: 0,
     9: 0,
   };
+});
 
 
 });
