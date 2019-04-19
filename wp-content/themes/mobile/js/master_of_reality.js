@@ -64,8 +64,7 @@ jQuery(document).ready(function () {
 
 // click on block
   jQuery('.marakata_sim_prot').on('click', function(event) {
-    if (jQuery(this).hasClass('marakata_sim_from')) {
-      jQuery(this).addClass('marakata_sim-active');
+    if (jQuery(this).hasClass('marakata_sim_from')&&jQuery(this).hasClass('marakata_sim-active')) {
       if (counter <= 9) {
         if (counter <= -1) {
           end_time = new Date();
