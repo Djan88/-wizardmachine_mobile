@@ -45,7 +45,9 @@ jQuery(document).ready(function () {
   };
 
   // onload
-  cur_window_width();
+  jQuery('.mode-item_manual').on('click', function(event) {
+    cur_window_width();
+  });
   jQuery(window).on('resize', function(event) {
     cur_window_width();
   });
