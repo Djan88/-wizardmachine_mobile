@@ -54,7 +54,6 @@ jQuery(document).ready(function () {
 
 
   jQuery('.marakata_sim_prot').on('click', function(event) {
-    console.log('click');
     if (jQuery(this).hasClass('marakata_sim_from')) {
       jQuery(this).addClass('marakata_sim-active');
       if (counter <= 9) {
