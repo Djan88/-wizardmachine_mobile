@@ -26,6 +26,7 @@ jQuery(document).ready(function () {
   cur_window_width = function(){
     block_w = parseFloat(jQuery(".marakata_sim.marakata_sim_prot").css('width'));
     page_h = jQuery("html").width();
+    jQuery('.marakata_sim-1').addClass('marakata_sim-active');
     console.log(block_w);
     jQuery('.marakata_sim-wrap, .marakata_dot').height(block_w * 1.8+'px');
     jQuery('.marakata_sim_prot').height(block_w * 1.8 * 10 +'px');
@@ -94,7 +95,6 @@ jQuery(document).ready(function () {
         }
         console.log(global_counter);
         jQuery('.marakata_sim-wrap').eq(cur_elem).find('.marakata_sim').addClass('marakata_sim-active');
-        jQuery('.marakata_sim-6').removeClass('marakata_sim-active');
         counter = -1;
         elems_obj = {
               0: 0,
