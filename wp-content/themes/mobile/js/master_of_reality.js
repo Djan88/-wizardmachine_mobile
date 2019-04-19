@@ -81,6 +81,7 @@ jQuery(document).ready(function () {
         counter += 1;
       } else {
         curTrY = parseFloat(jQuery(this).css('marginTop'));
+        max_time = 9 - max_time
         curTrY = curTrY-(scroll_val*max_time);
         console.log(jQuery(this));
         jQuery(this).css('marginTop', curTrY+'px');
