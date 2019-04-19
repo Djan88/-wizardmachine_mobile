@@ -173,7 +173,7 @@
 								</div>
 								<div class="col-md-2 col-xs-2 marakata_sim-wrap">
 									<div class="marakata_sim-inner">
-										<div class="marakata_sim marakata_sim_prot marakata_sim_m marakata_sim-10"></div>
+										<div class="marakata_sim marakata_sim_prot marakata_sim_m marakata_sim_pents  marakata_sim-10"></div>
 									</div>
 								</div>
 							</div>
