@@ -114,4 +114,26 @@ jQuery(document).ready(function () {
   });
 
 
+  jQuery('.btn_reset').on('click', function(event) {
+    jQuery('.marakata_sim').css('marginTop', '0px');
+    jQuery('.marakata_sim_prot').addClass('marakata_sim_from')
+    jQuery('.marakata_sim').removeClass('marakata_sim-active');
+    jQuery('.marakata_sim-1').addClass('marakata_sim-active');
+    jQuery('.personal_history').val('');
+    jQuery('.personal_history').removeAttr('disabled');
+    jQuery('.marakata_sim_g').addClass('marakata_sim_game');
+    elems_obj = {
+    0: 0,
+    1: 0,
+    2: 0,
+    3: 0,
+    4: 0,
+    5: 0,
+    6: 0,
+    7: 0,
+    8: 0,
+    9: 0,
+  };
+
+
 });

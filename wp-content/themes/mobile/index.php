@@ -176,6 +176,9 @@
 								</div>
 							</div>
 						</div>
+						<div class="row">
+							<button type="button" class="btn btn-default btn-lg btn_reset btn_reset_prot">Начать с начала</button>
+						</div>
 					</div>
 				</div>
 			</div>
