@@ -222,14 +222,7 @@ cur_date = function(){
       cancelButtonText: "Нет"
     }, function (inputValue) {
       if (inputValue === false) {
-        jQuery('.save_history').addClass('hidden');
-        history_item = {
-          0: 0,
-          1: 0,
-          2: 0,
-          3: 0,
-          4: 0
-        }
+        
         console.log(history_item);
         return false;
       };
