@@ -77,7 +77,24 @@
                 <span aria-hidden="true">&times;</span>
               </button>
               <div class="col history-title">История рецептов</div>
-              <div class="history_wrapper"></div>
+              <div class="history_wrapper">
+                <div class="history_item row" data-item_num="0">
+                  <div class="history_item_date col-3">07/04/2019 20:19</div>
+                  <div class="history_item_code col-3">
+                    <div class="history_item_code_1">2</div>
+                    <div class="history_item_code_2">4</div>
+                    <div class="history_item_code_3">7</div>
+                    <div class="history_item_code_4">9</div>
+                    <div class="history_item_code_dot">.</div>
+                    <div class="history_item_code_5">3</div>
+                  </div>
+                  <div class="history_item_type hidden">pents</div>
+                  <div class="history_item_name col-5">Мой апрельский рецепт</div>
+                  <div class="history_item_type col-1">
+                    <div class="remove_history_item" data-item_num_history="0"><i class="fas fa-backspace"></i></div>
+                  </div>
+                </div>
+              </div>
             </div>
             <div class="zones_template">
               <img src="<?php echo get_template_directory_uri(); ?>/img/zones.png" alt="zones">
