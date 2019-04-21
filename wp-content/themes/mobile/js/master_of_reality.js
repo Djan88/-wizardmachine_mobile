@@ -138,56 +138,39 @@ cur_date = function(){
         global_counter += 1;
         if (global_counter >= 5) {
           // if all cards open
-
-
           swal({
-            title: "An input!",
-            text: "Write something interesting:",
+            title:"Оцифровка завершена",
+            text: "Запомнить рецепт?",
             type: "input",
+            inputPlaceholder: "Коротко озаглавьте рецепт.",
             showCancelButton: true,
             closeOnConfirm: false,
-            inputPlaceholder: "Write something"
+            allowOutsideClick: false,
+            confirmButtonColor: "#DD6B55",
+            confirmButtonText: "Да",
+            cancelButtonText: "Нет"
           }, function (inputValue) {
-            if (inputValue === false) return false;
+            if (inputValue === false) {
+              history_item = {
+                0: 0,
+                1: 0,
+                2: 0,
+                3: 0,
+                4: 0
+              }
+              console.log(history_item);
+              return false;
+            };
             if (inputValue === "") {
-              swal.showInputError("You need to write something!");
+              swal.showInputError("Коротко озаглавьте рецепт!");
               return false
             }
-            swal("Nice!", "You wrote: " + inputValue, "success");
+            cur_date();
+            history_item.date = hist_item_date;
+            history_item.name = inputValue;
+            console.log(history_item);
+            swal("Сохранено!", "Рецепт: '" + inputValue + "'", "success");
           });
-
-          // swal({
-          //   title:"Оцифровка завершена",
-          //   text: "Запомнить рецепт?",
-          //   type: "input",
-          //   inputPlaceholder: "Коротко озаглавьте рецепт.",
-          //   showCancelButton: true,
-          //   closeOnConfirm: false,
-          //   confirmButtonColor: "#DD6B55",
-          //   confirmButtonText: "Да",
-          //   cancelButtonText: "Нет"
-          // }, function (inputValue) {
-          //   if (inputValue === false) {
-          //     history_item = {
-          //       0: 0,
-          //       1: 0,
-          //       2: 0,
-          //       3: 0,
-          //       4: 0
-          //     }
-          //     console.log(history_item);
-          //     return false;
-          //   };
-          //   if (inputValue === "") {
-          //     swal.showInputError("Коротко озаглавьте рецепт!");
-          //     return false
-          //   }
-          //   cur_date();
-          //   history_item.date = hist_item_date;
-          //   history_item.name = inputValue;
-          //   console.log(history_item);
-          //   swal("Сохранено!", "Рецепт: '" + inputValue + "'", "success");
-          // });
 
 
 
