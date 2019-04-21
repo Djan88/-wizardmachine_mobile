@@ -211,7 +211,7 @@ cur_date = function(){
       var protocol = undefined;
       if (isConfirm) {
         swal("Рецепт удален!", "Рецепт от: "+delete_item_date+" удален из истории!", "success");
-        jQuery('.history_wrapper').find(jQuery('[data-item_num =' + jQuery(this).data('item_num_history') + ']')).detach();
+        jQuery('.history_wrapper').find(jQuery('[data-item_num =' + 0 + ']')).detach();
       } else {    
         
       } 
