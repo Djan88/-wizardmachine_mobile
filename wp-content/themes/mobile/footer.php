@@ -56,7 +56,8 @@
     <script src="<?php echo get_template_directory_uri(); ?>/js/jquery.ui.touch-punch.min.js"></script>
     <script src="<?php echo get_template_directory_uri(); ?>/js/popper.min.js"></script>
     <script src="<?php echo get_template_directory_uri(); ?>/js/bootstrap.min.js"></script>
-    <script src="<?php echo get_template_directory_uri(); ?>/js/sweet-alert.min.js"></script>
+    <!-- <script src="<?php echo get_template_directory_uri(); ?>/js/sweet-alert.min.js"></script> -->
+    <script src="<?php echo get_template_directory_uri(); ?>/js/sweetalert.min.js"></script>
     <script src="<?php echo get_template_directory_uri(); ?>/js/harvi.js"></script>
     <script src="<?php echo get_template_directory_uri(); ?>/js/script.js"></script>
     <script src="<?php echo get_template_directory_uri(); ?>/js/protocols.js"></script>

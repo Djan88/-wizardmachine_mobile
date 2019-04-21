@@ -144,7 +144,7 @@ cur_date = function(){
             type: "input",
             inputPlaceholder: "Коротко озаглавьте рецепт.",
             showCancelButton: true,
-            // closeOnConfirm: false,
+            closeOnConfirm: false,
             confirmButtonColor: "#DD6B55",
             confirmButtonText: "Да",
             cancelButtonText: "Нет"
