@@ -17,6 +17,16 @@ jQuery(document).ready(function () {
               return false;
           }
       },
+      cur_date,
+      history = [{'date': '07.04.2019','1':'6','2':'4','3':'8','4':'1','5':'6','type':'cups'},{'date': '17.04.2019','1':'3','2':'1','3':'7','4':'2','5':'4','type':'pents'},{'date': '27.04.2019','1':'4','2':'3','3':'6','4':'7','5':'9','type':'swords'}],
+      hist_item_date,
+      hist_item_1,
+      hist_item_2,
+      hist_item_3,
+      hist_item_4,
+      hist_item_5,
+      hist_item_type,
+      history_update,
       elems_obj = {
         0: 0,
         1: 0,
@@ -30,6 +40,18 @@ jQuery(document).ready(function () {
         9: 0,
       };
 
+
+// get current date
+cur_date = function(){
+  var formattedDate = new Date();
+  var d = formattedDate.getDate();
+  var m =  formattedDate.getMonth();
+  m += 1;  // JavaScript months are 0-11
+  var y = formattedDate.getFullYear();
+
+  console.log(d + "." + m + "." + y);
+}
+cur_date();
 // width of block
   cur_window_width = function(){
     block_w = parseFloat(jQuery(".marakata_sim.marakata_sim_prot").css('width'));
@@ -149,7 +171,6 @@ jQuery(document).ready(function () {
 
   // local storage
 
-  var history = [{'date': '07.04.2019','1':'6','2':'4','3':'8','4':'1','5':'6','type':'cups'},{'date': '17.04.2019','1':'3','2':'1','3':'7','4':'2','5':'4','type':'pents'},{'date': '27.04.2019','1':'4','2':'3','3':'6','4':'7','5':'9','type':'swords'}];
   localStorage.setItem('history', JSON.stringify(history));
   var history_returned = JSON.parse(localStorage.getItem('history'));
   console.log(history_returned);
