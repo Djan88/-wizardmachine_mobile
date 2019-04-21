@@ -189,7 +189,7 @@ cur_date = function(){
 
   console.log(history_returned);
   jQuery.each(history_returned,function(key, data) {
-    jQuery('.history_wrapper').append('<div class="history_item row" data-item_num="'+key+'"><div class="history_item_date col-3">'+data['date']+'</div><div class="history_item_code col-3"><div class="history_item_code_1">'+data['0']+'</div><div class="history_item_code_2">'+data['1']+'</div><div class="history_item_code_3">'+data['2']+'</div><div class="history_item_code_4">'+data['3']+'</div><div class="history_item_code_dot">.</div><div class="history_item_code_5">'+data['4']+'</div></div></div>')
+    jQuery('.history_wrapper').append('<div class="history_item row" data-item_num="'+key+'"><div class="history_item_date col-3">'+data['date']+'</div><div class="history_item_code col-3"><div class="history_item_code_1">'+data['0']+'</div><div class="history_item_code_2">'+data['1']+'</div><div class="history_item_code_3">'+data['2']+'</div><div class="history_item_code_4">'+data['3']+'</div><div class="history_item_code_dot">.</div><div class="history_item_code_5">'+data['4']+'</div></div><div class="history_item_type hidden">'+data['type']+'</div><div class="history_item_name col-5">'+data['name']+'</div><div class="history_item_type col-1"><div class="remove_history_item" data-item_num_history="'+key+'"><i class="fas fa-backspace"></i></div></div></div>')
     // jQuery.each(history_returned,function(index, val) {
       
     // });

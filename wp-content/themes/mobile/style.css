@@ -803,6 +803,7 @@ input.crop_photo
 .history_item_code div 
 {
   display: inline-block;
+  margin: 0 2px; 
 }
 .after_btns
 {
