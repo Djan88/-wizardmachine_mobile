@@ -755,6 +755,8 @@ input.crop_photo
 {
   width: 500px;
   position: absolute;
+  background: #fff;
+  z-index: 600;
   left: 50%;
   margin-left: -250px;
   box-shadow: 0 .5rem 1rem rgba(0,0,0,.15)!important;

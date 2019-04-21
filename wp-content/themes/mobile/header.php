@@ -69,9 +69,9 @@
                 <i class="far fa-arrow-alt-circle-right"></i>
               </button>
             </div>
-            <div class="history"></div>
           </div>
           <div id="content" class="content row">
+            <div class="history"></div>
             <div class="zones_template">
               <img src="<?php echo get_template_directory_uri(); ?>/img/zones.png" alt="zones">
             </div>
