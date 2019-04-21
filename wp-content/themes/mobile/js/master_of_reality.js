@@ -234,6 +234,7 @@ cur_date = function(){
       history_item.date = hist_item_date;
       history_item.name = inputValue;
       console.log(history_item);
+      jQuery('.save_history').addClass('hidden');
       swal("Сохранено!", "Рецепт: '" + inputValue + "'", "success");
     });
   });
