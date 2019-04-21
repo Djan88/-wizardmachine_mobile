@@ -145,6 +145,7 @@ cur_date = function(){
             title:"Оцифровка завершена",
             text: "Запомнить рецепт?",
             type: "input",
+            position: 'top-end',
             inputPlaceholder: "Коротко озаглавьте рецепт.",
             showCancelButton: true,
             closeOnConfirm: false,
