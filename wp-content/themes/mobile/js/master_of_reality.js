@@ -188,7 +188,7 @@ cur_date = function(){
 
 
   // upload history on DOM load
-  history_update = function{
+  history_update = function(){
     jQuery('.history_wrapper').empty();
     history_returned = JSON.parse(localStorage.getItem('history'));
     console.log(history_returned);
