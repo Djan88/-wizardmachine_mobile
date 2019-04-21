@@ -10,6 +10,7 @@ jQuery(document).ready(function () {
       end_time,
       max_time = 0,
       curTrY,
+      history_returned = JSON.parse(localStorage.getItem('history')),
       supportsStorage = function(){
           try {
               return 'localStorage' in window && window['localStorage'] !== null;
@@ -187,11 +188,15 @@ cur_date = function(){
 
 
   // upload history on DOM load
-  var history_returned = JSON.parse(localStorage.getItem('history'));
-  console.log(history_returned);
-  jQuery.each(history_returned,function(key, data) {
-    jQuery('.history_wrapper').append('<div class="history_item row" data-item_num="'+key+'"><div class="history_item_date col-3">'+data['date']+'</div><div class="history_item_code col-3"><div class="history_item_code_1">'+data['0']+'</div><div class="history_item_code_2">'+data['1']+'</div><div class="history_item_code_3">'+data['2']+'</div><div class="history_item_code_4">'+data['3']+'</div><div class="history_item_code_dot">.</div><div class="history_item_code_5">'+data['4']+'</div></div><div class="history_item_type hidden">'+data['type']+'</div><div class="history_item_name col-5">'+data['name']+'</div><div class="history_item_type col-1"><div class="remove_history_item" data-date="'+data['date']+'" data-item_num_history="'+key+'"><i class="fas fa-backspace"></i></div></div></div>')
-  });
+  history_update = function{
+    jQuery('.history_wrapper').empty();
+    history_returned = JSON.parse(localStorage.getItem('history'));
+    console.log(history_returned);
+    jQuery.each(history_returned,function(key, data) {
+      jQuery('.history_wrapper').append('<div class="history_item row" data-item_num="'+key+'"><div class="history_item_date col-3">'+data['date']+'</div><div class="history_item_code col-3"><div class="history_item_code_1">'+data['0']+'</div><div class="history_item_code_2">'+data['1']+'</div><div class="history_item_code_3">'+data['2']+'</div><div class="history_item_code_4">'+data['3']+'</div><div class="history_item_code_dot">.</div><div class="history_item_code_5">'+data['4']+'</div></div><div class="history_item_type hidden">'+data['type']+'</div><div class="history_item_name col-5">'+data['name']+'</div><div class="history_item_type col-1"><div class="remove_history_item" data-date="'+data['date']+'" data-item_num_history="'+key+'"><i class="fas fa-backspace"></i></div></div></div>')
+    });
+  }
+  history_update();
 
   // delete history item
   jQuery('.remove_history_item').on('click', function(event) {
@@ -233,6 +238,7 @@ cur_date = function(){
       jQuery('.history').removeClass('history_visible');
     } else {
       jQuery('.history').addClass('history_visible');
+      history_update();
     }
   });
   jQuery('.history_close').on('click', function(event) {
