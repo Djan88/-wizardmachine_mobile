@@ -195,24 +195,29 @@ cur_date = function(){
 
   // delete history item
   jQuery('.remove_history_item').on('click', function(event) {
+
     swal({
-      title: 'Уверены что хотите удалить этот рецепт?',
-      text: "Рецепт от "+jQuery(this).find('.history_item_date').text()+" будет удален",
-      type: 'warning',
-      showCancelButton: true,
-      confirmButtonColor: '#3085d6',
-      cancelButtonColor: '#d33',
-      confirmButtonText: 'Да, удалить!',
-      cancelButtonText: 'Нет!',
-    }).then((result) => {
-      if (result.value) {
+      title: "Уверены что хотите удалить этот рецепт?",   
+      text: "Рецепт от "+jQuery(this).find('.history_item_date').text()+" будет удален",   
+      type: "warning",   
+      showCancelButton: true,   
+      confirmButtonColor: "#DD6B55",   
+      confirmButtonText: "Да, удалить!",   
+      cancelButtonText: "Нет"
+    },
+    function(isConfirm){
+      var protocol = undefined;
+      if (isConfirm) {
         swal(
           'Рецепт удален!',
           'Рецепт от '+jQuery(this).find('.history_item_date').text()+' удален из истории!',
           'success'
         )
-      }
-    })
+      } else {    
+        
+      } 
+    });
+    
   });
 
 
