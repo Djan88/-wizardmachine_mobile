@@ -142,7 +142,7 @@ cur_date = function(){
             title:"Оцифровка завершена",
             text: "Запомнить рецепт?",
             type: "input",
-            inputPlaceholder: "Коротко озаглавьте рецепт."
+            inputPlaceholder: "Коротко озаглавьте рецепт.",
             showCancelButton: true,
             closeOnConfirm: false,
             confirmButtonColor: "#DD6B55",
