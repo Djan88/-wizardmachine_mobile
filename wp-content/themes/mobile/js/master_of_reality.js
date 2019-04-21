@@ -189,9 +189,10 @@ cur_date = function(){
 
   console.log(history_returned);
   jQuery.each(history_returned,function(key, data) {
-    jQuery.each(history_returned,function(index, val) {
-      jQuery('.history_wrapper').append('<div class="history_item row" data-item_num="'+key+'"></div>')
-    });
+    jQuery('.history_wrapper').append('<div class="history_item row" data-item_num="'+key+'"><div class="history_item_date col-3">'+data['date']+'</div></div>')
+    // jQuery.each(history_returned,function(index, val) {
+      
+    // });
   });
 
 
