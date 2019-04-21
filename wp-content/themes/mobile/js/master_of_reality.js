@@ -153,7 +153,9 @@ cur_date = function(){
         }
       }
     } else {
-      if (!"type" in history_item) {
+      if ("type" in history_item) {
+        
+      } else {
         swal("Выберите тип карты", "Перед началом сессии надо выбарть тип карты", "info");
       }
     }
