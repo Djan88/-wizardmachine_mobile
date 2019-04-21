@@ -190,29 +190,49 @@ cur_date = function(){
   // upload history on DOM load
   console.log(history_returned);
   jQuery.each(history_returned,function(key, data) {
-    jQuery('.history_wrapper').append('<div class="history_item row" data-item_num="'+key+'"><div class="history_item_date col-3">'+data['date']+'</div><div class="history_item_code col-3"><div class="history_item_code_1">'+data['0']+'</div><div class="history_item_code_2">'+data['1']+'</div><div class="history_item_code_3">'+data['2']+'</div><div class="history_item_code_4">'+data['3']+'</div><div class="history_item_code_dot">.</div><div class="history_item_code_5">'+data['4']+'</div></div><div class="history_item_type hidden">'+data['type']+'</div><div class="history_item_name col-5">'+data['name']+'</div><div class="history_item_type col-1"><div class="remove_history_item" data-item_num_history="'+key+'"><i class="fas fa-backspace"></i></div></div></div>')
+    jQuery('.history_wrapper').append('<div class="history_item row" data-item_num="'+key+'"><div class="history_item_date col-3">'+data['date']+'</div><div class="history_item_code col-3"><div class="history_item_code_1">'+data['0']+'</div><div class="history_item_code_2">'+data['1']+'</div><div class="history_item_code_3">'+data['2']+'</div><div class="history_item_code_4">'+data['3']+'</div><div class="history_item_code_dot">.</div><div class="history_item_code_5">'+data['4']+'</div></div><div class="history_item_type hidden">'+data['type']+'</div><div class="history_item_name col-5">'+data['name']+'</div><div class="history_item_type col-1"><div class="remove_history_item" data-date="'+data['date']+'" data-item_num_history="'+key+'"><i class="fas fa-backspace"></i></div></div></div>')
   });
 
   // delete history item
   jQuery('.remove_history_item').on('click', function(event) {
-
+    var delete_item_date = jQuery(this).data('date');
     swal({
-      title: "Уверены что хотите удалить этот рецепт?",   
-      text: "Рецепт от "+jQuery(this).find('.history_item_date').text()+" будет удален",   
-      type: "warning",   
-      showCancelButton: true,   
-      confirmButtonColor: "#DD6B55",   
-      confirmButtonText: "Да, удалить!",   
+      title:"Уверены что хотите удалить этот рецепт?",
+      text: "Рецепт от "+delete_item_date+" будет удален",
+      type: "warning",
+      showCancelButton: true,
+      closeOnConfirm: false,
+      allowOutsideClick: false,
+      confirmButtonColor: "#DD6B55",
+      confirmButtonText: "Да, удалить!",
       cancelButtonText: "Нет"
     },
     function(isConfirm){
       var protocol = undefined;
       if (isConfirm) {
-        swal("Рецепт удален!", "Рецепт от "+jQuery(this).find('.history_item_date').text()+" удален из истории!", "success");
+        swal("Рецепт удален!", "Рецепт от "+delete_item_date+" удален из истории!", "success");
       } else {    
         
       } 
     });
+
+    // swal({
+    //   title: "Уверены что хотите удалить этот рецепт?",   
+    //   text: "Рецепт от "+jQuery(this).find('.history_item_date').text()+" будет удален",   
+    //   type: "warning",   
+    //   showCancelButton: true,   
+    //   confirmButtonColor: "#DD6B55",   
+    //   confirmButtonText: "Да, удалить!",   
+    //   cancelButtonText: "Нет"
+    // },
+    // function(isConfirm){
+    //   var protocol = undefined;
+    //   if (isConfirm) {
+    //     swal("Рецепт удален!", "Рецепт от "+jQuery(this).find('.history_item_date').text()+" удален из истории!", "success");
+    //   } else {    
+        
+    //   } 
+    // });
 
   });
 
