@@ -368,7 +368,7 @@ jQuery(document).ready(function () {
         pausedStatus = false;
         jQuery('.btn-to_endNow').css('color', '#fff');
       } else if (cur_cards.length == 0) {
-        swal("Диагностика не продведена", "Проведите диагностику по лунному дню и выберите актульные зоны", "info");
+        swal("Диагностика не проведена", "Проведите диагностику по лунному дню и выберите актульные зоны", "info");
       } else {
         jQuery('.header-title').text('Программа выполняется');
         jQuery('.btn-to_protocols').addClass('hidden');

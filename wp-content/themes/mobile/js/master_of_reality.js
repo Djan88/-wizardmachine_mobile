@@ -65,7 +65,7 @@ cur_date = function(){
   cur_window_width = function(){
     block_w = parseFloat(jQuery(".marakata_sim.marakata_sim_prot").css('width'));
     page_h = jQuery("html").width();
-    jQuery('.marakata_sim-1').addClass('marakata_sim-active');
+    // jQuery('.marakata_sim-1').addClass('marakata_sim-active');
     // console.log(block_w);
     jQuery('.marakata_sim-wrap, .marakata_dot').height(block_w * 1.8+'px');
     jQuery('.marakata_sim_prot').height(block_w * 1.8 * 10 +'px');
@@ -152,6 +152,8 @@ cur_date = function(){
           });
         }
       }
+    } else {
+      swal("Выберите тип карты", "Перед началом сессии надо выбарть тип карты", "info");
     }
   });
 
@@ -206,6 +208,7 @@ cur_date = function(){
 
   // choice type of cards
   jQuery('.btn_tarot_type').on('click', function(event) {
+    jQuery('.marakata_sim-1').addClass('marakata_sim-active');
     jQuery('.btn_tarot_type').removeClass('active')
     jQuery(this).addClass('active')
     jQuery('.marakata_sim_prot').removeClass('marakata_sim_pents marakata_sim_wands marakata_sim_cups marakata_sim_swords');
