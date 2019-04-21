@@ -804,6 +804,15 @@ input.crop_photo
 {
   display: inline-block;
 }
+.after_btns
+{
+  margin-top: 20px;
+}
+.marakata_dot
+{
+  background: url(img/cards/tarot_numbers/dot_bg.png) top left/100% repeat-y;
+  color: transparent;
+}
 @media (min-width: 600px) {
   .sweet-alert
   {
