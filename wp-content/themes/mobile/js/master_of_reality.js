@@ -6,7 +6,7 @@ jQuery(document).ready(function () {
       scroll_val,
       global_counter = 0,
       start_time,
-      history_h;
+      history_h,
       end_time,
       max_time = 0,
       curTrY,
