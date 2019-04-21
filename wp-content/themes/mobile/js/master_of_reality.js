@@ -19,6 +19,7 @@ jQuery(document).ready(function () {
       },
       cur_date,
       history = [{'date': '07.04.2019','1':'6','2':'4','3':'8','4':'1','5':'6','type':'cups'},{'date': '17.04.2019','1':'3','2':'1','3':'7','4':'2','5':'4','type':'pents'},{'date': '27.04.2019','1':'4','2':'3','3':'6','4':'7','5':'9','type':'swords'}],
+      history_item = {},
       hist_item_date,
       hist_item_1,
       hist_item_2,
@@ -58,9 +59,8 @@ cur_date = function(){
   var y = formattedDate.getFullYear();
 
   hist_item_date = (d + "." + m + "." + y+ ' ' + h + ":" + min);
-  console.log(hist_item_date);
+  // console.log(hist_item_date);
 }
-cur_date();
 // width of block
   cur_window_width = function(){
     block_w = parseFloat(jQuery(".marakata_sim.marakata_sim_prot").css('width'));
@@ -74,23 +74,6 @@ cur_date();
     } else {
       scroll_val = block_w * 1.8;
     }
-    // console.log("Высота карты — " + block_w * 1.8 + " Ширина карты — " + block_w);
-    // console.log("Прокрутка — " + scroll_val);
-    // if (page_h > 1200) {
-    //     scroll_val = 171;
-    // } else if (page_h <= 1200 && page_h > 1001) {
-    //     scroll_val = 171.4;
-    // } else if (page_h <= 1000 && page_h > 769) {
-    //     scroll_val = 125.5;
-    // } else if (page_h <= 768 && page_h > 600) {
-    //     scroll_val =  block_w * 1.220000017582302;
-    //     jQuery(".marakata_sim-wrap").css('height', scroll_val+'px');
-    //     jQuery(".marakata_dot").css('height', scroll_val+'px');
-    // } else {
-    //     scroll_val =  block_w * 1.14468085106383;
-    //     jQuery(".marakata_sim-wrap").css('height', scroll_val+'px');
-    //     jQuery(".marakata_dot").css('height', scroll_val+'px');
-    // }
   };
 
   // onload
@@ -114,15 +97,14 @@ cur_date();
           if (elems_obj[max_time] < (end_time - start_time)) {
             max_time = counter;
           }
-          // console.log(elems_obj);
-          // console.log('Лучшее: '+ max_time+', Текущее: '+(end_time - start_time));
+          console.log(elems_obj);
+          console.log('Лучшее: '+ max_time+', Текущее: '+(end_time - start_time));
         }
         counter += 1;
       } else {
         curTrY = parseFloat(jQuery(this).css('marginTop'));
         max_time = 9 - max_time
         curTrY = curTrY-(scroll_val*max_time);
-        // console.log(jQuery(this));
         jQuery(this).css('marginTop', curTrY+'px');
         jQuery('.marakata_sim').removeClass('marakata_sim-active');
         jQuery(this).removeClass('marakata_sim_from');
@@ -131,24 +113,43 @@ cur_date();
         } else {
           cur_elem = global_counter+2
         }
-        // console.log(global_counter);
         jQuery('.marakata_sim-wrap').eq(cur_elem).find('.marakata_sim').addClass('marakata_sim-active');
         counter = -1;
         elems_obj = {
-              0: 0,
-              1: 0,
-              2: 0,
-              3: 0,
-              4: 0,
-              5: 0,
-              6: 0,
-              7: 0,
-              8: 0,
-              9: 0,
-            };
+            0: 0,
+            1: 0,
+            2: 0,
+            3: 0,
+            4: 0,
+            5: 0,
+            6: 0,
+            7: 0,
+            8: 0,
+            9: 0,
+          };
+        console.log(global_counter);
         global_counter += 1;
         if (global_counter >= 5) {
           // if all cards open
+          swal({
+            title:"Оцифровка завершена",
+            text: "Запомнить рецепт?",
+            type: "success",
+            showCancelButton: true,
+            confirmButtonColor: "#DD6B55",
+            confirmButtonText: "Да",
+            cancelButtonText: "Нет"
+          },
+          function(isConfirm){
+            var protocol = undefined;
+            if (isConfirm) {
+              cur_date();
+              new_history_item.date = hist_item_date;
+              console.log(new_history_item);
+            } else {    
+              new_history_item = {}
+            } 
+          });
         }
       }
     }
