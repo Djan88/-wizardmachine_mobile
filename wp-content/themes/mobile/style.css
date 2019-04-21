@@ -707,19 +707,23 @@ input.crop_photo
   background: #fff;
   height: 1800px;
 }
-.marakata_sim_pents
+.marakata_sim_prot
+{
+  background: url(img/cards/tarot_numbers/card_back.png) top left/100% repeat-y;
+}
+.marakata_sim_prot.marakata_sim_pents
 {
   background: url(img/cards/tarot_numbers/pents_.png) top left/100% repeat-y;
 }
-.marakata_sim_wands
+.marakata_sim_prot.marakata_sim_wands
 {
   background: url(img/cards/tarot_numbers/wands_.png) top left/100% repeat-y;
 }
-.marakata_sim_cups
+.marakata_sim_prot.marakata_sim_cups
 {
   background: url(img/cards/tarot_numbers/cups_.png) top left/100% repeat-y;
 }
-.marakata_sim_swords
+.marakata_sim_prot.marakata_sim_swords
 {
   background: url(img/cards/tarot_numbers/swords_.png) top left/100% repeat-y;
 }

@@ -19,7 +19,13 @@ jQuery(document).ready(function () {
       },
       cur_date,
       history = [{'date': '07.04.2019','0':'6','1':'4','2':'8','3':'1','4':'6','type':'cups'},{'date': '17.04.2019','0':'3','1':'1','2':'7','3':'2','4':'4','type':'pents'},{'date': '27.04.2019','0':'4','1':'3','2':'6','3':'7','4':'9','type':'swords'}],
-      history_item = {},
+      history_item = {
+        0: 0,
+        1: 0,
+        2: 0,
+        3: 0,
+        4: 0
+      },
       hist_item_date,
       hist_item_1,
       hist_item_2,
@@ -104,6 +110,7 @@ cur_date = function(){
       } else {
         curTrY = parseFloat(jQuery(this).css('marginTop'));
         max_time = 9 - max_time
+        history_item[global_counter] = max_time;
         curTrY = curTrY-(scroll_val*max_time);
         jQuery(this).css('marginTop', curTrY+'px');
         jQuery('.marakata_sim').removeClass('marakata_sim-active');
@@ -147,7 +154,13 @@ cur_date = function(){
               history_item.date = hist_item_date;
               console.log(history_item);
             } else {    
-              history_item = {}
+              history_item = {
+                0: 0,
+                1: 0,
+                2: 0,
+                3: 0,
+                4: 0
+              }
             } 
           });
         }
@@ -166,10 +179,6 @@ cur_date = function(){
     jQuery('.marakata_sim').css('marginTop', '0px');
     jQuery('.marakata_sim_prot').addClass('marakata_sim_from')
     jQuery('.marakata_sim').removeClass('marakata_sim-active');
-    jQuery('.marakata_sim-1').addClass('marakata_sim-active');
-    jQuery('.personal_history').val('');
-    jQuery('.personal_history').removeAttr('disabled');
-    jQuery('.marakata_sim_g').addClass('marakata_sim_game');
     elems_obj = {
       0: 0,
       1: 0,
@@ -181,6 +190,14 @@ cur_date = function(){
       7: 0,
       8: 0,
       9: 0,
+    };
+    jQuery('.marakata_sim_prot').removeClass('marakata_sim_pents marakata_sim_wands marakata_sim_cups marakata_sim_swords');
+    history_item = {
+      0: 0,
+      1: 0,
+      2: 0,
+      3: 0,
+      4: 0
     };
   });
 
