@@ -255,8 +255,6 @@ cur_date = function(){
       cancelButtonText: "Нет"
     }, function (inputValue) {
       if (inputValue === false) {
-        
-        console.log(history_item);
         return false;
       };
       if (inputValue === "") {
@@ -268,7 +266,9 @@ cur_date = function(){
       history_item.name = inputValue;
       console.log(history_item);
       jQuery('.save_history').addClass('hidden');
-      swal("Сохранено!", "Рецепт: '" + inputValue + "'", "success");
+      history_returned.push(history_item);
+      localStorage.setItem('history', JSON.stringify(history_returned));
+      swal("Рецепт сохранен в истории!", "Название: '" + inputValue + "'", "success");
     });
   });
 
