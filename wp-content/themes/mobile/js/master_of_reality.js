@@ -18,7 +18,7 @@ jQuery(document).ready(function () {
           }
       },
       cur_date,
-      history = [{'date': '07.04.2019','0':'6','1':'4','2':'8','3':'1','4':'6','type':'cups'},{'date': '17.04.2019','0':'3','1':'1','2':'7','3':'2','4':'4','type':'pents'},{'date': '27.04.2019','0':'4','1':'3','2':'6','3':'7','4':'9','type':'swords'}],
+      history = [{'date': '07.04.2019','0':'6','1':'4','2':'8','3':'1','4':'6','type':'cups', 'name': 'Имя номер один'},{'date': '17.04.2019','0':'3','1':'1','2':'7','3':'2','4':'4','type':'pents', 'name': 'Имя номер два'},{'date': '27.04.2019','0':'4','1':'3','2':'6','3':'7','4':'9','type':'swords', 'name': 'Имя номер три'}],
       history_item = {
         0: 0,
         1: 0,
@@ -141,19 +141,15 @@ cur_date = function(){
           swal({
             title:"Оцифровка завершена",
             text: "Запомнить рецепт?",
-            type: "success",
+            type: "input",
+            inputPlaceholder: "Коротко озаглавьте рецепт."
             showCancelButton: true,
+            closeOnConfirm: false,
             confirmButtonColor: "#DD6B55",
             confirmButtonText: "Да",
             cancelButtonText: "Нет"
-          },
-          function(isConfirm){
-            var protocol = undefined;
-            if (isConfirm) {
-              cur_date();
-              history_item.date = hist_item_date;
-              console.log(history_item);
-            } else {    
+          }, function (inputValue) {
+            if (inputValue === false) {
               history_item = {
                 0: 0,
                 1: 0,
@@ -161,8 +157,35 @@ cur_date = function(){
                 3: 0,
                 4: 0
               }
-            } 
+              console.log(history_item);
+              return false;
+            };
+            if (inputValue === "") {
+              swal.showInputError("Коротко озаглавьте рецепт!");
+              return false
+            }
+            cur_date();
+            history_item.date = hist_item_date;
+            history_item.name = inputValue;
+            console.log(history_item);
+            swal("Сохранено!", "Рецепт: '" + inputValue + "'", "success");
           });
+          // ,function(isConfirm){
+          //   var protocol = undefined;
+          //   if (isConfirm) {
+          //     cur_date();
+          //     history_item.date = hist_item_date;
+          //     console.log(history_item);
+          //   } else {    
+          //     history_item = {
+          //       0: 0,
+          //       1: 0,
+          //       2: 0,
+          //       3: 0,
+          //       4: 0
+          //     }
+          //   } 
+          // });
         }
       }
     } else {
@@ -247,6 +270,10 @@ cur_date = function(){
 
 
 // TODO
-  // Запрет на клик по картам до выбора типа карты
+  // Сохранение результата
+  // Добавление результата в список
+  // Удаление результата из списка
+  // Выгрузка сохраненных результатов при входе
+  // Обновление результата
 
 });
