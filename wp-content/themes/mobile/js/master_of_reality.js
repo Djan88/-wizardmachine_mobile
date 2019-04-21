@@ -198,7 +198,7 @@ cur_date = function(){
     var delete_item_date = jQuery(this).data('date');
     swal({
       title:"Уверены что хотите удалить этот рецепт?",
-      text: "Рецепт от "+delete_item_date+" будет удален",
+      text: "Рецепт от <b>"+delete_item_date+"</b> будет удален",
       type: "warning",
       showCancelButton: true,
       closeOnConfirm: false,
