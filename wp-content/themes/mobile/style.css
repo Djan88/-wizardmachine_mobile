@@ -713,7 +713,7 @@ input.crop_photo
 .marakata_sim
 {
   color: transparent;
-  background: url(img/cards/tarot_numbers/card_back.png) top left/100% repeat-y;
+  background: url(img/cards/tarot_numbers/card_back_alt.png) top left/100% repeat-y;
   background-position-y: 0px;
   -webkit-transition: margin-top 3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
   -moz-transition: margin-top 3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
