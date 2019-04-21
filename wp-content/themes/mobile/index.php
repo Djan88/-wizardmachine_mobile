@@ -177,6 +177,7 @@
 						</div>
 						<div class="row">
 							<button type="button" class="btn btn-default btn-lg btn_reset btn_reset_prot">Начать с начала</button>
+							<button type="button" class="btn btn-default btn-lg btn_reset save_history hidden">Сохранить рецепт</button>
 						</div>
 					</div>
 				</div>

@@ -138,61 +138,8 @@ cur_date = function(){
         global_counter += 1;
         if (global_counter >= 5) {
           // if all cards open
+          jQuery('.save_history').removeClass('hidden');
 
-
-
-          swal({
-            title:"Оцифровка завершена",
-            text: "Запомнить рецепт?",
-            type: "input",
-            inputPlaceholder: "Коротко озаглавьте рецепт.",
-            showCancelButton: true,
-            closeOnConfirm: false,
-            allowOutsideClick: false,
-            confirmButtonColor: "#DD6B55",
-            confirmButtonText: "Да",
-            cancelButtonText: "Нет"
-          }, function (inputValue) {
-            if (inputValue === false) {
-              history_item = {
-                0: 0,
-                1: 0,
-                2: 0,
-                3: 0,
-                4: 0
-              }
-              console.log(history_item);
-              return false;
-            };
-            if (inputValue === "") {
-              swal.showInputError("Коротко озаглавьте рецепт!");
-              return false
-            }
-            cur_date();
-            history_item.date = hist_item_date;
-            history_item.name = inputValue;
-            console.log(history_item);
-            swal("Сохранено!", "Рецепт: '" + inputValue + "'", "success");
-          });
-
-
-
-          // ,function(isConfirm){
-          //   var protocol = undefined;
-          //   if (isConfirm) {
-          //     cur_date();
-          //     history_item.date = hist_item_date;
-          //     console.log(history_item);
-          //   } else {    
-          //     history_item = {
-          //       0: 0,
-          //       1: 0,
-          //       2: 0,
-          //       3: 0,
-          //       4: 0
-          //     }
-          //   } 
-          // });
         }
       }
     } else {
@@ -207,7 +154,8 @@ cur_date = function(){
 // reset
   jQuery('.btn_reset').on('click', function(event) {
     jQuery('.marakata_sim').css('marginTop', '0px');
-    jQuery('.marakata_sim_prot').addClass('marakata_sim_from')
+    jQuery('.marakata_sim_prot').addClass('marakata_sim_from');
+    jQuery('.save_history').addClass('hidden');
     jQuery('.marakata_sim').removeClass('marakata_sim-active');
     global_counter = 0;
     elems_obj = {
@@ -255,6 +203,45 @@ cur_date = function(){
   });
   jQuery('.history_close').on('click', function(event) {
     jQuery('.history').removeClass('history_visible');
+  });
+
+
+  // save history
+  jQuery('.save_history').on('click', function(event) {
+    swal({
+      title:"Оцифровка завершена",
+      text: "Запомнить рецепт?",
+      type: "input",
+      inputPlaceholder: "Коротко озаглавьте рецепт.",
+      showCancelButton: true,
+      closeOnConfirm: false,
+      allowOutsideClick: false,
+      confirmButtonColor: "#DD6B55",
+      confirmButtonText: "Да",
+      cancelButtonText: "Нет"
+    }, function (inputValue) {
+      if (inputValue === false) {
+        jQuery('.save_history').addClass('hidden');
+        history_item = {
+          0: 0,
+          1: 0,
+          2: 0,
+          3: 0,
+          4: 0
+        }
+        console.log(history_item);
+        return false;
+      };
+      if (inputValue === "") {
+        swal.showInputError("Коротко озаглавьте рецепт!");
+        return false
+      }
+      cur_date();
+      history_item.date = hist_item_date;
+      history_item.name = inputValue;
+      console.log(history_item);
+      swal("Сохранено!", "Рецепт: '" + inputValue + "'", "success");
+    });
   });
 
 
