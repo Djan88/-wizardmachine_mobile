@@ -75,7 +75,7 @@
               <button type="button" class="close history_close">
                 <span aria-hidden="true">&times;</span>
               </button>
-              <div class="col header-title">История рецептов</div>
+              <div class="col history-title">История рецептов</div>
               <div class="history_wrapper">
                 <div class="history_item row" data-item_num="0">
                   <div class="history_item_date col-3">07/04/2019</div>
