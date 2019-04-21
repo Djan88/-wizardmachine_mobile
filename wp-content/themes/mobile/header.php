@@ -78,7 +78,7 @@
               <div class="col history-title">История рецептов</div>
               <div class="history_wrapper">
                 <div class="history_item row" data-item_num="0">
-                  <div class="history_item_date col-3">07/04/2019</div>
+                  <div class="history_item_date col-3">07/04/2019 20:19</div>
                   <div class="history_item_code col-6">
                     <div class="history_item_code_1">2</div>
                     <div class="history_item_code_2">4</div>

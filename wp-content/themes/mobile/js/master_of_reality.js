@@ -46,10 +46,15 @@ cur_date = function(){
   var formattedDate = new Date();
   var d = formattedDate.getDate();
   var m =  formattedDate.getMonth();
+  var h =  formattedDate.getHours();
+  var min =  formattedDate.getMinutes();
   m += 1;  // JavaScript months are 0-11
+  if (m < 10) {
+    m = '0'+m;
+  }
   var y = formattedDate.getFullYear();
 
-  console.log(d + "." + m + "." + y);
+  hist_item_date = (d + "." + m + "." + y+ ' ' + h + " : " + min);
 }
 cur_date();
 // width of block
