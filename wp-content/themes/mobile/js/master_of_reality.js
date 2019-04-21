@@ -198,7 +198,7 @@ cur_date = function(){
   }
   history_update();
 
-  jQuery('.body').on('click', '.remove_history_item', function(event) {
+  jQuery('.history_wrapper').on('click', '.remove_history_item', function(event) {
     var delete_item_date = jQuery(this).data('date'),
         delete_item_index = jQuery(this).data('item_num_history');
     swal({
