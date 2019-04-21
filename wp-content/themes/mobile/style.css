@@ -774,11 +774,20 @@ input.crop_photo
   z-index: 999;
   position: relative;
 }
-..history_item_code
+.history_item_date
+{
+  margin-top: 5px;
+}
+.remove_history_item
+{
+  margin-top: 5px;
+}
+.history_item_code
 {
   text-align: center;
-  color: #fff;
+  color: #000;
   font-weight: 600;
+  font-size: 25px;
 }
 .history_item_code div 
 {
