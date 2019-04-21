@@ -208,16 +208,12 @@ cur_date = function(){
     function(isConfirm){
       var protocol = undefined;
       if (isConfirm) {
-        swal(
-          'Рецепт удален!',
-          'Рецепт от '+jQuery(this).find('.history_item_date').text()+' удален из истории!',
-          'success'
-        )
+        swal("Рецепт удален!", "Рецепт от "+jQuery(this).find('.history_item_date').text()+" удален из истории!", "success");
       } else {    
         
       } 
     });
-    
+
   });
 
 
