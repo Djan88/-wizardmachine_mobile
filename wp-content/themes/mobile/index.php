@@ -134,8 +134,8 @@
 							<div class="col">
 								<div class="btn-group" role="group" aria-label="Basic example">
 								  <button type="button" data-type="pents" class="btn btn-secondary btn_tarot_type">Пентакли</button>
-								  <button type="button" data-type="cup" class="btn btn-secondary btn_tarot_type">Кубки</button>
-								  <button type="button" data-type="sword" class="btn btn-secondary btn_tarot_type">Мечи</button>
+								  <button type="button" data-type="cups" class="btn btn-secondary btn_tarot_type">Кубки</button>
+								  <button type="button" data-type="swords" class="btn btn-secondary btn_tarot_type">Мечи</button>
 								  <button type="button" data-type="wands" class="btn btn-secondary btn_tarot_type">Жезлы</button>
 								</div>
 							</div>
