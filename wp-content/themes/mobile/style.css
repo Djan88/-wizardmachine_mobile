@@ -825,6 +825,8 @@ input.crop_photo
 {
   font-size: 18px;
   color: #555;
+  padding-left: 0;
+  padding-right: 0;
   overflow: hidden;
   padding-top: 5px;
   position: relative;
@@ -834,6 +836,10 @@ input.crop_photo
 {
   content: '';
   position: absolute;
+  width: 37px;
+  height: 37px;
+  top: 0;
+  right: 0;
   z-index: 999;
   box-shadow: inset -27px 0px 1rem rgba(255,255,255,1)!important;
 }
