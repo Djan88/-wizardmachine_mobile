@@ -761,7 +761,7 @@ input.crop_photo
   margin-left: -250px;
   box-shadow: 0 .5rem 1rem rgba(0,0,0,.15)!important;
   transition: top ease-in-out 1s;
-  font-size: 20px;
+  font-size: 25px;
 }
 .history.history_visible
 {
@@ -774,13 +774,14 @@ input.crop_photo
   z-index: 999;
   position: relative;
 }
-.history_item_date
+.history_item
 {
-  margin-top: 5px;
+  border-top: 1px solid;
 }
 .remove_history_item
 {
-  margin-top: 5px;
+  text-align: right;
+  color: #f96b46;
 }
 .history_item_code
 {
