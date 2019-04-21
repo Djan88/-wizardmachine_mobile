@@ -155,6 +155,7 @@ cur_date = function(){
   jQuery('.btn_reset').on('click', function(event) {
     jQuery('.marakata_sim').css('marginTop', '0px');
     jQuery('.marakata_sim_prot').addClass('marakata_sim_from');
+    jQuery('.btn_tarot_type').removeClass('active');
     jQuery('.save_history').addClass('hidden');
     jQuery('.marakata_sim').removeClass('marakata_sim-active');
     global_counter = 0;
@@ -209,7 +210,7 @@ cur_date = function(){
   // save history
   jQuery('.save_history').on('click', function(event) {
     swal({
-      title:"Оцифровка завершена",
+      title:"Оцифровка завершена!",
       text: "Запомнить рецепт?",
       type: "input",
       inputPlaceholder: "Коротко озаглавьте рецепт.",
