@@ -55,6 +55,7 @@ cur_date = function(){
   var y = formattedDate.getFullYear();
 
   hist_item_date = (d + "." + m + "." + y+ ' ' + h + " : " + min);
+  console.log(hist_item_date);
 }
 cur_date();
 // width of block
