@@ -52,9 +52,12 @@ cur_date = function(){
   if (m < 10) {
     m = '0'+m;
   }
+  if (min < 10) {
+    min = '0'+min;
+  }
   var y = formattedDate.getFullYear();
 
-  hist_item_date = (d + "." + m + "." + y+ ' ' + h + " : " + min);
+  hist_item_date = (d + "." + m + "." + y+ ' ' + h + ":" + min);
   console.log(hist_item_date);
 }
 cur_date();
