@@ -195,7 +195,7 @@ cur_date = function(){
 
   // delete history item
   jQuery('.remove_history_item').on('click', function(event) {
-    Swal.fire({
+    swal({
       title: 'Уверены что хотите удалить этот рецепт?',
       text: "Рецепт от "+jQuery(this).find('.history_item_date').text()+" будет удален",
       type: 'warning',
@@ -206,7 +206,7 @@ cur_date = function(){
       cancelButtonText: 'Нет!',
     }).then((result) => {
       if (result.value) {
-        Swal.fire(
+        swal(
           'Рецепт удален!',
           'Рецепт от '+jQuery(this).find('.history_item_date').text()+' удален из истории!',
           'success'
