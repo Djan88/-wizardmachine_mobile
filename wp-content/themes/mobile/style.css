@@ -710,9 +710,14 @@ input.crop_photo
   background: #fff;
   height: 1800px;
 }
-.marakata_sim_prot
+.marakata_sim
 {
+  color: transparent;
   background: url(img/cards/tarot_numbers/card_back.png) top left/100% repeat-y;
+  background-position-y: 0px;
+  -webkit-transition: margin-top 3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  -moz-transition: margin-top 3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  transition: margin-top 3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
 }
 .marakata_sim_prot.marakata_sim_pents
 {
@@ -729,14 +734,6 @@ input.crop_photo
 .marakata_sim_prot.marakata_sim_swords
 {
   background: url(img/cards/tarot_numbers/swords_.png) top left/100% repeat-y;
-}
-.marakata_sim
-{
-  color: transparent;
-  background-position-y: 0px;
-  -webkit-transition: margin-top 3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
-  -moz-transition: margin-top 3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
-  transition: margin-top 3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
 }
 .marakata_sim, .marakata_dot 
 {
