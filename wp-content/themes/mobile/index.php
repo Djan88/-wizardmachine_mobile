@@ -176,8 +176,12 @@
 							</div>
 						</div>
 						<div class="row">
-							<button type="button" class="btn btn-default btn-lg btn_reset btn_reset_prot">Начать с начала</button>
-							<button type="button" class="btn btn-default btn-lg save_history hidden">Сохранить рецепт</button>
+							<div class="col"></div>
+							<div class="col-4">
+								<button type="button" class="btn btn-secondary btn-lg btn_reset btn_reset_prot">Начать с начала</button>
+								<button type="button" class="btn btn-secondary btn-lg save_history hidden">Сохранить рецепт</button>
+							</div>
+							<div class="col"></div>
 						</div>
 					</div>
 				</div>
