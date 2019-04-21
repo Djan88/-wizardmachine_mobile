@@ -89,7 +89,7 @@
                     <div class="history_item_code_5">3</div>
                   </div>
                   <div class="history_item_type hidden">pents</div>
-                  <div class="history_item_name col-4">Мой апрельский рецепт</div>
+                  <div class="history_item_name col-5">Мой апрельский рецепт</div>
                   <div class="history_item_type col-1">
                     <div class="remove_history_item" data-item_num_history="0"><i class="fas fa-backspace"></i></div>
                   </div>

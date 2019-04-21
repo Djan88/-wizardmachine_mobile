@@ -820,6 +820,12 @@ input.crop_photo
   color: #555;
   white-space: nowrap;
 }
+.history_item_name 
+{
+  font-size: 18px;
+  color: #555;
+  padding-top: 5px;
+}
 @media (min-width: 600px) {
   .sweet-alert
   {

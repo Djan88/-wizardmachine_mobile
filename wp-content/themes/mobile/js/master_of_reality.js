@@ -186,7 +186,13 @@ cur_date = function(){
 
   localStorage.setItem('history', JSON.stringify(history));
   var history_returned = JSON.parse(localStorage.getItem('history'));
+
   console.log(history_returned);
+  jQuery.each(history_returned,function(key, data) {
+    jQuery.each(history_returned,function(index, val) {
+      jQuery('.history_wrapper').append('<div class="history_item row" data-item_num="'+key+'"></div>')
+    });
+  });
 
 
   // history block
