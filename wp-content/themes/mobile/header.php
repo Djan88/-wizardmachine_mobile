@@ -80,7 +80,7 @@
               <div class="history_wrapper">
                 <div class="history_item row" data-item_num="0">
                   <div class="history_item_date col-3">07/04/2019 20:19</div>
-                  <div class="history_item_code col-6">
+                  <div class="history_item_code col-3">
                     <div class="history_item_code_1">2</div>
                     <div class="history_item_code_2">4</div>
                     <div class="history_item_code_3">7</div>
@@ -89,7 +89,8 @@
                     <div class="history_item_code_5">3</div>
                   </div>
                   <div class="history_item_type hidden">pents</div>
-                  <div class="history_item_type col-3">
+                  <div class="history_item_name col-4">Мой апрельский рецепт</div>
+                  <div class="history_item_type col-1">
                     <div class="remove_history_item" data-item_num_history="0"><i class="fas fa-backspace"></i></div>
                   </div>
                 </div>

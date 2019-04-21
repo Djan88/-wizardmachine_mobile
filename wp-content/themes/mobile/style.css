@@ -813,6 +813,13 @@ input.crop_photo
   background: url(img/cards/tarot_numbers/dot_bg.png) top left/100% repeat-y;
   color: transparent;
 }
+.history_item_date 
+{
+  font-size: 15px;
+  padding-top: 9px;
+  color: #555;
+  white-space: nowrap;
+}
 @media (min-width: 600px) {
   .sweet-alert
   {
