@@ -761,6 +761,7 @@ input.crop_photo
   margin-left: -250px;
   box-shadow: 0 .5rem 1rem rgba(0,0,0,.15)!important;
   transition: top ease-in-out 1s;
+  font-size: 20px;
 }
 .history.history_visible
 {
@@ -768,10 +769,20 @@ input.crop_photo
 }
 .history_close
 {
-  margin-right: 10px;
+  margin-right: 0;
   margin-top: 5px;
   z-index: 999;
   position: relative;
+}
+..history_item_code
+{
+  text-align: center;
+  color: #fff;
+  font-weight: 600;
+}
+.history_item_code div 
+{
+  display: inline-block;
 }
 @media (min-width: 600px) {
   .sweet-alert

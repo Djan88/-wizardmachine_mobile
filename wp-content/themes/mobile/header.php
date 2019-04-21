@@ -71,7 +71,7 @@
             </div>
           </div>
           <div id="content" class="content row">
-            <div class="history">
+            <div class="history col" style="top: -1000px">
               <button type="button" class="close history_close">
                 <span aria-hidden="true">&times;</span>
               </button>
@@ -87,7 +87,7 @@
                     <div class="history_item_code_dot">.</div>
                     <div class="history_item_code_5">3</div>
                   </div>
-                  <div class="history_item_type col-3"><button class="remove_history_item"><i class="fas fa-backspace"></i></button></div>
+                  <div class="history_item_type col-3"><div class="remove_history_item"><i class="fas fa-backspace"></i></div></div>
                   <div class="history_item_type hidden">pents</div>
                 </div>
               </div>
