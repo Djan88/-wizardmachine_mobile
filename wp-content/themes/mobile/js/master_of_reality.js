@@ -162,6 +162,9 @@ jQuery(document).ready(function () {
       jQuery('.history').addClass('history_visible');
     }
   });
+  jQuery('.history_close').on('click', function(event) {
+    jQuery('.history').removeClass('history_visible');
+  });
 
 
 });
