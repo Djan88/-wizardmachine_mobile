@@ -138,38 +138,55 @@ cur_date = function(){
         global_counter += 1;
         if (global_counter >= 5) {
           // if all cards open
+
           swal({
-            title:"Оцифровка завершена",
-            text: "Запомнить рецепт?",
-            type: "input",
-            inputPlaceholder: "Коротко озаглавьте рецепт.",
-            showCancelButton: true,
-            closeOnConfirm: false,
-            allowOutsideClick: false,
-            confirmButtonColor: "#DD6B55",
-            confirmButtonText: "Да",
+            title: "Оцифровка завершена",   
+            text: "Запомнить рецепт?",   
+            type: "info",   
+            showCancelButton: true,   
+            confirmButtonColor: "#DD6B55",   
+            confirmButtonText: "Да",   
             cancelButtonText: "Нет"
-          }, function (inputValue) {
-            if (inputValue === false) {
-              history_item = {
-                0: 0,
-                1: 0,
-                2: 0,
-                3: 0,
-                4: 0
-              }
-              console.log(history_item);
-              // return false;
-            };
-            if (inputValue === "") {
-              swal.showInputError("Коротко озаглавьте рецепт!");
-              return false
-            }
-            cur_date();
-            history_item.date = hist_item_date;
-            history_item.name = inputValue;
-            console.log(history_item);
-            swal("Сохранено!", "Рецепт: '" + inputValue + "'", "success");
+          },
+          function(isConfirm){
+            var protocol = undefined;
+            if (isConfirm) {
+              swal({
+                title:"Введите название для рецепта",
+                text: "Не более 25 символов",
+                type: "input",
+                inputPlaceholder: "Название рецепта",
+                showCancelButton: true,
+                closeOnConfirm: false,
+                allowOutsideClick: false,
+                confirmButtonColor: "#DD6B55",
+                confirmButtonText: "Да",
+                cancelButtonText: "Нет"
+              }, function (inputValue) {
+                if (inputValue === false) {
+                  history_item = {
+                    0: 0,
+                    1: 0,
+                    2: 0,
+                    3: 0,
+                    4: 0
+                  }
+                  console.log(history_item);
+                  // return false;
+                };
+                if (inputValue === "") {
+                  swal.showInputError("Вы не ввели название");
+                  return false
+                }
+                cur_date();
+                history_item.date = hist_item_date;
+                history_item.name = inputValue;
+                console.log(history_item);
+                swal("Сохранено!", "Рецепт: '" + inputValue + "'", "success");
+              });
+            } else {    
+              
+            } 
           });
 
 
