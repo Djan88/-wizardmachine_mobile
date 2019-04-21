@@ -762,7 +762,7 @@ input.crop_photo
   background: #fff;
   z-index: 700;
   left: 50%;
-  margin-left: 350px;
+  margin-left: -300px;
   box-shadow: 0 .5rem 1rem rgba(0,0,0,.15)!important;
   transition: top ease-in-out 1s;
   font-size: 25px;
