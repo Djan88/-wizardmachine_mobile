@@ -208,16 +208,16 @@ cur_date = function(){
   jQuery('.btn_tarot_type').on('click', function(event) {
     jQuery('.btn_tarot_type').removeClass('active')
     jQuery(this).addClass('active')
-    jQuery('.marakata_sim_prots').removeClass('marakata_sim_pents marakata_sim_wands marakata_sim_cups marakata_sim_swords');
+    jQuery('.marakata_sim_prot').removeClass('marakata_sim_pents marakata_sim_wands marakata_sim_cups marakata_sim_swords');
     history_item.type = jQuery(this).data('type');
     if (jQuery(this).data('type') == 'pents') {
-      jQuery('.marakata_sim_prots').addClass('marakata_sim_pents');
+      jQuery('.marakata_sim_prot').addClass('marakata_sim_pents');
     } else if (jQuery(this).data('type') == 'wands') {
-      jQuery('.marakata_sim_prots').addClass('marakata_sim_wands');
+      jQuery('.marakata_sim_prot').addClass('marakata_sim_wands');
     } else if (jQuery(this).data('type') == 'cups') {
-      jQuery('.marakata_sim_prots').addClass('marakata_sim_cups');
+      jQuery('.marakata_sim_prot').addClass('marakata_sim_cups');
     } else if (jQuery(this).data('type') == 'swords') {
-      jQuery('.marakata_sim_prots').addClass('marakata_sim_swords');
+      jQuery('.marakata_sim_prot').addClass('marakata_sim_swords');
     }
   });
 
