@@ -751,6 +751,11 @@ input.crop_photo
 {
   opacity: 0.6;
 }
+.history
+{
+  width: 500px;
+  margin: auto;
+}
 @media (min-width: 600px) {
   .sweet-alert
   {

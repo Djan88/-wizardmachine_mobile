@@ -69,6 +69,7 @@
                 <i class="far fa-arrow-alt-circle-right"></i>
               </button>
             </div>
+            <div class="history"></div>
           </div>
           <div id="content" class="content row">
             <div class="zones_template">

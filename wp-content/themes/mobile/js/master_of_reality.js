@@ -6,6 +6,7 @@ jQuery(document).ready(function () {
       scroll_val,
       global_counter = 0,
       start_time,
+      history_h;
       end_time,
       max_time = 0,
       curTrY,
@@ -139,14 +140,19 @@ jQuery(document).ready(function () {
   });
 
 
-  // local storage
+// local storage
 
-var history = [{'date': '07.04.2019','1':'6','2':'4','3':'8','4':'1','5':'6','type':'cups'},{'date': '17.04.2019','1':'3','2':'1','3':'7','4':'2','5':'4','type':'pents'},{'date': '27.04.2019','1':'3','2':'1','3':'7','4':'2','5':'4','type':'pents'}];
+var history = [{'date': '07.04.2019','1':'6','2':'4','3':'8','4':'1','5':'6','type':'cups'},{'date': '17.04.2019','1':'3','2':'1','3':'7','4':'2','5':'4','type':'pents'},{'date': '27.04.2019','1':'4','2':'3','3':'6','4':'7','5':'9','type':'swords'}];
 var str = JSON.stringify(history);
 console.log(str);
 var str2 = JSON.parse(str);
 console.log(str2);
 
+
+// history block
+history_h = jQuery("html").height()-70;
+jQuery('.history').css('height', history_h+'px');
+jQuery('.history').css('marginTop', "-"+history_h+'px');
 
 
 });
