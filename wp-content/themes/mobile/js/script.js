@@ -197,7 +197,7 @@ jQuery(document).ready(function () {
   });
 
   // Promise resolves once menu is open
-  jQuery('.side_menu').on('click', function(event) {
+  jQuery('.side_menu, .user_history').on('click', function(event) {
     myMenu.toggle();
   });// Promise resolves once menu is close
   jQuery('.side_menu_close').on('click', function(event) {

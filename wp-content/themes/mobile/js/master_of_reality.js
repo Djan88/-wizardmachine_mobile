@@ -152,7 +152,16 @@ console.log(str2);
 // history block
 history_h = jQuery("html").height()-70;
 jQuery('.history').css('height', history_h+'px');
-jQuery('.history').css('marginTop', "-"+history_h+'px');
+jQuery('.history').css('top', "-"+history_h+'px');
+
+
+jQuery('.user_history').on('click', function(event) {
+  if (jQuery('.history').hasClass('history_visible')) {
+    jQuery('.zones_template').removeClass('history_visible');
+  } else {
+    jQuery('.zones_template').addClass('history_visible');
+  }
+});
 
 
 });

@@ -754,7 +754,15 @@ input.crop_photo
 .history
 {
   width: 500px;
-  margin: auto;
+  position: absolute;
+  left: 50%;
+  margin-left: -250px;
+  box-shadow: 0 .5rem 1rem rgba(0,0,0,.15)!important;
+  transition: top ease-in-out 1s;
+}
+.history.history_visible
+{
+  top: 70px!important;
 }
 @media (min-width: 600px) {
   .sweet-alert
