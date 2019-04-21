@@ -696,7 +696,10 @@ input.crop_photo
 {
   opacity: 0.1;
 }
-
+.group_of_types
+{
+  margin: 20px 0 40px;
+}
 .marakata_sim-wrap 
 {
   overflow: hidden;
