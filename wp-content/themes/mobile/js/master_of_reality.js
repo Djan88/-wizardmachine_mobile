@@ -141,7 +141,7 @@ jQuery(document).ready(function () {
 
   // local storage
 
-var history = [{'date': '07.04.2019','1':'6','2':'4','3':'8','4':'1','5':'6','type':'cups'},{'date': '17.04.2019','1':'3','2':'1','3':'7','4':'2','5':'4','type':'pents'}];
+var history = [{'date': '07.04.2019','1':'6','2':'4','3':'8','4':'1','5':'6','type':'cups'},{'date': '27.04.2019','1':'3','2':'1','3':'7','4':'2','5':'4','type':'pents'},{'date': '17.04.2019','1':'3','2':'1','3':'7','4':'2','5':'4','type':'pents'}];
 var str = JSON.stringify(history);
 console.log(str);
 var str2 = JSON.parse(str);
