@@ -198,7 +198,7 @@ cur_date = function(){
     var delete_item_date = jQuery(this).data('date');
     swal({
       title:"Уверены что хотите удалить этот рецепт?",
-      text: "Рецепт от <b>"+delete_item_date+"</b> будет удален",
+      text: "Рецепт от: "+delete_item_date+" будет удален",
       type: "warning",
       showCancelButton: true,
       closeOnConfirm: false,
@@ -210,7 +210,8 @@ cur_date = function(){
     function(isConfirm){
       var protocol = undefined;
       if (isConfirm) {
-        swal("Рецепт удален!", "Рецепт от "+delete_item_date+" удален из истории!", "success");
+        swal("Рецепт удален!", "Рецепт от: "+delete_item_date+" удален из истории!", "success");
+        jQuery('.history_wrapper').find(jQuery('[data-item_num =' + jQuery(this).data('item_num_history') + ']')).detach();
       } else {    
         
       } 
