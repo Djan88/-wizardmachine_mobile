@@ -782,6 +782,12 @@ input.crop_photo
 {
   text-align: right;
   color: #f96b46;
+  cursor: pointer;
+  transition: transform 0.5s linear;
+}
+.remove_history_item:hover
+{
+  transform: scale(1.6);
 }
 .history_item_code
 {
