@@ -143,22 +143,22 @@
 						<div class="row">
 							<div class="col marakata_sim-wrap">
 								<div class="marakata_sim-inner">
-									<div class="marakata_sim marakata_sim_prot marakata_sim_from marakata_sim_pents marakata_sim-1"></div>
+									<div class="marakata_sim marakata_sim_prot marakata_sim_from marakata_sim-1"></div>
 								</div>
 							</div>
 							<div class="col marakata_sim-wrap">
 								<div class="marakata_sim-inner">
-									<div class="marakata_sim marakata_sim_prot marakata_sim_from marakata_sim_pents marakata_sim-2"></div>
+									<div class="marakata_sim marakata_sim_prot marakata_sim_from marakata_sim-2"></div>
 								</div>
 							</div>
 							<div class="col marakata_sim-wrap">
 								<div class="marakata_sim-inner">
-									<div class="marakata_sim marakata_sim_prot marakata_sim_from marakata_sim_pents marakata_sim-3"></div>
+									<div class="marakata_sim marakata_sim_prot marakata_sim_from marakata_sim-3"></div>
 								</div>
 							</div>
 							<div class="col marakata_sim-wrap">
 								<div class="marakata_sim-inner">
-									<div class="marakata_sim marakata_sim_prot marakata_sim_from marakata_sim_pents marakata_sim-4"></div>
+									<div class="marakata_sim marakata_sim_prot marakata_sim_from marakata_sim-4"></div>
 								</div>
 							</div>
 							<div class="col marakata_sim-wrap">
@@ -168,7 +168,7 @@
 							</div>
 							<div class="col marakata_sim-wrap">
 								<div class="marakata_sim-inner">
-									<div class="marakata_sim marakata_sim_prot marakata_sim_from marakata_sim_pents  marakata_sim-5"></div>
+									<div class="marakata_sim marakata_sim_prot marakata_sim_from  marakata_sim-5"></div>
 								</div>
 							</div>
 						</div>
