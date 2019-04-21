@@ -213,6 +213,8 @@ cur_date = function(){
       if (isConfirm) {
         swal("Рецепт удален!", "Рецепт от: "+delete_item_date+" удален из истории!", "success");
         jQuery('.history_wrapper').find(jQuery('[data-item_num =' +delete_item_index+ ']')).detach();
+        history_returned.splice(delete_item_index, 1)
+        console.log(history_returned);
       } else {    
         
       } 
