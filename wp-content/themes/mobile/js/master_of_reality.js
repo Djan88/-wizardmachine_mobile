@@ -27,7 +27,7 @@ jQuery(document).ready(function () {
     block_w = parseFloat(jQuery(".marakata_sim.marakata_sim_prot").css('width'));
     page_h = jQuery("html").width();
     jQuery('.marakata_sim-1').addClass('marakata_sim-active');
-    console.log(block_w);
+    // console.log(block_w);
     jQuery('.marakata_sim-wrap, .marakata_dot').height(block_w * 1.8+'px');
     jQuery('.marakata_sim_prot').height(block_w * 1.8 * 10 +'px');
     if (page_h < 1150) {
@@ -35,8 +35,8 @@ jQuery(document).ready(function () {
     } else {
       scroll_val = block_w * 1.8;
     }
-    console.log("Высота карты — " + block_w * 1.8 + " Ширина карты — " + block_w);
-    console.log("Прокрутка — " + scroll_val);
+    // console.log("Высота карты — " + block_w * 1.8 + " Ширина карты — " + block_w);
+    // console.log("Прокрутка — " + scroll_val);
     // if (page_h > 1200) {
     //     scroll_val = 171;
     // } else if (page_h <= 1200 && page_h > 1001) {
@@ -75,15 +75,15 @@ jQuery(document).ready(function () {
           if (elems_obj[max_time] < (end_time - start_time)) {
             max_time = counter;
           }
-          console.log(elems_obj);
-          console.log('Лучшее: '+ max_time+', Текущее: '+(end_time - start_time));
+          // console.log(elems_obj);
+          // console.log('Лучшее: '+ max_time+', Текущее: '+(end_time - start_time));
         }
         counter += 1;
       } else {
         curTrY = parseFloat(jQuery(this).css('marginTop'));
         max_time = 9 - max_time
         curTrY = curTrY-(scroll_val*max_time);
-        console.log(jQuery(this));
+        // console.log(jQuery(this));
         jQuery(this).css('marginTop', curTrY+'px');
         jQuery('.marakata_sim').removeClass('marakata_sim-active');
         jQuery(this).removeClass('marakata_sim_from');
@@ -92,7 +92,7 @@ jQuery(document).ready(function () {
         } else {
           cur_elem = global_counter+2
         }
-        console.log(global_counter);
+        // console.log(global_counter);
         jQuery('.marakata_sim-wrap').eq(cur_elem).find('.marakata_sim').addClass('marakata_sim-active');
         counter = -1;
         elems_obj = {
@@ -137,6 +137,14 @@ jQuery(document).ready(function () {
       9: 0,
     };
   });
+
+
+  // local storage
+
+var history = [{'date': '07.04.2019','1':'6','2':'4','3':'8','4':'1','5':'6','type':'cups'},{'date': '17.04.2019','1':'3','2':'1','3':'7','4':'2','5':'4','type':'pents'}]
+var str = JSON.stringify(history)
+console.log(str)
+
 
 
 });
