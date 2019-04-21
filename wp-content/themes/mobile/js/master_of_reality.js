@@ -10,6 +10,13 @@ jQuery(document).ready(function () {
       end_time,
       max_time = 0,
       curTrY,
+      supportsStorage = function(){
+          try {
+              return 'localStorage' in window && window['localStorage'] !== null;
+          } catch (e) {
+              return false;
+          }
+      },
       elems_obj = {
         0: 0,
         1: 0,
@@ -143,10 +150,9 @@ jQuery(document).ready(function () {
   // local storage
 
   var history = [{'date': '07.04.2019','1':'6','2':'4','3':'8','4':'1','5':'6','type':'cups'},{'date': '17.04.2019','1':'3','2':'1','3':'7','4':'2','5':'4','type':'pents'},{'date': '27.04.2019','1':'4','2':'3','3':'6','4':'7','5':'9','type':'swords'}];
-  var str = JSON.stringify(history);
-  console.log(str);
-  var str2 = JSON.parse(str);
-  console.log(str2);
+  localStorage.setItem('history', JSON.stringify(history));
+  var history_returned = JSON.parse(localStorage.getItem('history'));
+  console.log(history_returned);
 
 
   // history block

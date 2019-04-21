@@ -87,8 +87,10 @@
                     <div class="history_item_code_dot">.</div>
                     <div class="history_item_code_5">3</div>
                   </div>
-                  <div class="history_item_type col-3"><div class="remove_history_item"><i class="fas fa-backspace"></i></div></div>
                   <div class="history_item_type hidden">pents</div>
+                  <div class="history_item_type col-3">
+                    <div class="remove_history_item" data-item_num_history="0"><i class="fas fa-backspace"></i></div>
+                  </div>
                 </div>
               </div>
             </div>

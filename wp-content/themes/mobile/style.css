@@ -780,7 +780,7 @@ input.crop_photo
 }
 .remove_history_item
 {
-  text-align: right;
+  text-align: center;
   color: #f96b46;
   cursor: pointer;
   transition: transform 0.5s linear;
