@@ -71,7 +71,12 @@
             </div>
           </div>
           <div id="content" class="content row">
-            <div class="history"></div>
+            <div class="history">
+              <button type="button" class="close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+              <div class="col-4 header-title">Выберите режим</div>
+            </div>
             <div class="zones_template">
               <img src="<?php echo get_template_directory_uri(); ?>/img/zones.png" alt="zones">
             </div>
