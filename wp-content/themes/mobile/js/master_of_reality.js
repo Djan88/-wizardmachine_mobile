@@ -159,7 +159,7 @@ cur_date = function(){
                 4: 0
               }
               console.log(history_item);
-              return false;
+              // return false;
             };
             if (inputValue === "") {
               swal.showInputError("Коротко озаглавьте рецепт!");
