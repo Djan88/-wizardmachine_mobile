@@ -140,28 +140,28 @@ jQuery(document).ready(function () {
   });
 
 
-// local storage
+  // local storage
 
-var history = [{'date': '07.04.2019','1':'6','2':'4','3':'8','4':'1','5':'6','type':'cups'},{'date': '17.04.2019','1':'3','2':'1','3':'7','4':'2','5':'4','type':'pents'},{'date': '27.04.2019','1':'4','2':'3','3':'6','4':'7','5':'9','type':'swords'}];
-var str = JSON.stringify(history);
-console.log(str);
-var str2 = JSON.parse(str);
-console.log(str2);
-
-
-// history block
-history_h = jQuery("html").height()-70;
-jQuery('.history').css('height', history_h+'px');
-jQuery('.history').css('top', "-"+history_h+'px');
+  var history = [{'date': '07.04.2019','1':'6','2':'4','3':'8','4':'1','5':'6','type':'cups'},{'date': '17.04.2019','1':'3','2':'1','3':'7','4':'2','5':'4','type':'pents'},{'date': '27.04.2019','1':'4','2':'3','3':'6','4':'7','5':'9','type':'swords'}];
+  var str = JSON.stringify(history);
+  console.log(str);
+  var str2 = JSON.parse(str);
+  console.log(str2);
 
 
-jQuery('.user_history').on('click', function(event) {
-  if (jQuery('.history').hasClass('history_visible')) {
-    jQuery('.zones_template').removeClass('history_visible');
-  } else {
-    jQuery('.zones_template').addClass('history_visible');
-  }
-});
+  // history block
+  history_h = jQuery("html").height()-70;
+  jQuery('.history').css('height', history_h+'px');
+  jQuery('.history').css('top', "-"+history_h+'px');
+
+
+  jQuery('.user_history').on('click', function(event) {
+    if (jQuery('.history').hasClass('history_visible')) {
+      jQuery('.history').removeClass('history_visible');
+    } else {
+      jQuery('.history').addClass('history_visible');
+    }
+  });
 
 
 });
