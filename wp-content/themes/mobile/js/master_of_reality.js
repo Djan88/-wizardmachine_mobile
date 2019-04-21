@@ -248,10 +248,10 @@ cur_date = function(){
   // save history
   jQuery('.save_history').on('click', function(event) {
     swal({
-      title:"Оцифровка завершена!",
-      text: "Запомнить рецепт?",
+      title:"Сохранить рецепт?",
+      text: "Вы можете сохранить этот рецепт в истории. Для этого придумайте ему краткое название.",
       type: "input",
-      inputPlaceholder: "Коротко озаглавьте рецепт.",
+      inputPlaceholder: "Введите краткий заголовок в это поле.",
       showCancelButton: true,
       closeOnConfirm: false,
       allowOutsideClick: false,

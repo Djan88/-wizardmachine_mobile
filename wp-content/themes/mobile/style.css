@@ -782,6 +782,10 @@ input.crop_photo
 {
   border-top: 1px solid;
 }
+.history_item:nth-child(odd)
+{
+  background: #f0f3fa;
+}
 .remove_history_item
 {
   text-align: center;
@@ -842,6 +846,10 @@ input.crop_photo
   right: 0;
   z-index: 999;
   box-shadow: inset -27px 0px 1rem rgba(255,255,255,1)!important;
+}
+.history_item:nth-child(odd) .history_item_name:after
+{
+  box-shadow: inset -27px 0px 1rem rgba(234,238,247,1)!important;
 }
 @media (min-width: 600px) {
   .sweet-alert
