@@ -18,7 +18,7 @@ jQuery(document).ready(function () {
           }
       },
       cur_date,
-      history = [{'date': '07.04.2019','1':'6','2':'4','3':'8','4':'1','5':'6','type':'cups'},{'date': '17.04.2019','1':'3','2':'1','3':'7','4':'2','5':'4','type':'pents'},{'date': '27.04.2019','1':'4','2':'3','3':'6','4':'7','5':'9','type':'swords'}],
+      history = [{'date': '07.04.2019','0':'6','1':'4','2':'8','3':'1','4':'6','type':'cups'},{'date': '17.04.2019','0':'3','1':'1','2':'7','3':'2','4':'4','type':'pents'},{'date': '27.04.2019','0':'4','1':'3','2':'6','3':'7','4':'9','type':'swords'}],
       history_item = {},
       hist_item_date,
       hist_item_1,
@@ -203,5 +203,26 @@ cur_date = function(){
     jQuery('.history').removeClass('history_visible');
   });
 
+
+  // choice type of cards
+  jQuery('.btn_tarot_type').on('click', function(event) {
+    jQuery('.btn_tarot_type').removeClass('active')
+    jQuery(this).addClass('active')
+    jQuery('.marakata_sim_prots').removeClass('marakata_sim_pents marakata_sim_wands marakata_sim_cups marakata_sim_swords');
+    history_item.type = jQuery(this).data('type');
+    if (jQuery(this).data('type') == 'pents') {
+      jQuery('.marakata_sim_prots').addClass('marakata_sim_pents');
+    } else if (jQuery(this).data('type') == 'wands') {
+      jQuery('.marakata_sim_prots').addClass('marakata_sim_wands');
+    } else if (jQuery(this).data('type') == 'cups') {
+      jQuery('.marakata_sim_prots').addClass('marakata_sim_cups');
+    } else if (jQuery(this).data('type') == 'swords') {
+      jQuery('.marakata_sim_prots').addClass('marakata_sim_swords');
+    }
+  });
+
+
+// TODO
+  // Запрет на клик по картам до выбора типа карты
 
 });

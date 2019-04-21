@@ -132,16 +132,12 @@
 					<div class="col text_center">
 						<div class="row">
 							<div class="col">
-								<button type="button" class="btn btn-light btn_tarot_type btn_tarot_type_pents">Пентакли</button>
-							</div>
-							<div class="col">
-								<button type="button" class="btn btn-light btn_tarot_type btn_tarot_type_cup">Кубки</button>
-							</div>
-							<div class="col">
-								<button type="button" class="btn btn-light btn_tarot_type btn_tarot_type_sword">Мечи</button>
-							</div>
-							<div class="col">
-								<button type="button" class="btn btn-light btn_tarot_type btn_tarot_type_wands">Жезлы</button>
+								<div class="btn-group" role="group" aria-label="Basic example">
+								  <button type="button" data-type="pents" class="btn btn-secondary btn_tarot_type">Пентакли</button>
+								  <button type="button" data-type="cup" class="btn btn-secondary btn_tarot_type">Кубки</button>
+								  <button type="button" data-type="sword" class="btn btn-secondary btn_tarot_type">Мечи</button>
+								  <button type="button" data-type="wands" class="btn btn-secondary btn_tarot_type">Жезлы</button>
+								</div>
 							</div>
 						</div>
 						<div class="row">
