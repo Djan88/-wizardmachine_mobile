@@ -145,6 +145,7 @@ var history = [{'date': '07.04.2019','1':'6','2':'4','3':'8','4':'1','5':'6','ty
 var str = JSON.stringify(history);
 console.log(str);
 var str2 = JSON.parse(str);
+console.log(str2);
 
 
 
