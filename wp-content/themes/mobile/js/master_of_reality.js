@@ -144,10 +144,10 @@ cur_date = function(){
             var protocol = undefined;
             if (isConfirm) {
               cur_date();
-              new_history_item.date = hist_item_date;
-              console.log(new_history_item);
+              history_item.date = hist_item_date;
+              console.log(history_item);
             } else {    
-              new_history_item = {}
+              history_item = {}
             } 
           });
         }
