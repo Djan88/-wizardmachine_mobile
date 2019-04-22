@@ -353,7 +353,7 @@ cur_date = function(){
     cur_history_images_four = cur_history_item[3];
     cur_history_images_five = cur_history_item[4];
     jQuery('.history_item_modal_sub_title').text(cur_history_item.name);
-    jQuery('.marakata_modal_sim-1').css('background', 'url(/wp-content/themes/mobile/img/cards/tarot_numbers/swords6.png) top left/100%');
+    jQuery('.marakata_modal_sim-1').css('background', 'url(img/cards/tarot_numbers/card_back_alt.png) top left/100% repeat-y');
     // jQuery('.marakata_modal_sim-2').css('background', cur_history_images[cur_history_images_two]);
     // jQuery('.marakata_modal_sim-3').css('background', cur_history_images[cur_history_images_three]);
     // jQuery('.marakata_modal_sim-4').css('background', cur_history_images[cur_history_images_four]);
