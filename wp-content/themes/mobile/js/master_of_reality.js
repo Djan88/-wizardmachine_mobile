@@ -347,7 +347,11 @@ cur_date = function(){
     jQuery('.marakata_modal_sim-3').css('background', 'url('+cur_history_images['2']+') top left/100% repeat-y;');
     jQuery('.marakata_modal_sim-4').css('background', 'url('+cur_history_images['3']+') top left/100% repeat-y;');
     jQuery('.marakata_modal_sim-5').css('background', 'url('+cur_history_images['4']+') top left/100% repeat-y;');
-    console.log(cur_history_images[0]);
+    console.log(cur_history_images['0']);
+    console.log(cur_history_images['1']);
+    console.log(cur_history_images['2']);
+    console.log(cur_history_images['3']);
+    console.log(cur_history_images['4']);
   });
 
 
