@@ -776,7 +776,7 @@ input.crop_photo
   left: 0;
   width: 600px;
   height: 40px;
-  z-index: 600;
+  z-index: 602;
   box-shadow: inset 0 -43px 1rem rgba(255,255,255,1)!important;
 }
 .history_wrapper
@@ -865,7 +865,7 @@ input.crop_photo
   height: 37px;
   top: 0;
   right: 0;
-  z-index: 999;
+  z-index: 601;
   box-shadow: inset -27px 0px 1rem rgba(255,255,255,1)!important;
 }
 .history_item:nth-child(odd) .history_item_name:after
