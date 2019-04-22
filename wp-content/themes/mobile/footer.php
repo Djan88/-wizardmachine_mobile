@@ -105,7 +105,7 @@
           </div>
           <div class="modal-body">
             <div class="row">
-              <div class="col marakata_sim_prot_modal marakata_modal_sim-1"></div>
+              <div class="col marakata_sim_prot_modal marakata_modal_sim-1"><img src="" alt=""></div>
               <div class="col marakata_sim_prot_modal marakata_modal_sim-2"></div>
               <div class="col marakata_sim_prot_modal marakata_modal_sim-3"></div>
               <div class="col marakata_sim_prot_modal marakata_modal_sim-4"></div>
