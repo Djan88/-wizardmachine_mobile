@@ -83,7 +83,7 @@ div#recallbar, div#wpadminbar
 }
 #menu
 {
-  background: #4c5a68;
+  background: #4e657e;
   box-shadow: 0.5rem 0 1rem rgba(0,0,0,.15);
   border-right: 1px solid #080808;
   padding-right: 5px;
@@ -243,7 +243,7 @@ div#recallbar, div#wpadminbar
 {
   font-size: 18px;
   padding-left: 35px;
-  color: #ceb6b8;
+  color: #dee1e6;
   background-color: transparent;
   margin: 5px 0;
   transition: all .3s linear;
