@@ -95,7 +95,7 @@
       </div>
     </div>
     <div class="modal" id="history_item_modal" tabindex="-1" role="dialog">
-      <div class="modal-dialog modal-sm" role="document">
+      <div class="modal-dialog" role="document">
         <div class="modal-content">
           <div class="modal-header">
             <h5 class="modal-title" id="history_item_modal_title">Modal title</h5>

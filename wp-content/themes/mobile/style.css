@@ -829,6 +829,16 @@ button.close.history_close
 {
   margin-right: 10px;
 }
+.marakata_sim_prot_modal
+{
+  width: 82px;
+  height: 148px;
+  background: #eee;
+}
+.marakata_sim_prot_modal.marakata_modal_sim-dot
+{
+  background: url(img/cards/tarot_numbers/dot_bg.png) top left/100% repeat-y;
+}
 .open_history_item
 {
   text-align: center;
