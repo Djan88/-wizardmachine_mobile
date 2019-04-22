@@ -276,8 +276,8 @@ cur_date = function(){
       history_item.date = hist_item_date;
       history_item.name = inputValue;
       history_item.type = jQuery('.btn_tarot_type active').data('type');
-      console.log(history_item);
       jQuery('.save_history').addClass('hidden');
+      console.log(history_item);
       history_returned.push(history_item);
       localStorage.setItem('history', JSON.stringify(history_returned));
       swal("Рецепт сохранен в истории!", "Название: '" + inputValue + "'", "success");
