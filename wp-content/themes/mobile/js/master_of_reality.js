@@ -228,7 +228,7 @@ cur_date = function(){
 
   // history block
   history_h = jQuery("html").height()-100;
-  jQuery('.history').css('height', history_h+'px');
+  jQuery('.history_wrapper').css('height', history_h+'px');
   jQuery('.history').css('top', "-"+history_h+'px');
 
 
