@@ -823,6 +823,18 @@ input.crop_photo
 {
   color: #28a645;
 }
+.open_history_item
+{
+  text-align: center;
+  color: #f96b46;
+  cursor: pointer;
+  transition: color 0.5s linear;
+  padding-top: 2px;
+}
+.remove_history_item:hover
+{
+  color: #28a645;
+}
 .history_item_code
 {
   text-align: center;
@@ -850,8 +862,8 @@ input.crop_photo
 {
   font-size: 15px;
   padding-top: 9px;
+  margin-left: 5px;
   color: #555;
-  white-space: nowrap;
 }
 .history_item_name 
 {
