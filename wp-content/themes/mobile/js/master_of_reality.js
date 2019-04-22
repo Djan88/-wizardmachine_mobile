@@ -291,6 +291,7 @@ cur_date = function(){
     jQuery(this).addClass('active')
     jQuery('.marakata_sim_prot').removeClass('marakata_sim_pents marakata_sim_wands marakata_sim_cups marakata_sim_swords');
     history_item.type = jQuery(this).data('type');
+    console.log(history_item);
     if (jQuery(this).data('type') == 'pents') {
       jQuery('.marakata_sim_prot').addClass('marakata_sim_pents');
     } else if (jQuery(this).data('type') == 'wands') {

@@ -131,15 +131,13 @@
 				<div class="row protocols_info">
 					<div class="col text_center">
 						<div class="row">
-							<div class="col history-title">Выберите масть</div>
+							<div class="col history-title">Выберите режим</div>
 						</div>
 						<div class="row">
 							<div class="col">
 								<div class="btn-group group_of_types" role="group" aria-label="Basic example">
-								  <button type="button" data-type="pents" class="btn btn-secondary btn_tarot_type">Пентакли</button>
-								  <button type="button" data-type="cups" class="btn btn-secondary btn_tarot_type">Кубки</button>
-								  <button type="button" data-type="swords" class="btn btn-secondary btn_tarot_type">Мечи</button>
-								  <button type="button" data-type="wands" class="btn btn-secondary btn_tarot_type">Жезлы</button>
+									<button type="button" data-type="wands" class="btn btn-secondary btn_tarot_type">Намерение</button>
+								  <button type="button" data-type="swords" class="btn btn-secondary btn_tarot_type">Действие</button>
 								</div>
 							</div>
 						</div>
