@@ -352,12 +352,12 @@ cur_date = function(){
     cur_history_images_three = cur_history_item[2];
     cur_history_images_four = cur_history_item[3];
     cur_history_images_five = cur_history_item[4];
-    console.log(cur_history_item[0]);
     jQuery('.marakata_modal_sim-1').css('background', cur_history_images[cur_history_images_one]);
     jQuery('.marakata_modal_sim-2').css('background', cur_history_images[cur_history_images_two]);
     jQuery('.marakata_modal_sim-3').css('background', cur_history_images[cur_history_images_three]);
     jQuery('.marakata_modal_sim-4').css('background', cur_history_images[cur_history_images_four]);
     jQuery('.marakata_modal_sim-5').css('background', cur_history_images[cur_history_images_five]);
+    console.log(cur_history_images[cur_history_images_one]);
   });
 
 
