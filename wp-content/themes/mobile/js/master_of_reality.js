@@ -194,7 +194,7 @@ cur_date = function(){
     history_returned = JSON.parse(localStorage.getItem('history'));
     console.log(history_returned);
     jQuery.each(history_returned,function(key, data) {
-      if (data['type'] = 'swords') {
+      if (data['type'] == 'swords') {
         history_type = '/wp-content/themes/mobile/img/cards/tarot_numbers/sword.png';
       } else {
         history_type = '/wp-content/themes/mobile/img/cards/tarot_numbers/wand.png';
