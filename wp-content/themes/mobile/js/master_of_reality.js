@@ -309,7 +309,7 @@ cur_date = function(){
 
 
   // open history item
-  jQuery('.open_history_item').on('click', function(event) {
+  jQuery('.history_wrapper').on('click', '.open_history_item', function(event) {
     cur_history_item = history_returned[jQuery(this).data('item_num_history')];
     console.log(cur_history_item);
   });
