@@ -348,6 +348,7 @@ cur_date = function(){
     jQuery('.marakata_modal_sim-4').css('background', cur_history_images[cur_history_item[3]]);
     jQuery('.marakata_modal_sim-5').css('background', cur_history_images[cur_history_item[4]]);
   });
+  console.log(cur_history_images[cur_history_item[0]]);
 
 // TODO
 
