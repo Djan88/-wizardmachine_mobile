@@ -794,6 +794,10 @@ input.crop_photo
   transition: transform 0.5s linear;
   padding-top: 2px;
 }
+.history_item_type
+{
+  padding-left: 0;
+}
 .remove_history_item:hover
 {
   transform: scale(1.6);
