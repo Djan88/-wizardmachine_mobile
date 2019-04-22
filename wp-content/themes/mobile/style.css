@@ -782,10 +782,15 @@ input.crop_photo
 .history_wrapper
 {
   overflow: scroll;
+  padding-bottom: 50px;
 }
 .history.history_visible
 {
   top: 70px!important;
+}
+.history_item_type img
+{
+  width: 100%;
 }
 .history_close
 {
