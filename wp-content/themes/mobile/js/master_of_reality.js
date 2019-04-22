@@ -45,28 +45,28 @@ jQuery(document).ready(function () {
       cur_history_images_four,
       cur_history_images_five,
       swords = {
-        0: 'url(/wp-content/themes/mobile/img/cards/tarot_numbers/Swords10.png) top left/100%;',
-        1: 'url(/wp-content/themes/mobile/img/cards/tarot_numbers/Swords1.png) top left/100%;',
-        2: 'url(/wp-content/themes/mobile/img/cards/tarot_numbers/Swords2.png) top left/100%;',
-        3: 'url(/wp-content/themes/mobile/img/cards/tarot_numbers/Swords3.png) top left/100%;',
-        4: 'url(/wp-content/themes/mobile/img/cards/tarot_numbers/Swords4.png) top left/100%;',
-        5: 'url(/wp-content/themes/mobile/img/cards/tarot_numbers/Swords5.png) top left/100%;',
-        6: 'url(/wp-content/themes/mobile/img/cards/tarot_numbers/Swords6.png) top left/100%;',
-        7: 'url(/wp-content/themes/mobile/img/cards/tarot_numbers/Swords7.png) top left/100%;',
-        8: 'url(/wp-content/themes/mobile/img/cards/tarot_numbers/Swords8.png) top left/100%;',
-        9: 'url(/wp-content/themes/mobile/img/cards/tarot_numbers/Swords9.png) top left/100%;'
+        0: '/wp-content/themes/mobile/img/cards/tarot_numbers/Swords10.png;',
+        1: '/wp-content/themes/mobile/img/cards/tarot_numbers/Swords1.png;',
+        2: '/wp-content/themes/mobile/img/cards/tarot_numbers/Swords2.png;',
+        3: '/wp-content/themes/mobile/img/cards/tarot_numbers/Swords3.png;',
+        4: '/wp-content/themes/mobile/img/cards/tarot_numbers/Swords4.png;',
+        5: '/wp-content/themes/mobile/img/cards/tarot_numbers/Swords5.png;',
+        6: '/wp-content/themes/mobile/img/cards/tarot_numbers/Swords6.png;',
+        7: '/wp-content/themes/mobile/img/cards/tarot_numbers/Swords7.png;',
+        8: '/wp-content/themes/mobile/img/cards/tarot_numbers/Swords8.png;',
+        9: '/wp-content/themes/mobile/img/cards/tarot_numbers/Swords9.png;'
       },
       wands = {
-        0: 'url(/wp-content/themes/mobile/img/cards/tarot_numbers/Wands10.png) top left/100%;',
-        1: 'url(/wp-content/themes/mobile/img/cards/tarot_numbers/Wands1.png) top left/100%;',
-        2: 'url(/wp-content/themes/mobile/img/cards/tarot_numbers/Wands2.png) top left/100%;',
-        3: 'url(/wp-content/themes/mobile/img/cards/tarot_numbers/Wands3.png) top left/100%;',
-        4: 'url(/wp-content/themes/mobile/img/cards/tarot_numbers/Wands4.png) top left/100%;',
-        5: 'url(/wp-content/themes/mobile/img/cards/tarot_numbers/Wands5.png) top left/100%;',
-        6: 'url(/wp-content/themes/mobile/img/cards/tarot_numbers/Wands6.png) top left/100%;',
-        7: 'url(/wp-content/themes/mobile/img/cards/tarot_numbers/Wands7.png) top left/100%;',
-        8: 'url(/wp-content/themes/mobile/img/cards/tarot_numbers/Wands8.png) top left/100%;',
-        9: 'url(/wp-content/themes/mobile/img/cards/tarot_numbers/Wands9.png) top left/100%;'
+        0: '/wp-content/themes/mobile/img/cards/tarot_numbers/Wands10.png;',
+        1: '/wp-content/themes/mobile/img/cards/tarot_numbers/Wands1.png;',
+        2: '/wp-content/themes/mobile/img/cards/tarot_numbers/Wands2.png;',
+        3: '/wp-content/themes/mobile/img/cards/tarot_numbers/Wands3.png;',
+        4: '/wp-content/themes/mobile/img/cards/tarot_numbers/Wands4.png;',
+        5: '/wp-content/themes/mobile/img/cards/tarot_numbers/Wands5.png;',
+        6: '/wp-content/themes/mobile/img/cards/tarot_numbers/Wands6.png;',
+        7: '/wp-content/themes/mobile/img/cards/tarot_numbers/Wands7.png;',
+        8: '/wp-content/themes/mobile/img/cards/tarot_numbers/Wands8.png;',
+        9: '/wp-content/themes/mobile/img/cards/tarot_numbers/Wands9.png;'
       },
       elems_obj = {
         0: 0,
@@ -353,7 +353,7 @@ cur_date = function(){
     cur_history_images_four = cur_history_item[3];
     cur_history_images_five = cur_history_item[4];
     jQuery('.history_item_modal_sub_title').text(cur_history_item.name);
-    jQuery('.marakata_modal_sim-1').css('backgroundImage', 'url(yuchikurov.ru/wp-content/themes/mobile/img/cards/tarot_numbers/swords6.png)');
+    jQuery('.marakata_modal_sim-1').append('<img src="'+cur_history_images[cur_history_images_one]+'></img>"');
     // jQuery('.marakata_modal_sim-2').css('background', cur_history_images[cur_history_images_two]);
     // jQuery('.marakata_modal_sim-3').css('background', cur_history_images[cur_history_images_three]);
     // jQuery('.marakata_modal_sim-4').css('background', cur_history_images[cur_history_images_four]);
