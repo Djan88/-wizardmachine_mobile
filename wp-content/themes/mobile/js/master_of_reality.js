@@ -37,6 +37,7 @@ jQuery(document).ready(function () {
       hist_item_5,
       hist_item_type,
       history_update,
+      cur_history_item,
       elems_obj = {
         0: 0,
         1: 0,
@@ -204,6 +205,8 @@ cur_date = function(){
   }
   history_update();
 
+
+  // remove history item
   jQuery('.history_wrapper').on('click', '.remove_history_item', function(event) {
     var delete_item_date = jQuery(this).data('date'),
         delete_item_index = jQuery(this).data('item_num_history');
@@ -302,6 +305,13 @@ cur_date = function(){
     } else if (jQuery(this).data('type') == 'swords') {
       jQuery('.marakata_sim_prot').addClass('marakata_sim_swords');
     }
+  });
+
+
+  // open history item
+  jQuery('.open_history_item').on('click', function(event) {
+    cur_history_item = history_returned[jQuery(this).data('item_num_history')];
+    console.log(cur_history_item);
   });
 
 
