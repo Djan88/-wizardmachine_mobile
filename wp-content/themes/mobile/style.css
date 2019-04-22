@@ -821,19 +821,19 @@ input.crop_photo
 }
 .remove_history_item:hover
 {
-  color: #28a645;
+  color: #555;
 }
 .open_history_item
 {
   text-align: center;
-  color: #f96b46;
+  color: #28a645;
   cursor: pointer;
   transition: color 0.5s linear;
   padding-top: 2px;
 }
-.remove_history_item:hover
+.open_history_item:hover
 {
-  color: #28a645;
+  color: #555;
 }
 .history_item_code
 {
@@ -842,6 +842,7 @@ input.crop_photo
   font-weight: 600;
   font-size: 25px;
   padding-left: 0;
+  padding-top: 12px;
   white-space: nowrap;
 }
 .history_item_code div 
@@ -864,6 +865,7 @@ input.crop_photo
   padding-top: 9px;
   margin-left: 5px;
   color: #555;
+  text-align: center;
 }
 .history_item_name 
 {
@@ -871,9 +873,13 @@ input.crop_photo
   color: #555;
   padding-right: 0;
   overflow: hidden;
-  padding-top: 8px;
+  padding-top: 19px;
   position: relative;
   white-space: nowrap;
+}
+.history_item_open
+{
+  padding-top: 13px;
 }
 .history_item_name:after
 {
