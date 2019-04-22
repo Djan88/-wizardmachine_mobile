@@ -342,13 +342,12 @@ cur_date = function(){
     } else {
       cur_history_images = wands
     }
-    jQuery('.marakata_modal_sim-1').css(cur_history_images[cur_history_item[0]]);
-    jQuery('.marakata_modal_sim-2').css(cur_history_images[cur_history_item[1]]);
-    jQuery('.marakata_modal_sim-3').css(cur_history_images[cur_history_item[2]]);
-    jQuery('.marakata_modal_sim-4').css(cur_history_images[cur_history_item[3]]);
-    jQuery('.marakata_modal_sim-5').css(cur_history_images[cur_history_item[4]]);
+    jQuery('.marakata_modal_sim-1').css('background', cur_history_images[cur_history_item[0]]);
+    jQuery('.marakata_modal_sim-2').css('background', cur_history_images[cur_history_item[1]]);
+    jQuery('.marakata_modal_sim-3').css('background', cur_history_images[cur_history_item[2]]);
+    jQuery('.marakata_modal_sim-4').css('background', cur_history_images[cur_history_item[3]]);
+    jQuery('.marakata_modal_sim-5').css('background', cur_history_images[cur_history_item[4]]);
   });
-
 
 // TODO
 
