@@ -825,6 +825,10 @@ input.crop_photo
 {
   color: #555;
 }
+button.close.history_close
+{
+  margin-right: 10px;
+}
 .open_history_item
 {
   text-align: center;
