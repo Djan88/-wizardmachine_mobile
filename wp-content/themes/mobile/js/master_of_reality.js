@@ -336,7 +336,7 @@ cur_date = function(){
   // open history item
   jQuery('.history_wrapper').on('click', '.open_history_item', function(event) {
     cur_history_item = history_returned[jQuery(this).data('item_num_history')];
-    cur_history_images;
+    console.log(cur_history_item);
     if (cur_history_item.type == 'swords') {
       cur_history_images = swords
     } else {
