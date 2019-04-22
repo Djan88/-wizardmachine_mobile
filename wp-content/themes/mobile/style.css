@@ -767,6 +767,7 @@ input.crop_photo
   transition: top ease-in-out 1s;
   font-size: 25px;
   overflow: scroll;
+  padding: 0;
 }
 .history:after
 {
@@ -775,7 +776,7 @@ input.crop_photo
   bottom: 0;
   left: 0;
   width: 600px;
-  height: 40px;
+  height: 70px;
   z-index: 602;
   box-shadow: inset 0 -43px 1rem rgba(255,255,255,1)!important;
 }
@@ -802,6 +803,7 @@ input.crop_photo
 .history_item
 {
   border-top: 1px solid;
+  padding-right: 5px;
 }
 .history_item:nth-child(odd)
 {
@@ -813,7 +815,7 @@ input.crop_photo
   color: #f96b46;
   cursor: pointer;
   transition: color 0.5s linear;
-  padding-top: 2px;
+  padding-top: 13px;
 }
 .history_item_type
 {
@@ -879,7 +881,7 @@ input.crop_photo
 }
 .history_item_open
 {
-  padding-top: 13px;
+  padding-top: 11px;
 }
 .history_item_name:after
 {

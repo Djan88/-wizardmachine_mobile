@@ -94,5 +94,54 @@
         </div>
       </div>
     </div>
+    <div class="modal" id="history_item_modal" tabindex="-1" role="dialog">
+      <div class="modal-dialog modal-sm" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="history_item_modal_title">Modal title</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <div class="row">
+              <div class="col marakata_sim-wrap_modal">
+                <div class="marakata_sim-inner_modal">
+                  <div class="marakata_sim_modal marakata_sim_prot_modal marakata_modal_sim-1"></div>
+                </div>
+              </div>
+              <div class="col marakata_sim-wrap_modal">
+                <div class="marakata_sim-inner_modal">
+                  <div class="marakata_sim_modal marakata_sim_prot_modal marakata_modal_sim-2"></div>
+                </div>
+              </div>
+              <div class="col marakata_sim-wrap_modal">
+                <div class="marakata_sim-inner_modal">
+                  <div class="marakata_sim_modal marakata_sim_prot_modal marakata_modal_sim-3"></div>
+                </div>
+              </div>
+              <div class="col marakata_sim-wrap_modal">
+                <div class="marakata_sim-inner_modal">
+                  <div class="marakata_sim_modal marakata_sim_prot_modal marakata_modal_sim-4"></div>
+                </div>
+              </div>
+              <div class="col marakata_sim-wrap_modal">
+                <div class="marakata_sim-inner_modal">
+                  <div class="marakata_dot">.</div>
+                </div>
+              </div>
+              <div class="col marakata_sim-wrap_modal">
+                <div class="marakata_sim-inner_modal">
+                  <div class="marakata_sim_modal marakata_sim_prot_modal marakata_modal_sim-5"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="modal-footer card_modal_footer hidden">
+            <div class="history_item_modal_code"></div>
+          </div>
+        </div>
+      </div>
+    </div>
   </body>
 </html>
