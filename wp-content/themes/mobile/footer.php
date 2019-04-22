@@ -15,7 +15,7 @@
               </li>
               <li>
                 <a href="#" class="row align-items-center user_history">
-                  <span class="menu_item_img"><i class="fas fa-history"></i></span>Рецепты
+                  <span class="menu_item_img"><i class="fas fa-history"></i></span>История
                 </a>
               </li>
               <?php if(current_user_can('administrator')) { ?>
