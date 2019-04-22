@@ -829,6 +829,8 @@ input.crop_photo
   color: #000;
   font-weight: 600;
   font-size: 25px;
+  padding-left: 0;
+  white-space: nowrap;
 }
 .history_item_code div 
 {
@@ -855,7 +857,6 @@ input.crop_photo
 {
   font-size: 16px;
   color: #555;
-  padding-left: 0;
   padding-right: 0;
   overflow: hidden;
   padding-top: 8px;
