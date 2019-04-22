@@ -38,6 +38,31 @@ jQuery(document).ready(function () {
       hist_item_type,
       history_update,
       cur_history_item,
+      cur_history_images,
+      swords = {
+        0: '/wp-content/themes/mobile/img/cards/tarot_numbers/Swords10.png',
+        1: '/wp-content/themes/mobile/img/cards/tarot_numbers/Swords1.png',
+        2: '/wp-content/themes/mobile/img/cards/tarot_numbers/Swords2.png',
+        3: '/wp-content/themes/mobile/img/cards/tarot_numbers/Swords3.png',
+        4: '/wp-content/themes/mobile/img/cards/tarot_numbers/Swords4.png',
+        5: '/wp-content/themes/mobile/img/cards/tarot_numbers/Swords5.png',
+        6: '/wp-content/themes/mobile/img/cards/tarot_numbers/Swords6.png',
+        7: '/wp-content/themes/mobile/img/cards/tarot_numbers/Swords7.png',
+        8: '/wp-content/themes/mobile/img/cards/tarot_numbers/Swords8.png',
+        9: '/wp-content/themes/mobile/img/cards/tarot_numbers/Swords9.png'
+      },
+      wands = {
+        0: '/wp-content/themes/mobile/img/cards/tarot_numbers/Wands10.png',
+        1: '/wp-content/themes/mobile/img/cards/tarot_numbers/Wands1.png',
+        2: '/wp-content/themes/mobile/img/cards/tarot_numbers/Wands2.png',
+        3: '/wp-content/themes/mobile/img/cards/tarot_numbers/Wands3.png',
+        4: '/wp-content/themes/mobile/img/cards/tarot_numbers/Wands4.png',
+        5: '/wp-content/themes/mobile/img/cards/tarot_numbers/Wands5.png',
+        6: '/wp-content/themes/mobile/img/cards/tarot_numbers/Wands6.png',
+        7: '/wp-content/themes/mobile/img/cards/tarot_numbers/Wands7.png',
+        8: '/wp-content/themes/mobile/img/cards/tarot_numbers/Wands8.png',
+        9: '/wp-content/themes/mobile/img/cards/tarot_numbers/Wands9.png'
+      },
       elems_obj = {
         0: 0,
         1: 0,
@@ -311,6 +336,17 @@ cur_date = function(){
   // open history item
   jQuery('.history_wrapper').on('click', '.open_history_item', function(event) {
     cur_history_item = history_returned[jQuery(this).data('item_num_history')];
+    cur_history_images;
+    if (cur_history_item.type == 'swords') {
+      cur_history_images = swords
+    } else {
+      cur_history_images = wands
+    }
+    jQuery('.marakata_modal_sim-1').css('background', 'url('+cur_history_images[0]+') top left/100% repeat-y;');
+    jQuery('.marakata_modal_sim-2').css('background', 'url('+cur_history_images[1]+') top left/100% repeat-y;');
+    jQuery('.marakata_modal_sim-3').css('background', 'url('+cur_history_images[2]+') top left/100% repeat-y;');
+    jQuery('.marakata_modal_sim-4').css('background', 'url('+cur_history_images[3]+') top left/100% repeat-y;');
+    jQuery('.marakata_modal_sim-5').css('background', 'url('+cur_history_images[4]+') top left/100% repeat-y;');
     console.log(cur_history_item);
   });
 
