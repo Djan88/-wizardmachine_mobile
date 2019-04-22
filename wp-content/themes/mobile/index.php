@@ -404,7 +404,7 @@
 										<img src="<?php echo get_template_directory_uri(); ?>/img/cards/fortune.png" alt="" class="card_in_action hidden" id="draggable_v4">
 										<img src="<?php echo get_template_directory_uri(); ?>/img/cards/justice.png" alt="" class="card_in_action hidden" id="draggable_d3">
 										<img src="<?php echo get_template_directory_uri(); ?>/img/cards/hanged_man.png" alt="" class="card_in_action hidden" id="draggable_d5">
-										<img src="<?php echo get_template_directory_uri(); ?>/img/cards/devil.png" alt="" class="card_in_action hidden" id="draggable_d2_1">
+										<img src="<?php echo get_template_directory_uri(); ?>/img/cards/death.png" alt="" class="card_in_action hidden" id="draggable_d2_1">
 										<img src="<?php echo get_template_directory_uri(); ?>/img/cards/temperance.png" alt="" class="card_in_action hidden" id="draggable_v4-5">
 										<img src="<?php echo get_template_directory_uri(); ?>/img/cards/tower.png" alt="" class="card_in_action hidden" id="draggable_v5_1">
 										<img src="<?php echo get_template_directory_uri(); ?>/img/cards/star.png" alt="" class="card_in_action hidden" id="draggable_v0">
