@@ -848,12 +848,12 @@ input.crop_photo
 }
 .history_item_name 
 {
-  font-size: 18px;
+  font-size: 16px;
   color: #555;
   padding-left: 0;
   padding-right: 0;
   overflow: hidden;
-  padding-top: 5px;
+  padding-top: 8px;
   position: relative;
   white-space: nowrap;
 }
