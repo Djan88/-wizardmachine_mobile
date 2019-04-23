@@ -20,7 +20,6 @@ jQuery(document).ready(function () {
           }
       },
       cur_date,
-      // history = [{'date': '07.04.2019 20:05','0':'6','1':'4','2':'8','3':'1','4':'6','type':'cups', 'name': 'Имя номер один'},{'date': '17.04.2019 18:17','0':'3','1':'1','2':'7','3':'2','4':'4','type':'pents', 'name': 'Имя номер два'},{'date': '27.04.2019 7:32','0':'4','1':'3','2':'6','3':'7','4':'9','type':'swords', 'name': 'Имя номер три'}],
       history,
       history_item = {
         0: 0,
@@ -104,14 +103,11 @@ cur_date = function(){
   var y = formattedDate.getFullYear();
 
   hist_item_date = (d + "." + m + "." + y+ ' ' + h + ":" + min);
-  // console.log(hist_item_date);
 }
 // width of block
   cur_window_width = function(){
     block_w = parseFloat(jQuery(".marakata_sim.marakata_sim_prot").css('width'));
     page_h = jQuery("html").width();
-    // jQuery('.marakata_sim-1').addClass('marakata_sim-active');
-    // console.log(block_w);
     jQuery('.marakata_sim-wrap, .marakata_dot').height(block_w * 1.8+'px');
     jQuery('.marakata_sim_prot').height(block_w * 1.8 * 10 +'px');
     if (page_h < 1150) {
