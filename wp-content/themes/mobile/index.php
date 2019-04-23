@@ -71,6 +71,8 @@
 						</form>
 					</div>
 				</div>
+				<div class="row"><div class="col-md-12" style="text-align: center">или перейдите к:</div></div>
+				<div class="row"><div class="col-md-12" style="text-align: center"><button class="btn btn-success mode-item_manual">"Мастер реальности"</button></div></div>
 			</div>
 			<!-- what way -->
 			<div class="mobile_screen mobile_screen_protocols hidden">

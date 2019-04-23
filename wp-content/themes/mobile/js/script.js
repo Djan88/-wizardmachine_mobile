@@ -208,7 +208,7 @@ jQuery(document).ready(function () {
     // to image
   jQuery('.btn-to_img').on('click', function(event) {
     jQuery('.mobile_screen').addClass('hidden').css('display', 'none');
-    jQuery('.btn-to_img').addClass('hidden');
+    jQuery('.btn-to_img, .btn_history').addClass('hidden');
     jQuery('.mobile_screen_load').fadeIn(500);
     jQuery('.header-title').text('Загрузите фото');
     if (croppedImg && croppedImg.hasAttribute('src')) {
