@@ -762,7 +762,7 @@ input.crop_photo
 {
   opacity: 0.4;
 }
-.history_canvas
+#history_canvas
 {
   display: none;
 }
