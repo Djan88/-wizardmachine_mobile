@@ -375,6 +375,7 @@ cur_date = function(){
       var d = c.toDataURL("image/png");
       var temp_elem = "<img src='"+d+"' alt='from canvas'/>";
       jQuery('.saved_img').attr('href', d).removeClass('hidden');
+      jQuery('.saved_img').click();
       jQuery('.save_img').addClass('hidden');
       // var w = window.open('about:blank','image from canvas');
     });
