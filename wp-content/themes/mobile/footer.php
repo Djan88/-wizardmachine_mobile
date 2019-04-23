@@ -114,12 +114,14 @@
             </div>
           </div>
           <div class="modal-footer card_modal_footer">
-            <div class="row justify-content-between">
-              <div class="col-4">
-                <div class="history_item_modal_code"></div>
-              </div>
-              <div class="col-4">
-                <div class="history_item_modal_date"></div>
+            <div class="container">
+              <div class="row justify-content-between">
+                <div class="col-4">
+                  <div class="history_item_modal_code"></div>
+                </div>
+                <div class="col-4">
+                  <div class="history_item_modal_date"></div>
+                </div>
               </div>
             </div>
           </div>
