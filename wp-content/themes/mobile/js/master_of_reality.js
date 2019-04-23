@@ -29,30 +29,6 @@ jQuery(document).ready(function () {
         3: 0,
         4: 0
       },
-      // swords = {
-      //   0: 'modal_card_10_swords',
-      //   1: 'modal_card_1_swords',
-      //   2: 'modal_card_2_swords',
-      //   3: 'modal_card_3_swords',
-      //   4: 'modal_card_4_swords',
-      //   5: 'modal_card_5_swords',
-      //   6: 'modal_card_6_swords',
-      //   7: 'modal_card_7_swords',
-      //   8: 'modal_card_8_swords',
-      //   9: 'modal_card_9_swords',
-      // },
-      // wands = {
-      //   0: 'modal_card_10_wands',
-      //   1: 'modal_card_1_wands',
-      //   2: 'modal_card_2_wands',
-      //   3: 'modal_card_3_wands',
-      //   4: 'modal_card_4_wands',
-      //   5: 'modal_card_5_wands',
-      //   6: 'modal_card_6_wands',
-      //   7: 'modal_card_7_wands',
-      //   8: 'modal_card_8_wands',
-      //   9: 'modal_card_9_wands',
-      // },
       img_position = {
         0: '0',
         1: '-178px',
@@ -104,6 +80,11 @@ jQuery(document).ready(function () {
         8: 0,
         9: 0,
       };
+
+
+if (!history_returned) {
+  history_returned = []; 
+}
 
 
 // get current date
