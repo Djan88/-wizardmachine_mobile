@@ -136,8 +136,8 @@
 						<div class="row">
 							<div class="col">
 								<div class="btn-group group_of_types" role="group" aria-label="Basic example">
-									<button type="button" data-type="wands" class="btn btn-secondary btn_tarot_type">Намерение</button>
-								  <button type="button" data-type="swords" class="btn btn-secondary btn_tarot_type">Действие</button>
+									<button type="button" data-type="wands" class="btn btn-primary btn_tarot_type">Намерение</button>
+								  <button type="button" data-type="swords" class="btn btn-danger btn_tarot_type">Действие</button>
 								</div>
 							</div>
 						</div>

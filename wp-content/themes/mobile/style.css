@@ -766,6 +766,10 @@ input.crop_photo
 {
   display: none;
 }
+.btn_tarot_type
+{
+  margin-left: 5px;
+}
 .history
 {
   width: 600px;
