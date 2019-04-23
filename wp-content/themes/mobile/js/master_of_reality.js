@@ -383,8 +383,8 @@ cur_date = function(){
     setImgFromHistory(jQuery('.marakata_modal_sim-1'), cur_history_item.type, 0);
     setImgFromHistory(jQuery('.marakata_modal_sim-2'), cur_history_item.type, 1);
     setImgFromHistory(jQuery('.marakata_modal_sim-3'), cur_history_item.type, 2);
-    setImgFromHistory(jQuery('.marakata_modal_sim-4'), cur_history_item.type, 4);
-    setImgFromHistory(jQuery('.marakata_modal_sim-5'), cur_history_item.type, 3);
+    setImgFromHistory(jQuery('.marakata_modal_sim-4'), cur_history_item.type, 3);
+    setImgFromHistory(jQuery('.marakata_modal_sim-5'), cur_history_item.type, 4);
   
     // jQuery('.marakata_modal_sim-1').css('background', cur_history_images[cur_history_images_one]);
     // jQuery('.marakata_modal_sim-2').css('background', cur_history_images[cur_history_images_two]);
