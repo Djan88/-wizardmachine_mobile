@@ -211,7 +211,7 @@ jQuery(document).ready(function () {
     jQuery('.btn-to_img, .btn_history').addClass('hidden');
     jQuery('.mobile_screen_load').fadeIn(500);
     jQuery('.header-title').text('Загрузите фото');
-    if (croppedImg && croppedImg.hasAttribute('src')) {
+    if (croppedImg && croppedImg.hasAttribute('src')&& jQuery('.mobile_screen_manual').hasClass('hidden')) {
       jQuery('.btn_return').removeClass('hidden');
     }
   });
@@ -302,7 +302,7 @@ jQuery(document).ready(function () {
   // Protocol choice
   jQuery('.mode-item_manual').on('click', function(event) {
     jQuery('.header-title').text('Tarot — Мастер реальности');
-    jQuery('.mobile_screen_what_way').addClass('hidden').css('display', 'none');
+    jQuery('.mobile_screen_what_way, .mobile_screen_load').addClass('hidden').css('display', 'none');
     jQuery('.mobile_screen_manual').fadeIn(500);
     jQuery('.btn-to_img').addClass('hidden');
     jQuery('.btn-to_img, .btn_history').removeClass('hidden');
