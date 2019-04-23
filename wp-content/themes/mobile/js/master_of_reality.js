@@ -383,7 +383,7 @@ cur_date = function(){
   
     jQuery('.history_item_modal_sub_title').text(cur_history_item.name)
     jQuery('.history_item_modal_code').text(cur_history_item['0']+' '+cur_history_item['1']+' '+cur_history_item['2']+' '+cur_history_item['3']+'.'+cur_history_item['4'])
-    jQuery('.history_item_modal_date').text(cur_history_item.history_item_modal_code)
+    jQuery('.history_item_modal_date').text(cur_history_item.date)
   });
 
 
