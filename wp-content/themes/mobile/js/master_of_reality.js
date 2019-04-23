@@ -55,25 +55,25 @@ jQuery(document).ready(function () {
       // },
       img_position = {
         0: '0',
-        1: 'modal_card_1_wands',
-        2: 'modal_card_2_wands',
-        3: 'modal_card_3_wands',
-        4: 'modal_card_4_wands',
-        5: 'modal_card_5_wands',
-        6: 'modal_card_6_wands',
-        7: 'modal_card_7_wands',
-        8: 'modal_card_8_wands',
-        9: 'modal_card_9_wands',
-        10: 'modal_card_10_wands',
-        11: 'modal_card_1_wands',
-        12: 'modal_card_2_wands',
-        13: 'modal_card_3_wands',
-        14: 'modal_card_4_wands',
-        15: 'modal_card_5_wands',
-        16: 'modal_card_6_wands',
-        17: 'modal_card_7_wands',
-        18: 'modal_card_8_wands',
-        19: 'modal_card_9_wands',
+        1: '-178px',
+        2: '-356px',
+        3: '-534px',
+        4: '-712px',
+        5: '-890px',
+        6: '-1068px',
+        7: '-1246px',
+        8: '-1424px',
+        9: '-1602px',
+        10: '-1780px',
+        11: '-1958px',
+        12: '-2136px',
+        13: '-2314px',
+        14: '-2492px',
+        15: '-2670px',
+        16: '-2848px',
+        17: '-3026px',
+        18: '-3204px',
+        19: '-3382px',
       },
       setImgFromHistory,
       hist_item_date,
@@ -85,6 +85,7 @@ jQuery(document).ready(function () {
       hist_item_type,
       history_update,
       cur_history_item,
+      cur_history_image,
       cur_history_images,
       cur_history_images_one,
       cur_history_images_two,
@@ -360,19 +361,26 @@ cur_date = function(){
     }
   });
 
-  // setImgFromHistory = function(elem, type, position){
-  //   elem.addClass(type[position]);
-  // }
+  setImgFromHistory = function(elem, type, position){
+    cur_history_image = cur_history_item[position];
+    if (type == 'swords') {
+      elem.css('backgroundPosition', img_position[cur_history_image]);
+    } else {
+      cur_history_image = cur_history_item[position]+10;
+      elem.css('backgroundPosition', img_position[cur_history_image]);
+    }
+  }
 
   // open history item
   jQuery('.history_wrapper').on('click', '.open_history_item', function(event) {
     cur_history_item = history_returned[jQuery(this).data('item_num_history')];
-    console.log(cur_history_item);
-    if (cur_history_item.type == 'swords') {
-      cur_history_images = swords
-    } else {
-      cur_history_images = wands
-    }
+    // console.log(cur_history_item);
+    // if (cur_history_item.type == 'swords') {
+    //   cur_history_images = swords
+    // } else {
+    //   cur_history_images = wands
+    // }
+    setImgFromHistory(jQuery('.marakata_modal_sim-1'), cur_history_item.type, 0);
   
     // jQuery('.marakata_modal_sim-1').css('background', cur_history_images[cur_history_images_one]);
     // jQuery('.marakata_modal_sim-2').css('background', cur_history_images[cur_history_images_two]);
