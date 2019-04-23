@@ -224,6 +224,9 @@ cur_date = function(){
   history_update = function(){
     jQuery('.history_wrapper').empty();
     history_returned = JSON.parse(localStorage.getItem('history'));
+    if (!history_returned) {
+      history_returned = []; 
+    }
     console.log(history_returned);
     jQuery.each(history_returned,function(key, data) {
       if (data['type'] == 'swords') {
