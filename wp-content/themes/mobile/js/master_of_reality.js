@@ -374,15 +374,12 @@ cur_date = function(){
       var c = document.getElementById("history_canvas");
       var d = c.toDataURL("image/png");
       var temp_elem = "<img src='"+d+"' alt='from canvas'/>";
-      jQuery('.saved_img').attr('href', d).removeClass('hidden');
-      jQuery('.saved_img').click();
-      jQuery('.save_img').addClass('hidden');
-      // var w = window.open('about:blank','image from canvas');
+      jQuery('.saved_img').attr('href', d);
+      jQuery('.saved_img')[0].click();
     });
   });
   jQuery('.history_wrapper').on('click', '.history_item_open', function(event) {
-    jQuery('.saved_img').attr('href', '').addClass('hidden');
-    jQuery('.save_img').removeClass('hidden');
+    jQuery('.saved_img').attr('href', '')
     jQuery('#history_canvas').detach();
   });
 
