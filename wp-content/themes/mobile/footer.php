@@ -61,6 +61,7 @@
     <script src="<?php echo get_template_directory_uri(); ?>/js/harvi.js"></script>
     <script src="<?php echo get_template_directory_uri(); ?>/js/script.js"></script>
     <script src="<?php echo get_template_directory_uri(); ?>/js/protocols.js"></script>
+    <script src="<?php echo get_template_directory_uri(); ?>/js/html2canvas.min.js"></script>
     <script src="<?php echo get_template_directory_uri(); ?>/js/master_of_reality.js"></script>
     <div class="modal" id="zones_template" tabindex="-1" role="dialog">
       <div class="modal-dialog" role="document">
@@ -120,6 +121,7 @@
                   <div class="history_item_modal_code"></div>
                 </div>
                 <div class="col-4">
+                  <button class="btn save_img" style="display: none;">Сохранить</button>
                   <div class="history_item_modal_date"></div>
                 </div>
               </div>
