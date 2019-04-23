@@ -824,6 +824,10 @@ input.crop_photo
 {
   background: #f0f3fa;
 }
+.history_item:last-child
+{
+  border-bottom: 1px solid;
+}
 .remove_history_item
 {
   text-align: center;
