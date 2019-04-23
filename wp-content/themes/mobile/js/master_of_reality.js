@@ -29,31 +29,31 @@ jQuery(document).ready(function () {
         3: 0,
         4: 0
       },
-      swords = {
-        0: 'modal_card_10_swords',
-        1: 'modal_card_1_swords',
-        2: 'modal_card_2_swords',
-        3: 'modal_card_3_swords',
-        4: 'modal_card_4_swords',
-        5: 'modal_card_5_swords',
-        6: 'modal_card_6_swords',
-        7: 'modal_card_7_swords',
-        8: 'modal_card_8_swords',
-        9: 'modal_card_9_swords',
-      },
-      wands = {
-        0: 'modal_card_10_wands',
-        1: 'modal_card_1_wands',
-        2: 'modal_card_2_wands',
-        3: 'modal_card_3_wands',
-        4: 'modal_card_4_wands',
-        5: 'modal_card_5_wands',
-        6: 'modal_card_6_wands',
-        7: 'modal_card_7_wands',
-        8: 'modal_card_8_wands',
-        9: 'modal_card_9_wands',
-      },
-      setImgFromHistory,
+      // swords = {
+      //   0: 'modal_card_10_swords',
+      //   1: 'modal_card_1_swords',
+      //   2: 'modal_card_2_swords',
+      //   3: 'modal_card_3_swords',
+      //   4: 'modal_card_4_swords',
+      //   5: 'modal_card_5_swords',
+      //   6: 'modal_card_6_swords',
+      //   7: 'modal_card_7_swords',
+      //   8: 'modal_card_8_swords',
+      //   9: 'modal_card_9_swords',
+      // },
+      // wands = {
+      //   0: 'modal_card_10_wands',
+      //   1: 'modal_card_1_wands',
+      //   2: 'modal_card_2_wands',
+      //   3: 'modal_card_3_wands',
+      //   4: 'modal_card_4_wands',
+      //   5: 'modal_card_5_wands',
+      //   6: 'modal_card_6_wands',
+      //   7: 'modal_card_7_wands',
+      //   8: 'modal_card_8_wands',
+      //   9: 'modal_card_9_wands',
+      // },
+      // setImgFromHistory,
       hist_item_date,
       hist_item_1,
       hist_item_2,
@@ -338,9 +338,9 @@ cur_date = function(){
     }
   });
 
-  setImgFromHistory = function(elem, type, position){
-    elem.addClass(type[position]);
-  }
+  // setImgFromHistory = function(elem, type, position){
+  //   elem.addClass(type[position]);
+  // }
 
   // open history item
   jQuery('.history_wrapper').on('click', '.open_history_item', function(event) {
@@ -351,11 +351,7 @@ cur_date = function(){
     } else {
       cur_history_images = wands
     }
-    setImgFromHistory(jQuery('.marakata_modal_sim-1'), cur_history_images, cur_history_item[0])
-    setImgFromHistory(jQuery('.marakata_modal_sim-2'), cur_history_images, cur_history_item[1])
-    setImgFromHistory(jQuery('.marakata_modal_sim-3'), cur_history_images, cur_history_item[2])
-    setImgFromHistory(jQuery('.marakata_modal_sim-4'), cur_history_images, cur_history_item[3])
-    setImgFromHistory(jQuery('.marakata_modal_sim-5'), cur_history_images, cur_history_item[4])
+  
     // jQuery('.marakata_modal_sim-1').css('background', cur_history_images[cur_history_images_one]);
     // jQuery('.marakata_modal_sim-2').css('background', cur_history_images[cur_history_images_two]);
     // jQuery('.marakata_modal_sim-3').css('background', cur_history_images[cur_history_images_three]);
