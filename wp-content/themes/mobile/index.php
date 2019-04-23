@@ -71,7 +71,7 @@
 						</form>
 					</div>
 				</div>
-				<div class="row"><div class="col-md-12" style="text-align: center color: #555; font-size: 20px; margin-bottom: 10px;">или перейдите к:</div></div>
+				<div class="row"><div class="col-md-12" style="text-align: center; color: #555; font-size: 20px; margin-bottom: 10px;">или перейдите к:</div></div>
 				<div class="row"><div class="col-md-12" style="text-align: center"><button class="btn btn-success mode-item_manual">Tarot — Мастер реальности</button></div></div>
 			</div>
 			<!-- what way -->
