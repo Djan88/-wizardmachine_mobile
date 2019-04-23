@@ -109,12 +109,18 @@
               <div class="marakata_sim_prot_modal marakata_modal_sim-2"></div>
               <div class="marakata_sim_prot_modal marakata_modal_sim-3"></div>
               <div class="marakata_sim_prot_modal marakata_modal_sim-4"></div>
-              <div class="marakata_sim_prot_modal marakata_modal_sim-dot"></div>
+              <div class="marakata_modal_sim-dot"></div>
               <div class="marakata_sim_prot_modal marakata_modal_sim-5"></div>
             </div>
           </div>
-          <div class="modal-footer card_modal_footer hidden">
-            <div class="history_item_modal_code"></div>
+          <div class="modal-footer card_modal_footer">
+            <div class="row justify-content-between">
+                <div class="col-4">
+                  <div class="history_item_modal_code"></div>
+                </div>
+                <div class="col-4">
+                  <div class="history_item_modal_date"></div>
+                </div>
           </div>
         </div>
       </div>
