@@ -368,7 +368,7 @@ cur_date = function(){
 
   // save as img
   jQuery('.save_img').on('click', function(event) {
-    html2canvas(document.querySelector("#history_item_modal")).then(canvas => {
+    html2canvas(document.querySelector("#history_item_modal_content")).then(canvas => {
     document.body.appendChild(canvas)
 });
   });
