@@ -374,8 +374,9 @@ cur_date = function(){
       jQuery(canvas).attr('id', 'history_canvas');;
       var c = document.getElementById("history_canvas");
       var d = c.toDataURL("image/png");
+      va temp_elem = "<img src='"+d+"' alt='from canvas'/>"
       // var w = window.open('about:blank','image from canvas');
-      document.body.appendChild("<img src='"+d+"' alt='from canvas'/>");
+      document.body.appendChild(temp_elem);
     });
   });
 
