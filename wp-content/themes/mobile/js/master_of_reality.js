@@ -45,7 +45,7 @@ jQuery(document).ready(function () {
         13: '-2314px',
         14: '-2494px',
         15: '-2670px',
-        16: '-2848px',
+        16: '-2850px',
         17: '-3026px',
         18: '-3206px',
         19: '-3385px',
@@ -368,6 +368,7 @@ cur_date = function(){
 
   // save as img
   jQuery('.save_img').on('click', function(event) {
+    
     html2canvas(document.querySelector("#history_item_modal_content")).then(canvas => {
     document.body.appendChild(canvas)
 });

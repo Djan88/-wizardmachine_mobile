@@ -100,7 +100,7 @@
         <div class="modal-content" id="history_item_modal_content">
           <div class="modal-header">
             <h5 class="modal-title" id="history_item_modal_title">Рецепт: "<span class="history_item_modal_sub_title"></span>"</h5>
-            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <button data-html2canvas-ignore="true" type="button" class="close" data-dismiss="modal" aria-label="Close">
               <span aria-hidden="true">&times;</span>
             </button>
           </div>
@@ -121,7 +121,7 @@
                   <div class="history_item_modal_code"></div>
                 </div>
                 <div class="col-4">
-                  <button class="btn save_img" style="display: none;">Сохранить</button>
+                  <button data-html2canvas-ignore="true" class="btn save_img" style="display: none;">Сохранить</button>
                   <div class="history_item_modal_date"></div>
                 </div>
               </div>
