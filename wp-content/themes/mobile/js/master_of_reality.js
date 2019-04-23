@@ -369,7 +369,7 @@ cur_date = function(){
   // save as img
   jQuery('.save_img').on('click', function(event) {
     html2canvas(document.querySelector("#history_item_modal_content"), {onclone: function(document) {
-        jQuery('.modal-title')css('color', 'red');
+        jQuery('.modal-title').css('color', 'red');
     }}).then(canvas => {
       document.body.appendChild(canvas)
       jQuery(canvas).attr('id', 'history_canvas');
