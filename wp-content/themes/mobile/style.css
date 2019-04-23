@@ -837,10 +837,18 @@ button.close.history_close
 {
   width: 99px;
   height: 178px;
+  transition: transform 0.5s linear;
   background: url(img/cards/tarot_numbers/cards_sprite.png) top left/100% repeat-y;
 }
-.marakata_sim_prot_modal.marakata_modal_sim-dot
+.marakata_sim_prot_modal:hover
 {
+  transform: scale(1.3);
+  z-index: 700;
+}
+.marakata_modal_sim-dot
+{
+  width: 99px;
+  height: 178px;
   background: url(img/cards/tarot_numbers/dot_bg.png) top left/100% repeat-y;
 }
 .open_history_item
