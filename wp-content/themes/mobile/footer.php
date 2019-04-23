@@ -122,7 +122,8 @@
                 </div>
                 <div class="col-4">
                   <button data-html2canvas-ignore="true" class="btn save_img" style="display: none;">Сохранить</button>
-                  <img class="saved_img hidden" src="" alt="">
+                  <!-- <img class="saved_img hidden" src="" alt=""> -->
+                  <a href="" download class="saved_img btn hidden">Загрузить изображение</a>
                 </div>
                 <div class="col-4">
                   <div class="history_item_modal_date"></div>

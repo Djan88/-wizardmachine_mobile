@@ -762,6 +762,10 @@ input.crop_photo
 {
   opacity: 0.4;
 }
+.history_canvas
+{
+  display: none;
+}
 .history
 {
   width: 600px;

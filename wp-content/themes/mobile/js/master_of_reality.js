@@ -375,7 +375,7 @@ cur_date = function(){
       var c = document.getElementById("history_canvas");
       var d = c.toDataURL("image/png");
       var temp_elem = "<img src='"+d+"' alt='from canvas'/>";
-      jQuery('.saved_img').attr('src', d);
+      jQuery('.saved_img').attr('href', d);
       // var w = window.open('about:blank','image from canvas');
     });
   });
