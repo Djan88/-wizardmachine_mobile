@@ -364,10 +364,10 @@ cur_date = function(){
   setImgFromHistory = function(elem, type, position){
     cur_history_image = cur_history_item[position];
     if (type == 'swords') {
-      elem.css('backgroundPosition', img_position[cur_history_image]);
+      elem.css('backgroundPositionY', img_position[cur_history_image]);
     } else {
       cur_history_image = cur_history_item[position]+10;
-      elem.css('backgroundPosition', img_position[cur_history_image]);
+      elem.css('backgroundPositionY', img_position[cur_history_image]);
     }
   }
 
@@ -387,7 +387,6 @@ cur_date = function(){
     // jQuery('.marakata_modal_sim-3').css('background', cur_history_images[cur_history_images_three]);
     // jQuery('.marakata_modal_sim-4').css('background', cur_history_images[cur_history_images_four]);
     // jQuery('.marakata_modal_sim-5').css('background', cur_history_images[cur_history_images_five]);
-    console.log(cur_history_images[cur_history_images_one]);
   });
 
 
