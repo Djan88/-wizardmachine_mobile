@@ -211,7 +211,7 @@ jQuery(document).ready(function () {
     jQuery('.btn-to_img, .btn_history').addClass('hidden');
     jQuery('.mobile_screen_load').fadeIn(500);
     jQuery('.header-title').text('Загрузите фото');
-    if (croppedImg && croppedImg.hasAttribute('src')&& jQuery('.mobile_screen_manual').hasClass('hidden')) {
+    if (croppedImg && croppedImg.hasAttribute('src') && jQuery('.btn_history').hasClass('hidden')) {
       jQuery('.btn_return').removeClass('hidden');
     }
   });
