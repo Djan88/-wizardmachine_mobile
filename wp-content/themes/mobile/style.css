@@ -729,10 +729,12 @@ input.crop_photo
 .marakata_sim_from.marakata_sim_wands
 {
   background: url(img/cards/tarot_numbers/card_back_wands_tr.png) top left/100% repeat-y!important;
+  opacity: 0.4;
 }
 .marakata_sim_from.marakata_sim_swords
 {
   background: url(img/cards/tarot_numbers/card_back_swords_tr.png) top left/100% repeat-y!important;
+  opacity: 0.4;
 }
 .marakata_sim_from
 {
@@ -772,7 +774,7 @@ input.crop_photo
 }
 .marakata_sim_from
 {
-  opacity: 0.4;
+  /*opacity: 0.4;*/
 }
 #history_canvas
 {
