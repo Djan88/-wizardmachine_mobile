@@ -368,10 +368,15 @@ cur_date = function(){
 
   // save as img
   jQuery('.save_img').on('click', function(event) {
-    
+
     html2canvas(document.querySelector("#history_item_modal_content")).then(canvas => {
-    document.body.appendChild(canvas)
-});
+      document.body.appendChild(canvas)
+      jQuery(canvas).attr('id', 'history_canvas');;
+      var c = document.getElementById("alpha");
+      var d = c.toDataURL("image/png");
+      // var w = window.open('about:blank','image from canvas');
+      document.body.appendChild("<img src='"+d+"' alt='from canvas'/>");
+    });
   });
 
 
