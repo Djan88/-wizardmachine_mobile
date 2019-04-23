@@ -138,8 +138,8 @@ div#recallbar, div#wpadminbar
 }
 .btn-primary
 {
-  background: #d76461;
-  border-color: #d15352;
+  /*background: #d76461;*/
+  /*border-color: #d15352;*/
 }
 .btn-primary:hover
 {
