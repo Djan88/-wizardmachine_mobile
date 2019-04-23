@@ -368,10 +368,10 @@ cur_date = function(){
 
   // save as img
   jQuery('.save_img').on('click', function(event) {
-    html2canvas(document.querySelector("#history_item_modal_content"), {onrendered: function(document) {
-        jQuery('.modal-title').css('color', 'red');
-    }}).then(canvas => {
+    jQuery('.modal-title').css('color', 'red');
+    html2canvas(document.querySelector("#history_item_modal_content")).then(canvas => {
       document.body.appendChild(canvas)
+      jQuery('.modal-title').css('color', '#212529');
       jQuery(canvas).attr('id', 'history_canvas');
       var c = document.getElementById("history_canvas");
       var d = c.toDataURL("image/png");
