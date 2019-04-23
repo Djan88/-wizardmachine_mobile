@@ -305,7 +305,7 @@ jQuery(document).ready(function () {
     jQuery('.mobile_screen_what_way').addClass('hidden').css('display', 'none');
     jQuery('.mobile_screen_manual').fadeIn(500);
     jQuery('.btn-to_img').addClass('hidden');
-    jQuery('.btn-to_mode, .btn_protocols, .clear_graph').removeClass('hidden');
+    jQuery('.btn-to_img, .btn_history').removeClass('hidden');
   });
 
   // Protocol choice

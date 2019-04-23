@@ -275,7 +275,7 @@ cur_date = function(){
   jQuery('.history').css('top', "-"+history_h+'px');
 
 
-  jQuery('.user_history').on('click', function(event) {
+  jQuery('.user_history, .btn_history').on('click', function(event) {
     if (jQuery('.history').hasClass('history_visible')) {
       jQuery('.history').removeClass('history_visible');
     } else {
