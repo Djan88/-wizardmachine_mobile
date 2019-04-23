@@ -330,6 +330,10 @@ span.menu_item_img
   -moz-user-select: none;
   -ms-user-select: none;
 }
+#history_item_modal .modal-dialog
+{
+  min-width: 600px;
+}
 .card_protocol
 {
   height: 100px;
@@ -831,8 +835,8 @@ button.close.history_close
 }
 .marakata_sim_prot_modal
 {
-  width: 82px;
-  height: 148px;
+  width: 99px;
+  height: 178px;
   background: url(img/cards/tarot_numbers/cards_sprite.png) top left/100% repeat-y;
 }
 .marakata_sim_prot_modal.marakata_modal_sim-dot
