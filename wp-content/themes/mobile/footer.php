@@ -145,7 +145,7 @@
           </div>
           <div class="modal-body mode_content">
             <b>Достижение результата в вопросах:</b>
-            <ul>
+            <ul style="text-align: left;">
               <li>Личного развития и карьеры</li>
               <li>Поиска партнера для отношений</li>
             </ul>
@@ -168,7 +168,7 @@
           </div>
           <div class="modal-body mode_content">
             <b>Достижение результата в вопросах:</b>
-            <ul>
+            <ul style="text-align: left;">
               <li>Расставание с дорогим сердцу имуществом</li>
               <li>Освобождение напрягающих отношений</li>
             </ul>

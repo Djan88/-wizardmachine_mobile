@@ -967,6 +967,10 @@ button.close.history_close
 {
   font-size: 18px;
 }
+.mode_namerenie
+{
+  text-align: center;
+}
 @media (min-width: 600px) {
   .sweet-alert
   {
