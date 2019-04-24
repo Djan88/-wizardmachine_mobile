@@ -151,8 +151,8 @@
             </ul>
             <p>Проведите предварительную коррекцию первоэлемента «Огонь» чрез Пентакли! </p>
           </div>
-          <div class="modal-footer card_modal_footer hidden">
-            <button type="button" class="btn btn-primary close" data-zone="">ОК</button>
+          <div class="modal-footer card_modal_footer">
+            <button type="button" class="btn btn-primary" data-dismiss="modal" data-zone="">ОК</button>
           </div>
         </div>
       </div>
@@ -174,8 +174,8 @@
             </ul>
             <p>Проведите предварительную коррекцию первоэлемента «Вода» чрез Кубки! </p>
           </div>
-          <div class="modal-footer card_modal_footer hidden">
-            <button type="button" class="btn btn-primary close" data-zone="">ОК</button>
+          <div class="modal-footer card_modal_footer">
+            <button type="button" class="btn btn-primary" data-dismiss="modal" data-zone="">ОК</button>
           </div>
         </div>
       </div>
