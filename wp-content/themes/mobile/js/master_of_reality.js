@@ -120,6 +120,7 @@ cur_date = function(){
   // onload
   jQuery('.mode-item_manual').on('click', function(event) {
     cur_window_width();
+    jQuery('.btn_return').addClass('hidden');
   });
   jQuery(window).on('resize', function(event) {
     cur_window_width();
@@ -282,6 +283,9 @@ cur_date = function(){
       jQuery('.history').addClass('history_visible');
       history_update();
     }
+  });
+  jQuery('.btn-back').on('click', function(event) {
+    jQuery('.history').removeClass('history_visible');
   });
   jQuery('.history_close').on('click', function(event) {
     jQuery('.history').removeClass('history_visible');
