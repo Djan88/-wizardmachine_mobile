@@ -149,7 +149,7 @@
               <li>Личного развития и карьеры</li>
               <li>Поиска партнера для отношений</li>
             </ul>
-            <p><b>Проведите предварительную коррекцию первоэлемента <span style="color: #bd2130;">«Огонь»</span> чрез Пентакли!</b></p>
+            <p><b>Проведите предварительную коррекцию первоэлемента <span style="color: #bd2130;">«Огонь»</span> через Пентакли!</b></p>
           </div>
           <div class="modal-footer card_modal_footer">
             <button type="button" class="btn btn-primary" data-dismiss="modal" data-zone="">ОК</button>
