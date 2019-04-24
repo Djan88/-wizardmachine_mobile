@@ -123,13 +123,59 @@
                 <div class="col-4">
                   <button data-html2canvas-ignore="true" class="btn btn-success save_img">Сохранить <i class="fas fa-download"></i></button>
                   <!-- <img class="saved_img hidden" src="" alt=""> -->
-                  <a href="" download class="saved_img btn hidden">Сохранить</a>
+                  <a href="" download class="saved_img btn hidden">Скачать</a>
                 </div>
                 <div class="col-4">
                   <div class="history_item_modal_date"></div>
                 </div>
               </div>
             </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="modal" id="mode_namerenie" tabindex="-1" role="dialog">
+      <div class="modal-dialog modal-sm" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="history_item_modal_title">Намерение</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body mode_content">
+            Достижение результата в вопросах:
+            <ul>
+              <li>Личного развития и карьеры</li>
+              <li>Поиска партнера для отношений</li>
+            </ul>
+            <p>Проведите предварительную коррекцию первоэлемента «Огонь» чрез Пентакли! </p>
+          </div>
+          <div class="modal-footer card_modal_footer hidden">
+            <button type="button" class="btn btn-primary close" data-zone="">ОК</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="modal" id="mode_deistvie" tabindex="-1" role="dialog">
+      <div class="modal-dialog modal-sm" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="history_item_modal_title">Намерение</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body mode_content">
+            Достижение результата в вопросах:
+            <ul>
+              <li>Расставание с дорогим сердцу имуществом</li>
+              <li>Освобождение напрягающих отношений</li>
+            </ul>
+            <p>Проведите предварительную коррекцию первоэлемента «Вода» чрез Кубки! </p>
+          </div>
+          <div class="modal-footer card_modal_footer hidden">
+            <button type="button" class="btn btn-primary close" data-zone="">ОК</button>
           </div>
         </div>
       </div>
