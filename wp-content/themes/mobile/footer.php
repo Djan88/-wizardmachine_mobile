@@ -144,12 +144,12 @@
             </button>
           </div>
           <div class="modal-body mode_content">
-            Достижение результата в вопросах:
+            <b>Достижение результата в вопросах:</b>
             <ul>
               <li>Личного развития и карьеры</li>
               <li>Поиска партнера для отношений</li>
             </ul>
-            <p>Проведите предварительную коррекцию первоэлемента «Огонь» чрез Пентакли! </p>
+            <p><b>Проведите предварительную коррекцию первоэлемента «Огонь» чрез Пентакли!</b></p>
           </div>
           <div class="modal-footer card_modal_footer">
             <button type="button" class="btn btn-primary" data-dismiss="modal" data-zone="">ОК</button>
@@ -167,12 +167,12 @@
             </button>
           </div>
           <div class="modal-body mode_content">
-            Достижение результата в вопросах:
+            <b>Достижение результата в вопросах:</b>
             <ul>
               <li>Расставание с дорогим сердцу имуществом</li>
               <li>Освобождение напрягающих отношений</li>
             </ul>
-            <p>Проведите предварительную коррекцию первоэлемента «Вода» чрез Кубки! </p>
+            <p><b>Проведите предварительную коррекцию первоэлемента «Вода» чрез Кубки!</b></p>
           </div>
           <div class="modal-footer card_modal_footer">
             <button type="button" class="btn btn-primary" data-dismiss="modal" data-zone="">ОК</button>

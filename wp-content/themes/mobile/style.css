@@ -963,86 +963,10 @@ button.close.history_close
 {
   box-shadow: inset -27px 0px 1rem rgba(234,238,247,1)!important;
 }
-/*.modal_card_0_wands
+.mode_content
 {
-  background: url(/img/cards/tarot_numbers/wands10.png) top left/100% repeat-y;
+  font-size: 18px;
 }
-.modal_card_1_wands
-{
-  background: url(/img/cards/tarot_numbers/wands01.png) top left/100% repeat-y;
-}
-.modal_card_2_wands
-{
-  background: url(/img/cards/tarot_numbers/wands02.png) top left/100% repeat-y;
-}
-.modal_card_3_wands
-{
-  background: url(/img/cards/tarot_numbers/wands03.png) top left/100% repeat-y;
-}
-.modal_card_4_wands
-{
-  background: url(/img/cards/tarot_numbers/wands04.png) top left/100% repeat-y;
-}
-.modal_card_5_wands
-{
-  background: url(/img/cards/tarot_numbers/wands05.png) top left/100% repeat-y;
-}
-.modal_card_6_wands
-{
-  background: url(/img/cards/tarot_numbers/wands06.png) top left/100% repeat-y;
-}
-.modal_card_7_wands
-{
-  background: url(/img/cards/tarot_numbers/wands07.png) top left/100% repeat-y;
-}
-.modal_card_8_wands
-{
-  background: url(/img/cards/tarot_numbers/wands08.png) top left/100% repeat-y;
-}
-.modal_card_9_wands
-{
-  background: url(/img/cards/tarot_numbers/wands09.png) top left/100% repeat-y;
-}
-.modal_card_0_swords
-{
-  background: url(/img/cards/tarot_numbers/swords10.png) top left/100% repeat-y;
-}
-.modal_card_1_swords
-{
-  background: url(/img/cards/tarot_numbers/swords01.png) top left/100% repeat-y;
-}
-.modal_card_2_swords
-{
-  background: url(/img/cards/tarot_numbers/swords02.png) top left/100% repeat-y;
-}
-.modal_card_3_swords
-{
-  background: url(/img/cards/tarot_numbers/swords03.png) top left/100% repeat-y;
-}
-.modal_card_4_swords
-{
-  background: url(/img/cards/tarot_numbers/swords04.png) top left/100% repeat-y;
-}
-.modal_card_5_swords
-{
-  background: url(/img/cards/tarot_numbers/swords05.png) top left/100% repeat-y;
-}
-.modal_card_6_swords
-{
-  background: url(/img/cards/tarot_numbers/swords06.png) top left/100% repeat-y;
-}
-.modal_card_7_swords
-{
-  background: url(/img/cards/tarot_numbers/swords07.png) top left/100% repeat-y;
-}
-.modal_card_8_swords
-{
-  background: url(/img/cards/tarot_numbers/swords08.png) top left/100% repeat-y;
-}
-.modal_card_9_swords
-{
-  background: url(/img/cards/tarot_numbers/swords09.png) top left/100% repeat-y;
-}*/
 @media (min-width: 600px) {
   .sweet-alert
   {
