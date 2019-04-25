@@ -273,7 +273,7 @@ jQuery(document).ready(function () {
       jQuery('.btn-back').removeClass('hidden');
       jQuery('.btn-to_img, .btn-paused, .btn-to_protocols, .btn-played, .btn-to_manual, .btn-to_endNow, .btn_history').addClass('hidden');
       jQuery('.btn-to_mode').removeClass('hidden');
-      jQuery('.header-title').text('Выберите режим');
+      jQuery('.header-title').text('Перенесите зоны на фото');
     } else {
       jQuery('.header-title').text('Загрузите и отредактивуйте фото');
       jQuery('.btn-to_img, .btn-to_protocols, .mobile_screen_what_way').addClass('hidden');
