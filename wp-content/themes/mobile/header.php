@@ -29,6 +29,9 @@
                 <button type="button" class="btn btn-lg btn-link btn-back btn-paused hidden"><i class="far fa-pause-circle"></i></button>
                 <button type="button" class="btn btn-lg btn-link btn-back btn-played hidden"><i class="far fa-play-circle"></i></button>
                 <button type="button" class="btn btn-lg btn-link btn-back btn-to_manual hidden"><i class="far fa-arrow-alt-circle-left"></i></button>
+                <a herf="/" class="btn btn-lg btn-link btn_new_img hidden justify-content-end">
+                  <i class="fas fa-user-plus"></i>
+                </a>
                 <button type="button" class="btn btn-lg btn-link btn-back btn-to_endNow hidden" data-toggle="popover" data-placement="bottom" title="Протокол остановлен!" data-content="Выполнение протокола будет приостановлено по окончании текущей фазы. Все данные будут сохранены"><i class="far fa-stop-circle"></i></button>
               <?php } ?>
             </div>
@@ -71,9 +74,6 @@
               </button>
               <button type="button" class="btn btn-lg btn-link btn_return hidden justify-content-end">
                 <i class="far fa-arrow-alt-circle-right"></i>
-              </button>
-              <a herf="/" class="btn btn-lg btn-link btn_new_img hidden justify-content-end">
-                <i class="fas fa-user-plus"></i>
               </button>
             </div>
           </div>
