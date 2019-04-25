@@ -281,6 +281,12 @@ jQuery(document).ready(function () {
       jQuery('.btn-to_img, .btn-paused, .btn-to_protocols, .btn-played, .btn-to_manual, .btn-to_endNow, .btn_history').addClass('hidden');
       jQuery('.btn-to_mode, .btn_man_with_zones, .btn_moon_day, .btn_start, .btn_new_img').removeClass('hidden');
       jQuery('.header-title').text('Перенесите зоны на фото');
+      card_heigth = parseInt(jQuery('.card_solis').css('height'))/2;
+      card_width = parseInt(jQuery('.card_solis').css('width'));
+      drag_zone_w = parseInt(jQuery('.drag_container').css('width'));
+      diag_zone_w = parseInt(jQuery('.work-area_inner').css('width'));
+
+      line_drawing();
     } else {
       jQuery('.header-title').text('Загрузите и отредактивуйте фото');
       jQuery('.btn-to_img, .btn-to_protocols, .mobile_screen_what_way').addClass('hidden');
@@ -292,13 +298,6 @@ jQuery(document).ready(function () {
     }
 
     // default position svg
-
-    card_heigth = parseInt(jQuery('.card_solis').css('height'))/2;
-    card_width = parseInt(jQuery('.card_solis').css('width'));
-    drag_zone_w = parseInt(jQuery('.drag_container').css('width'));
-    diag_zone_w = parseInt(jQuery('.work-area_inner').css('width'));
-
-    line_drawing();
     
 
   });
