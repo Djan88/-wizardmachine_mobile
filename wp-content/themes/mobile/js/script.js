@@ -280,7 +280,7 @@ jQuery(document).ready(function () {
   // Protocol mode
 
   jQuery('.mode-item_protocol').on('click', function(event) {
-    setTimeout(git_card_size, 2000);
+    setTimeout(git_card_size, 1000);
     if (croppedImg && croppedImg.hasAttribute('src')) {
       jQuery('.mobile_screen_what_way').addClass('hidden').css('display', 'none');
       jQuery('.mobile_screen_final').fadeIn(500);
@@ -354,7 +354,7 @@ jQuery(document).ready(function () {
     jQuery('.btn-to_img, .btn-paused, .btn-to_protocols, .btn-played, .btn-to_manual, .btn-to_endNow').addClass('hidden');
     jQuery('.btn-to_mode, .btn_man_with_zones, .btn_moon_day, .btn_start, .btn_new_img').removeClass('hidden');
     jQuery('.header-title').text('Главное меню');
-    setTimeout(git_card_size, 2000);
+    setTimeout(git_card_size, 1000);
   }
 
   // second crop btn
