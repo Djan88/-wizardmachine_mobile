@@ -265,21 +265,23 @@ jQuery(document).ready(function () {
 
   // Protocol mode
 
-  // jQuery('.mode-item_protocol').on('click', function(event) {
-  //   jQuery('.header-title').text('Выберите протокол');
-  //   jQuery('.mobile_screen_what_way').addClass('hidden').css('display', 'none');
-  //   jQuery('.mobile_screen_protocols').fadeIn(500);
-  //   jQuery('.btn-to_img').addClass('hidden');
-  //   jQuery('.btn-to_mode').removeClass('hidden');
-  // });
   jQuery('.mode-item_protocol').on('click', function(event) {
-    // img_heigth = jQuery('.loaded_img').css('height');
-    jQuery('.header-title').text('Загрузите и отредактивуйте фото');
-    jQuery('.btn-to_img, .btn-to_protocols, .mobile_screen_what_way').addClass('hidden');
-    jQuery('.btn-to_mode, .btn_man_with_zones, .btn_start, .btn_moon_day').removeClass('hidden');
-    jQuery('.mobile_screen_what_way').addClass('hidden').css('display', 'none');
-    jQuery('.mobile_screen_load').fadeIn(500);
-    jQuery('.zone_final').css('height', jQuery('.zone_final').css('width'));
+    if (true) {
+      jQuery('.mobile_screen_what_way').addClass('hidden').css('display', 'none');
+      jQuery('.mobile_screen_final').fadeIn(500);
+      jQuery('.loaded_img').attr('src', jQuery('.cropped_img').attr('src'));
+      jQuery('.btn-back').removeClass('hidden');
+      jQuery('.btn-to_img, .btn-paused, .btn-to_protocols, .btn-played, .btn-to_manual, .btn-to_endNow').addClass('hidden');
+      jQuery('.btn-to_mode').removeClass('hidden');
+      jQuery('.header-title').text('Выберите режим');
+    } else {
+      jQuery('.header-title').text('Загрузите и отредактивуйте фото');
+      jQuery('.btn-to_img, .btn-to_protocols, .mobile_screen_what_way').addClass('hidden');
+      jQuery('.btn-to_mode, .btn_man_with_zones, .btn_start, .btn_moon_day').removeClass('hidden');
+      jQuery('.mobile_screen_what_way').addClass('hidden').css('display', 'none');
+      jQuery('.mobile_screen_load').fadeIn(500);
+      jQuery('.zone_final').css('height', jQuery('.zone_final').css('width'));
+    }
 
     // default position svg
 
@@ -323,7 +325,7 @@ jQuery(document).ready(function () {
 
 
   // If img already download
-  if (croppedImg && croppedImg.hasAttribute('src')) {
+  if (croppedImg && croppedImg.hasAttribute('src')) { 
     jQuery('.mobile_screen_what_way').addClass('hidden').css('display', 'none');
     jQuery('.mobile_screen_final').fadeIn(500);
     jQuery('.loaded_img').attr('src', jQuery('.cropped_img').attr('src'));
