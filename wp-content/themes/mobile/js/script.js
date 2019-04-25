@@ -269,6 +269,7 @@ jQuery(document).ready(function () {
   // Protocol mode
 
   jQuery('.mode-item_protocol').on('click', function(event) {
+    console.log(croppedImg);
     if (croppedImg && croppedImg.hasAttribute('src')) {
       jQuery('.mobile_screen_what_way').addClass('hidden').css('display', 'none');
       jQuery('.mobile_screen_final').fadeIn(500);
