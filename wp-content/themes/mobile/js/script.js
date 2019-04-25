@@ -192,7 +192,10 @@ jQuery(document).ready(function () {
     jQuery('.mobile_screen_final').fadeIn(500);
 
     jQuery('.btn-to_mode, .btn-to_manual').addClass('hidden');
-    jQuery('.btn-to_protocols, .btn_man_with_zones, .btn_start, .btn_moon_day').removeClass('hidden');
+    if (croppedImg && croppedImg.hasAttribute('src')) {
+      jQuery('.btn_man_with_zones, .btn_start, .btn_moon_day').removeClass('hidden');
+    }
+    jQuery('.btn-to_protocols').removeClass('hidden');
     jQuery('.zone_final').css('height', jQuery('.zone_final').css('width'));
   });
 
@@ -318,6 +321,14 @@ jQuery(document).ready(function () {
     jQuery('.current_protocol_title, .current_protocol_title_2').text(jQuery(this).find('.protocols_item_title').text())
     jQuery('.current_protocol_content').text(jQuery(this).find('.protocols_item_content').text())
     jQuery('.choice_protocol').removeClass('hidden');
+  });
+
+  //new image
+  jQuery('.btn_new_img').on('click', function(event) {
+    jQuery('.mobile_screen_load').removeClass('hidden').css('display', 'block');
+    jQuery('.mobile_screen_final').addClass('hidden').css('display', 'none');
+    jQuery('.btn_protocols, .clear_graph, .btn_new_img').addClass('hidden');
+    jQuery('.btn-to_mode').removeClass('hidden');
   });
 
   //Hide img if already cropped
