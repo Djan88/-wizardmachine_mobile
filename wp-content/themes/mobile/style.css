@@ -149,6 +149,10 @@ a.btn-link.btn_new_img
 {
   color: #f96b47;
 }
+.protocols_item_img img
+{
+  height: 60px;
+}
 .mobile_screen.mobile_screen_load 
 {
   margin-top: 40px;
