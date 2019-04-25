@@ -266,12 +266,12 @@ jQuery(document).ready(function () {
   // Protocol mode
 
   jQuery('.mode-item_protocol').on('click', function(event) {
-    if (true) {
+    if (croppedImg && croppedImg.hasAttribute('src')) {
       jQuery('.mobile_screen_what_way').addClass('hidden').css('display', 'none');
       jQuery('.mobile_screen_final').fadeIn(500);
       jQuery('.loaded_img').attr('src', jQuery('.cropped_img').attr('src'));
       jQuery('.btn-back').removeClass('hidden');
-      jQuery('.btn-to_img, .btn-paused, .btn-to_protocols, .btn-played, .btn-to_manual, .btn-to_endNow').addClass('hidden');
+      jQuery('.btn-to_img, .btn-paused, .btn-to_protocols, .btn-played, .btn-to_manual, .btn-to_endNow, .btn_history').addClass('hidden');
       jQuery('.btn-to_mode').removeClass('hidden');
       jQuery('.header-title').text('Выберите режим');
     } else {
