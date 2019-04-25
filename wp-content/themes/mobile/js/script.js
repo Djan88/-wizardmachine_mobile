@@ -274,11 +274,11 @@ jQuery(document).ready(function () {
   // });
   jQuery('.mode-item_protocol').on('click', function(event) {
     // img_heigth = jQuery('.loaded_img').css('height');
-    jQuery('.header-title').text('Перенесите зоны на фото');
-    jQuery('.btn-to_img, .btn-to_protocols').addClass('hidden');
+    jQuery('.header-title').text('Загрузите и отредактивуйте фото');
+    jQuery('.btn-to_img, .btn-to_protocols, .mobile_screen_what_way').addClass('hidden');
     jQuery('.btn-to_mode, .btn_man_with_zones, .btn_start, .btn_moon_day').removeClass('hidden');
     jQuery('.mobile_screen_what_way').addClass('hidden').css('display', 'none');
-    jQuery('.mobile_screen_final').fadeIn(500);
+    jQuery('.mobile_screen_load').fadeIn(500);
     jQuery('.zone_final').css('height', jQuery('.zone_final').css('width'));
 
     // default position svg
