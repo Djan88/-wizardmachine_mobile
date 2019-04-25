@@ -110,7 +110,8 @@
 							<div class="col mode-item mode-item_protocol text_center">
 					      <span class="protocols_item_title">Лечебное Tarot</span>
 					      <div class="protocols_item_img">
-					      	<i class="far fa-moon"></i>
+					      	<!-- <i class="far fa-moon"></i> -->
+					      	<img src="<?php echo get_template_directory_uri(); ?>/img/icon_master.png" alt="" class="main_menu_icon">
 					      </div>
 					    </div>
 							<div class="col mode-item mode-item_manual text_center">
