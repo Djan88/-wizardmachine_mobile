@@ -40,7 +40,7 @@
 			?>
 			<?php if(current_user_can('contributor') || current_user_can('administrator')) { ?>
 			<!-- load photo -->
-			<div class="mobile_screen mobile_screen_load">
+			<div class="mobile_screen mobile_screen_load hidden">
 				<div class="row">
 					<div class="col protocols_info text_center">
 						<div class="current_protocol_img">
@@ -100,7 +100,7 @@
 				</div>
 			</div>
 			<!-- protocols -->
-			<div class="mobile_screen mobile_screen_what_way hidden">
+			<div class="mobile_screen mobile_screen_what_way">
 				<div class="col-md-8 offset-md-2">
 						<div class="row">
 							<div class="col protocols_info text_center">
