@@ -116,7 +116,7 @@
 							<div class="col mode-item mode-item_manual text_center">
 					      <span class="protocols_item_title">Tarot—Мастер реальности</span>
 					      <div class="protocols_item_img">
-					      	<i class="far fa-hand-pointer"></i>
+					      	<img src="<?php echo get_template_directory_uri(); ?>/img/icon_master.png" alt="" class="main_menu_icon">
 					      </div>
 					    </div>
 							<div class="col mode-item mode-item_cards text_center">
