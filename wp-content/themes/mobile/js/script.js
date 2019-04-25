@@ -330,7 +330,7 @@ jQuery(document).ready(function () {
     jQuery('.loaded_img').attr('src', jQuery('.cropped_img').attr('src'));
     jQuery('.btn-back').removeClass('hidden');
     jQuery('.btn-to_img, .btn-paused, .btn-to_protocols, .btn-played, .btn-to_manual, .btn-to_endNow').addClass('hidden');
-    jQuery('.btn-to_mode').removeClass('hidden');
+    jQuery('.btn-to_mode, .btn_man_with_zones, .btn_moon_day, .btn_start').removeClass('hidden');
     jQuery('.header-title').text('Главное меню');
   }
 
