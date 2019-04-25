@@ -56,6 +56,8 @@ jQuery(document).ready(function () {
     devil_x = jQuery('.card_devil').position().left + drag_zone_w + diag_zone_w;
     devil_y = jQuery('.card_devil').position().top + card_heigth;
 
+    console.log(devil_x);
+
     sol_1 = parseInt(jQuery('.card_solis').css('top'));
     sol_2 = parseInt(jQuery('.card_ghost_solis').css('top'));
     devil_1 = parseInt(jQuery('.card_devil').css('top'));
@@ -80,7 +82,7 @@ jQuery(document).ready(function () {
     } else {
       jQuery('.line_area').removeClass('line_area_red');
     }
-    
+
     jQuery('.line').attr('x1', solis_x - 10);
     jQuery('.line').attr('y1', solis_y);
     jQuery('.line').attr('x2', devil_x + 10);
