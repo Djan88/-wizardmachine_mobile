@@ -228,7 +228,7 @@ cur_date = function(){
     if (!history_returned) {
       history_returned = []; 
     }
-    console.log(history_returned);
+    // console.log(history_returned);
     jQuery.each(history_returned,function(key, data) {
       if (data['type'] == 'swords') {
         history_type = '/wp-content/themes/mobile/img/cards/tarot_numbers/sword.png';
