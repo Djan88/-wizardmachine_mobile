@@ -41,10 +41,6 @@ jQuery(document).ready(function () {
 
   //Enable popovers;
   jQuery('[data-toggle="popover"]').popover();
-  card_heigth = parseInt(jQuery('.card_solis').css('height'))/2;
-  card_width = parseInt(jQuery('.card_solis').css('width'));
-  drag_zone_w = parseInt(jQuery('.drag_container').css('width'));
-  diag_zone_w = parseInt(jQuery('.work-area_inner').css('width'));
 
   //line_drawing
 
@@ -278,6 +274,10 @@ jQuery(document).ready(function () {
 
   jQuery('.mode-item_protocol').on('click', function(event) {
     console.log(croppedImg);
+    card_heigth = parseInt(jQuery('.card_solis').css('height'))/2;
+    card_width = parseInt(jQuery('.card_solis').css('width'));
+    drag_zone_w = parseInt(jQuery('.drag_container').css('width'));
+    diag_zone_w = parseInt(jQuery('.work-area_inner').css('width'));
     if (croppedImg && croppedImg.hasAttribute('src')) {
       jQuery('.mobile_screen_what_way').addClass('hidden').css('display', 'none');
       jQuery('.mobile_screen_final').fadeIn(500);
