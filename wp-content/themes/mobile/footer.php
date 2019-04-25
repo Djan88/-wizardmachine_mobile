@@ -5,7 +5,7 @@
             <ul class="main_menu">
               <li>
                 <a href="/" class=" row align-items-center">
-                  <span class="menu_item_img"><i class="fas fa-grip-horizontal"></i></span>В начало
+                  <span class="menu_item_img"><i class="fas fa-th"></i></span>В начало
                 </a>
               </li>
               <li>
