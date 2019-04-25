@@ -72,6 +72,9 @@
               <button type="button" class="btn btn-lg btn-link btn_return hidden justify-content-end">
                 <i class="far fa-arrow-alt-circle-right"></i>
               </button>
+              <a herf="/" class="btn btn-lg btn-link btn_new_img hidden justify-content-end">
+                <i class="fas fa-user-plus"></i>
+              </button>
             </div>
           </div>
           <div id="content" class="content row">
