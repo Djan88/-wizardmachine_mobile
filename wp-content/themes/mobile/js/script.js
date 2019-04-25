@@ -282,6 +282,7 @@ jQuery(document).ready(function () {
       jQuery('.header-title').text('Загрузите и отредактивуйте фото');
       jQuery('.btn-to_img, .btn-to_protocols, .mobile_screen_what_way').addClass('hidden');
       jQuery('.btn-to_mode').removeClass('hidden');
+      jQuery('.btn_history').addClass('hidden');
       jQuery('.mobile_screen_what_way').addClass('hidden').css('display', 'none');
       jQuery('.mobile_screen_load').fadeIn(500);
       jQuery('.zone_final').css('height', jQuery('.zone_final').css('width'));
