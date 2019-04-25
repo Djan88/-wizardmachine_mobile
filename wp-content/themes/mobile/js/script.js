@@ -329,6 +329,7 @@ jQuery(document).ready(function () {
     jQuery('.mobile_screen_final').addClass('hidden').css('display', 'none');
     jQuery('.btn_protocols, .clear_graph, .btn_new_img').addClass('hidden');
     jQuery('.btn-to_mode').removeClass('hidden');
+    croppedImg.attr('src', '');
   });
 
   //Hide img if already cropped
