@@ -324,10 +324,10 @@ jQuery(document).ready(function () {
 
   // If img already download
   if (croppedImg && croppedImg.hasAttribute('src')) {
-    jQuery('.mobile_screen_load').addClass('hidden');
-    jQuery('.mobile_screen_what_way').fadeIn(500);
+    jQuery('.mobile_screen_what_way').addClass('hidden');
+    jQuery('.mobile_screen_protocols').fadeIn(500);
     jQuery('.loaded_img').attr('src', jQuery('.cropped_img').attr('src'));
-    jQuery('.btn-back').addClass('hidden');
+    jQuery('.btn-back').removeClass('hidden');
     jQuery('.btn-to_img').removeClass('hidden');
     jQuery('.header-title').text('Выберите режим');
   }
