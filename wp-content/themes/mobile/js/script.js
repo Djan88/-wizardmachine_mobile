@@ -77,6 +77,7 @@ jQuery(document).ready(function () {
       jQuery('.line_area').removeClass('line_area_red');
     }
 
+    console.log(solis_x-10);
     jQuery('.line').attr('x1', solis_x - 10);
     jQuery('.line').attr('y1', solis_y);
     jQuery('.line').attr('x2', devil_x + 10);
