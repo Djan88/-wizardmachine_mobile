@@ -327,7 +327,7 @@ jQuery(document).ready(function () {
   jQuery('.btn_new_img').on('click', function(event) {
     jQuery('.mobile_screen_load').removeClass('hidden').css('display', 'block');
     jQuery('.mobile_screen_final').addClass('hidden').css('display', 'none');
-    jQuery('.btn_protocols, .clear_graph, .btn_new_img').addClass('hidden');
+    jQuery('.btn_protocols, .clear_graph, .btn_new_img, .btn_man_with_zones, .btn_moon_day, .btn_start').addClass('hidden');
     jQuery('.btn-to_mode').removeClass('hidden');
     croppedImg.attr('src', '');
   });
