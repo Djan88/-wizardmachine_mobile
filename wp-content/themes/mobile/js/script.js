@@ -78,7 +78,7 @@ jQuery(document).ready(function () {
     }
 
     console.log(jQuery(card_width));
-    console.log(jQuery('.card_solis').position().left);
+    console.log(jQuery('.card_solis').position().top);
     console.log(solis_x-10);
     jQuery('.line').attr('x1', solis_x - 10);
     jQuery('.line').attr('y1', solis_y);
