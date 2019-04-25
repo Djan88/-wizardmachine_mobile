@@ -230,8 +230,7 @@ jQuery(document).ready(function () {
     jQuery('.mobile_screen').addClass('hidden').css('display', 'none');
     jQuery('.btn-to_mode, .btn_protocol, .btn_protocols, .clear_graph, .btn_man_with_zones, .btn_start, .btn_moon_day').addClass('hidden');
     jQuery('.mobile_screen_what_way').fadeIn(500);
-    jQuery('.btn-to_img').removeClass('hidden');
-    jQuery('.header-title').text('Выберите режим');
+    jQuery('.header-title').text('Главное меню');
     jQuery('.zones_template').removeAttr('style');
   });
 
@@ -332,7 +331,7 @@ jQuery(document).ready(function () {
     jQuery('.btn-back').removeClass('hidden');
     jQuery('.btn-to_img, .btn-paused, .btn-to_protocols, .btn-played, .btn-to_manual, .btn-to_endNow').addClass('hidden');
     jQuery('.btn-to_mode').removeClass('hidden');
-    jQuery('.header-title').text('Выберите режим');
+    jQuery('.header-title').text('Главное меню');
   }
 
   // second crop btn
