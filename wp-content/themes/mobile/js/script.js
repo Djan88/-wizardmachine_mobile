@@ -229,6 +229,7 @@ jQuery(document).ready(function () {
   jQuery('.btn-to_mode').on('click', function(event) {
     jQuery('.mobile_screen').addClass('hidden').css('display', 'none');
     jQuery('.btn-to_mode, .btn_protocol, .btn_protocols, .clear_graph, .btn_man_with_zones, .btn_start, .btn_moon_day').addClass('hidden');
+    jQuery('.btn_history').removeClass('hidden');
     jQuery('.mobile_screen_what_way').fadeIn(500);
     jQuery('.header-title').text('Главное меню');
     jQuery('.zones_template').removeAttr('style');
