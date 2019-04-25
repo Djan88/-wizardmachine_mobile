@@ -351,6 +351,10 @@ jQuery(document).ready(function () {
     jQuery('.btn-to_img, .btn-paused, .btn-to_protocols, .btn-played, .btn-to_manual, .btn-to_endNow').addClass('hidden');
     jQuery('.btn-to_mode, .btn_man_with_zones, .btn_moon_day, .btn_start, .btn_new_img').removeClass('hidden');
     jQuery('.header-title').text('Главное меню');
+    card_heigth = parseInt(jQuery('.card_solis').css('height'))/2;
+    card_width = parseInt(jQuery('.card_solis').css('width'));
+    drag_zone_w = parseInt(jQuery('.drag_container').css('width'));
+    diag_zone_w = parseInt(jQuery('.work-area_inner').css('width'));
   }
 
   // second crop btn
