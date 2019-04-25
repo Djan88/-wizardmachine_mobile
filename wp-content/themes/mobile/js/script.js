@@ -77,7 +77,7 @@ jQuery(document).ready(function () {
       jQuery('.line_area').removeClass('line_area_red');
     }
 
-    console.log(jQuery(card_width);
+    console.log(jQuery(card_width));
     console.log(jQuery('.card_solis').position().left);
     console.log(solis_x-10);
     jQuery('.line').attr('x1', solis_x - 10);
