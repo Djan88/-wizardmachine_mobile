@@ -52,6 +52,7 @@ jQuery(document).ready(function () {
     devil_x = jQuery('.card_devil').position().left + drag_zone_w + diag_zone_w;
     devil_y = jQuery('.card_devil').position().top + card_heigth;
 
+    console.log(card_width);
     console.log(drag_zone_w);
     console.log(diag_zone_w);
     console.log(devil_x);
