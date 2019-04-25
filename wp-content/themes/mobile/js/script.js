@@ -11,7 +11,7 @@ jQuery(document).ready(function () {
       number_of_points,
       img_heigth,
       card_heigth,
-      card_width,
+      card_width = 202,
       drag_zone_w,
       diag_zone_w,
       solis_x,
@@ -276,7 +276,7 @@ jQuery(document).ready(function () {
   jQuery('.mode-item_protocol').on('click', function(event) {
     console.log(croppedImg);
     card_heigth = parseInt(jQuery('.card_solis').css('height'))/2;
-    card_width = parseInt(jQuery('.card_solis').css('width'));
+    // card_width = parseInt(jQuery('.card_solis').css('width'));
     drag_zone_w = parseInt(jQuery('.drag_container').css('width'));
     diag_zone_w = parseInt(jQuery('.work-area_inner').css('width'));
     if (croppedImg && croppedImg.hasAttribute('src')) {
@@ -353,7 +353,7 @@ jQuery(document).ready(function () {
     jQuery('.btn-to_mode, .btn_man_with_zones, .btn_moon_day, .btn_start, .btn_new_img').removeClass('hidden');
     jQuery('.header-title').text('Главное меню');
     card_heigth = parseInt(jQuery('.card_solis').css('height'))/2;
-    card_width = parseInt(jQuery('.card_solis').css('width'));
+    // card_width = parseInt(jQuery('.card_solis').css('width'));
     drag_zone_w = parseInt(jQuery('.drag_container').css('width'));
     diag_zone_w = parseInt(jQuery('.work-area_inner').css('width'));
   }
