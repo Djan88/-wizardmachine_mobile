@@ -208,18 +208,18 @@
 							<div class="col-md-6 col-sm-8 offset-md-3 offset-sm-2">
 								<div class="row">
 									<div class="col elements_item elements_item_1">
-										<img src="<?php echo get_template_directory_uri(); ?>/img/element_1.png" alt="" class="card_protocol card_protocol_top hidden" data-number="0">
+										<img src="<?php echo get_template_directory_uri(); ?>/img/element_1.png" alt="" class="card_img">
 									</div>
 									<div class="col elements_item elements_item_2">
-										<img src="<?php echo get_template_directory_uri(); ?>/img/element_2.png" alt="" class="card_protocol card_protocol_top hidden" data-number="0">
+										<img src="<?php echo get_template_directory_uri(); ?>/img/element_2.png" alt="" class="card_img">
 									</div>
 								</div>
 								<div class="row">
 									<div class="col elements_item elements_item_3">
-										<img src="<?php echo get_template_directory_uri(); ?>/img/element_3.png" alt="" class="card_protocol card_protocol_top hidden" data-number="0">
+										<img src="<?php echo get_template_directory_uri(); ?>/img/element_3.png" alt="" class="card_img">
 									</div>
 									<div class="col elements_item elements_item_4">
-										<img src="<?php echo get_template_directory_uri(); ?>/img/element_4.png" alt="" class="card_protocol card_protocol_top hidden" data-number="0">
+										<img src="<?php echo get_template_directory_uri(); ?>/img/element_4.png" alt="" class="card_img">
 									</div>
 								</div>
 							</div>
