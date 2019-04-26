@@ -312,13 +312,21 @@ jQuery(document).ready(function () {
     jQuery('.btn-to_mode, .btn_protocols, .clear_graph').addClass('hidden');
     jQuery('.btn-to_manual').removeClass('hidden');
   });
-  // Protocol choice
+  // Master of reality choice
   jQuery('.mode-item_manual').on('click', function(event) {
     jQuery('.header-title').text('Tarot — Мастер реальности');
     jQuery('.mobile_screen_what_way, .mobile_screen_load').addClass('hidden').css('display', 'none');
     jQuery('.mobile_screen_manual').fadeIn(500);
     jQuery('.btn-to_img').addClass('hidden');
     jQuery('.btn-to_mode, .btn_history').removeClass('hidden');
+  });
+  // Elements choice
+  jQuery('.mode-item_elements').on('click', function(event) {
+    jQuery('.header-title').text('Коррекция первоэлементов');
+    jQuery('.mobile_screen_what_way, .mobile_screen_load').addClass('hidden').css('display', 'none');
+    jQuery('.mobile_screen_elements').fadeIn(500);
+    jQuery('.btn-to_img, .btn_history').addClass('hidden');
+    jQuery('.btn-to_mode').removeClass('hidden');
   });
 
   // Protocol choice

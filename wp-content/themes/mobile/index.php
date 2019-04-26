@@ -197,6 +197,28 @@
 					</div>
 				</div>
 			</div>
+			<!-- elements -->
+			<div class="mobile_screen mobile_screen_elements hidden">
+				<div class="row protocols_info">
+					<div class="col text_center">
+						<div class="row">
+							<div class="col history-title">Выберите треугольник отличный от других</div>
+						</div>
+						<div class="row">
+							<div class="col-md-6 col-sm-8 offset-md-3 offset-sm-2">
+								<div class="row">
+									<div class="col elements_item elements_item_1"></div>
+									<div class="col elements_item elements_item_2"></div>
+								</div>
+								<div class="row">
+									<div class="col elements_item elements_item_3"></div>
+									<div class="col elements_item elements_item_4"></div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
 			<!-- final screen -->
 			<div class="mobile_screen mobile_screen_final hidden">
 				<div class="row protocols_info">
@@ -440,9 +462,9 @@
 				</div>
 			</div>
 			<?php } else { ?>
-				<div class="subscriber_info">Вы видите это сообщение, потому, что зарегистрированы в <a href="http://wizardmachine.ru/">"WizardMachine"</a> но на данный момент не имеете действующего доступа к программе.
+				<div class="subscriber_info">Вы видите это сообщение, потому, что зарегистрированы в <a href="http://wizardmachine.ru/">"Tarot Machine"</a> но на данный момент не имеете действующего доступа к программе.
 	        <p>
-	          Преобрести доступ к <b>"WizardMachine"</b> вы можете из <a href="/kabinet/">личного кабинета</a> пользователя (вкладка <b>"Все доступы"</b>). Напоминаем что действующие пользователи могут продлить доступ к <b>"WizardMachine"</b> со скидкой <b>30%</b>, для этого перейдите в <a href="/kabinet/">личный кабинет</a> пользователя, во вкладку <b>"Текущий доступ"</b> (доcтупно при наличии действующиего доступа к программе). Если Вы не успели продлить доступ до окончания срока действия лицензии не страшно! Вы все еще можете получить <b>продление со скидкой</b>. Для этого обратитесь в техподдержку — <a href="mailto:info@chikurov.com">info@chikurov.com</a>. Вам оперативно ответят.
+	          Преобрести доступ к <b>"Tarot Machine"</b> вы можете из <a href="/kabinet/">личного кабинета</a> пользователя (вкладка <b>"Все доступы"</b>). Напоминаем что действующие пользователи могут продлить доступ к <b>"Tarot Machine"</b> со скидкой <b>30%</b>, для этого перейдите в <a href="/kabinet/">личный кабинет</a> пользователя, во вкладку <b>"Текущий доступ"</b> (доcтупно при наличии действующиего доступа к программе). Если Вы не успели продлить доступ до окончания срока действия лицензии не страшно! Вы все еще можете получить <b>продление со скидкой</b>. Для этого обратитесь в техподдержку — <a href="mailto:info@chikurov.com">info@chikurov.com</a>. Вам оперативно ответят.
 	        </p>
 	        <p>
 	          Если у Вас есть вопросы, их так же можно задать службе технической поддержки пользователей написав на <a href="mailto:info@chikurov.com">info@chikurov.com</a>
