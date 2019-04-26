@@ -981,7 +981,12 @@ button.close.history_close
 }
 .elements_item
 {
-  /*height: 200px;*/
+  cursor: pointer;
+}
+.elements_item img
+{
+  width: 100%;
+  padding-bottom: 25px;
 }
 .elements_item_1
 {
