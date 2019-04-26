@@ -205,7 +205,7 @@
 							<div class="col history-title">Выберите треугольник отличный от других</div>
 						</div>
 						<div class="row">
-							<div class="col-md-6 col-sm-8 offset-md-3 offset-sm-2">
+							<div class="col-md-4 col-sm-6 offset-md-4 offset-sm-3">
 								<div class="row">
 									<div class="col elements_item elements_item_1">
 										<img src="<?php echo get_template_directory_uri(); ?>/img/element_1.png" alt="" class="card_img">
