@@ -117,7 +117,7 @@
 							<div class="col mode-item mode-item_manual text_center">
 					      <span class="protocols_item_title">Tarot—Мастер реальности</span>
 					      <div class="protocols_item_img" style="margin-top: 20px;">
-					      	<img src="<?php echo get_template_directory_uri(); ?>/img/master_img.png" alt="" class="main_menu_icon">
+					      	<img src="<?php echo get_template_directory_uri(); ?>/img/icon_master.png" alt="" class="main_menu_icon">
 					      </div>
 					    </div>
 					  </div>
@@ -126,7 +126,7 @@
 					      <span class="protocols_item_title">Первоэлементы</span>
 					      <div class="protocols_item_img" style="margin-top: 20px;">
 					      	<!-- <i class="far fa-moon"></i> -->
-					      	<img src="<?php echo get_template_directory_uri(); ?>/img/elems_color.png" alt="" class="main_menu_icon">
+					      	<img src="<?php echo get_template_directory_uri(); ?>/img/icon_elems.png" alt="" class="main_menu_icon">
 					      </div>
 					    </div>
 							<div class="col mode-item mode-item_cards text_center">
