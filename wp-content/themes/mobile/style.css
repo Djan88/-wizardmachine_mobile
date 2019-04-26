@@ -994,6 +994,7 @@ button.close.history_close
 .elements_item:hover img
 {
   border-color: #f7b754;
+  box-shadow: 0 0rem 10px 12px rgba(0,0,0,.15)!important;
 }
 @media (min-width: 600px) {
   .sweet-alert
