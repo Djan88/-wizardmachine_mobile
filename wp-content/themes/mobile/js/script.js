@@ -359,7 +359,7 @@ jQuery(document).ready(function () {
     jQuery('.mobile_screen_final').fadeIn(500);
     jQuery('.loaded_img').attr('src', jQuery('.cropped_img').attr('src'));
     jQuery('.btn-back').removeClass('hidden');
-    jQuery('.btn-to_img, .btn-paused, .btn-to_protocols, .btn-played, .btn-to_manual, .btn-to_endNow').addClass('hidden');
+    jQuery('.btn-to_img, .btn-paused, .btn-to_protocols, .btn-played, .btn-to_manual, .btn-to_endNow, .btn_history').addClass('hidden');
     jQuery('.btn-to_mode, .btn_man_with_zones, .btn_moon_day, .btn_start, .btn_new_img').removeClass('hidden');
     jQuery('.header-title').text('Главное меню');
     setTimeout(git_card_size, 1000);

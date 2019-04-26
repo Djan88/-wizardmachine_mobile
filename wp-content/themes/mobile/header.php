@@ -54,7 +54,7 @@
               <button type="button" class="btn btn-lg btn-link clear_graph hidden justify-content-end">
                 <i class="fas fa-broom"></i>
               </button>
-              <button type="button" class="btn btn-lg btn-link btn_history hidden justify-content-end">
+              <button type="button" class="btn btn-lg btn-link btn_history justify-content-end">
                 <i class="fas fa-history"></i>
               </button>
               <!-- <button type="button" data-toggle="modal" data-target="#zones_template" class="btn btn-lg btn-link btn_man_with_zones hidden justify-content-end">
