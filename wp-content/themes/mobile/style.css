@@ -986,23 +986,13 @@ button.close.history_close
 .elements_item img
 {
   width: 100%;
-  padding-bottom: 25px;
+  margin-bottom: 25px;
+  border: 2px solid #555;
+  border-radius: 50%;
 }
-.elements_item_1
+.elements_item:hover img
 {
-  /*background: url(img/element_1.png) top left/100% repeat-y;*/
-}
-.elements_item_2
-{
-  /*background: url(img/element_2.png) top left/100% repeat-y;*/
-}
-.elements_item_3
-{
-  /*background: url(img/element_3.png) top left/100% repeat-y;*/
-}
-.elements_item_4
-{
-  /*background: url(img/element_4.png) top left/100% repeat-y;*/
+  border-color: #f7b754;
 }
 @media (min-width: 600px) {
   .sweet-alert
