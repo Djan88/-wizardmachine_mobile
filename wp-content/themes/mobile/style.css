@@ -981,23 +981,23 @@ button.close.history_close
 }
 .elements_item
 {
-  height: 200px;
+  /*height: 200px;*/
 }
 .elements_item_1
 {
-  background: url(img/element_1.png) top left/100% repeat-y;
+  /*background: url(img/element_1.png) top left/100% repeat-y;*/
 }
 .elements_item_2
 {
-  background: url(img/element_2.png) top left/100% repeat-y;
+  /*background: url(img/element_2.png) top left/100% repeat-y;*/
 }
 .elements_item_3
 {
-  background: url(img/element_3.png) top left/100% repeat-y;
+  /*background: url(img/element_3.png) top left/100% repeat-y;*/
 }
 .elements_item_4
 {
-  background: url(img/element_4.png) top left/100% repeat-y;
+  /*background: url(img/element_4.png) top left/100% repeat-y;*/
 }
 @media (min-width: 600px) {
   .sweet-alert
