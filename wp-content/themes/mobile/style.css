@@ -148,6 +148,7 @@ div#recallbar, div#wpadminbar
 .for_print
 {
   display: none;
+  color: #777;
 }
 a.btn-link.btn_new_img
 {
