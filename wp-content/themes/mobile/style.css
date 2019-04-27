@@ -143,7 +143,7 @@ div#recallbar, div#wpadminbar
 }
 .btn-primary:hover
 {
-  background: #d15352;
+  /*background: #d15352;*/
 }
 a.btn-link.btn_new_img
 {
