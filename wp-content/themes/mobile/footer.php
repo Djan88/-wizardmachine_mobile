@@ -103,6 +103,7 @@
             <button data-html2canvas-ignore="true" type="button" class="close" data-dismiss="modal" aria-label="Close">
               <span aria-hidden="true">&times;</span>
             </button>
+            <h5 class="modal-title" id="history_item_modal_title for_print">применять 21 день</h5>
           </div>
           <div class="modal-body">
             <div class="row">
@@ -128,6 +129,9 @@
                 <div class="col-4">
                   <div class="history_item_modal_date"></div>
                 </div>
+              </div>
+              <div class="row for_print">
+                <div class="col" style="margin-top: 10px;text-align: center;">Рецепт создан в программе — <b>"TarotMachine"</b></div>
               </div>
             </div>
           </div>

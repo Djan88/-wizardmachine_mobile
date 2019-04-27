@@ -145,6 +145,10 @@ div#recallbar, div#wpadminbar
 {
   /*background: #d15352;*/
 }
+.for_print
+{
+  display: none;
+}
 a.btn-link.btn_new_img
 {
   color: #f96b47;
