@@ -585,7 +585,7 @@ span.menu_item_img
 }
 .zone_elem
 {
-  border-color: #fff;
+  border-color: #f7b754;
   left: 50px;
   top: 50px;
 }
@@ -594,13 +594,14 @@ span.menu_item_img
   content: '';
   position: absolute;
   font-size: 50px;
-  top: 5px;
-  left: 5px;
+  top: 7px;
+  left: 7px;
   line-height: 1;
   display: block;
-  width: 10px;
-  height: 10px;
+  width: 9px;
+  height: 9px;
   border-radius: 50%;
+  background: #f7b754;
 }
 .zone.zone_choiced
 {
