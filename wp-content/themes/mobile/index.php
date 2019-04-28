@@ -202,9 +202,6 @@
 				<div class="row protocols_info">
 					<div class="col text_center">
 						<div class="row">
-							<div class="col history-title">Выберите треугольник отличный от других</div>
-						</div>
-						<div class="row">
 							<div class="col-md-4 col-sm-6 offset-md-4 offset-sm-3">
 								<div class="row">
 									<div class="col elements_item elements_item_1">
