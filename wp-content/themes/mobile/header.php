@@ -35,7 +35,7 @@
             <div class="col-4 header-title">
               <?php if(is_user_logged_in()) { ?>
                 <?php if(current_user_can('contributor') || current_user_can('administrator')) { ?>
-                  Выберите режим
+                  "TarotMachine"
                 <?php } else { ?>
                   Приветствуем в "WizardTarot"
                 <?php } ?>
