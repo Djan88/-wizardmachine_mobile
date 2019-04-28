@@ -202,7 +202,7 @@
 				<div class="row protocols_info">
 					<div class="col text_center">
 						<div class="row">
-							<div class="col-md-4 col-sm-6 offset-md-4 offset-sm-3">
+							<div class="col-md-6">
 								<div class="row">
 									<div class="col elements_item elements_item_1">
 										<img src="<?php echo get_template_directory_uri(); ?>/img/element_1.png" alt="" class="card_img">
@@ -219,6 +219,9 @@
 										<img src="<?php echo get_template_directory_uri(); ?>/img/element_4.png" alt="" class="card_img">
 									</div>
 								</div>
+							</div>
+							<div class="col-md-6 hand_wrap">
+								<img src="" alt="hand" class="loaded_img">
 							</div>
 						</div>
 					</div>

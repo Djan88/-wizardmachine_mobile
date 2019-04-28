@@ -196,7 +196,8 @@ jQuery(document).ready(function () {
         jQuery('.clear_graph').addClass('hidden');
 
         jQuery('.zones_template').removeAttr('style');
-      } else {    
+      } else {
+        localStorage.removeItem('tarot_mode');
         jQuery(location).attr('href','/');
         session = 0;
       } 
