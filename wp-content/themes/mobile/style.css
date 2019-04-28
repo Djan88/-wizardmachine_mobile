@@ -154,6 +154,10 @@ div#recallbar, div#wpadminbar
 {
   padding-top: 80px;
 }
+.hand_wrap
+{
+  position: relative;
+}
 .hand_wrap img.loaded_img
 {
   padding-top: 80px;
@@ -571,7 +575,8 @@ span.menu_item_img
   position: absolute;
   top: 250px;
   margin: auto;
-  left: 40%;
+  left: 5px;
+  top: 5px;
   cursor: pointer;
   transition: transform linear 1s;
   overflow: hidden;
