@@ -284,7 +284,7 @@ jQuery(document).ready(function () {
   jQuery('.mode-item_protocol').on('click', function(event) {
     setTimeout(git_card_size, 1000);
 
-    if (croppedImg && croppedImg.hasAttribute('src')) {
+    if (croppedImg && croppedImg.hasAttribute('src') && tarot_mode == '1') {
       jQuery('.mobile_screen_what_way').addClass('hidden').css('display', 'none');
       jQuery('.mobile_screen_final').fadeIn(500);
       jQuery('.loaded_img').attr('src', jQuery('.cropped_img').attr('src'));
@@ -327,7 +327,7 @@ jQuery(document).ready(function () {
 
   // Elements choice
   jQuery('.mode-item_elements').on('click', function(event) {
-    if (croppedImg && croppedImg.hasAttribute('src')) {
+    if (croppedImg && croppedImg.hasAttribute('src') && tarot_mode == '2') {
       jQuery('.mobile_screen_what_way').addClass('hidden').css('display', 'none');
       jQuery('.mobile_screen_elements').fadeIn(500);
       jQuery('.loaded_img').attr('src', jQuery('.cropped_img').attr('src'));

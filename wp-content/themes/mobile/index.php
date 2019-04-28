@@ -202,7 +202,8 @@
 				<div class="row protocols_info">
 					<div class="col text_center">
 						<div class="row">
-							<div class="col-md-4 offset-md-1 elems_wrap">
+							<div class="col-md-1"></div>
+							<div class="col-md-4elems_wrap">
 								<div class="row">
 									<div class="col elements_item elements_item_1">
 										<img src="<?php echo get_template_directory_uri(); ?>/img/element_1.png" alt="" class="card_img">
@@ -219,6 +220,9 @@
 										<img src="<?php echo get_template_directory_uri(); ?>/img/element_4.png" alt="" class="card_img">
 									</div>
 								</div>
+							</div>
+							<div class="col-md-1 elem_zone_wrap">
+								<div class="zone_elem draggable">XXI</div>
 							</div>
 							<div class="col-md-6 hand_wrap">
 								<img src="" alt="hand" class="loaded_img">
