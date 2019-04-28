@@ -222,9 +222,10 @@
 								</div>
 							</div>
 							<div class="col-md-1 elem_zone_wrap">
-								<div class="zone_elem draggable"></div>
+								
 							</div>
 							<div class="col-md-6 hand_wrap">
+								<div class="zone_elem draggable"></div>
 								<img src="" alt="hand" class="loaded_img">
 							</div>
 						</div>
