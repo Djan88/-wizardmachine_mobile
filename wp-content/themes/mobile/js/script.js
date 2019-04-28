@@ -336,7 +336,7 @@ jQuery(document).ready(function () {
       jQuery('').removeClass('hidden');
       jQuery('.header-title').text('Перенесите зоны на фото ладони');
     } else {
-      jQuery('.header-title').text('Загрузите и отредактивуйте фото');
+      jQuery('.header-title').text('Сфотографируйте ладонь и загрузите фото');
       jQuery('.btn-to_img, .btn-to_protocols, .mobile_screen_what_way').addClass('hidden');
       jQuery('.btn-to_mode').removeClass('hidden');
       jQuery('.btn_history').addClass('hidden');
