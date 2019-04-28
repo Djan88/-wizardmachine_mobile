@@ -150,6 +150,14 @@ div#recallbar, div#wpadminbar
   display: none;
   color: #777;
 }
+.elems_wrap
+{
+  padding-top: 50px;
+}
+.hand_wrap img.loaded_img
+{
+  padding-top: 50px;
+}
 .protocols_item_img img
 {
   height: 100px;
