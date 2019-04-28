@@ -588,12 +588,13 @@ span.menu_item_img
   content: '';
   position: absolute;
   font-size: 50px;
-  top: -29px;
-  left: 5px;
+  top: 7px;
+  left: 7px;
   line-height: 1;
-  width: 5px;
-  height: 5px;
+  width: 9px;
+  height: 9px;
   display: block;
+  border-radius: 50%;
   background: #fff;
 }
 .zone.zone_choiced
