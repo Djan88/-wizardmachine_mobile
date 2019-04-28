@@ -161,6 +161,8 @@ div#recallbar, div#wpadminbar
 .hand_wrap img.loaded_img
 {
   padding-top: 80px;
+  width: 100%;
+  max-width: 500px;
 }
 .protocols_item_img img
 {
@@ -575,20 +577,24 @@ span.menu_item_img
   position: absolute;
   top: 250px;
   margin: auto;
-  left: 5px;
-  top: 5px;
+  left: 50px;
+  top: 50px;
   cursor: pointer;
   transition: transform linear 1s;
   overflow: hidden;
 }
 .zone_elem:after
 {
-  content: '.';
+  content: '';
   position: absolute;
   font-size: 50px;
   top: -29px;
   left: 5px;
   line-height: 1;
+  width: 5px;
+  height: 5px;
+  display: block;
+  background: #fff;
 }
 .zone.zone_choiced
 {
