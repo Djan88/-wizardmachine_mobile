@@ -367,7 +367,7 @@ jQuery(document).ready(function () {
     jQuery('.btn-back').removeClass('hidden');
     jQuery('.btn-to_img, .btn-paused, .btn-to_protocols, .btn-played, .btn-to_manual, .btn-to_endNow, .btn_history').addClass('hidden');
     jQuery('.btn-to_mode, .btn_man_with_zones, .btn_moon_day, .btn_start').removeClass('hidden');
-    jQuery('.header-title').text('Главное меню');
+    jQuery('.header-title').text('Перенесите зоны на фото');
     setTimeout(git_card_size, 1000);
   } else if (croppedImg && croppedImg.hasAttribute('src') && tarot_mode == '2') {
     jQuery('.mobile_screen_what_way').addClass('hidden').css('display', 'none');
