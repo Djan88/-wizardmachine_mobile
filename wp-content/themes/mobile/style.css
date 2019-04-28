@@ -578,7 +578,7 @@ span.menu_item_img
   top: 250px;
   margin: auto;
   left: 5px;
-  top: 5px;
+  top: 7px;
   cursor: pointer;
   transition: transform linear 1s;
   overflow: hidden;
@@ -591,12 +591,16 @@ span.menu_item_img
 }
 .zone_elem:after
 {
-  content: '.';
+  content: '';
   position: absolute;
   font-size: 50px;
-  top: -29px;
+  top: 5px;
   left: 5px;
   line-height: 1;
+  display: block;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
 }
 .zone.zone_choiced
 {
