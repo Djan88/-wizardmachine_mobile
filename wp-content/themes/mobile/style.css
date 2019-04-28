@@ -28,7 +28,7 @@ div#recallbar, div#wpadminbar
 }
 .header
 {
-  height: 70px;
+  min-height: 70px;
   color: #ceb6b8;
   background-color: #fff;
   /*background-image: url(img/bg.jpg);*/
@@ -152,11 +152,11 @@ div#recallbar, div#wpadminbar
 }
 .elems_wrap
 {
-  padding-top: 50px;
+  padding-top: 80px;
 }
 .hand_wrap img.loaded_img
 {
-  padding-top: 50px;
+  padding-top: 80px;
 }
 .protocols_item_img img
 {
