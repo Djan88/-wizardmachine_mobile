@@ -554,7 +554,7 @@ span.menu_item_img
 {
   transition: top linear 0.5s;
 }
-.zone 
+.zone, .zone_elem
 {
   z-index: 500;
   cursor: pointer;
@@ -569,10 +569,19 @@ span.menu_item_img
   font-size: 10px;
   font-weight: 500;
   position: absolute;
+  top: 250px;
   margin: auto;
   left: 40%;
   cursor: pointer;
   transition: transform linear 1s;
+}
+.zone_elem:after
+{
+  content: '.';
+  position: absolute;
+  font-size: 50px;
+  top: 5px;
+  left: 0;
 }
 .zone.zone_choiced
 {
