@@ -63,6 +63,7 @@
     <script src="<?php echo get_template_directory_uri(); ?>/js/protocols.js"></script>
     <script src="<?php echo get_template_directory_uri(); ?>/js/html2canvas.min.js"></script>
     <script src="<?php echo get_template_directory_uri(); ?>/js/master_of_reality.js"></script>
+    <script src="<?php echo get_template_directory_uri(); ?>/js/proelements.js"></script>
     <div class="modal" id="zones_template" tabindex="-1" role="dialog">
       <div class="modal-dialog" role="document">
         <div class="modal-content">

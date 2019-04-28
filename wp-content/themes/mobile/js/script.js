@@ -27,6 +27,7 @@ jQuery(document).ready(function () {
       line_drawing,
       timed_animation,
       zone_operated,
+      tarot_mode,
       git_card_size = function(){
         card_heigth = parseInt(jQuery('.card_solis').css('height'))/2;
         card_width = parseInt(jQuery('.card_solis').css('width'));
@@ -44,6 +45,7 @@ jQuery(document).ready(function () {
   jQuery('#menu').removeClass('hidden');
 
   croppedImg = jQuery('.protocols').children()[0];
+  tarot_mode = localStorage.getItem('tarot_mode');
 
   //Enable popovers;
   jQuery('[data-toggle="popover"]').popover();
@@ -281,14 +283,15 @@ jQuery(document).ready(function () {
 
   jQuery('.mode-item_protocol').on('click', function(event) {
     setTimeout(git_card_size, 1000);
+
     if (croppedImg && croppedImg.hasAttribute('src')) {
       jQuery('.mobile_screen_what_way').addClass('hidden').css('display', 'none');
       jQuery('.mobile_screen_final').fadeIn(500);
       jQuery('.loaded_img').attr('src', jQuery('.cropped_img').attr('src'));
       jQuery('.btn-back').removeClass('hidden');
       jQuery('.btn-to_img, .btn-paused, .btn-to_protocols, .btn-played, .btn-to_manual, .btn-to_endNow, .btn_history').addClass('hidden');
-      jQuery('.btn-to_mode, .btn_man_with_zones, .btn_moon_day, .btn_start, .btn_new_img').removeClass('hidden');
-      jQuery('.header-title').text('Перенесите зоны на фото');
+      jQuery('.btn-to_mode, .btn_man_with_zones, .btn_moon_day, .btn_start').removeClass('hidden');
+      jQuery('.header-title').text('Перенесите зоны на фото клиента');
 
       line_drawing();
     } else {
@@ -299,6 +302,7 @@ jQuery(document).ready(function () {
       jQuery('.mobile_screen_what_way').addClass('hidden').css('display', 'none');
       jQuery('.mobile_screen_load').fadeIn(500);
       jQuery('.zone_final').css('height', jQuery('.zone_final').css('width'));
+      localStorage.setItem('tarot_mode', '1');
     }
 
     // default position svg
@@ -320,13 +324,25 @@ jQuery(document).ready(function () {
     jQuery('.btn-to_img').addClass('hidden');
     jQuery('.btn-to_mode, .btn_history').removeClass('hidden');
   });
+
   // Elements choice
   jQuery('.mode-item_elements').on('click', function(event) {
-    jQuery('.header-title').text('Коррекция первоэлементов');
-    jQuery('.mobile_screen_what_way, .mobile_screen_load').addClass('hidden').css('display', 'none');
-    jQuery('.mobile_screen_elements').fadeIn(500);
-    jQuery('.btn-to_img, .btn_history').addClass('hidden');
-    jQuery('.btn-to_mode').removeClass('hidden');
+    if (croppedImg && croppedImg.hasAttribute('src')) {
+      jQuery('.mobile_screen_what_way').addClass('hidden').css('display', 'none');
+      jQuery('.mobile_screen_elements').fadeIn(500);
+      jQuery('.loaded_img').attr('src', jQuery('.cropped_img').attr('src'));
+      jQuery('.btn-back').removeClass('hidden');
+      jQuery('.btn-to_img, .btn-paused, .btn-to_protocols, .btn-played, .btn-to_manual, .btn-to_endNow, .btn_history').addClass('hidden');
+      jQuery('').removeClass('hidden');
+      jQuery('.header-title').text('Перенесите зоны на фото ладони');
+    } else {
+      jQuery('.header-title').text('Коррекция первоэлементов');
+      jQuery('.mobile_screen_what_way, .mobile_screen_load').addClass('hidden').css('display', 'none');
+      jQuery('.mobile_screen_elements').fadeIn(500);
+      jQuery('.btn-to_img, .btn_history').addClass('hidden');
+      jQuery('.btn-to_mode').removeClass('hidden');
+      localStorage.setItem('tarot_mode', '2');
+    }
   });
 
   // Protocol choice
@@ -339,30 +355,28 @@ jQuery(document).ready(function () {
     jQuery('.choice_protocol').removeClass('hidden');
   });
 
-  //new image
-  jQuery('.btn_new_img').on('click', function(event) {
-    jQuery('.mobile_screen_load').removeClass('hidden').css('display', 'block');
-    jQuery('.mobile_screen_final').addClass('hidden').css('display', 'none');
-    jQuery('.btn_protocols, .clear_graph, .btn_new_img, .btn_man_with_zones, .btn_moon_day, .btn_start').addClass('hidden');
-    jQuery('.btn-to_mode').removeClass('hidden');
-    jQuery('.cropped_img').detach();
-    croppedImg = undefined;
-  });
-
   //Hide img if already cropped
   jQuery('.cropped_img').addClass('hidden');
 
 
   // If img already download
-  if (croppedImg && croppedImg.hasAttribute('src')) { 
+  if (croppedImg && croppedImg.hasAttribute('src') && tarot_mode == '1') { 
     jQuery('.mobile_screen_what_way').addClass('hidden').css('display', 'none');
     jQuery('.mobile_screen_final').fadeIn(500);
     jQuery('.loaded_img').attr('src', jQuery('.cropped_img').attr('src'));
     jQuery('.btn-back').removeClass('hidden');
     jQuery('.btn-to_img, .btn-paused, .btn-to_protocols, .btn-played, .btn-to_manual, .btn-to_endNow, .btn_history').addClass('hidden');
-    jQuery('.btn-to_mode, .btn_man_with_zones, .btn_moon_day, .btn_start, .btn_new_img').removeClass('hidden');
+    jQuery('.btn-to_mode, .btn_man_with_zones, .btn_moon_day, .btn_start').removeClass('hidden');
     jQuery('.header-title').text('Главное меню');
     setTimeout(git_card_size, 1000);
+  } else if (croppedImg && croppedImg.hasAttribute('src') && tarot_mode == '2') {
+    jQuery('.mobile_screen_what_way').addClass('hidden').css('display', 'none');
+    jQuery('.mobile_screen_elements').fadeIn(500);
+    jQuery('.loaded_img').attr('src', jQuery('.cropped_img').attr('src'));
+    jQuery('.btn-back').removeClass('hidden');
+    jQuery('.btn-to_img, .btn-paused, .btn-to_protocols, .btn-played, .btn-to_manual, .btn-to_endNow, .btn_history').addClass('hidden');
+    jQuery('').removeClass('hidden');
+    jQuery('.header-title').text('Перенесите зоны на фото ладони');
   }
 
   // second crop btn
