@@ -204,7 +204,7 @@
 						<div class="row">
 							<div class="col"></div>
 							<div class="col-8 after_btns">
-								<button type="button" class="btn btn-success btn-lg btn_reset btn_reset_prot">Начать с начала</button>
+								<button type="button" class="btn btn-success btn-lg btn_reset btn_reset_prot hidden">Начать с начала</button>
 								<button type="button" class="btn btn-warning btn-lg save_history hidden">Сохранить рецепт</button>
 							</div>
 							<div class="col"></div>

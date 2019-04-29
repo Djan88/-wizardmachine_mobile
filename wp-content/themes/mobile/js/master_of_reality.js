@@ -148,6 +148,7 @@ cur_date = function(){
 // click on block
   jQuery('.marakata_sim_prot').on('click', function(event) {
     if (jQuery(this).hasClass('marakata_sim_from')&&jQuery(this).hasClass('marakata_sim-active')) {
+      jQuery('.btn_reset').removeClass('hidden');
       if (counter <= 9) {
         if (counter <= -1) {
           end_time = new Date();
@@ -208,6 +209,7 @@ cur_date = function(){
 
 // reset
   jQuery('.btn_reset').on('click', function(event) {
+    jQuery(this).removeClass('hidden');
     jQuery('.master_problem_wrapper, .master_cards_wrapper').addClass('shadow, hidden');
     jQuery('.problem_finish').text('?');
     jQuery('.problem_range').css('background', '#afb1b6');
