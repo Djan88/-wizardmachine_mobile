@@ -154,7 +154,21 @@
 								</div>
 							</div>
 						</div>
-						<div class="row">
+						<div class="row master_problem_wrapper shadow">
+							<div class="col">
+								<div class="problem_wrap">
+									<div class="row">
+										<div class="col-1 problem_me"></div>
+										<div class="col-9 problem_range">
+											<div class="problem_range_card draggable"></div>
+										</div>
+										<div class="col-2 problem_finish problem_finish_n">Намерение</div>
+										<div class="col-2 problem_finish problem_finish_d hidden">Действие</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="row master_cards_wrapper shadow">
 							<div class="col marakata_sim-wrap">
 								<div class="marakata_sim-inner">
 									<div class="marakata_sim marakata_sim_prot marakata_sim_from marakata_sim-1"></div>

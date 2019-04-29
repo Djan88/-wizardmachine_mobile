@@ -1034,6 +1034,24 @@ button.close.history_close
   border-color: #f7b754;
   box-shadow: 0 0rem 10px 12px rgba(0,0,0,.15)!important;
 }
+.shadow
+{
+  opacity: 0.3;
+}
+.problem_range_card
+{
+  width: 100px;
+  height: 180px;
+  background: url(img/cards/tarot_numbers/pents_.png) top left/100% repeat-y;
+}
+.problem_range_card.problem_range_card_n
+{
+  background: url(img/cards/tarot_numbers/wands01.png) top left/100% repeat-y;
+}
+.problem_range_card.problem_range_card_d
+{
+  background: url(img/cards/tarot_numbers/swords01.png) top left/100% repeat-y;
+}
 @media (min-width: 600px) {
   .sweet-alert
   {
