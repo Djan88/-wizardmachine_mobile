@@ -92,7 +92,7 @@ jQuery( ".problem_range_card" ).draggable({
     containment: '.problem_range',
     axis: "x",
     drag: function() {
-      if (jQuery('.master_problem_wrapper').hasClass('hidden')) {
+      if (jQuery('.master_problem_wrapper').css('display') == 'none') {
         swal("Намерение или действие?", "Нажмите на соответствующую кнопку", "info");
       } else {
         jQuery('.master_cards_wrapper').fadeIn(500);
