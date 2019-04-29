@@ -1046,11 +1046,11 @@ button.close.history_close
 }
 .problem_range_card.problem_range_card_n
 {
-  background: url(img/cards/tarot_numbers/wands01.png) top left/100% repeat-y;
+  background: url(img/cards/tarot_numbers/wands01.png) top left/100% repeat-y!important;
 }
 .problem_range_card.problem_range_card_d
 {
-  background: url(img/cards/tarot_numbers/swords01.png) top left/100% repeat-y;
+  background: url(img/cards/tarot_numbers/swords01.png) top left/100% repeat-y!important;
 }
 @media (min-width: 600px) {
   .sweet-alert
