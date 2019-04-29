@@ -90,9 +90,20 @@ if (!history_returned) {
 jQuery( ".problem_range_card" ).draggable({
     snap: false,
     containment: '.problem_range',
-    axis: "x"
+    axis: "x",
+    drag: function() {
+      if (jQuery('.master_problem_wrapper').hasClass('shadow')) {
+        swal("Намерение или действие?", "Нажмите на соответствующую кнопку", "info");
+      } else {
+        jQuery('.master_cards_wrapper').removeClass('shadow, hidden');
+      }
+    }
 });
 
+// proble diagnostic
+jQuery( ".problem_range_card" ).on('click', function(event) {
+  
+});
 
 // get current date
 cur_date = function(){
@@ -190,14 +201,14 @@ cur_date = function(){
       if ("type" in history_item) {
         
       } else {
-        swal("Намерение или действие?", "Перед началом сессии сделайте выбор", "info");
+        swal("Намерение или действие?", "Нажмите на соответствующую кнопку", "info");
       }
     }
   });
 
 // reset
   jQuery('.btn_reset').on('click', function(event) {
-    jQuery('.master_problem_wrapper, .master_cards_wrapper').addClass('shadow');
+    jQuery('.master_problem_wrapper, .master_cards_wrapper').addClass('shadow, hidden');
     jQuery('.problem_finish').text('?');
     jQuery('.problem_range').css('background', '#afb1b6');
     jQuery('.problem_range_card').removeClass('problem_range_card_d, problem_range_card_n');
@@ -340,7 +351,7 @@ cur_date = function(){
 
   // choice type of cards
   jQuery('.btn_tarot_type').on('click', function(event) {
-    jQuery('.master_problem_wrapper').removeClass('shadow');
+    jQuery('.master_problem_wrapper').removeClass('shadow, hidden');
     jQuery('.problem_range, .problem_finish').css('background', jQuery(this).css('background'));
     jQuery('.marakata_sim-1').addClass('marakata_sim-active');
     jQuery('.btn_tarot_type').removeClass('active');
