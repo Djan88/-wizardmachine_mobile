@@ -163,8 +163,7 @@
 											<div class="problem_range_card problem_range_card_neutral draggable"></div>
 										</div>
 										<div class="col-2">
-											<div class="problem_finish problem_finish_n">Намерение</div>
-											<div class="problem_finish problem_finish_d hidden">Действие</div>
+											<div class="problem_finish">?</div>
 										</div>
 									</div>
 								</div>

@@ -1071,15 +1071,15 @@ button.close.history_close
 }
 .problem_finish
 {
-  padding: 0; 
-}
-.problem_finish_n
-{
-  background: #bd2030;
-}
-.problem_finish_d
-{
-  background: #007bff;
+  background: #323239;
+  color: #fff;
+  padding: 48px 0 0;
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  text-transform: uppercase;
+  font-weight: 500;
+  margin-top: -14px;
 }
 .problem_me
 {
