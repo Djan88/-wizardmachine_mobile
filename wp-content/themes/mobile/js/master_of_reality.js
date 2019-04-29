@@ -212,7 +212,7 @@ cur_date = function(){
 
 // reset
   jQuery('.btn_reset').on('click', function(event) {
-    jQuery(this).removeClass('hidden');
+    jQuery(this).addClass('hidden');
     jQuery('.master_problem_wrapper, .master_cards_wrapper').addClass('shadow hidden');
     jQuery('.problem_finish').text('?');
     jQuery('.problem_range').css('background', '#afb1b6');
