@@ -95,9 +95,7 @@ jQuery( ".problem_range_card" ).draggable({
       if (jQuery('.master_problem_wrapper').css('display') == 'none') {
         swal("Намерение или действие?", "Нажмите на соответствующую кнопку", "info");
       } else {
-        jQuery('.master_cards_wrapper').fadeIn( 500, function() {
-          jQuery('.master_cards_wrapper').removeAttr('style');
-        });
+        jQuery('.master_cards_wrapper').fadeIn(500);
       }
     }
 });
