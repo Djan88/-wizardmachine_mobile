@@ -1052,6 +1052,10 @@ button.close.history_close
 {
   background-position-y: 0px;
 }
+.master_problem_wrapper 
+{
+  background: #fff;
+}
 @media (min-width: 600px) {
   .sweet-alert
   {
