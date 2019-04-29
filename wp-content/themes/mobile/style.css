@@ -1041,6 +1041,7 @@ button.close.history_close
 .problem_range 
 {
   background: #afb1b6;
+  transition: all 0.5s linear
   height: 10px;
   padding: 0;
   margin-top: 40px;
@@ -1052,28 +1053,38 @@ button.close.history_close
 {
   width: 75px;
   height: 135px;
+  background-position-y: 0px;
   background: url(img/cards/tarot_numbers/card_problem.png) top left/100% repeat-y;
   top: -60px!important;
 }
 .problem_range_card.problem_range_card_n
 {
-  background-position-y: 0px;
+  background-position-y: -136px;
 }
 .problem_range_card.problem_range_card_d
 {
-  background-position-y: 0px;
+  background-position-y: -272px;
 }
 .master_problem_wrapper 
 {
-  background: #fff;
+  /*background: #fff;*/
 }
 .problem_finish
 {
   padding: 0; 
 }
+.problem_finish_n
+{
+  background: #bd2030;
+}
+.problem_finish_d
+{
+  background: #007bff;
+}
 .problem_me
 {
-  color: #555;
+  font-size: 65px;
+  text-align: right;
 }
 @media (min-width: 600px) {
   .sweet-alert

@@ -198,6 +198,7 @@ cur_date = function(){
 // reset
   jQuery('.btn_reset').on('click', function(event) {
     jQuery('.master_problem_wrapper, .master_cards_wrapper').addClass('shadow');
+    jQuery('.problem_range').css('background', '#afb1b6');
     jQuery('.problem_range_card').removeClass('problem_range_card_d, problem_range_card_n');
     jQuery('.marakata_sim').css('marginTop', '0px');
     jQuery('.marakata_sim_prot').addClass('marakata_sim_from');
@@ -339,6 +340,7 @@ cur_date = function(){
   // choice type of cards
   jQuery('.btn_tarot_type').on('click', function(event) {
     jQuery('.master_problem_wrapper').removeClass('shadow');
+    jQuery('.problem_range').css('background', jQuery(this).css('background'));
     jQuery('.marakata_sim-1').addClass('marakata_sim-active');
     jQuery('.btn_tarot_type').removeClass('active');
     jQuery(this).addClass('active')
