@@ -154,7 +154,7 @@
 								</div>
 							</div>
 						</div>
-						<div class="row master_problem_wrapper hidden">
+						<div class="row master_problem_wrapper shadow hidden">
 							<div class="col-8 offset-md-2">
 								<div class="problem_wrap">
 									<div class="row">
@@ -169,7 +169,7 @@
 								</div>
 							</div>
 						</div>
-						<div class="row master_cards_wrapper hidden">
+						<div class="row master_cards_wrapper shadow hidden">
 							<div class="col marakata_sim-wrap">
 								<div class="marakata_sim-inner">
 									<div class="marakata_sim marakata_sim_prot marakata_sim_from marakata_sim-1"></div>

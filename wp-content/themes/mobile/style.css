@@ -1034,6 +1034,14 @@ button.close.history_close
   border-color: #f7b754;
   box-shadow: 0 0rem 10px 12px rgba(0,0,0,.15)!important;
 }
+.master_cards_wrapper
+{
+  opacity: 1;
+}
+.shadow
+{
+  opacity: 0.3;
+}
 .problem_range 
 {
   background: #afb1b6;
