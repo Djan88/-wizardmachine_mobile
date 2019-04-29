@@ -126,6 +126,7 @@ cur_date = function(){
 }
 // width of block
   cur_window_width = function(){
+    jQuery('.master_cards_wrapper').removeClass('hidden');
     block_w = parseFloat(jQuery(".marakata_sim.marakata_sim_prot").css('width'));
     page_h = jQuery("html").width();
     jQuery('.marakata_sim-wrap, .marakata_dot').height(block_w * 1.8+'px');
@@ -135,6 +136,7 @@ cur_date = function(){
     } else {
       scroll_val = block_w * 1.8;
     }
+    jQuery('.master_cards_wrapper').addClass('hidden');
   };
 
   // onload
