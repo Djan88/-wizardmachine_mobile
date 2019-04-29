@@ -155,15 +155,15 @@
 							</div>
 						</div>
 						<div class="row master_problem_wrapper shadow">
-							<div class="col">
+							<div class="col-8 offset-md-2">
 								<div class="problem_wrap">
 									<div class="row">
-										<div class="col-1 problem_me"><i class="fas fa-male"></i></div>
-										<div class="col-10 problem_range">
+										<div class="col-2 problem_me"><i class="fas fa-male"></i></div>
+										<div class="col-8 problem_range">
 											<div class="problem_range_card problem_range_card_neutral draggable"></div>
 										</div>
-										<div class="col-1 problem_finish problem_finish_n">Намерение</div>
-										<div class="col-1 problem_finish problem_finish_d hidden">Действие</div>
+										<div class="col-2 problem_finish problem_finish_n">Намерение</div>
+										<div class="col-2 problem_finish problem_finish_d hidden">Действие</div>
 									</div>
 								</div>
 							</div>
