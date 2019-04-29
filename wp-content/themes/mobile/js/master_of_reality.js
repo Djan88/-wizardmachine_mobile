@@ -91,7 +91,7 @@ jQuery( ".problem_range_card" ).draggable({
     snap: false,
     containment: '.problem_range',
     axis: "x",
-    start: function() {
+    stop: function() {
       cur_window_width();
       if (jQuery('.master_problem_wrapper').hasClass('shadow')) {
         swal("Намерение или действие?", "Нажмите на соответствующую кнопку", "info");
