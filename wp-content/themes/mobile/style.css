@@ -1060,6 +1060,7 @@ button.close.history_close
   background-position-y: 0px;
   background: url(img/cards/tarot_numbers/card_problem.png) top left/100% repeat-y;
   top: -60px!important;
+  transition: left 0.05s linear;
 }
 .problem_range_card.problem_range_card_n
 {
