@@ -1034,11 +1034,6 @@ button.close.history_close
   border-color: #f7b754;
   box-shadow: 0 0rem 10px 12px rgba(0,0,0,.15)!important;
 }
-.master_cards_wrapper, .master_problem_wrapper
-{
-  transition: all 0.5s linear;
-  opacity: 1;
-}
 .problem_range 
 {
   background: #afb1b6;
