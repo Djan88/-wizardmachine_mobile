@@ -1056,6 +1056,14 @@ button.close.history_close
 {
   background: #fff;
 }
+.problem_finish
+{
+  padding: 0; 
+}
+.problem_me
+{
+  color: #555;
+}
 @media (min-width: 600px) {
   .sweet-alert
   {
