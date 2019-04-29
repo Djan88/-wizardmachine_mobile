@@ -160,7 +160,7 @@
 									<div class="row">
 										<div class="col-1 problem_me"></div>
 										<div class="col-9 problem_range">
-											<div class="problem_range_card draggable"></div>
+											<div class="problem_range_card problem_range_card_neutral draggable"></div>
 										</div>
 										<div class="col-2 problem_finish problem_finish_n">Намерение</div>
 										<div class="col-2 problem_finish problem_finish_d hidden">Действие</div>
