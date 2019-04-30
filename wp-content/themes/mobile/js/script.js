@@ -247,7 +247,7 @@ jQuery(document).ready(function () {
     jQuery('.btn-to_mode, .btn_protocol, .btn_protocols, .clear_graph, .btn_man_with_zones, .btn_start, .btn_moon_day').addClass('hidden');
     jQuery('.btn_history').removeClass('hidden');
     jQuery('.mobile_screen_what_way').fadeIn(500);
-    jQuery('.header-title').text('"TarotMachine"');
+    jQuery('.header-title').text('TarotMachine');
     jQuery('.zones_template').removeAttr('style');
   });
 
