@@ -160,7 +160,7 @@
 									<div class="row">
 										<div class="col-2 problem_me"><i class="fas fa-male"></i></div>
 										<div class="col-8 problem_range">
-											<div class="problem_range_card draggable"></div>
+											<div class="problem_range_card problem_range_card_neutral draggable"></div>
 										</div>
 										<div class="col-2">
 											<div class="problem_finish">?</div>
