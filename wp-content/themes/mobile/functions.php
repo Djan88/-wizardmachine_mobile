@@ -18,6 +18,15 @@ function kama_login_redirect(){
     }
 }
 
+add_filter("login_redirect", "sp_login_redirect", 10, 3);
+
+function sp_login_redirect($redirect_to, $request, $user){
+    if(is_array($user->roles))
+        if(in_array('administrator', $user->roles))
+            return home_url('/wp-admin/');
+    return home_url();
+}
+
 //fix for cookie error while login.
 setcookie(TEST_COOKIE, 'WP Cookie check', 0, COOKIEPATH, COOKIE_DOMAIN); 
 if ( SITECOOKIEPATH != COOKIEPATH ) 
