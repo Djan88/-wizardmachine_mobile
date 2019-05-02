@@ -50,6 +50,8 @@ jQuery(document).ready(function () {
   //Enable popovers;
   jQuery('[data-toggle="popover"]').popover();
 
+  jQuery('.form-group-inner').css('width', jQuery('.form-group_login').css('width'));
+
   //line_drawing
 
   line_drawing = function(){
