@@ -141,7 +141,6 @@ cur_date = function(){
   };
 
   // onload
-  jQuery('.form-group-inner').css('width', jQuery('.form-group_login').css('width'));
   jQuery('.mode-item_manual').on('click', function(event) {
     cur_window_width();
     jQuery('.btn_return').addClass('hidden');
@@ -426,7 +425,7 @@ cur_date = function(){
     jQuery('#history_canvas').detach();
   });
 
-
+jQuery('.form-group-inner').css('width', jQuery('.form-group_login').css('width'));
 // TODO
 
 });
