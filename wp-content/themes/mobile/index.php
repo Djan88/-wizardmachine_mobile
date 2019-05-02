@@ -512,8 +512,10 @@
 					    <p>
 					      <label for="user_login"><?php _e('Username') ?><br />
 					      <input type="text" name="log" id="user_login" class="input form-control" value="<?php echo esc_attr($user_login); ?>" size="20" /></label>
-					      <label for="user_pass"><?php _e('Password') ?><br />
-					      <input type="password" name="pwd" id="user_pass" class="input form-control" value="" size="20" /></label>
+					    </p>
+					    <p>
+					    	<label for="user_pass"><?php _e('Password') ?><br />
+					    	<input type="password" name="pwd" id="user_pass" class="input form-control" value="" size="20" /></label>
 					    </p>
 					    <?php
 					    /**
@@ -552,9 +554,11 @@
 					    <p>
 					      <label for="user_login">Придумайте логин<br />
 					      <input type="text" name="user_login" id="user_login" class="input form-control" value="" size="20" style=""></label>
-					      <label for="user_email">E-mail<br>
-					      <input type="email" name="user_email" id="user_email" class="input form-control" value="" size="25">
-					      </label>
+					    </p>
+					    <p>
+					    	<label for="user_email">E-mail<br>
+					    	<input type="email" name="user_email" id="user_email" class="input form-control" value="" size="25">
+					    	</label>
 					    </p>
 					    <p id="reg_passmail">Подтверждение регистрации будет отправлено на ваш e-mail.</p>
 					    <br class="clear">
