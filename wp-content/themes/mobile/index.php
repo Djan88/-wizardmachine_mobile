@@ -192,7 +192,7 @@
 							</div>
 							<div class="col marakata_sim-wrap">
 								<div class="marakata_sim-inner">
-									<div class="marakata_dot">.</div>
+									<div class="marakata_dot"></div>
 								</div>
 							</div>
 							<div class="col marakata_sim-wrap">

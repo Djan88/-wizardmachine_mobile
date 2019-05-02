@@ -10,6 +10,7 @@ jQuery(document).ready(function () {
       end_time,
       max_time = 0,
       curTrY,
+      cur_type,
       history_returned = JSON.parse(localStorage.getItem('history')),
       history_type,
       supportsStorage = function(){
@@ -130,14 +131,19 @@ cur_date = function(){
     jQuery('.master_cards_wrapper').removeClass('hidden');
     block_w = parseFloat(jQuery(".marakata_sim.marakata_sim_prot").css('width'));
     page_h = jQuery("html").width();
-    jQuery('.marakata_sim-wrap, .marakata_dot').height(block_w * 1.8+'px');
-    jQuery('.marakata_sim_prot').height(block_w * 1.8 * 10 +'px');
+    jQuery('.marakata_sim-wrap').height(block_w * 1.8+'px');
+    jQuery('.marakata_sim_prot, .marakata_dot').height(block_w * 1.8 * 10 +'px');
     if (page_h < 1150) {
       scroll_val = block_w * 1.79;
     } else {
       scroll_val = block_w * 1.8;
     }
     jQuery('.master_cards_wrapper').addClass('hidden');
+    if (cur_type == 'wands') {
+      jQuery('.marakata_dot').css('backgroundPositionY', scroll_val * 2 + 'px');
+    } else {
+      jQuery('.marakata_dot').css('backgroundPositionY', scroll_val * 3 + 'px');
+    }
   };
 
   // onload
@@ -365,12 +371,14 @@ cur_date = function(){
     jQuery('.marakata_sim_prot').removeClass('marakata_sim_pents marakata_sim_wands marakata_sim_cups marakata_sim_swords');
     jQuery('.problem_range_card').removeClass('problem_range_card_d problem_range_card_n');
     history_item.type = jQuery(this).data('type');
+    cur_type = jQuery(this).data('type');
     console.log(history_item);
     if (jQuery(this).data('type') == 'pents') {
       jQuery('.marakata_sim_prot').addClass('marakata_sim_pents');
     } else if (jQuery(this).data('type') == 'wands') {
       jQuery('.marakata_sim_prot').addClass('marakata_sim_wands');
       jQuery('.problem_range_card').addClass('problem_range_card_n');
+      jQuery('.marakata_dot').css('backgroundPositionY', );
       jQuery('.problem_finish').text('Намерение');
     } else if (jQuery(this).data('type') == 'cups') {
       jQuery('.marakata_sim_prot').addClass('marakata_sim_cups');
