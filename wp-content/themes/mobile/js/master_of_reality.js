@@ -93,12 +93,12 @@ jQuery( ".problem_range_card" ).draggable({
     containment: '.problem_range',
     axis: "x",
     stop: function() {
+      cur_window_width();
       if (jQuery('.master_problem_wrapper').hasClass('shadow')) {
         swal("Намерение или действие?", "Нажмите на соответствующую кнопку", "info");
       } else {
         jQuery('.master_cards_wrapper').removeClass('shadow hidden');
       }
-      cur_window_width();
     }
 });
 
@@ -138,7 +138,6 @@ cur_date = function(){
     } else {
       scroll_val = block_w * 1.8;
     }
-    jQuery('.master_cards_wrapper, .master_problem_wrapper, .btn_reset_prot, .save_history').addClass('hidden');
     if (cur_type == 'wands') {
       jQuery('.marakata_dot').css('backgroundPositionY', scroll_val * 2 + 'px');
     } else {
@@ -153,6 +152,7 @@ cur_date = function(){
   });
   jQuery(window).on('resize', function(event) {
     cur_window_width();
+    jQuery('.master_cards_wrapper, .master_problem_wrapper, .btn_reset_prot, .save_history').addClass('hidden');
   });
 
 // click on block
