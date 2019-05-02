@@ -1100,7 +1100,7 @@ button.close.history_close
 {
   position: relative;
 }
-.form-group_inner 
+.form-group-inner 
 {
   height: 300px;
   position: fixed;
@@ -1136,7 +1136,7 @@ pre
   {
     position: static;
   }
-  .form-group_inner
+  .form-group-inner
   {
     position: static;
   }
