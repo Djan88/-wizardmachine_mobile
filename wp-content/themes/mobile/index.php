@@ -503,7 +503,7 @@
 
 		<?php } else { ?>
 			<div class="row">
-				<div class="col-md-5 col-xs-12 protocols_info text_center form-group form-group_login">
+				<div class="col-md-3 col-xs-12 protocols_info text_center form-group form-group_login">
 					<div class="form-group-inner">
 						<div class="current_protocol_img">
 							<i class="fas fa-lock"></i>
@@ -545,7 +545,7 @@
 					  </form>
 					</div>
 				</div>
-				<div class="col-md-5 col-xs-12 protocols_info text_center form-group form-group_register hidden">
+				<div class="col-md-3 col-xs-12 protocols_info text_center form-group form-group_register hidden">
 					<div class="form-group-inner">
 						<div class="current_protocol_img">
 							<i class="fas fa-lock"></i>
@@ -568,7 +568,7 @@
 					  </form>
 					</div>
 				</div>
-				<div class="col-md-7 col-xs-12 start_info">
+				<div class="col-md-9 col-xs-12 start_info">
 					<h4>Что такое «TarotMachine»?</h4>
 					<p><b>«TarotMachine»</b> - это интерактивный вебпроект для диагностики и коррекции индивидуальных личностных и психосоматических проблем.</p>
 					<p>Работа осуществляется по цифровой фотографии клиента.<br>Для эффективной работы в проекте TarotMachine оператору необходимо овладеть специальными навыками, изложенными в книге Ю.В. Чикурова <b>«Практическая психосоматика»</b>, а также пройти базовый учебный онлайн-курс <b>«Лечебное Tarot»</b> на <a target="_blank" href="https://school-bc.ru">school-bc.ru</a></p>
