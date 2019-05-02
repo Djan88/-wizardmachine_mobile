@@ -30,8 +30,7 @@ function sp_login_redirect($redirect_to, $request, $user){
 //fix for cookie error while login.
 setcookie(TEST_COOKIE, 'WP Cookie check', 0, COOKIEPATH, COOKIE_DOMAIN); 
 if ( SITECOOKIEPATH != COOKIEPATH ) 
-setcookie(TEST_COOKIE, 'WP Cookie check', 0, SITECOOKIEPATH, COOKIE_DOMAIN); 
-//Источник: http:jkeks.ru/jkeks.ru/archives/8175
+setcookie(TEST_COOKIE, 'WP Cookie check', 0, SITECOOKIEPATH, COOKIE_DOMAIN); Источник: http://jkeks.ru/jkeks.ru/archives/8175
 
 /* Отключаем админ панель для всех, кроме администраторов. */
 if (!current_user_can('administrator')):
