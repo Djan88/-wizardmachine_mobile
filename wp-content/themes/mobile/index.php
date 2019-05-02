@@ -504,76 +504,78 @@
 		<?php } else { ?>
 			<div class="row">
 				<div class="col-md-5 col-xs-12 protocols_info text_center form-group form-group_login">
-					<div class="current_protocol_img">
-						<i class="fas fa-lock"></i>
+					<div class="form-group-inner">
+						<div class="current_protocol_img">
+							<i class="fas fa-lock"></i>
+						</div>
+					  <form name="loginform" id="loginform" action="<?php echo esc_url( site_url( 'wp-login.php', 'login_post' ) ); ?>" method="post">
+					    <p>
+					      <label for="user_login"><?php _e('Username') ?><br />
+					      <input type="text" name="log" id="user_login" class="input form-control" value="<?php echo esc_attr($user_login); ?>" size="20" /></label>
+					      <label for="user_pass"><?php _e('Password') ?><br />
+					      <input type="password" name="pwd" id="user_pass" class="input form-control" value="" size="20" /></label>
+					    </p>
+					    <?php
+					    /**
+					     * Fires following the 'Password' field in the login form.
+					     *
+					     * @since 2.1.0
+					     */
+					    do_action( 'login_form' );
+					    ?>
+					    <!-- <p class="note_small">Что бы получить доступ </p> -->
+					    <p class="forgetmenot"><label class="form-check-label" for="rememberme"><input class="form-check-input" name="rememberme" type="checkbox" id="rememberme" value="forever" <?php checked( $rememberme ); ?> /> <?php esc_attr_e('Remember Me'); ?></label></p>
+					    <p class="submit">
+					      <input type="submit" name="wp-submit" id="wp-submit" class="btn btn-primary" value="<?php esc_attr_e('Log In'); ?>" />
+					<?php if ( $interim_login ) { ?>
+					      <input type="hidden" name="interim-login" value="1" />
+					<?php } else { ?>
+					      <input type="hidden" name="redirect_to" value="<?php echo esc_attr($redirect_to); ?>" />
+					<?php } ?>
+					<?php if ( $customize_login ) : ?>
+					      <input type="hidden" name="customize-login" value="1" />
+					<?php endif; ?>
+					      <input type="hidden" name="testcookie" value="1" />
+					    </p>
+					    <p>
+					    	<p class="note_small hidden">У Вас еще нет учетной записи? <span class="toRegistration">Зарегистрируйтесь</span> в "TarotMachine" и узнайте как получить доступ</p>
+					    </p>
+					  </form>
 					</div>
-				  <form name="loginform" id="loginform" action="<?php echo esc_url( site_url( 'wp-login.php', 'login_post' ) ); ?>" method="post">
-				    <p>
-				      <label for="user_login"><?php _e('Username') ?><br />
-				      <input type="text" name="log" id="user_login" class="input form-control" value="<?php echo esc_attr($user_login); ?>" size="20" /></label>
-				      <label for="user_pass"><?php _e('Password') ?><br />
-				      <input type="password" name="pwd" id="user_pass" class="input form-control" value="" size="20" /></label>
-				    </p>
-				    <?php
-				    /**
-				     * Fires following the 'Password' field in the login form.
-				     *
-				     * @since 2.1.0
-				     */
-				    do_action( 'login_form' );
-				    ?>
-				    <!-- <p class="note_small">Что бы получить доступ </p> -->
-				    <p class="forgetmenot"><label class="form-check-label" for="rememberme"><input class="form-check-input" name="rememberme" type="checkbox" id="rememberme" value="forever" <?php checked( $rememberme ); ?> /> <?php esc_attr_e('Remember Me'); ?></label></p>
-				    <p class="submit">
-				      <input type="submit" name="wp-submit" id="wp-submit" class="btn btn-primary" value="<?php esc_attr_e('Log In'); ?>" />
-				<?php if ( $interim_login ) { ?>
-				      <input type="hidden" name="interim-login" value="1" />
-				<?php } else { ?>
-				      <input type="hidden" name="redirect_to" value="<?php echo esc_attr($redirect_to); ?>" />
-				<?php } ?>
-				<?php if ( $customize_login ) : ?>
-				      <input type="hidden" name="customize-login" value="1" />
-				<?php endif; ?>
-				      <input type="hidden" name="testcookie" value="1" />
-				    </p>
-				    <p>
-				    	<p class="note_small hidden">У Вас еще нет учетной записи? <span class="toRegistration">Зарегистрируйтесь</span> в "TarotMachine" и узнайте как получить доступ</p>
-				    </p>
-				  </form>
 				</div>
 				<div class="col-md-5 col-xs-12 protocols_info text_center form-group form-group_register hidden">
-					<div class="current_protocol_img">
-						<i class="fas fa-lock"></i>
+					<div class="form-group-inner">
+						<div class="current_protocol_img">
+							<i class="fas fa-lock"></i>
+						</div>
+					  <form name="registerform" id="registerform" action="<?php echo site_url('wp-login.php?action=register'); ?>" method="post">
+					    <p>
+					      <label for="user_login">Придумайте логин<br />
+					      <input type="text" name="user_login" id="user_login" class="input form-control" value="" size="20" style=""></label>
+					      <label for="user_email">E-mail<br>
+					      <input type="email" name="user_email" id="user_email" class="input form-control" value="" size="25">
+					      </label>
+					    </p>
+					    <p id="reg_passmail">Подтверждение регистрации будет отправлено на ваш e-mail.</p>
+					    <br class="clear">
+					    <input type="hidden" name="redirect_to" value="">
+					    <p class="submit"><input type="submit" name="wp-submit" id="wp-submit" class="btn btn-primary" value="Регистрация"></p>
+					    <p class="note_small">У Вас уже есть учетная запись? <span class="toLogin">Войдите</span> в "TarotMachine" используя свои логин и пароль</p>
+					  </form>
 					</div>
-				  <form name="registerform" id="registerform" action="<?php echo site_url('wp-login.php?action=register'); ?>" method="post">
-				    <p>
-				      <label for="user_login">Придумайте логин<br />
-				      <input type="text" name="user_login" id="user_login" class="input form-control" value="" size="20" style=""></label>
-				      <label for="user_email">E-mail<br>
-				      <input type="email" name="user_email" id="user_email" class="input form-control" value="" size="25">
-				      </label>
-				    </p>
-				    <p id="reg_passmail">Подтверждение регистрации будет отправлено на ваш e-mail.</p>
-				    <br class="clear">
-				    <input type="hidden" name="redirect_to" value="">
-				    <p class="submit"><input type="submit" name="wp-submit" id="wp-submit" class="btn btn-primary" value="Регистрация"></p>
-				    <p class="note_small">У Вас уже есть учетная запись? <span class="toLogin">Войдите</span> в "TarotMachine" используя свои логин и пароль</p>
-				  </form>
 				</div>
 				<div class="col-md-7 col-xs-12 start_info">
-					<div class="start_info_inner">
-						<h4>Что такое «TarotMachine»?</h4>
-						<p>«TarotMachine» - это интерактивный вебпроект для диагностики и коррекции индивидуальных личностных и психосоматических проблем.</p>
-						<p>Работа осуществляется по цифровой фотографии клиента.<br>Для эффективной работы в проекте TarotMachine оператору необходимо овладеть специальными навыками, изложенными в книге Ю.В. Чикурова <b>«Практическая психосоматика»</b>, а также пройти базовый учебный онлайн-курс <b>«Лечебное Tarot»</b> на <a target="_blank" href="https://school-bc.ru">school-bc.ru</a></p>
-						<p>Настоящая программа существует более 5 лет, в начале 2019 года она подверглась существенной переработке и модернизации. Пользователю предлагается 4 основных режима работы: <b>«Классический протокол Tarot»</b>; <b>«Первоэлементы Tarot»</b>, <b>«Мастер реальности Tarot»</b>, а также <b>«Значение карт Tarot»</b>.</p>
-						<h4>Как получить доступ и сколько это стоит?</h4>
-						<p>Программа <b>«TarotMachine»</b> обладает исчерпывающим функционалом для коррекции индивидуальных личностных и психосоматических проблем из коробки, иначе говоря, весь необходимый для успешной работы функционал Вы найдете в этой программе.<br>Успешное применение данных техник требует от пользоватиля четкое представление о роли системы Таро в схеме мироздания а так же прохождение обучения по правилам пользования программой.</p>
-						<p>Доступ могут получить пользователи прошедшие базовый учебный онлайн-курс <b>«Лечебное Tarot»</b> дающий представление о работе с Таро в рамках «Биологического Центрирования», а так же продвинутый учебный курс <b>«TarotMachine — Мастер Реальности» позволяющий в совершенстве освоить программу «TarotMachine» и успешно применять ее на практике.</b></p>
-						<p>Стоимость курса <b>«TarotMachine — Мастер Реальности»</b> — <b>35 000 руб.</b><br>В эту стоимость входит месячный обучающий курс по работе с программой «TarotMachine» и годовой доступ к самой программе. В дальнейшем, продление доступа на 2-й год и последующие будет стоить <b>25 000 руб. Оплату можно будет производить из личного кабинета пользователя. Достпно несколько способов оплаты, включая оплату Банковской Картой.</b></p>
-						<p>Узнать дату начала ближайшего курса Вы можете на <a target="_blank" href="https://school-bc.ru">school-bc.ru</a></p>
-						<h4>Юридическая информация</h4>
-						<p><a href="mailto:info@chikurov.com">info@chikurov.com</a><br><pre>+7 (495) 135-25-48</pre><br>ОГРНИП: 314910224600336<br>ИНН: 7706092528</p>
-					</div>
+					<h4>Что такое «TarotMachine»?</h4>
+					<p><b>«TarotMachine»</b> - это интерактивный вебпроект для диагностики и коррекции индивидуальных личностных и психосоматических проблем.</p>
+					<p>Работа осуществляется по цифровой фотографии клиента.<br>Для эффективной работы в проекте TarotMachine оператору необходимо овладеть специальными навыками, изложенными в книге Ю.В. Чикурова <b>«Практическая психосоматика»</b>, а также пройти базовый учебный онлайн-курс <b>«Лечебное Tarot»</b> на <a target="_blank" href="https://school-bc.ru">school-bc.ru</a></p>
+					<p>Настоящая программа существует более 5 лет, в начале 2019 года она подверглась существенной переработке и модернизации. Пользователю предлагается 4 основных режима работы: <b>«Классический протокол Tarot»</b>; <b>«Первоэлементы Tarot»</b>, <b>«Мастер реальности Tarot»</b>, а также <b>«Значение карт Tarot»</b>.</p>
+					<h4>Как получить доступ и сколько это стоит?</h4>
+					<p>Программа <b>«TarotMachine»</b> обладает исчерпывающим функционалом для коррекции индивидуальных личностных и психосоматических проблем из коробки, иначе говоря, весь необходимый для успешной работы функционал Вы найдете в этой программе.<br>Успешное применение данных техник требует от пользоватиля четкое представление о роли системы Таро в схеме мироздания а так же прохождение обучения по правилам пользования программой.</p>
+					<p>Доступ могут получить пользователи прошедшие базовый учебный онлайн-курс <b>«Лечебное Tarot»</b> дающий представление о работе с Таро в рамках «Биологического Центрирования», а так же продвинутый учебный курс <b>«TarotMachine — Мастер Реальности» позволяющий в совершенстве освоить программу «TarotMachine» и успешно применять ее на практике.</b></p>
+					<p>Стоимость курса <b>«TarotMachine — Мастер Реальности»</b> — <b>35 000 руб.</b><br>В эту стоимость входит месячный обучающий курс по работе с программой «TarotMachine» и годовой доступ к самой программе. В дальнейшем, продление доступа на 2-й год и последующие будет стоить <b>25 000 руб. Оплату можно будет производить из личного кабинета пользователя. Достпно несколько способов оплаты, включая оплату Банковской Картой.</b></p>
+					<p>Узнать дату начала ближайшего курса Вы можете на <a target="_blank" href="https://school-bc.ru">school-bc.ru</a></p>
+					<h4>Юридическая информация</h4>
+					<p><a href="mailto:info@chikurov.com">info@chikurov.com</a><br><pre>+7 (495) 135-25-48</pre><br>ОГРНИП: 314910224600336<br>ИНН: 7706092528</p>
 				</div>
 			</div>
 		<?php } ?>

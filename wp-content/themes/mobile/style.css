@@ -1096,8 +1096,13 @@ button.close.history_close
   padding-top: 100px;
   color: #000;
 }
-.start_info_inner
+.form-group
 {
+  position: relative;
+}
+.form-group_inner 
+{
+  height: 300px;
   position: fixed;
 }
 pre
@@ -1128,6 +1133,10 @@ pre
     margin-top: 0;
   }
   .start_info .start_info_inner
+  {
+    position: static;
+  }
+  .form-group_inner
   {
     position: static;
   }
