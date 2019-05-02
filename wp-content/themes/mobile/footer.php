@@ -2,6 +2,7 @@
           </div>
           <?php if(is_user_logged_in()) { ?>
           <div id="menu" class="row hidden">
+            <a href="/" class="sidebar_logo"><img src="<?php echo get_template_directory_uri(); ?>/img/tarot_logo_white.png" alt="logo"></a>
             <ul class="main_menu">
               <li>
                 <a href="/" class=" row align-items-center">
