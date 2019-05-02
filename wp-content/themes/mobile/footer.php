@@ -4,7 +4,7 @@
           <div id="menu" class="row hidden">
             <a href="/" class="sidebar_logo"><img src="<?php echo get_template_directory_uri(); ?>/img/tarot_logo_white.png" alt="logo"></a>
             <ul class="main_menu">
-              <?php if(current_user_can('administrator') || current_user_can('administrator')) { ?>
+              <?php if(current_user_can('contributor') || current_user_can('administrator')) { ?>
               <li>
                 <a href="/" class=" row align-items-center">
                   <span class="menu_item_img"><i class="fas fa-th"></i></span>В начало
@@ -16,7 +16,7 @@
                   <span class="menu_item_img"><?php echo get_avatar( $user_ID, 40 ); ?></span>Личный кабинет
                 </a>
               </li>
-              <?php if(current_user_can('administrator') || current_user_can('administrator')) { ?>
+              <?php if(current_user_can('contributor') || current_user_can('administrator')) { ?>
               <li>
                 <a href="#" class="row align-items-center user_history">
                   <span class="menu_item_img"><i class="fas fa-history"></i></span>История
