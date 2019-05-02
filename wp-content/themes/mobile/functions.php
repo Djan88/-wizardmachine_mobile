@@ -21,7 +21,8 @@ function kama_login_redirect(){
 //fix for cookie error while login.
 setcookie(TEST_COOKIE, 'WP Cookie check', 0, COOKIEPATH, COOKIE_DOMAIN); 
 if ( SITECOOKIEPATH != COOKIEPATH ) 
-setcookie(TEST_COOKIE, 'WP Cookie check', 0, SITECOOKIEPATH, COOKIE_DOMAIN); Источник: http://jkeks.ru/jkeks.ru/archives/8175
+setcookie(TEST_COOKIE, 'WP Cookie check', 0, SITECOOKIEPATH, COOKIE_DOMAIN); 
+//Источник: http:jkeks.ru/jkeks.ru/archives/8175
 
 add_filter("login_redirect", "sp_login_redirect", 10, 3);
 
