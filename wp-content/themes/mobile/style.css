@@ -178,12 +178,10 @@ div#recallbar, div#wpadminbar
   position: relative;
   color: #FFF0C7;
   transition: all 1s linear;
-  margin: 5px;
-  border: 1px solid #2b303b;
-  border-radius: 6px;
+  margin: 1px;
   cursor: pointer;
   background: #32648e;
-  box-shadow: 0 .5rem 1rem rgba(0,0,0,.15)!important;
+  /*box-shadow: 0 .5rem 1rem rgba(0,0,0,.15)!important;*/
 }
 .protocols_item.active, .mode-item.active
 {
