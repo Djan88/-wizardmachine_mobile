@@ -1102,7 +1102,7 @@ button.close.history_close
 }
 .form-group-inner 
 {
-  height: 300px;
+  height: 350px;
   position: fixed;
 }
 pre
@@ -1130,11 +1130,15 @@ pre
 @media (max-width: 768px) {
   .start_info
   {
-    margin-top: 0;
+    padding-top: 0;
   }
   .start_info .start_info_inner
   {
     position: static;
+  }
+  .start_info h4
+  {
+    text-align: center;
   }
   .form-group-inner
   {
