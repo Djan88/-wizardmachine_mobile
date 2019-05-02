@@ -142,7 +142,7 @@ cur_date = function(){
     if (cur_type == 'wands') {
       jQuery('.marakata_dot').css('backgroundPositionY', scroll_val * 2 + 'px');
     } else {
-      jQuery('.marakata_dot').css('backgroundPositionY', scroll_val * 3 + 'px');
+      jQuery('.marakata_dot').css('backgroundPositionY', scroll_val * 4 + 'px');
     }
   };
 
