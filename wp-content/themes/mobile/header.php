@@ -32,18 +32,15 @@
                 <button type="button" class="btn btn-lg btn-link btn-back btn-to_endNow hidden" data-toggle="popover" data-placement="bottom" title="Протокол остановлен!" data-content="Выполнение протокола будет приостановлено по окончании текущей фазы. Все данные будут сохранены"><i class="far fa-stop-circle"></i></button>
               <?php } ?>
             </div>
-            <div class="col-4 header-title">
               <?php if(is_user_logged_in()) { ?>
                 <?php if(current_user_can('contributor') || current_user_can('administrator')) { ?>
-                  TarotMachine
+                  <div class="col-4 header-title">TarotMachine</div>
                 <?php } else { ?>
-                  Приветствуем в "WizardTarot"
+                  <div class="col-4 header-title">TarotMachine</div>
                 <?php } ?>
               <?php } else { ?>
-                Вход
+                <div class="col-4 header-title header-title_logo"><img src="<?php echo get_template_directory_uri(); ?>/img/tarot_logo.png" alt=""></div>
               <?php } ?>
-              
-            </div>
             <div class="col-4" style="text-align: right; padding: 0;">
               <button type="button" class="btn btn-lg btn-link justify-content-end btn_crop hidden">
                 <i class="fas fa-crop-alt"></i>

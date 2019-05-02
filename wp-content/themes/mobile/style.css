@@ -1111,9 +1111,9 @@ button.close.history_close
   height: 350px;
   position: fixed;
 }
-pre
+.header-title_logo
 {
-  margin-bottom: 0;
+  padding: 0;
 }
 @media (min-width: 600px) {
   .sweet-alert
