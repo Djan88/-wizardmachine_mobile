@@ -126,6 +126,7 @@ cur_date = function(){
 }
 // width of block
   cur_window_width = function(){
+    jQuery('.form-group-inner').css('width', jQuery('.form-group_login').css('width'));
     jQuery('.master_cards_wrapper').removeClass('hidden');
     block_w = parseFloat(jQuery(".marakata_sim.marakata_sim_prot").css('width'));
     page_h = jQuery("html").width();
@@ -140,6 +141,7 @@ cur_date = function(){
   };
 
   // onload
+  jQuery('.form-group-inner').css('width', jQuery('.form-group_login').css('width'));
   jQuery('.mode-item_manual').on('click', function(event) {
     cur_window_width();
     jQuery('.btn_return').addClass('hidden');
