@@ -393,6 +393,7 @@ cur_date = function(){
     cur_history_image = cur_history_item[position];
     if (type == 'swords') {
       elem.css('backgroundPositionY', img_position[cur_history_image]);
+      jQuery('.marakata_modal_sim-dot').css('backgroundPositionY', );
     } else {
       cur_history_image = cur_history_item[position]+10;
       elem.css('backgroundPositionY', img_position[cur_history_image]);

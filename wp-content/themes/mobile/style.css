@@ -874,6 +874,7 @@ input.crop_photo
 .history.history_visible
 {
   top: 70px!important;
+  position: fixed;
 }
 .history_item_type img
 {
@@ -945,7 +946,7 @@ button.close.history_close
 {
   width: 99px;
   height: 178px;
-  background: url(img/cards/tarot_numbers/dot_bg.png) top left/100% repeat-y;
+  background: url(img/cards/tarot_numbers/dot_sprite.png) top left/100% repeat-y;
 }
 .open_history_item
 {

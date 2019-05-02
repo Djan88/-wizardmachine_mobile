@@ -49,9 +49,11 @@
                 <i class="fas fa-broom"></i>
               </button>
               <?php if(is_user_logged_in()){ ?>
-                <button type="button" class="btn btn-lg btn-link btn_history justify-content-end">
-                <i class="fas fa-history"></i>
-              </button>
+                <?php if(current_user_can('contributor') || current_user_can('administrator')) { ?>
+                  <button type="button" class="btn btn-lg btn-link btn_history justify-content-end">
+                    <i class="fas fa-history"></i>
+                  </button>
+                <?php } ?>
               <?php } ?>
               <!-- <button type="button" data-toggle="modal" data-target="#zones_template" class="btn btn-lg btn-link btn_man_with_zones hidden justify-content-end">
                 <i class="fas fa-diagnoses"></i>
