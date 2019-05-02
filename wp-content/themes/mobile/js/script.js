@@ -51,6 +51,9 @@ jQuery(document).ready(function () {
   jQuery('[data-toggle="popover"]').popover();
 
   jQuery('.form-group-inner').css('width', jQuery('.form-group_login').css('width'));
+  jQuery(window).on('resize', function(event) {
+    jQuery('.form-group-inner').css('width', jQuery('.form-group_login').css('width'));
+  });
 
   //line_drawing
 
