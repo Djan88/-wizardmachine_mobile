@@ -379,7 +379,6 @@ cur_date = function(){
     } else if (jQuery(this).data('type') == 'wands') {
       jQuery('.marakata_sim_prot').addClass('marakata_sim_wands');
       jQuery('.problem_range_card').addClass('problem_range_card_n');
-      jQuery('.marakata_dot').css('backgroundPositionY', );
       jQuery('.problem_finish').text('Намерение');
     } else if (jQuery(this).data('type') == 'cups') {
       jQuery('.marakata_sim_prot').addClass('marakata_sim_cups');
@@ -388,6 +387,7 @@ cur_date = function(){
       jQuery('.problem_range_card').addClass('problem_range_card_d');
       jQuery('.problem_finish').text('Действие');
     }
+    cur_window_width();
   });
 
   setImgFromHistory = function(elem, type, position){
