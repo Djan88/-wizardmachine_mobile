@@ -425,7 +425,7 @@ cur_date = function(){
     jQuery('#history_canvas').detach();
   });
 
-jQuery('.form-group-inner').css('width', jQuery('.form-group_login').css('width'));
+setTimeout(jQuery('.form-group-inner').css('width', jQuery('.form-group_login').css('width')), 500);
 // TODO
 
 });
