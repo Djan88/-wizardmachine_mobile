@@ -138,7 +138,7 @@ cur_date = function(){
     } else {
       scroll_val = block_w * 1.8;
     }
-    jQuery('.master_cards_wrapper').addClass('hidden');
+    jQuery('.master_cards_wrapper, .master_problem_wrapper, .btn_reset_prot, .save_history').addClass('hidden');
     if (cur_type == 'wands') {
       jQuery('.marakata_dot').css('backgroundPositionY', scroll_val * 2 + 'px');
     } else {
