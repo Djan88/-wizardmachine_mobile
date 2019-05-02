@@ -39,7 +39,7 @@
                   <div class="col-4 header-title">TarotMachine</div>
                 <?php } ?>
               <?php } else { ?>
-                <div class="col-4 header-title header-title_logo"><img src="<?php echo get_template_directory_uri(); ?>/img/tarot_logo.png" alt=""></div>
+                <div class="col-4 header-title header-title_logo"><img src="<?php echo get_template_directory_uri(); ?>/img/tarot_logo_alt.png" alt="logo"></div>
               <?php } ?>
             <div class="col-4" style="text-align: right; padding: 0;">
               <button type="button" class="btn btn-lg btn-link justify-content-end btn_crop hidden">
