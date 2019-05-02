@@ -34,9 +34,9 @@
             </div>
               <?php if(is_user_logged_in()) { ?>
                 <?php if(current_user_can('contributor') || current_user_can('administrator')) { ?>
-                  <div class="col-4 header-title">TarotMachine</div>
+                  <div class="col-4 header-title header-title_logo"><img src="<?php echo get_template_directory_uri(); ?>/img/tarot_logo_alt.png" alt="logo"></div>
                 <?php } else { ?>
-                  <div class="col-4 header-title">TarotMachine</div>
+                  <div class="col-4 header-title header-title_logo"><img src="<?php echo get_template_directory_uri(); ?>/img/tarot_logo_alt.png" alt="logo"></div>
                 <?php } ?>
               <?php } else { ?>
                 <div class="col-4 header-title header-title_logo"><img src="<?php echo get_template_directory_uri(); ?>/img/tarot_logo_alt.png" alt="logo"></div>
