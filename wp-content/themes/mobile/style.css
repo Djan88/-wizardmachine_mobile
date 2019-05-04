@@ -1042,7 +1042,7 @@ button.close.history_close
   border-radius: 50%;
   transition: all 0.5s linear;
 }
-.elements_item:hover img
+.elements_item:hover img, .elements_item.active img
 {
   border-color: #f7b754;
   box-shadow: 0 0rem 10px 12px rgba(0,0,0,.15)!important;

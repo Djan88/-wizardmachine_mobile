@@ -10,7 +10,16 @@ jQuery(document).ready(function () {
 
 
   jQuery('.elements_item').on('click', function(event) {
-    
+    jQuery('.elements_item').removeClass('active');
+    jQuery(this).addClass('active');
     jQuery('.hand_wrap').fadeIn(500);
+    swal({
+      title:"Title",
+      imageUrl: 'http://yuchikurov.ru/wp-content/themes/mobile/img/what_place.gif',
+      imageWidth: 300,
+      imageHeight: 177,
+      imageAlt: 'Hand',
+      animation: false
+    });
   });
 });
