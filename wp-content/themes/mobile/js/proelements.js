@@ -60,16 +60,19 @@ jQuery(document).ready(function () {
         jQuery('.elems_card_1').css('top', zone_top - 70 +'px');
         count_animation += 1;
       } else if (count_animation == 2) {
-        jQuery('.elems_card_1').fadeIn(500);
-        jQuery('.elems_card_1').css('left', zone_left - 38 +'px');
-        jQuery('.elems_card_1').css('top', zone_top - 70 +'px');
+        jQuery('.elems_card_2').fadeIn(500);
+        jQuery('.elems_card_2').css('left', zone_left - 38 +'px');
+        jQuery('.elems_card_2').css('top', zone_top - 70 +'px');
         count_animation += 1;
-      } else if (count_animation > 8 && count_animation <= 16) {
+      } else if (count_animation == 4) {
         count_animation += 1;
-      } else if (count_animation > 16 && count_animation <= 22) {
+      } else if (count_animation == 6) {
+        count_animation += 1;
+      } else if (count_animation == 8) {
         count_animation += 1;
       } else {
         count_animation = 0;
+        clearInterval(phaseOne);
       }
     }, 1000);
     
