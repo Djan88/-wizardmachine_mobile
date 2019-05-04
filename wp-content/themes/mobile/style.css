@@ -600,6 +600,10 @@ span.menu_item_img
   left: 50px;
   top: 50px;
 }
+.zone_elem.hidden
+{
+  display: none;
+}
 .zone_elem:after
 {
   content: '';
