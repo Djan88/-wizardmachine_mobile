@@ -1154,6 +1154,8 @@ button.close.history_close
 .elems_card img 
 {
   width: 100%;
+  border-radius: 14px;
+  border: 10px solid #fff;
 }
 @media (min-width: 600px) {
   .sweet-alert
