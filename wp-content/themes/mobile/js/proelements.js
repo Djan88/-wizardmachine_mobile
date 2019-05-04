@@ -5,6 +5,8 @@ jQuery(document).ready(function () {
       zone_top,
       count_animation = 0,
       card_wrapper_width,
+      end_elem_prot,
+      hide_cards,
     supportsStorage = function(){
       try {
         return 'localStorage' in window && window['localStorage'] !== null;
@@ -13,20 +15,32 @@ jQuery(document).ready(function () {
       }
     }
 
+
+end_elem_prot = function(){
+  jQuery('.zone_elem').removelass('hidden');
+  jQuery('.elements_item').removeClass('active');
+  jQuery('.elem_card_sun').addClass('hidden');
+  jQuery('.zone_elem').css({
+    left: '50px',
+    top: '50px'
+  });
+  jQuery('.elems_card_1, .elems_card_2, .elems_card_3, .elems_card_4, .elems_card_5').fadeOut(1000);
+}
+hide_cards = function(){
+  jQuery('.elem_card_queen, .elem_card_king, .elem_card_page, .elem_card_knight').addClass('hidden');
+  jQuery('.elems_card_1, .elems_card_2, .elems_card_3, .elems_card_4, .elems_card_5').fadeOut(1000);
+}
+
 // chose element
   jQuery('.elements_item').on('click', function(event) {
-    jQuery('.elements_item').removeClass('active');
     jQuery('.btn_start_elems').removeClass('hidden');
-    jQuery('.zone_elem').css({
-      left: '50px',
-      top: '50px'
-    });
-    jQuery('.elem_card_queen, .elem_card_king, .elem_card_page, .elem_card_knight').addClass('hidden');
-    jQuery('.elems_card_1, .elems_card_2, .elems_card_3, .elems_card_4').addClass('hidden').css('display', 'none');
+
+    end_elem_prot();
+    setTimeout(hide_cards, 1000);
     jQuery(this).addClass('active');
     jQuery('.hand_wrap').fadeIn(500);
     card_wrapper_width = zone_top = parseInt(jQuery('.hand_wrap').css('width'));
-    jQuery('.elems_card').css('left', card_wrapper_width / 2 - 90+'px');
+    jQuery('.elems_card').css('left', card_wrapper_width / 2 - 110+'px');
     jQuery('.elems_card_2').css('left', card_wrapper_width / 2 - 150+'px');
     elem_type = jQuery(this).data('elem');
     if (elem_type == 'air') {
@@ -57,6 +71,7 @@ jQuery(document).ready(function () {
   zone_top = parseInt(jQuery('.zone_elem').css('top'));
   if (zone_top >= 100) {
     jQuery(this).addClass('hidden');
+    jQuery('.zone_elem').addClass('hidden');
     phaseOne = setInterval(function(){
       console.log(count_animation);
       if (count_animation == 0){
@@ -79,10 +94,10 @@ jQuery(document).ready(function () {
         jQuery('.elems_card_5').fadeIn(500);
         jQuery('.elems_card_5').css('left', zone_left - 78 +'px');
         jQuery('.elems_card_5').css('top', zone_top - 270 +'px');
-      } else if (count_animation == 9)  {
+      } else if (count_animation == 30)  {
         count_animation = 0;
         clearInterval(phaseOne);
-        console.log('exit');
+        end_elem_prot()
       }
       count_animation += 1;
     }, 1000);
