@@ -29,7 +29,7 @@ end_elem_prot = function(){
   jQuery('.elems_card_2').css('left', card_wrapper_width / 2 - 150+'px');
   jQuery('.elems_card').css('top', '-200px');
   jQuery('.header-title').text('Выберите треугольник отличный от других');
-  jQuery('.elems_card_1, .elems_card_2, .elems_card_3, .elems_card_4, .elems_card_5').fadeOut(1000);
+  jQuery('.elems_card_1, .elems_card_2, .elems_card_3, .elems_card_4, .elems_card_5').fadeOut(2000);
 }
 hide_cards = function(){
   jQuery('.elem_card_queen, .elem_card_king, .elem_card_page, .elem_card_knight').addClass('hidden');
