@@ -52,8 +52,8 @@ jQuery(document).ready(function () {
   zone_left = parseInt(jQuery('.zone_elem').css('left'));
   zone_top = parseInt(jQuery('.zone_elem').css('top'));
   jQuery('.elems_card_1').fadeIn(500);
-  jQuery('.elems_card_1').css('left', zone_left+'px');
-  jQuery('.elems_card_1').css('top', zone_top+'px');
+  jQuery('.elems_card_1').css('left', zone_left - 38 +'px');
+  jQuery('.elems_card_1').css('top', zone_top - 70 +'px');
 
   // count_animation = 0;
   // phaseOne = setInterval(function(){

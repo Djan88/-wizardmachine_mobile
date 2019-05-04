@@ -1141,10 +1141,14 @@ button.close.history_close
 }
 .elems_card
 {
-  transition: left top 0.5s linear;
+  transition: left 0.5s linear, top 0.5s linear;
   position: absolute;
   left: 0;
   top: 0;
+}
+.elems_card img 
+{
+  width: 100%;
 }
 @media (min-width: 600px) {
   .sweet-alert
