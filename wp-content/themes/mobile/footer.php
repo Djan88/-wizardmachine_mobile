@@ -205,7 +205,7 @@
               Карты: <span class="elem_mode_card"></span>
             </p>
             <div class="how_to_elem">
-              <p>Переместите зону как показано ниже и запустите выполнение программы.</p>
+              <p>Переместите зону на область руки как показано ниже и запустите выполнение программы.</p>
               <img src="<?php echo get_template_directory_uri(); ?>/img/hand_alt.gif" alt="">
             </div>
           </div>

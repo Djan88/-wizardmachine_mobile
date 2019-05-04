@@ -1139,6 +1139,13 @@ button.close.history_close
 {
   font-weight: bold;
 }
+.elems_card
+{
+  transition: left top 0.5s linear;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
 @media (min-width: 600px) {
   .sweet-alert
   {
