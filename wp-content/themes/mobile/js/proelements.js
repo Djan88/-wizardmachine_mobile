@@ -34,8 +34,8 @@ end_elem_prot = function(){
 }
 hide_cards = function(){
   jQuery('.elem_card_queen, .elem_card_king, .elem_card_page, .elem_card_knight').addClass('hidden');
-  jQuery('.elem_card_sun').removeClass('hidden');
   jQuery('.elem_card').css('display', 'none').addClass('hidden');
+  jQuery('.elem_card_sun').removeClass('hidden').css('display', 'block');
 }
 
 // chose element
