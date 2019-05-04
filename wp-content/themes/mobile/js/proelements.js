@@ -54,6 +54,7 @@ jQuery(document).ready(function () {
   zone_top = parseInt(jQuery('.zone_elem').css('top'));
   if (zone_top >= 100) {
     phaseOne = setInterval(function(){
+      console.log(count_animation);
       if (count_animation == 0){
         jQuery('.elems_card_1').fadeIn(500);
         jQuery('.elems_card_1').css('left', zone_left - 38 +'px');
