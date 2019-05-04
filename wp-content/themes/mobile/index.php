@@ -219,16 +219,16 @@
 						<div class="row">
 							<div class="col-md-8 offset-md-2 col-xs-12 elems_wrap">
 								<div class="row">
-									<div class="col elements_item elements_item_1">
+									<div class="col elements_item elements_item_1" data-toggle="modal" data-target="#elem_mode" data-elem="air" data-card="wands">
 										<img src="<?php echo get_template_directory_uri(); ?>/img/element_1.png" alt="" class="card_img">
 									</div>
-									<div class="col elements_item elements_item_2">
+									<div class="col elements_item elements_item_2" data-toggle="modal" data-target="#elem_mode" data-elem="earth" data-card="swords">
 										<img src="<?php echo get_template_directory_uri(); ?>/img/element_2.png" alt="" class="card_img">
 									</div>
-									<div class="col elements_item elements_item_3">
+									<div class="col elements_item elements_item_3" data-toggle="modal" data-target="#elem_mode" data-elem="fire" data-card="pents">
 										<img src="<?php echo get_template_directory_uri(); ?>/img/element_3.png" alt="" class="card_img">
 									</div>
-									<div class="col elements_item elements_item_4">
+									<div class="col elements_item elements_item_4" data-toggle="modal" data-target="#elem_mode" data-elem="water" data-card="cups">
 										<img src="<?php echo get_template_directory_uri(); ?>/img/element_4.png" alt="" class="card_img">
 									</div>
 								</div>

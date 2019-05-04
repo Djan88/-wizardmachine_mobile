@@ -190,5 +190,28 @@
         </div>
       </div>
     </div>
+    <div class="modal" id="elem_mode" tabindex="-1" role="dialog">
+      <div class="modal-dialog modal-sm" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title">Активирован первоэлемент</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body mode_content">
+            Первоэлемент: <span class="elem_mode_title"></span><br>
+            Карты: <span class="elem_mode_card"></span>
+            <div class="how_to_elem">
+              <p>Переместите зону как показано ниже и запустите выполнение программы.</p>
+              <img src="<?php echo get_template_directory_uri(); ?>/img/hand_alt.gif" alt="">
+            </div>
+          </div>
+          <div class="modal-footer card_modal_footer">
+            <button type="button" class="btn btn-primary" data-dismiss="modal" data-zone="">ОК</button>
+          </div>
+        </div>
+      </div>
+    </div>
   </body>
 </html>
