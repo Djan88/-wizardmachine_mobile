@@ -28,6 +28,7 @@ end_elem_prot = function(){
   jQuery('.elems_card').css('left', card_wrapper_width / 2 - 110+'px');
   jQuery('.elems_card_2').css('left', card_wrapper_width / 2 - 150+'px');
   jQuery('.elems_card').css('top', '0px');
+  jQuery('.header-title').text('Выберите треугольник отличный от других');
   jQuery('.elems_card_1, .elems_card_2, .elems_card_3, .elems_card_4, .elems_card_5').fadeOut(1000);
 }
 hide_cards = function(){
@@ -38,8 +39,8 @@ hide_cards = function(){
 // chose element
   jQuery('.elements_item').on('click', function(event) {
     jQuery('.btn_start_elems').removeClass('hidden');
-
     end_elem_prot();
+    jQuery('.header-title').text('Переместите зону на ладонь');
     setTimeout(hide_cards, 1000);
     jQuery(this).addClass('active');
     jQuery('.hand_wrap').fadeIn(500);
@@ -104,7 +105,19 @@ hide_cards = function(){
       } else if (count_animation == 20)  {
         count_animation = 0;
         clearInterval(phaseOne);
-        end_elem_prot();
+        swal({
+          title: "Протокол выполнен!",   
+          text: "Программа завершает свою работу",   
+          type: "info"
+        },
+        function(isConfirm){
+          if (isConfirm) {    
+            count_animation = 0;
+            end_elem_prot();
+            jQuery('.hand_wrap').css('display', 'none');
+            jQuery('.header-title').text('Переместите зону на ладонь');
+          } 
+        });
       }
       if (stop_status == 1) {
         stop_status = 0;
@@ -117,6 +130,7 @@ hide_cards = function(){
           if (isConfirm) {    
             count_animation = 0;
             end_elem_prot();
+            jQuery('.hand_wrap').css('display', 'none');
           } 
         });
       } else {

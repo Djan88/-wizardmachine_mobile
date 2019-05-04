@@ -71,7 +71,7 @@
                 <i class="far fa-flag"></i>
               </button>
               <button type="button" class="btn btn-lg btn-link btn_stop_elems hidden justify-content-end">
-                <i class="far fa-pause-circle"></i>
+                <i class="far fa-stop-circle"></i>
               </button>
               <button type="button" class="btn btn-lg btn-link btn_protocols hidden justify-content-end">
                 <i class="far fa-check-square"></i>

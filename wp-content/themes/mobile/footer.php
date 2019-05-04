@@ -194,7 +194,7 @@
       <div class="modal-dialog" role="document">
         <div class="modal-content">
           <div class="modal-header">
-            <h5 class="modal-title">Активирован первоэлемент</h5>
+            <h5 class="modal-title">Коррекция первоэлементов</h5>
             <button type="button" class="close" data-dismiss="modal" aria-label="Close">
               <span aria-hidden="true">&times;</span>
             </button>
@@ -206,7 +206,9 @@
             </p>
             <div class="how_to_elem">
               <p>Переместите зону на область руки, как продемострировано ниже. <br>За тем запустите выполнение программы. <i class="far fa-flag"></i></p>
+              <p>После того как все карты будут выложены появится возможность завершить работу протокола по усмотрению оператора кликнув по кнопке <i class="far fa-stop-circle"></i> в правом верхнем углу.</p>
               <img src="<?php echo get_template_directory_uri(); ?>/img/hand_alt.gif" alt="">
+              <p>Программа автоматически завершится через 10 минут после старта.</p>
             </div>
           </div>
           <div class="modal-footer card_modal_footer">
