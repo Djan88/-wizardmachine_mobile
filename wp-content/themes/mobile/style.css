@@ -1172,6 +1172,10 @@ button.close.history_close
 {
   color: #f96b47
 }
+.btn_start_elems
+{
+  transform: rotate(90deg);
+}
 @media (min-width: 600px) {
   .sweet-alert
   {
