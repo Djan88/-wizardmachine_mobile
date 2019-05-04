@@ -16,7 +16,6 @@ jQuery(document).ready(function () {
     swal({
       title:"Title",
       imageUrl: 'http://yuchikurov.ru/wp-content/themes/mobile/img/hand_alt.gif',
-      imageWidth: 500 ,
       imageHeight: 499,
       imageAlt: 'Hand',
       animation: false
