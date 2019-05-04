@@ -126,7 +126,8 @@ hide_cards = function(){
           type: "info"
         },
         function(isConfirm){
-          if (isConfirm) {    
+          if (isConfirm) { 
+            clearInterval(phaseOne);   
             count_animation = 0;
             setTimeout(end_elem_prot, 1000);
             jQuery('.hand_wrap').css('display', 'none');
