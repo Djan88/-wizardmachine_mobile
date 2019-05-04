@@ -4,6 +4,7 @@ jQuery(document).ready(function () {
       zone_left,
       zone_top,
       count_animation = 0,
+      stop_status = 0,
       card_wrapper_width,
       end_elem_prot,
       hide_cards,
@@ -19,7 +20,7 @@ jQuery(document).ready(function () {
 end_elem_prot = function(){
   jQuery('.zone_elem').removeClass('hidden');
   jQuery('.elements_item').removeClass('active');
-  jQuery('.elem_card_sun').addClass('hidden');
+  jQuery('.elem_card_sun, .btn_stop_elems').addClass('hidden');
   jQuery('.zone_elem').css({
     left: '50px',
     top: '50px'
@@ -70,6 +71,7 @@ hide_cards = function(){
 // start_protocol
  jQuery('.btn_start_elems').on('click', function(event) {
   count_animation = 0;
+  stop_status = 0;
   zone_left = parseInt(jQuery('.zone_elem').css('left'));
   zone_top = parseInt(jQuery('.zone_elem').css('top'));
   if (zone_top >= 100) {
@@ -97,56 +99,39 @@ hide_cards = function(){
         jQuery('.elems_card_5').fadeIn(500);
         jQuery('.elems_card_5').css('left', zone_left - 78 +'px');
         jQuery('.elems_card_5').css('top', zone_top - 270 +'px');
-      } else if (count_animation == 30)  {
+      } else if (count_animation == 10)  {
+        jQuery('.btn_stop_elems').removeClass('hidden');
+      } else if (count_animation == 20)  {
         count_animation = 0;
         clearInterval(phaseOne);
-        end_elem_prot()
+        end_elem_prot();
       }
-      count_animation += 1;
+      if (stop_status = 1) {
+        stop_status = 0;
+        swal({
+          title: "Протокол выполнен!",   
+          text: "Программа завершает свою работу",   
+          type: "info"
+        },
+        function(isConfirm){
+          if (isConfirm) {    
+            count_animation = 0;
+            end_elem_prot();
+          } 
+        });
+      } else {
+        count_animation += 1;
+      }
     }, 1000);
     
   } else {
     swal("Зона не на руке", "Перед стартом перенесите зону на руку", "info");
   }
-  
 
-  // count_animation = 0;
-  // phaseOne = setInterval(function(){
-  //   if (count_animation <= 4){
-  //     jQuery('.card_devil').css('top', card_zone_top - 32 + 'px');
-  //     count_animation += 1;
-  //   } else if (count_animation > 4 && count_animation <= 8) {
-  //     jQuery('.card_solis').css('top', card_zone_top - 32 + 'px');
-  //     card_id.css('transform', 'rotate(270deg)');
-  //     count_animation += 1;
-  //   } else if (count_animation > 8 && count_animation <= 16) {
-  //     count_animation += 1;
-  //   } else if (count_animation > 16 && count_animation <= 22) {
-  //     card_id.css('transform', 'rotate(360deg)');
-  //     count_animation += 1;
-  //   } else {
-  //     clearInterval(phaseOne);
-  //     count_animation = 0;
-  //     card_id.css('top', parseInt(card_id.css('top')) - 200 + 'px');
-  //     card_id.css({
-  //       transform: 'scale(0.5) rotate(360deg)',
-  //       left: '-400px',
-  //       top: '-80px'
-  //     });
-  //     card_id.fadeOut(1000);
-  //     jQuery('.card_devil, .card_solis').removeClass('card_move').addClass('card_move_fast');
-  //     jQuery('.card_devil').css('top', jQuery('.card_ghost_devil').css('top'));
-  //     jQuery('.card_solis').css('top', jQuery('.card_ghost_solis').css('top'));
-  //     jQuery('.card_codes_top').find(jQuery('[data-number =' + cur_card + ']')).fadeIn(500);
-  //     if (cur_card_in_stack < cur_cards_length) {
-  //       cur_card_in_stack += 1;
-  //       tarot();
-  //     } else {
-  //       cur_card = 0;
-  //       cur_card_in_stack = 0;
-  //       onEnd();
-  //     }
-  //    }
-  //  }, 1000);
+// stop protocol
+  jQuery('.btn_stop_elems').on('click', function(event) {
+    stop_status = 1;
+  });
+
  });
 });
