@@ -1143,9 +1143,13 @@ button.close.history_close
 {
   transition: left 0.5s linear, top 0.5s linear;
   position: absolute;
-  width: 100px;
+  width: 180px;
   left: 0;
   top: 0;
+}
+.elems_card.elems_card_2 
+{
+  width: 311px;
 }
 .elems_card img 
 {

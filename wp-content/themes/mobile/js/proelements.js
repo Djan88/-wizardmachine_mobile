@@ -57,8 +57,8 @@ jQuery(document).ready(function () {
       console.log(count_animation);
       if (count_animation == 0){
         jQuery('.elems_card_1').fadeIn(500);
-        jQuery('.elems_card_1').css('left', zone_left - 38 +'px');
-        jQuery('.elems_card_1').css('top', zone_top - 70 +'px');
+        jQuery('.elems_card_1').css('left', zone_left - 78 +'px');
+        jQuery('.elems_card_1').css('top', zone_top - 200 +'px');
       } else if (count_animation == 2) {
         jQuery('.elems_card_2').fadeIn(500);
         jQuery('.elems_card_2').css('left', zone_left - 38 +'px');
