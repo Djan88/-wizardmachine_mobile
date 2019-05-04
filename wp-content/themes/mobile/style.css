@@ -1131,6 +1131,14 @@ button.close.history_close
 {
   height: 70px;
 }
+.how_to_elem img
+{
+  max-width: 100%;
+}
+.elem_mode_title, .elem_mode_card
+{
+  font-weight: bold;
+}
 @media (min-width: 600px) {
   .sweet-alert
   {
