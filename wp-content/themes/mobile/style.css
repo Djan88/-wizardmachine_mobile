@@ -571,7 +571,7 @@ span.menu_item_img
 {
   transition: top linear 0.5s;
 }
-.zone, .zone_elem
+.zone, .zone_elem, .zone_test
 {
   z-index: 500;
   cursor: pointer;
@@ -594,7 +594,7 @@ span.menu_item_img
   transition: transform linear 1s;
   overflow: hidden;
 }
-.zone_elem
+.zone_elem, .zone_test
 {
   border-color: #f7b754;
   left: 50px;
@@ -604,7 +604,7 @@ span.menu_item_img
 {
   display: none;
 }
-.zone_elem:after
+.zone_elem:after, .zone_test:after
 {
   content: '';
   position: absolute;
