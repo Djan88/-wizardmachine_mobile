@@ -17,7 +17,7 @@ jQuery(document).ready(function () {
 
 
 end_elem_prot = function(){
-  jQuery('.zone_elem').removelass('hidden');
+  jQuery('.zone_elem').removeClass('hidden');
   jQuery('.elements_item').removeClass('active');
   jQuery('.elem_card_sun').addClass('hidden');
   jQuery('.zone_elem').css({
