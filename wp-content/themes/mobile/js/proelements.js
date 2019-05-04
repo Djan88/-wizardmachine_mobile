@@ -24,10 +24,13 @@ end_elem_prot = function(){
     left: '50px',
     top: '50px'
   });
+  jQuery('.elems_card').css('left', card_wrapper_width / 2 - 110+'px');
+  jQuery('.elems_card_2').css('left', card_wrapper_width / 2 - 150+'px');
+  jQuery('.elems_card').css('top', '0px');
+  jQuery('.elems_card_1, .elems_card_2, .elems_card_3, .elems_card_4, .elems_card_5').fadeOut(1000);
 }
 hide_cards = function(){
   jQuery('.elem_card_queen, .elem_card_king, .elem_card_page, .elem_card_knight').addClass('hidden');
-  jQuery('.elems_card_1, .elems_card_2, .elems_card_3, .elems_card_4, .elems_card_5').fadeOut(1000);
 }
 
 // chose element
@@ -45,20 +48,20 @@ hide_cards = function(){
     if (elem_type == 'air') {
       jQuery('.elem_mode_title').text('Воздух');
       jQuery('.elem_mode_card').text('Жезлы');
-      jQuery('.elem_card_sun').removeClass('hidden');
-      jQuery('.elem_card_queen_wands, .elem_card_king_wands, .elem_card_page_wands, .elem_card_knight_wands').removeClass('hidden').css('display', 'block');;
+      jQuery('.elem_card_sun').removeClass('hidden').css('display', 'block');
+      jQuery('.elem_card_queen_wands, .elem_card_king_wands, .elem_card_page_wands, .elem_card_knight_wands').removeClass('hidden').css('display', 'block');
     } else if (elem_type == 'earth') {
       jQuery('.elem_mode_title').text('Земля');
       jQuery('.elem_mode_card').text('Мечи');
-      jQuery('.elem_card_queen_swords, .elem_card_king_swords, .elem_card_page_swords, .elem_card_knight_swords').removeClass('hidden').css('display', 'block');;
+      jQuery('.elem_card_queen_swords, .elem_card_king_swords, .elem_card_page_swords, .elem_card_knight_swords').removeClass('hidden').css('display', 'block');
     } else if (elem_type == 'fire') {
       jQuery('.elem_mode_title').text('Огонь');
       jQuery('.elem_mode_card').text('Пентакли');
-      jQuery('.elem_card_queen_pents, .elem_card_king_pents, .elem_card_page_pents, .elem_card_knight_pents').removeClass('hidden').css('display', 'block');;
+      jQuery('.elem_card_queen_pents, .elem_card_king_pents, .elem_card_page_pents, .elem_card_knight_pents').removeClass('hidden').css('display', 'block');
     } else if (elem_type == 'water') {
       jQuery('.elem_mode_title').text('Вода');
       jQuery('.elem_mode_card').text('Кубки');
-      jQuery('.elem_card_queen_cups, .elem_card_king_cups, .elem_card_page_cups, .elem_card_knight_cups').removeClass('hidden').css('display', 'block');;
+      jQuery('.elem_card_queen_cups, .elem_card_king_cups, .elem_card_page_cups, .elem_card_knight_cups').removeClass('hidden').css('display', 'block');
     }
   });
 
