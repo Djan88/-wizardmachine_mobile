@@ -43,7 +43,7 @@ hide_cards = function(){
     jQuery('.btn_start_elems').removeClass('hidden');
     end_elem_prot();
     jQuery('.header-title').text('Переместите зону на ладонь');
-    setTimeout(hide_cards, 1000);
+    hide_cards();
     jQuery(this).addClass('active');
     jQuery('.hand_wrap').fadeIn(500);
     card_wrapper_width = zone_top = parseInt(jQuery('.hand_wrap').css('width'));
