@@ -4,6 +4,7 @@ jQuery(document).ready(function () {
       zone_left,
       zone_top,
       count_animation = 0,
+      card_wrapper_width,
     supportsStorage = function(){
       try {
         return 'localStorage' in window && window['localStorage'] !== null;
@@ -24,6 +25,8 @@ jQuery(document).ready(function () {
     jQuery('.elems_card_1, .elems_card_2, .elems_card_3, .elems_card_4').addClass('hidden').css('display', 'none');
     jQuery(this).addClass('active');
     jQuery('.hand_wrap').fadeIn(500);
+    card_wrapper_width = zone_top = parseInt(jQuery('.hand_wrap').css('width'));
+    jQuery('.elems_card').css('left', card_wrapper_width / 2 - 90+'px');
     elem_type = jQuery(this).data('elem');
     if (elem_type == 'air') {
       jQuery('.elem_mode_title').text('Воздух');
@@ -70,11 +73,11 @@ jQuery(document).ready(function () {
       } else if (count_animation == 6) {
         jQuery('.elems_card_4').fadeIn(500);
         jQuery('.elems_card_4').css('left', zone_left - 78 +'px');
-        jQuery('.elems_card_4').css('top', zone_top - 240 +'px');
+        jQuery('.elems_card_4').css('top', zone_top - 210 +'px');
       } else if (count_animation == 8) {
         jQuery('.elems_card_5').fadeIn(500);
         jQuery('.elems_card_5').css('left', zone_left - 78 +'px');
-        jQuery('.elems_card_5').css('top', zone_top - 290 +'px');
+        jQuery('.elems_card_5').css('top', zone_top - 230 +'px');
       } else if (count_animation == 9)  {
         count_animation = 0;
         clearInterval(phaseOne);
