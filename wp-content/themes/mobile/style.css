@@ -618,6 +618,13 @@ span.menu_item_img
   border-radius: 50%;
   background: #f7b754;
 }
+.zone_test
+{
+  display: inline-block;
+  position: relative;
+  left: 0;
+  top: 8px;
+}
 .zone.zone_choiced
 {
   background: #d25351;
