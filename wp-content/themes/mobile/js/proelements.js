@@ -73,11 +73,11 @@ jQuery(document).ready(function () {
       } else if (count_animation == 6) {
         jQuery('.elems_card_4').fadeIn(500);
         jQuery('.elems_card_4').css('left', zone_left - 78 +'px');
-        jQuery('.elems_card_4').css('top', zone_top - 210 +'px');
+        jQuery('.elems_card_4').css('top', zone_top - 220 +'px');
       } else if (count_animation == 8) {
         jQuery('.elems_card_5').fadeIn(500);
         jQuery('.elems_card_5').css('left', zone_left - 78 +'px');
-        jQuery('.elems_card_5').css('top', zone_top - 230 +'px');
+        jQuery('.elems_card_5').css('top', zone_top - 240 +'px');
       } else if (count_animation == 9)  {
         count_animation = 0;
         clearInterval(phaseOne);
