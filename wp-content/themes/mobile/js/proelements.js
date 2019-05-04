@@ -52,10 +52,10 @@ jQuery(document).ready(function () {
 // start_protocol
  jQuery('.btn_start_elems').on('click', function(event) {
   count_animation = 0;
-  jQuery(this).addClass('hidden');
   zone_left = parseInt(jQuery('.zone_elem').css('left'));
   zone_top = parseInt(jQuery('.zone_elem').css('top'));
   if (zone_top >= 100) {
+    jQuery(this).addClass('hidden');
     phaseOne = setInterval(function(){
       console.log(count_animation);
       if (count_animation == 0){
