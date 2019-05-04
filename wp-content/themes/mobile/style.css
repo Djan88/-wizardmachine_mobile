@@ -1143,6 +1143,7 @@ button.close.history_close
 {
   transition: left 0.5s linear, top 0.5s linear;
   position: absolute;
+  width: 100px;
   left: 0;
   top: 0;
 }
