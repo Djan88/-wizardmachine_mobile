@@ -236,31 +236,31 @@
 							<div class="col-md-6 offset-md-3 hand_wrap hidden">
 								<div class="elems_cards">
 									<div class="elems_card elems_card_1 hidden">
-										<img src="<?php echo get_template_directory_uri(); ?>/img/cards/tarot_numbers/sun.png" alt="" class="elem_card elem_card_sun">
+										<img src="<?php echo get_template_directory_uri(); ?>/img/cards/tarot_numbers/sun.jpg" alt="" class="elem_card elem_card_sun">
 									</div>
 									<div class="elems_card elems_card_2 hidden">
-										<img src="<?php echo get_template_directory_uri(); ?>/img/cards/tarot_numbers/queen_wands.png" alt="" class="hidden elem_card elem_card_queen elem_card_queen_wands">
-										<img src="<?php echo get_template_directory_uri(); ?>/img/cards/tarot_numbers/queen_pents.png" alt="" class="hidden elem_card elem_card_queen elem_card_queen_pents">
-										<img src="<?php echo get_template_directory_uri(); ?>/img/cards/tarot_numbers/queen_swords.png" alt="" class="hidden elem_card elem_card_queen elem_card_queen_swords">
-										<img src="<?php echo get_template_directory_uri(); ?>/img/cards/tarot_numbers/queen_cups.png" alt="" class="hidden elem_card elem_card_queen elem_card_queen_cups">
+										<img src="<?php echo get_template_directory_uri(); ?>/img/cards/tarot_numbers/queen_wands.jpg" alt="" class="hidden elem_card elem_card_queen elem_card_queen_wands">
+										<img src="<?php echo get_template_directory_uri(); ?>/img/cards/tarot_numbers/queen_pents.jpg" alt="" class="hidden elem_card elem_card_queen elem_card_queen_pents">
+										<img src="<?php echo get_template_directory_uri(); ?>/img/cards/tarot_numbers/queen_swords.jpg" alt="" class="hidden elem_card elem_card_queen elem_card_queen_swords">
+										<img src="<?php echo get_template_directory_uri(); ?>/img/cards/tarot_numbers/queen_cups.jpg" alt="" class="hidden elem_card elem_card_queen elem_card_queen_cups">
 									</div>
 									<div class="elems_card elems_card_3 hidden">
-										<img src="<?php echo get_template_directory_uri(); ?>/img/cards/tarot_numbers/king_wands.png" alt="" class="hidden elem_card elem_card_king elem_card_king_wands">
-										<img src="<?php echo get_template_directory_uri(); ?>/img/cards/tarot_numbers/king_pents.png" alt="" class="hidden elem_card elem_card_king elem_card_king_pents">
-										<img src="<?php echo get_template_directory_uri(); ?>/img/cards/tarot_numbers/king_swords.png" alt="" class="hidden elem_card elem_card_king elem_card_king_swords">
-										<img src="<?php echo get_template_directory_uri(); ?>/img/cards/tarot_numbers/king_cups.png" alt="" class="hidden elem_card elem_card_king elem_card_king_cups">
+										<img src="<?php echo get_template_directory_uri(); ?>/img/cards/tarot_numbers/king_wands.jpg" alt="" class="hidden elem_card elem_card_king elem_card_king_wands">
+										<img src="<?php echo get_template_directory_uri(); ?>/img/cards/tarot_numbers/king_pents.jpg" alt="" class="hidden elem_card elem_card_king elem_card_king_pents">
+										<img src="<?php echo get_template_directory_uri(); ?>/img/cards/tarot_numbers/king_swords.jpg" alt="" class="hidden elem_card elem_card_king elem_card_king_swords">
+										<img src="<?php echo get_template_directory_uri(); ?>/img/cards/tarot_numbers/king_cups.jpg" alt="" class="hidden elem_card elem_card_king elem_card_king_cups">
 									</div>
 									<div class="elems_card elems_card_4 hidden">
-										<img src="<?php echo get_template_directory_uri(); ?>/img/cards/tarot_numbers/page_wands.png" alt="" class="hidden elem_card elem_card_page elem_card_page_wands">
-										<img src="<?php echo get_template_directory_uri(); ?>/img/cards/tarot_numbers/page_pents.png" alt="" class="hidden elem_card elem_card_page elem_card_page_pents">
-										<img src="<?php echo get_template_directory_uri(); ?>/img/cards/tarot_numbers/page_swords.png" alt="" class="hidden elem_card elem_card_page elem_card_page_swords">
-										<img src="<?php echo get_template_directory_uri(); ?>/img/cards/tarot_numbers/page_cups.png" alt="" class="hidden elem_card elem_card_page elem_card_page_cups">
+										<img src="<?php echo get_template_directory_uri(); ?>/img/cards/tarot_numbers/page_wands.jpg" alt="" class="hidden elem_card elem_card_page elem_card_page_wands">
+										<img src="<?php echo get_template_directory_uri(); ?>/img/cards/tarot_numbers/page_pents.jpg" alt="" class="hidden elem_card elem_card_page elem_card_page_pents">
+										<img src="<?php echo get_template_directory_uri(); ?>/img/cards/tarot_numbers/page_swords.jpg" alt="" class="hidden elem_card elem_card_page elem_card_page_swords">
+										<img src="<?php echo get_template_directory_uri(); ?>/img/cards/tarot_numbers/page_cups.jpg" alt="" class="hidden elem_card elem_card_page elem_card_page_cups">
 									</div>
 									<div class="elems_card elems_card_5 hidden">
-										<img src="<?php echo get_template_directory_uri(); ?>/img/cards/tarot_numbers/knight_wands.png" alt="" class="hidden elem_card elem_card_knight elem_card_knight_wands">
-										<img src="<?php echo get_template_directory_uri(); ?>/img/cards/tarot_numbers/knight_pents.png" alt="" class="hidden elem_card elem_card_knight elem_card_knight_pents">
-										<img src="<?php echo get_template_directory_uri(); ?>/img/cards/tarot_numbers/knight_swords.png" alt="" class="hidden elem_card elem_card_knight elem_card_knight_swords">
-										<img src="<?php echo get_template_directory_uri(); ?>/img/cards/tarot_numbers/knight_cups.png" alt="" class="hidden elem_card elem_card_knight elem_card_knight_cups">
+										<img src="<?php echo get_template_directory_uri(); ?>/img/cards/tarot_numbers/knight_wands.jpg" alt="" class="hidden elem_card elem_card_knight elem_card_knight_wands">
+										<img src="<?php echo get_template_directory_uri(); ?>/img/cards/tarot_numbers/knight_pents.jpg" alt="" class="hidden elem_card elem_card_knight elem_card_knight_pents">
+										<img src="<?php echo get_template_directory_uri(); ?>/img/cards/tarot_numbers/knight_swords.jpg" alt="" class="hidden elem_card elem_card_knight elem_card_knight_swords">
+										<img src="<?php echo get_template_directory_uri(); ?>/img/cards/tarot_numbers/knight_cups.jpg" alt="" class="hidden elem_card elem_card_knight elem_card_knight_cups">
 									</div>
 								</div>
 								<div class="zone_elem draggable"></div>

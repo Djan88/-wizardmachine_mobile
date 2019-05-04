@@ -48,12 +48,35 @@ jQuery(document).ready(function () {
 
 // start_protocol
  jQuery('.btn_start_elems').on('click', function(event) {
+  count_animation = 0;
   jQuery(this).addClass('hidden');
   zone_left = parseInt(jQuery('.zone_elem').css('left'));
   zone_top = parseInt(jQuery('.zone_elem').css('top'));
-  jQuery('.elems_card_1').fadeIn(500);
-  jQuery('.elems_card_1').css('left', zone_left - 38 +'px');
-  jQuery('.elems_card_1').css('top', zone_top - 70 +'px');
+  if (zone_top >= 100) {
+    phaseOne = setInterval(function(){
+      if (count_animation == 0){
+        jQuery('.elems_card_1').fadeIn(500);
+        jQuery('.elems_card_1').css('left', zone_left - 38 +'px');
+        jQuery('.elems_card_1').css('top', zone_top - 70 +'px');
+        count_animation += 1;
+      } else if (count_animation == 2) {
+        jQuery('.elems_card_1').fadeIn(500);
+        jQuery('.elems_card_1').css('left', zone_left - 38 +'px');
+        jQuery('.elems_card_1').css('top', zone_top - 70 +'px');
+        count_animation += 1;
+      } else if (count_animation > 8 && count_animation <= 16) {
+        count_animation += 1;
+      } else if (count_animation > 16 && count_animation <= 22) {
+        count_animation += 1;
+      } else {
+        count_animation = 0;
+      }
+    }, 1000);
+    
+  } else {
+    swal("Зона не на руке", "Перед стартом перенесите зону на руку", "info");
+  }
+  
 
   // count_animation = 0;
   // phaseOne = setInterval(function(){
