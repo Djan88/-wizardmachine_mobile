@@ -15,9 +15,9 @@ jQuery(document).ready(function () {
     jQuery('.hand_wrap').fadeIn(500);
     swal({
       title:"Title",
-      imageUrl: 'http://yuchikurov.ru/wp-content/themes/mobile/img/what_place.gif',
-      imageWidth: 300,
-      imageHeight: 177,
+      imageUrl: 'http://yuchikurov.ru/wp-content/themes/mobile/img/hand_alt.gif',
+      imageWidth: 500 ,
+      imageHeight: 499,
       imageAlt: 'Hand',
       animation: false
     });
