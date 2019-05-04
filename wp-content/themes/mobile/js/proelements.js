@@ -24,7 +24,6 @@ end_elem_prot = function(){
     left: '50px',
     top: '50px'
   });
-  jQuery('.elems_card_1, .elems_card_2, .elems_card_3, .elems_card_4, .elems_card_5').fadeOut(1000);
 }
 hide_cards = function(){
   jQuery('.elem_card_queen, .elem_card_king, .elem_card_page, .elem_card_knight').addClass('hidden');
