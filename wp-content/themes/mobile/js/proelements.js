@@ -27,6 +27,7 @@ jQuery(document).ready(function () {
     jQuery('.hand_wrap').fadeIn(500);
     card_wrapper_width = zone_top = parseInt(jQuery('.hand_wrap').css('width'));
     jQuery('.elems_card').css('left', card_wrapper_width / 2 - 90+'px');
+    jQuery('.elems_card_2').css('left', card_wrapper_width / 2 - 150+'px');
     elem_type = jQuery(this).data('elem');
     if (elem_type == 'air') {
       jQuery('.elem_mode_title').text('Воздух');
@@ -77,7 +78,7 @@ jQuery(document).ready(function () {
       } else if (count_animation == 8) {
         jQuery('.elems_card_5').fadeIn(500);
         jQuery('.elems_card_5').css('left', zone_left - 78 +'px');
-        jQuery('.elems_card_5').css('top', zone_top - 280 +'px');
+        jQuery('.elems_card_5').css('top', zone_top - 270 +'px');
       } else if (count_animation == 9)  {
         count_animation = 0;
         clearInterval(phaseOne);
