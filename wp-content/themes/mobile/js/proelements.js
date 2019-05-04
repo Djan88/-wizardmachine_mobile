@@ -14,7 +14,8 @@ jQuery(document).ready(function () {
 
 // chose element
   jQuery('.elements_item').on('click', function(event) {
-    jQuery('.elements_item, .btn_start_elems').removeClass('active');
+    jQuery('.elements_item').removeClass('active');
+    jQuery('.btn_start_elems').removeClass('hidden');
     jQuery('.zone_elem').css({
       left: '50px',
       top: '50px'
