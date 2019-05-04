@@ -234,6 +234,7 @@
 								</div>
 							</div>
 							<div class="col-md-6 offset-md-3 hand_wrap hidden">
+								<div class="zone_elem draggable"></div>
 								<div class="elems_cards">
 									<div class="elems_card elems_card_1 hidden">
 										<img src="<?php echo get_template_directory_uri(); ?>/img/cards/tarot_numbers/sun.jpg" alt="" class="elem_card elem_card_sun">
@@ -263,7 +264,6 @@
 										<img src="<?php echo get_template_directory_uri(); ?>/img/cards/tarot_numbers/knight_cups.jpg" alt="" class="hidden elem_card elem_card_knight elem_card_knight_cups">
 									</div>
 								</div>
-								<div class="zone_elem draggable"></div>
 								<img src="" alt="hand" class="loaded_img">
 							</div>
 						</div>
