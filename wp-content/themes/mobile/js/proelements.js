@@ -104,7 +104,7 @@ hide_cards = function(){
         jQuery('.elems_card_5').css('top', zone_top - 270 +'px');
       } else if (count_animation == 10)  {
         jQuery('.btn_stop_elems').removeClass('hidden');
-      } else if (count_animation == 20)  {
+      } else if (count_animation == 590)  {
         count_animation = 0;
         clearInterval(phaseOne);
         swal({

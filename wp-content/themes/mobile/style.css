@@ -1168,6 +1168,10 @@ button.close.history_close
   border-radius: 14px;
   border: 10px solid #fff;
 }
+.acent_text
+{
+  color: #f96b47
+}
 @media (min-width: 600px) {
   .sweet-alert
   {
