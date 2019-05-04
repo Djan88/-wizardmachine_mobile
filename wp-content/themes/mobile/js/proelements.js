@@ -106,7 +106,7 @@ hide_cards = function(){
         clearInterval(phaseOne);
         end_elem_prot();
       }
-      if (stop_status = 1) {
+      if (stop_status == 1) {
         stop_status = 0;
         swal({
           title: "Протокол выполнен!",   
