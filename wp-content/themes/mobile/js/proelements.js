@@ -61,8 +61,8 @@ jQuery(document).ready(function () {
         jQuery('.elems_card_1').css('top', zone_top - 150 +'px');
       } else if (count_animation == 2) {
         jQuery('.elems_card_2').fadeIn(500);
-        jQuery('.elems_card_2').css('left', zone_left - 78 +'px');
-        jQuery('.elems_card_2').css('top', zone_top - 150 +'px');
+        jQuery('.elems_card_2').css('left', zone_left - 150 +'px');
+        jQuery('.elems_card_2').css('top', zone_top - 78 +'px');
       } else if (count_animation == 4) {
 
       } else if (count_animation == 6) {
