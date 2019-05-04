@@ -115,7 +115,6 @@ hide_cards = function(){
             count_animation = 0;
             end_elem_prot();
             jQuery('.hand_wrap').css('display', 'none');
-            jQuery('.header-title').text('Переместите зону на ладонь');
           } 
         });
       }
