@@ -46,7 +46,7 @@ hide_cards = function(){
       jQuery('.elem_mode_title').text('Воздух');
       jQuery('.elem_mode_card').text('Жезлы');
       jQuery('.elem_card_sun').removeClass('hidden');
-      jQuery('.elem_card_queen_wands, .elem_card_king_wands, .elem_card_page_wands, .elem_card_knight_wands').removeClass('hidden')..css('display', 'block');;
+      jQuery('.elem_card_queen_wands, .elem_card_king_wands, .elem_card_page_wands, .elem_card_knight_wands').removeClass('hidden').css('display', 'block');;
     } else if (elem_type == 'earth') {
       jQuery('.elem_mode_title').text('Земля');
       jQuery('.elem_mode_card').text('Мечи');
