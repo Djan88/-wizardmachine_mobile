@@ -66,7 +66,7 @@ jQuery(document).ready(function () {
       } else if (count_animation == 4) {
         jQuery('.elems_card_3').fadeIn(500);
         jQuery('.elems_card_3').css('left', zone_left - 78 +'px');
-        jQuery('.elems_card_3').css('top', zone_top - 110 +'px');
+        jQuery('.elems_card_3').css('top', zone_top - 170 +'px');
       } else if (count_animation == 6) {
         
       } else if (count_animation == 8) {
