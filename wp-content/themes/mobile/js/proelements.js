@@ -69,10 +69,10 @@ jQuery(document).ready(function () {
         
       } else if (count_animation == 8) {
         
-      } else {
+      } else if (count_animation == 9)  {
         count_animation = 0;
         clearInterval(phaseOne);
-        console.log(exit);
+        console.log('exit');
       }
       count_animation += 1;
     }, 1000);
