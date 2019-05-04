@@ -7,4 +7,10 @@ jQuery(document).ready(function () {
         return false;
       }
     }
+
+
+  jQuery('.elements_item').on('click', function(event) {
+    
+    jQuery('.hand_wrap').fadeIn(500);
+  });
 });
