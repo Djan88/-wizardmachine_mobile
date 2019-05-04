@@ -29,7 +29,7 @@ end_elem_prot = function(){
   jQuery('.elems_card_2').css('left', card_wrapper_width / 2 - 150+'px');
   jQuery('.elems_card').css('top', '-200px');
   jQuery('.header-title').text('Выберите треугольник отличный от других');
-  jQuery('.elems_card_1, .elems_card_2, .elems_card_3, .elems_card_4, .elems_card_5').fadeOut(2000);
+  jQuery('.elems_card_1, .elems_card_2, .elems_card_3, .elems_card_4, .elems_card_5, .hand_wrap').fadeOut(1000);
 
 }
 hide_cards = function(){
@@ -116,7 +116,6 @@ hide_cards = function(){
           if (isConfirm) {    
             count_animation = 0;
             setTimeout(end_elem_prot, 1000);
-            jQuery('.hand_wrap').css('display', 'none');
           } 
         });
       }
@@ -132,7 +131,6 @@ hide_cards = function(){
             clearInterval(phaseOne);   
             count_animation = 0;
             setTimeout(end_elem_prot, 1000);
-            jQuery('.hand_wrap').css('display', 'none');
           } 
         });
       } else {
