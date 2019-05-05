@@ -313,6 +313,7 @@ cur_date = function(){
   jQuery('.history').css('top', "-"+history_h+'px');
   jQuery('.madal').css('top', "-"+history_h+'px');
 
+  jQuery('#accordionExample').collapse();
 
   jQuery('.user_history, .btn_history').on('click', function(event) {
     if (jQuery('.history').hasClass('history_visible')) {
