@@ -951,6 +951,10 @@ input.crop_photo
   font-size: 18px;
   font-weight: 400;
 }
+#card_docs .modal-dialog
+{
+  max-width: 650px;
+}
 button.close.history_close, button.close.manual_close
 {
   margin-right: 10px;
