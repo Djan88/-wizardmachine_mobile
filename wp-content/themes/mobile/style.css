@@ -945,11 +945,12 @@ input.crop_photo
 }
 .manual_wrap h3 
 {
-  color: #000;
-  background: #eee;
-  padding: 5px;
+  color: #fff;
+  background: #32648e;
+  padding: 10px;
   font-size: 18px;
   font-weight: 400;
+  box-shadow: 0 7px 4px rgba(0,0,0,.15)!important;
 }
 #card_docs .modal-dialog
 {

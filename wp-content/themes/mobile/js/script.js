@@ -41,18 +41,11 @@ jQuery(document).ready(function () {
               return false;
           }
       };
-
-  jQuery( function() {
-    var icons = {
-      header: "ui-icon-circle-arrow-e",
-      activeHeader: "ui-icon-circle-arrow-s"
-    };
-    jQuery( "#accordion" ).accordion({
-      heightStyle: "content",
-      collapsible: true,
-      icons: icons
-    });
-  } );
+  
+  jQuery( "#accordion" ).accordion({
+    heightStyle: "content",
+    collapsible: true
+  });
   // Unhide menu after load
   jQuery('#menu').removeClass('hidden');
 

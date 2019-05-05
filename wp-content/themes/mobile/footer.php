@@ -228,7 +228,7 @@
           </div>
           <div class="modal-body mode_content">
             <div class="container">
-              <div id="accordion" class="col manual_wrap">
+              <div id="accordion" class="manual_wrap">
                 <h3>Карта Дурак (0)</h3>
                 <div class="manual_content">
                   <img src="<?php echo get_template_directory_uri(); ?>/img/cards/fool_1.png" alt="zones" alt="fool">
