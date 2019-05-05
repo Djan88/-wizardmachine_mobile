@@ -42,7 +42,9 @@ jQuery(document).ready(function () {
           }
       };
 
-  jQuery( "#accordion" ).accordion();
+  jQuery( "#accordion" ).accordion({
+    heightStyle: "content"
+  });
   // Unhide menu after load
   jQuery('#menu').removeClass('hidden');
 

@@ -943,6 +943,14 @@ input.crop_photo
   float: left;
   padding: 10px;
 }
+.manual_wrap h3 
+{
+  color: #000;
+  background: #eee;
+  padding: 5px;
+  font-size: 18px;
+  font-weight: 400;
+}
 button.close.history_close, button.close.manual_close
 {
   margin-right: 10px;
