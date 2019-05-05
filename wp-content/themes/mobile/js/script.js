@@ -41,6 +41,8 @@ jQuery(document).ready(function () {
               return false;
           }
       };
+
+  jQuery( "#accordion" ).accordion();
   // Unhide menu after load
   jQuery('#menu').removeClass('hidden');
 
