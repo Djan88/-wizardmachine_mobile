@@ -342,13 +342,13 @@ cur_date = function(){
 
   // hide blocks history / manual when click on background
 
-  function hidePopUps(e) {
-      if(!e.target.matches('.history, .history *')) {
-          jQuery('.history').removeClass('history_visible');
-      }
-  };
+  // function hidePopUps(e) {
+  //     if(!e.target.matches('.history, .history *')) {
+  //         jQuery('.history').removeClass('history_visible');
+  //     }
+  // };
 
-  window.addEventListener('click', hidePopUps);
+  // window.addEventListener('click', hidePopUps);
 
   // save history
   jQuery('.save_history').on('click', function(event) {
