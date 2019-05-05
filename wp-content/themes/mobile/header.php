@@ -94,7 +94,7 @@
                 <span aria-hidden="true">&times;</span>
               </button>
               <div class="col manual-title">Свойства карт</div>
-              <div class="history_wrapper">
+              <div class="modal_wrapper">
                 <div class="row">
                   <div class="col">
                     <div class="accordion" id="accordionExample">
