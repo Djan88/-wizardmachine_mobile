@@ -43,8 +43,7 @@ jQuery(document).ready(function () {
       };
 
   jQuery( "#accordion" ).accordion({
-    heightStyle: "content",
-    collapsible: true
+    heightStyle: "content"
   });
   // Unhide menu after load
   jQuery('#menu').removeClass('hidden');
