@@ -932,6 +932,11 @@ input.crop_photo
   border-bottom: 1px solid #aeaf66;
   margin-bottom: 10px;
 }
+.manual_content
+{
+  color: #555;
+  font-size: 16px;
+}
 .manual_content img
 {
   width: 100%;
