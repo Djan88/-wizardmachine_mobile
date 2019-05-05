@@ -42,10 +42,17 @@ jQuery(document).ready(function () {
           }
       };
 
-  jQuery( "#accordion" ).accordion({
-    heightStyle: "content",
-    collapsible: true
-  });
+  jQuery( function() {
+    var icons = {
+      header: "ui-icon-circle-arrow-e",
+      activeHeader: "ui-icon-circle-arrow-s"
+    };
+    jQuery( "#accordion" ).accordion({
+      heightStyle: "content",
+      collapsible: true,
+      icons: icons
+    });
+  } );
   // Unhide menu after load
   jQuery('#menu').removeClass('hidden');
 
