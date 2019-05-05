@@ -866,7 +866,7 @@ input.crop_photo
   overflow: scroll;
   padding: 0;
 }
-.history:after, .manual:after
+.history:after
 {
   content: '';
   position: absolute;
@@ -926,6 +926,15 @@ input.crop_photo
 .remove_history_item:hover
 {
   color: #555;
+}
+.manual-title
+{
+  border-bottom: 1px solid #aeaf66;
+  margin-bottom: 10px;
+}
+.manual_content img
+{
+  width: 100%;
 }
 button.close.history_close, button.close.manual_close
 {

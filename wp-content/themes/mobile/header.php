@@ -94,13 +94,13 @@
                 <span aria-hidden="true">&times;</span>
               </button>
               <div class="col manual-title">Свойства карт</div>
-              <div class="modal_wrapper">
+              <div class="modal_wrapper container">
                 <div class="row">
                   <div id="accordion" class="col manual_wrap">
                     <h3>Карта Дурак (0)</h3>
                     <div class="row">
-                      <div class="col manual_img"><img src="<?php echo get_template_directory_uri(); ?>/img/cards/fool_1.png" alt="zones" alt="fool"></div>
-                      <div class="col manual_content">
+                      <div class="col  manual_content">
+                        <img src="<?php echo get_template_directory_uri(); ?>/img/cards/fool_1.png" alt="zones" alt="fool">
                         <p>
                         соответствует крестцу - фундаменту или основы всей телесной конструкции.
                         Карта находится сзади, на крестце, в отличие от остальных телесных карт, которые проецируются на переднюю поверхность тела.
@@ -136,8 +136,8 @@
                     </div>
                     <h3>Карта Маг (I)</h3>
                     <div class="row">
-                      <div class="col manual_img"><img src="<?php echo get_template_directory_uri(); ?>/img/cards/magician_1.png" alt="zones" alt="mag"></div>
                       <div class="col manual_content">
+                        <img src="<?php echo get_template_directory_uri(); ?>/img/cards/magician_1.png" alt="zones" alt="mag">
                         <p>
                           Мы часто наблюдаем проблемы Мага у лиц, которые занимаются всевозможными тонкими энергетическими  практиками, такими как Рейки, Краниосакральная терапия или Биодинамика.
                         </p>
@@ -163,8 +163,8 @@
                     </div>
                     <h3>Карта Башня (XVI)</h3>
                     <div class="row">
-                      <div class="col manual_img"><img src="<?php echo get_template_directory_uri(); ?>/img/cards/tower_1.png" alt="zones" alt="tower"></div>
                       <div class="col manual_content">
+                        <img src="<?php echo get_template_directory_uri(); ?>/img/cards/tower_1.png" alt="zones" alt="tower">
                         <p>
                           соответствует органам малого таза  (простата у мужчин, матка у женщин), Кундалини в Ведах.
                         </p>
@@ -193,9 +193,8 @@
                     </div>
                     <!-- <h3>Дурак (0)</h3>
                     <div class="row">
-                      <div class="col manual_img"><img src="<?php //echo get_template_directory_uri(); ?>/img/cards/magician_1.png" alt="zones" alt="mag"></div>
                       <div class="col manual_content">
-                        
+                        <img src="<?php //echo get_template_directory_uri(); ?>/img/cards/magician_1.png" alt="zones" alt="mag">
                       </div>
                     </div> -->
                   </div>
