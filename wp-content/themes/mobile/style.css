@@ -37,7 +37,7 @@ div#recallbar, div#wpadminbar
   box-shadow: 0 1px 0 rgba(255,255,255,.1);
   border-bottom: 1px solid #eee;
 }
-.header-title, .history-title
+.header-title, .history-title, .manual-title
 {
   padding: 20px 0;
   text-align: center;
@@ -852,7 +852,7 @@ input.crop_photo
 {
   margin-left: 5px;
 }
-.history
+.history, .manual
 {
   width: 600px;
   position: absolute;
@@ -866,7 +866,7 @@ input.crop_photo
   overflow: scroll;
   padding: 0;
 }
-.history:after
+.history:after, .manual:after
 {
   content: '';
   position: absolute;
@@ -882,7 +882,7 @@ input.crop_photo
   overflow: scroll;
   padding-bottom: 50px;
 }
-.history.history_visible
+.history.history_visible, .manual.manual_visible
 {
   top: 70px!important;
   position: fixed;
@@ -891,7 +891,7 @@ input.crop_photo
 {
   width: 100%;
 }
-.history_close
+.history_close, .manual_close
 {
   margin-right: 0;
   margin-top: 5px;

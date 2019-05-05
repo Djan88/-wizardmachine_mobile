@@ -89,6 +89,13 @@
               <div class="col history-title">История рецептов</div>
               <div class="history_wrapper"></div>
             </div>
+            <div class="manual col" style="top: -1000px">
+              <button type="button" class="close manual_close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+              <div class="col manual-title">Свойства карт</div>
+              <div class="history_wrapper"></div>
+            </div>
             <div class="zones_template">
               <img src="<?php echo get_template_directory_uri(); ?>/img/zones.png" alt="zones">
             </div>

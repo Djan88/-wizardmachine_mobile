@@ -129,7 +129,7 @@
 					      	<img src="<?php echo get_template_directory_uri(); ?>/img/icon_elems_alt.png" alt="" class="main_menu_icon">
 					      </div>
 					    </div>
-							<div class="col mode-item mode-item_cards text_center"  data-toggle="modal" data-target="#card_docs">
+							<div class="col mode-item mode-item_cards text_center">
 					      <span class="protocols_item_title">Свойства карт</span>
 					      <div class="protocols_item_img">
 					      	<!-- <i class="fas fa-book-reader"></i> -->

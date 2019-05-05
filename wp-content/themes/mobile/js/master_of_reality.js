@@ -306,7 +306,7 @@ cur_date = function(){
   });
 
 
-  // history block
+  // history / manual block
   history_h = jQuery("html").height()-100;
   jQuery('.history_wrapper').css('height', history_h+'px');
   jQuery('.history').css('top', "-"+history_h+'px');
@@ -317,7 +317,16 @@ cur_date = function(){
       jQuery('.history').removeClass('history_visible');
     } else {
       jQuery('.history').addClass('history_visible');
+      jQuery('.manual').removeClass('manual_visible');
       history_update();
+    }
+  });
+  jQuery('.mode-item_cards').on('click', function(event) {
+    if (jQuery('.manual').hasClass('manual_visible')) {
+      jQuery('.manual').removeClass('manual_visible');
+    } else {
+      jQuery('.manual').addClass('manual_visible');
+      jQuery('.history').removeClass('history_visible');
     }
   });
   jQuery('.btn-back').on('click', function(event) {
@@ -325,6 +334,9 @@ cur_date = function(){
   });
   jQuery('.history_close').on('click', function(event) {
     jQuery('.history').removeClass('history_visible');
+  });
+  jQuery('.manual_close').on('click', function(event) {
+    jQuery('.manual').removeClass('manual_visible');
   });
 
 
