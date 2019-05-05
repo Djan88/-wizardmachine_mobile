@@ -939,7 +939,9 @@ input.crop_photo
 }
 .manual_content img
 {
-  width: 100%;
+  width: 135px;
+  float: left;
+  padding: 10px;
 }
 button.close.history_close, button.close.manual_close
 {
