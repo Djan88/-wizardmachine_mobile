@@ -244,6 +244,7 @@ jQuery(document).ready(function () {
   jQuery('.zone').on('click', function(event) {
     jQuery('.card_modal_img').attr('src', jQuery(this).data('card'));
     choiced_card = String(jQuery(this).data('number'));
+    console.log(choiced_card);
     if (choiced_card == '18'||choiced_card == '17') {
       jQuery('.card_modal_footer').addClass('hidden');
     } else {
