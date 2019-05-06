@@ -228,11 +228,6 @@
           </div>
           <div class="modal-body mode_content">
             <div class="container">
-              <div class="container">
-                <div class="row">
-                  <div class="col"><p><i>На полнолуние мы часто сталкиваемся с тем, что Devil отказывается принимать грех и не поднимается в позицию/уровень стояния проблемной телесной карты.<br>В этом случае терапию  Tarot необходимо прекратить и вернуться к ней в другие дни</i></p></div>
-                </div>
-              </div>
               <div id="accordion" class="manual_wrap">
                 <h3>Карта Дурак (0)</h3>
                 <div class="manual_content">

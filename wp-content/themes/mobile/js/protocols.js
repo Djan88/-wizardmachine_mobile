@@ -91,45 +91,6 @@ jQuery(document).ready(function () {
       remove_card_num,
       cur_card_in_stack = 0;
 
-
-
-  // if paused procedure is exist
-  if (localStorage.getItem('paused')) {
-    pausedStatus = true;
-    swal({
-      title: "У Вас есть незавершенная сессия",   
-      text: "Хотите продолжить его выполнение?",   
-      type: "info",   
-      showCancelButton: true,   
-      confirmButtonColor: "#DD6B55",   
-      confirmButtonText: "Продолжить",   
-      cancelButtonText: "Новый клиент"
-    },
-    function(isConfirm){
-      if (isConfirm) {    
-        jQuery('.btn-to_endNow').css('color', '#fff');
-        jQuery('.mobile_screen_protocols').addClass('hidden').css('display', 'none');
-        jQuery('.mobile_screen_load').addClass('hidden').css('display', 'none');
-        jQuery('.mobile_screen_what_way').addClass('hidden').css('display', 'none');
-        jQuery('.mobile_screen_final').fadeIn(500);
-        jQuery('.btn-to_mode, .btn-to_manual, .btn-to_protocols, .btn-to_img').addClass('hidden');
-        jQuery('.btn-to_protocols, .btn_man_with_zones, .btn_start').removeClass('hidden');
-        jQuery('.zone_final').css('height', jQuery('.zone_final').css('width'));
-        jQuery('.loaded_img').attr('src', localStorage.getItem('pausedPhoto'));
-        protocolfromMemory = eval(localStorage.getItem('paused'))
-        jQuery('.btn-to_endNow').css('color', '#fff');
-        jQuery('.header-title').text('Программа выполняется');
-      } else {    
-        jQuery(location).attr('href','/');
-        localStorage.removeItem('paused');
-        localStorage.removeItem('pausedPhoto');
-        localStorage.removeItem('pausedPhases');
-        localStorage.removeItem('pausedProtName'); 
-        pausedStatus = false;
-      } 
-    });
-  }
-
   onEnd = function(){
     jQuery('.btn-to_endNow').addClass('hidden');
     jQuery('.btn_start').removeAttr('disabled');
