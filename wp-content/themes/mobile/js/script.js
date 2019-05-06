@@ -41,7 +41,7 @@ jQuery(document).ready(function () {
               return false;
           }
       };
-  
+
   jQuery( "#accordion" ).accordion({
     heightStyle: "content",
     collapsible: true
@@ -70,10 +70,10 @@ jQuery(document).ready(function () {
     devil_x = jQuery('.card_devil').position().left + drag_zone_w + diag_zone_w;
     devil_y = jQuery('.card_devil').position().top + card_heigth;
 
-    console.log(card_width);
-    console.log(drag_zone_w);
-    console.log(diag_zone_w);
-    console.log(devil_x);
+    // console.log(card_width);
+    // console.log(drag_zone_w);
+    // console.log(diag_zone_w);
+    // console.log(devil_x);
 
     sol_1 = parseInt(jQuery('.card_solis').css('top'));
     sol_2 = parseInt(jQuery('.card_ghost_solis').css('top'));
@@ -91,8 +91,8 @@ jQuery(document).ready(function () {
       devil_ratio = devil_2 - devil_1;
     }
 
-    console.log("sol_ratio = "+sol_ratio);
-    console.log("devil_ratio = "+devil_ratio);
+    // console.log("sol_ratio = "+sol_ratio);
+    // console.log("devil_ratio = "+devil_ratio);
 
     if (sol_ratio <= 50 && devil_ratio <= 50) {
       jQuery('.line_area').addClass('line_area_red');
@@ -302,7 +302,7 @@ jQuery(document).ready(function () {
       jQuery('.btn-to_img, .btn-paused, .btn-to_protocols, .btn-played, .btn-to_manual, .btn-to_endNow, .btn_history').addClass('hidden');
       jQuery('.btn-to_mode, .btn_man_with_zones, .btn_moon_day, .btn_start').removeClass('hidden');
       jQuery('.header-title').text('Перенесите зоны на фото клиента');
-      swal("Намерение или действие?", "На полнолуние мы часто сталкиваемся с тем, что Devil отказывается принимать грех и не поднимается в позицию/уровень стояния проблемной телесной карты. В этом случае терапию Tarot необходимо прекратить и вернуться к ней в другие дни", "info");
+
       line_drawing();
     } else {
       jQuery('.header-title').text('Загрузите и отредактивуйте фото');
@@ -380,6 +380,7 @@ jQuery(document).ready(function () {
     jQuery('.btn-to_img, .btn-paused, .btn-to_protocols, .btn-played, .btn-to_manual, .btn-to_endNow, .btn_history').addClass('hidden');
     jQuery('.btn-to_mode, .btn_man_with_zones, .btn_moon_day, .btn_start').removeClass('hidden');
     jQuery('.header-title').text('Перенесите зоны на фото');
+    swal("Намерение или действие?", "На полнолуние мы часто сталкиваемся с тем, что Devil отказывается принимать грех и не поднимается в позицию/уровень стояния проблемной телесной карты. В этом случае терапию Tarot необходимо прекратить и вернуться к ней в другие дни", "info");
     setTimeout(git_card_size, 1000);
   } else if (croppedImg && croppedImg.hasAttribute('src') && tarot_mode == '2') {
     jQuery('.mobile_screen_what_way').addClass('hidden').css('display', 'none');
@@ -528,7 +529,7 @@ jQuery(document).ready(function () {
 
                     setTimeout(function(){
                         // initialize Jcrop
-                        console.log(jQuery('.step2').width());
+                        // console.log(jQuery('.step2').width());
                         jQuery('#preview').Jcrop({
                             minSize: [32, 32],// keep aspect ratio 1:1
                             bgFade: true, // use fade effect
