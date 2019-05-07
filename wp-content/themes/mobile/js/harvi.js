@@ -52,6 +52,7 @@ jQuery(document).ready(function () {
     }
     // moon_day = 13;
 
+    localStorage.setItem('moon_day', moon_day);
     checkPoints = function(){
       jQuery('.zone_movable').each(function() {
         if(parseFloat(jQuery(this).css('top')) < 20){
@@ -60,7 +61,6 @@ jQuery(document).ready(function () {
         }
       });
     }
-
     jQuery('.mode-item_protocol').on('click', function(event) {
         if (moon_day == 13 || moon_day == 14 || moon_day == 15) {
             setTimeout(function(){
