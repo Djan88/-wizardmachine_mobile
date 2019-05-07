@@ -380,7 +380,7 @@ jQuery(document).ready(function () {
     jQuery('.btn-to_img, .btn-paused, .btn-to_protocols, .btn-played, .btn-to_manual, .btn-to_endNow, .btn_history').addClass('hidden');
     jQuery('.btn-to_mode, .btn_man_with_zones, .btn_moon_day, .btn_start').removeClass('hidden');
     jQuery('.header-title').text('Перенесите зоны на фото');
-    swal("Намерение или действие?", "На полнолуние мы часто сталкиваемся с тем, что Devil отказывается принимать грех и не поднимается в позицию/уровень стояния проблемной телесной карты. В этом случае терапию Tarot необходимо прекратить и вернуться к ней в другие дни", "info");
+    swal("Какой сегодня лунный день?", "На полнолуние мы часто сталкиваемся с тем, что Devil отказывается принимать грех и не поднимается в позицию/уровень стояния проблемной телесной карты. В этом случае терапию Tarot необходимо прекратить и вернуться к ней в другие дни", "info");
     setTimeout(git_card_size, 1000);
   } else if (croppedImg && croppedImg.hasAttribute('src') && tarot_mode == '2') {
     jQuery('.mobile_screen_what_way').addClass('hidden').css('display', 'none');
