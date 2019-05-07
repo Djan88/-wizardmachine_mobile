@@ -964,6 +964,10 @@ input.crop_photo
 {
   transform: scale(1.5);
 }
+.post-42
+{
+  color: #555;
+}
 #card_docs .modal-dialog
 {
   max-width: 650px;

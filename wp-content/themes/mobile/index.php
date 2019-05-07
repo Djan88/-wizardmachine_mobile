@@ -3,7 +3,9 @@
 	<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
 	<div class="col col-12 protocols">
 		<article id="post-<?php the_ID(); ?>" <?php post_class( 'cf' ); ?> role="article">
-
+			<header class="article-header">
+				<h1><?php the_title(); ?></h1>
+			</header>
 			<section class="entry-content cf">
 				<?php the_content(); ?>
 			</section>
