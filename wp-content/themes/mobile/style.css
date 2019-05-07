@@ -952,6 +952,18 @@ input.crop_photo
   font-weight: 400;
   box-shadow: 0 7px 4px rgba(0,0,0,.15)!important;
 }
+.manual_wrap h3:focus
+{
+  outline: none;
+}
+.manual_wrap img
+{
+  transition: all 0.5s linear
+}
+.manual_wrap img:hover
+{
+  transform: scale(1.5);
+}
 #card_docs .modal-dialog
 {
   max-width: 650px;
