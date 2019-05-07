@@ -361,7 +361,7 @@
 														data-card="<?php echo get_template_directory_uri(); ?>/img/cards/justice.png" 
 														data-number="11" 
 														data-tarot="" 
-														data-elem=" / " 
+														data-elem="" 
 														class="zone zone_movable draggable draggable_d3">XI</div>
 													<div
 														data-toggle="modal" 
@@ -388,7 +388,7 @@
 														data-card="<?php echo get_template_directory_uri(); ?>/img/cards/star.png" 
 														data-number="17" 
 														data-tarot="" 
-														data-elem=" / " 
+														data-elem="" 
 														class="zone zone_movable draggable draggable_v0">XVII</div>
 													<div 
 														data-toggle="modal" 
@@ -460,7 +460,7 @@
 														data-card="<?php echo get_template_directory_uri(); ?>/img/cards/moon.png" 
 														data-number="18" 
 														data-tarot="" 
-														data-elem=" / " 
+														data-elem="" 
 														class="zone zone_movable draggable draggable_v-">XVIII</div>
 												</div>
 												<div class="col zone_holder zone_holder_3">
