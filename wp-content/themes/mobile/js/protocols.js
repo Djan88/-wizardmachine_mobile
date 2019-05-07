@@ -204,6 +204,8 @@ jQuery(document).ready(function () {
   // show card in modal
   jQuery('.zone').on('click', function(event) {
     jQuery('.card_modal_img').attr('src', jQuery(this).data('card'));
+    jQuery('.card_modal_tarot').text(jQuery(this).data('tarot'));
+    jQuery('.card_modal_elem').text(jQuery(this).data('elem'));
     choiced_card = String(jQuery(this).data('number'));
     console.log(choiced_card);
     if (choiced_card == '18'||choiced_card == '17') {
