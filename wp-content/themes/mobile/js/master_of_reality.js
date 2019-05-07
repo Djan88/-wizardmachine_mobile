@@ -322,6 +322,7 @@ cur_date = function(){
   });
   jQuery('.btn-back').on('click', function(event) {
     jQuery('.history').removeClass('history_visible');
+    jQuery('.btn_start_elems').addClass('hidden');
   });
   jQuery('.history_close').on('click', function(event) {
     jQuery('.history').removeClass('history_visible');
