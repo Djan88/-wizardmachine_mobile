@@ -972,6 +972,12 @@ input.crop_photo
 {
   padding-top: 80px;
 }
+.card_modal_tarot, .card_modal_elem
+{
+  font-size: 18px;
+  text-transform: uppercase;
+  padding-top: 10px;
+}
 #card_docs .modal-dialog
 {
   max-width: 650px;

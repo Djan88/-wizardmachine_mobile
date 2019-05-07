@@ -94,8 +94,8 @@
           </div>
           <div class="modal-body">
             <img class="card_modal_img" src="" alt="zones">
-            <div class="card_modal_tarot"></div>
-            <div class="card_modal_elem"></div>
+            <span class="card_modal_tarot"></span>
+            <span class="card_modal_elem"></span>
           </div>
           <div class="modal-footer card_modal_footer hidden">
             <button type="button" class="btn btn-primary zone_choice" data-zone="">Выбрать</button>
