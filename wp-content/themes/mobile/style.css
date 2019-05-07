@@ -212,6 +212,7 @@ div#recallbar, div#wpadminbar
 #card_modal .modal-body
 {
   padding: 2px;
+  text-align: center;
 }
 .zones_template
 {
