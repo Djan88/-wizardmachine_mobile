@@ -227,9 +227,17 @@ div#recallbar, div#wpadminbar
 {
   max-width: 300px;
 }
-.zones_template.hidden
+.bc_credits
 {
-
+  position: relative;
+  display: inline-block;
+}
+.bc_credits img
+{
+  max-width: 100px;
+  position: absolute;
+  right: 0;
+  top: 0;
 }
 .mode-item_title
 {

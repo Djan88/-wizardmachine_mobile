@@ -645,7 +645,7 @@
 					<p>Узнать дату начала ближайшего курса <b>«TarotMachine — Мастер Реальности»</b> Вы можете на <a target="_blank" href="https://school-bc.ru">school-bc.ru</a></p>
 					<h4>Юридическая информация</h4>
 					<p><a href="mailto:info@chikurov.com">info@chikurov.com</a><br>+7 (495) 135-25-48<br>ОГРНИП: 314910224600336<br>ИНН: 7706092528</p>
-					<p class="credits">Разработано в "Школе Доктора Чикурова"<a target="_blank" href="https://chikurov.com/"><img src="<?php echo get_template_directory_uri(); ?>/img/bc.png" alt=""></a></p>
+					<p class="bc_credits"><a target="_blank" href="https://chikurov.com/">Разработано в <br>"Школе Доктора Чикурова" <img src="<?php echo get_template_directory_uri(); ?>/img/bc.png" alt=""></a></p>
 					<p><h5><a target="_blank" href="/oferta/">Оферта</a></h5></p>
 				</div>
 			</div>
