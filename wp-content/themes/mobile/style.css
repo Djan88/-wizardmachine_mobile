@@ -231,13 +231,14 @@ div#recallbar, div#wpadminbar
 {
   position: relative;
   display: inline-block;
+  padding-left: 110px;
 }
 .bc_credits img
 {
   max-width: 100px;
   position: absolute;
-  right: 0;
-  top: 0;
+  left: 0;
+  top: -10px;
 }
 .mode-item_title
 {
