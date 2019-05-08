@@ -360,8 +360,8 @@
 														data-target="#card_modal" 
 														data-card="<?php echo get_template_directory_uri(); ?>/img/cards/justice.png" 
 														data-number="11" 
-														data-tarot="" 
-														data-elem="" 
+														data-tarot="Мечи" 
+														data-elem="Земля" 
 														class="zone zone_movable draggable draggable_d3">XI</div>
 													<div
 														data-toggle="modal" 
