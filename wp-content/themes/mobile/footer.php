@@ -36,7 +36,7 @@
                 <?php echo do_shortcode( '[theme_switcha_select text="Выберите версию"]' ); ?>
               </li>
               <li>
-                <a href="" class="row align-items-center">
+                <a href="<?php echo get_template_directory_uri(); ?>/img/tarotmachine.pdf" download class="row align-items-center">
                   <span class="menu_item_img"><i class="far fa-folder-open"></i></span>Инструкция
                 </a>
               </li>
