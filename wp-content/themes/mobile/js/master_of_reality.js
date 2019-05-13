@@ -144,7 +144,7 @@ cur_date = function(){
     } else if (cur_type == 'swords') {
       jQuery('.marakata_dot').css('backgroundPositionY', scroll_val * 4 + 'px');
     } else if (cur_type == 'pents') {
-      jQuery('.marakata_dot').css('backgroundPositionY', scroll_val * 6 + 'px');
+      jQuery('.marakata_dot').css('backgroundPositionY', scroll_val * 2 + 'px');
     } else {
       jQuery('.marakata_dot').css('backgroundPositionY', scroll_val * 8 + 'px');
     }
