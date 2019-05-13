@@ -413,11 +413,11 @@ cur_date = function(){
       elem.css('backgroundPositionY', img_position[cur_history_image]);
       jQuery('.marakata_modal_sim-dot').css('backgroundPositionY', '-177px');
     } else if (type == 'pents') {
-      cur_history_image = cur_history_item[position]+10;
+      cur_history_image = cur_history_item[position]+20;
       elem.css('backgroundPositionY', img_position[cur_history_image]);
       jQuery('.marakata_modal_sim-dot').css('backgroundPositionY', '-534px');
     } else {
-      cur_history_image = cur_history_item[position]+10;
+      cur_history_image = cur_history_item[position]+30;
       elem.css('backgroundPositionY', img_position[cur_history_image]);
       jQuery('.marakata_modal_sim-dot').css('backgroundPositionY', '-711px');
     }
