@@ -197,6 +197,54 @@
         </div>
       </div>
     </div>
+    <div class="modal" id="mode_resurs" tabindex="-1" role="dialog">
+      <div class="modal-dialog modal-sm" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="history_item_modal_title">Ресурс</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body mode_content">
+            <b>Управление восходящим потоком силы</b>
+            <ul style="text-align: left;">
+              <li>После использования «Намерение»</li>
+              <li>На 14-15 день Луны для плановой стабилизации восходящего потока силы</li>
+              <li>Для лечения невротических расстройств, а также нестабильности карт: Башня, Суд, Мир</li>
+            </ul>
+            <p><b>Предварительно рекомендуется провести инверсию Колесницы, а также сбалансировать первоэлементы <span style="color: #17a2b8;">«Воздух»</span> и <span style="color: #bd2130;">Огонь</span></b></p>
+          </div>
+          <div class="modal-footer card_modal_footer">
+            <button type="button" class="btn btn-primary" data-dismiss="modal" data-zone="">ОК</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="modal" id="mode_zdorovie" tabindex="-1" role="dialog">
+      <div class="modal-dialog modal-sm" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="history_item_modal_title">Здоровье</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body mode_content">
+            <b>Управление здоровьем тела и ума</b>
+            <ul style="text-align: left;">
+              <li>После использование «Действия»</li>
+              <li>После эпизодов злости и раздражения</li>
+              <li>На 14-15 день Луны для планового укрепления здоровья и лечения хронических болезней</li>
+            </ul>
+            <p><b>Предварительно рекомендуется сбалансировать первоэлементы <span style="color: #007bff;">«Вода»</span> и <span style="color: #343a40;">«Земля»</span></b></p>
+          </div>
+          <div class="modal-footer card_modal_footer">
+            <button type="button" class="btn btn-primary" data-dismiss="modal" data-zone="">ОК</button>
+          </div>
+        </div>
+      </div>
+    </div>
     <div class="modal" id="elem_mode" tabindex="-1" role="dialog">
       <div class="modal-dialog" role="document">
         <div class="modal-content">

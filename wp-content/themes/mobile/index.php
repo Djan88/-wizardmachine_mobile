@@ -152,7 +152,9 @@
 							<div class="col">
 								<div class="btn-group group_of_types" role="group" aria-label="Basic example">
 									<button type="button" data-toggle="modal" data-target="#mode_namerenie" data-type="wands" class="btn btn-danger btn_tarot_type">Намерение</button>
+									<button type="button" data-toggle="modal" data-target="#mode_resurs" data-type="pents" class="btn btn-dark btn_tarot_type" style="margin-left: 5px;">Ресурс</button>
 								  <button type="button" data-toggle="modal" data-target="#mode_deistvie" data-type="swords" class="btn btn-primary btn_tarot_type" style="margin-left: 5px;">Действие</button>
+								  <button type="button" data-toggle="modal" data-target="#mode_zdorovie" data-type="cups" class="btn btn-success btn_tarot_type" style="margin-left: 5px;">Здоровье</button>
 								</div>
 							</div>
 						</div>

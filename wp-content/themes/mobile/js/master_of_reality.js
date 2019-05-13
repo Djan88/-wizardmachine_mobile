@@ -95,7 +95,7 @@ jQuery( ".problem_range_card" ).draggable({
     stop: function() {
       cur_window_width();
       if (jQuery('.master_problem_wrapper').hasClass('shadow')) {
-        swal("Намерение или действие?", "Нажмите на соответствующую кнопку", "info");
+        swal("Выберите режим", "Нажмите на соответствующую кнопку", "info");
       } else {
         jQuery('.master_cards_wrapper').removeClass('shadow hidden');
       }
@@ -377,12 +377,16 @@ cur_date = function(){
     console.log(history_item);
     if (jQuery(this).data('type') == 'pents') {
       jQuery('.marakata_sim_prot').addClass('marakata_sim_pents');
+      jQuery('.problem_range_card').addClass('problem_range_card_r');
+      jQuery('.problem_finish').text('Ресурс');
     } else if (jQuery(this).data('type') == 'wands') {
       jQuery('.marakata_sim_prot').addClass('marakata_sim_wands');
       jQuery('.problem_range_card').addClass('problem_range_card_n');
       jQuery('.problem_finish').text('Намерение');
     } else if (jQuery(this).data('type') == 'cups') {
       jQuery('.marakata_sim_prot').addClass('marakata_sim_cups');
+      jQuery('.problem_range_card').addClass('problem_range_card_z');
+      jQuery('.problem_finish').text('Здоровье');
     } else if (jQuery(this).data('type') == 'swords') {
       jQuery('.marakata_sim_prot').addClass('marakata_sim_swords');
       jQuery('.problem_range_card').addClass('problem_range_card_d');
