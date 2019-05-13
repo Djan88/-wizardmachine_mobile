@@ -140,7 +140,7 @@ cur_date = function(){
     }
     jQuery('.master_cards_wrapper').addClass('hidden');
     if (cur_type == 'wands') {
-      jQuery('.marakata_dot').css('backgroundPositionY', scroll_val * 6 + 'px');
+      jQuery('.marakata_dot').css('backgroundPositionY', scroll_val * 4 + 'px');
     } else if (cur_type == 'swords') {
       jQuery('.marakata_dot').css('backgroundPositionY', scroll_val * 4 + 'px');
     } else if (cur_type == 'pents') {
