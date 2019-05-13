@@ -142,11 +142,11 @@ cur_date = function(){
     if (cur_type == 'wands') {
       jQuery('.marakata_dot').css('backgroundPositionY', scroll_val * 4 + 'px');
     } else if (cur_type == 'swords') {
-      jQuery('.marakata_dot').css('backgroundPositionY', scroll_val * 4 + 'px');
+      jQuery('.marakata_dot').css('backgroundPositionY', scroll_val * 8 + 'px');
     } else if (cur_type == 'pents') {
       jQuery('.marakata_dot').css('backgroundPositionY', scroll_val * 2 + 'px');
     } else {
-      jQuery('.marakata_dot').css('backgroundPositionY', scroll_val * 8 + 'px');
+      jQuery('.marakata_dot').css('backgroundPositionY', scroll_val * 6 + 'px');
     }
   };
 
