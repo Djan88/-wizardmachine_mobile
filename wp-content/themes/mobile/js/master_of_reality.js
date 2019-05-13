@@ -371,7 +371,7 @@ cur_date = function(){
     jQuery('.btn_tarot_type').removeClass('active');
     jQuery(this).addClass('active')
     jQuery('.marakata_sim_prot').removeClass('marakata_sim_pents marakata_sim_wands marakata_sim_cups marakata_sim_swords');
-    jQuery('.problem_range_card').removeClass('problem_range_card_d problem_range_card_n');
+    jQuery('.problem_range_card').removeClass('problem_range_card_d problem_range_card_n problem_range_card_r problem_range_card_z');
     history_item.type = jQuery(this).data('type');
     cur_type = jQuery(this).data('type');
     console.log(history_item);
