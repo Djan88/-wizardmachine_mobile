@@ -68,7 +68,8 @@ jQuery(document).ready(function () {
         35: '-6235px',
         36: '-6415px',
         37: '-6593px',
-        38: '-6770px'
+        38: '-6770px',
+        39: '-6950px',
       },
       setImgFromHistory,
       hist_item_date,
