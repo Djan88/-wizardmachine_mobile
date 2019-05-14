@@ -152,7 +152,7 @@
       </div>
     </div>
     <div class="modal" id="mode_namerenie" tabindex="-1" role="dialog">
-      <div class="modal-dialog modal-sm" role="document">
+      <div class="modal-dialog" role="document">
         <div class="modal-content">
           <div class="modal-header">
             <h5 class="modal-title" id="history_item_modal_title">Намерение</h5>
@@ -175,7 +175,7 @@
       </div>
     </div>
     <div class="modal" id="mode_deistvie" tabindex="-1" role="dialog">
-      <div class="modal-dialog modal-sm" role="document">
+      <div class="modal-dialog" role="document">
         <div class="modal-content">
           <div class="modal-header">
             <h5 class="modal-title" id="history_item_modal_title">Действие</h5>
@@ -198,7 +198,7 @@
       </div>
     </div>
     <div class="modal" id="mode_resurs" tabindex="-1" role="dialog">
-      <div class="modal-dialog modal-sm" role="document">
+      <div class="modal-dialog" role="document">
         <div class="modal-content">
           <div class="modal-header">
             <h5 class="modal-title" id="history_item_modal_title">Ресурс</h5>
@@ -222,7 +222,7 @@
       </div>
     </div>
     <div class="modal" id="mode_zdorovie" tabindex="-1" role="dialog">
-      <div class="modal-dialog modal-sm" role="document">
+      <div class="modal-dialog" role="document">
         <div class="modal-content">
           <div class="modal-header">
             <h5 class="modal-title" id="history_item_modal_title">Здоровье</h5>
