@@ -89,7 +89,18 @@ jQuery(document).ready(function () {
       cur_cards_length,
       cur_card,
       remove_card_num,
+      checkPoints_,
+      pointsStat = true,
       cur_card_in_stack = 0;
+
+  checkPoints_ = function(){
+    jQuery('.zone_movable').each(function() {
+      if(parseFloat(jQuery(this).css('top')) < 20){
+        pointsStat = false;
+        console.log('status '+' '+jQuery(this).text()+' '+jQuery(this).css('top')+' '+pointsStatus);
+      }
+    });
+  }
 
   onEnd = function(){
     jQuery('.btn-to_endNow').addClass('hidden');
@@ -208,10 +219,16 @@ jQuery(document).ready(function () {
     jQuery('.card_modal_elem').text(jQuery(this).data('elem'));
     choiced_card = String(jQuery(this).data('number'));
     console.log(choiced_card);
-    if (choiced_card == '18'||choiced_card == '17') {
-      jQuery('.card_modal_footer').addClass('hidden');
+    checkPoints_();
+    if(pointsStat == false){
+      pointsStat = true;
     } else {
-      jQuery('.card_modal_footer').removeClass('hidden');
+      if (choiced_card == '18'||choiced_card == '17') {
+        jQuery('.card_modal_footer').addClass('hidden'); 
+      } else {
+        jQuery('.card_modal_footer').removeClass('hidden');
+      }
+      pointsStat = true;
     }
     zone_operated = jQuery(this);
   });
@@ -325,26 +342,26 @@ jQuery(document).ready(function () {
 
   // START
   jQuery('.btn_start').on('click', function(event) {
-      // jQuery('.btn-to_endNow').removeClass('hidden');
-      if (jQuery(this).attr('disabled')) {
-      } else if (pausedStatus == true) {
-        jQuery('.status').removeClass('hidden');
-        jQuery('.status_pahaze_all').text(localStorage.getItem('pausedPhases'));
-        jQuery('.status_title').text(localStorage.getItem('pausedProtName'));
-        jQuery('.loaded_img').attr('src', localStorage.getItem('pausedPhoto'));
-        console.log(localStorage.getItem('pausedPhoto'));
-        protocolfromMemory = eval(localStorage.getItem('paused'))
-        protocolfromMemory();
-        pausedStatus = false;
-        jQuery('.btn-to_endNow').css('color', '#fff');
-      } else if (cur_cards.length == 0) {
-        swal("Диагностика не проведена", "Проведите диагностику по лунному дню и выберите актульные зоны", "info");
-      } else {
-        jQuery('.header-title').text('Программа выполняется');
-        jQuery('.btn-to_protocols').addClass('hidden');
-        jQuery('.zones_template').removeAttr('style');
-        tarot();
-      }
+    // jQuery('.btn-to_endNow').removeClass('hidden');
+    if (jQuery(this).attr('disabled')) {
+    } else if (pausedStatus == true) {
+      jQuery('.status').removeClass('hidden');
+      jQuery('.status_pahaze_all').text(localStorage.getItem('pausedPhases'));
+      jQuery('.status_title').text(localStorage.getItem('pausedProtName'));
+      jQuery('.loaded_img').attr('src', localStorage.getItem('pausedPhoto'));
+      console.log(localStorage.getItem('pausedPhoto'));
+      protocolfromMemory = eval(localStorage.getItem('paused'))
+      protocolfromMemory();
+      pausedStatus = false;
+      jQuery('.btn-to_endNow').css('color', '#fff');
+    } else if (cur_cards.length == 0) {
+      swal("Диагностика не проведена", "Проведите диагностику по лунному дню и выберите актульные зоны", "info");
+    } else {
+      jQuery('.header-title').text('Программа выполняется');
+      jQuery('.btn-to_protocols').addClass('hidden');
+      jQuery('.zones_template').removeAttr('style');
+      tarot();
+    }
   });
   // STOP
   function hideNote() {
