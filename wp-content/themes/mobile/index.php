@@ -237,7 +237,7 @@
 									</div>
 								</div>
 							</div>
-							<div class="col-md-6 offset-md-3 hand_wrap hidden">
+							<div class="col-md-6 offset-md-3 hand_wrap hidden" style="display: none;">
 								<div class="zone_elem draggable"></div>
 								<div class="elems_cards">
 									<div class="elems_card elems_card_1 hidden">
