@@ -153,6 +153,7 @@ hide_cards = function(){
 // stop protocol
   jQuery('.btn_stop_elems').on('click', function(event) {
     stop_status = 1;
+    jQuery('.elements_item').attr('data-toggle', 'modal');
   });
 
  });
