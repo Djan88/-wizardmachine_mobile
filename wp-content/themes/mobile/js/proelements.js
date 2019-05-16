@@ -46,6 +46,7 @@ hide_cards = function(){
       jQuery('.btn_start_elems').removeClass('hidden');
       end_elem_prot();
       jQuery('.hand_wrap').addClass('hand_wrap_disabled');
+      jQuery('.elements_item').removeAttr('data-target');
       jQuery('.header-title').text('Переместите зону на ладонь');
       hide_cards();
       jQuery(this).addClass('active');
@@ -127,6 +128,7 @@ hide_cards = function(){
       if (stop_status == 1) {
         stop_status = 0;
         jQuery('.hand_wrap').addClass('hand_wrap_disabled');
+        jQuery('.elements_item').attr('data-toggle', 'modal');
         swal({
           title: "Протокол выполнен!",   
           text: "Программа завершает свою работу",   
