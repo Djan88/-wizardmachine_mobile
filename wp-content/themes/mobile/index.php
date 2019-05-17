@@ -485,8 +485,8 @@
 														data-target="#card_modal" 
 														data-card="<?php echo get_template_directory_uri(); ?>/img/cards/judgement.png" 
 														data-number="20" 
-														data-tarot="Пентакли" 
-														data-elem=" / Огонь" 
+														data-tarot="Жезлы" 
+														data-elem=" / Воздух" 
 														class="zone zone_movable draggable draggable_s2_1">XX</div>
 													<div 
 														data-toggle="modal" 
