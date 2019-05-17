@@ -346,8 +346,8 @@
 														data-target="#card_modal" 
 														data-card="<?php echo get_template_directory_uri(); ?>/img/cards/world.png" 
 														data-number="21" 
-														data-tarot="Мечи" 
-														data-elem=" / Земля" 
+														data-tarot="Жезлы" 
+														data-elem=" / Воздух" 
 														class="zone zone_movable draggable draggable_d2">XXI</div>
 													<div
 														data-toggle="modal" 
@@ -397,8 +397,8 @@
 														data-target="#card_modal" 
 														data-card="<?php echo get_template_directory_uri(); ?>/img/cards/magician.png" 
 														data-number="1" 
-														data-tarot="Все масти" 
-														data-elem=" / Все П.Э." 
+														data-tarot="Пентакли" 
+														data-elem=" / Огонь" 
 														class="zone zone_movable draggable draggable_v1">I</div>
 													<div 
 														data-toggle="modal" 
@@ -413,8 +413,8 @@
 														data-target="#card_modal" 
 														data-card="<?php echo get_template_directory_uri(); ?>/img/cards/strength.png" 
 														data-number="8" 
-														data-tarot="Все масти" 
-														data-elem=" / Все П.Э." 
+														data-tarot="Мечи" 
+														data-elem=" / Земля" 
 														class="zone zone_movable draggable draggable_v3">VIII</div>
 													<div 
 														data-toggle="modal" 
@@ -437,8 +437,8 @@
 														data-target="#card_modal" 
 														data-card="<?php echo get_template_directory_uri(); ?>/img/cards/temperance.png" 
 														data-number="14" 
-														data-tarot="Кубки" 
-														data-elem=" / Вода" 
+														data-tarot="Пентакли" 
+														data-elem=" / Огонь" 
 														class="zone zone_movable draggable draggable_v4-5">XIV</div>
 													<div 
 														data-toggle="modal" 
@@ -477,24 +477,24 @@
 														data-target="#card_modal" 
 														data-card="<?php echo get_template_directory_uri(); ?>/img/cards/chariot.png" 
 														data-number="7" 
-														data-tarot="Жезлы" 
-														data-elem=" / Воздух" 
+														data-tarot="Пентакли" 
+														data-elem=" / Огонь" 
 														class="zone zone_movable draggable draggable_s2">VII</div>
 													<div 
 														data-toggle="modal" 
 														data-target="#card_modal" 
 														data-card="<?php echo get_template_directory_uri(); ?>/img/cards/judgement.png" 
 														data-number="20" 
-														data-tarot="Жезлы" 
-														data-elem=" / Воздух" 
+														data-tarot="Пентакли" 
+														data-elem=" / Огонь" 
 														class="zone zone_movable draggable draggable_s2_1">XX</div>
 													<div 
 														data-toggle="modal" 
 														data-target="#card_modal" 
 														data-card="<?php echo get_template_directory_uri(); ?>/img/cards/empress.png" 
 														data-number="3" 
-														data-tarot="Мечи" 
-														data-elem=" / Земля" 
+														data-tarot="Кубки" 
+														data-elem=" / Вода" 
 														class="zone zone_movable draggable draggable_s3">III</div>
 													<div
 														data-toggle="modal" 
