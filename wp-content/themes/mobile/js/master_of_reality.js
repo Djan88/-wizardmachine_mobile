@@ -267,7 +267,7 @@ cur_date = function(){
       8: 0,
       9: 0,
     };
-    jQuery('.marakata_sim_prot').removeClass('marakata_sim_pents marakata_sim_wands marakata_sim_cups marakata_sim_swords');
+    jQuery('.marakata_sim_prot').removeClass('marakata_sim_pents marakata_sim_wands marakata_sim_cups marakata_sim_swords marakata_sim_pents marakata_sim_cups');
     history_item = {
       0: 0,
       1: 0,
@@ -398,7 +398,7 @@ cur_date = function(){
     jQuery('.marakata_sim-1').addClass('marakata_sim-active');
     jQuery('.btn_tarot_type').removeClass('active');
     jQuery(this).addClass('active')
-    jQuery('.marakata_sim_prot').removeClass('marakata_sim_pents marakata_sim_wands marakata_sim_cups marakata_sim_swords');
+    jQuery('.marakata_sim_prot').removeClass('marakata_sim_pents marakata_sim_wands marakata_sim_cups marakata_sim_swords marakata_sim_pents marakata_sim_cups');
     jQuery('.problem_range_card').removeClass('problem_range_card_d problem_range_card_n problem_range_card_r problem_range_card_z');
     history_item.type = jQuery(this).data('type');
     cur_type = jQuery(this).data('type');
