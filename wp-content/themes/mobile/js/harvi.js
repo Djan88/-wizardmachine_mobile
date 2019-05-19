@@ -50,7 +50,8 @@ jQuery(document).ready(function () {
     if (moon_day > 1 && moon_day != 30) {
         moon_day = moon_day-1;
     }
-    moon_day = moon_day - 1;
+    // moon_day = moon_day - 1;
+    moon_day = 17;
 
     localStorage.setItem('moon_day', moon_day);
     checkPoints = function(){
