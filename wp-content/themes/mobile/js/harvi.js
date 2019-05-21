@@ -50,8 +50,8 @@ jQuery(document).ready(function () {
     if (moon_day > 1 && moon_day != 30) {
         moon_day = moon_day-1;
     }
-    // moon_day = moon_day - 1;
-    moon_day = 14;
+    moon_day = moon_day - 1;
+    // moon_day = 14;
 
     localStorage.setItem('moon_day', moon_day);
     checkPoints = function(){
@@ -149,7 +149,6 @@ jQuery(document).ready(function () {
                 jQuery('.card_ghost_solis_vertical').css('left', (zone_left_alt + card_semi_height) +'px');
                 jQuery('.loaded_img').addClass('loaded_img_alt');
                 window.location = "/";
-
             }
             // if (moon_day == 1 || moon_day == 2 || moon_day == 29) {
             //     zone_top = parseInt(jQuery('.draggable_v1').css('top') + 50);
