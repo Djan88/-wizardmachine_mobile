@@ -51,7 +51,7 @@ jQuery(document).ready(function () {
         moon_day = moon_day-1;
     }
     // moon_day = moon_day - 1;
-    moon_day = 29;
+    moon_day = 14;
 
     localStorage.setItem('moon_day', moon_day);
     checkPoints = function(){
@@ -133,10 +133,21 @@ jQuery(document).ready(function () {
                 zone_top_alt = parseInt(jQuery('.draggable_s5').css('top')) + 60;
                 zone_top = parseInt(jQuery('.draggable_v1').css('top')) + 10;
             } else if (moon_day == 13 || moon_day == 29) {
-                zone_top_alt = parseInt(jQuery('.draggable_s5').css('top')) + 100;
+                zone_top_alt = parseInt(jQuery('.draggable_s5').css('top')) + 130;
                 zone_top = parseInt(jQuery('.draggable_v1').css('top')) - 10;
             } else if (moon_day == 14 || moon_day == 15 || moon_day == 16) {
-
+                jQuery('.card_ghost_devil_vertical, .card_ghost_solis_vertical').removeClass('hidden');
+                jQuery('.card_ghost_devil, .card_ghost_solis').addClass('hidden');
+                card_semi_height = parseInt(jQuery('.card_solis').css('height')) / 2;
+                zone_top = parseInt(jQuery('.draggable_v-').css('top')) + 100;
+                zone_top_alt = parseInt(jQuery('.draggable_v0').css('top')) - 100;
+                zone_left = parseInt(jQuery('.draggable_v-').css('left')) + 42;
+                zone_left_alt = parseInt(jQuery('.draggable_v0').css('left')) + 42;
+                jQuery('.card_ghost_devil_vertical').css('top', (zone_top - card_semi_height) +'px');
+                jQuery('.card_ghost_devil_vertical').css('left', (zone_left + card_semi_height) +'px');
+                jQuery('.card_ghost_solis_vertical').css('top', (zone_top_alt - card_semi_height) +'px');
+                jQuery('.card_ghost_solis_vertical').css('left', (zone_left_alt + card_semi_height) +'px');
+                jQuery('.loaded_img').addClass('loaded_img_alt');
             }
             // if (moon_day == 1 || moon_day == 2 || moon_day == 29) {
             //     zone_top = parseInt(jQuery('.draggable_v1').css('top') + 50);
