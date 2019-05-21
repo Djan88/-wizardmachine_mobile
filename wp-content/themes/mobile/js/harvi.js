@@ -97,7 +97,7 @@ jQuery(document).ready(function () {
             jQuery('.card_modal_footer, .line_area').removeClass('hidden');
             card_semi_height = parseInt(jQuery('.card_solis').css('height')) / 2;
             if (moon_day == 1 || moon_day == 17) {
-                zone_top = parseInt(jQuery('.draggable_s5').css('top')) - 38;
+                zone_top = parseInt(jQuery('.draggable_s5').css('top')) + 38;
                 zone_top_alt = parseInt(jQuery('.draggable_v1').css('top')) - 38;
             } else if (moon_day == 3 || moon_day == 25 || moon_day == 26 || moon_day == 27 || moon_day == 28) {    
 
