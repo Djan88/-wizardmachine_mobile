@@ -109,10 +109,11 @@ jQuery(document).ready(function () {
                 zone_top = parseInt(jQuery('.draggable_v4-5').css('top')) + 10;
                 zone_top_alt = parseInt(jQuery('.draggable_v3').css('top')) + 20;
             } else if (moon_day == 5 || moon_day == 21) {
+                zone_top = parseInt(jQuery('.draggable_v3-4').css('top')) + 40;
+                zone_top_alt = parseInt(jQuery('.draggable_v3-4').css('top')) + 30;
+            } else if (moon_day == 6 || moon_day == 22) {
                 zone_top = parseInt(jQuery('.draggable_v3-4').css('top')) + 10;
                 zone_top_alt = parseInt(jQuery('.draggable_v3-4').css('top')) - 10;
-            } else if (moon_day == 6 || moon_day == 22) {
-
             } else if (moon_day == 7 || moon_day == 23) {
 
             } else if (moon_day == 8 || moon_day == 24) {
