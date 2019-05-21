@@ -51,7 +51,7 @@ jQuery(document).ready(function () {
         moon_day = moon_day-1;
     }
     // moon_day = moon_day - 1;
-    moon_day = 29;
+    moon_day = 28;
 
     localStorage.setItem('moon_day', moon_day);
     checkPoints = function(){
