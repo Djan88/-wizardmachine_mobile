@@ -148,6 +148,8 @@ jQuery(document).ready(function () {
                 jQuery('.card_ghost_solis_vertical').css('top', (zone_top_alt - card_semi_height) +'px');
                 jQuery('.card_ghost_solis_vertical').css('left', (zone_left_alt + card_semi_height) +'px');
                 jQuery('.loaded_img').addClass('loaded_img_alt');
+                window.location = "/";
+
             }
             // if (moon_day == 1 || moon_day == 2 || moon_day == 29) {
             //     zone_top = parseInt(jQuery('.draggable_v1').css('top') + 50);
