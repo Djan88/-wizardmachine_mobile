@@ -189,7 +189,7 @@
               <li>Действия других людей.</li>
               <li>Расставание с отождествлённым.</li>
             </ul>
-            <p><b>Проведите предварительную коррекцию первоэлемента <span style="color: #007bff;">«Вода»</span> через Кубки!</b></p>
+            <p><b>Проведите предварительную коррекцию первоэлемента <span style="color: #007bff;">«Вода»</span> через Кубки</b> и первоэлемента <span style="color: #bd2130;">«Огонь»</span> через Пентакли!</p>
           </div>
           <div class="modal-footer card_modal_footer">
             <button type="button" class="btn btn-primary" data-dismiss="modal" data-zone="">ОК</button>
