@@ -213,7 +213,7 @@
               <li>На 14-15 день Луны для плановой стабилизации восходящего потока силы</li>
               <li>Для коррекции невротических расстройств</li>
             </ul>
-            <p><b>Предварительно рекомендуется провести инверсию Колесницы, а также сбалансировать первоэлементы <span style="color: #17a2b8;">«Воздух»</span> и <span style="color: #bd2130;">«Огонь»</span></b></p>
+            <p><b>Предварительно рекомендуется провести инверсию карты «Колесница», а также сбалансировать первоэлементы <span style="color: #17a2b8;">«Воздух»</span> и <span style="color: #bd2130;">«Огонь»</span></b></p>
           </div>
           <div class="modal-footer card_modal_footer">
             <button type="button" class="btn btn-primary" data-dismiss="modal" data-zone="">ОК</button>
