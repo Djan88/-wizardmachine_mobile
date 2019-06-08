@@ -144,6 +144,7 @@ jQuery(document).ready(function () {
         jQuery('.card_in_action').removeAttr("style");
         jQuery('.card').removeClass('card_move_fast');
         jQuery('.line_area').removeClass('hidden');
+        jQuery('.line_area').addClass('line_area_red');
         jQuery('.zone').removeClass('zone_choiced');
         
 
