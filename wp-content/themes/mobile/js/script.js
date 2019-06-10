@@ -346,7 +346,7 @@ jQuery(document).ready(function () {
       jQuery('.btn-back').removeClass('hidden');
       jQuery('.btn-to_img, .btn-paused, .btn-to_protocols, .btn-played, .btn-to_manual, .btn-to_endNow, .btn_history').addClass('hidden');
       jQuery('').removeClass('hidden');
-      jQuery('.header-title').text('Выберите треугольник отличный от других');
+      jQuery('.header-title').text('Выберите треугольник отличный от других или предварительно определенный первоэлемент');
     } else {
       jQuery('.header-title').text('Сфотографируйте ладонь и загрузите фото');
       jQuery('.btn-to_img, .btn-to_protocols, .mobile_screen_what_way').addClass('hidden');
@@ -393,7 +393,7 @@ jQuery(document).ready(function () {
     jQuery('.btn-back').removeClass('hidden');
     jQuery('.btn-to_img, .btn-paused, .btn-to_protocols, .btn-played, .btn-to_manual, .btn-to_endNow, .btn_history').addClass('hidden');
     jQuery('').removeClass('hidden');
-    jQuery('.header-title').text('Выберите треугольник отличный от других');
+    jQuery('.header-title').text('Выберите треугольник отличный от других или предварительно определенный первоэлемент');
   }
 
   // second crop btn
