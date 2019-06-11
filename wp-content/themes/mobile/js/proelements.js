@@ -26,6 +26,7 @@ end_elem_prot = function(){
     top: '50px'
   });
   jQuery('.hand_wrap').removeClass('hand_wrap_disabled');
+  jQuery('.elements_item').attr('data-toggle', 'modal');
   jQuery('.elems_card').css('left', card_wrapper_width / 2 - 110+'px');
   jQuery('.elems_card_2').css('left', card_wrapper_width / 2 - 150+'px');
   jQuery('.elems_card').css('top', '-200px');
