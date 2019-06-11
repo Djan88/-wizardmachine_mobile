@@ -25,6 +25,7 @@ end_elem_prot = function(){
     left: '50px',
     top: '50px'
   });
+  jQuery('.hand_wrap').removeClass('hand_wrap_disabled');
   jQuery('.elems_card').css('left', card_wrapper_width / 2 - 110+'px');
   jQuery('.elems_card_2').css('left', card_wrapper_width / 2 - 150+'px');
   jQuery('.elems_card').css('top', '-200px');
@@ -136,8 +137,7 @@ hide_cards = function(){
         },
         function(isConfirm){
           if (isConfirm) { 
-            clearInterval(phaseOne);  
-            jQuery('.hand_wrap').removeClass('hand_wrap_disabled'); 
+            clearInterval(phaseOne);   
             count_animation = 0;
             setTimeout(end_elem_prot, 1000);
           } 
