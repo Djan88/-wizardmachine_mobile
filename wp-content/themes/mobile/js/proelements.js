@@ -136,7 +136,8 @@ hide_cards = function(){
         },
         function(isConfirm){
           if (isConfirm) { 
-            clearInterval(phaseOne);   
+            clearInterval(phaseOne);  
+            jQuery('.hand_wrap').removeClass('hand_wrap_disabled'); 
             count_animation = 0;
             setTimeout(end_elem_prot, 1000);
           } 
