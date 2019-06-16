@@ -934,6 +934,7 @@ input.crop_photo
 .history_item:last-child
 {
   border-bottom: 1px solid;
+  margin-bottom: 66px;
 }
 .remove_history_item
 {
