@@ -897,9 +897,13 @@ input.crop_photo
   z-index: 602;
   box-shadow: inset 0 -43px 1rem rgba(255,255,255,1)!important;
 }
-.history_wrapper
+.history_inner
 {
   overflow: scroll;
+  max-height: 330px;
+}
+.history_wrapper
+{
   padding-bottom: 50px;
 }
 .history.history_visible, .manual.manual_visible
