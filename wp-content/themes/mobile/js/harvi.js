@@ -63,7 +63,7 @@ jQuery(document).ready(function () {
       });
     }
     jQuery('.mode-item_protocol').on('click', function(event) {
-        if (moon_day == 13 || moon_day == 14 || moon_day == 15) {
+        if (moon_day == 13 || moon_day == 14 || moon_day == 15 || moon_day == 16) {
             setTimeout(function(){
                swal("Лунный день близкий к полнолунию", "В эти дни терапия Tarot не доступна", "error")
                swal({
