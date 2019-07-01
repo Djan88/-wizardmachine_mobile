@@ -94,7 +94,7 @@ function uploadImageFile() { // Note: GD library is required for this function
                             //get the orientation
                             if(isset($exif['Orientation'])) $orientation = $exif['Orientation'];
                             elseif(isset($exif['COMPUTED']) && isset($exif['COMPUTED']['Orientation'])) $orientation = $exif['COMPUTED']['Orientation'];
-                            elseif(isset($exif['IFD0']) && isset($exif['IFD0']['Orientation'])) $orientation = $exif['IFD0']['Orientation'];
+                            elseif(isset($exif['IFD0']) && isset($exif['IFD0']['Orientation'])) $orientation = $exif['COMPUTED']['Orientation'];
 
                             switch($orientation){
                                 case 8:

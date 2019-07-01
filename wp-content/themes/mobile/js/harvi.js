@@ -47,7 +47,7 @@ jQuery(document).ready(function () {
     var moon_day = hm.NowMoonDay();
     //var moon_day=hm.GetMoonDay(22,1,2011);
 
-    if (moon_day > 1 && moon_day != 30) {
+    if (moon_day > 1) {
         moon_day = moon_day-1;
     }
     // moon_day = moon_day - 1;
