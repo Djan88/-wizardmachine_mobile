@@ -47,7 +47,7 @@ jQuery(document).ready(function () {
     var moon_day = hm.NowMoonDay();
     //var moon_day=hm.GetMoonDay(22,1,2011);
 
-    if (moon_day > 1) {
+    if (moon_day > 1 && moon_day != 30) {
         moon_day = moon_day-1;
     }
     // moon_day = moon_day - 1;
@@ -132,7 +132,7 @@ jQuery(document).ready(function () {
             } else if (moon_day == 2 || moon_day == 28) {
                 zone_top_alt = parseInt(jQuery('.draggable_s5').css('top')) + 60;
                 zone_top = parseInt(jQuery('.draggable_v1').css('top')) + 10;
-            } else if (moon_day == 1 || moon_day == 29) {
+            } else if (moon_day == 1 || moon_day == 29 || moon_day == 30) {
                 zone_top_alt = parseInt(jQuery('.draggable_s5').css('top')) + 130;
                 zone_top = parseInt(jQuery('.draggable_v1').css('top')) - 10;
             } else if (moon_day == 14 || moon_day == 15 || moon_day == 16) {
