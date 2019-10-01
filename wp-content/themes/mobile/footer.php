@@ -166,7 +166,7 @@
               <li>Движение к целям и желаниям</li>
               <li>Внутренний хаос </li>
             </ul>
-            <p><b>Проведите предварительную коррекцию первоэлемента <span style="color: #bd2130;">«Огонь»</span> и <span style="color: #17a2b8;">«Воздух»</span>, а так же инверсию карты «Мир»!</b></p>
+            <p><b>Проведите предварительную коррекцию первоэлемента <span style="color: #bd2130;">«Огонь»</span> и <span style="color: #17a2b8;">«Воздух»</span>, а так же инверсию карт «Дурак», «Колесница», «Верховная жрица»!</b></p>
           </div>
           <div class="modal-footer card_modal_footer">
             <button type="button" class="btn btn-primary" data-dismiss="modal" data-zone="">ОК</button>
@@ -189,7 +189,7 @@
               <li>Действия других людей.</li>
               <li>Расставание с отождествлённым.</li>
             </ul>
-            <p><b>Проведите предварительную коррекцию первоэлементов <span style="color: #007bff;">«Вода»</span> и <span style="color: #343a40;">«Земля»</span>, а так же инверсию карты «Сила»!</b></p>
+            <p><b>Проведите предварительную коррекцию первоэлементов <span style="color: #343a40;">«Земля»</span> и <span style="color: #007bff;">«Вода»</span>, а так же инверсию карты «Верховная жрица», «Смерть», «Правосудие»!</b></p>
           </div>
           <div class="modal-footer card_modal_footer">
             <button type="button" class="btn btn-primary" data-dismiss="modal" data-zone="">ОК</button>
@@ -213,7 +213,7 @@
               <li>На 14-15 день Луны для плановой стабилизации восходящего потока силы</li>
               <li>Для коррекции невротических расстройств</li>
             </ul>
-            <p><b>Предварительно рекомендуется провести инверсию карты «Колесница», а также сбалансировать первоэлементы <span style="color: #17a2b8;">«Воздух»</span> и <span style="color: #bd2130;">«Огонь»</span></b></p>
+            <p><b>Предварительно рекомендуется провести инверсию карт «Колесница», «Отшельник», «Умеренность», «Дурак», а также сбалансировать первоэлементы <span style="color: #17a2b8;">«Воздух»</span> и <span style="color: #bd2130;">«Огонь»</span></b></p>
           </div>
           <div class="modal-footer card_modal_footer">
             <button type="button" class="btn btn-primary" data-dismiss="modal" data-zone="">ОК</button>
@@ -237,7 +237,7 @@
               <li>Для коррекции злости и раздражения</li>
               <li>На 14-15 день Луны для планового укрепления здоровья и лечения хронических болезней</li>
             </ul>
-            <p><b>Предварительно рекомендуется сбалансировать первоэлементы <span style="color: #343a40;">«Земля»</span> и <span style="color: #007bff;">«Вода»</span>, а так же инверсию карт «Колесо Фортуны» и «Имератрица»</b></p>
+            <p><b>Предварительно рекомендуется сбалансировать первоэлементы <span style="color: #007bff;">«Вода»</span> и <span style="color: #343a40;">«Земля»</span>, а так же инверсию карт «Колесо Фортуны» и «Имератрица»</b></p>
           </div>
           <div class="modal-footer card_modal_footer">
             <button type="button" class="btn btn-primary" data-dismiss="modal" data-zone="">ОК</button>
