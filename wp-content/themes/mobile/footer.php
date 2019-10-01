@@ -189,7 +189,7 @@
               <li>Действия других людей.</li>
               <li>Расставание с отождествлённым.</li>
             </ul>
-            <p><b>Проведите предварительную коррекцию первоэлементов <span style="color: #343a40;">«Земля»</span> и <span style="color: #007bff;">«Вода»</span>, а так же инверсию карты «Верховная жрица», «Смерть», «Правосудие»!</b></p>
+            <p><b>Проведите предварительную коррекцию первоэлементов <span style="color: #343a40;">«Земля»</span> и <span style="color: #007bff;">«Вода»</span>, а так же инверсию карт «Верховная жрица», «Смерть», «Правосудие»!</b></p>
           </div>
           <div class="modal-footer card_modal_footer">
             <button type="button" class="btn btn-primary" data-dismiss="modal" data-zone="">ОК</button>
@@ -237,7 +237,7 @@
               <li>Для коррекции злости и раздражения</li>
               <li>На 14-15 день Луны для планового укрепления здоровья и лечения хронических болезней</li>
             </ul>
-            <p><b>Предварительно рекомендуется сбалансировать первоэлементы <span style="color: #007bff;">«Вода»</span> и <span style="color: #343a40;">«Земля»</span>, а так же инверсию карт «Колесо Фортуны» и «Имератрица»</b></p>
+            <p><b>Предварительно рекомендуется сбалансировать первоэлементы <span style="color: #007bff;">«Вода»</span> и <span style="color: #343a40;">«Земля»</span>, а так же инверсию карт «Колесо Фортуны» и «Императрица»</b></p>
           </div>
           <div class="modal-footer card_modal_footer">
             <button type="button" class="btn btn-primary" data-dismiss="modal" data-zone="">ОК</button>
