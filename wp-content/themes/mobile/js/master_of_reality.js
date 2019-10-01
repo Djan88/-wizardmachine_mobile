@@ -414,11 +414,11 @@ cur_date = function(){
     } else if (jQuery(this).data('type') == 'cups') {
       jQuery('.marakata_sim_prot').addClass('marakata_sim_cups');
       jQuery('.problem_range_card').addClass('problem_range_card_z');
-      jQuery('.problem_finish').text('Действие');
+      jQuery('.problem_finish').text('Здоровье');
     } else if (jQuery(this).data('type') == 'swords') {
       jQuery('.marakata_sim_prot').addClass('marakata_sim_swords');
       jQuery('.problem_range_card').addClass('problem_range_card_d');
-      jQuery('.problem_finish').text('Здоровье');
+      jQuery('.problem_finish').text('Действие');
     }
     cur_window_width();
   });
