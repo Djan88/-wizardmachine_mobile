@@ -294,7 +294,7 @@ function theme_switcha_display_themes() {
 		
 		$parent = ($theme->parent() && $theme->parent()->Name !== '') ? ' <span class="theme-child">'. esc_html__('Child Theme', 'theme-switcha') .'</span>' : '';
 		
-		$output .= '<a target="_blank" rel="noopener noreferrer" class="theme-screenshot theme-'. $dir . $enable_plugin . $enable_admin . $active .'" href="'. esc_url($href) .'" title="'. esc_attr($title) .'">';
+		$output .= '<a target="_blank" rel="noopener noreferrer" class="theme-screenshot theme-'. $dir . $enable_plugin . $enable_admin . $active .'" href="'. esc_url($href) .'" title="'. esc_attr($title) .'" data-switched="'. esc_attr($name) .'">';
 		
 		$output .= '<img src="'. esc_url($src) .'" alt="" />'. esc_html($text) . $admin . $parent .'</a>';
 		
@@ -511,7 +511,11 @@ function theme_switcha_display_dropdown($text, $widget = false) {
 	
 	$current_theme = (!empty($enable_plugin) && isset($_COOKIE['theme_switcha_theme_'. COOKIEHASH])) ? $_COOKIE['theme_switcha_theme_'. COOKIEHASH] : $default_theme->Stylesheet;
 	
-	$base_url = get_permalink();
+	$protocol = is_ssl() ? 'https://' : 'http://';
+	
+	$base_url = esc_url_raw($protocol . $_SERVER['HTTP_HOST'] . $_SERVER['REQUEST_URI']);
+	
+	if (strpos($base_url, '/wp-admin/') !== false) $base_url = get_home_url();
 	
 	if (empty($enable_plugin)) return;
 	

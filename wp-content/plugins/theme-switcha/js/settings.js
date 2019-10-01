@@ -20,6 +20,8 @@ jQuery(document).ready(function($) {
 	$('.theme-screenshot').on('click', function() {
 		if ($(this).hasClass('enable-plugin')) {
 			$('.theme-screenshot').removeClass('theme-active');
+			var switched = $(this).data('switched');
+			$('.theme-switcha-status-switched span').text(switched);
 			$(this).addClass('theme-active');
 			if ($(this).hasClass('enable-admin')) {
 				$(this).append($('.theme-screenshot').find('.theme-admin'));

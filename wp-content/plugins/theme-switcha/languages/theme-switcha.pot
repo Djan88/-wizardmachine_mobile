@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-11-16 22:12+0000\n"
+"POT-Creation-Date: 2019-08-21 21:00+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: \n"
@@ -84,6 +84,60 @@ msgstr ""
 msgid "Cheatin&rsquo; huh?"
 msgstr ""
 
+#: inc/settings-reset.php:15
+msgid "Default options restored."
+msgstr ""
+
+#: inc/settings-reset.php:19
+msgid "No changes made to options."
+msgstr ""
+
+#: inc/plugin-core.php:19 inc/plugin-core.php:580
+msgid "Choose a theme.."
+msgstr ""
+
+#. Name of the plugin
+#: inc/plugin-core.php:23 inc/plugin-core.php:592
+msgid "Theme Switcha"
+msgstr ""
+
+#: inc/plugin-core.php:283 inc/plugin-core.php:349 inc/plugin-core.php:443
+msgid "Version "
+msgstr ""
+
+#: inc/plugin-core.php:287 inc/plugin-core.php:353 inc/plugin-core.php:447 
+#: inc/plugin-core.php:552
+msgid "Untitled"
+msgstr ""
+
+#: inc/plugin-core.php:293
+msgid "Admin Theme"
+msgstr ""
+
+#: inc/plugin-core.php:295 inc/plugin-core.php:359
+msgid "Child Theme"
+msgstr ""
+
+#: inc/plugin-core.php:333 inc/plugin-core.php:427 inc/plugin-core.php:524
+msgid "Theme switching currently disabled."
+msgstr ""
+
+#: inc/resources-enqueue.php:34
+msgid "Confirm Reset"
+msgstr ""
+
+#: inc/resources-enqueue.php:35
+msgid "Restore default options?"
+msgstr ""
+
+#: inc/resources-enqueue.php:36
+msgid "Yes, make it so."
+msgstr ""
+
+#: inc/resources-enqueue.php:37
+msgid "No, abort mission."
+msgstr ""
+
 #: inc/settings-register.php:22
 msgid "Enable theme switching"
 msgstr ""
@@ -108,103 +162,61 @@ msgstr ""
 msgid "Passkey for theme-switch links (alphanumeric only)"
 msgstr ""
 
-#: inc/settings-register.php:28 inc/settings-register.php:193
+#: inc/settings-register.php:28 inc/settings-register.php:225
 msgid "Restore default plugin options"
 msgstr ""
 
-#: inc/settings-register.php:29 inc/settings-register.php:203
+#: inc/settings-register.php:29 inc/settings-register.php:235
 msgid "Show support with a 5-star rating &raquo;"
 msgstr ""
 
-#: inc/settings-register.php:59
+#: inc/settings-register.php:63
 msgid "Thanks for using Theme Switcha :)"
 msgstr ""
 
-#: inc/settings-register.php:61
+#: inc/settings-register.php:65
 msgid "Need help?"
 msgstr ""
 
-#: inc/settings-register.php:63
+#: inc/settings-register.php:67
 msgid "Visit the plugins docs"
 msgstr ""
 
-#: inc/settings-register.php:65 inc/settings-register.php:67
+#: inc/settings-register.php:75 inc/settings-register.php:77
 msgid "WordPress Themes In Depth"
 msgstr ""
 
-#: inc/settings-register.php:73
+#: inc/settings-register.php:97
+msgid "(None)"
+msgstr ""
+
+#: inc/settings-register.php:101
 msgid "Click any thumbnail to switch themes."
 msgstr ""
 
-#: inc/settings-register.php:84
+#: inc/settings-register.php:103
+msgid "Public Theme:"
+msgstr ""
+
+#: inc/settings-register.php:104
+msgid "Switched Theme:"
+msgstr ""
+
+#: inc/settings-register.php:116
 msgid "Only Admin"
 msgstr ""
 
-#: inc/settings-register.php:88
+#: inc/settings-register.php:120
 msgid "Only with Passkey"
 msgstr ""
 
-#: inc/settings-register.php:92
+#: inc/settings-register.php:124
 msgid "Everyone"
 msgstr ""
 
-#: inc/settings-register.php:202
+#: inc/settings-register.php:234
 msgid ""
 "Help keep Theme Switcha going strong! A huge THANK YOU for your support!"
-msgstr ""
-
-#: inc/plugin-core.php:19 inc/plugin-core.php:576
-msgid "Choose a theme.."
-msgstr ""
-
-#. Name of the plugin
-#: inc/plugin-core.php:23 inc/plugin-core.php:588
-msgid "Theme Switcha"
-msgstr ""
-
-#: inc/plugin-core.php:283 inc/plugin-core.php:349 inc/plugin-core.php:443
-msgid "Version "
-msgstr ""
-
-#: inc/plugin-core.php:287 inc/plugin-core.php:353 inc/plugin-core.php:447 
-#: inc/plugin-core.php:548
-msgid "Untitled"
-msgstr ""
-
-#: inc/plugin-core.php:293
-msgid "Admin Theme"
-msgstr ""
-
-#: inc/plugin-core.php:295 inc/plugin-core.php:359
-msgid "Child Theme"
-msgstr ""
-
-#: inc/plugin-core.php:333 inc/plugin-core.php:427 inc/plugin-core.php:520
-msgid "Theme switching currently disabled."
-msgstr ""
-
-#: inc/settings-reset.php:15
-msgid "Default options restored."
-msgstr ""
-
-#: inc/settings-reset.php:19
-msgid "No changes made to options."
-msgstr ""
-
-#: inc/resources-enqueue.php:34
-msgid "Confirm Reset"
-msgstr ""
-
-#: inc/resources-enqueue.php:35
-msgid "Restore default options?"
-msgstr ""
-
-#: inc/resources-enqueue.php:36
-msgid "Yes, make it so."
-msgstr ""
-
-#: inc/resources-enqueue.php:37
-msgid "No, abort mission."
 msgstr ""
 
 #. Description of the plugin

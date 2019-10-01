@@ -40,6 +40,8 @@
 
 /* thumbnails */
 
+.theme-switcha-status { margin: 10px 0 10px 30px; padding: 0; list-style: square outside; }
+
 .theme-switcha-thumbs { margin-top: 30px; }
 
 .theme-screenshot:link, .theme-screenshot:visited {

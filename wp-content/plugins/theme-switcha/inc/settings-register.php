@@ -20,7 +20,7 @@ function theme_switcha_register_settings() {
 	
 	// add_settings_field( $id, $title, $callback, $page, $section, $args );
 	add_settings_field('enable_plugin',  'Enable Switching',    'theme_switcha_callback_checkbox', 'theme_switcha_options', 'settings', array('id' => 'enable_plugin',  'label' => esc_html__('Enable theme switching', 'theme-switcha')));
-	add_settings_field('enable_admin',   'Enable Admin Area',   'theme_switcha_callback_checkbox', 'theme_switcha_options', 'settings', array('id' => 'enable_admin',   'label' => esc_html__('Apply switched theme to Admin Area', 'theme-switcha')));
+	add_settings_field('enable_admin',   'Enable Admin Area',   'theme_switcha_callback_checkbox', 'theme_switcha_options', 'settings', array('id' => 'enable_admin',   'label' => esc_html__('Apply switched theme to Admin Area', 'theme-switcha') .' (<a target="_blank" rel="noopener noreferrer" href="https://wordpress.org/support/topic/important-please-read-2/">Important Note</a>)'));
 	add_settings_field('enable_toolbar', 'Enable Toolbar Menu', 'theme_switcha_callback_checkbox', 'theme_switcha_options', 'settings', array('id' => 'enable_toolbar', 'label' => esc_html__('Enable Theme Switch menu in Toolbar', 'theme-switcha')));
 	add_settings_field('allowed_users',  'Allowed Users',       'theme_switcha_callback_select',   'theme_switcha_options', 'settings', array('id' => 'allowed_users',  'label' => esc_html__('Allow these users to switch themes', 'theme-switcha')));
 	add_settings_field('cookie_expire',  'Cookie Expiration',   'theme_switcha_callback_number',   'theme_switcha_options', 'settings', array('id' => 'cookie_expire',  'label' => esc_html__('Cookie Expiration (in seconds)', 'theme-switcha')));
@@ -84,7 +84,25 @@ function theme_switcha_settings_section_options() {
 
 function theme_switcha_themes_section_options() {
 	
+	$public_template = get_option('template');
+	$public_theme    = wp_get_theme($public_template);
+	$public_theme    = $public_theme->exists() ? $public_theme->Name : ucwords($public_template);
+	
+	$switched_template = theme_switcha_active_theme();
+	$switched_theme    = wp_get_theme($switched_template);
+	$switched_theme    = $switched_theme->exists() ? $switched_theme->Name : ucwords($switched_template);
+	
+	if (strtolower($public_theme) === strtolower($switched_theme)) {
+		
+		$switched_theme = isset($_COOKIE['theme_switcha_theme_'. COOKIEHASH]) ? $switched_theme : esc_html__('(None)', 'theme-switcha');
+		
+	}
+	
 	echo '<p>'. esc_html__('Click any thumbnail to switch themes.', 'theme-switcha') .'</p>';
+	echo '<ul class="theme-switcha-status">';
+	echo '<li class="theme-switcha-status-public">'.   esc_html__('Public Theme:',   'theme-switcha') .' <span>'. esc_html($public_theme)   .'</span></li>';
+	echo '<li class="theme-switcha-status-switched">'. esc_html__('Switched Theme:', 'theme-switcha') .' <span>'. esc_html($switched_theme) .'</span></li>';
+	echo '</ul>';
 	
 	echo theme_switcha_display_themes();
 	
