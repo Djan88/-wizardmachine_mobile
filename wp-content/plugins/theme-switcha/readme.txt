@@ -9,9 +9,9 @@ Contributors: specialk
 Author URI: https://plugin-planet.com/
 Donate link: https://monzillamedia.com/donate.html
 Requires at least: 4.1
-Tested up to: 5.2
-Stable tag: 2.2
-Version: 2.2
+Tested up to: 5.3
+Stable tag: 2.3
+Version: 2.3
 Requires PHP: 5.6.20
 Text Domain: theme-switcha
 Domain Path: /languages
@@ -444,6 +444,10 @@ Links, tweets and likes also appreciated. Thanks! :)
 
 If you like Theme Switcha, please take a moment to [give a 5-star rating](https://wordpress.org/support/plugin/theme-switcha/reviews/?rate=5#new-post). It helps to keep development and support going strong. Thank you!
 
+
+**2.3 (2019/11/07)**
+
+* Tests on WordPress 5.3
 
 **2.2 (2019/08/20)**
 

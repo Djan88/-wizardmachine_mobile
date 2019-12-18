@@ -403,7 +403,7 @@ function rcl_get_current_url( $typeform = false, $unset = false ) {
 		$args['remember'] = 'success';
 	}
 
-	return home_url( add_query_arg( $args ) );
+	return add_query_arg( $args );
 }
 
 function rcl_referer_url( $typeform = false ) {
@@ -527,11 +527,13 @@ function rcl_custom_fields_regform( $content ) {
 		$attr	 = (isset( $field['attr'] )) ? '' . $field['attr'] : '';
 
 		$content .= '<div class="form-block-rcl ' . $class . '" ' . $id . ' ' . $attr . '>';
-		$star = ($field['required'] == 1) ? ' <span class="required">*</span> ' : '';
-		$content .= '<label>' . $CF->get_title( $field ) . $star;
-		if ( $field['type'] )
-			$content .= '<span class="colon">:</span>';
-		$content .= '</label>';
+		$star	 = ($field['required'] == 1) ? ' <span class="required">*</span> ' : '';
+		if ( $title	 = $CF->get_title( $field ) ) {
+			$content .= '<label>' . $title . $star;
+			if ( $field['type'] )
+				$content .= '<span class="colon">:</span>';
+			$content .= '</label>';
+		}
 
 		$value = (isset( $_POST[$field['slug']] )) ? $_POST[$field['slug']] : false;
 
