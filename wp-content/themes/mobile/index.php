@@ -437,8 +437,8 @@
 														data-target="#card_modal" 
 														data-card="<?php echo get_template_directory_uri(); ?>/img/cards/temperance.png" 
 														data-number="14" 
-														data-tarot="Пентакли" 
-														data-elem=" / Огонь" 
+														data-tarot="Кубки" 
+														data-elem=" / Вода" 
 														class="zone zone_movable draggable draggable_v4-5">XIV</div>
 													<div 
 														data-toggle="modal" 
