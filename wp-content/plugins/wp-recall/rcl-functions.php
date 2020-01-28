@@ -1404,3 +1404,9 @@ function rcl_is_gutenberg() {
 
 	return true;
 }
+
+function rcl_get_notice( $args ) {
+	require_once 'classes/class-rcl-notice.php';
+	$Notice = new Rcl_Notice( $args );
+	return $Notice->get_notice();
+}

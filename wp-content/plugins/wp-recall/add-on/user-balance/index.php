@@ -85,7 +85,7 @@ function rcl_get_user_balance( $user_id = false ) {
 
 	$balance = $wpdb->get_var( $wpdb->prepare( "SELECT user_balance FROM " . RMAG_PREF . "users_balance WHERE user_id='%d'", $user_id ) );
 
-	return $balance;
+	return $balance ? $balance : 0;
 }
 
 function rcl_update_user_balance( $newmoney, $user_id, $comment = '' ) {
@@ -93,9 +93,9 @@ function rcl_update_user_balance( $newmoney, $user_id, $comment = '' ) {
 
 	$newmoney = rcl_commercial_round( str_replace( ',', '.', $newmoney ) );
 
-	$money = rcl_get_user_balance( $user_id );
+	$balance = $wpdb->get_var( $wpdb->prepare( "SELECT user_balance FROM " . RMAG_PREF . "users_balance WHERE user_id='%d'", $user_id ) );
 
-	if ( isset( $money ) ) {
+	if ( isset( $balance ) ) {
 
 		do_action( 'rcl_pre_update_user_balance', $newmoney, $user_id, $comment );
 

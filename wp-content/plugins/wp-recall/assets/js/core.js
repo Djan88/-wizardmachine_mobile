@@ -227,9 +227,32 @@ function rcl_notice( text, type, time_close ) {
 }
 
 function rcl_close_notice( e ) {
-	jQuery( e ).animateCss( 'flipOutX', function( e ) {
-		jQuery( e ).hide();
-	} );
+
+	var timeCook = jQuery( e ).data( 'notice_time' );
+
+	if ( timeCook ) {
+
+		var idCook = jQuery( e ).data( 'notice_id' );
+		var block = jQuery( e ).parents( '.rcl-notice' );
+
+		jQuery( block ).animateCss( 'flipOutX', function() {
+			jQuery( block ).remove();
+		} );
+
+		jQuery.cookie( idCook, '1', {
+			expires: timeCook,
+			path: '/'
+		} );
+
+	} else {
+
+		jQuery( e ).animateCss( 'flipOutX', function( e ) {
+			jQuery( e ).hide();
+		} );
+
+	}
+
+	return false;
 }
 
 function rcl_preloader_show( e, size ) {

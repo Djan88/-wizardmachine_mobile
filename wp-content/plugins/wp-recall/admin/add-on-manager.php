@@ -367,7 +367,10 @@ function rcl_upload_addon() {
 
 	$filename	 = $_FILES['addonzip']['tmp_name'];
 	$arch		 = current( wp_upload_dir() ) . "/" . basename( $filename );
-	copy( $filename, $arch );
+
+	if ( ! copy( $filename, $arch ) ) {
+		wp_die( __( 'Error copying file.', 'wp-recall' ) );
+	}
 
 	$zip = new ZipArchive;
 

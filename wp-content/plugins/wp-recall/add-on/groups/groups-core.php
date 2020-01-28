@@ -89,7 +89,7 @@ function rcl_create_group( $groupdata ) {
 
 		$term = get_term( ( int ) $data->error_data['term_exists'], 'groups' );
 
-		for ( $a = 2; $a < 10; $a ++  ) {
+		for ( $a = 2; $a < 10; $a ++ ) {
 			$args['slug']	 = $term->slug . '-' . $a;
 			$data			 = wp_insert_term( $groupdata['name'], 'groups', $args );
 			if ( ! isset( $data->error_data ) )
@@ -461,7 +461,7 @@ function rcl_get_group_users( $group_id ) {
 			'orderby'	 => 'time_action',
 			'data'		 => 'rating_total,posts_count,comments_count,description,user_registered',
 			'add_uri'	 => array( 'value' => $users_role )
-	) );
+		) );
 
 	$content .= '</div>';
 
@@ -496,7 +496,7 @@ function rcl_get_group_option( $group_id, $option_key ) {
 		'group_id'	 => $group_id,
 		'option_key' => $option_key,
 		'fields'	 => array( 'option_value' )
-	) );
+		) );
 
 	wp_cache_add( $cachekey, maybe_unserialize( $value ) );
 
@@ -550,7 +550,7 @@ function rcl_get_group( $group_id ) {
 
 	$group = $groups->get_row( array(
 		'ID' => $group_id
-	) );
+		) );
 
 	wp_cache_add( $cachekey, $group );
 
@@ -634,7 +634,7 @@ function rcl_group_update_users_count( $group_id ) {
 
 	$amount = $users->count( array(
 		'group_id' => $group_id
-	) );
+		) );
 
 	$result = $wpdb->update(
 		RCL_PREF . "groups", array(
@@ -771,7 +771,11 @@ function rcl_get_group_link_content() {
 
 	$group_id	 = intval( $_POST['group_id'] );
 	$callback	 = $_POST['callback'];
-	$rcl_group	 = rcl_get_group( $group_id );
+
+	if ( ! function_exists( $callback ) )
+		exit;
+
+	$rcl_group = rcl_get_group( $group_id );
 
 	$content = '<div id="group-link-content">';
 	$content .= $callback( $group_id );
@@ -792,7 +796,11 @@ function rcl_group_callback() {
 	$group_id	 = intval( $_POST['group_id'] );
 	$user_id	 = intval( $_POST['user_id'] );
 	$callback	 = $_POST['callback'];
-	$rcl_group	 = rcl_get_group( $group_id );
+
+	if ( ! function_exists( $callback ) )
+		exit;
+
+	$rcl_group = rcl_get_group( $group_id );
 
 	$result = $callback( $group_id, $user_id );
 
