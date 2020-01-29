@@ -131,7 +131,7 @@ jQuery(document).ready(function () {
                 zone_top = parseInt(jQuery('.draggable_v1').css('top')) + 20;
             } else if (moon_day == 2 || moon_day == 28) {
                 zone_top_alt = parseInt(jQuery('.draggable_v-').css('top')) - 40;
-                zone_top = parseInt(jQuery('.draggable_v1').css('top'));
+                zone_top = parseInt(jQuery('.draggable_v1').css('top')) + 20;
             } else if (moon_day == 1 || moon_day == 29 || moon_day == 30) {
                 zone_top_alt = parseInt(jQuery('.draggable_v-').css('top')) + 20;
                 zone_top = parseInt(jQuery('.draggable_v0').css('top'));
