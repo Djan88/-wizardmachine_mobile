@@ -1266,6 +1266,12 @@ button.close.history_close, button.close.manual_close
 {
   transform: rotate(90deg);
 }
+.mph-widget
+{
+  width: 200px!important;
+  min-height: 100px!important;
+  box-shadow: none;
+}
 @media (min-width: 600px) {
   .sweet-alert
   {
