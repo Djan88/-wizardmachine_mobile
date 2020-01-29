@@ -51,7 +51,7 @@ jQuery(document).ready(function () {
         moon_day = moon_day-1;
     }
     // moon_day = moon_day - 1;
-    moon_day = 12;
+    moon_day = 13;
 
     localStorage.setItem('moon_day', moon_day);
     checkPoints = function(){
@@ -97,8 +97,10 @@ jQuery(document).ready(function () {
             jQuery('.card_modal_footer, .line_area').removeClass('hidden');
             card_semi_height = parseInt(jQuery('.card_solis').css('height')) / 2;
             if (moon_day == 13 || moon_day == 17) {
-                zone_top = parseInt(jQuery('.draggable_s5').css('top')) + 30;
+                zone_top = parseInt(jQuery('.draggable_v-').css('top')) - 20;
+                zone_top = parseInt(jQuery('.draggable_v-').css('transform', 'rotate(10deg)');
                 zone_top_alt = parseInt(jQuery('.draggable_v1').css('top')) + 20;
+                zone_top = parseInt(jQuery('.draggable_v1').css('transform', 'rotate(-10deg)');
             } else if (moon_day == 12 || moon_day == 18) {
                 zone_top = parseInt(jQuery('.draggable_v-').css('top')) + 20;
                 zone_top_alt = parseInt(jQuery('.draggable_v1').css('top'));
