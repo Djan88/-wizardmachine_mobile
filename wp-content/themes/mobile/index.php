@@ -341,24 +341,129 @@
 													<div class="status status_percent_wrap hidden">
 														Выполнено: <span class="status_percent">0%</span>
 													</div>
-													<div data-toggle="modal" data-target="#card_modal" data-card="https://tarotmachine.ru/wp-content/themes/mobile/img/cards/world.png" data-number="21" data-tarot="Жезлы" data-elem=" / Воздух" class="zone zone_movable draggable draggable_d2 ui-draggable ui-draggable-handle" style="width: 25px; right: auto; height: 25px; bottom: auto; left: 149.453px; top: 262px;">XXI</div>
-													<div data-toggle="modal" data-target="#card_modal" data-card="https://tarotmachine.ru/wp-content/themes/mobile/img/cards/death.png" data-number="13" data-tarot="Мечи" data-elem=" / Земля" class="zone zone_movable draggable draggable_d2_1 ui-draggable ui-draggable-handle" style="width: 25px; right: auto; height: 25px; bottom: auto; left: 159.453px; top: 294px;">XIII</div>
-													<div data-toggle="modal" data-target="#card_modal" data-card="https://tarotmachine.ru/wp-content/themes/mobile/img/cards/justice.png" data-number="11" data-tarot="Мечи" data-elem=" / Земля" class="zone zone_movable draggable draggable_d3 ui-draggable ui-draggable-handle" style="width: 25px; right: auto; height: 25px; bottom: auto; left: 167.453px; top: 330px;">XI</div>
-													<div data-toggle="modal" data-target="#card_modal" data-card="https://tarotmachine.ru/wp-content/themes/mobile/img/cards/emperor.png" data-number="4" data-tarot="Мечи" data-elem=" / Земля" class="zone zone_movable draggable draggable_d4 ui-draggable ui-draggable-handle" style="width: 25px; right: auto; height: 25px; bottom: auto; left: 166.453px; top: 375px;">IV</div>
-													<div data-toggle="modal" data-target="#card_modal" data-card="https://tarotmachine.ru/wp-content/themes/mobile/img/cards/hanged_man.png" data-number="12" data-tarot="Жезлы" data-elem=" / Воздух" class="zone zone_movable draggable draggable_d5 ui-draggable ui-draggable-handle" style="width: 25px; right: auto; height: 25px; bottom: auto; left: 167.453px; top: 556px;">XII</div>
+													<div
+														data-toggle="modal" 
+														data-target="#card_modal" 
+														data-card="<?php echo get_template_directory_uri(); ?>/img/cards/world.png" 
+														data-number="21" 
+														data-tarot="Жезлы" 
+														data-elem=" / Воздух" 
+														class="zone zone_movable draggable draggable_d2">XXI</div>
+													<div
+														data-toggle="modal" 
+														data-target="#card_modal" 
+														data-card="<?php echo get_template_directory_uri(); ?>/img/cards/death.png" 
+														data-number="13" 
+														data-tarot="Мечи" 
+														data-elem=" / Земля" 
+														class="zone zone_movable draggable draggable_d2_1">XIII</div>
+													<div
+														data-toggle="modal" 
+														data-target="#card_modal" 
+														data-card="<?php echo get_template_directory_uri(); ?>/img/cards/justice.png" 
+														data-number="11" 
+														data-tarot="Мечи" 
+														data-elem=" / Земля" 
+														class="zone zone_movable draggable draggable_d3">XI</div>
+													<div
+														data-toggle="modal" 
+														data-target="#card_modal" 
+														data-card="<?php echo get_template_directory_uri(); ?>/img/cards/emperor.png" 
+														data-number="4" 
+														data-tarot="Мечи" 
+														data-elem=" / Земля" 
+														class="zone zone_movable draggable draggable_d4">IV</div>
+													<div
+														data-toggle="modal" 
+														data-target="#card_modal" 
+														data-card="<?php echo get_template_directory_uri(); ?>/img/cards/hanged_man.png" 
+														data-number="12" 
+														data-tarot="Жезлы" 
+														data-elem=" / Воздух" 
+														class="zone zone_movable draggable draggable_d5">XII</div>
 												</div>
 												<div class="col zone_holder zone_holder_2">
 													<div class="status status_title hidden"></div>
-													<div data-toggle="modal" data-target="#card_modal" data-card="https://tarotmachine.ru/wp-content/themes/mobile/img/cards/star.png" data-number="17" data-tarot="" data-elem="" class="zone zone_movable draggable draggable_v0 ui-draggable ui-draggable-handle" style="width: 25px; right: auto; height: 25px; bottom: auto; left: 200.234px; top: 155px;">XVII</div>
-													<div data-toggle="modal" data-target="#card_modal" data-card="https://tarotmachine.ru/wp-content/themes/mobile/img/cards/magician.png" data-number="1" data-tarot="Пентакли" data-elem=" / Огонь" class="zone zone_movable draggable draggable_v1 ui-draggable ui-draggable-handle" style="width: 25px; right: auto; height: 25px; bottom: auto; left: 199.234px; top: 185px;">I</div>
-													<div data-toggle="modal" data-target="#card_modal" data-card="https://tarotmachine.ru/wp-content/themes/mobile/img/cards/high_priestess.png" data-number="2" data-tarot="Мечи" data-elem=" / Земля" class="zone zone_movable draggable draggable_v2 ui-draggable ui-draggable-handle" style="width: 25px; right: auto; height: 25px; bottom: auto; left: 199.234px; top: 261px;">II</div>
-													<div data-toggle="modal" data-target="#card_modal" data-card="https://tarotmachine.ru/wp-content/themes/mobile/img/cards/strength.png" data-number="8" data-tarot="Мечи" data-elem=" / Земля" class="zone zone_movable draggable draggable_v3 ui-draggable ui-draggable-handle" style="width: 25px; right: auto; height: 25px; bottom: auto; left: 199.234px; top: 299px;">VIII</div>
-													<div data-toggle="modal" data-target="#card_modal" data-card="https://tarotmachine.ru/wp-content/themes/mobile/img/cards/hermit.png" data-number="9" data-tarot="Пентакли" data-elem=" / Огонь" class="zone zone_movable draggable draggable_v3-4 ui-draggable ui-draggable-handle" style="width: 25px; right: auto; height: 25px; bottom: auto; left: 198.234px; top: 328px;">IX</div>
-													<div data-toggle="modal" data-target="#card_modal" data-card="https://tarotmachine.ru/wp-content/themes/mobile/img/cards/fortune.png" data-number="10" data-tarot="Кубки" data-elem=" / Вода" class="zone zone_movable draggable draggable_v4 ui-draggable ui-draggable-handle" style="width: 25px; right: auto; height: 25px; bottom: auto; left: 199.234px; top: 358px;">X</div>
-													<div data-toggle="modal" data-target="#card_modal" data-card="https://tarotmachine.ru/wp-content/themes/mobile/img/cards/temperance.png" data-number="14" data-tarot="Кубки" data-elem=" / Вода" class="zone zone_movable draggable draggable_v4-5 ui-draggable ui-draggable-handle" style="width: 25px; right: auto; height: 25px; bottom: auto; left: 199.234px; top: 390px;">XIV</div>
-													<div data-toggle="modal" data-target="#card_modal" data-card="https://tarotmachine.ru/wp-content/themes/mobile/img/cards/tower.png" data-number="16" data-tarot="Пентакли" data-elem=" / Огонь" class="zone zone_movable draggable draggable_v5_1 ui-draggable ui-draggable-handle" style="width: 25px; right: auto; height: 25px; bottom: auto; left: 198.234px; top: 430px;">XVI</div>
-													<div data-toggle="modal" data-target="#card_modal" data-card="https://tarotmachine.ru/wp-content/themes/mobile/img/cards/fool.png" data-number="0" data-tarot="Жезлы" data-elem=" / Воздух" class="zone zone_movable draggable draggable_v5 ui-draggable ui-draggable-handle" style="width: 25px; right: auto; height: 25px; bottom: auto; left: 198.234px; top: 440px;">0</div>
-													<div data-toggle="modal" data-target="#card_modal" data-card="https://tarotmachine.ru/wp-content/themes/mobile/img/cards/moon.png" data-number="18" data-tarot="" data-elem="" class="zone zone_movable draggable draggable_v- ui-draggable ui-draggable-handle" style="width: 25px; right: auto; height: 25px; bottom: auto; left: 198.234px; top: 642px;">XVIII</div>
+													<div 
+														data-toggle="modal" 
+														data-target="#card_modal" 
+														data-card="<?php echo get_template_directory_uri(); ?>/img/cards/star.png" 
+														data-number="17" 
+														data-tarot="" 
+														data-elem="" 
+														class="zone zone_movable draggable draggable_v0">XVII</div>
+													<div 
+														data-toggle="modal" 
+														data-target="#card_modal" 
+														data-card="<?php echo get_template_directory_uri(); ?>/img/cards/magician.png" 
+														data-number="1" 
+														data-tarot="Пентакли" 
+														data-elem=" / Огонь" 
+														class="zone zone_movable draggable draggable_v1">I</div>
+													<div 
+														data-toggle="modal" 
+														data-target="#card_modal" 
+														data-card="<?php echo get_template_directory_uri(); ?>/img/cards/high_priestess.png" 
+														data-number="2" 
+														data-tarot="Мечи" 
+														data-elem=" / Земля" 
+														class="zone zone_movable draggable draggable_v2">II</div>
+													<div 
+														data-toggle="modal" 
+														data-target="#card_modal" 
+														data-card="<?php echo get_template_directory_uri(); ?>/img/cards/strength.png" 
+														data-number="8" 
+														data-tarot="Мечи" 
+														data-elem=" / Земля" 
+														class="zone zone_movable draggable draggable_v3">VIII</div>
+													<div 
+														data-toggle="modal" 
+														data-target="#card_modal" 
+														data-card="<?php echo get_template_directory_uri(); ?>/img/cards/hermit.png" 
+														data-number="9" 
+														data-tarot="Пентакли" 
+														data-elem=" / Огонь" 
+														class="zone zone_movable draggable draggable_v3-4">IX</div>
+													<div 
+														data-toggle="modal" 
+														data-target="#card_modal" 
+														data-card="<?php echo get_template_directory_uri(); ?>/img/cards/fortune.png" 
+														data-number="10" 
+														data-tarot="Кубки" 
+														data-elem=" / Вода" 
+														class="zone zone_movable draggable draggable_v4">X</div>
+													<div 
+														data-toggle="modal" 
+														data-target="#card_modal" 
+														data-card="<?php echo get_template_directory_uri(); ?>/img/cards/temperance.png" 
+														data-number="14" 
+														data-tarot="Кубки" 
+														data-elem=" / Вода" 
+														class="zone zone_movable draggable draggable_v4-5">XIV</div>
+													<div 
+														data-toggle="modal" 
+														data-target="#card_modal" 
+														data-card="<?php echo get_template_directory_uri(); ?>/img/cards/tower.png" 
+														data-number="16" 
+														data-tarot="Пентакли" 
+														data-elem=" / Огонь" 
+														class="zone zone_movable draggable draggable_v5_1">XVI</div>
+													<div 
+														data-toggle="modal" 
+														data-target="#card_modal" 
+														data-card="<?php echo get_template_directory_uri(); ?>/img/cards/fool.png" 
+														data-number="0" 
+														data-tarot="Жезлы" 
+														data-elem=" / Воздух" 
+														class="zone zone_movable draggable draggable_v5">0</div>
+													<div 
+														data-toggle="modal" 
+														data-target="#card_modal" 
+														data-card="<?php echo get_template_directory_uri(); ?>/img/cards/moon.png" 
+														data-number="18" 
+														data-tarot="" 
+														data-elem="" 
+														class="zone zone_movable draggable draggable_v-">XVIII</div>
 												</div>
 												<div class="col zone_holder zone_holder_3">
 													<div class="status status_pahaze hidden">
@@ -367,11 +472,46 @@
 														<span class="status_pahaze_to"> из </span>
 														<span class="status_pahaze_all">0</span>
 													</div>
-													<div data-toggle="modal" data-target="#card_modal" data-card="https://tarotmachine.ru/wp-content/themes/mobile/img/cards/chariot.png" data-number="7" data-tarot="Пентакли" data-elem=" / Огонь" class="zone zone_movable draggable draggable_s2 ui-draggable ui-draggable-handle" style="width: 25px; right: auto; height: 25px; bottom: auto; left: 239.859px; top: 259px;">VII</div>
-													<div data-toggle="modal" data-target="#card_modal" data-card="https://tarotmachine.ru/wp-content/themes/mobile/img/cards/judgement.png" data-number="20" data-tarot="Жезлы" data-elem=" / Воздух" class="zone zone_movable draggable draggable_s2_1 ui-draggable ui-draggable-handle" style="width: 25px; right: auto; height: 25px; bottom: auto; left: 233.859px; top: 291px;">XX</div>
-													<div data-toggle="modal" data-target="#card_modal" data-card="https://tarotmachine.ru/wp-content/themes/mobile/img/cards/empress.png" data-number="3" data-tarot="Кубки" data-elem=" / Вода" class="zone zone_movable draggable draggable_s3 ui-draggable ui-draggable-handle" style="width: 25px; right: auto; height: 25px; bottom: auto; left: 228.859px; top: 330px;">III</div>
-													<div data-toggle="modal" data-target="#card_modal" data-card="https://tarotmachine.ru/wp-content/themes/mobile/img/cards/hierophant.png" data-number="5" data-tarot="Пентакли" data-elem=" / Огонь" class="zone zone_movable draggable draggable_s4 ui-draggable ui-draggable-handle" style="width: 25px; right: auto; height: 25px; bottom: auto; left: 225.859px; top: 376px;">V</div>
-													<div data-toggle="modal" data-target="#card_modal" data-card="https://tarotmachine.ru/wp-content/themes/mobile/img/cards/lovers.png" data-number="6" data-tarot="Пентакли" data-elem=" / Огонь" class="zone zone_movable draggable draggable_s5 ui-draggable ui-draggable-handle" style="width: 25px; right: auto; height: 25px; bottom: auto; left: 229.859px; top: 557px;">VI</div>
+													<div 
+														data-toggle="modal" 
+														data-target="#card_modal" 
+														data-card="<?php echo get_template_directory_uri(); ?>/img/cards/chariot.png" 
+														data-number="7" 
+														data-tarot="Пентакли" 
+														data-elem=" / Огонь" 
+														class="zone zone_movable draggable draggable_s2">VII</div>
+													<div 
+														data-toggle="modal" 
+														data-target="#card_modal" 
+														data-card="<?php echo get_template_directory_uri(); ?>/img/cards/judgement.png" 
+														data-number="20" 
+														data-tarot="Жезлы" 
+														data-elem=" / Воздух" 
+														class="zone zone_movable draggable draggable_s2_1">XX</div>
+													<div 
+														data-toggle="modal" 
+														data-target="#card_modal" 
+														data-card="<?php echo get_template_directory_uri(); ?>/img/cards/empress.png" 
+														data-number="3" 
+														data-tarot="Кубки" 
+														data-elem=" / Вода" 
+														class="zone zone_movable draggable draggable_s3">III</div>
+													<div
+														data-toggle="modal" 
+														data-target="#card_modal" 
+														data-card="<?php echo get_template_directory_uri(); ?>/img/cards/hierophant.png" 
+														data-number="5" 
+														data-tarot="Пентакли" 
+														data-elem=" / Огонь" 
+														class="zone zone_movable draggable draggable_s4">V</div>
+													<div 
+														data-toggle="modal" 
+														data-target="#card_modal" 
+														data-card="<?php echo get_template_directory_uri(); ?>/img/cards/lovers.png" 
+														data-number="6" 
+														data-tarot="Пентакли" 
+														data-elem=" / Огонь" 
+														class="zone zone_movable draggable draggable_s5">VI</div>
 												</div>
 											</div>
 										</div>
