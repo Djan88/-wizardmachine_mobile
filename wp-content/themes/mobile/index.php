@@ -104,6 +104,9 @@
 			<!-- protocols -->
 			<div class="mobile_screen mobile_screen_what_way">
 				<div class="col-md-6 col-sm-8 offset-md-3 offset-sm-2">
+					<div id="moon-phase-widget" data-color="white" style="text-align: center;">Текущая лунная фаза</div>
+				</div>
+				<div class="col-md-6 col-sm-8 offset-md-3 offset-sm-2">
 						<div class="row">
 							<div class="col protocols_info text_center">
 							</div>
