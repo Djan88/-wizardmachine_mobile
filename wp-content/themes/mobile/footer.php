@@ -1,4 +1,7 @@
             <div class="col col-md-2 col-lg-3 col-xl-3"></div>
+            <div class="col-md-6 col-md-offset-3">
+              <div id="moon-phase-widget" data-color="white"></div>
+            </div>
           </div>
           <?php if(is_user_logged_in()) { ?>
           <div id="menu" class="row hidden">
@@ -74,6 +77,7 @@
     <script src="<?php echo get_template_directory_uri(); ?>/js/html2canvas.min.js"></script>
     <script src="<?php echo get_template_directory_uri(); ?>/js/master_of_reality.js"></script>
     <script src="<?php echo get_template_directory_uri(); ?>/js/proelements.js"></script>
+    <script src="<?php echo get_template_directory_uri(); ?>/js/automount.min.js"></script>
     <div class="modal" id="zones_template" tabindex="-1" role="dialog">
       <div class="modal-dialog" role="document">
         <div class="modal-content">
