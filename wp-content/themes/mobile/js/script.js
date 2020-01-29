@@ -428,7 +428,7 @@ jQuery(document).ready(function () {
     }
   }
 
-  setTimeout(moon_phase_translate, 2000);
+  setTimeout(moon_phase_translate, 1000);
 
 
 //CROPPING SCRIPT
