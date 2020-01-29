@@ -102,10 +102,17 @@ jQuery(document).ready(function () {
       jQuery('.line_area').removeClass('line_area_red');
     }
 
-    jQuery('.line').attr('x1', solis_x - 10);
-    jQuery('.line').attr('y1', solis_y);
-    jQuery('.line').attr('x2', devil_x + 10);
-    jQuery('.line').attr('y2', devil_y);
+    if (jQuery('.card_solis').hasClass('rotated_')) {
+      jQuery('.line').attr('x1', solis_x - 70);
+      jQuery('.line').attr('y1', solis_y);
+      jQuery('.line').attr('x2', devil_x + 70);
+      jQuery('.line').attr('y2', devil_y);
+    } else {
+      jQuery('.line').attr('x1', solis_x - 10);
+      jQuery('.line').attr('y1', solis_y);
+      jQuery('.line').attr('x2', devil_x + 10);
+      jQuery('.line').attr('y2', devil_y);
+    }
   }
 
   //Dragging elems
