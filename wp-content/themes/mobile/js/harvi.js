@@ -51,7 +51,7 @@ jQuery(document).ready(function () {
         moon_day = moon_day-1;
     }
     // moon_day = moon_day - 1;
-    moon_day = 5;
+    moon_day = 6;
 
     localStorage.setItem('moon_day', moon_day);
     checkPoints = function(){
@@ -118,8 +118,8 @@ jQuery(document).ready(function () {
                 zone_top_alt = parseInt(jQuery('.draggable_v3-4').css('top')) + 40;
                 zone_top = parseInt(jQuery('.draggable_v3-4').css('top')) + 30;
             } else if (moon_day == 6 || moon_day == 24) {
-                zone_top_alt = parseInt(jQuery('.draggable_v4-5').css('top')) + 10;
-                zone_top = parseInt(jQuery('.draggable_v3').css('top')) + 20;
+                zone_top_alt = parseInt(jQuery('.draggable_v4').css('top')) + 20;
+                zone_top = parseInt(jQuery('.draggable_v4').css('top')) + 20;
             } else if (moon_day == 5 || moon_day == 25) {
                 zone_top_alt = parseInt(jQuery('.draggable_d4').css('top')) + 20;
                 zone_top = parseInt(jQuery('.draggable_v3-4').css('top')) + 20;
