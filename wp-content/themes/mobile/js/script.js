@@ -125,7 +125,9 @@ jQuery(document).ready(function () {
       containment: '.drag_container',
       axis: "y",
       drag: function() {
-        if (!jQuery('.line_area').hasClass('hidden')) {
+        if (jQuery('.line_area').hasClass('hidden')) {
+
+        } else {
           line_drawing();
           jQuery('.clear_graph').removeClass('hidden');
           dragger = jQuery('.card_solis').css('top');
