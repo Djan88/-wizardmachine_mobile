@@ -1270,7 +1270,8 @@ button.close.history_close, button.close.manual_close
 {
   width: 200px!important;
   min-height: 100px!important;
-  box-shadow: none;
+  box-shadow: none!important;
+  background-color: transparent!important; 
 }
 @media (min-width: 600px) {
   .sweet-alert
