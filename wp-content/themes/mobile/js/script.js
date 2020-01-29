@@ -152,20 +152,22 @@ jQuery(document).ready(function () {
       axis: "y",
       drag: function() {
         line_drawing();
-        jQuery('.clear_graph').removeClass('hidden');
-        dragger = jQuery('.card_devil').css('top');
-        dragger = dragger.substr(0, dragger.length - 2);
-        draggerDate = new Date();
-        draggerDateDiff = draggerDate - draggerDateOld;
-        // console.log(draggerDateDiff);
-        dragger_rate_class = 'dragger_rate-'+dragger;
-        dragger_rate_class_dotted = '.drag_container_devil .dragger_rate-'+dragger;
-        jQuery('.drag_container_devil').append('<div class='+dragger_rate_class+'></div>');
-        jQuery(dragger_rate_class_dotted).addClass('dragger_rate').css({
-            top: +dragger+71+'px',
-            width: draggerDateDiff*2+'px'
-        });
-        draggerDateOld = draggerDate;
+        if (jQuery('.line_area').hasClass('hidden')) {
+          jQuery('.clear_graph').removeClass('hidden');
+          dragger = jQuery('.card_devil').css('top');
+          dragger = dragger.substr(0, dragger.length - 2);
+          draggerDate = new Date();
+          draggerDateDiff = draggerDate - draggerDateOld;
+          // console.log(draggerDateDiff);
+          dragger_rate_class = 'dragger_rate-'+dragger;
+          dragger_rate_class_dotted = '.drag_container_devil .dragger_rate-'+dragger;
+          jQuery('.drag_container_devil').append('<div class='+dragger_rate_class+'></div>');
+          jQuery(dragger_rate_class_dotted).addClass('dragger_rate').css({
+              top: +dragger+71+'px',
+              width: draggerDateDiff*2+'px'
+          });
+          draggerDateOld = draggerDate;
+        }
       }
   });
 
