@@ -97,4 +97,3 @@
             <div class="col-md-6 col-md-offset-3">
               <div id="moon-phase-widget" data-color="white" style="text-align: center;">Текущая лунная фаза</div>
             </div>
-            <div class="col col-md-1 col-lg-1 col-xl-1"></div>
