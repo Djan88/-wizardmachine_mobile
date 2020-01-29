@@ -418,6 +418,19 @@ jQuery(document).ready(function () {
   });
 
 
+  // Moon widget phases
+  var moon_phase
+      moon_phase_translate;
+
+  moon_phase_translate = function(){
+    moon_phase = jQuery('.phase-name').text();
+    if (moon_phase == 'Waxing Crescent') {
+      jQuery('.phase-name_alt').text('Растущая луна');
+    }
+  }
+  setTimeout(moon_phase_translate, 2000);
+
+
 //CROPPING SCRIPT
     // convert bytes into friendly format
     function bytesToSize(bytes) {
