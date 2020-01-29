@@ -51,7 +51,7 @@ jQuery(document).ready(function () {
         moon_day = moon_day-1;
     }
     // moon_day = moon_day - 1;
-    moon_day = 1;
+    moon_day = 2;
 
     localStorage.setItem('moon_day', moon_day);
     checkPoints = function(){
@@ -130,13 +130,11 @@ jQuery(document).ready(function () {
                 zone_top_alt = parseInt(jQuery('.draggable_s5').css('top')) + 30;
                 zone_top = parseInt(jQuery('.draggable_v1').css('top')) + 20;
             } else if (moon_day == 2 || moon_day == 28) {
-                zone_top_alt = parseInt(jQuery('.draggable_s5').css('top')) + 60;
-                zone_top = parseInt(jQuery('.draggable_v1').css('top')) + 10;
+                zone_top_alt = parseInt(jQuery('.draggable_v-').css('top')) - 40;
+                zone_top = parseInt(jQuery('.draggable_v1').css('top'));
             } else if (moon_day == 1 || moon_day == 29 || moon_day == 30) {
                 zone_top_alt = parseInt(jQuery('.draggable_v-').css('top')) + 20;
                 zone_top = parseInt(jQuery('.draggable_v0').css('top'));
-                // zone_top_alt = parseInt(jQuery('.draggable_s5').css('top')) + 130;
-                // zone_top = parseInt(jQuery('.draggable_v1').css('top')) - 10;
             } else if (moon_day == 14 || moon_day == 15 || moon_day == 16) {
                 jQuery('.card_ghost_devil_vertical, .card_ghost_solis_vertical').removeClass('hidden');
                 jQuery('.card_ghost_devil, .card_ghost_solis').addClass('hidden');
