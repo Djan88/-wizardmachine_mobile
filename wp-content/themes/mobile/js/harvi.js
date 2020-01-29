@@ -98,9 +98,9 @@ jQuery(document).ready(function () {
             card_semi_height = parseInt(jQuery('.card_solis').css('height')) / 2;
             if (moon_day == 13 || moon_day == 17) {
                 zone_top = parseInt(jQuery('.draggable_v-').css('top')) - 20;
-                jQuery('.card_devil').addClass('rotated_').css('transform', 'rotate(45deg)');
+                jQuery('.card_devil, .card_ghost_devil').addClass('rotated_').css('transform', 'rotate(45deg)');
                 zone_top_alt = parseInt(jQuery('.draggable_v1').css('top')) + 20;
-                jQuery('.card_solis').addClass('rotated_').css('transform', 'rotate(45deg)');
+                jQuery('.card_solis, .card_ghost_solis').addClass('rotated_').css('transform', 'rotate(45deg)');
             } else if (moon_day == 12 || moon_day == 18) {
                 zone_top = parseInt(jQuery('.draggable_v-').css('top')) + 20;
                 zone_top_alt = parseInt(jQuery('.draggable_v1').css('top'));

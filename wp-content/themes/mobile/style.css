@@ -673,10 +673,12 @@ span.menu_item_img
   right: 0;
   position: absolute;
   z-index: 500;
+  left: auto!important;
 }
 .card_devil
 {
   z-index: 500;
+  left: auto!important;
 }
 .status
 {

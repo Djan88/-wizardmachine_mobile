@@ -140,8 +140,6 @@ jQuery(document).ready(function () {
             width: draggerDateDiff*2+'px'
         });
         draggerDateOld = draggerDate;
-        jQuery('.card_solis, .card_devil').css('left', 'auto');
-        console.log('stst');
       }
   });
 
