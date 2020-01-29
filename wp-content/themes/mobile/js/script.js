@@ -419,7 +419,7 @@ jQuery(document).ready(function () {
 
 
   // Moon widget phases
-  var moon_phase = jQuery('.phase-name').text()
+  var moon_phase = jQuery('.phase-name').text();
   if (moon_phase == 'Waxing Crescent') {
     jQuery('.phase-name_alt').text('Растущая луна');
   }
