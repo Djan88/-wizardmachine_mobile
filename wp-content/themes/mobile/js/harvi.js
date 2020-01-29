@@ -100,7 +100,7 @@ jQuery(document).ready(function () {
                 zone_top = parseInt(jQuery('.draggable_v-').css('top')) - 20;
                 jQuery('.card_devil').css('transform', 'rotate(45deg)');
                 zone_top_alt = parseInt(jQuery('.draggable_v1').css('top')) + 20;
-                jQuery('.card_solis').css('transform', 'rotate(135deg)');
+                jQuery('.card_solis').css('transform', 'rotate(45deg)');
             } else if (moon_day == 12 || moon_day == 18) {
                 zone_top = parseInt(jQuery('.draggable_v-').css('top')) + 20;
                 zone_top_alt = parseInt(jQuery('.draggable_v1').css('top'));
