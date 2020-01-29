@@ -141,6 +141,7 @@ jQuery(document).ready(function () {
         });
         draggerDateOld = draggerDate;
         jQuery('.card_solis, .card_devil').css('left', 'auto');
+        console.log('stst');
       }
   });
 
