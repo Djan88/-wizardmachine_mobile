@@ -423,8 +423,22 @@ jQuery(document).ready(function () {
 
   var moon_phase_translate = function(){
     moon_phase = jQuery('.phase-name').text();
-    if (moon_phase == 'Waxing Crescent') {
-      jQuery('.phase-name_alt').text('Растущая луна');
+    if (moon_phase == 'New Moon') {
+      jQuery('.phase-name_alt').text('Новолуние');
+    } else if (moon_phase == 'Waxing Crescent') {
+      jQuery('.phase-name_alt').text('Молодая Луна');
+    } else if (moon_phase == 'First Quarter') {
+      jQuery('.phase-name_alt').text('Первая Четверть');
+    } else if (moon_phase == 'Waxing Gibbous') {
+      jQuery('.phase-name_alt').text('Прибывающая Луна');
+    } else if (moon_phase == 'Full Moon') {
+      jQuery('.phase-name_alt').text('Полнолуние');
+    } else if (moon_phase == 'Waning Gibbous') {
+      jQuery('.phase-name_alt').text('Убывающая Луна');
+    } else if (moon_phase == 'Last Quarter') {
+      jQuery('.phase-name_alt').text('Последняя Четверть');
+    } else if (moon_phase == 'Waning crescent') {
+      jQuery('.phase-name_alt').text('Старая Луна');
     }
   }
 

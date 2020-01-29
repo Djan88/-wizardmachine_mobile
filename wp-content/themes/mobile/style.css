@@ -1269,7 +1269,7 @@ button.close.history_close, button.close.manual_close
 .mph-widget
 {
   width: 200px!important;
-  min-height: 100px!important;
+  min-height: 150px!important;
   box-shadow: none!important;
   background-color: transparent!important; 
 }
