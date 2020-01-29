@@ -1273,6 +1273,11 @@ button.close.history_close, button.close.manual_close
   box-shadow: none!important;
   background-color: transparent!important; 
 }
+.phase-name_alt
+{
+  font-weight: bold;
+  font-size: 18px;
+}
 @media (min-width: 600px) {
   .sweet-alert
   {
