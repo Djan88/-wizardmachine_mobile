@@ -74,6 +74,10 @@ div#recallbar, div#wpadminbar
 {
   display: none;
 }
+.hidden_
+{
+  display: none!important;
+}
 .zone_final.hidden
 {
   display: none!important;
