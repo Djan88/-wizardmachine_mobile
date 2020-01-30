@@ -72,7 +72,7 @@ div#recallbar, div#wpadminbar
 }
 .hidden
 {
-  display: none!important;
+  display: none;
 }
 .zone_final.hidden
 {
