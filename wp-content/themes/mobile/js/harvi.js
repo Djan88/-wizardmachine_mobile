@@ -47,10 +47,10 @@ jQuery(document).ready(function () {
     var moon_day = hm.NowMoonDay();
     //var moon_day=hm.GetMoonDay(22,1,2011);
 
-    if (moon_day > 1 && moon_day != 30) {
-        moon_day = moon_day-1;
-    }
-    // moon_day = moon_day - 1;
+    // if (moon_day > 1 && moon_day != 30) {
+    //     moon_day = moon_day-1;
+    // }
+    moon_day = localStorage.getItem('moon_day_ls');
     // moon_day = 10;
 
     localStorage.setItem('moon_day', moon_day);
