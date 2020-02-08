@@ -50,7 +50,7 @@ jQuery(document).ready(function () {
     // if (moon_day > 1 && moon_day != 30) {
     //     moon_day = moon_day-1;
     // }
-    moon_day_float = localStorage.getItem('moon_day_ls');
+    moon_day_float = localStorage.getItem('moon_day_ls')+1;
     moon_day = parseInt(moon_day_float).toFixed();
     // moon_day = 10;
 
