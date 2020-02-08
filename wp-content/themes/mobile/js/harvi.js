@@ -51,7 +51,7 @@ jQuery(document).ready(function () {
     //     moon_day = moon_day-1;
     // }
     moon_day_float = localStorage.getItem('moon_day_ls');
-    moon_day = parseInt(moon_day_float).toFixed();
+    moon_day = parseInt(moon_day_float).toFixed()+1;
     // moon_day = 10;
 
     localStorage.setItem('moon_day', moon_day);
