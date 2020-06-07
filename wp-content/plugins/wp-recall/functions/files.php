@@ -48,7 +48,8 @@ function rcl_get_include_template( $temp_name, $path = false, $data = false ) {
 
 //форматирование абсолютного пути в урл
 function rcl_path_to_url( $path ) {
-	return untrailingslashit( home_url( '/' . stristr( $path, basename( content_url() ) ) ) );
+	$siteUrl = is_ssl() ? str_replace( 'http://', 'https://', get_site_option( 'siteurl' ) ) : get_site_option( 'siteurl' );
+	return untrailingslashit( untrailingslashit( $siteUrl ) . '/' . stristr( $path, basename( content_url() ) ) );
 }
 
 //получение абсолютного пути из указанного урла

@@ -56,7 +56,7 @@ if ( class_exists( 'Rcl_Payment' ) ) {
 
 			$opt = new Rcl_Options();
 
-			$curs = array( 'RUB', 'USD', 'EUR' );
+			$curs = array( 'RUB', 'USD', 'EUR', 'KZT' );
 
 			if ( false !== array_search( $rmag_options['primary_cur'], $curs ) ) {
 
@@ -271,7 +271,7 @@ if ( class_exists( 'Rcl_Payment' ) ) {
 			return json_encode( array(
 				'sno'	 => $rmag_options['robo_tax'],
 				'items'	 => $items
-			) );
+				) );
 		}
 
 		function result( $data ) {
