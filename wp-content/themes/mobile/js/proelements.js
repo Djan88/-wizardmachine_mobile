@@ -100,7 +100,7 @@ hide_cards = function(){
         jQuery('.elems_card_2').css('top', zone_top - 177 +'px');
       } else if (count_animation == 4) {
         jQuery('.elems_card_3').fadeIn(500);
-        jQuery('.elems_card_3').css('left', zone_left - 88 +'px');
+        jQuery('.elems_card_3').css('left', zone_left - 110 +'px');
         jQuery('.elems_card_3').css('top', zone_top - 230 +'px');
       } else if (count_animation == 6) {
         jQuery('.elems_card_4').fadeIn(500);
