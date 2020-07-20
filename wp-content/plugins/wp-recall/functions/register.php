@@ -109,14 +109,14 @@ function rcl_confirm_user_registration() {
 }
 
 //принимаем данные для подтверждения регистрации
-add_action( 'init', 'rcl_confirm_user_resistration_activate' );
+add_action( 'init', 'rcl_confirm_user_resistration_activate', 10 );
 function rcl_confirm_user_resistration_activate() {
 
 	if ( ! isset( $_GET['rcl-confirmdata'] ) )
 		return false;
 
 	if ( rcl_get_option( 'confirm_register_recall' ) )
-		add_action( 'wp', 'rcl_confirm_user_registration' );
+		add_action( 'wp', 'rcl_confirm_user_registration', 10 );
 }
 
 //добавляем коды ошибок для тряски формы ВП
@@ -442,15 +442,12 @@ function rcl_filters_regform() {
 add_filter( 'regform_fields_rcl', 'rcl_password_regform', 5 );
 function rcl_password_regform( $content ) {
 
-	$difficulty	 = rcl_get_option( 'difficulty_parole' );
-	$user_pass	 = (isset( $_REQUEST['user_pass'] )) ? $_REQUEST['user_pass'] : '';
+	$difficulty = rcl_get_option( 'difficulty_parole' );
 
 	$content .= '<div class="form-block-rcl default-field">';
-	if ( $difficulty == 1 ) {
-		$content .= '<input placeholder="' . __( 'Password', 'wp-recall' ) . '" required id="primary-pass-user" type="password" onkeyup="passwordStrength(this.value)" value="' . $user_pass . '" name="user_pass">';
-	} else {
-		$content .= '<input placeholder="' . __( 'Password', 'wp-recall' ) . '" required type="password" value="' . $user_pass . '" id="primary-pass-user" name="user_pass">';
-	}
+
+	$content .= '<input placeholder="' . __( 'Password', 'wp-recall' ) . '" required id="primary-pass-user" type="password" ' . ($difficulty == 1 ? 'onkeyup="passwordStrength(this.value)"' : '') . ' name="user_pass">';
+
 	$content .= '<i class="rcli fa-lock"></i>';
 	$content .= '<span class="required">*</span>';
 	$content .= '</div>';
@@ -475,7 +472,7 @@ function rcl_secondary_password( $fields ) {
 		return $fields;
 
 	$fields .= '<div class="form-block-rcl default-field">
-                    <input placeholder="' . __( 'Repeat the password', 'wp-recall' ) . '" required id="secondary-pass-user" type="password" value="' . (isset( $_REQUEST['user_secondary_pass'] ) ? $_REQUEST['user_secondary_pass'] : '') . '" name="user_secondary_pass">
+                    <input placeholder="' . __( 'Repeat the password', 'wp-recall' ) . '" required id="secondary-pass-user" type="password" name="user_secondary_pass">
                     <i class="rcli fa-lock"></i>
                     <span class="required">*</span>
                 <div id="notice-chek-password"></div>

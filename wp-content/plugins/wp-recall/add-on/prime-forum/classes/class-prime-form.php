@@ -242,7 +242,7 @@ class PrimeForm extends Rcl_Custom_Fields {
 			$content .= '<i class="rcli fa-check-circle" aria-hidden="true"></i> ' . $this->submit;
 			$content .= '</a>';
 		} else {
-			$content .= '<input type="submit" name="Submit" class="recall-button" value="' . $this->submit . '"/>';
+			$content .= '<input type="submit" name="submit" class="recall-button" value="' . $this->submit . '"/>';
 		}
 
 		$content .= '</div>';

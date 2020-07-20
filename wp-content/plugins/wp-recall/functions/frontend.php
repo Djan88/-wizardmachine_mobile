@@ -445,6 +445,9 @@ add_filter( 'the_content', 'rcl_message_post_moderation' );
 function rcl_message_post_moderation( $content ) {
 	global $post;
 
+	if ( ! isset( $post ) || ! $post )
+		return $content;
+
 	if ( $post->post_status == 'pending' ) {
 		$content = '<h3 class="pending-message">' . __( 'Publication pending approval!', 'wp-recall' ) . '</h3>' . $content;
 	}

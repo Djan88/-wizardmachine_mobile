@@ -836,7 +836,7 @@ function RclForm( form ) {
 					var field = jQuery( this );
 					var typeField = field.attr( 'type' );
 
-					if ( field.tagName && field.tagName.toLowerCase() == 'textarea' ) {
+					if ( field.is( 'textarea' ) ) {
 						typeField = 'textarea';
 					}
 
@@ -850,7 +850,8 @@ function RclForm( form ) {
 							continue;
 						}
 
-						var shakeBox = ( typeField == 'checkbox' ) ? field.next( 'label' ) : field;
+						var shakeBox = jQuery.inArray( typeField, [ 'radio',
+							'checkbox' ] ) < 0 ? field : field.next( 'label' );
 
 						if ( !chekObject.isValid( field ) ) {
 
@@ -888,10 +889,10 @@ function RclForm( form ) {
 
 				var value = false;
 
-				if ( field.attr( 'type' ) == 'checkbox' ) {
-					if ( field.is( ":checked" ) ) {
-						value = true;
-					}
+				if ( field.attr( 'type' ) == 'checkbox' && field.is( ":checked" ) ) {
+					value = true;
+				} else if ( field.attr( 'type' ) == 'radio' && jQuery( 'input[name="' + field.attr( 'name' ) + '"]:checked' ).val() ) {
+					value = true;
 				} else {
 					if ( field.val() )
 						value = true;

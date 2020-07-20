@@ -516,7 +516,7 @@ class Rcl_Custom_Fields {
 
 		$pattern = (isset( $field['pattern'] ) && $field['pattern']) ? 'pattern="' . $field['pattern'] . '"' : '';
 
-		return '<input type="text" ' . $pattern . ' ' . $this->maxlength . ' ' . $this->required . ' ' . $this->placeholder . ' ' . $this->get_class( $field ) . ' name="' . $field['name'] . '" id="' . $this->field_id . '" value="' . $this->value . '"/>';
+		return '<input type="text" ' . $pattern . ' ' . $this->maxlength . ' ' . $this->required . ' ' . $this->placeholder . ' ' . $this->get_class( $field ) . ' name="' . $field['name'] . '" id="' . $this->field_id . '" value="' . esc_attr( $this->value ) . '"/>';
 	}
 
 	function get_type_password( $field ) {
@@ -542,7 +542,7 @@ class Rcl_Custom_Fields {
 
 		$field['classes'] = 'rcl-datepicker';
 
-		$content = '<input type="text" ' . $this->get_class( $field ) . ' onclick="rcl_show_datepicker(this);" title="' . __( 'Use the format', 'wp-recall' ) . ': yyyy-mm-dd" pattern="(\d{4}-\d{2}-\d{2})" ' . $this->required . ' ' . $this->placeholder . ' class="rcl-datepicker" name="' . $field['name'] . '" id="' . $this->field_id . '" value="' . $this->value . '"/>';
+		$content = '<input type="text" ' . $this->get_class( $field ) . ' onclick="rcl_show_datepicker(this);" title="' . __( 'Use the format', 'wp-recall' ) . ': yyyy-mm-dd" pattern="(\d{4}-\d{2}-\d{2})" ' . $this->required . ' ' . $this->placeholder . ' class="rcl-datepicker" name="' . $field['name'] . '" id="' . $this->field_id . '" autocomplete="off" value="' . $this->value . '"/>';
 
 		return $content;
 	}

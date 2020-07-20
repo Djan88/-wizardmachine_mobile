@@ -69,7 +69,7 @@ function rcl_get_chat_page() {
 
 rcl_ajax_action( 'rcl_chat_add_message', false );
 function rcl_chat_add_message() {
-	global $user_ID;
+	global $user_ID, $rcl_options;
 
 	rcl_verify_ajax_nonce();
 
@@ -79,6 +79,32 @@ function rcl_chat_add_message() {
 
 	if ( ! rcl_get_chat_by_room( $chat_room ) )
 		return false;
+
+	$antispam = isset( $rcl_options['chat']['antispam'] ) ? $rcl_options['chat']['antispam'] : 5;
+
+	if ( $antispam = apply_filters( 'rcl_chat_antispam_option', $antispam ) ) {
+
+		$query = new Rcl_Chat_Messages_Query();
+
+		$cntLastMess = $query->count( [
+			'user_id'				 => $user_ID,
+			'private_key__not_in'	 => [0 ],
+			'message_status__not_in' => [1 ],
+			'date_query'			 => [
+				[
+					'column'	 => 'message_time',
+					'compare'	 => '=',
+					'last'		 => '24 HOUR'
+				]
+			],
+			'groupby'				 => 'private_key'
+			] );
+
+		if ( $cntLastMess > $antispam )
+			wp_send_json( [
+				'error' => __( 'Ваша активность имеет признаки спама!', 'wp-recall' )
+			] );
+	}
 
 	$attach = (isset( $POST['attachment'] )) ? $POST['attachment'] : false;
 

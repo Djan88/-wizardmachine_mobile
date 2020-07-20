@@ -31,6 +31,17 @@ function rcl_chat_options( $content ) {
 			),
 			array(
 				'type'		 => 'runner',
+				'title'		 => __( 'Антиспам', 'wp-recall' ),
+				'slug'		 => 'antispam',
+				'group'		 => 'chat',
+				'value_min'	 => 1,
+				'value_max'	 => 20,
+				'default'	 => 5,
+				'notice'	 => __( 'Укажите кол-во пользователей, которым можно отослать непрочитанное приватное сообщение в течении суток. '
+					. 'При превышении отправка сообщений блокируется.', 'wp-recall' )
+			),
+			array(
+				'type'		 => 'runner',
 				'title'		 => __( 'The number of characters in the message', 'wp-recall' ),
 				'slug'		 => 'words',
 				'group'		 => 'chat',

@@ -507,17 +507,40 @@ class Rcl_Custom_Fields_Manager extends Rcl_Custom_Fields {
 
 		$delete = (isset( $this->field['delete'] )) ? $this->field['delete'] : true;
 
+		$controls = array();
+
+		if ( $delete && ! $this->is_default_field( $this->field['slug'] ) )
+			$controls['delete'] = array(
+				'class'	 => 'field-delete',
+				'title'	 => __( 'Delete', 'wp-recall' )
+			);
+
+		$controls['edit'] = array(
+			'class'	 => 'field-edit',
+			'title'	 => __( 'Edit', 'wp-recall' )
+		);
+
+		$controls = apply_filters( 'rcl_manager_field_controls', $controls, $this->field['slug'], $this->post_type );
+
 		$content = '<div class="field-header">
                     <span class="field-type type-' . $this->field['type'] . '"></span>
                     <span class="field-title">' . $this->field['title'] . (isset( $this->field['required'] ) && $this->field['required'] ? ' <span class="required">*</span>' : '') . '</span>
                     <span class="field-controls">
                     ';
 
-		if ( $delete && ! $this->is_default_field( $this->field['slug'] ) )
-			$content .= '<a class="field-delete field-control" title="' . __( 'Delete', 'wp-recall' ) . '" href="#"></a>';
+		if ( $controls ) {
+			foreach ( $controls as $control ) {
+				$content .= rcl_get_button(
+					isset( $control['label'] ) ? $control['label'] : '', isset( $control['href'] ) ? $control['href'] : '#', array(
+					'class'	 => $control['class'] . ' field-control',
+					'icon'	 => isset( $control['icon'] ) ? $control['icon'] : false,
+					'attr'	 => 'title="' . $control['title'] . '"'
+					)
+				);
+			}
+		}
 
-		$content .= '<a class="field-edit field-control" href="#" title="' . __( 'Edit', 'wp-recall' ) . '"></a>
-                    </span>
+		$content .= '</span>
                 </div>';
 
 		return $content;

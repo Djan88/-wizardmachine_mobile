@@ -54,7 +54,7 @@ jQuery( document ).ready( function( $ ) {
 rcl_add_action( 'rcl_init_public_form', 'rcl_setup_async_upload' );
 function rcl_setup_async_upload() {
 
-	if ( !wp || !wp.Uploader )
+	if ( typeof wp == 'undefined' || !wp.Uploader )
 		return false;
 
 	jQuery.extend( wp.Uploader.prototype, {

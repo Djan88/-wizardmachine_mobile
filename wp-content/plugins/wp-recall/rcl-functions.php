@@ -167,10 +167,9 @@ function rcl_get_tab_content( $tab_id, $master_id, $subtab_id = '' ) {
 //приводим структуру вкладки к окончательному виду
 add_action( 'wp_loaded', 'rcl_setup_tabs', 10 );
 function rcl_setup_tabs() {
+	global $rcl_tabs;
 
 	do_action( 'rcl_setup_tabs' );
-
-	global $rcl_tabs;
 
 	if ( $rcl_tabs ) {
 
@@ -179,14 +178,18 @@ function rcl_setup_tabs() {
 			if ( ! isset( $rcl_tab['icon'] ) )
 				$rcl_tab['icon'] = 'fa-cog';
 
-			if ( ! isset( $rcl_tab['content'][0]['id'] ) )
-				$rcl_tabs[$k]['content'][0]['id'] = $rcl_tab['id'];
+			foreach ( $rcl_tab['content'] as $s => $subtab ) {
+				if ( ! isset( $rcl_tab['content'][$s]['id'] ) )
+					$rcl_tabs[$k]['content'][$s]['id'] = $rcl_tab['id'];
 
-			if ( ! isset( $rcl_tab['content'][0]['name'] ) )
-				$rcl_tabs[$k]['content'][0]['name'] = $rcl_tab['name'];
+				if ( ! isset( $rcl_tab['content'][$s]['name'] ) )
+					$rcl_tabs[$k]['content'][$s]['name'] = $rcl_tab['name'];
 
-			if ( ! isset( $rcl_tab['content'][0]['icon'] ) )
-				$rcl_tabs[$k]['content'][0]['icon'] = $rcl_tab['icon'];
+				if ( ! isset( $rcl_tab['content'][$s]['icon'] ) )
+					$rcl_tabs[$k]['content'][$s]['icon'] = $rcl_tab['icon'];
+
+				break;
+			}
 		}
 	}
 
@@ -1311,15 +1314,7 @@ function rcl_filter_custom_tab_vars( $content ) {
 	if ( ! $matchs )
 		return $content;
 
-	$vars		 = array();
-	$replaces	 = array();
-
-	foreach ( $matchs as $var => $replace ) {
-		$vars[]		 = $var;
-		$replaces[]	 = $replace;
-	}
-
-	return str_replace( $vars, $replaces, $content );
+	return strtr( $content, $matchs );
 }
 
 add_filter( 'rcl_custom_tab_content', 'rcl_filter_custom_tab_usermetas', 5 );
@@ -1331,23 +1326,14 @@ function rcl_filter_custom_tab_usermetas( $content ) {
 	if ( ! $metas[1] )
 		return $content;
 
-	$vars		 = array();
-	$replaces	 = array();
+	$matchs = array();
 
 	foreach ( $metas[1] as $meta ) {
-
-		$vars[] = '{RCL-UM:' . $meta . '}';
-
-		$value	 = ($value	 = get_the_author_meta( $meta, $rcl_office )) ? $value : __( 'not specified', 'wp-recall' );
-
-		if ( is_array( $value ) ) {
-			$value = implode( ', ', $value );
-		}
-
-		$replaces[] = $value;
+		$value								 = get_user_meta( $rcl_office, $meta, 1 ) ? : __( 'not specified', 'wp-recall' );
+		$matchs['{RCL-UM:' . $meta . '}']	 = (is_array( $value )) ? implode( ', ', $value ) : $value;
 	}
 
-	return str_replace( $vars, $replaces, $content );
+	return strtr( $content, $matchs );
 }
 
 /* * * */

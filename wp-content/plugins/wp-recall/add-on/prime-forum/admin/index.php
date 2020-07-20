@@ -791,7 +791,8 @@ function rcl_forum_metabox() {
 	echo '<p><a href="' . pfm_get_home_url() . '" target="_blank">' . __( 'Go to forum', 'wp-recall' ) . '</a></p>';
 }
 
-add_action( 'admin_init', 'pfm_init_admin_actions' );
+if ( ! wp_doing_ajax() )
+	add_action( 'admin_init', 'pfm_init_admin_actions' );
 function pfm_init_admin_actions() {
 	global $user_ID;
 

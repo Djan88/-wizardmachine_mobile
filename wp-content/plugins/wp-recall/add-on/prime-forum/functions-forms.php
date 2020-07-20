@@ -27,11 +27,11 @@ function pfm_the_topic_form() {
 		return;
 	}
 
-	echo pfm_get_form( array(
+	echo pfm_get_form( apply_filters( 'pfm_topic_form_args', array(
 		'forum_id'	 => $PrimeForum->forum_id,
 		'action'	 => 'topic_create',
 		'submit'	 => __( 'Create topic', 'wp-recall' )
-	) );
+	) ) );
 }
 
 function pfm_the_post_form() {

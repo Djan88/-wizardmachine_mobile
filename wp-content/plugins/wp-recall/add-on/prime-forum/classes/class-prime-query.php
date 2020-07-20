@@ -416,9 +416,9 @@ class PrimeQuery {
 				"MAX(pfm_posts.post_date) AS last_post_date"
 			);
 
-			$this->topics_query = apply_filters( 'pfm_search_posts_query', $this->topics_query );
+			$this->topics_query = apply_filters( 'pfm_search_posts_query', $this->topics_query, $this );
 
-			$this->topics = apply_filters( 'pfm_search_posts', $this->topics_query->get_data( 'get_results' ) );
+			$this->topics = apply_filters( 'pfm_search_posts', $this->topics_query->get_data( 'get_results' ), $this );
 		}if ( $this->is_author ) {
 
 			$this->topics_query->reset_query();
@@ -432,9 +432,9 @@ class PrimeQuery {
 				"MAX(pfm_posts.post_date) AS last_post_date"
 			);
 
-			$this->topics_query = apply_filters( 'pfm_author_posts_query', $this->topics_query );
+			$this->topics_query = apply_filters( 'pfm_author_posts_query', $this->topics_query, $this );
 
-			$this->topics = apply_filters( 'pfm_author_posts', $this->topics_query->get_data( 'get_results' ) );
+			$this->topics = apply_filters( 'pfm_author_posts', $this->topics_query->get_data( 'get_results' ), $this );
 		} else if ( $this->is_frontpage ) {
 
 			$this->groups_query->reset_query();
@@ -446,9 +446,9 @@ class PrimeQuery {
 				"COUNT(pfm_forums.forum_id) AS forum_count"
 			);
 
-			$this->groups_query = apply_filters( 'pfm_groups_query', $this->groups_query );
+			$this->groups_query = apply_filters( 'pfm_groups_query', $this->groups_query, $this );
 
-			$this->groups = apply_filters( 'pfm_groups', $this->groups_query->get_data( 'get_results' ) );
+			$this->groups = apply_filters( 'pfm_groups', $this->groups_query->get_data( 'get_results' ), $this );
 		} else if ( $this->is_group ) {
 
 			$this->forums_query->reset_query();
@@ -460,9 +460,9 @@ class PrimeQuery {
 				"COUNT(DISTINCT pfm_forums2.forum_id) AS subforum_count"
 			);
 
-			$this->forums_query = apply_filters( 'pfm_forums_query', $this->forums_query );
+			$this->forums_query = apply_filters( 'pfm_forums_query', $this->forums_query, $this );
 
-			$this->forums = apply_filters( 'pfm_forums', $this->forums_query->get_data( 'get_results' ) );
+			$this->forums = apply_filters( 'pfm_forums', $this->forums_query->get_data( 'get_results' ), $this );
 		} else if ( $this->object && $this->is_forum ) {
 
 			$this->topics_query->reset_query();
@@ -476,14 +476,14 @@ class PrimeQuery {
 
 			$this->topics_query->query['orderby'] = "topic_fix DESC, MAX(pfm_posts.post_date)";
 
-			$this->topics_query = apply_filters( 'pfm_topics_query', $this->topics_query );
+			$this->topics_query = apply_filters( 'pfm_topics_query', $this->topics_query, $this );
 
 			$this->topics = apply_filters( 'pfm_topics', $this->topics_query->get_data( 'get_results' ) );
 		} else if ( $this->object && $this->is_topic ) {
 
-			$this->posts_query = apply_filters( 'pfm_posts_query', $this->posts_query );
+			$this->posts_query = apply_filters( 'pfm_posts_query', $this->posts_query, $this );
 
-			$this->posts = apply_filters( 'pfm_posts', $this->posts_query->get_results( $args ) );
+			$this->posts = apply_filters( 'pfm_posts', $this->posts_query->get_results( $args ), $this );
 		}
 	}
 

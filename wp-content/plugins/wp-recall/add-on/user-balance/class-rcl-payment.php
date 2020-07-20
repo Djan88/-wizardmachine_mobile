@@ -256,7 +256,10 @@ class Rcl_Payment {
 				$method			 = 'pay_form';
 				$content .= $obj->$method( $this );
 			} else {
-				$content .= '<div class="error"><p class="error">' . __( 'Error! Connection to payment aggregator not set.', 'wp-recall' ) . '</p></div>';
+				$content .= rcl_get_notice( [
+					'type'	 => 'error',
+					'text'	 => __( 'Error! Connection to payment aggregator not set.', 'wp-recall' )
+				] );
 			}
 		}
 

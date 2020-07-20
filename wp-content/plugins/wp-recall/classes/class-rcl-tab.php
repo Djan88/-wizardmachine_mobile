@@ -50,7 +50,8 @@ class Rcl_Tab {
 	}
 
 	function print_tab( $content ) {
-		global $user_LK;
+		global $user_LK, $rcl_tabs;
+		//print_r( $rcl_tabs );
 		$content .= $this->get_tab( $user_LK );
 		return $content;
 	}
@@ -77,7 +78,7 @@ class Rcl_Tab {
 	}
 
 	function get_tab_content( $master_id, $subtab_id = false ) {
-		global $rcl_tab;
+		global $rcl_tab, $rcl_tabs;
 
 		$subtabs = apply_filters( 'rcl_subtabs', $this->content, $this->id );
 
@@ -192,9 +193,9 @@ class Rcl_Tab {
 
 		$content = '';
 
-		if ( $this->use_cache && in_array( 'cache', $this->supports ) ) {
+		$rcl_cache = new Rcl_Cache();
 
-			$rcl_cache = new Rcl_Cache();
+		if ( $this->use_cache && in_array( 'cache', $this->supports ) && $rcl_cache->is_cache ) {
 
 			$protocol = @( $_SERVER["HTTPS"] != 'on' ) ? 'http://' : 'https://';
 
