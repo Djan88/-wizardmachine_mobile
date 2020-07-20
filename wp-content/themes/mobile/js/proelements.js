@@ -97,11 +97,11 @@ hide_cards = function(){
       } else if (count_animation == 2) {
         jQuery('.elems_card_2').fadeIn(500);
         jQuery('.elems_card_2').css('left', zone_left - 78 +'px');
-        jQuery('.elems_card_2').css('top', zone_top - 230 +'px');
+        jQuery('.elems_card_2').css('top', zone_top - 190 +'px');
       } else if (count_animation == 4) {
         jQuery('.elems_card_3').fadeIn(500);
         jQuery('.elems_card_3').css('left', zone_left - 78 +'px');
-        jQuery('.elems_card_3').css('top', zone_top - 190 +'px');
+        jQuery('.elems_card_3').css('top', zone_top - 230 +'px');
       } else if (count_animation == 6) {
         jQuery('.elems_card_4').fadeIn(500);
         jQuery('.elems_card_4').css('left', zone_left - 140 +'px');
