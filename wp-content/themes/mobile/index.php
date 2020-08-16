@@ -111,6 +111,7 @@
 						<div class="row">
 							<div class="col-md-12">
 								<div id="moon-phase-widget" data-color="white" style="text-align: center;margin-top: 20px;margin-bottom: 20px;color: #000;"></div>
+								<div id=”moonwidget-info”></div>
 							</div>
 						</div>
 						<div class="row">
