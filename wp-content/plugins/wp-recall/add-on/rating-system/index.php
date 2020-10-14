@@ -160,7 +160,8 @@ function rcl_add_data_rating_posts() {
 	$rating_posts = rcl_get_rating_totals( array(
 		'rating_type__in'	 => $post_types,
 		'object_id__in'		 => $posts,
-		'fields'			 => array(
+		'number'			 => -1,
+		'select'			 => array(
 			'rating_total',
 			'object_id'
 		)
@@ -221,7 +222,8 @@ function rcl_add_data_rating_comments( $comments ) {
 	$rating_comments = rcl_get_rating_totals( array(
 		'rating_type'	 => 'comment',
 		'object_id__in'	 => $comms,
-		'fields'		 => array(
+		'number'		 => -1,
+		'select'		 => array(
 			'rating_total',
 			'object_id'
 		)
@@ -230,7 +232,8 @@ function rcl_add_data_rating_comments( $comments ) {
 	$rating_values = rcl_get_vote_values( array(
 		'rating_type'	 => 'comment',
 		'object_id__in'	 => $comms,
-		'fields'		 => array(
+		'number'		 => -1,
+		'select'		 => array(
 			'rating_value',
 			'object_id',
 			'user_id'
@@ -498,11 +501,12 @@ function rcl_edit_rating_post() {
 
 	do_action( 'rcl_pre_edit_rating_post', $args );
 
-	if ( $rcl_options['rating_' . $args['rating_status'] . '_limit_' . $args['rating_type']] ) {
+	$rslrt = isset( $rcl_options['rating_' . $args['rating_status'] . '_limit_' . $args['rating_type']] ) ? $rcl_options['rating_' . $args['rating_status'] . '_limit_' . $args['rating_type']] : false;
+
+	if ( $rslrt ) {
 		$timelimit	 = ($rcl_options['rating_' . $args['rating_status'] . '_time_' . $args['rating_type']]) ? $rcl_options['rating_' . $args['rating_status'] . '_time_' . $args['rating_type']] : 3600;
 		$votes		 = rcl_count_votes_time( $args, $timelimit );
-		if ( $votes >= $rcl_options['rating_' . $args['rating_status'] . '_limit_' . $args['rating_type']] ) {
-
+		if ( $votes >= $rslrt ) {
 			wp_send_json( array( 'error' => sprintf( __( 'exceeded the limit of votes for the period - %d seconds', 'wp-recall' ), $timelimit ) ) );
 		}
 	}

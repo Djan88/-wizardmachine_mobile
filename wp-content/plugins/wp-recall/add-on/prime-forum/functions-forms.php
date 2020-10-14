@@ -100,20 +100,17 @@ function pfm_add_manager_fields_post_form( $content, $action ) {
 		array(
 			'type'	 => 'checkbox',
 			'slug'	 => 'close-topic',
-			'name'	 => 'pfm-data[close-topic]',
 			'values' => array(
 				1 => __( 'Close topic', 'wp-recall' )
 			)
 		)
 	);
 
-	$CF = new Rcl_Custom_Fields();
-
 	$content .= '<div class="post-form-manager">';
 
 	foreach ( $fields as $field ) {
 
-		$content .= $CF->get_input( $field );
+		$content .= Rcl_Field::setup( $field )->get_field_input();
 	}
 
 	$content .= '</div>';

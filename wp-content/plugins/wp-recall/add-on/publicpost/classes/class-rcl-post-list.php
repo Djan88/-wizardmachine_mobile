@@ -64,7 +64,8 @@ class Rcl_Postlist {
 				}
 
 				$rayt_p = rcl_get_rating_totals( array(
-					'object_id__in'	 => $p_list,
+					'object_id__in' => $p_list,
+					'number'		 => -1,
 					'rating_type'	 => $this->post_type
 					) );
 
@@ -82,7 +83,10 @@ class Rcl_Postlist {
 
 			wp_reset_postdata();
 		}else {
-			$posts_block = '<p>' . $this->type_name . ' ' . __( 'has not yet been published', 'wp-recall' ) . '</p>';
+			$posts_block = rcl_get_notice( array(
+				'type'	 => 'info',
+				'text'	 => __( 'Here has nothing been published yet', 'wp-recall' )
+				) );
 		}
 
 		return $posts_block;

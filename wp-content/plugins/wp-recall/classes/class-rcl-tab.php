@@ -177,6 +177,31 @@ class Rcl_Tab {
 			);
 		}
 
+		/* will open this code in the future version of plugin
+		 * if ( $this->onclick ) {
+
+		  $html_button = rcl_get_button( [
+		  'label'		 => $name,
+		  'icon'		 => $icon,
+		  'onclick'	 => $this->onclick
+		  ] );
+		  } else {
+
+		  $html_button = rcl_get_button( [
+		  'label'	 => $name,
+		  'url'	 => rcl_get_tab_permalink( $master_id, $this->id ),
+		  'class'	 => $this->get_class_button(),
+		  'icon'	 => $icon,
+		  'data'	 => [
+		  'post' => rcl_encode_post( array(
+		  'tab_id'	 => $this->id,
+		  'master_id'	 => $master_id
+		  ) )
+		  ]
+		  ] );
+		  }
+		 */
+
 		return sprintf( '<span class="rcl-tab-button" data-tab="%s" id="tab-button-%s">%s</span>', $this->id, $this->id, $html_button );
 	}
 

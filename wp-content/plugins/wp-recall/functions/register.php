@@ -163,9 +163,6 @@ function rcl_get_register_user( $errors ) {
 
 				if ( $field['type'] == 'checkbox' ) {
 
-					if ( isset( $field['field_select'] ) )
-						$field['values'] = rcl_edit_old_option_fields( $field['field_select'], $field['type'] );
-
 					$count_field = count( $field['values'] );
 
 					for ( $a = 0; $a < $count_field; $a ++ ) {
@@ -176,10 +173,7 @@ function rcl_get_register_user( $errors ) {
 							break;
 						}
 					}
-				} else if ( $field['type'] == 'file' ) {
-					if ( ! isset( $_FILES[$slug] ) )
-						$required = false;
-				}else {
+				} else {
 					if ( ! $_POST[$slug] )
 						$required = false;
 				}
@@ -234,7 +228,7 @@ function rcl_get_register_user( $errors ) {
 //принимаем данные с формы регистрации
 add_action( 'wp', 'rcl_get_register_user_activate', 10 );
 function rcl_get_register_user_activate() {
-	if ( isset( $_POST['submit-register'] ) ) { //если данные пришли с формы wp-recall
+	if ( isset( $_POST['register_wpnonce'] ) ) { //если данные пришли с формы wp-recall
 		if ( ! wp_verify_nonce( $_POST['register_wpnonce'], 'register-key-rcl' ) )
 			return false;
 		$email	 = $_POST['user_email'];
@@ -518,8 +512,6 @@ function rcl_custom_fields_regform( $content ) {
 	if ( ! $regFields )
 		return $content;
 
-	$CF = new Rcl_Custom_Fields();
-
 	$hiddens = array();
 	foreach ( $regFields as $field ) {
 
@@ -530,27 +522,35 @@ function rcl_custom_fields_regform( $content ) {
 			continue;
 		}
 
-		$class	 = (isset( $field['class'] )) ? $field['class'] : '';
-		$id		 = (isset( $field['id'] )) ? 'id=' . $field['id'] : '';
-		$attr	 = (isset( $field['attr'] )) ? '' . $field['attr'] : '';
+		$class			 = (isset( $field['class'] )) ? $field['class'] : '';
+		$id				 = (isset( $field['id'] )) ? 'id=' . $field['id'] : '';
+		$attr			 = (isset( $field['attr'] )) ? '' . $field['attr'] : '';
+		$field['value']	 = isset( $_POST[$field['slug']] ) ? $_POST[$field['slug']] : false;
+
+		unset( $field['class'] );
+		unset( $field['attr'] );
+		unset( $field['id'] );
+
+		$fieldObject = Rcl_Field::setup( $field );
 
 		$content .= '<div class="form-block-rcl ' . $class . '" ' . $id . ' ' . $attr . '>';
-		$star	 = ($field['required'] == 1) ? ' <span class="required">*</span> ' : '';
-		if ( $title	 = $CF->get_title( $field ) ) {
-			$content .= '<label>' . $title . $star;
+
+		if ( $fieldObject->title ) {
+			$content .= '<label>' . $fieldObject->get_title();
 			if ( $field['type'] )
 				$content .= '<span class="colon">:</span>';
 			$content .= '</label>';
 		}
 
-		$value = (isset( $_POST[$field['slug']] )) ? $_POST[$field['slug']] : false;
+		$content .= $fieldObject->get_field_input();
 
-		$content .= $CF->get_input( $field, $value );
 		$content .= '</div>';
 	}
 
 	foreach ( $hiddens as $field ) {
-		$content .= $CF->get_input( $field, (isset( $_POST[$field['slug']] )) ? $_POST[$field['slug']] : false  );
+		$field['value']	 = isset( $_POST[$field['slug']] ) ? $_POST[$field['slug']] : false;
+		$fieldObject	 = Rcl_Field::setup( $field );
+		$content .= $fieldObject->get_field_input();
 	}
 
 	return $content;
