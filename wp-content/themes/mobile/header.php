@@ -65,7 +65,7 @@
                 <i class="fas fa-moon"></i>
               </button>
               <button type="button" class="btn btn-lg btn-link btn_start hidden justify-content-end">
-                <i class="far fa-flag"></i>
+                <i class="fa fa-check-circle"></i>
               </button>
               <button type="button" class="btn btn-lg btn-link btn_start_elems hidden justify-content-end">
                 <i class="far fa-play-circle"></i>
